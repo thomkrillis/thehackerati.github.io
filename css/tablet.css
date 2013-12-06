@@ -1,0 +1,10 @@
+@media all and (max-width: 960px) {
+
+	/********** FOOTER **********/
+	/****************************/
+
+	.footer-wrapper {
+		width: 567px;
+	}
+
+}

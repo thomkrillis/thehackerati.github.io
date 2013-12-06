@@ -1,0 +1,26 @@
+@media all and (max-width: 760px) {
+
+	/********** FOOTER **********/
+	/****************************/
+
+	.footer-wrapper {
+		width: 295px;
+	}
+
+	.tweets.column,
+	.sitemap.column
+	 {
+		display: none;
+	}
+
+	#footer .column {
+		width: 100%;
+		text-align: center;
+	}
+
+	.social-icons {
+		margin: 0 auto;
+		position: relative;
+	}
+
+}
