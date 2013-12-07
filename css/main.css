@@ -122,6 +122,33 @@ li {
 	box-shadow: inset 0px -15px 25px 6px rgba(0, 0, 0, .3);
 }
 
+#navigation {
+	margin: 25px 10% 0 0;
+}
+
+#navigation li {
+	list-style: none;
+	float: left;
+	font: 22px 'inconsolatamedium';
+}
+
+li#careers,
+li#academy {
+	margin-left: 30px;
+}
+
+#navigation li a {
+	color: #fff;
+}
+
+#navigation li a:hover {
+	color: #FFA500;
+}
+
+#nav-expansion {
+	display: none;
+}
+
 /********** FOOTER **********/
 /****************************/
 

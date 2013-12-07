@@ -1,5 +1,12 @@
 @media all and (max-width: 760px) {
 
+	/********** HEADER **********/
+	/****************************/
+
+	#navigation {
+		display: none;
+	}
+
 	/********** FOOTER **********/
 	/****************************/
 
@@ -21,6 +28,35 @@
 	.social-icons {
 		margin: 0 auto;
 		position: relative;
+		width: 65%;
+	}
+
+	.madenyc {
+		margin-top: 15px;
+	}
+
+	.copyright {
+		margin: 0 auto;
+		width: 65%;
+		position: relative;
+	}
+
+	.contact-info {
+		width: 65%;
+		margin: 0 auto;
+		position: relative;
+	}
+
+	#nav-expansion {
+		display: block;
+		margin: 15px 10% 0 0;
+	}
+
+	#nav-expansion a {
+		line-height: 50px;
+		text-decoration: none;
+		font-size: 4em;
+		color: #ec6314;
 	}
 
 }
