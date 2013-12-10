@@ -33,23 +33,24 @@
 body {
 	margin: 0;
 	padding: 0;
+	font-size: 14px;
 }
 
 p {
-	/*font: .8em/1.2em 'inconsolatamedium';*/
-	font-family: 'inconsolatamedium';
+	font-family: 'Monaco';
 }
 
 h1 {
-	font: 5em/100% 'inconsolatamedium';
+	font: 70px 'Monaco';
 	text-shadow: rgba(0, 0, 0, 0.5) -1px 0, 
 	rgba(0, 0, 0, 0.3) 0 -1px, 
 	rgba(255, 255, 255, 0.5) 0 1px, 
 	rgba(0, 0, 0, 0.3) -1px -1px;
+	text-align: center;
 }
 
 h2 {
-	font: 3em/100% 'inconsolatamedium';
+	font: 3em/100% 'Monaco';
 	text-shadow: rgba(0, 0, 0, 0.5) -1px 0, 
 	rgba(0, 0, 0, 0.3) 0 -1px, 
 	rgba(255, 255, 255, 0.5) 0 1px, 
@@ -57,24 +58,23 @@ h2 {
 }
 
 h3 {
-	font: 1.2em/100% 'inconsolatamedium';
+	font: 1.2em/100% 'Monaco';
 }
 
 h4 {
-	font: 1.5em/100% 'inconsolatamedium';
+	font: 1.5em/100% 'Monaco';
 	font-size: 1.2em;
 	margin: 0 0 20px 0;
 }
 
 a {
-	/*font: .8em/1.2em 'inconsolatamedium';*/
-	font-family: 'inconsolatamedium';
-	color: #000;
+	font-family: 'Monaco';
+	color: #47413d;
 	text-decoration: none;
 }
 
 a:hover {
-	color: #FFA500;
+	color: #ec6314;
 }
 
 li {
@@ -95,6 +95,17 @@ li {
 
 .blue {
 	color: #0078d3;
+}
+
+.wrapper-splash {
+	width: 70%;
+	margin: 0 auto;
+	position: relative;
+	padding: 15px;
+	font-size: 18px;
+	background: rgba(0, 0, 0, .7);
+	color: white;
+	margin-top: 10%;
 }
 
 /********** HEADER **********/
@@ -129,7 +140,7 @@ li {
 #navigation li {
 	list-style: none;
 	float: left;
-	font: 22px 'inconsolatamedium';
+	font: 20px 'Monaco';
 }
 
 li#careers,
@@ -210,14 +221,12 @@ li#academy {
 }
 
 #footer li {
-	/*font-size: .9em;*/
-	font-family: 'inconsolatamedium';
+	font-family: 'Monaco';
 }
 
 #footer .sitemap.column ul li a {
 	color: #fff;
-	/*font-size: .9em;*/
-	font-family: 'inconsolatamedium';
+	font-family: 'Monaco';
 }
 
 #footer .sitemap.column ul li a:hover {
@@ -230,12 +239,12 @@ li#academy {
 }
 
 .contact.column p {
-	font-size: 14px;
+	font-size: 12px;
 	height: 4px;
 }
 
 .sitemap.column ul li {
-	font-size: 14px;
+	font-size: 12px;
 	margin-bottom: 3px;
 }
 
@@ -264,6 +273,16 @@ li#academy {
 }
 
 @media all and (min-width: 1200px) {
+
+	/********* GENERAL *********/
+	/****************************/
+
+	.wrapper-splash {
+		width: 830px;
+	}
+
+	/********** FOOTER **********/
+	/****************************/
 
 	.footer-wrapper {
 		width: 947px;
