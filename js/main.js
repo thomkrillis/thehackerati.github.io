@@ -1,7 +1,7 @@
 /* This function is for the mobile navigation expansion.
  * When you click on the expansion button, it toggles the mobile
  * navigation by alternately adding and removing an .active class.
- */
+
 function expandMobileNav() {
 	
 	var navExpansion = $("#nav-expansion");
@@ -44,10 +44,10 @@ $(window).resize(function() {
     	}, 500);
     }
 
-});
+});*/
 
 $(document).ready(function() {
  
-    expandMobileNav();
+    /*expandMobileNav();*/
  
 });

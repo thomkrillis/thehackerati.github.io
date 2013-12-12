@@ -12,29 +12,36 @@
 	}
 
 	.wrapper-splash {
-		width: 295px;
+		width: 281px;
 		padding: 12px;
 	}
 
 	/********** HEADER **********/
 	/****************************/
 
+	#header {
+		height: 150px;
+	}
+
 	#navigation {
 		display: none;
 	}
 
 	#logo {
-		width: 180px;
+		width: 250px;
+		position: absolute;
+		margin-left: -125px;
+		left: 50%;
 	}
 
 	#navigation-mobile {
-		display: none;
+		display: block;
 		width: 295px;
 		height: 50px;
 		position: absolute;
-		margin-left: -147px;
+		margin-left: -147.5px;
 		left: 50%;
-		margin-top: 80px;
+		margin-top: 100px;
 	}
 
 	#navigation-mobile li {
@@ -79,10 +86,21 @@
 
 	.supply-container {
 		height: 470px;
+		width: 295px;
 	}
 
 	.apprentice-container {
 		height: 550px;
+		width: 295px;
+	}
+
+	.benefits-container {
+		height: 500px;
+		width: 295px;
+	}
+
+	.leadership-container {
+		width: 295px;
 	}
 
 	/********** FOOTER **********/
