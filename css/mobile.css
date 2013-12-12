@@ -44,6 +44,11 @@
 		margin-top: 100px;
 	}
 
+	#navigation-mobile ul {
+		list-style: none;
+		padding-left: 0;
+	}
+
 	#navigation-mobile li {
 		list-style: none;
 		float: left;
@@ -58,11 +63,24 @@
 		color: #fff;
 	}
 
+	li#careers-mobile,
+	li#academy-mobile {
+		margin-left: 30px;
+	}
+
+	li#about-mobile {
+		margin-left: 23px;
+	}
+
 	/******** ABOUT PAGE *********/
 	/*****************************/
 
 	.about img {
 		display: none;
+	}
+
+	.about img.founder {
+		display: block;
 	}
 
 	.about .text {
@@ -73,7 +91,7 @@
 
 	.our-story {
 		background-color: #323232;
-		height: 690px;
+		height: 670px;
 		width: 100%;
 		margin-top: 0;
 		padding-top: 0;
@@ -86,21 +104,21 @@
 
 	.supply-container {
 		height: 470px;
-		width: 295px;
+		padding-top: 25px;
 	}
 
 	.apprentice-container {
-		height: 550px;
-		width: 295px;
+		height: 570px;
+		padding-top: 1px;
 	}
 
 	.benefits-container {
 		height: 500px;
-		width: 295px;
+		padding-top: 25px;
 	}
 
 	.leadership-container {
-		width: 295px;
+		padding-top: 1px;
 	}
 
 	/********** FOOTER **********/
