@@ -36,7 +36,7 @@ $(window).resize(function() {
 	var navExpansion = $("#nav-expansion");
 	var header = $("#header");
 
-	if (($(window).width() > 760) && $(navExpansion).hasClass("active")) {
+	if (($(window).width() > 744) && $(navExpansion).hasClass("active")) {
         $(navigation).hide();
 		$(navExpansion).removeClass("active");
 		$(header).animate({
