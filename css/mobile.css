@@ -20,7 +20,7 @@
 	/****************************/
 
 	#header {
-		height: 150px;
+		height: 170px;
 	}
 
 	#navigation {
@@ -83,18 +83,21 @@
 		display: block;
 	}
 
-	.about .text {
+	.about .text, 
+	.about .leadership-mobile-text {
 		float: none;
-		width: 295px;
+		width: 281px;
+		padding: 12px;
 		margin: 0 auto;
 	}
 
 	.our-story {
 		background-color: #323232;
-		height: 670px;
+		height: auto;
 		width: 100%;
 		margin-top: 0;
 		padding-top: 0;
+		padding-bottom: 30px;
 	}
 
 	.wrapper-splash {
@@ -103,22 +106,39 @@
 	}
 
 	.supply-container {
-		height: 470px;
-		padding-top: 25px;
+		height: auto;
+		padding-top: 30px;
+		padding-bottom: 1px;
 	}
 
 	.apprentice-container {
-		height: 570px;
-		padding-top: 1px;
+		height: auto;
+		padding-top: 10px;
+		padding-bottom: 1px;
 	}
 
 	.benefits-container {
-		height: 500px;
-		padding-top: 25px;
+		height: auto;
+		padding-top: 10px;
+		padding-bottom: 1px;
 	}
 
 	.leadership-container {
-		padding-top: 1px;
+		padding-top: 10px;
+		padding-bottom: 30px;
+	}
+
+	.photo-contact-info {
+		width: 100%;
+		margin-top: 20px;
+	}
+
+	.name-contact-info {
+	}
+
+	.name-contact-info ul {
+		list-style: none;
+		padding-left: 0;
 	}
 
 	/********** FOOTER **********/
