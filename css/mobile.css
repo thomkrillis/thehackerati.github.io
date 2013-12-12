@@ -27,6 +27,30 @@
 		width: 180px;
 	}
 
+	#navigation-mobile {
+		display: none;
+		width: 295px;
+		height: 50px;
+		position: absolute;
+		margin-left: -147px;
+		left: 50%;
+		margin-top: 80px;
+	}
+
+	#navigation-mobile li {
+		list-style: none;
+		float: left;
+		font: 16px 'monacoregular';
+	}
+
+	#navigation-mobile li a:hover {
+		color: #FFA500;
+	}
+
+	#navigation-mobile li a {
+		color: #fff;
+	}
+
 	/******** ABOUT PAGE *********/
 	/*****************************/
 
@@ -44,12 +68,13 @@
 		background-color: #323232;
 		height: 690px;
 		width: 100%;
-		margin-top: -150px;
-		padding-top: 100px;
+		margin-top: 0;
+		padding-top: 0;
 	}
 
 	.wrapper-splash {
 		background: none;
+		margin: 0 auto !important;
 	}
 
 	.supply-container {
