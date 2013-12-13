@@ -9,12 +9,21 @@
 		padding: 15px;
 	}
 
-
 	/********** HEADER **********/
 	/****************************/
 
 	#navigation-mobile {
 		display: none;
+	}
+
+	/******** ABOUT PAGE *********/
+	/*****************************/
+
+	.leadership-content,
+	.benefits-content,
+	.apprentice-content,
+	.supply-content {
+		width: 710px;
 	}
 
 	/********** FOOTER **********/

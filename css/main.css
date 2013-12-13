@@ -188,7 +188,7 @@ li#academy {
 .supply-container,
 .apprentice-container,
 .benefits-container {
-	height: 500px;
+	height: auto;
 	width: 100%;
 	background-image: url("../assets/img/bgwhite.png");
 }
@@ -196,6 +196,7 @@ li#academy {
 .leadership-container {
 	background-image: url("../assets/img/bgwhite.png");
 	width: 100%;
+	padding: 30px 0;
 }
 
 .about .image {
@@ -208,6 +209,35 @@ li#academy {
 
 .about .text {
 	width: 40%;
+}
+
+.leadership-content,
+.benefits-content,
+.apprentice-content,
+.supply-content {
+	width: 75%;
+	margin: 0 auto;
+}
+
+.founder-container {
+	width: 47%;
+	display: inline-block;
+	vertical-align: top;
+	margin-top: 20px;
+}
+
+.geoff {
+	margin-right: 2%;
+}
+
+.benefits-container .image,
+.benefits-container .text,
+.apprentice-container .image,
+.apprentice-container .text,
+.supply-container .image,
+.supply-container .text {
+	display: inline-block;
+	vertical-align: middle;
 }
 
 /********** FOOTER **********/
@@ -337,18 +367,28 @@ li#academy {
 @media all and (min-width: 1200px) {
 
 	/********* GENERAL *********/
-	/****************************/
+	/***************************/
 
 	.wrapper-splash {
 		width: 830px;
 		padding: 20px;
 	}
 
+	/******** ABOUT PAGE *********/
+	/*****************************/
+
+	.leadership-content,
+	.benefits-content,
+	.apprentice-content,
+	.supply-content {
+		width: 888px;
+	}
+
 	/********** FOOTER **********/
 	/****************************/
 
 	.footer-wrapper {
-		width: 947px;
+		width: 888px;
 	}
 
 }
