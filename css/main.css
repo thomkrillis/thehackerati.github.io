@@ -92,7 +92,7 @@ a {
 }
 
 a:hover {
-	color: #ec6314;
+	color: #000;
 }
 
 li {
@@ -320,6 +320,18 @@ li#academy {
 	border-bottom: 1px dotted #fff;
 	padding-bottom: 10px;
 	margin-bottom: 20px;
+}
+
+/**** FONTAWESOME LIBRARY ****/
+/*****************************/
+
+.fa-li {
+	position: static;
+	width: 1.5em;
+}
+
+.fa-ul {
+	margin-left: 0;
 }
 
 @media all and (min-width: 1200px) {
