@@ -1,0 +1,72 @@
+/*
+
+white = #f4f4f4
+orange = #ec6314
+
+*/
+
+
+
+.mobile {
+    display: none;
+}
+
+body {
+    width: 100%;
+    font: Inconsolata;
+}
+
+h1 {
+
+}
+
+h2 {
+
+}
+
+.section1 {
+    background-image: url('../assets/img/bgblack.png');
+    color: #f4f4f4;
+}
+
+.section1 h2 {
+    font: 2em/100% Inconsolata;
+    text-align: center;
+}
+
+.testimonial-img img{
+    min-width: 100%;
+    min-height: 100%;
+
+    border: 1px solid #ec6314;
+}
+
+.section2 {
+    background-image: url('../assets/img/bgwhite.png');
+}
+
+.section3 {
+    background-image: url('../assets/img/bgblue.png');
+}
+
+.section4 {
+    background-image: url('../assets/img/bgwhite.png');
+}
+
+.section5 {
+    background-image: url('../assets/img/bgorange.png');
+}
+
+.section6 {
+    background-image: url('../assets/img/bgblack.png');
+}
+
+.section7 {
+    background-image: url('../assets/img/bgblack.png');
+}
+
+img {
+    padding: 5%;
+    padding-top: 1%;
+    max-width: 90%;
+}
