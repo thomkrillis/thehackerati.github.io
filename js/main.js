@@ -1,10 +1,11 @@
 /* This function is for the mobile navigation expansion.
  * When you click on the expansion button, it toggles the mobile
  * navigation by alternately adding and removing an .active class.
+ */
 
 function expandMobileNav() {
 	
-	var navExpansion = $("#nav-expansion");
+	var navExpansion = $(".nav-tray");
 	var navigation = $("#navigation-mobile");
 	var header = $("#header");
 
@@ -14,15 +15,15 @@ function expandMobileNav() {
 
 		if ($(this).hasClass('active')) {
 			$(navigation).show();
-			$(header).animate({
-        		height: '+=50px'
+			$(navExpansion).animate({
+        		left: '+=100%'
     		}, 500);
 		}
 
 		if (!$(this).hasClass('active')) {
 			$(navigation).hide();
 			$(header).animate({
-        		height: '-=50px'
+        		height: '-=100%'
     		}, 500);
 		}
 
@@ -44,10 +45,10 @@ $(window).resize(function() {
     	}, 500);
     }
 
-});*/
+});
 
 $(document).ready(function() {
  
-    /*expandMobileNav();*/
+    expandMobileNav();
  
 });
