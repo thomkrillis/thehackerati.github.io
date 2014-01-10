@@ -170,6 +170,33 @@ h2 {
     color: #171717;
 }
 
+.section2 .content-container {
+    height: auto;
+    margin-top: 3em;
+}
+
+.section2 h2 {
+    font: 6em/100% Inconsolata;
+    text-align: center;
+    margin-bottom: .5em;
+}
+
+.section2 h3 {
+    font: 2em/100% Inconsolata;
+    margin-bottom: .5em;
+}
+
+.section2 p {
+    font: 1.2em/120% Monaco;
+}
+
+.section2 img {
+}
+
+.guild-copy {
+    margin-bottom: 1em;
+}
+
 .section3 {
     background-image: url('../assets/img/bgblue.png');
 }
