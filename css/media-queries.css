@@ -54,7 +54,7 @@ and (max-device-width : 568px) {
 
 .tray-button p {
     display: inline;
-    font: 2em/100% Inconsolata;
+    font: 2em/100% Inconsolata !important;
     color: #f4f4f4;
 }
 
@@ -97,12 +97,21 @@ p {
 }
 
 .content-container {
+    max-width: none;
     padding: 10px;
 }
 
 .section {
     height: auto !important;
     padding-bottom: 25px;
+}
+
+.header-section {
+    visibility: hidden;
+}
+
+.section1 {
+  background-image: url('../assets/img/bgblack.png');
 }
 
 .section1 > .content-container {
@@ -127,7 +136,7 @@ p {
 }
 
 .section1 p {
-    font: 2em/100% Inconsolata;
+    font: 1em/100% Inconsolata;
 }
 
 .testimonial-img img {
