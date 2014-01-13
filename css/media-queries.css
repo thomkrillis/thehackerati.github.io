@@ -38,9 +38,37 @@ and (max-device-width : 568px) {
     width: 85%;
     height: 100%;
     z-index: -999;
+    background-color: #1F1F1F;
+}
+
+.nav-container nav {
+    font: 1.4em/100% Inconsolata;
+    text-align: center;
+    margin-top: 1em;
+}
+
+.nav-container nav a:link {
+    text-decoration: none;
+    color: #f4f4f4;
+}
+
+.nav-container nav a:visited {
+    text-decoration: none;
+    color: #f4f4f4;
+}
+
+.nav-container nav a:active {
+    text-decoration: none;
+    color: #f4f4f4;
+}
+
+.nav-container nav a:hover {
+    text-decoration: none;
+    color: #f4f4f4;
 }
 
 .apply-now-button {
+
 }
 
 .apply-now-button p {
