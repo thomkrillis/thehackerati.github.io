@@ -181,8 +181,25 @@ p {
 
 .section1 p {
     font: .8em/100% Monaco;
+    padding: 10px;
+}
+
+.section2 h2 {
+    font: 2em/100% Inconsolata;
+    text-align: center;
+    margin-bottom: .5em;
+}
+
+.section2 h3 {
+    font: 1.5em/100% Inconsolata;
+    margin-bottom: .5em;
+}
+
+.section2 p {
+    font: .8em/100% Monaco;
     padding: 5px;
 }
+
 
 .testimonial-img img {
     min-width: 90%;
@@ -249,7 +266,12 @@ img {
 }
 
 footer {
+    height: auto;
     color: #f4f4f4;
+}
+
+.footer-column1 {
+    border: none;
 }
 
 .footer-share {
