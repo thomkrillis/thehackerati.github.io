@@ -1,6 +1,5 @@
 $(document).ready(function() {
-    var windowHeight = $(document).height()
+    var windowHeight = $('window').height()
 
-    $('.section').css('height',windowHeight+'px')
-
+    $('#section1').css('height',windowHeight+'px')
 });

@@ -3,32 +3,95 @@ layout: b_page
 title: Careers | The Hackerati
 ---
 
-<div class="section section1">
-    <nav class="span10 mobile mobile-nav">
-        <a href="#">ABOUT</a>
-        <a href="#">CAREERS</a>
-        <a href="#">ACADEMY</a>
-    </nav>
+{% include mobile-nav.html %}
 
-    <div class="span10 mobile">
-        <img src="../assets/img/logo.png" />
-    </div>
+{% include desktop-header.html %}
+
+
+<div class="b-page-image desktop">
+    <img src="../assets/img/cooperstairs.jpg" />
+</div>
+
+<div id="all-content">
+
+<div class="section section1" id="top-section">
+    <div class="content-container section1-content-container">
+ 
+        <div class="mobile mobile-apply"><a href="http://hackeriam.theresumator.com/apply">Apply Now!</a></div>
+
+        <div class="mobile span10 tray-button">
+            <p>&#8801;</p>
+        </div>
+
+        <div class="span10 mobile">
+            <img src="../assets/img/logo.png" />
+        </div>
     
-    <h2>careers</h2>
+        <h2>careers</h2>
 
-    <div class="span4 testimonial-img">
-        <img src="../assets/img/mike1.png" />
-    </div>
+        <div class="span5 testimonial-img">
+            <img src="../assets/img/mike1.png" />
+        </div>
 
-    <div class="span5 testimonial-copy">
-        <h3>Work at the Hackerati</h3>
-    </div>
+        <div class="span5 testimonial-copy">
+            <h3>Work at the Hackerati</h3>
+        
+            <p>
+            Love to solve hard problems? Skip meals 
+            to keep tinkering? Dream in code? Learn 
+            new technologies for fun? Excel at ping pong?
+            </p>
+            </br>
+            <p>
+            Join us and work with clients ranging from 
+            bootstrapped startups to billion-dollar, 
+            global corporations, building solutions 
+            that will be touched by millions of people. 
+            Acquire new skills and experience with the 
+            latest technologies. Get an opportunity 
+            to build your own product ideas into businesses 
+            through The Hackerati Labs, while also 
+            getting a chance to share your knowledge with 
+            others by teaching at The Hackerati Academy. 
+            </p>
+        </div>
+
+        <a class="desktop apply-button" href="http://hackeriam.theresumator.com/apply"><div class="desktop apply-now-button">
+            <p>Apply Now!</p>
+        </div></a>
     
+        <div class="clearfix"></div>
+    
+    </div>
     <div class="clearfix"></div>
 </div>
 
 <div class="section section2">
+    <div class="content-container">
+    
+        <div class="span5">
+            <img src="../assets/img/guildshield.png" />
+        </div>
+
+        <div class="span5 guild-copy">
+            <h3>The Guild Model</h3>
+
+            <p>
+                At The Hackerati, we believe that the best 
+                way to learn new skills is through guided, 
+                hands-on experience. So we&#39;ve taken a page 
+                from the playbook of medieval guilds&#8211;in which 
+                master artisans passed on the secrets of 
+                their trade to those who were less experienced&#8211;to 
+                create an environment of continuous teaching 
+                and learning, tailored to producing master engineers. 
+            </p>
+        </div>
+
+        <div class="clearfix"></div>
+    </div>
 </div>
 
-<div class="section section3">
+{% include footer.html %}
+
 </div>
