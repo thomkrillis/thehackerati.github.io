@@ -4,26 +4,6 @@ orange = #ec6314
 blue = #0078d3
 */
 
-/**TABLETS**/
-
-@media only screen 
-and (min-device-width : 768px) 
-and (max-device-width : 1024px)  {
-
-.desktop {
-    display: none;
-}
-
-.mobile {
-    display: inline-block;
-}
-    
-body {
-    padding: 5px;
-}
-
-}
-
 
 /**PHONES**/
 

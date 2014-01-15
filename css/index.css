@@ -1,9 +1,3 @@
-/*
-white = #f4f4f4
-orange = #ec6314
-blue = #0078d3
-*/
-
 .mobile {
     display: none;
 }
@@ -13,74 +7,15 @@ body {
     line-height: 16px;
 }
 
-h1 {
-
-}
-
-h2 {
-
-}
-
 #all-content {
   position: relative;
   width: auto;
   height: auto;
 }
 
-.b-page-image {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    z-index: -998;
-}
-
-.b-page-image img {
-    min-width: 100%;
-    min-height: 100%;
-    -webkit-filter: blur(4px) brightness(0.8) contrast(1.3) grayscale(0.6) saturate(1.3);
-}
-
-.header-section {
-    background-image: url('../assets/img/bgblack.png');
-    height: auto;
-}
-
 .header-section > .content-container {
     margin: 0 auto;
     text-align: center;
-}
-
-.content-container nav {
-    display: inline-block;
-    font: 2em/100% Inconsolata;
-    color: #f4f4f4;
-    margin-top: .7em;
-}
-
-.nav-links {
-    padding-top: .6em;
-    text-align: right;
-}
-
-.content-container a:link {
-    text-decoration: none;
-    color: #f4f4f4;
-}
-
-.content-container a:active {
-    text-decoration: none;
-    color: #f4f4f4;
-}
-
-.content-container a:visited {
-    text-decoration: none;
-    color: #f4f4f4;
-}
-
-.content-container a:hover {
-    text-decoration: none;
-    color: #f4f4f4;
 }
 
 .logo {
@@ -106,88 +41,8 @@ h2 {
     color: #f4f4f4;
 }
 
-.section1-content-container {
-    margin-top: 40px;
-    margin-bottom: 40px;
-    padding: 20px;
-    background-color: rgba(225, 225, 225, .2);
-    -webkit-border-radius: 8px;
-    -moz-border-radius: 8px;
-    -o-border-radius: 8px;
-    border-radius: 8px;
-}
-
-.section1 h2 {
-    font: 6em/100% Inconsolata;
-    text-align: center;
-    margin-bottom: .5em;
-}
-
-.section1 h3 {
-    font: 2em/100% Inconsolata;
-    margin-bottom: .5em;
-}
-
-.section1 p {
-    font: 1.2em/120% Monaco;
-}
-
-.section1 .apply-button {
-    text-align: right;
-}
-
-.testimonial-img img {
-    min-width: 90%;
-}
-
 .testimonial-copy {
     margin-bottom: 1em;
-}
-
-.apply-now-button {
-}
-
-.apply-now-button p {
-    -moz-box-shadow:inset 0px 1px 0px 0px #ffffff;
-    -webkit-box-shadow:inset 0px 1px 0px 0px #ffffff;
-    box-shadow:inset 0px 1px 0px 0px #ffffff;
-    background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #f9f9f9), color-stop(1, #e9e9e9) );
-    background:-moz-linear-gradient( center top, #f9f9f9 5%, #e9e9e9 100% );
-    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#f9f9f9', endColorstr='#e9e9e9');
-    background-color:#f9f9f9;
-    -webkit-border-radius:5px;
-    -moz-border-radius:5px;
-    -o-border-radius:5px;
-    border-radius:5px;
-    text-indent:0;
-    border:1px solid #dcdcdc;
-    display:inline-block;
-    color:#666666;
-    font-family:Arial;
-    font-size:15px;
-    font-weight:bold;
-    font-style:italic;
-    height:auto;
-    width: auto;
-    padding: 10px;
-    text-decoration:none;
-    text-align:center;
-    text-shadow:1px 1px 0px #ffffff;
-}
-
-.apply-now-button a:link {
-    color: #666 !important;
-    text-decoration:none;
-    text-align:center;
-    text-shadow:1px 1px 0px #ffffff; 
-}
-
-.apply-now-button a:visited {
-    color: #666 !important;
-    text-decoration:none;
-    text-align:center;
-    text-shadow:1px 1px 0px #ffffff; 
-
 }
 
 .section2 {
@@ -195,24 +50,10 @@ h2 {
     color: #171717;
 }
 
-.section2 .content-container {
-    padding-top: 10%;
-    padding-bottom: 15%;
-}
-
 .section2 h2 {
-    font: 6em/100% Inconsolata;
+    font: 6em/100% Monaco;
     text-align: center;
     margin-bottom: .5em;
-}
-
-.section2 h3 {
-    font: 2em/100% Inconsolata;
-    margin-bottom: .5em;
-}
-
-.section2 p {
-    font: 1.2em/120% Monaco;
 }
 
 .section2 img {
@@ -248,7 +89,7 @@ footer {
 
 h4 {
     color: #f4f4f4;
-    font: 1.6em/100% Inconsolata;
+    font: 1.6em/100% Monaco;
     margin-bottom: 15px;
 }
 
@@ -272,24 +113,12 @@ h4 {
     max-height: 100%;
 }
 
-.footer-contact {
-    color: #f4f4f4;
-    text-align: center;
-    margin-bottom: 10%;
-}
-
 .footer-contact a:link {
     color: #ec6314;
 }
 
 .footer-contact a:visited {
     color: #ec6314;
-}
-
-.footer-column2 {
-    padding-top: 5%;
-    text-align: center;
-    width: 49%;
 }
 
 .sitemap a:link {

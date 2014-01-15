@@ -2,22 +2,28 @@
 and (min-device-width : 320px) 
 and (max-device-width : 568px) {
 
-.mobile {
-    display: inline-block;
-}
-
-.desktop {
-    display: none;
-}
-
-.span1,.span2,.span3,.span4,.span5,.span6,.span7,.span8,.span9 {
-    width: 100%;
-} 
-
-
-
 	/********* GENERAL *********/
 	/****************************/
+
+	.mobile {
+    	display: inline-block;
+	}
+
+	.desktop {
+    	display: none;
+	}
+
+	.span1,
+	.span2,
+	.span3,
+	.span4,
+	.span5,
+	.span6,
+	.span7,
+	.span8,
+	.span9 {
+    	width: 100%;
+	} 
 
 	/********** HEADER **********/
 	/****************************/
