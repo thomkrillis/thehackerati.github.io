@@ -1,4 +1,9 @@
 $(document).ready(function() {
+    $(document.body).animate({
+                'scrollTop':   $('#section1-anchor-link').offset().top
+            }, 1000, 'easeInOutQuint', function(){});
+
+
     var currentSection = 1;
     var nextSection = currentSection + 1;
     var previousSection = currentSection - 1;
@@ -25,11 +30,23 @@ $(document).ready(function() {
         // Page up
         if(ctrlDown && event.keyCode === 66) {
             console.log("page up");
+  
+            $(document.body).animate({
+                'scrollTop':   $('#section' + (currentSection - 1) + '-anchor-link').offset().top
+            }, 1000, 'easeInOutQuint', function(){});
+            
+            currentSection = currentSection - 1;
         }
     
         // Page down
         if(ctrlDown && event.keyCode === 70) {
             console.log("page down");
+        
+            $(document.body).animate({
+                'scrollTop':   $('#section' + (currentSection + 1) + '-anchor-link').offset().top
+            }, 1000, 'easeInOutQuint', function(){});
+         
+           currentSection = currentSection + 1;
         }    
     })
 })
