@@ -1,7 +1,7 @@
 $(document).ready(function() {
     $(document.body).animate({
-                'scrollTop':   $('#section1-anchor-link').offset().top
-            }, 1000, 'easeInOutQuint', function(){});
+        'scrollTop':   $('#section1-anchor-link').offset().top
+    }, 1000, 'easeInOutQuint', function(){});
 
 
     var currentSection = 1;
