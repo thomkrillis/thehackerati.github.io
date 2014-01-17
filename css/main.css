@@ -192,6 +192,28 @@ li {
     background-image: url('../assets/img/bgwhite.png');
     color: #f4f4f4;
 }
+    
+/* PERKS */
+
+.perks-content-container {
+    text-align: center;
+}
+
+.perks-cell {
+    width: 300px;
+    height: 300px;
+    margin: 50px;
+    background-color: black;
+    float: left;
+}
+
+.perks-cell1 {
+    -webkit-transition: width .5s ease;
+}
+
+.perks-cell3 {
+    -webkit-transition: width .5s ease;
+}
 
 /********** HEADER **********/
 /****************************/
