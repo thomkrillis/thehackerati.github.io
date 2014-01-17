@@ -187,6 +187,11 @@ li {
     font: 1.4em/120% Monaco;
 }
 
+.section3 {
+    background-image: url('../assets/img/bgwhite.png');
+    color: #f4f4f4;
+}
+
 /********** HEADER **********/
 /****************************/
 
@@ -387,6 +392,94 @@ li#academy {
 .section1 .apply-button {
     text-align: center;
 }
+
+.social-interstitial {
+    height: auto;
+    padding-top: 0;
+    padding-bottom: 1em;
+    background-color: #ec6315;
+}
+
+.social-media-sprite {
+	margin-left: 48%;
+	width: 44px;
+	height: 44px;
+}
+
+.google-sprite {
+	background: url('../assets/img/social-media-icons.png') no-repeat; background-position:-68.487px -15.414px;
+	/*position:absolute;
+	margin-left: -65px;
+	left:50%;*/
+}
+.google-sprite:hover {
+	background: url('../assets/img/social-media-icons.png') no-repeat; background-position:-163.957px -16.405px;
+}
+
+.facebook-sprite {
+	background: url('../assets/img/social-media-icons.png') no-repeat; background-position:-20.584px -63.511px;
+	/*position:absolute;
+	margin-left: -65px;
+	left:50%;*/
+}
+.facebook-sprite:hover {
+	background: url('../assets/img/social-media-icons.png') no-repeat; background-position:-116.055px -64.503px;
+}
+
+.linkedin-sprite {
+	background: url('../assets/img/social-media-icons.png') no-repeat; background-position:-68.486px -63.511px;
+	/*position:absolute;
+	margin-left: -65px;
+	left:50%;*/
+}
+.linkedin-sprite:hover {
+	background: url('../assets/img/social-media-icons.png') no-repeat; background-position:-163.957px -64.503px;
+}
+
+.github-sprite {
+	background: url('../assets/img/social-media-icons.png') no-repeat; background-position:-20.584px -111.501px;
+	/*position:absolute;
+	margin-left: -65px;
+	left:50%;*/
+}
+.github-sprite:hover {
+	background: url('../assets/img/social-media-icons.png') no-repeat; background-position:-116.055px -112.494px;
+}
+
+.twitter-sprite {
+	background: url('../assets/img/social-media-icons.png') no-repeat; background-position:-20.585px -15.741px;
+	/*position:absolute;
+	margin-left: -65px;
+	left:50%;*/
+}
+.twitter-sprite:hover {
+	background: url('../assets/img/social-media-icons.png') no-repeat; background-position:-116.055px -16.733px;
+}
+
+.meetup-sprite {
+	background: url('../assets/img/social-media-icons.png') no-repeat; background-position:-68.487px -111.68px;
+	/*position:absolute;
+	margin-left: -65px;
+	left:50%;*/
+}
+.meetup-sprite:hover {
+	background: url('../assets/img/social-media-icons.png') no-repeat; background-position:-163.957px -112.671px;
+}
+
+.interstitial-content-container {
+    height: 4.5em;
+    margin: 0 auto;
+}
+
+.i-fb,.i-twit,.i-in,.i-octocat,.i-gplus,.i-meetup {
+    height: 100%;
+    text-align: center;
+}
+
+.i-social-icon {
+    width: 16%;
+}
+
 
 /********** FOOTER **********/
 /****************************/
