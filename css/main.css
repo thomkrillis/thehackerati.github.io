@@ -169,7 +169,8 @@ li {
 }
 
 .section1 p {
-    font: 1.1em/120% 'monacoregular';
+    text-align: center; 
+    font: 1.3em/100% 'monacoregular';
 }
 
 .section2 .content-container {
