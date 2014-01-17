@@ -1,40 +1,7 @@
-$(document).ready(function(){
-    $(".perks-cell1").mouseover(function(){
-        $(this).css('width','700px')
-        $('.perks-cell3').css('width','0px');
-    }).mouseout(function(){
-        $(this).css('width','300')
-        $('.perks-cell3').css('width','300px');
-    })
+function revealList(obj) {
+    obj.style.opacity = 0;
+}
 
-    $(".perks-cell2").mouseover(function(){
-        $(this).css('width','700px')
-    }).mouseout(function(){
-        $(this).css('width','300')
-    })
-    
-    $(".perks-cell3").mouseover(function(){
-        $(this).css('width','700px')
-    }).mouseout(function(){
-        $(this).css('width','300')
-    })
-
-    $(".perks-cell4").mouseover(function(){
-        $(this).css('width','700px')
-    }).mouseout(function(){
-        $(this).css('width','300')
-    })
-    
-    $(".perks-cell5").mouseover(function(){
-        $(this).css('width','700px')
-    }).mouseout(function(){
-        $(this).css('width','300')
-    })
-
-    $(".perks-cell6").mouseover(function(){
-        $(this).css('width','700px')
-    }).mouseout(function(){
-        $(this).css('width','300')
-    })
-
-})
+function hideList(obj) {
+    obj.style.opacity = 1;
+}
