@@ -44,25 +44,6 @@ body {
     color: #f4f4f4;
 }
 
-.testimonial-copy {
-    margin-bottom: 1em;
-}
-
-.section2 {
-    background-image: url('../assets/img/bgwhite.png');
-}
-/*
-.interstitial-content-container {
-    height: 3em;
-    margin: 0 auto;
-}
-
-.i-fb,.i-twit,.i-in,.i-octocat,.i-gplus,.i-meetup {
-    height: 100%;
-    text-align: center;
-}
-*/
-
 .i-social-icon img {
     max-height: 100%;   
 }
@@ -72,19 +53,9 @@ body {
     padding-bottom: 15%;
 }
 
-.section3 h2 {
-    font: 6em/100% Inconsolata;
-    text-align: center;
-    margin-bottom: .5em;
-}
-
 .section3 h3 {
-    font: 2em/100% Inconsolata;
+    font: 2em/100% monacoregular;
     margin-bottom: .5em;
-}
-
-.section3 p {
-    font: 1.2em/120% Monaco;
 }
 
 .section3 img {
