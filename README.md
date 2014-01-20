@@ -1,7 +1,7 @@
 thehackerati.github.io
 ======================
 
-Port www.thehackerati.com from Drupal/Pantheon to Jekyll
+Port of the www.thehackerati.com from Drupal/Pantheon to Jekyll
 
 Development
 -----------
