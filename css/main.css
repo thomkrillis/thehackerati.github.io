@@ -73,6 +73,7 @@ h2 {
 	border-bottom: 1px dotted #808080;
 	padding-bottom: 0.3em;
 	margin-bottom: 0.3em;
+	text-align: center;
 }
 
 h3 {
@@ -197,6 +198,10 @@ li {
     padding-bottom: 7em;
 }
 
+.section2 {
+    background-image: url('../assets/img/bgwhite.png');
+}
+
 .section2 h3 {
     font: 3em/100% 'monacoregular';
     margin-bottom: .5em;
@@ -212,49 +217,6 @@ li {
 .section3 {
     background-image: url('../assets/img/bgwhite.png');
     color: #212121;
-}
-
-
-.perks-content-container {
-    padding-top: 0em !important;
-    text-align: center;
-}
-
-.perks-cell {
-    position: relative;
-    width: 300px;
-    height: 300px;
-    margin: 50px;
-    border-radius: 8px;
-    background-color: black;
-    float: left;
-}
-
-.perks-copy {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    border-radius: 8px;
-}
-
-.perks-icon {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: blue;
-    border-radius: 8px;
-    -webkit-transition: opacity .2s linear;
-    transition: opacity .2s linear;
-}
-
-.perks-cell1 {
-}
-
-.perks-cell3 {
 }
 
 /********** HEADER **********/
@@ -416,10 +378,11 @@ li#academy {
 }
 
 .apply-now-button p {
-    -webkit-box-shadow: 0px 0px 29px -2px rgba(0,0,0,0.76);
-	-moz-box-shadow: 0px 0px 29px -2px rgba(0,0,0,0.76);
-	box-shadow: 0px 0px 29px -2px rgba(0,0,0,0.76);
-    background-color:#ec6314;
+   border-top: 1px solid #f7c6a1;
+   -webkit-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   -moz-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   box-shadow: rgba(0,0,0,1) 0 1px 0;
+    background: url('../assets/img/bgorange.png');
     -webkit-border-radius:5px;
     -moz-border-radius:5px;
     -o-border-radius:5px;
@@ -437,14 +400,8 @@ li#academy {
 }
 
 .apply-now-button p:hover {
-	border:1px solid #ec6314;
-	padding: 14px 59px;
-	background-color: #ffaf46; background-image: -webkit-gradient(linear, left top, left bottom, from(#ec6314), to(#D35416));
-	background-image: -webkit-linear-gradient(top, #ec6314, #D35416);
-	background-image: -moz-linear-gradient(top, #ec6314, #D35416);
-	background-image: -ms-linear-gradient(top, #ec6314, #D35416);
-	background-image: -o-linear-gradient(top, #ec6314, #D35416);
-	background-image: linear-gradient(to bottom, #ec6314, #D35416);filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#ec6314, endColorstr=#D35416);
+	padding: 15px 60px;
+    background: url('../assets/img/bgdarkorange.png');
 }
 
 .testimonial-copy {
@@ -549,6 +506,20 @@ li#academy {
 .i-social-icon {
     width: 16%;
 }
+
+.guild-copy {
+    margin: 1em 0;
+    font: 1.5em/120% 'monacoregular';
+}
+
+.guild-shield {
+	margin: 1em 3em;
+}
+
+.section3 .content-container {
+    padding-top: 10%;
+    padding-bottom: 12%;
+}
     
 /* PERKS */
 
@@ -634,10 +605,6 @@ li#academy {
 
 .perks-cell6 .perks-icon p {
 	padding: 0;
-}
-
-.guild-shield {
-	margin: 0 3em;
 }
 
 /********** FOOTER **********/

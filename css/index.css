@@ -48,21 +48,12 @@ body {
     max-height: 100%;   
 }
 
-.section3 .content-container {
-    padding-top: 10%;
-    padding-bottom: 15%;
-}
-
 .section3 h3 {
     font: 2em/100% monacoregular;
     margin-bottom: .5em;
 }
 
 .section3 img {
-}
-
-.guild-copy {
-    margin-bottom: 1em;
 }
 
 .section4 {
