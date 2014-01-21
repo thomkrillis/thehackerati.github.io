@@ -547,8 +547,8 @@ nav a {
     -webkit-transition: opacity .2s linear;
     transition: opacity .2s linear;
     -webkit-box-shadow: 0px 0px 6px 0px rgba(49, 121, 167, 0.51);
-	-moz-box-shadow:    0px 0px 6px 0px rgba(49, 121, 167, 0.51);
-	box-shadow:         0px 0px 6px 0px rgba(49, 121, 167, 0.51);
+	  -moz-box-shadow:    0px 0px 6px 0px rgba(49, 121, 167, 0.51);
+	  box-shadow:         0px 0px 6px 0px rgba(49, 121, 167, 0.51);
 }
 
 .perks-cell1 .perks-icon img {
@@ -598,6 +598,51 @@ nav a {
 .perks-cell6 .perks-icon p {
 	padding: 0;
 }
+
+.perks-copy ul {
+    text-align: left;
+}
+
+#perks-copy1 {
+    opacity: 0;
+    -webkit-transition: opacity .2s linear;
+    transition: opacity .2s linear;
+}
+
+#perks-copy2 {
+    opacity: 0;
+    -webkit-transition: opacity .2s linear;
+    transition: opacity .2s linear;
+}
+
+#perks-copy3 {
+    opacity: 0;
+    -webkit-transition: opacity .2s linear;
+    transition: opacity .2s linear;
+}
+
+#perks-copy4 {
+    opacity: 0;
+    -webkit-transition: opacity .2s linear;
+    transition: opacity .2s linear;
+}
+
+#perks-copy5 {
+    opacity: 0;
+    -webkit-transition: opacity .2s linear;
+    transition: opacity .2s linear;
+}
+
+#perks-copy6 {
+    opacity: 0;
+    -webkit-transition: opacity .2s linear;
+    transition: opacity .2s linear;
+}
+
+
+
+
+
 
 /********** FOOTER **********/
 /****************************/
