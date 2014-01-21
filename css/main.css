@@ -162,22 +162,22 @@ li {
 }
 
 .section1 h2 {
-    font: 5em/100% 'monacoregular';
+    font: 4.5em/100% 'monacoregular';
     text-align: center;
     margin-bottom: .5em;
 }
 
 .section1 h3 {
     font: 1.8em/100% 'monacoregular';
-    margin: .5em 0;
+    margin: 0 0 .5em 0;
     padding: 0 0 .5em 0;
     color: #F98026;
     border-bottom: 1px dotted #EAA07A;
-    text-align: center;
+    text-align: left;
 }
 
 .section1 p {
-    text-align: center; 
+    text-align: left; 
     font: 1.3em/100% 'monacoregular';
 }
 
