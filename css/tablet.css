@@ -72,6 +72,24 @@
 		width: 36.5em;
 	}
 
+	.section2 .content-container {
+		width: 51.5em;
+	}
+
+	.section2 p {
+		font: 2.0em/120% 'monacoregular';
+	}
+
+	.perks-copy li {
+		font: 1.4em/150% 'monacoregular';
+	}
+
+	.perks-cell {
+		width: 300px;
+		height: 300px;
+		margin: 30px;
+	}
+
 	/********** FOOTER **********/
 	/****************************/
 
@@ -127,6 +145,28 @@
 
 	.section1 h2 {
 		font: 3.5em/100% 'monacoregular';
+	}
+
+	.section2 .content-container {
+		width: 23.0em;
+	}
+
+	.perks-cell {
+		width: 280px;
+		height: 280px;
+		margin: 20px;
+	}
+
+	.perks-copy li {
+		font: 1.2em/150% 'monacoregular';
+	}
+
+	.section2 p {
+		font: 1.7em/120% 'monacoregular';
+	}
+
+	h2 {
+		font: 3.5em 'monacoregular';
 	}
 
 }
