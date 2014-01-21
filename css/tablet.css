@@ -1,6 +1,7 @@
-@media only screen 
-and (min-device-width : 768px) 
-and (max-device-width : 1024px) {
+/********* BIG TABLET/SMALL BROWSER WINDOW **********/
+/****************************************************/
+
+@media only screen and (min-width : 768px) and (max-width : 1024px) {
 
 
 	/********* GENERAL **********/
@@ -18,10 +19,6 @@ and (max-device-width : 1024px) {
 		width: 650px;
 		font-size: 16px;
 		padding: 15px;
-	}
-    
-	body {
-    	padding: 5px;
 	}
 
 	/********** HEADER **********/
@@ -41,6 +38,40 @@ and (max-device-width : 1024px) {
 		width: 710px;
 	}
 
+	/****** CAREERS PAGE *******/
+	/***************************/
+
+	.testimonial-copy-mobile {
+		width: 100%;
+		display: block;
+	}
+
+	.testimonial-img {
+		display: block;
+		width: 100%;
+		margin: 2em 0;
+	}
+
+	.section1 p {
+		font: 1.3em/100% 'monacoregular';
+		text-align: center;
+	}
+
+	.section1 h3 {
+		font: 1.8em/100% 'monacoregular';
+		text-align: center;
+		width: 12.4em;
+		margin: 0 0 .5em 3.8em;
+	}
+
+	.apply-now-button p {
+	    font: 1.5em/120% 'monacoregular' !important;
+	}
+
+	.section1-content-container {
+		width: 36.5em;
+	}
+
 	/********** FOOTER **********/
 	/****************************/
 
@@ -50,13 +81,52 @@ and (max-device-width : 1024px) {
 
 }
 
-/* SMALL TABLET */
+/********* SMALL TABLET/BIG SMARTPHONE **********/
+/************************************************/
 
-@media only screen 
-and (min-device-width : 768px) 
-and (max-device-width : 1024px)
-and (-webkit-min-device-pixel-ratio: 1) {
+@media only screen and (min-width : 480px) and (max-width : 767px) {
 
-    /* CSS GOES HERE */
+	/********* GENERAL **********/
+	/****************************/
+
+	.mobile {
+    	display: inline-block;
+	}
+
+	.desktop {
+    	display: none;
+	}
+
+    /****** CAREERS PAGE *******/
+	/***************************/
+
+	.section1-content-container {
+		width: 22.5em;
+	}
+
+	.testimonial-copy-mobile {
+		width: 100%;
+		display: block;
+	}
+
+	.testimonial-img {
+		display: block;
+		width: 100%;
+		margin: 2em 0;
+	}
+
+	.section1 p {
+		text-align: center;
+	}
+
+	.section1 h3 {
+		text-align: center;
+		width: 12.5em;
+		margin: 0 0 .5em 1.2em;
+	}
+
+	.section1 h2 {
+		font: 3.5em/100% 'monacoregular';
+	}
 
 }
