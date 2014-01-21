@@ -150,7 +150,7 @@ li {
 }
 
 .section1-content-container {
-    width: 85%;
+    width: 87%;
     margin: 0 auto;
     position: relative;
     padding: 2%;
@@ -168,7 +168,7 @@ li {
 }
 
 .section1 h3 {
-    font: 1.8em/100% 'monacoregular';
+    font: 1.5em/100% 'monacoregular';
     margin: 0 0 .5em 0;
     padding: 0 0 .5em 0;
     color: #F98026;
@@ -178,7 +178,7 @@ li {
 
 .section1 p {
     text-align: left; 
-    font: 1.3em/100% 'monacoregular';
+    font: 1.0em/100% 'monacoregular';
 }
 
 .section2 .content-container {
@@ -242,7 +242,6 @@ li {
 }
 
 .content-container nav {
-    display: inline-block;
     font: 2em/100% 'monacoregular';
     color: #f4f4f4;
     margin-top: 0.75em;
@@ -379,7 +378,7 @@ nav a {
     border-radius:5px;
     display:inline-block;
     color:#000;
-    font: 1.5em/120% 'monacoregular' !important;
+    font: 1.2em/120% 'monacoregular' !important;
     font-weight: bold;
     height:auto;
     width: auto;
@@ -398,10 +397,15 @@ nav a {
     margin-bottom: 1em;
 	display: inline-block;
 	vertical-align: top;
+	width: 44.5%;
+}
+
+.testimonial-copy-mobile {
+    display: none;
 }
 
 .testimonial-img {
-	width: 50%;
+	width: 52%;
 	display: inline-block;
 	margin-right: 2.5%;
 	vertical-align: top;
@@ -646,11 +650,6 @@ nav a {
     transition: opacity .2s linear;
 }
 
-
-
-
-
-
 /********** FOOTER **********/
 /****************************/
 
@@ -881,6 +880,14 @@ footer {
 		width: 77.2em;
 	}
 
+	.section1 p {
+	    font: 1.3em/100% 'monacoregular';
+	}
+
+	.section1 h3 {
+	    font: 1.8em/100% 'monacoregular';
+	}
+
 	/******** ABOUT PAGE *********/
 	/*****************************/
 
@@ -893,6 +900,14 @@ footer {
 
 	/****** CAREERS PAGE *******/
 	/***************************/
+
+	.testimonial-copy {
+		width: 45%;
+	}
+
+	.apply-now-button p {
+	    font: 1.5em/120% 'monacoregular' !important;
+	}
 
 	/********** FOOTER **********/
 	/****************************/

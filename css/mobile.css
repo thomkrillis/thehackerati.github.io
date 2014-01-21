@@ -1,6 +1,4 @@
-@media only screen 
-and (min-device-width : 320px) 
-and (max-device-width : 568px) {
+@media only screen and (max-width : 479px) {
 
 	/********* GENERAL *********/
 	/****************************/
@@ -153,6 +151,31 @@ and (max-device-width : 568px) {
 	.founder-container {
 		display: block;
 		width: 100%;
+	}
+
+	/******** CAREERS PAGE *******/
+	/*****************************/
+
+	.b-page-image.careers {
+		background-image: none;
+		background: #424345;
+	}
+
+	.section1-content-container {
+		background: none;
+	}
+
+	.testimonial-img {
+		display: none;
+	}
+
+	.testimonial-copy-mobile {
+		width: 100%;
+		display: block;
+	}
+
+	.section1 h2 {
+		font: 3.0em/100% 'monacoregular';
 	}
 
 	/********** FOOTER **********/
