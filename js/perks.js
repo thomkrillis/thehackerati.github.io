@@ -12,7 +12,7 @@ $(document).ready(function() {
         $('#perks-copy2').css('opacity','1');
     }).mouseout(function() {
         $(this).css('opacity','1');
-        $('#perks-copy2').css('opacity','1');
+        $('#perks-copy2').css('opacity','0');
     });
 
     $('.perks-icon3').mouseover(function(){
@@ -20,7 +20,7 @@ $(document).ready(function() {
         $('#perks-copy3').css('opacity','1');
     }).mouseout(function() {
         $(this).css('opacity','1');
-        $('#perks-copy3').css('opacity','1');
+        $('#perks-copy3').css('opacity','0');
     });
 
     $('.perks-icon4').mouseover(function(){
@@ -28,7 +28,7 @@ $(document).ready(function() {
         $('#perks-copy4').css('opacity','1');
     }).mouseout(function() {
         $(this).css('opacity','1');
-        $('#perks-copy4').css('opacity','1');
+        $('#perks-copy4').css('opacity','0');
     });
 
     $('.perks-icon5').mouseover(function(){
@@ -36,7 +36,7 @@ $(document).ready(function() {
         $('#perks-copy5').css('opacity','1');
     }).mouseout(function() {
         $(this).css('opacity','1');
-        $('#perks-copy5').css('opacity','1');
+        $('#perks-copy5').css('opacity','0');
     });
   
     $('.perks-icon6').mouseover(function(){
@@ -44,6 +44,6 @@ $(document).ready(function() {
         $('#perks-copy6').css('opacity','1');
     }).mouseout(function() {
         $(this).css('opacity','1');
-        $('#perks-copy6').css('opacity','1');
+        $('#perks-copy6').css('opacity','0');
     });
 })
