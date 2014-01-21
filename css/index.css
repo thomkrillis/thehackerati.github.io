@@ -76,70 +76,16 @@ footer {
     background-image: url('../assets/img/bgblack.png');
 }
 
-h4 {
-    color: #f4f4f4;
-    font: 1.6em/100% Monaco;
-    margin-bottom: 15px;
-}
-
 .footer-section {
     padding-top: 5%;
     padding-bottom: 5%;    
-}
-
-.footer-column1 {
-    border-right: 1px dotted #f4f4f4;
-    padding-top: 5%;
-}
-
-.footer-share {
-    height: 4em;
-    text-align: center;
-    margin-bottom: 10%;
 }
 
 .footer-share img {
     max-height: 100%;
 }
 
-.footer-contact a:link {
-    color: #ec6314;
-}
-
-.footer-contact a:visited {
-    color: #ec6314;
-}
-
-.sitemap a:link {
-    color: #ec6314;
-    text-align: left;
-}
-
-.sitemap ul a:link {
-    color: #f4f4f4;
-    list-style: none;
-}
-
-.sitemap a:visited {
-    color: #ec6314;
-}
-
-.sitemap ul a:visited {
-    color: #f4f4f4;
-}
-
 .sitemap li {
     color: #f4f4f4;
     list-style: none;
-}
-
-.footer-copyright {
-    color: #f4f4f4;
-    text-align: center;
-    margin-bottom: 10%;
-}
-
-.footer-madeny {
-    text-align: center;
-    margin-bottom: 10%;
 }

@@ -81,9 +81,9 @@ h3 {
 }
 
 h4 {
-	font: 1.5em/100% 'monacoregular';
-	font-size: 1.2em;
+	font: 2.0em/100% 'monacoregular';
 	margin: 0 0 20px 0;
+	color: #f4f4f4;
 }
 
 a {
@@ -149,18 +149,6 @@ li {
     -webkit-filter: blur(4px) brightness(0.8) contrast(1.3) grayscale(0.6) saturate(1.3);
 }
 
-/*.wrapper-splash {
-	width: 70%;
-	margin: 0 auto;
-	position: relative;
-	padding: 2%;
-	font-size: 18px;
-	background: rgba(0, 0, 0, .7);
-	color: white;
-    margin-top: 50px !important;
-    margin-bottom: 50px !important;
-}*/
-
 .section1-content-container {
     width: 85%;
     margin: 0 auto;
@@ -210,7 +198,6 @@ li {
 
 .section2 p {
     font: 2.0em/120% 'monacoregular';
-    /*padding: 1.2em 0;*/
     color: #f6f6f6;
 }
 
@@ -275,7 +262,6 @@ li#academy {
 .content-container a:link {
     text-decoration: none;
     color: #f4f4f4;
-    margin-left: 1.5em;
 }
 
 .content-container a:active {
@@ -306,6 +292,10 @@ li#academy {
     height: auto;
     -webkit-box-shadow: inset 0px -15px 25px 6px rgba(0, 0, 0, .3);
     box-shadow: inset 0px -15px 25px 6px rgba(0, 0, 0, .3);
+}
+
+nav a {
+	margin-left: 1.5em;
 }
 
 /******** ABOUT PAGE *********/
@@ -389,30 +379,32 @@ li#academy {
     border-radius:5px;
     display:inline-block;
     color:#000;
-    font: 1.7em/120% 'monacoregular' !important;
+    font: 1.5em/120% 'monacoregular' !important;
     font-weight: bold;
     height:auto;
     width: auto;
     text-decoration:none;
     text-align:center;
     text-shadow: rgba(0, 0, 0, 0.5) -1px 0, rgba(0, 0, 0, 0.3) 0 -1px, rgba(255, 255, 255, 0.5) 0 1px, rgba(0, 0, 0, 0.3) -1px -1px;
-    padding: 15px 60px;
+    padding: 10px 30px;
 }
 
 .apply-now-button p:hover {
-	padding: 15px 60px;
+	padding: 10px 30px;
     background: url('../assets/img/bgdarkorange.png');
 }
 
 .testimonial-copy {
     margin-bottom: 1em;
 	display: inline-block;
+	vertical-align: top;
 }
 
 .testimonial-img {
 	width: 50%;
 	display: inline-block;
 	margin-right: 2.5%;
+	vertical-align: top;
 }
 
 .testimonial-img img {
@@ -437,6 +429,7 @@ li#academy {
 	margin-left: 48%;
 	width: 44px;
 	height: 44px;
+	margin-top: 1em;
 }
 
 .google-sprite {
@@ -509,7 +502,7 @@ li#academy {
 
 .guild-copy {
     margin: 1em 0;
-    font: 1.5em/120% 'monacoregular';
+    font: 1.4em/120% 'monacoregular';
 }
 
 .guild-shield {
@@ -532,7 +525,6 @@ li#academy {
     width: 300px;
     height: 300px;
     margin: 30px;
-    /*background-color: black;*/
     float: left;
 }
 
@@ -649,10 +641,6 @@ footer {
 	width: 41%;
 }
 
-.column.sitemap {
-	width: 15%;
-}
-
 .column.contact {
 	width: 27%;
 }
@@ -661,7 +649,6 @@ footer {
 .sitemap.column {
 	margin-left: 4%;
 	padding-left: 4%;
-	border-left: 1px dotted #fff;
 }
 
 .footer-wrapper {
@@ -706,11 +693,7 @@ footer {
 }
 
 .column ul {
-	margin-top: 5px;
-}
-
-.column ul li {
-	margin-left: -31px;
+	margin: 5px 0px 15px 15px;
 }
 
 .social-icons {
@@ -732,6 +715,84 @@ footer {
 .footer-contact {
     color: #f4f4f4;
     margin-bottom: 10%;
+}
+
+.footer-contact a:link {
+    color: #F79A46;
+}
+
+.footer-contact a:visited {
+    color: #F79A46;
+}
+
+.footer-contact a:hover {
+    color: #f6f6f6;
+}
+
+.sitemap a:link {
+    color: #F79A46;
+    text-align: left;
+    font: 1.5em/100% 'monacoregular';
+}
+
+.sitemap a:visited {
+    color: #F79A46;
+}
+
+.sitemap a:hover {
+    color: #f6f6f6;
+}
+
+.sitemap ul a:link {
+    color: #8CBAE0;
+    list-style: none;
+    font: 1.3em/100% 'monacoregular';
+}
+
+.sitemap ul a:visited {
+    color: #8CBAE0;
+}
+
+.sitemap ul a:hover {
+    color: #f6f6f6;
+}
+
+.sitemap-category {
+	display: inline-block;
+	vertical-align: top;
+	width: 12em;
+}
+
+.footer-share {
+    height: 4em;
+    margin-bottom: 2em;
+}
+
+.footer-column2 {
+	width: 35%;
+	border-right: 1px dotted #f4f4f4;
+}
+
+.footer-contact {
+	font: 1.3em/100% 'monacoregular';
+    line-height: 1.3em;
+}
+
+.footer-copyright {
+    color: #f4f4f4;
+    text-align: center;
+    margin-bottom: 10%;
+    font: 1.3em/100% 'monacoregular';
+    line-height: 1.3em;
+}
+
+.footer-madeny {
+    text-align: center;
+    margin-bottom: 10%;
+}
+
+.footer-column1 {
+    border-right: 1px dotted #f4f4f4;
 }
 
 /**** FONTAWESOME LIBRARY ****/
@@ -786,6 +847,10 @@ footer {
 
 	.footer-wrapper {
 		width: 888px;
+	}
+
+	footer .content-container {
+		width: 77.2em;
 	}
 
 }
