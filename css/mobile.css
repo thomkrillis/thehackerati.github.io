@@ -178,6 +178,28 @@
 		font: 3.0em/100% 'monacoregular';
 	}
 
+	.section2 .content-container {
+		width: 23.0em;
+	}
+
+	.perks-cell {
+		width: 280px;
+		height: 280px;
+		margin: 20px;
+	}
+
+	.perks-copy li {
+		font: 1.2em/150% 'monacoregular';
+	}
+
+	.section2 p {
+		font: 1.7em/120% 'monacoregular';
+	}
+
+	h2 {
+		font: 3.5em 'monacoregular';
+	}
+
 	/********** FOOTER **********/
 	/****************************/
 
