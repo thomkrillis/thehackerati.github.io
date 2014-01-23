@@ -169,4 +169,18 @@
 		font: 3.5em 'monacoregular';
 	}
 
+	/********** FOOTER **********/
+	/****************************/
+  .footer-column1 {
+    width: 50%;
+  }
+
+  .footer-column2 {
+    width: 40%;
+    border-right: 0; 
+  }
+
+  .footer-column3 {
+    display: none;
+  }
 }
