@@ -12,3 +12,4 @@ Development
     jekyll serve
 
 Browse the local version of your site here: http://localhost:4000
+Browse the test vesion of the site at http://50.116.61.35/
