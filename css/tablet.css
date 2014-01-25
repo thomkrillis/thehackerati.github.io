@@ -97,6 +97,18 @@
 		width: 709px;
 	}
 
+	.mobile-copyright-madeny {
+		display: block;
+	}
+
+	.footer-copyright {
+	    margin-left: 0;
+	}
+
+	.footer-madeny {
+	    margin-left: 0;
+	}
+
 }
 
 /********* SMALL TABLET/BIG SMARTPHONE **********/

@@ -207,6 +207,14 @@ li {
     color: #212121;
 }
 
+.content-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+}
+
 /********** HEADER **********/
 /****************************/
 
@@ -1717,6 +1725,7 @@ footer {
 
 .footer-column2 {
 	border-right: 1px dotted #f4f4f4;
+	border-left: 1px dotted #f4f4f4;
 }
 
 .footer-contact {
@@ -1729,10 +1738,20 @@ footer {
     margin-bottom: 10%;
     font: 1.3em/100% 'monacoregular';
     line-height: 1.3em;
+    margin-left: 6%;
 }
 
 .footer-madeny {
     margin-bottom: 10%;
+    margin-left: 6%;
+}
+
+footer .content-container {
+	width: 80%;
+}
+
+.footer-column3 {
+	padding: 0 0.5%;
 }
 
 .footer-column1 {
@@ -1831,6 +1850,20 @@ footer {
 
 	footer .content-container {
 		width: 77.2em;
+	}
+
+	.footer-column1 {
+	    border-right: 1px dotted #f4f4f4;
+	    width: 30% !important;
+	}
+
+	.footer-column2 {
+		width: 35%;
+		border-right: 1px dotted #f4f4f4;
+	}
+
+	.footer-column3 {
+		padding: 0;
 	}
 
 }
