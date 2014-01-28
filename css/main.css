@@ -307,6 +307,7 @@ nav a {
     overflow: hidden;
     -webkit-box-shadow: inset 0px -8px 29px 10px rgba(0, 0, 0, .8);
     box-shadow: inset 0px -8px 29px 0px rgba(0, 0, 0, .8);
+    padding-bottom: 15%;
 }
 .welcome-content {
     text-align: center;
@@ -343,17 +344,17 @@ nav a {
     display: inline;
     font-size: 5em;
     letter-spacing: -6px;
-    font-family:"Inconsolata";
+    font-family:"monacoregular";
     color: #f4f4f4;
 }
 #terminal-block-subtitle {
-    font: .8em/100%"Inconsolata";
+    font: .8em/100%"monacoregular";
     color: #f4f4f4;
     text-align: center;
     margin-top: 1%;
 }
 .related-words-terminal {
-    font: 0.9em/100% 'Inconsolata',sans-serif;
+    font: 0.9em/100% 'monacoregular',sans-serif;
     color: rgb(236, 99, 20);
     margin-top: 3%;
     width: 98%;
@@ -370,7 +371,7 @@ li.definitions {
     list-style:decimal;
 }
 .definitions {
-    font: 1.2em/130% "Inconsolata";
+    font: 1.2em/130% "monacoregular";
     letter-spacing: -1px;
     margin-bottom: 1%;
 }
@@ -390,14 +391,14 @@ li.definitions {
     margin-top:15%;
     clear: both;
     height: auto;
-    font-family:"Inconsolata";
+    font-family:"monacoregular";
     text-align:left;
     position:relative;
 }
 #type-command-one {
     width: auto;
     height: auto;
-    font: 1em/100%"Inconsolata";
+    font: 1em/100%"monacoregular";
     color: #f4f4f4;
     float: left;
     margin-top: 3%;
@@ -411,7 +412,7 @@ li.definitions {
 #type-command-two {
     width: auto;
     height: auto;
-    font: 1em/100%"Inconsolata";
+    font: 1em/100%"monacoregular";
     color: #f4f4f4;
     float: left;
     margin-top: 3%;
@@ -424,7 +425,7 @@ li.definitions {
 #type-command-three {
     width: auto;
     height: auto;
-    font: 1em/100%"Inconsolata";
+    font: 1em/100%"monacoregular";
     color: #f4f4f4;
     float: left;
     margin-top: 3%;
@@ -452,8 +453,8 @@ li.definitions {
     box-shadow: inset 0px -8px 29px 0px rgba(0, 0, 0, .8);
 }
 .meet-content {
-    padding-top: 5%;
-    padding-bottom: 5%;
+    padding-top: 10%;
+    padding-bottom: 12%;
     width: 80%;
     margin: 0 auto;
 }
@@ -464,7 +465,7 @@ li.definitions {
 #who-title h1 {
     margin-bottom: 0.5%;
     font-size: 2.5em;
-    font: 3em/100% "Inconsolata";
+    font: 3em/100% "monacoregular";
     display: inline-block;
     letter-spacing: -2px;
     padding-bottom: 0px;
@@ -474,7 +475,7 @@ li.definitions {
 #who-title h2 {
     margin-bottom: 0px;
     font-size: 1.5em;
-    font: 1.5em/100% "Inconsolata";
+    font: 1.5em/100% "monacoregular";
     letter-spacing: -1px;
     padding-bottom: 0px;
     border-bottom: 0px;
@@ -488,14 +489,14 @@ li.definitions {
     margin-left:1%;
 }
 #wrapper-columns {
-    padding-top: 5%
+    padding-top: 2%;
     display: table;
     clear: both;
 }
 #wrapper-columns h2 {
     margin-bottom: 3%;
     font-size: 1.5em;
-    font: 1.5em/100% "Inconsolata";
+    font: 1.5em/100% "monacoregular";
     letter-spacing: -1px;
     padding-bottom: 0px;
     border-bottom: 0px;
@@ -591,8 +592,8 @@ li.definitions {
     overflow: hidden;
 }
 .what-content {
-    padding-top: 5%;
-    padding-bottom: 5%;
+    padding-top: 9%;
+    padding-bottom: 12%;
     width: 80%;
     margin: 0 auto;
 }
@@ -789,7 +790,7 @@ a.spin-active {
     letter-spacing:-1px;
 }
 .card-copy h5 {
-    font: 1.3em/100%"Inconsolata";
+    font: 1.3em/100%"monacoregular";
     letter-spacing:-1px;
     color: #333;
     margin-top:15%;
@@ -896,7 +897,8 @@ a.spin-active {
 
 /* BLOCK 4  | HOW WE WORK */
 .how-container {
-    height: 630px;
+    padding-top: 5%;
+    padding-bottom: 12%;
     background:#2d2d2d url('../assets/img/bgwhite.png') repeat;
     overflow: hidden;
     -webkit-box-shadow: inset 0px -8px 29px 10px rgba(0, 0, 0, .8);
@@ -911,7 +913,7 @@ a.spin-active {
 }
 #how h1 {
     margin-bottom: 0.5%;
-    font: 3em/100% "Inconsolata";
+    font: 3em/100% "monacoregular";
     display: inline-block;
     letter-spacing: -2px;
     text-align: left;
@@ -930,7 +932,7 @@ body > svg {
     margin: 0 auto;
     position: absolute;
     display: block;
-    top: -60px;
+    top: -90px;
     right: 40px;
 }
 #outerTurn {
@@ -1074,6 +1076,10 @@ body > svg {
     background-repeat: repeat;
     overflow: hidden;
 }
+.clients-content {
+    padding-top: 12%;
+    padding-bottom: 12%;
+}
 #clients-wrapper {
     position: relative;
     width: 1000px;
@@ -1087,12 +1093,14 @@ body > svg {
     background:#061f45;
     padding: 10px;
     text-align: center;
-    font-size: .95em;
 }
 #clients-title h1 {
     letter-spacing:-4px;
     margin-bottom:0;
+    padding-bottom:0;
+    border-bottom:0;
     color:white;
+    font: 3em/100% 'monacoregular';
 }
 .toggle-details {
     width: 320px;
@@ -1191,7 +1199,7 @@ body > svg {
     margin: 0 auto;
 }
 #views_slideshow_cycle_teaser_section_testslideshow-block .field-content {
-    font-family:"Inconsolata";
+    font-family:"monacoregular";
     font-size:1.1em;
     padding-right:10px;
 }
@@ -1204,7 +1212,7 @@ body > svg {
 }
 .views-field-field-slideinfo {
     font-size:.8em;
-    font-family:"Inconsolata";
+    font-family:"monacoregular";
     color:black;
     text-decoration:none;
     text-align:center;
@@ -1215,7 +1223,7 @@ body > svg {
     font-size:1.5em;
     padding-right:10px;
     color:#535353;
-    font-family:"Inconsolata";
+    font-family:"monacoregular";
     text-shadow:#000 0 -1px 0;
     font-weight:bold;
     text-decoration:none;
@@ -1346,6 +1354,7 @@ p.bjqs-caption {
 /* BLOCK 6  | LETS TALK */
 .contact-container {
     background: url('../assets/img/contactbg.jpg') no-repeat center center;
+    height: 800px;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -1353,13 +1362,18 @@ p.bjqs-caption {
     background-repeat: no-repeat;
     overflow: hidden;
 }
+.contact-bg-overlay {
+    background-color:rgba(6,31,69,.8);
+    width: 100%;
+    height: 100%;
+}
 #contact-content {
     position: relative;
     margin: 0px auto 0 auto;
     padding-top: 5%;
     padding-bottom: 5%;
     width: 80%;
-    background-color:rgba(6,31,69,.8);
+    height: 100%;
     -webkit-transform: translateX(0deg) translateY(0deg) translateZ(deg0);
     -webkit-transition: height 0.25s linear;
     -moz-transition: height .25s linear;
@@ -1368,14 +1382,16 @@ p.bjqs-caption {
     transition: height .25s linear;
 }
 #contact-content h1 {
-    padding-left: 12%;
-    padding-right: 40px;
     letter-spacing:-4px;
+    margin-bottom:0;
+    padding-bottom:0;
+    border-bottom:0;
+    color:white;
+    float: left;
+    font: 3em/100% 'monacoregular';
 }
 #contact-copy {
     padding-left: 5%;
-    margin-top: 5%;
-    display: inline-block;
     border-left: 2px solid white;
 }
 #contact-copy a:link {
@@ -1429,9 +1445,9 @@ p.bjqs-caption {
 }
 #google-maps-wrapper {
     position: absolute;
-    left: 50%;
-    top: 26%;
-    width: 76%;
+    left: 42%;
+    top: 18%;
+    width: 90%;
     height: 65%;
     margin-left: -240%;
     background-color: #333;
