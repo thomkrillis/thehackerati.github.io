@@ -1155,6 +1155,7 @@ body > svg {
 .test-resources-row{
     float:left;
     width:100%;
+    padding-top:2%;
     clear:both;
 }
 .test-resources .icon-2x {
@@ -1167,7 +1168,7 @@ body > svg {
 }
 .number {
     font-size:2.2em;
-    padding:0 1% 0 0%;
+    padding:2% 2% 0 0%;
     margin-right: 2%;
     margin-left: 2%;
     float:left;
@@ -1183,8 +1184,9 @@ body > svg {
 }
 .test-client {
     font-size: 1.8em;
-    letter-spacing: -2px;
+    letter-spacing: -1px;
     margin-top:2%;
+    line-height: 100%;
     color:#cd670c;
 }
 .test-details {
