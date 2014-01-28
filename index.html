@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: main-page
 title: The Hackerati
 ---
 
@@ -7,14 +7,19 @@ title: The Hackerati
 <!--* SPLASH PAGE SECTION 1 *-->  
 <div class="welcome-container">
   <div class="welcome-content">
-    <div class="logo left">  
-      <a href="/"><img title="The Hackerati" src="../assets/img/logo.png" alt=""/></a>
+    <div id="section1-anchor-link">
+      <div class="content-container">
+          <div class="span4 logo">
+            <a href="/"><img title="The Hackerati" src="../assets/img/logo.png" alt=""/></a>
+          </div>
+          <nav class="span5 desktop nav-links">
+            <a href="/about">About</a>
+            <a href="/careers">Careers</a>
+            <a href="/academy">Academy</a>
+          </nav>
+        <div class="clearfix"></div>
+      </div>
     </div>
-    <nav class="desktop nav-links right">
-        <a href="/about">About</a>
-        <a href="/careers">Careers</a>
-        <a href="/academy">Academy</a>
-    </nav>
     <div id="terminal-window">
       <div class="span5 left" id="typewriter">
         <p id="terminal-block-title">hack·er·a·ti</p> 
@@ -41,9 +46,8 @@ title: The Hackerati
     </div>
   </div>
 </div>
-<div 
 
-<!--* MEET THE HACKERATI | SECTION 2*-->
+<!--* MEET THE HACKERATI | SECTION 2 *-->
 <div id="section2-anchor-link" class="meet-container">
   <div class="meet-content" id="who">
     <div class="left span4" id="who-title">
@@ -127,7 +131,7 @@ title: The Hackerati
       <div id="page-one-stage" class="spunToHome" data-rot="0">
         <div class="card" id="card-one">
           <div id="card-one-inner-wrapper">
-            <div class="card-image" id="card-image-one"><img src="sites/all/themes/hackerati/images/card3.png" /></div>
+            <div class="card-image" id="card-image-one"><img src="../assets/img/card3.png" /></div>
             <div class="card-copy" id="card-copy-one">
               <h5>Building A New Product?</h5>
               <p>Need help building a great idea into a new product? The Hackerati’s extensive 
@@ -145,7 +149,7 @@ title: The Hackerati
         </div>
         <div class="card" id="card-two">
           <div id="card-two-inner-wrapper">
-            <div class="card-image" id="card-image-two"><img src="sites/all/themes/hackerati/images/card2.png" /></div>
+            <div class="card-image" id="card-image-two"><img src="../assets/img/card2.png" /></div>
               <div class="card-copy">
                 <h5>Need To Move Faster?</h5>
                 <p>Have a great engineering team but need to expand it to accomplish your objectives?
@@ -165,7 +169,7 @@ title: The Hackerati
           </div>
         <div class="card" id="card-three">
           <div id="card-three-inner-wrapper">
-            <div class="card-image" id="card-image-four"><img src="sites/all/themes/hackerati/images/card4-01.png" /></div>
+            <div class="card-image" id="card-image-four"><img src="../assets/img/card4-01.png" /></div>
               <div class="card-copy">
                 <h5>Want The Latest Tech?</h5>
                 <p>Need a mobile or social app, big data solution, analytics, natural language 
@@ -180,7 +184,7 @@ title: The Hackerati
         </div>
         <div class="card" id="card-four">
           <div id="card-four-inner-wrapper">
-            <div class="card-image" id="card-image-five"><img src="sites/all/themes/hackerati/images/card5a.png" /></div>
+            <div class="card-image" id="card-image-five"><img src="../assets/img/card5a.png" /></div>
               <div class="card-copy">
                 <h5>Going Long?</h5>
                 <p>Whether opening new markets, testing new business models, or developing new 
@@ -319,45 +323,282 @@ title: The Hackerati
   </div>
 </div>
 
+<!-- LETS TALK | SECTION 5 *-->
+<div id="section5-anchor-link" class="clients-container">
+  <div class="clients-content" id="clients">
+    <div class="clearfix"></div>
+    <div id="clients-wrapper">
+      <div id="clients-title">
+        <h1>Clients</h1> 
+      </div>
+      <div class="toggle-details"><a href="#">TOGGLE DETAILS</a></div>
+      <div id="clients-card">
+            <div class="content">
+              <div class="view view-testslideshow view-id-testslideshow view-display-id-block view-dom-id-dee287a12eef57d4daaf7af6ca4083d9">
+                <div class="view-content">
+                  <div class="skin-default">
+                    <div id="views_slideshow_cycle_main_testslideshow-block" class="views_slideshow_cycle_main views_slideshow_main">
+                      <div id="views_slideshow_cycle_teaser_section_testslideshow-block" class="views-slideshow-cycle-main-frame views_slideshow_cycle_teaser_section">
+                        <div id="views_slideshow_cycle_div_testslideshow-block_0" class="views-slideshow-cycle-main-frame-row views_slideshow_cycle_slide views_slideshow_slide views-row-1 views-row-odd">
+                          <div class="views-slideshow-cycle-main-frame-row-item views-row views-row-0 views-row-first views-row-odd">
+                            <div class="views-field views-field-field-body"> 
+                              <div class="field-content">
+                                <div class="test-pic">
+                                  <div id="test-slider">
+                                    <ul class="bjqs"><li><img src="../assets/img/testhadoop.png" title="Hadoop" /></li>
+                                      <li><img src="../assets/img/test1pic2.png" title="iOS Apps" /></li>
+                                      <li><img src="../assets/img/test1pic4.png" title="Android Apps" /></li>
+                                      <li><img src="../assets/img/test1pic3.png" title="Scala" /></li>
+                                      <li><img src="../assets/img/testjava.png" title="Java" /></li>
+                                      <li class="cover"><img src="../assets/img/test1pic.png" title="Play" /></li>
+                                      <li><img src="../assets/img/testrails.png" title="Ruby on Rails" /></li>
+                                      <li><img src="../assets/img/testgroovy.png" title="Groovy on Grails" /></li>
+                                      <li><img src="../assets/img/test1pic5.png" title="PHP" /></li>
+                                      <li><img src="../assets/img/test1pic6.png" title="RESTful APIs" /></li>
+                                    </ul>
+                                  </div>
+                                </div>
+                                <div class="test-info">
+                                  <div class="test-client">Top 50 Web Site *</div>
+                                  <div class="test-process">
+                                    <hr />
+                                    ➞ Blended Team
+                                    <hr />
+                                  </div>
+                                  <div class="test-resources">
+                                    <h3 class="center">Resources</h3>
+                                    <div class="test-resources-row  break">
+                                      <i class="icon-cogs icon-2x"></i>
+                                      <span class="number blue">14</span>
+                                      <span class="number-text">Engineers</span>
+                                    </div>
+                                    <div class="test-resources-row">
+                                      <i class="icon-book icon-2x"></i>
+                                      <span class="number blue">5</span>
+                                      <span class="number-text">Interns</span>
+                                    </div>
+                                    <div class="test-resources-row">
+                                      <i class="icon-male icon-2x"></i> 
+                                      <span class="number blue">1</span>
+                                      <span class="number-text">Program Manager</span>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="test-details">
+                                  <br />
+                                  ➞ <span class="deets">
+                                    Designed, developed, and maintain mobile APIs to support millions of active users
+                                  </span>
+                                  ➞ <span class="deets">
+                                    Performed R&amp;D for next generation architecture using Scala/Play
+                                  </span>
+                                  ➞ <span class="deets">
+                                    Contributing to Android, iOS, and mobile Web apps
+                                  </span>
+                                  ➞ <span class="deets">
+                                    Working on Ruby and PHP code base that supports over 39 million monthly unique visitorsi
+                                  </span>
+                                  ➞ <span class="deets">
+                                    Responsible for real-time analytics, machine learning and NLP systems
+                                  </span>
+                                  * According to comScore, 2012
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div id="views_slideshow_cycle_div_testslideshow-block_1" class="views-slideshow-cycle-main-frame-row views_slideshow_cycle_slide views_slideshow_slide views-row-2 views_slideshow_cycle_hidden views-row-even">
+                          <div class="views-slideshow-cycle-main-frame-row-item views-row views-row-0 views-row-first views-row-odd">
+                            <div class="views-field views-field-field-body">
+                              <div class="field-content">
+                                <div class="test-pic">
+                                  <div id="test-slider2">
+                                    <ul class="bjqs">
+                                      <li class="cover">
+                                        <img src="../assets/img/test2pic.png" title="UI/UX Development" />
+                                      </li>
+                                      <li>
+                                        <img src="../assets/img/test2pic5.png" title="Scrum" />
+                                      </li>
+                                      <li>
+                                        <img src="../assets/img/test2pic3.png" title="Stabilizing Code Base" />
+                                      </li>
+                                      <li>
+                                        <img src="../assets/img/test2pic4.png" title=".NET/C#" />
+                                      </li>
+                                    </ul>
+                                  </div>
+                                </div>
+                                <div class="test-info">
+                                  <div class="test-client">Financial Software Firm</div>
+                                  <div class="test-process">
+                                    <hr />
+                                    ➞ Project Based
+                                    <hr />
+                                  </div>
+                                  <div class="test-resources">
+                                    <h3 class="center">Resources</h3>
+                                    <div class="test-resources-row  break">
+                                      <i class="icon-cogs icon-2x"></i>
+                                      <span class="number blue">4</span>
+                                      <span class="number-text">Engineers</span>
+                                    </div>
+                                    <div class="test-resources-row">
+                                      <i class="icon-male icon-2x"></i>
+                                      <span class="number blue">1</span>
+                                      <span class="number-text">Program Manager</span>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="test-details">
+                                  <br />
+                                  ➞ <span class="deets">
+                                    Stabilized a legacy market simulation and trader training platform developed in .NET/C#
+                                  </span>
+                                  ➞ <span class="deets">
+                                    Introduced agile development process to increase frequency of new feature releases
+                                  </span>
+                                  ➞ <span class="deets">
+                                    Extended the life of the current code base
+                                  </span>
+                                  ➞ <span class="deets">
+                                    Adding capabilities with new UI/UX &amp; analytics features for traders
+                                  </span>
+                                  ➞ <span class="deets">
+                                    Architecting cloud-based delivery and analytics for training assessments
+                                  </span>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div id="views_slideshow_cycle_div_testslideshow-block_2" class="views-slideshow-cycle-main-frame-row views_slideshow_cycle_slide views_slideshow_slide views-row-3 views_slideshow_cycle_hidden views-row-odd">
+                          <div class="views-slideshow-cycle-main-frame-row-item views-row views-row-0 views-row-first views-row-odd">
+                            <div class="views-field views-field-field-body">
+                              <div class="field-content">
+                                <div class="test-pic">
+                                  <div id="test-slider3">
+                                    <ul class="bjqs">
+                                      <li class="cover"><img src="../assets/img/test3pic.png" title="Facebook App" /></li>
+                                      <li><img src="../assets/img/test3pic2.png" title="Bootstrap Project" /></li>
+                                      <li><img src="../assets/img/test3pic3.png" title="Game Development" /></li>
+                                      <li><img src="../assets/img/test3pic4.png" title="node.js" /></li>
+                                      <li><img src="../assets/img/test3pic5.png" title="MongoDB" /></li>
+                                    </ul>
+                                  </div>
+                                </div>
+                                <div class="test-info">
+                                  <div class="test-client">Bootstrapped Social Media Startup</div>
+                                  <div class="test-process">
+                                    <hr />
+                                    ➞ Project Based
+                                    <hr />
+                                  </div>
+                                  <div class="test-resources">
+                                    <h3 class="center">Resources</h3>
+                                    <div class="test-resources-row  break">
+                                      <i class="icon-cogs icon-2x"></i>
+                                      <span class="number blue">2</span>
+                                      <span class="number-text">Engineers</span>
+                                    </div>
+                                    <div class="test-resources-row">
+                                      <i class="icon-crop icon-2x"></i>
+                                      <span class="number blue">1</span>
+                                      <span class="number-text">UI/UX Designer</span>
+                                    </div>
+                                    <div class="test-resources-row">
+                                      <i class="icon-code icon-2x"></i>
+                                      <span class="number blue">1</span>
+                                      <span class="number-text">Software Architect</span>
+                                    </div>
+                                    <div class="test-resources-row">
+                                      <i class="icon-male icon-2x"></i> 
+                                      <span class="number blue">1</span>
+                                      <span class="number-text">Program Manager</span>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="test-details">
+                                  <br />
+                                  ➞ <span class="deets">
+                                    Worked with founder to design and deliver a prototype for a Facebook-based social interaction game.
+                                  </span>
+                                  ➞ <span class="deets">
+                                    Enabled rapid focus testing to start the process of refining the product.
+                                  </span>
+                                  ➞ <span class="deets">
+                                    Designed solution based on Bootstrap, Node.js, and mongodb.
+                                  </span>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  <div class="views-slideshow-controls-bottom clearfix">
+                    <div id="views_slideshow_controls_text_testslideshow-block" class="views-slideshow-controls-text views_slideshow_controls_text">
+                      <span id="views_slideshow_controls_text_previous_testslideshow-block" class="views-slideshow-controls-text-previous views_slideshow_controls_text_previous">
+                        <a href="#">Previous</a>
+                      </span>
+                      <span id="views_slideshow_controls_text_pause_testslideshow-block" class="views-slideshow-controls-text-pause views_slideshow_controls_text_pause">
+                        <a href="#">Pause</a>
+                      </span>
+                      <span id="views_slideshow_controls_text_next_testslideshow-block" class="views-slideshow-controls-text-next views_slideshow_controls_text_next">
+                        <a href="#">Next</a>
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+  </div>
+</div>
+
 <!-- LETS TALK | SECTION 6 *-->
 <div id="section6-anchor-link" class="contact-container">
-  <div id="contact-content">
-    <h1 class="white">Let's talk</h1>
-    <div id="contact-copy">
-      <div class="socialicons">
-        <a href="http://www.twitter.com/TheHackerati" target="_blank">
-          <img src="../assets/img/twitter.png" />
-          <span>
-            <div class="tip-arrow"></div>
-            Follow Us On Twitter 
-          </span>
-        </a>
-        <a href="https://www.facebook.com/pages/The-Hackerati/352879328133465?fref=ts" target="_blank">
-          <img src="../assets/img/facebook.png" />
-          <span>
-            <div class="tip-arrow"></div>
-            Like Our Facebook 
-          </span>
-        </a>
-        <a href="http://www.linkedin.com/company/the-hackerati-inc-" target="_blank">
-          <img src="../assets/img/linkedin.png" />
-          <span>
-            <div class="tip-arrow"></div>
-            Connect On LinkedIn
-          </span>
-        </a>
-        <a href="https://github.com/thehackerati" target="_blank">
-          <img src="../assets/img/github.png" />
-          <span>
-            <div class="tip-arrow"></div>
-            Follow Us on GitHub
-          </span>
-        </a>
+  <div class="contact-bg-overlay">
+    <div id="contact-content">
+      <h1 class="span4" >Let's talk</h1>
+      <div class="span5" id="contact-copy">
+        <div class="socialicons">
+          <a href="http://www.twitter.com/TheHackerati" target="_blank">
+            <img src="../assets/img/twitter.png" />
+            <span>
+              <div class="tip-arrow"></div>
+              Follow Us On Twitter 
+            </span>
+          </a>
+          <a href="https://www.facebook.com/pages/The-Hackerati/352879328133465?fref=ts" target="_blank">
+            <img src="../assets/img/facebook.png" />
+            <span>
+              <div class="tip-arrow"></div>
+              Like Our Facebook 
+            </span>
+          </a>
+          <a href="http://www.linkedin.com/company/the-hackerati-inc-" target="_blank">
+            <img src="../assets/img/linkedin.png" />
+            <span>
+              <div class="tip-arrow"></div>
+              Connect On LinkedIn
+            </span>
+          </a>
+          <a href="https://github.com/thehackerati" target="_blank">
+            <img src="../assets/img/github.png" />
+            <span>
+              <div class="tip-arrow"></div>
+              Follow Us on GitHub
+            </span>
+          </a>
+        </div>
       </div>
+      <div class="clearfix"></div>
+      <a id="google-maps-wrapper" href="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=41+Cooper+Square,+New+York,+NY&amp;aq=2&amp;oq=cooper+union&amp;sll=42.747012,-71.312256&amp;sspn=4.574022,9.140625&amp;vpsrc=0&amp;t=h&amp;ie=UTF8&amp;hq=The+Cooper+Union,&amp;hnear=Cooper+Square,+New+York,+10003&amp;ll=40.729795,-73.990602&amp;spn=0.00922,0.017853&amp;z=16&amp;iwloc=A&amp;cid=8065674550730992253" target="_blank"></a>
+      <!--[if !(IE 10)]><div style="width:800px;height:435px" id="ie-maps"><iframe width="800" height="435" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.com/maps?f=q&source=s_q&hl=en&geocode=&q=41%2Bcooper%2Bsquare&ie=UTF8&z=12&t=m&iwloc=near&output=embed"></iframe><table width="800" cellpadding="0" cellspacing="0" border="0"><tr><td align="left"><small><a href="http://maps.google.com/maps?f=q&source=s_q&hl=en&geocode=&q=41%2Bcooper%2Bsquare&ie=UTF8&z=12&t=m&iwloc=near">View Larger Map</a></small></td><td align="right"><small><a href="http://www.embedgooglemap.com">embed google map</a></small></td></tr></table></div><![endif]-->
     </div>
-    <div class="clearfix"></div>
-    <a id="google-maps-wrapper" href="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=41+Cooper+Square,+New+York,+NY&amp;aq=2&amp;oq=cooper+union&amp;sll=42.747012,-71.312256&amp;sspn=4.574022,9.140625&amp;vpsrc=0&amp;t=h&amp;ie=UTF8&amp;hq=The+Cooper+Union,&amp;hnear=Cooper+Square,+New+York,+10003&amp;ll=40.729795,-73.990602&amp;spn=0.00922,0.017853&amp;z=16&amp;iwloc=A&amp;cid=8065674550730992253" target="_blank"></a>
-    <!--[if !(IE 10)]><div style="width:800px;height:435px" id="ie-maps"><iframe width="800" height="435" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.com/maps?f=q&source=s_q&hl=en&geocode=&q=41%2Bcooper%2Bsquare&ie=UTF8&z=12&t=m&iwloc=near&output=embed"></iframe><table width="800" cellpadding="0" cellspacing="0" border="0"><tr><td align="left"><small><a href="http://maps.google.com/maps?f=q&source=s_q&hl=en&geocode=&q=41%2Bcooper%2Bsquare&ie=UTF8&z=12&t=m&iwloc=near">View Larger Map</a></small></td><td align="right"><small><a href="http://www.embedgooglemap.com">embed google map</a></small></td></tr></table></div><![endif]-->
   </div>
 </div>
 
