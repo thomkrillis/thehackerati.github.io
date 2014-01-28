@@ -351,17 +351,17 @@ nav a {
     display: inline;
     font-size: 5em;
     letter-spacing: -6px;
-    font-family:"Inconsolata";
+    font-family: 'monacoregular';
     color: #f4f4f4;
 }
 #terminal-block-subtitle {
-    font: .8em/100%"Inconsolata";
+    font: .8em/100%'monacoregular';
     color: #f4f4f4;
     text-align: center;
     margin-top: 1%;
 }
 .related-words-terminal {
-    font: 0.9em/100% 'Inconsolata',sans-serif;
+    font: 0.9em/100% 'monacoregular',sans-serif;
     color: rgb(236, 99, 20);
     margin-top: 3%;
     width: 98%;
@@ -369,7 +369,7 @@ nav a {
     text-align: left;
 }
 #phonetic {
-    font: .9em/140% Arial;
+    font: .9em/140% 'monacoregular';
     color: #f4f4f4;
     font-style: italic;
     letter-spacing:0;
@@ -378,7 +378,7 @@ li.definitions {
     list-style:decimal;
 }
 .definitions {
-    font: 1.2em/130% "Inconsolata";
+    font: 1.2em/130% 'monacoregular';
     letter-spacing: -1px;
     margin-bottom: 1%;
 }
@@ -398,14 +398,14 @@ li.definitions {
     margin-top:15%;
     clear: both;
     height: auto;
-    font-family:"Inconsolata";
+    font-family:'monacoregular';
     text-align:left;
     position:relative;
 }
 #type-command-one {
     width: auto;
     height: auto;
-    font: 1em/100%"Inconsolata";
+    font: 1em/100%'monacoregular';
     color: #f4f4f4;
     float: left;
     margin-top: 3%;
@@ -419,7 +419,7 @@ li.definitions {
 #type-command-two {
     width: auto;
     height: auto;
-    font: 1em/100%"Inconsolata";
+    font: 1em/100%'monacoregular';
     color: #f4f4f4;
     float: left;
     margin-top: 3%;
@@ -432,7 +432,7 @@ li.definitions {
 #type-command-three {
     width: auto;
     height: auto;
-    font: 1em/100%"Inconsolata";
+    font: 1em/100%'monacoregular';
     color: #f4f4f4;
     float: left;
     margin-top: 3%;
@@ -472,7 +472,7 @@ li.definitions {
 #who-title h1 {
     margin-bottom: 0.5%;
     font-size: 2.5em;
-    font: 3em/100% "Inconsolata";
+    font: 3em/100% 'monacoregular';
     display: inline-block;
     letter-spacing: -2px;
     padding-bottom: 0px;
@@ -482,7 +482,7 @@ li.definitions {
 #who-title h2 {
     margin-bottom: 0px;
     font-size: 1.5em;
-    font: 1.5em/100% "Inconsolata";
+    font: 1.5em/100% 'monacoregular';
     letter-spacing: -1px;
     padding-bottom: 0px;
     border-bottom: 0px;
@@ -503,7 +503,7 @@ li.definitions {
 #wrapper-columns h2 {
     margin-bottom: 3%;
     font-size: 1.5em;
-    font: 1.5em/100% "Inconsolata";
+    font: 1.5em/100% 'monacoregular';
     letter-spacing: -1px;
     padding-bottom: 0px;
     border-bottom: 0px;
@@ -919,7 +919,7 @@ a.spin-active {
 }
 #how h1 {
     margin-bottom: 0.5%;
-    font: 3em/100% "Inconsolata";
+    font: 3em/100% 'monacoregular';
     display: inline-block;
     letter-spacing: -2px;
     text-align: left;
