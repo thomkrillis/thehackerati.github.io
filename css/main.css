@@ -340,20 +340,8 @@ nav a {
     width: 80%;
     margin: 0 auto;
 }
-.welcome-content nav {
+#main-logo {
     text-align: center;
-    color: rgb(244, 244, 244);
-    margin-top: 0.75em;
-    margin-left: 0.5em;
-    font: 2em/100% 'monacoregular';
-}
-.welcome-content a:hover {
-    text-decoration: none;
-    color: rgb(247, 154, 70);
-}
-.welcome-content a {
-    text-decoration: none;
-    color: rgb(244, 244, 244);
 }
 #terminal-window  {
     color: rgb(244, 244, 244);
