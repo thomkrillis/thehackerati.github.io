@@ -28,7 +28,7 @@
 	} 
 
 	.section1 p {
-		font: 0.9em/125% 'monacoregular';
+		font: 1.2em/130% 'monacoregular';
 		text-align: center;
 	}
 
@@ -39,7 +39,7 @@
 	}
 
 	.section1-content-container {
-		width: 12.8em;
+		width: 16em;
 	}
 
 	.section3 .content-container {
