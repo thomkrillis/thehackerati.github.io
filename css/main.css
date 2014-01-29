@@ -1607,6 +1607,10 @@ background-image: url("../assets/img/bgwhite.png");
 	width: 44.5%;
 }
 
+.testimonial-copy-tablet {
+    display: none;
+}
+
 .testimonial-copy-mobile {
     display: none;
 }

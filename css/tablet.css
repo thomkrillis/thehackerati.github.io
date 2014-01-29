@@ -43,6 +43,10 @@
 	/***************************/
 
 	.testimonial-copy-mobile {
+		display: none;
+	}
+
+	.testimonial-copy-tablet {
 		width: 100%;
 		display: block;
 	}
@@ -135,9 +139,13 @@
 		width: 22.5em;
 	}
 
-	.testimonial-copy-mobile {
+	.testimonial-copy-tablet {
 		width: 100%;
 		display: block;
+	}
+
+	.testimonial-copy-mobile {
+		display: none;
 	}
 
 	.testimonial-img {
