@@ -46,6 +46,10 @@
 /********* GENERAL *********/
 /****************************/
 
+body * {
+    font-family: 'inconsolatamedium' !important;
+}
+
 body {
     width: 100%;
     line-height: 16px;
@@ -226,9 +230,13 @@ li {
 }
 
 #all-content {
-  position: relative;
-  width: auto;
-  height: auto;
+    position: relative;
+    width: auto;
+    height: auto;
+}
+
+.section3 .content-container {
+    width: 71.9em;
 }
 
 /********** HEADER **********/
@@ -1604,7 +1612,7 @@ background-image: url("../assets/img/bgwhite.png");
     margin-bottom: 1em;
 	display: inline-block;
 	vertical-align: top;
-	width: 44.5%;
+	width: 44%;
 }
 
 .testimonial-copy-tablet {
@@ -1717,11 +1725,19 @@ background-image: url("../assets/img/bgwhite.png");
 
 .guild-copy {
     margin: 1em 0;
-    font: 1.4em/120% 'monacoregular';
+    font: 1.2em/130% 'monacoregular';
+    width: 54%;
+    float: left;
+}
+
+.guild-copy p, .guild-copy ul {
+    margin-bottom: 1em;
 }
 
 .guild-shield {
-	margin: 1em 3em;
+	margin: 0;
+    width: 46%;
+    float: left;
 }
 
 .section3 .content-container {
@@ -1821,7 +1837,7 @@ background-image: url("../assets/img/bgwhite.png");
 
 .perks-copy li {
     list-style-type: disc;
-    font: 1.2em/150% 'monacoregular';
+    font: 1.2em/130% 'monacoregular';
 }
 
 #perks-copy1 {
@@ -2123,6 +2139,10 @@ footer .content-container {
 	    font: 1.8em/100% 'monacoregular';
 	}
 
+    .section3 .content-container {
+        width: 77.2em;
+    }
+
 	/******** ABOUT PAGE *********/
 	/*****************************/
 
@@ -2137,7 +2157,7 @@ footer .content-container {
 	/***************************/
 
 	.testimonial-copy {
-		width: 45%;
+		width: 44%;
 	}
 
 	.apply-now-button p {
@@ -2161,6 +2181,13 @@ footer .content-container {
 	    list-style-type: disc;
 	    font: 1.4em/150% 'monacoregular';
 	}
+
+    .guild-copy {
+        margin: 1em 0;
+        font: 1.4em/120% 'monacoregular';
+        width: 54%;
+        float: left;
+    }
 
 	/********** FOOTER **********/
 	/****************************/

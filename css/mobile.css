@@ -27,6 +27,26 @@
     	width: 100%;
 	} 
 
+	.section1 p {
+		font: 0.9em/125% 'monacoregular';
+		text-align: center;
+	}
+
+	.section1 h3 {
+		border-bottom: none;
+		text-align: center;
+		padding: 0 0 .25em 0;
+	}
+
+	.section1-content-container {
+		width: 12.8em;
+	}
+
+	.section3 .content-container {
+		width: 12.8em;
+		padding-top: 0;
+	}
+
 	/********** HEADER **********/
 	/****************************/
 
@@ -206,6 +226,15 @@
 
 	h2 {
 		font: 3.5em 'monacoregular';
+	}
+
+	.guild-shield img, .guild-shield, .guild-copy {
+		width: 100%;
+		float: none;
+	}
+
+	.guild-copy {
+		font: 1.1em/125% 'monacoregular';
 	}
 
 	/********** FOOTER **********/
