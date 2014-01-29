@@ -58,6 +58,14 @@
 		display: none;
 	}
 
+	.header-section > .content-container {
+		width: 50em;
+	}
+
+	nav a {
+		margin-left: 1.0em;
+	}
+
 	/******** ABOUT PAGE *********/
 	/*****************************/
 
@@ -154,6 +162,37 @@
 	.section3 .content-container {
 		width: 23em;
 		padding-top: 0;
+	}
+
+	/********** HEADER **********/
+	/****************************/
+
+	.logo {
+		float: none;
+	}
+
+	.nav-links {
+		float: none;
+		text-align: center;
+	}
+
+	.content-container nav {
+		font: 1.8em/100% 'monacoregular';
+		margin-top: 1.0em;
+		padding-bottom: 1.2em;
+	}
+
+	nav a {
+		margin-left: 1.0em;
+	}
+
+	.header-section > .content-container {
+		width: 31em;
+	}
+
+	.logo img {
+		width: 76%;
+		max-height: none;
 	}
 
     /****** CAREERS PAGE *******/
