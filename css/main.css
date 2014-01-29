@@ -188,7 +188,7 @@ li {
 
 .section1 p {
     text-align: left; 
-    font: 1.0em/100% 'monacoregular';
+    font: 1.2em/120% 'monacoregular';
 }
 
 .section2 .content-container {
@@ -1593,7 +1593,7 @@ background-image: url("../assets/img/bgwhite.png");
     border-radius:5px;
     display:inline-block;
     color:#000;
-    font: 1.2em/120% 'monacoregular' !important;
+    font: 1.2em/120% 'inconsolatamedium' !important;
     font-weight: bold;
     height:auto;
     width: auto;
@@ -2161,7 +2161,7 @@ footer .content-container {
 	}
 
 	.apply-now-button p {
-	    font: 1.5em/120% 'monacoregular' !important;
+	    font: 1.5em/120% 'inconsolatamedium' !important;
 	}
 
 	.perks-cell {
