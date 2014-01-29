@@ -178,6 +178,10 @@
 		display: block;
 	}
 
+	.testimonial-copy-tablet {
+		display: none;
+	}
+
 	.section1 h2 {
 		font: 3.0em/100% 'monacoregular';
 	}
