@@ -58,13 +58,6 @@
 		display: none;
 	}
 
-	#logo {
-		width: 250px;
-		position: absolute;
-		margin-left: -125px;
-		left: 50%;
-	}
-
 	#navigation-mobile {
 		display: block;
 		width: 295px;
@@ -101,6 +94,35 @@
 
 	li#about-mobile {
 		margin-left: 23px;
+	}
+
+	.logo {
+		float: none;
+	}
+
+	.nav-links {
+		float: none;
+		text-align: center;
+	}
+
+	.content-container nav {
+		font: 1.7em/100% 'monacoregular';
+		margin-top: 0.2em;
+		padding-bottom: 1.25em;
+	}
+
+	nav a {
+		margin-left: 0.5em;
+	}
+
+	.header-section > .content-container {
+		width: 21em;
+	}
+
+
+	.logo img {
+		width: 94%;
+		max-height: none;
 	}
 
 	/******** ABOUT PAGE *********/
