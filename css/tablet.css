@@ -22,6 +22,35 @@
 		padding: 15px;
 	}
 
+	.section3 .content-container {
+		width: 51.5em;
+		padding-top: 0;
+	}
+
+	.section1 p {
+		font: 1.3em/100% 'monacoregular';
+		text-align: center;
+	}
+
+	.section1 h3 {
+		font: 1.8em/100% 'monacoregular';
+		text-align: center;
+		width: 13.5em;
+		margin: 0 0 .5em 3.4em;
+	}
+
+	.section1-content-container {
+		width: 36.5em;
+	}
+
+	.section2 .content-container {
+		width: 51.5em;
+	}
+
+	.section2 p {
+		font: 2.0em/120% 'monacoregular';
+	}
+
 	/********** HEADER **********/
 	/****************************/
 
@@ -57,32 +86,8 @@
 		margin: 2em 0;
 	}
 
-	.section1 p {
-		font: 1.3em/100% 'monacoregular';
-		text-align: center;
-	}
-
-	.section1 h3 {
-		font: 1.8em/100% 'monacoregular';
-		text-align: center;
-		width: 12.4em;
-		margin: 0 0 .5em 3.8em;
-	}
-
 	.apply-now-button p {
 	    font: 1.5em/120% 'monacoregular' !important;
-	}
-
-	.section1-content-container {
-		width: 36.5em;
-	}
-
-	.section2 .content-container {
-		width: 51.5em;
-	}
-
-	.section2 p {
-		font: 2.0em/120% 'monacoregular';
 	}
 
 	.perks-copy li {
@@ -93,6 +98,19 @@
 		width: 300px;
 		height: 300px;
 		margin: 30px;
+	}
+
+	.guild-shield, .guild-copy {
+		float: none;
+		width: 100%;
+	}
+
+	.guild-shield {
+		text-align: center;
+	}
+
+	.guild-copy {
+		font: 1.4em/130% 'monacoregular';
 	}
 
 	/********** FOOTER **********/
@@ -116,8 +134,9 @@
 
 }
 
-/********* SMALL TABLET/BIG SMARTPHONE **********/
-/************************************************/
+/************************************************************/
+/*********** CSS FOR SMALL TABLET/BIG SMARTPHONE ************/
+/************************************************************/
 
 @media only screen and (min-width : 480px) and (max-width : 767px) {
 
@@ -130,6 +149,11 @@
 
 	.desktop {
     	display: none;
+	}
+
+	.section3 .content-container {
+		width: 23em;
+		padding-top: 0;
 	}
 
     /****** CAREERS PAGE *******/
@@ -160,8 +184,8 @@
 
 	.section1 h3 {
 		text-align: center;
-		width: 12.5em;
-		margin: 0 0 .5em 1.2em;
+		width: 13.7em;
+		margin: 0 0 .5em 0.7em;
 	}
 
 	.section1 h2 {
@@ -190,18 +214,24 @@
 		font: 3.5em 'monacoregular';
 	}
 
+	.guild-shield img, .guild-shield, .guild-copy {
+		width: 100%;
+		float: none;
+	}
+
 	/********** FOOTER **********/
 	/****************************/
-  .footer-column1 {
-    width: 50%;
-  }
 
-  .footer-column2 {
-    width: 40%;
-    border-right: 0; 
-  }
+	.footer-column1 {
+		width: 50%;
+	}
 
-  .footer-column3 {
-    display: none;
-  }
+	.footer-column2 {
+		width: 40%;
+		border-right: 0; 
+	}
+
+	.footer-column3 {
+		display: none;
+	}
 }
