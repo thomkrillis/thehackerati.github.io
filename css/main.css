@@ -1574,7 +1574,9 @@ background-image: url("../assets/img/bgwhite.png");
 /*****************************/
 
 .b-page-image.careers {
-	background-image: url('../assets/img/largecooperstairs.jpg');
+	background: url('../assets/img/largecooperstairs.jpg');
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 .apply-now-button {
