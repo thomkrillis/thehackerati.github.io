@@ -2160,7 +2160,7 @@ footer {
     margin-bottom: 10%;
     font: 1.3em/100% 'monacoregular';
     line-height: 1.3em;
-    margin-left: 6%;
+    margin-left: 0;
 }
 
 .footer-madeny {
@@ -2184,6 +2184,53 @@ footer .content-container {
 
 .footer-share img {
     max-height: 100%;
+}
+
+.footer-sprite {
+    width: 44.88px;
+    height: 44.88px;
+    float: left;
+    margin-right: 1.2em;
+}
+
+.twitter-footer {
+    background: url('../assets/img/social-media-footer.png') no-repeat; 
+    background-position:-23.844px -15.741px;
+}
+
+.twitter-footer:hover {
+    background: url('../assets/img/social-media-footer.png') no-repeat; 
+    background-position:-119.314px -16.733px;
+}
+
+.facebook-footer {
+    background: url('../assets/img/social-media-footer.png') no-repeat; 
+    background-position:-23.843px -63.511px;
+}
+
+.facebook-footer:hover {
+    background: url('../assets/img/social-media-footer.png') no-repeat; 
+    background-position:-119.313px -64.503px;
+}
+
+.github-footer {
+    background: url('../assets/img/social-media-footer.png') no-repeat; 
+    background-position:-23.843px -111.502px;
+}
+
+.github-footer:hover {
+    background: url('../assets/img/social-media-footer.png') no-repeat; 
+    background-position:-119.313px -112.494px;
+}
+
+.linkedin-footer {
+    background: url('../assets/img/social-media-footer.png') no-repeat; 
+    background-position:-71.745px -63.511px;
+}
+
+.linkedin-footer:hover {
+    background: url('../assets/img/social-media-footer.png') no-repeat; 
+    background-position:-167.216px -64.503px;
 }
 
 /**** FONTAWESOME LIBRARY ****/
