@@ -30,8 +30,6 @@
   /********** FOOTER **********/
   .footer-wrapper { width: 888px;}
   footer .content-container { width: 77.2em; }
-  .footer-column1 { border-right: 1px dotted #f4f4f4; width: 30% !important; }
-  .footer-column2 { width: 35%; border-right: 1px dotted #f4f4f4; }
   .footer-column3 { padding: 0; }
 
 }

@@ -169,7 +169,7 @@ li {
     font: 1.5em/100% 'monacoregular';
     margin: 0 0 .5em 0;
     padding: 0 0 .5em 0;
-    color: #F98026;
+    color: #EC6314;
     border-bottom: 1px dotted #EAA07A;
     text-align: left;
 }
@@ -295,7 +295,7 @@ li#academy {
 
 .content-container a:hover {
     text-decoration: none;
-    color: #F79A46;
+    color: #EC6314;
 }
 
 #nav-expansion {
@@ -2095,11 +2095,11 @@ footer {
 }
 
 .footer-contact a:link {
-    color: #F79A46;
+    color: #EC6314;
 }
 
 .footer-contact a:visited {
-    color: #F79A46;
+    color: #EC6314;
 }
 
 .footer-contact a:hover {
@@ -2107,13 +2107,13 @@ footer {
 }
 
 .sitemap a:link {
-    color: #F79A46;
+    color: #EC6314;
     text-align: left;
     font: 1.5em/100% 'monacoregular';
 }
 
 .sitemap a:visited {
-    color: #F79A46;
+    color: #EC6314;
 }
 
 .sitemap a:hover {
@@ -2141,8 +2141,8 @@ footer {
 }
 
 .footer-share {
-    height: 4em;
-    margin-bottom: 2em;
+    height: 7.5em;
+    margin-bottom: 0.5em;
 }
 
 .footer-column2 {
@@ -2174,12 +2174,15 @@ footer .content-container {
 
 .footer-column3 {
 	padding: 0 0.5%;
+    width: 35%;
+    float: left;
 }
 
 .footer-column1 {
     margin-left: 2%;
     padding-left: 2%;
-    border-right: 1px dotted #f4f4f4;
+    width: 35%;
+    float: left;
 }
 
 .footer-share img {
@@ -2190,7 +2193,8 @@ footer .content-container {
     width: 44.88px;
     height: 44.88px;
     float: left;
-    margin-right: 1.2em;
+    margin-right: 2.0em;
+    margin-bottom: 1.0em;
 }
 
 .twitter-footer {
@@ -2231,6 +2235,26 @@ footer .content-container {
 .linkedin-footer:hover {
     background: url('../assets/img/social-media-footer.png') no-repeat; 
     background-position:-167.216px -64.503px;
+}
+
+.gplus-footer {
+    background: url('../assets/img/social-media-footer.png') no-repeat; 
+    background-position:-72.058px -16.011px;
+}
+
+.gplus-footer:hover {
+    background: url('../assets/img/social-media-footer.png') no-repeat; 
+    background-position:-167.529px -17.002px;
+}
+
+.meetup-footer {
+    background: url('../assets/img/social-media-footer.png') no-repeat; 
+    background-position:-72.058px -112.277px;
+}
+
+.meetup-footer:hover {
+    background: url('../assets/img/social-media-footer.png') no-repeat; 
+    background-position:-167.529px -113.269px;
 }
 
 /**** FONTAWESOME LIBRARY ****/
