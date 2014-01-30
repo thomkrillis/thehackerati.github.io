@@ -2180,7 +2180,7 @@ footer {
 }
 
 .footer-share {
-    height: 7.5em;
+    height: 3.5em;
     margin-bottom: 0.5em;
 }
 
@@ -2200,11 +2200,6 @@ footer {
     font: 1.3em/100% 'monacoregular';
     line-height: 1.3em;
     margin-left: 0;
-}
-
-.footer-madeny {
-    margin-bottom: 10%;
-    margin-left: 6%;
 }
 
 footer .content-container {
@@ -2232,7 +2227,7 @@ footer .content-container {
     width: 44.88px;
     height: 44.88px;
     float: left;
-    margin-right: 2.0em;
+    margin-right: 1.0em;
     margin-bottom: 1.0em;
 }
 
