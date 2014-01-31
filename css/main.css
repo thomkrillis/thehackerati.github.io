@@ -1657,6 +1657,34 @@ background-image: url("../assets/img/bgwhite.png");
     vertical-align: middle;
 }
 
+/******** RECRUITING PAGE *********/
+/**********************************/
+
+.ss-form-title {
+
+}
+
+.form-window{
+	width:100%;
+}
+
+.left-half {
+    float:left;
+	vertical-align:middle;
+    width:48%;
+}
+
+.right-half {
+    float:right;
+	vertical-align:middle;
+    width:48%;
+}
+
+.ss-required-asterisk{
+	color:orange;
+}
+
+
 /******** ACADEMY PAGE *********/
 /*****************************/
 
