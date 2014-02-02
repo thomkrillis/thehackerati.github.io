@@ -17,8 +17,6 @@
   /********** HEADER **********/
   .header-section > .content-container { width: 77.7em;}
 
-  /******** ABOUT PAGE *********/
-
   /****** CAREERS PAGE *******/
   .testimonial-copy { width: 44%;}
   .apply-now-button p { font: 1.5em/120% 'inconsolatamedium' !important;}
@@ -26,6 +24,67 @@
   .section2 p { font: 2.0em/120% 'monacoregular'; color: #f6f6f6;}
   .perks-copy li { list-style-type: disc; font: 1.4em/150% 'monacoregular'; }
   .guild-copy { margin: 1em 0; font: 1.4em/120% 'monacoregular'; width: 54%; float: left; }
+
+.social-media-sprite {
+  margin-left: 48%;
+  width: 44px;
+  height: 44px;
+  margin-top: 1em;
+}
+
+.google-sprite {
+  background: url('../assets/img/social-media-icons.png') no-repeat; 
+  background-position:-68.487px -15.414px;
+}
+.google-sprite:hover {
+  background: url('../assets/img/social-media-icons.png') no-repeat; 
+  background-position:-163.957px -16.405px;
+}
+
+.facebook-sprite {
+  background: url('../assets/img/social-media-icons.png') no-repeat; 
+  background-position:-20.584px -63.511px;
+}
+.facebook-sprite:hover {
+  background: url('../assets/img/social-media-icons.png') no-repeat; 
+  background-position:-116.055px -64.503px;
+}
+
+.linkedin-sprite {
+  background: url('../assets/img/social-media-icons.png') no-repeat; 
+  background-position:-68.486px -63.511px;
+}
+.linkedin-sprite:hover {
+  background: url('../assets/img/social-media-icons.png') no-repeat; 
+  background-position:-163.957px -64.503px;
+}
+
+.github-sprite {
+  background: url('../assets/img/social-media-icons.png') no-repeat; 
+  background-position:-20.584px -111.501px;
+}
+.github-sprite:hover {
+  background: url('../assets/img/social-media-icons.png') no-repeat; 
+  background-position:-116.055px -112.494px;
+}
+
+.twitter-sprite {
+  background: url('../assets/img/social-media-icons.png') no-repeat; 
+  background-position:-20.585px -15.741px;
+}
+.twitter-sprite:hover {
+  background: url('../assets/img/social-media-icons.png') no-repeat; 
+  background-position:-116.055px -16.733px;
+}
+
+.meetup-sprite {
+  background: url('../assets/img/social-media-icons.png') no-repeat; 
+  background-position:-68.487px -111.68px;
+}
+.meetup-sprite:hover {
+  background: url('../assets/img/social-media-icons.png') no-repeat; 
+  background-position:-163.957px -112.671px;
+}
 
   /********** FOOTER **********/
   .footer-wrapper { width: 888px;}
