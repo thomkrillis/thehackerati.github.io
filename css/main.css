@@ -1790,64 +1790,53 @@ a#google-maps-wrapper{
 }
 
 .social-media-sprite {
+    background: url('../assets/img/social-media-icons-small.png') no-repeat; 
 	margin-left: 48%;
-	width: 44px;
-	height: 44px;
+	width: 30.54px;
+	height: 30.54px;
 	margin-top: 1em;
 }
 
 .google-sprite {
-	background: url('../assets/img/social-media-icons.png') no-repeat; 
-	background-position:-68.487px -15.414px;
+	background-position:-59.003px -15.938px;
 }
-.google-sprite:hover {
-	background: url('../assets/img/social-media-icons.png') no-repeat; 
-	background-position:-163.957px -16.405px;
+.google-sprite:hover { 
+	background-position:-128.624px -16.66px;
 }
 
 .facebook-sprite {
-	background: url('../assets/img/social-media-icons.png') no-repeat; 
-	background-position:-20.584px -63.511px;
+	background-position:-23.843px -50.577px;
 }
 .facebook-sprite:hover {
-	background: url('../assets/img/social-media-icons.png') no-repeat; 
-	background-position:-116.055px -64.503px;
+	background-position:-93.555px -51.246px;
 }
 
 .linkedin-sprite {
-	background: url('../assets/img/social-media-icons.png') no-repeat; 
-	background-position:-68.486px -63.511px;
+	background-position:-58.775px -50.577px;
 }
-.linkedin-sprite:hover {
-	background: url('../assets/img/social-media-icons.png') no-repeat; 
-	background-position:-163.957px -64.503px;
+.linkedin-sprite:hover { 
+	background-position:-128.487px -51.246px;
 }
 
 .github-sprite {
-	background: url('../assets/img/social-media-icons.png') no-repeat; 
-	background-position:-20.584px -111.501px;
+	background-position:-23.843px -85.573px;
 }
 .github-sprite:hover {
-	background: url('../assets/img/social-media-icons.png') no-repeat; 
-	background-position:-116.055px -112.494px;
+	background-position:-93.555px -86.242px;
 }
 
 .twitter-sprite {
-	background: url('../assets/img/social-media-icons.png') no-repeat; 
-	background-position:-20.585px -15.741px;
+	background-position:-23.844px -15.741px;
 }
 .twitter-sprite:hover {
-	background: url('../assets/img/social-media-icons.png') no-repeat; 
-	background-position:-116.055px -16.733px;
+	background-position:-93.555px -16.41px;
 }
 
 .meetup-sprite {
-	background: url('../assets/img/social-media-icons.png') no-repeat; 
-	background-position:-68.487px -111.68px;
+	background-position:-59.003px -86.138px;
 }
 .meetup-sprite:hover {
-	background: url('../assets/img/social-media-icons.png') no-repeat; 
-	background-position:-163.957px -112.671px;
+	background-position:-128.624px -86.861px;
 }
 
 .interstitial-content-container {
