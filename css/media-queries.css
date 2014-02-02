@@ -259,7 +259,7 @@
   .testimonial-copy-tablet {	display: none;}
   .section1 h2 {	font: 3.0em/100% 'monacoregular';	}
   .section2 .content-container {	width: 21.0em;}
-  .perks-cell {	width: 280px;	height: 280px;	}
+  .perks-cell {	width: 280px;	height: 280px;	margin: 2.5%;}
   .perks-copy li {	font: 1.2em/150% 'monacoregular';	}
   .section2 p {	font: 1.7em/120% 'monacoregular';	}
   h2 {	font: 3.5em 'monacoregular';}
@@ -284,8 +284,9 @@
   .benefits-content, .apprentice-content, .supply-content {	width: 295px;}
   .footer-column1 { width: 100%; text-align: center; margin-left: 0; padding-left: 0;}
   footer .content-container { width: 19em; }
-
+  .footer-section .content-container { width: 21em; }
   .footer-copyright { width: 80%; text-align: center; margin-left: 1.7em; }
   .twitter-footer { margin-left: 0.9em; }
   .footer-madeny { text-align: center; }
+  .twitter-footer { margin-left: 0.9em; }
 }
