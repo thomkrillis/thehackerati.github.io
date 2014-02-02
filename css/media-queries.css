@@ -141,12 +141,19 @@
 /* SMALL TABLET/BIG SMARTPHONE
 ####################################################################*/
 
-@media only screen and (min-width : 480px) and (max-width : 767px) {
+@media only screen and (max-width : 767px) {
 
   /********* GENERAL **********/
   .mobile {	display: inline-block;}
   .desktop { 	display: none;}
   .section3 .content-container { width: 23em;	padding-top: 0;	}
+  .generic-container{ width: 100%; padding-top:5%; padding-bottom:5%;}
+  .generic-content{ width:80%;}
+  .generic-content h2 {	font: 2.0em 'monacoregular';	}
+  .generic-content p {	font: 1.0em/130% 'monacoregular'; line-height:95%; padding-top: 2.5%; padding-bottom:2.5%}
+  .block-right, .block-left{ display:block; width:100%; float:none; clear:both; padding-top: 5%; padding-bottom: 5%;}
+  .block-right img, .block-left img{ display:block; width:50%; margin-right: auto; margin-left: auto; }
+  .text-focus{ height: 100%; width: 100%;}
 
   /********** HEADER **********/
   .logo {	float: none;}
@@ -171,6 +178,19 @@
   h2 {	font: 3.5em 'monacoregular';}
   .guild-shield img, .guild-shield, .guild-copy {	width: 100%; float: none;	}
 
+  /******** ACADEMY PAGE *********/
+  .splash-container{ display:block; }
+  .splash-academy{ background-image:url('../assets/img/schoolsplash.jpg'); margin: 0 auto; background-size:contain; background-attachment: fixed; width: 100%; height:100%; background-repeat:no-repeat;}
+
+  /******** ABOUT PAGE *********/
+  #about-focus{ background: none; z-index: 9999999; padding-top: 20%; padding-bottom:20%; }
+  .splash-about{ background: #8a8a8a;}
+  #founder1, #founder2 { width: 200px; margin-right:auto; margin-left:auto; padding-top:5%; padding-bottom:2%;}
+  .photo-contact-info, .name-contact-info{ display:inline-block; float:left; width: 250px; padding-top: 2.5%; padding-bottom:2.5%;}
+  .founder-info{ display:inline; padding-left: 6%; padding-right: 2%; -ms-word-break: break-all; word-break: break-all; word-break: break-word; -webkit-hyphens: auto; -moz-hyphens: auto; -ms-hyphens: auto; hyphens: auto; }
+  .name-contact-info h3{ font: 1.1em/100% "inconsolata"; }
+/*  .photo-contact-info{display:inline-block;  }
+*/
   /********** FOOTER **********/
   .footer-column1 {	width: 50%;	}
   .footer-column2 {	width: 40%; border-right: 0;}
@@ -187,15 +207,10 @@
   .desktop { display: none;}
   .span1,.span2,.span3,.span4,.span5,.span6,.span7,.span8,.span9 {width: 100%;} 
   .section1 p {	font: 1.2em/130% 'monacoregular';	text-align: center;}
-  .section1 h3 {	border-bottom: none;	text-align: center;	padding: 0 0 .25em 0;	}
+  .section1 h3 {	width: auto; border-bottom: none;	text-align: center;	padding: 0 0 .25em 0;	}
   .section1-content-container {	width: 16em;}
   .section3 .content-container {	width: 19em;	padding-top: 0;	}
-  .generic-container{ width: 100%; padding-top:5%; padding-bottom:5%;}
-  .generic-content{ width:80%;}
-  .generic-content h2 {	font: 3.0em 'monacoregular';	}
-  .generic-content p {	font: 1.0em/130% 'monacoregular'; line-height:95%;}
-  .block-right, .block-left{ display:block; width:100%; float:none; clear:both; padding-top: 5%; padding-bottom: 5%;}
-  .text-focus{ height: 100%; width: 100%;}
+  .block-right img, .block-left img{ display:block; width:70%; margin-right: auto; margin-left: auto; }
 
   /********** HEADER **********/
   #header {	height: 170px;}
@@ -221,7 +236,8 @@
   /******** ABOUT PAGE *********/
   #about-focus{ background: none; z-index: 9999999; padding-top: 20%; padding-bottom:20%; }
   .splash-about{ background: #8a8a8a;}
-  #founder1, #founder2 { display: block; width: 70%; margin-right:auto; margin-left:auto; padding-top:5%; padding-bottom:2%;}
+  #founder1, #founder2 { display: block; width: 200px; margin-right:auto; margin-left:auto; padding-top:5%; padding-bottom:2%;}
+  .founder-info, .photo-contact-info, .name-contact-info{ display:block; float:none; clear:both; padding-top:3% }
 
   /******** CAREERS PAGE *******/
   .b-page-image.careers {	background-image: none;	background: #424345;}
