@@ -135,6 +135,12 @@
   .mobile-copyright-madeny {	display: block;}
   .footer-copyright { margin-left: 0;}
   .footer-madeny { margin-left: 0;}
+  footer .content-container { width: 51.5em; }
+  .footer-column1 { width: 32%; }
+  .footer-column2 { width: 23%; }
+  .footer-share { width: 70%; margin-bottom: 3em;}
+  .footer-contact { width: 80%; }
+  .footer-sprite { margin-bottom: 0.7em; }
 
 }
 
@@ -192,9 +198,15 @@
 /*  .photo-contact-info{display:inline-block;  }
 */
   /********** FOOTER **********/
-  .footer-column1 {	width: 50%;	}
-  .footer-column2 {	width: 40%; border-right: 0;}
+  .footer-column1 {	width: 100%; text-align:center;	margin-left: 0; padding-left: 0; }
+  .footer-column2 {	width: 40%; border-right: 0; display: none;}
   .footer-column3 {	display: none;}
+  .footer-section .content-container { width: 23em; }
+
+  .footer-copyright { width: 80%; text-align: center; margin-left: 1.7em; }
+  .twitter-footer { margin-left: 3em; }
+  .footer-madeny { text-align: center; }
+
 }
 
 /* SMARTPHONE
@@ -246,8 +258,8 @@
   .testimonial-copy-mobile {	width: 100%;	display: block;	}
   .testimonial-copy-tablet {	display: none;}
   .section1 h2 {	font: 3.0em/100% 'monacoregular';	}
-  .section2 .content-container {	width: 23.0em;}
-  .perks-cell {	width: 280px;	height: 280px;	margin: 20px;	}
+  .section2 .content-container {	width: 21.0em;}
+  .perks-cell {	width: 280px;	height: 280px;	}
   .perks-copy li {	font: 1.2em/150% 'monacoregular';	}
   .section2 p {	font: 1.7em/120% 'monacoregular';	}
   h2 {	font: 3.5em 'monacoregular';}
@@ -270,4 +282,10 @@
   #nav-expansion {	display: block;	margin: 15px 10% 0 0;	}
   #nav-expansion a {	line-height: 50px;	text-decoration: none;	font-size: 4em;	color: #ec6314;	}
   .benefits-content, .apprentice-content, .supply-content {	width: 295px;}
+  .footer-column1 { width: 100%; text-align: center; margin-left: 0; padding-left: 0;}
+  footer .content-container { width: 19em; }
+
+  .footer-copyright { width: 80%; text-align: center; margin-left: 1.7em; }
+  .twitter-footer { margin-left: 0.9em; }
+  .footer-madeny { text-align: center; }
 }
