@@ -13,6 +13,7 @@
   .section1 p { font: 1.3em/100% 'monacoregular';}
   .section1 h3 { font: 1.8em/100% 'monacoregular';}
   .section3 .content-container { width: 77.2em;  }
+  .generic-content { width: 57.5em; }
 
   /********** HEADER **********/
   .header-section > .content-container { width: 77.7em;}
@@ -104,7 +105,8 @@
   .desktop { display: none;	}
   .wrapper-splash {	width: 650px;	font-size: 16px;	padding: 15px; }
   .section3 .content-container { width: 51.5em;	padding-top: 0;	}
-  .section1 p { font: 1.3em/100% 'monacoregular';	text-align: center;}
+  .section1 p { font: 1.3em/100% 'monacoregular'; }
+  .careers-page .section1 p { text-align: center; }
   .section1 h3 { font: 1.8em/100% 'monacoregular';	text-align: center;	width: 13.5em;margin: 0 0 .5em 3.4em;}
   .section1-content-container {	width: 36.5em;}
   .section2 .content-container { width: 51.5em;}
@@ -153,6 +155,7 @@
   .mobile {	display: inline-block;}
   .desktop { 	display: none;}
   .section3 .content-container { width: 23em;	padding-top: 0;	}
+  .careers-page .section1 p { text-align: center; }
   .generic-container{ width: 100%; padding-top:5%; padding-bottom:5%;}
   .generic-content{ width:80%;}
   .generic-content h2 {	font: 2.0em 'monacoregular';	}
@@ -160,6 +163,7 @@
   .block-right, .block-left{ display:block; width:100%; float:none; clear:both; padding-top: 5%; padding-bottom: 5%;}
   .block-right img, .block-left img{ display:block; width:50%; margin-right: auto; margin-left: auto; }
   .text-focus{ height: 100%; width: 100%;}
+  .section1-content-container { margin-top: 2em !important; margin-bottom: 2em !important; }
 
   /********** HEADER **********/
   .logo {	float: none;}
@@ -174,7 +178,6 @@
   .testimonial-copy-tablet {	width: 100%;	display: block;	}
   .testimonial-copy-mobile {	display: none;}
   .testimonial-img { display: block;	width: 100%;	margin: 2em 0;}
-  .section1 p { text-align: center;}
   .section1 h3 { text-align: center;	width: 13.7em;	margin: 0 0 .5em 0.7em;	}
   .section1 h2 { font: 3.5em/100% 'monacoregular';	}
   .section2 .content-container {	width: 23.0em;}
@@ -189,8 +192,7 @@
   .splash-academy{ background-image:url('../assets/img/schoolsplash.jpg'); margin: 0 auto; background-size:contain; background-attachment: fixed; width: 100%; height:100%; background-repeat:no-repeat;}
 
   /******** ABOUT PAGE *********/
-  #about-focus{ background: none; z-index: 9999999; padding-top: 20%; padding-bottom:20%; }
-  .splash-about{ background: #8a8a8a;}
+  #about-focus{ z-index: 9999999; padding-top: 20%; padding-bottom:20%; }
   #founder1, #founder2 { width: 200px; margin-right:auto; margin-left:auto; padding-top:5%; padding-bottom:2%;}
   .photo-contact-info, .name-contact-info{ display:inline-block; float:left; width: 250px; padding-top: 2.5%; padding-bottom:2.5%;}
   .founder-info{ display:inline; padding-left: 6%; padding-right: 2%; -ms-word-break: break-all; word-break: break-all; word-break: break-word; -webkit-hyphens: auto; -moz-hyphens: auto; -ms-hyphens: auto; hyphens: auto; }
@@ -218,11 +220,13 @@
   .mobile { display: inline-block;}
   .desktop { display: none;}
   .span1,.span2,.span3,.span4,.span5,.span6,.span7,.span8,.span9 {width: 100%;} 
-  .section1 p {	font: 1.2em/130% 'monacoregular';	text-align: center;}
+  .section1 p {	font: 1.2em/130% 'monacoregular';}
+  .careers .section1 p { text-align: center;}
   .section1 h3 {	width: auto; border-bottom: none;	text-align: center;	padding: 0 0 .25em 0;	}
   .section1-content-container {	width: 16em;}
   .section3 .content-container {	width: 19em;	padding-top: 0;	}
   .block-right img, .block-left img{ display:block; width:70%; margin-right: auto; margin-left: auto; }
+  .section1-content-container { margin-top: 2em !important; margin-bottom: 2em !important; }
 
   /********** HEADER **********/
   #header {	height: 170px;}
@@ -252,7 +256,9 @@
   .founder-info, .photo-contact-info, .name-contact-info{ display:block; float:none; clear:both; padding-top:3% }
 
   /******** CAREERS PAGE *******/
-  .b-page-image.careers {	background-image: none;	background: #424345;}
+  .b-page-image.careers, 
+  .b-page-image.about, 
+  .b-page-image.academy {	background-image: none;	background: #424345;}
   .section1-content-container {	background: none;	}
   .testimonial-img {	display: none;}
   .testimonial-copy-mobile {	width: 100%;	display: block;	}
@@ -288,5 +294,4 @@
   .footer-copyright { width: 80%; text-align: center; margin-left: 1.7em; }
   .twitter-footer { margin-left: 1.8em; }
   .footer-madeny { text-align: center; }
-  .twitter-footer { margin-left: 0.9em; }
 }
