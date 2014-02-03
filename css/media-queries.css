@@ -7,16 +7,20 @@
 
   /********* GENERAL *********/
   .wrapper-splash { width: 830px; padding: 20px; }
-  .section1-content-container { width: 57.5em;}
+  .section1-content-container { width: 793.265625px;}
   .section2 .content-container { width: 77.2em;}
   .section3 .content-container { width: 77.2em;}
   .section1 p { font: 1.3em/100% 'monacoregular';}
   .section1 h3 { font: 1.8em/100% 'monacoregular';}
   .section3 .content-container { width: 77.2em;  }
-  .generic-content { width: 57.5em; }
+  .generic-content { width: 793.265625px; }
 
   /********** HEADER **********/
   .header-section > .content-container { width: 77.7em;}
+
+
+  /****** ACADEMY PAGE *******/
+  .academy-page .block-right img { width: auto; }
 
   /****** CAREERS PAGE *******/
   .testimonial-copy { width: 44%;}
