@@ -388,10 +388,12 @@
   .section1 .apply-button { text-align: center; }
 
   /******** RECRUITING ********/
-  .right-col{ display:none;}
-  .right-container, .left-container, .left-col{ width:100%; right:0%; left:0%;}
-  .left-col{ padding-bottom: 25%;}
+  .recruit-window .block-left{ width:100%; padding-bottom: 25%;}
+  .recruit-window .block-right{ display:none}
+  .ss-choices{ width: 100%;}
+  .ss-choice-item{ float:none; clear: both; }
   .logo-center img{ width: 80%; height: auto;}
+  .mid-radio{ border: 0;}
 
   /********** FOOTER **********/
   .footer-wrapper {	width: 295px;	}
