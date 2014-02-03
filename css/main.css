@@ -148,7 +148,7 @@ li {
 }
 
 .section1-content-container {
-    width: 87%;
+    width: 75%;
     margin: 0 auto;
     position: relative;
     padding: 2%;
@@ -157,6 +157,12 @@ li {
     color: #f4f4f4;
     margin-top: 8em !important;
     margin-bottom: 8em !important;
+}
+
+.careers-page .section1-content-container {
+    width: 87%;
+    margin-bottom: 4em !important;
+    margin-top: 4em !important;
 }
 
 .section1 h2 {
@@ -177,6 +183,7 @@ li {
 .section1 p {
     text-align: left; 
     font: 1.2em/120% 'monacoregular';
+    margin: 0;
 }
 
 .section2 .content-container {
@@ -1570,6 +1577,10 @@ a#google-maps-wrapper{
   padding-bottom:10%;
 }
 
+.generic-content h2 {
+    font: 2.8em 'inconsolatamedium';
+}
+
 .generic-content{
 	font: 1.3em/120% 'inconsolatamedium';
 }
@@ -1599,10 +1610,9 @@ a#google-maps-wrapper{
     float: left;
     top: 0;
     height: 100%;
-    width:48%;
+    width: 35%;
 }
 .block-right img {
-    width:100%;
     height:auto;
     vertical-align: middle;
 }
@@ -1611,15 +1621,14 @@ a#google-maps-wrapper{
     margin-top:auto;
     margin-bottom:auto;
     display: inline-block;
-    padding-right:1%;
+    padding-right: 7%;
     top: 0;
     left: 0;
     float:left;
     height: 100%;
-    width:48%;
+    width: 55%;
 }
 .block-left img {
-    width:100%;
     height:auto;
     vertical-align: middle;
 }
@@ -1711,7 +1720,7 @@ a#google-maps-wrapper{
 /*****************************/
 
 .b-page-image.academy {
-    background: url('../assets/img/schoolsplash.jpg');
+    background: url('../assets/img/schoolsplashdark.jpg');
     background-size: cover;
     background-attachment: fixed;
 }
@@ -1724,9 +1733,6 @@ a#google-maps-wrapper{
 }
 #academy-focus{
   margin-top: 15%;
-}
-#audience-text{
-  padding-top: 18%;
 }
 
 /******** CAREERS PAGE *******/
@@ -1896,7 +1902,7 @@ a#google-maps-wrapper{
 
 .guild-copy {
     margin: 1em 0;
-    font: 1.2em/130% 'monacoregular';
+    font: 1.3em/120% 'inconsolatamedium';
     width: 54%;
     float: left;
 }
@@ -2008,7 +2014,7 @@ a#google-maps-wrapper{
 
 .perks-copy li {
     list-style-type: disc;
-    font: 1.2em/130% 'monacoregular';
+    font: 1.3em/140% 'inconsolatamedium';
 }
 
 #perks-copy1 {
@@ -2054,6 +2060,11 @@ a#google-maps-wrapper{
 footer {
     background-image: url('../assets/img/bgblack.png');
 }
+
+footer p {
+    margin: 0;
+}
+
 .footer-section {
     padding-top: 5%;
     padding-bottom: 5%;   

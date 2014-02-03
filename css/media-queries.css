@@ -107,10 +107,11 @@
   .section3 .content-container { width: 51.5em;	padding-top: 0;	}
   .section1 p { font: 1.3em/100% 'monacoregular'; }
   .careers-page .section1 p { text-align: center; }
-  .section1 h3 { font: 1.8em/100% 'monacoregular';	text-align: center;	width: 13.5em;margin: 0 0 .5em 3.4em;}
+  .section1 h3 { font: 1.8em/100% 'monacoregular';	text-align: center;	width: 11.5em;margin: 0 0 .5em 5.9em;}
   .section1-content-container {	width: 36.5em;}
   .section2 .content-container { width: 51.5em;}
   .section2 p {	font: 2.0em/120% 'monacoregular';}
+  .generic-content { width: 36.5em; }
 
   /********** HEADER **********/
   #navigation-mobile {	display: none;}
@@ -118,6 +119,11 @@
   nav a {	margin-left: 1.0em;	}
 
   /******** ABOUT PAGE *********/
+
+  /****** ACADEMY PAGE *******/
+
+  .audience-section .block-left { padding-right: 5%; width: 51%; }
+  .audience-section .block-right { padding-left: 1% width: 43%;}
 
   /****** CAREERS PAGE *******/
 
