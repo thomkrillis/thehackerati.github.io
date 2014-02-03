@@ -142,7 +142,7 @@
   #who-title, #who-info{ width:100%; float:none; clear:both; display:block;}
   #who-info{ border-left: 0; padding-left:0; margin-left:0;} 
   #who-title{ text-align: center;}
-  #who-title h2{ text-align: center;}
+  #who-title h2{ text-align: center; padding-bottom: 7.5%;}
   #who .column-1 img, #who .column-2 img, #who .column-3 img, .rollover {display:none;}
   #who .column-1, #who .column-2,#who .column-3  {width:100%;max-width:100%;height:auto;margin-left:0;margin-top:0;}
   #who .column-1 h2{text-align:center;}
@@ -271,6 +271,8 @@
 /*  .photo-contact-info{display:inline-block;  }*/
   .about-page #section4-anchor-link .block-left, 
   .about-page #section3-anchor-link .block-left { width: 100%; }
+  .about-page #section3-anchor-link img,
+  .about-page #section4-anchor-link img { width: 100%; }
   #benefits-img { margin-top: 1em; }
 
   /********** FOOTER **********/
