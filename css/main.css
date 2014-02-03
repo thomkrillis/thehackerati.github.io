@@ -355,6 +355,9 @@ a.about-link {
     box-shadow: none;
     background-image:none;
 }
+.welcome-container .content-container {
+    width:80%;
+}
 .welcome-container .logo {
     height: 8em;
     padding-top: 2.5em;
@@ -492,7 +495,7 @@ li.definitions {
     width: 100%;
     padding-top:18%;
     padding-bottom: 10%;
-    min-width: 475px;
+    min-width: 425px;
 }
 
 /* BLOCK 2  | MEET THE HACKERATI */

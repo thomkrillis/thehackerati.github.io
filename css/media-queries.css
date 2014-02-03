@@ -125,6 +125,19 @@
   .header-section > .content-container {	width: 50em;}
   nav a {	margin-left: 1.0em;	}
 
+  /********** HOME PAGE **********/
+  .welcome-container .logo {	float: none;}
+  .welcome-container .nav-links {	float: none;	text-align: center;	}
+  .welcome-container .content-container nav {	font: 1.8em/100% 'monacoregular'; margin-top: 0;	padding-top:0;	padding-bottom: 1.0em;}
+  .welcome-container nav a {	margin-left: 1.0em;	}
+  .welcome-container .header-section > .content-container {	width: 31em;}
+  .welcome-container .logo img {	width: 76%;	max-height: none;	}
+  .welcome-container .block-right { display: none;	} 
+  .welcome-container .block-left { width:100%;	} 
+  #type-command-one, #type-command-two, #type-command-three{ display: none;}
+  .terminal-buttons { left:0; text-align: center; width:100%; }
+  #terminal-window a {font-size: 1.2em; padding: 15px 18px; margin-left: 3%; margin-right: 3%;}
+
   /******** ABOUT PAGE *********/
 
   .rob, .geoff { width: 100%; }
@@ -203,6 +216,14 @@
   nav a {	margin-left: 1.0em;	}
   .header-section > .content-container {	width: 31em;}
   .logo img {	width: 76%;	max-height: none;	}
+
+  /********** HOME PAGE **********/
+  .welcome-container .block-right { display: none;	} 
+  .welcome-container .block-left { width:100%;	} 
+  #type-command-one, #type-command-two, #type-command-three{ display: none;}
+  .terminal-buttons { left:0; text-align: center; width:100%; }
+  #terminal-window a {font-size: 1.2em; padding: 15px 18px; margin-left: 3%; margin-right: 3%;}
+  #terminal-block-title {font-size: 5.5em; }
 
     /****** CAREERS PAGE *******/
   .section1-content-container {	width: 22.5em;}
@@ -286,6 +307,11 @@
   nav a {	margin-left: 0.5em;}
   .header-section > .content-container {	width: 21em;}
   .logo img {	width: 94%;	max-height: none;	}
+
+  /********** HOME PAGE **********/
+  .related-words-terminal, .terminal-buttons{ display:none;}
+  #terminal-block-title {font-size: 4.0em; }
+
 
   /******** ACADEMY PAGE *********/
   #academy-focus{ background: none; z-index: 9999999; margin-top: 0; }
