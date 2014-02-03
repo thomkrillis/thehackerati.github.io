@@ -10,8 +10,8 @@
   .section1-content-container { width: 793.265625px;}
   .section2 .content-container { width: 77.2em;}
   .section3 .content-container { width: 77.2em;}
-  .section1 p { font: 1.3em/100% 'monacoregular';}
-  .section1 h3 { font: 1.8em/100% 'monacoregular';}
+  .section1 p { font: 1.3em/100% 'inconsolatamedium';}
+  .section1 h3 { font: 1.8em/100% 'inconsolatamedium';}
   .section3 .content-container { width: 77.2em;  }
   .generic-content { width: 43em; }
   .block-mobile { display: none; }
@@ -27,9 +27,9 @@
   .testimonial-copy { width: 44%;}
   .apply-now-button p { font: 1.5em/120% 'inconsolatamedium' !important;}
   .perks-cell { position: relative; width: 300px; height: 300px; margin: 30px; float: left; }
-  .section2 p { font: 2.0em/120% 'monacoregular'; color: #f6f6f6;}
-  .perks-copy li { list-style-type: disc; font: 1.4em/150% 'monacoregular'; }
-  .guild-copy { margin: 1em 0; font: 1.4em/120% 'monacoregular'; width: 54%; float: left; }
+  .section2 p { font: 2.0em/120% 'inconsolatamedium'; color: #f6f6f6;}
+  .perks-copy li { list-style-type: disc; font: 1.4em/150% 'inconsolatamedium'; }
+  .guild-copy { margin: 1em 0; font: 1.4em/120% 'inconsolatamedium'; width: 54%; float: left; }
 
 .social-media-sprite {
   margin-left: 48%;
@@ -110,12 +110,12 @@
   .desktop { display: none;	}
   .wrapper-splash {	width: 650px;	font-size: 16px;	padding: 15px; }
   .section3 .content-container { width: 51.5em;	padding-top: 0;	}
-  .section1 p { font: 1.3em/100% 'monacoregular'; }
+  .section1 p { font: 1.3em/100% 'inconsolatamedium'; }
   .careers-page .section1 p { text-align: center; }
-  .section1 h3 { font: 1.8em/100% 'monacoregular';	text-align: center;	width: auto; margin: 0 4.4em .5em 4.4em;}
+  .section1 h3 { font: 1.8em/100% 'inconsolatamedium';	text-align: center;	width: auto; margin: 0 4.4em .5em 4.4em;}
   .section1-content-container {	width: 36.5em;}
   .section2 .content-container { width: 51.5em;}
-  .section2 p {	font: 2.0em/120% 'monacoregular';}
+  .section2 p {	font: 2.0em/120% 'inconsolatamedium';}
   .generic-content { width: 36.5em; }
   .block-mobile { display: block; }
   .block-desktop { display: none; }
@@ -128,7 +128,7 @@
   /********** HOME PAGE **********/
   .welcome-container .logo {	float: none;}
   .welcome-container .nav-links {	float: none;	text-align: center;	}
-  .welcome-container .content-container nav {	font: 1.8em/100% 'monacoregular'; margin-top: 0;	padding-top:0;	padding-bottom: 1.0em;}
+  .welcome-container .content-container nav {	font: 1.8em/100% 'inconsolatamedium'; margin-top: 0;	padding-top:0;	padding-bottom: 1.0em;}
   .welcome-container nav a {	margin-left: 1.0em;	}
   .welcome-container .header-section > .content-container {	width: 31em;}
   .welcome-container .logo img {	width: 76%;	max-height: none;	}
@@ -162,11 +162,11 @@
   .testimonial-copy-tablet {	width: 100%; display: block;}
   .testimonial-img {	display: block;	width: 100%;	margin: 2em 0;}
   .apply-now-button p {font: 1.5em/120% 'inconsolatamedium' !important;	}
-  .perks-copy li {	font: 1.4em/150% 'monacoregular';	}
+  .perks-copy li {	font: 1.4em/150% 'inconsolatamedium';	}
   .perks-cell {	width: 300px;	height: 300px;	margin: 30px;	}
   .guild-shield, .guild-copy {	float: none;	width: 100%;	}
   .guild-shield {	text-align: center;	}
-  .guild-copy {	font: 1.4em/130% 'monacoregular';	}
+  .guild-copy {	font: 1.4em/130% 'inconsolatamedium';	}
   .academy-page #section2-anchor-link .block-left { width: 100%; }
   .academy-page #section2-anchor-link .block-mobile { text-align: center; }
   .section1 .apply-button { text-align: center; }
@@ -198,8 +198,8 @@
   .careers-page .section1 p { text-align: center; }
   .generic-container{ width: 100%; padding-top:5%; padding-bottom:5%;}
   .generic-content{ width:80%; padding-top: 2%; padding-bottom: 2%; }
-  .generic-content h2 {	font: 2.0em 'monacoregular';	}
-  .generic-content p {	font: 1.0em/130% 'monacoregular'; }
+  .generic-content h2 {	font: 2.0em 'inconsolatamedium';	}
+  .generic-content p {	font: 1.0em/130% 'inconsolatamedium'; }
   .block-right, .block-left{ /*display:block;*/ width:100%; float:none; clear:both; padding-top: 5%; padding-bottom: 5%;}
   .block-right img, .block-left img{ display:block; width:50%; margin-right: auto; margin-left: auto; }
   .text-focus{ height: 100%; width: 100%;}
@@ -214,7 +214,7 @@
   /********** HEADER **********/
   .logo {	float: none;}
   .nav-links {	float: none;	text-align: center;	}
-  .content-container nav {	font: 1.8em/100% 'monacoregular';	margin-top: 1.0em;	padding-bottom: 1.2em;}
+  .content-container nav {	font: 1.8em/100% 'inconsolatamedium';	margin-top: 1.0em;	padding-bottom: 1.2em;}
   nav a {	margin-left: 1.0em;	}
   .header-section > .content-container {	width: 31em;}
   .logo img {	width: 76%;	max-height: none;	}
@@ -233,12 +233,12 @@
   .testimonial-copy-mobile {	display: none;}
   .testimonial-img { display: block;	width: 100%;	margin: 2em 0;}
   .section1 h3 { text-align: center;	width: auto;	margin: 0 1.5em .5em 1.5em; border: none;	}
-  .section1 h2 { font: 3.5em/100% 'monacoregular';	}
+  .section1 h2 { font: 3.5em/100% 'inconsolatamedium';	}
   .section2 .content-container {	width: 23.0em;}
   .perks-cell {	width: 280px;	height: 280px;	margin: 20px;	}
-  .perks-copy li {	font: 1.2em/150% 'monacoregular';	}
-  .section2 p {	font: 1.7em/120% 'monacoregular';	}
-  h2 {	font: 3.5em 'monacoregular';}
+  .perks-copy li {	font: 1.2em/150% 'inconsolatamedium';	}
+  .section2 p {	font: 1.7em/120% 'inconsolatamedium';	}
+  h2 {	font: 3.5em 'inconsolatamedium';}
   .guild-shield img, .guild-shield, .guild-copy {	width: 100%; float: none;	}
   .careers-page .splash-container { padding-top: 7%; padding-bottom: 7%; }
   .careers-page .section1-content-container { margin-bottom: 0; margin-top: 0; }
@@ -254,7 +254,7 @@
   #founder1, #founder2 { width: auto; margin-right:0; margin-left:0; padding-top:0; padding-bottom:2%;}
   .photo-contact-info, .name-contact-info{ display:inline-block; float:left; width: 250px; padding-top: 2.5%; padding-bottom:2.5%;}
   .founder-info{ display:inline-block; padding-left: 0; padding-right: 0; -ms-word-break: break-all; word-break: break-all; word-break: break-word; -webkit-hyphens: auto; -moz-hyphens: auto; -ms-hyphens: auto; hyphens: auto; }
-  .name-contact-info h3{ font: 1.1em/100% "inconsolata"; }
+  .name-contact-info h3{ font: 1.1em/100% "inconsolatamedium"; }
   .about-page .generic-content { width: 20em; }
 /*  .photo-contact-info{display:inline-block;  }*/
   .about-page #section4-anchor-link .block-left, 
@@ -282,7 +282,7 @@
   .mobile { display: inline-block;}
   .desktop { display: none;}
   .span1,.span2,.span3,.span4,.span5,.span6,.span7,.span8,.span9 {width: 100%;} 
-  .section1 p {	font: 1.2em/130% 'monacoregular';}
+  .section1 p {	font: 1.2em/130% 'inconsolatamedium';}
   .careers .section1 p { text-align: center;}
   .section1 h3 {	width: auto; border-bottom: none;	text-align: center;	padding: 0 0 .25em 0;	}
   .section1-content-container {	width: 16em;}
@@ -302,14 +302,14 @@
   #navigation {	display: none;}
   #navigation-mobile { display: block; width: 295px;	height: 50px;	position: absolute;	margin-left: -147.5px;	left: 50%;	margin-top: 100px;}
   #navigation-mobile ul {	list-style: none;	padding-left: 0;}
-  #navigation-mobile li {	list-style: none;	float: left; font: 16px 'monacoregular';}
+  #navigation-mobile li {	list-style: none;	float: left; font: 16px 'inconsolatamedium';}
   #navigation-mobile li a:hover {	color: #FFA500;	}
   #navigation-mobile li a {	color: #fff;}
   li#careers-mobile,li#academy-mobile {	margin-left: 30px;}
   li#about-mobile {	margin-left: 23px;}
   .logo {	float: none;}
   .nav-links {	float: none;	text-align: center;	}
-  .content-container nav {	font: 1.7em/100% 'monacoregular';	margin-top: 0.2em;	padding-bottom: 1.25em;	}
+  .content-container nav {	font: 1.7em/100% 'inconsolatamedium';	margin-top: 0.2em;	padding-bottom: 1.25em;	}
   nav a {	margin-left: 0.5em;}
   .header-section > .content-container {	width: 21em;}
   .logo img {	width: 94%;	max-height: none;	}
@@ -340,12 +340,12 @@
   .testimonial-img {	display: none;}
   .testimonial-copy-mobile {	width: 100%;	display: block;	}
   .testimonial-copy-tablet {	display: none;}
-  .section1 h2 {	font: 3.0em/100% 'monacoregular';	}
+  .section1 h2 {	font: 3.0em/100% 'inconsolatamedium';	}
   .section2 .content-container {	width: 21.0em;}
   .perks-cell {	width: 280px;	height: 280px;	margin: 2.5%;}
-  .perks-copy li {	font: 1.2em/150% 'monacoregular';	}
-  .section2 p {	font: 1.7em/120% 'monacoregular';	}
-  h2 {	font: 3.5em 'monacoregular';}
+  .perks-copy li {	font: 1.2em/150% 'inconsolatamedium';	}
+  .section2 p {	font: 1.7em/120% 'inconsolatamedium';	}
+  h2 {	font: 3.5em 'inconsolatamedium';}
   .guild-shield img, .guild-shield, .guild-copy {	width: 100%; float: none;	}
   .careers-page .section1-content-container { width: 16em; margin-top: 0; margin-bottom: 0; }
   .careers-page .splash-container { padding-top: 7%; padding-bottom: 7%; }
