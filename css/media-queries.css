@@ -13,7 +13,8 @@
   .section1 p { font: 1.3em/100% 'monacoregular';}
   .section1 h3 { font: 1.8em/100% 'monacoregular';}
   .section3 .content-container { width: 77.2em;  }
-  .generic-content { width: 793.265625px; }
+  .generic-content { width: 43em; }
+  .block-mobile { display: none; }
 
   /********** HEADER **********/
   .header-section > .content-container { width: 77.7em;}
@@ -116,6 +117,7 @@
   .section2 .content-container { width: 51.5em;}
   .section2 p {	font: 2.0em/120% 'monacoregular';}
   .generic-content { width: 36.5em; }
+  .block-mobile { display: none; }
 
   /********** HEADER **********/
   #navigation-mobile {	display: none;}
@@ -167,13 +169,19 @@
   .section3 .content-container { width: 23em;	padding-top: 0;	}
   .careers-page .section1 p { text-align: center; }
   .generic-container{ width: 100%; padding-top:5%; padding-bottom:5%;}
-  .generic-content{ width:80%;}
+  .generic-content{ width:80%; padding-top: 2%; padding-bottom: 2%; }
   .generic-content h2 {	font: 2.0em 'monacoregular';	}
-  .generic-content p {	font: 1.0em/130% 'monacoregular'; line-height:95%; padding-top: 2.5%; padding-bottom:2.5%}
-  .block-right, .block-left{ display:block; width:100%; float:none; clear:both; padding-top: 5%; padding-bottom: 5%;}
+  .generic-content p {	font: 1.0em/130% 'monacoregular'; }
+  .block-right, .block-left{ /*display:block;*/ width:100%; float:none; clear:both; padding-top: 5%; padding-bottom: 5%;}
   .block-right img, .block-left img{ display:block; width:50%; margin-right: auto; margin-left: auto; }
   .text-focus{ height: 100%; width: 100%;}
   .section1-content-container { margin-top: 2em !important; margin-bottom: 2em !important; }
+  .splash-container img { display: none; }
+  .splash-container { display: block; background: #5B5752; }
+  .text-focus { background: none; }
+  .block-desktop { display: none; }
+  .block-mobile { display: block; }
+  .block-mobile img { width: 100%; }
 
   /********** HEADER **********/
   .logo {	float: none;}
@@ -198,8 +206,8 @@
   .guild-shield img, .guild-shield, .guild-copy {	width: 100%; float: none;	}
 
   /******** ACADEMY PAGE *********/
-  .splash-container{ display:block; }
-  .splash-academy{ background-image:url('../assets/img/schoolsplash.jpg'); margin: 0 auto; background-size:contain; background-attachment: fixed; width: 100%; height:100%; background-repeat:no-repeat;}
+  .academy-page .generic-content { width: 20em; }
+  #academy-focus { margin-top: 0; }
 
   /******** ABOUT PAGE *********/
   #about-focus{ z-index: 9999999; padding-top: 20%; padding-bottom:20%; }
@@ -237,6 +245,13 @@
   .section3 .content-container {	width: 19em;	padding-top: 0;	}
   .block-right img, .block-left img{ display:block; width:70%; margin-right: auto; margin-left: auto; }
   .section1-content-container { margin-top: 2em !important; margin-bottom: 2em !important; }
+  .splash-container img { display: none; }
+  .splash-container { display: block; background: #5B5752; }
+  .text-focus { background: none; }
+  .block-desktop { display: none; }
+  .block-mobile { display: block; }
+  .block-mobile img { width: 100%; }
+  .generic-content { padding-top: 2%; padding-top: 2%; }
 
   /********** HEADER **********/
   #header {	height: 170px;}
@@ -256,7 +271,7 @@
   .logo img {	width: 94%;	max-height: none;	}
 
   /******** ACADEMY PAGE *********/
-  #academy-focus{ background: none; z-index: 9999999; padding-top: 20%; padding-bottom:20%; }
+  #academy-focus{ background: none; z-index: 9999999; margin-top: 0; }
   .splash-academy{ background: #ec6314;}
 
   /******** ABOUT PAGE *********/

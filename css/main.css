@@ -205,6 +205,7 @@ li {
 .section2 p {
     font: 1.7em/120% 'monacoregular';
     color: #f6f6f6;
+    margin: 0.3em 0;
 }
 
 .section3 {
@@ -232,6 +233,10 @@ li {
 
 .section3 .content-container {
     width: 71.9em;
+}
+
+.block-mobile {
+    display: none;
 }
 
 /********** HEADER **********/
@@ -1561,10 +1566,13 @@ a#google-maps-wrapper{
     font: 1.2em/120% 'monacoregular';
     background: rgba(0, 0, 0, .7);
     color: #f4f4f4;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
 }
 
 .text-focus h1{
-  font: 3.25em/100% 'monaregular';
+  font: 2.5em/100% 'monacoregular';
   text-align:center;
 }
 .block-right {
@@ -1722,7 +1730,6 @@ img.splash{
   margin-top: 7.5%;
   margin-bottom: 7.5%;
 }
-
 
 /******** ACADEMY PAGE *********/
 /*****************************/
