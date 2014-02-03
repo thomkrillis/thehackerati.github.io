@@ -34,10 +34,6 @@
 /********* GENERAL *********/
 /***************************/
 
-body * {
-    font-family: 'inconsolatamedium' !important;
-}
-
 body {
     width: 100%;
     line-height: 16px;
@@ -47,11 +43,11 @@ body {
 }
 
 p {
-	font-family: 'monacoregular';
+	font-family: 'inconsolatamedium';
 }
 
 h1 {
-	font: 7em 'monacoregular';
+	font: 7em 'inconsolatamedium';
 	text-shadow: rgba(0, 0, 0, 0.5) -1px 0, 
 	rgba(0, 0, 0, 0.3) 0 -1px, 
 	rgba(255, 255, 255, 0.5) 0 1px, 
@@ -63,7 +59,7 @@ h1 {
 }
 
 h2 {
-	font: 3.5em 'monacoregular';
+	font: 3.5em 'inconsolatamedium';
 	text-shadow: rgba(0, 0, 0, 0.5) -1px 0, 
 	rgba(0, 0, 0, 0.3) 0 -1px, 
 	rgba(255, 255, 255, 0.5) 0 1px, 
@@ -75,17 +71,17 @@ h2 {
 }
 
 h3 {
-	font: 1.2em/100% 'monacoregular';
+	font: 1.2em/100% 'inconsolatamedium';
 }
 
 h4 {
-	font: 2.0em/100% 'monacoregular';
+	font: 2.0em/100% 'inconsolatamedium';
 	margin: 0 0 20px 0;
 	color: #f4f4f4;
 }
 
 a {
-	font-family: 'monacoregular';
+	font-family: 'inconsolatamedium';
 	color: #666;
 	text-decoration: none;
 }
@@ -166,23 +162,23 @@ li {
 }
 
 .section1 h2 {
-    font: 3.25em/100% 'monacoregular';
+    font: 3.25em/100% 'inconsolatamedium';
     text-align: center;
     margin-bottom: .5em;
 }
 
 .section1 h3 {
-    font: 1.5em/100% 'monacoregular';
+    font: 1.5em/100% 'inconsolatamedium';
     margin: 0 0 .5em 0;
     padding: 0 0 .5em 0;
-    color: #EC6314;
-    border-bottom: 1px dotted #EAA07A;
+    color: #BFB6AA;
+    border-bottom: 1px dotted #BFB6AA;
     text-align: left;
 }
 
 .section1 p {
     text-align: left; 
-    font: 1.2em/120% 'monacoregular';
+    font: 1.2em/120% 'inconsolatamedium';
     margin: 0;
 }
 
@@ -197,13 +193,13 @@ li {
 }
 
 .section2 h3 {
-    font: 3em/100% 'monacoregular';
+    font: 3em/100% 'inconsolatamedium';
     margin-bottom: .5em;
     font-weight: bold;
 }
 
 .section2 p {
-    font: 1.7em/120% 'monacoregular';
+    font: 1.7em/120% 'inconsolatamedium';
     color: #f6f6f6;
     margin: 0.3em 0;
 }
@@ -271,11 +267,11 @@ li {
 #navigation li {
 	list-style: none;
 	float: left;
-	font: 20px 'monacoregular';
+	font: 20px 'inconsolatamedium';
 }
 
 .content-container nav {
-    font: 2em/100% 'monacoregular';
+    font: 2em/100% 'inconsolatamedium';
     color: #f4f4f4;
     margin-top: 0.75em;
 }
@@ -388,17 +384,17 @@ a.about-link {
     display: inline;
     font-size: 6em;
     letter-spacing: -6px;
-    font-family: 'monacoregular';
+    font-family: 'inconsolatamedium';
     color: #f4f4f4;
 }
 #terminal-block-subtitle {
-    font: .8em/100%'monacoregular';
+    font: .8em/100%'inconsolatamedium';
     color: #f4f4f4;
     text-align: center;
     margin-top: 1%;
 }
 .related-words-terminal {
-    font: 1.2em/100% 'monacoregular',sans-serif;
+    font: 1.2em/100% 'inconsolatamedium',sans-serif;
     color: rgb(236, 99, 20);
     margin-top: 3%;
     width: 98%;
@@ -406,7 +402,7 @@ a.about-link {
     text-align: left;
 }
 #phonetic {
-    font: 1.2em/140% 'monacoregular';
+    font: 1.2em/140% 'inconsolatamedium';
     color: #f4f4f4;
     font-style: italic;
     letter-spacing:0;
@@ -415,7 +411,7 @@ li.definitions {
     list-style:decimal;
 }
 .definitions {
-    font: 1.5em/130% 'monacoregular';
+    font: 1.5em/130% 'inconsolatamedium';
     letter-spacing: -1px;
     margin-bottom: 1%;
 }
@@ -436,14 +432,14 @@ li.definitions {
     margin-top:15%;
     clear: both;
     height: auto;
-    font-family:'monacoregular';
+    font-family:'inconsolatamedium';
     text-align:left;
     position:relative;
 }
 #type-command-one {
     width: auto;
     height: auto;
-    font: 1em/100%'monacoregular';
+    font: 1em/100%'inconsolatamedium';
     color: #f4f4f4;
     float: left;
     margin-top: 3%;
@@ -458,7 +454,7 @@ li.definitions {
 #type-command-two {
     width: auto;
     height: auto;
-    font: 1em/100%'monacoregular';
+    font: 1em/100%'inconsolatamedium';
     color: #f4f4f4;
     float: left;
     margin-top: 3%;
@@ -472,7 +468,7 @@ li.definitions {
 #type-command-three {
     width: auto;
     height: auto;
-    font: 1em/100%'monacoregular';
+    font: 1em/100%'inconsolatamedium';
     color: #f4f4f4;
     float: left;
     margin-top: 3%;
@@ -519,7 +515,7 @@ li.definitions {
 #who-title h1 {
     margin-bottom: 0.5%;
     font-size: 2.5em;
-    font: 3em/100% 'monacoregular';
+    font: 3em/100% 'inconsolatamedium';
     display: inline-block;
     letter-spacing: -2px;
     padding-bottom: 0px;
@@ -529,7 +525,7 @@ li.definitions {
 #who-title h2 {
     margin-bottom: 0px;
     font-size: 1.5em;
-    font: 1.5em/100% 'monacoregular';
+    font: 1.5em/100% 'inconsolatamedium';
     letter-spacing: -1px;
     padding-bottom: 0px;
     border-bottom: 0px;
@@ -549,7 +545,7 @@ li.definitions {
 #wrapper-columns h2 {
     margin-bottom: 3%;
     font-size: 1.5em;
-    font: 1.5em/100% 'monacoregular';
+    font: 1.5em/100% 'inconsolatamedium';
     letter-spacing: -1px;
     padding-bottom: 0px;
     border-bottom: 0px;
@@ -843,7 +839,7 @@ a.spin-active {
     letter-spacing:-1px;
 }
 .card-copy h5 {
-    font: 1.3em/100%"monacoregular";
+    font: 1.3em/100%"inconsolatamedium";
     letter-spacing:-1px;
     color: #333;
     margin-top:15%;
@@ -966,7 +962,7 @@ a.spin-active {
 }
 #how h1 {
     margin-bottom: 0.5%;
-    font: 3em/100% 'monacoregular';
+    font: 3em/100% 'inconsolatamedium';
     display: inline-block;
     letter-spacing: -2px;
     text-align: left;
@@ -1153,7 +1149,7 @@ body > svg {
     padding-bottom:0;
     border-bottom:0;
     color:white;
-    font: 3em/100% 'monacoregular';
+    font: 3em/100% 'inconsolatamedium';
 }
 .toggle-details {
     width: 320px;
@@ -1254,7 +1250,7 @@ body > svg {
     margin: 0 auto;
 }
 #views_slideshow_cycle_teaser_section_testslideshow-block .field-content {
-    font-family:"monacoregular";
+    font-family:"inconsolatamedium";
     font-size:1.1em;
     padding-right:10px;
 }
@@ -1267,7 +1263,7 @@ body > svg {
 }
 .views-field-field-slideinfo {
     font-size:.8em;
-    font-family:"monacoregular";
+    font-family:"inconsolatamedium";
     color:black;
     text-decoration:none;
     text-align:center;
@@ -1278,7 +1274,7 @@ body > svg {
     font-size:1.5em;
     padding-right:10px;
     color:#535353;
-    font-family:"monacoregular";
+    font-family:"inconsolatamedium";
     text-shadow:#000 0 -1px 0;
     font-weight:bold;
     text-decoration:none;
@@ -1443,7 +1439,7 @@ p.bjqs-caption {
     border-bottom:0;
     color:white;
     float: left;
-    font: 3em/100% 'monacoregular';
+    font: 3em/100% 'inconsolatamedium';
 }
 #contact-copy {
     padding-left: 5%;
@@ -1582,7 +1578,7 @@ a#google-maps-wrapper{
     margin-right:auto;
     width: 100%;
     padding: 2%;
-    font: 1.2em/120% 'monacoregular';
+    font: 1.2em/120% 'inconsolatamedium';
     background: rgba(0, 0, 0, .7);
     color: #f4f4f4;
     border-radius: 8px;
@@ -1591,7 +1587,7 @@ a#google-maps-wrapper{
 }
 
 .text-focus h1{
-  font: 2.5em/100% 'monacoregular';
+  font: 2.5em/100% 'inconsolatamedium';
   text-align:center;
 }
 .block-right {
@@ -1810,7 +1806,7 @@ img.splash{
     -o-border-radius:5px;
     border-radius:5px;
     display:inline-block;
-    color:#BFB6AA;
+    color: #EF602A;
     /*font: 1.2em/120% 'inconsolatamedium' !important;*/
     /*font-weight: bold;*/
     height:auto;
@@ -2174,12 +2170,12 @@ footer p {
 }
 
 #footer li {
-	font-family: 'monacoregular';
+	font-family: 'inconsolatamedium';
 }
 
 #footer .sitemap.column ul li a {
 	color: #fff;
-	font-family: 'monacoregular';
+	font-family: 'inconsolatamedium';
 }
 
 #footer .sitemap.column ul li a:hover {
@@ -2241,7 +2237,7 @@ footer p {
 .sitemap a:link {
     color: #EC6314;
     text-align: left;
-    font: 1.5em/100% 'monacoregular';
+    font: 1.5em/100% 'inconsolatamedium';
 }
 
 .sitemap a:visited {
@@ -2255,7 +2251,7 @@ footer p {
 .sitemap ul a:link {
     color: #8CBAE0;
     list-style: none;
-    font: 1.3em/100% 'monacoregular';
+    font: 1.3em/100% 'inconsolatamedium';
 }
 
 .sitemap ul a:visited {
@@ -2283,14 +2279,14 @@ footer p {
 }
 
 .footer-contact {
-	  font: 1.3em/100% 'monacoregular';
+	  font: 1.3em/100% 'inconsolatamedium';
     line-height: 1.3em;
 }
 
 .footer-copyright {
     color: #f4f4f4;
     margin-bottom: 10%;
-    font: 1.3em/100% 'monacoregular';
+    font: 1.3em/100% 'inconsolatamedium';
     line-height: 1.3em;
     margin-left: 0;
 }
