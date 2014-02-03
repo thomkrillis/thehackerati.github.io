@@ -1518,47 +1518,13 @@ a#google-maps-wrapper{
     font-size:24px;
 }
 
-/******** ABOUT PAGE *********/
-/*****************************/
-
-.founder-container {
-	width: 47%;
-	display: inline-block;
-	vertical-align: top;
-	margin-top: 20px;
-}
-
-#founder1, #founder2{
-  
-}
-
-.geoff {
-	margin-right: 2%;
-}
-
-.splash-about{
-  background:url('../assets/img/aboutsplash_0.jpg');
-  margin: 0 auto;
-  background-size:cover;
-  background-attachment: fixed;
-}
-#about-focus{
-  margin-top: 7.5%;
-  margin-bottom: 7.5%;
-}
-
-
-
-.b-page-image.about {
-    background: url('../assets/img/aboutsplash_0.jpg');
-    background-size: cover;
-    background-attachment: fixed;
-}
 
 /******** COMMON  ************/
 /*****************************/
 .splash-container {
   width: 100%;
+  display: inline-block;
+  position:relative;
 }
 
 .generic-container{
@@ -1640,6 +1606,24 @@ a#google-maps-wrapper{
     vertical-align: middle;
 }
 
+img.splash{
+  position: fixed;
+  top: 0;
+  left: 0;
+  min-height: 100%;
+  min-width: 1024px;
+  width: 100%;
+  height: auto;
+  z-index: -200;
+}
+
+/* fix so that splash image remains centered */
+@media screen and (max-width: 1024px){
+  img.splash {
+    left: 50%;
+    margin-left: -512px; }
+}
+
 .right-container {
 	clear:left;
 	float:left;
@@ -1716,21 +1700,33 @@ a#google-maps-wrapper{
 	height: 400px;
 }
 
+/******** ABOUT PAGE *********/
+/*****************************/
+
+.founder-container {
+	width: 47%;
+	display: inline-block;
+	vertical-align: top;
+	margin-top: 20px;
+}
+
+#founder1, #founder2{
+  
+}
+
+.geoff {
+	margin-right: 2%;
+}
+
+#about-focus{
+  margin-top: 7.5%;
+  margin-bottom: 7.5%;
+}
+
+
 /******** ACADEMY PAGE *********/
 /*****************************/
 
-.b-page-image.academy {
-    background: url('../assets/img/schoolsplashdark.jpg');
-    background-size: cover;
-    background-attachment: fixed;
-}
-
-.splash-academy {
-  background:url('../assets/img/schoolsplash.jpg');
-  margin: 0 auto;
-  background-size:cover;
-  background-attachment: fixed;
-}
 #academy-focus{
   margin-top: 15%;
 }
