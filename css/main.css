@@ -1646,7 +1646,7 @@ img.splash{
     left: 50%;
     margin-left: -512px; }
 }
-
+/*
 .right-container {
 	clear:left;
 	float:left;
@@ -1676,7 +1676,7 @@ img.splash{
 	left:56%;
 	overflow:hidden;
 }
-
+*/
 /******** RECRUITING PAGE *********/
 /**********************************/
 
@@ -1685,6 +1685,7 @@ img.splash{
 	margin-bottom: 2%;
 	margin-left:auto;
 	margin-right:auto
+  text-align:center;
 }
 
 .logo-center img{
@@ -1696,6 +1697,22 @@ img.splash{
 	font: 1.3em/120% 'inconsolatamedium';
 }
 
+.ss-choices{
+  width: 400px;
+}
+
+.ss-choice-item{
+  float: left;
+  padding-left: 10px;
+  padding-right: 10px;
+	font: 1.1em/120% 'inconsolatamedium';
+}
+
+.mid-radio{
+  border-left: 1px solid #CCC;
+  border-right: 1px solid #CCC;
+}
+
 .ss-q-short {
 	width: 150px;
 	height: 18px; 
@@ -1704,23 +1721,34 @@ img.splash{
 .required-message,
 .ss-required-asterisk{
 	color:#EC6314;
+	font: 1.0em/120% 'inconsolatamedium';
 }
 
 .recruit-window{
-	max-width: 750px;
+  text-align: left;
+	max-width: 650px;
+  width: 90%;
 	color: rgb(244, 244, 244);
 	margin-left:auto;
 	margin-right:auto;
 }
 
-.recruit-left{
-	padding-left:15%;
+.recruit-window .block-left, 
+.recruit-window .block-right{
+
+}
+
+.recruit-window .block-left{
+  width:60%;
+}
+.recruit-window .block-right{
+  width:35%;
 }
 
 #statue{ 
-	padding-top:4%;
+	padding-top:8%;
 	width: 250px;
-	height: 400px;
+	height: 425px;
 }
 
 /******** ABOUT PAGE *********/
