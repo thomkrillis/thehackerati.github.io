@@ -155,8 +155,10 @@
   .rob, .geoff { width: 100%; }
   .name-contact-info { display: inline-block; }
   #apprentice-text { text-align: center; }
+  .about-page #section2-anchor-link img,
   .about-page #section3-anchor-link img,
   .about-page #section4-anchor-link img { width: auto; }
+  .about-page #section2-anchor-link .block-left, 
   .about-page #section3-anchor-link .block-left,
   .about-page #section3-anchor-link .block-right, 
   .about-page #section4-anchor-link .block-left { width: 100%; padding-left: 0; padding-right: 0;}
@@ -270,6 +272,7 @@
   .name-contact-info h3{ font: 1.1em/100% "inconsolatamedium"; }
   .about-page .generic-content { width: 20em; }
 /*  .photo-contact-info{display:inline-block;  }*/
+  .about-page #section2-anchor-link .block-left, 
   .about-page #section4-anchor-link .block-left, 
   .about-page #section3-anchor-link .block-left { width: 100%; }
   .about-page #section3-anchor-link img,
