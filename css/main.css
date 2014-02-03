@@ -1746,6 +1746,7 @@ img.splash{
   margin-bottom: 7.5%;
 }
 
+.about-page #section2-anchor-link img,
 .about-page #section4-anchor-link img,
 .about-page #section3-anchor-link img {
     width: 100%;
@@ -1769,6 +1770,10 @@ img.splash{
 
 .geoff, .rob {
     padding-bottom: 4em;
+}
+
+.about-page #section2-anchor-link .block-mobile {
+    text-align: center;
 }
 
 /******** ACADEMY PAGE *********/
