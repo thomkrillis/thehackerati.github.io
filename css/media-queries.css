@@ -246,6 +246,7 @@
   .testimonial-img { display: block;	width: 100%;	margin: 2em 0;}
   .section1 h3 { text-align: center;	width: auto;	margin: 0 1.5em .5em 1.5em; border: none;	}
   .section1 h2 { font: 3.5em/100% 'inconsolatamedium';	}
+  .section1 h3 { font: 1.5em/100% 'inconsolatamedium';	}
   .section2 .content-container {	width: 23.0em;}
   .perks-cell {	width: 280px;	height: 280px;	margin: 20px;	}
   .perks-copy li {	font: 1.2em/150% 'inconsolatamedium';	}
