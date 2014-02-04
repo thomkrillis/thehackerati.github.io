@@ -380,10 +380,14 @@ a.about-link {
     text-decoration:none;
     background:rgba(255,255,255,0.5);
 }
+
+#terminal-window a:hover {
+    background:rgba(241,102,29,0.5);
+}
+
 #terminal-block-title {
     display: inline;
     font-size: 6em;
-    letter-spacing: -6px;
     font-family: 'inconsolatamedium';
     color: #f4f4f4;
 }
@@ -394,7 +398,7 @@ a.about-link {
     margin-top: 1%;
 }
 .related-words-terminal {
-    font: 1.2em/100% 'inconsolatamedium',sans-serif;
+    font: 1.2em/120% 'inconsolatamedium',sans-serif;
     color: rgb(236, 99, 20);
     margin-top: 3%;
     width: 98%;
@@ -412,7 +416,6 @@ li.definitions {
 }
 .definitions {
     font: 1.5em/130% 'inconsolatamedium';
-    letter-spacing: -1px;
     margin-bottom: 1%;
 }
 #def-1 {

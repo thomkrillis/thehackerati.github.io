@@ -7,7 +7,6 @@
 
   /********* GENERAL *********/
   .wrapper-splash { width: 830px; padding: 20px; }
-  .section1-content-container { width: 793.265625px;}
   .section2 .content-container { width: 77.2em;}
   .section3 .content-container { width: 77.2em;}
   .section1 p { font: 1.3em/100% 'inconsolatamedium';}
@@ -19,6 +18,9 @@
   /********** HEADER **********/
   .header-section > .content-container { width: 77.7em;}
 
+  /********** HOME PAGE **********/
+  /* SECTION 1 */
+  .welcome-content { width: 70em; }
 
   /****** ACADEMY PAGE *******/
   .academy-page .block-right img { width: auto; }
@@ -30,6 +32,7 @@
   .section2 p { font: 2.0em/120% 'inconsolatamedium'; color: #f6f6f6;}
   .perks-copy li { list-style-type: disc; font: 1.4em/150% 'inconsolatamedium'; }
   .guild-copy { margin: 1em 0; font: 1.4em/120% 'inconsolatamedium'; width: 54%; float: left; }
+  .careers-page .section1-content-container { width: 1030.9375px;}
 
 .social-media-sprite {
   margin-left: 48%;
@@ -113,7 +116,6 @@
   .section1 p { font: 1.3em/100% 'inconsolatamedium'; }
   .careers-page .section1 p { text-align: center; }
   .section1 h3 { font: 1.8em/100% 'inconsolatamedium';	text-align: center;	width: auto; margin: 0 4.4em .5em 4.4em;}
-  .section1-content-container {	width: 36.5em;}
   .section2 .content-container { width: 51.5em;}
   .section2 p {	font: 2.0em/120% 'inconsolatamedium';}
   .generic-content { width: 36.5em; }
@@ -127,17 +129,18 @@
 
   /********** HOME PAGE **********/
   /* SECTION 1 */
-  .welcome-container .logo {	float: none;}
-  .welcome-container .nav-links {	float: none;	text-align: center;	}
+  .welcome-container .logo {	float: left; width: 24em;}
+  .welcome-container .nav-links {	float: left;	text-align: center;	}
   .welcome-container .content-container nav {	font: 1.8em/100% 'inconsolatamedium'; margin-top: 0;	padding-top:0;	padding-bottom: 1.0em;}
   .welcome-container nav a {	margin-left: 1.0em;	}
-  .welcome-container .header-section > .content-container {	width: 31em;}
-  .welcome-container .logo img {	width: 76%;	max-height: none;	}
+  .welcome-container .header-section > .content-container {	width: 24em;}
+  .welcome-container .logo img {	width: 100%;	max-height: none;	}
   .welcome-container .block-right { display: none;	} 
   .welcome-container .block-left { width:100%;	} 
   #type-command-one, #type-command-two, #type-command-three{ display: none;}
   .terminal-buttons { left:0; text-align: center; width:100%; }
   #terminal-window a {font-size: 1.2em; padding: 15px 18px; margin-left: 3%; margin-right: 3%;}
+  .nav-links .about-link { margin-left: 0.3em; }
   /* SECTION 2 */
   #who-title, #who-info{ width:100%; float:none; clear:both; display:block;}
   #who-info{ border-left: 0; padding-left:0; margin-left:0;} 
@@ -215,6 +218,7 @@
   .academy-page #section2-anchor-link .block-left { width: 100%; }
   .academy-page #section2-anchor-link .block-mobile { text-align: center; }
   .section1 .apply-button { text-align: center; }
+  .careers-page .section1-content-container { width: 36.5em;}
 
   /********** FOOTER **********/
 
@@ -321,7 +325,7 @@
   h2 {	font: 3.5em 'inconsolatamedium';}
   .guild-shield img, .guild-shield, .guild-copy {	width: 100%; float: none;	}
   .careers-page .splash-container { padding-top: 7%; padding-bottom: 7%; }
-  .careers-page .section1-content-container { margin-bottom: 0; margin-top: 0; }
+  .careers-page .section1-content-container { margin-bottom: 0; margin-top: 0; width: 22em; }
   .section1 .apply-button { text-align: center; }
 
   /******** ACADEMY PAGE *********/
@@ -450,6 +454,7 @@
   .careers-page .section1-content-container { width: 16em; margin-top: 0; margin-bottom: 0; }
   .careers-page .splash-container { padding-top: 7%; padding-bottom: 7%; }
   .section1 .apply-button { text-align: center; }
+  .apply-now-button { margin: 20px 30px; }
 
   /******** RECRUITING ********/
   .recruit-window .block-left{ width:100%; padding-bottom: 25%;}
