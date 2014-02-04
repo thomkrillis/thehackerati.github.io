@@ -221,6 +221,13 @@
   .academy-page #section2-anchor-link .block-mobile { text-align: center; }
   .section1 .apply-button { text-align: center; }
   .careers-page .section1-content-container { width: 36.5em;}
+  .block-mobile .perks-copy { position: relative; float: left; left: 4em; width: 50%; height: 40%;}
+  .block-mobile .perks-icon { position: relative; width: 42%; height: 90%; float: left;}
+  .block-mobile .perks-cell {float:none; width: 50em; height: 23em; margin-left: auto; margin-right: auto;}
+  .careers-page .section2 .block-mobile { padding-bottom: 5em; }
+  .careers-page .section2 .content-container { padding-top: 5em; padding-bottom: 0em; }
+  .block-mobile .perks-cell { margin-top: 0em; margin-bottom: 0em; }
+  .careers-page .section2 .block-mobile h2 { margin-bottom: 0.7em; }
 
   /********** FOOTER **********/
 
@@ -448,6 +455,7 @@
   .founder-info, .photo-contact-info, .name-contact-info{ display:block; float:none; clear:both; padding-top:3% }
   .about-page .generic-content { width: 15em; }
   #academy-focus { margin-top: 7.5%; margin-bottom: 7.5%; }
+  .about-page #section2-anchor-link img { width: 100%; }
 
   /******** CAREERS PAGE *******/
   .b-page-image.careers, 
