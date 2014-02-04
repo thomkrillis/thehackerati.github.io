@@ -128,6 +128,7 @@
   nav a {	margin-left: 1.0em;	}
 
   /********** HOME PAGE **********/
+
   /* SECTION 1 */
   .welcome-container .logo {	float: left; width: 24em;}
   .welcome-container .nav-links {	float: left;	text-align: center;	}
@@ -141,6 +142,8 @@
   .terminal-buttons { left:0; text-align: center; width:100%; }
   #terminal-window a {font-size: 1.2em; padding: 15px 18px; margin-left: 3%; margin-right: 3%;}
   .nav-links .about-link { margin-left: 0.3em; }
+  .welcome-content { width: 44em; }
+
   /* SECTION 2 */
   #who-title, #who-info{ width:100%; float:none; clear:both; display:block;}
   #who-info{ border-left: 0; padding-left:0; margin-left:0;} 
@@ -154,7 +157,6 @@
   #who .column-1:hover img,#who .column-2:hover img,#who .column-3:hover img {opacity:1;}
   
   /* SECTION 3 */
-
   .what-cards-mobile{display:block; width:100%;}
   .what-cards-mobile h1{ font: 2.5em/120% 'inconsolatamedium';}
   .what-cards-mobile h3{ font: 1.8em/120% 'inconsolatamedium'; }
@@ -274,7 +276,10 @@
   #type-command-one, #type-command-two, #type-command-three{ display: none;}
   .terminal-buttons { left:0; text-align: center; width:100%; }
   #terminal-window a {font-size: 1.2em; padding: 15px 18px; margin-left: 3%; margin-right: 3%;}
-  #terminal-block-title {font-size: 5.5em; }
+
+  /* SECTION 1 */
+  .welcome-content { width: 22em; }
+  #terminal-block-title { font-size: 4.0em; }
 
   /* SECTION 4 */
   #gear-wrapper{display: none;}
@@ -421,7 +426,12 @@
   .welcome-container .logo img {	width: 94%;	max-height: none;	}
   .welcome-container .block-left { width:100%;	} 
   .related-words-terminal, .terminal-buttons{ display:none;}
-  #terminal-block-title {font-size: 4.0em; }
+
+  /* SECTION 1 */
+  .welcome-content { width: 17em; }
+  #terminal-block-title {font-size: 2.9em; }
+  .welcome-container .logo img {width: 85%; margin-left: -3em; height: 8em;}
+  .nav-links .about-link {margin-left: 0em;}
 
   /******** ACADEMY PAGE *********/
   #academy-focus{ background: none; z-index: 9999999; margin-top: 0; }
