@@ -19,8 +19,19 @@
   .header-section > .content-container { width: 77.7em;}
 
   /********** HOME PAGE **********/
+
   /* SECTION 1 */
   .welcome-content { width: 70em; }
+
+  /* SECTION 2 */
+  .who-content { width: 70em; }
+  #wrapper-columns h2 { font: 1.5em/100% 'inconsolatamedium'; }
+  #who-info { font: 1.15em/120% 'inconsolatamedium'; }
+  .column-1 { font: 1.15em/120% 'inconsolatamedium'; }
+  .column-2 { font: 1.15em/120% 'inconsolatamedium'; }
+  .column-3 { font: 1.15em/120% 'inconsolatamedium'; }
+  #who-title h1 { font: 4.5em/100% 'inconsolatamedium';}
+  #who-title h2 { font: 3.0em/100% 'inconsolatamedium'; }
 
   /****** ACADEMY PAGE *******/
   .academy-page .block-right img { width: auto; }
@@ -147,25 +158,30 @@
 
   /* SECTION 2 */
   #who-title, #who-info{ width:100%; float:none; clear:both; display:block;}
-  #who-info{ border-left: 0; padding-left:0; margin-left:0;} 
+  #who-info{ border-left: 0; padding-left:0; margin-left:0; font: 1.15em/120% 'inconsolatamedium'; } 
   #who-title{ text-align: center;}
   #who-title h2{ text-align: center; padding-bottom: 7.5%;}
   #who .column-1 img, #who .column-2 img, #who .column-3 img, .rollover {display:none;}
-  #who .column-1, #who .column-2,#who .column-3  {width:100%;max-width:100%;height:auto;margin-left:0;margin-top:0;}
+  #who .column-1, #who .column-2,#who .column-3  {width:100%;max-width:100%;height:auto;margin-left:0;margin-top:0; font: 1.15em/120% 'inconsolatamedium';}
   #who .column-1 h2{text-align:center;}
   #wrapper-columns .column-1 p:nth-child(2), #wrapper-columns .column-2 p:nth-child(2), #wrapper-columns .column-3 p:nth-child(2) {display:none;} 
   #who .column-1:hover .rollover,#who .column-2:hover .rollover,#who .column-3:hover .rollover {opacity:0;}
   #who .column-1:hover img,#who .column-2:hover img,#who .column-3:hover img {opacity:1;}
-  
+  .who-content { width: 44em; }
+
   /* SECTION 3 */
   .what-cards-mobile{display:block; width:100%;}
   .what-cards-mobile h1{ font: 2.5em/120% 'inconsolatamedium';}
   .what-cards-mobile h3{ font: 1.8em/120% 'inconsolatamedium'; }
   .what-cards-mobile p { font: 1.3em/120% 'inconsolatamedium'; }
-   #carousel-wrapper,#carousel-buttons{display:none;}
+   #carousel-wrapper,
+   #carousel-buttons { display:none; }
+   .what-content { width: 44em; }
 
   /* SECTION 4 */
-  #gear-wrapper{opacity: .5;left: -180px;display:block;}
+  #gear-wrapper{opacity: .5;left: -180px;display:none;}
+  .how-content .block-left { width: 100%; }
+  .how-content { width: 44em; }
 
   /* SECTION 5 */
    #clients-title{width:275px;min-width:275px;}
@@ -285,14 +301,24 @@
   .welcome-container .block-left { width:100%;	} 
   #type-command-one, #type-command-two, #type-command-three{ display: none;}
   .terminal-buttons { left:0; text-align: center; width:100%; }
-  #terminal-window a {font-size: 1.2em; padding: 15px 18px; margin-left: 3%; margin-right: 3%;}
 
   /* SECTION 1 */
   .welcome-content { width: 22em; }
   #terminal-block-title { font-size: 4.0em; }
+  .terminal-buttons { margin-top: 3em; }
+  #terminal-window a {font-size: 1.2em; padding: 15px 18px; margin-left: 0; margin-right: 0; }
+
+  /* SECTION 2 */
+  .who-content { width: 22em; }
+  #who-title h2 { text-align: left; width: 10em; }
+  #who-title h1 { margin-bottom: 0.5em; }
+
+  /* SECTION 3 */
+  .what-content { width: 22em; }
 
   /* SECTION 4 */
   #gear-wrapper{display: none;}
+  .how-content { width: 22em; }
 
   /* SECTION 5 */
   #clients br {line-height:15px;} 
@@ -443,8 +469,18 @@
   /* SECTION 1 */
   .welcome-content { width: 17em; }
   #terminal-block-title {font-size: 2.9em; }
-  .welcome-container .logo img {width: 85%; margin-left: -3em; height: 8em;}
+  .welcome-container .logo img {width: 85%; margin-left: -3em; }
   .nav-links .about-link {margin-left: 0em;}
+
+  /* SECTION 2 */
+  .who-content { width: 19em; }
+  #who-title h1 { margin-bottom: 0.3em; }
+
+  /* SECTION 3 */
+  .what-content { width: 19em; }
+
+  /* SECTION 4 */
+  .how-content { width: 19em; }
 
   /* SECTION 6 */
   #google-maps-wrapper {width:250px;height:325px;margin-left:-125px;left:50%;top:50%;margin-top:-180px;}
