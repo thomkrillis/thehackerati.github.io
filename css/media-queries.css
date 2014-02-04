@@ -149,6 +149,14 @@
   #wrapper-columns .column-1 p:nth-child(2), #wrapper-columns .column-2 p:nth-child(2), #wrapper-columns .column-3 p:nth-child(2) {display:none;} 
   #who .column-1:hover .rollover,#who .column-2:hover .rollover,#who .column-3:hover .rollover {opacity:0;}
   #who .column-1:hover img,#who .column-2:hover img,#who .column-3:hover img {opacity:1;}
+  
+  /* SECTION 3 */
+
+  .what-cards-mobile{display:block; width:100%;}
+  .what-cards-mobile h1{ font: 2.5em/120% 'inconsolatamedium';}
+  .what-cards-mobile h3{ font: 1.8em/120% 'inconsolatamedium'; }
+  .what-cards-mobile p { font: 1.3em/120% 'inconsolatamedium'; }
+   #carousel-wrapper,#carousel-buttons{display:none;}
 
   /******** ABOUT PAGE *********/
 
