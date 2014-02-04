@@ -574,13 +574,13 @@ title: The Hackerati
   } 
   var marker;
   var map;
-  var contentString = 
-        '<img src="../assets/img/logo.png" style="margin-left: 40px; margin-bottom: 8px; width: 55%; height: auto;" />' +
-        '<p style="margin-left: 13px;"> 41 Cooper Square, #205</p><p style="margin-left: 13px;">New York, NY, 10003</p><p style="margin-left: 13px;">(917) 426-1066</p>';
+var contentString = 
+        '<img src="../assets/img/logo.png" style="width: 100%; height: auto;" />' +
+        '<p style="margin-top: 1em; font: 1.15em/120% inconsolatamedium"> 41 Cooper Square, #205</p><p>New York, NY, 10003</p><p>(917) 426-1066</p>';
   var infowindow = new google.maps.InfoWindow({
       content: contentString,
       maxWidth: 180,
-      maxHeight: 100
+      maxHeight: 200
   });
 
   var styles = [
@@ -588,19 +588,20 @@ title: The Hackerati
       featureType: "water",
       elementType: "geometry.fill",
       stylers: [
-        { color : "#007fe2" }
+        { color : "#007fe2" },
+        { saturation: -50 }
       ]    
     },{
-      featureType: "landscape",
+      /*featureType: "landscape",
       elementType: "geometry.fill",
       stylers: [
         { color : "#f4f4f4" }
       ]    
-    },{ 
+    },{ */
       featureType: "road.arterial",
       elementType: "geometry.fill",
       stylers: [
-        { color : "#333333" }
+        { color : "#5B5752" }
       ]    
     },{
       featureType: "road.local",
@@ -631,14 +632,14 @@ title: The Hackerati
       elementType: "geometry",
       stylers: [
         { visibility : "on" },
-        { color : "#f96815"}
+        { color : "#F86827"}
       ]    
     },{
       featureType: "poi.park",
       elementType: "geometry.fill",
       stylers: [
         { visibility : "on" },
-        { color : "#f96815"}
+        { color : "#F86827"}
       ]    
     }  
   ];
@@ -662,9 +663,10 @@ title: The Hackerati
     marker = new google.maps.Marker({
       map: map,
       draggable: false,
-      animation: google.maps.Animation.BOUNCE,
+      // animation: google.maps.Animation.BOUNCE,
       position: cooper
     });
+
 
 google.maps.event.addListener(window, 'load', toggleBounce);
 google.maps.event.addListener(marker, 'click', function() {
