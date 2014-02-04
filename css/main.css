@@ -985,6 +985,11 @@ a.spin-active {
     font: 3em/100% 'inconsolatamedium';
 }
 
+
+.what-cards-mobile h1 { 
+    font: 3em/100% 'inconsolatamedium'; 
+}
+
 /* GEARS CSS */
 
 body > svg {
@@ -1136,7 +1141,7 @@ body > svg {
 /* BLOCK 5  | CLIENTS */
 
 #clients {
-    background-image: url('../assets/img/bgorange.png');
+    background-image: url('../assets/img/bgdarkblue.png');
     background-repeat: repeat;
     overflow: hidden;
 }
@@ -1419,7 +1424,7 @@ p.bjqs-caption {
 
 /* BLOCK 6  | LETS TALK */
 .contact-container {
-    background: url('../assets/img/contactbg.jpg') no-repeat center center;
+    background: #5B5752;
     height: 800px;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -1429,7 +1434,6 @@ p.bjqs-caption {
     overflow: hidden;
 }
 .contact-bg-overlay {
-    background-color:rgba(6,31,69,.8);
     width: 100%;
     height: 100%;
 }
@@ -1448,7 +1452,6 @@ p.bjqs-caption {
     transition: height .25s linear;
 }
 #contact-content h1 {
-    letter-spacing:-4px;
     margin-bottom:0;
     padding-bottom:0;
     border-bottom:0;
@@ -1540,6 +1543,9 @@ p.bjqs-caption {
     vertical-align: middle;
     word-spacing: normal;
     font-size:1.2em;
+    -webkit-box-shadow: 0px 0px 29px -2px rgba(0,0,0,0.30);
+    -moz-box-shadow: 0px 0px 29px -2px rgba(0,0,0,0.76);
+    box-shadow: 0px 0px 29px -2px rgba(0,0,0,0.3);
 }
 a#google-maps-wrapper{
     color:black;
