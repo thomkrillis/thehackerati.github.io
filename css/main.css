@@ -248,7 +248,7 @@ li {
 }
 
 .logo img {
-    width: 100%;
+    max-height: 100%;
 }
 
 #header {
