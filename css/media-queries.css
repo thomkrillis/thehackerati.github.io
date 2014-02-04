@@ -433,6 +433,9 @@
   .welcome-container .logo img {width: 85%; margin-left: -3em; height: 8em;}
   .nav-links .about-link {margin-left: 0em;}
 
+  /* SECTION 6 */
+  #google-maps-wrapper {width:250px;height:325px;margin-left:-125px;left:50%;top:50%;margin-top:-180px;}
+
   /******** ACADEMY PAGE *********/
   #academy-focus{ background: none; z-index: 9999999; margin-top: 0; }
   .splash-academy{ background: #ec6314;}
