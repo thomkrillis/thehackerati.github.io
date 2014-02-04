@@ -248,7 +248,7 @@ li {
 }
 
 .logo img {
-    max-height: 100%;
+    width: 100%;
 }
 
 #header {
@@ -358,7 +358,7 @@ a.about-link {
     height: 9.5em;
     padding-top: 2.5em;
     padding-bottom: 0;
-    width: auto;
+    width: 25em;
     float: left;
 }
 .welcome-container .nav-links {
@@ -387,7 +387,7 @@ a.about-link {
 
 #terminal-block-title {
     display: inline;
-    font-size: 6em;
+    font-size: 5.0em;
     font-family: 'inconsolatamedium';
     color: #f4f4f4;
 }
@@ -514,31 +514,35 @@ li.definitions {
 #who-title{
     float: left;
     font-size: 0.7em;
+    width: 47%;
 }
-#who-title h1 {
+#who-title h1,
+#how h1 {
     margin-bottom: 0.5%;
     font-size: 2.5em;
-    font: 3em/100% 'inconsolatamedium';
+    font: 4.3em/100% 'inconsolatamedium';
     display: inline-block;
-    letter-spacing: -2px;
     padding-bottom: 0px;
     border-bottom: 0px;
     text-align: left;
+    text-shadow: rgba(0, 0, 0, 0.2) -1px 0, rgba(0, 0, 0, 0.1) 0 -1px, rgba(255, 255, 255, 0.5) 0 1px, rgba(0, 0, 0, 0.1) -1px -1px;
 }
 #who-title h2 {
     margin-bottom: 0px;
     font-size: 1.8em;
-    font: 1.8em/100% 'inconsolatamedium';
-    letter-spacing: -1px;
+    font: 2.7em/100% 'inconsolatamedium';
     padding-bottom: 0px;
     border-bottom: 0px;
     text-align: left;
+    text-shadow: rgba(0, 0, 0, 0.1) -1px 0, rgba(0, 0, 0, 0.1) 0 -1px, rgba(255, 255, 255, 0.5) 0 1px, rgba(0, 0, 0, 0.1) -1px -1px;
 }
 
 #who-info {
     padding-left: 2%;
     border-left: 1px solid #CCC;
     margin-left:1%;
+    width: 45%;
+    font: 1.1em/120% 'inconsolatamedium';
 }
 #wrapper-columns {
     padding-top: 2%;
@@ -547,9 +551,8 @@ li.definitions {
 }
 #wrapper-columns h2 {
     margin-bottom: 3%;
-    font-size: 1.5em;
-    font: 1.5em/100% 'inconsolatamedium';
-    letter-spacing: -1px;
+    font-size: 1.3em;
+    font: 1.3em/100% 'inconsolatamedium';
     padding-bottom: 0px;
     border-bottom: 0px;
     text-align: center;
@@ -557,33 +560,35 @@ li.definitions {
 }
 .column-1 {
     float:left;
-    width:30%;
+    width:31%;
     -webkit-transition: all 0.2s ease;
     -moz-transition: all 0.2s ease;
     -o-transition: all 0.2s ease;
     -ms-transition: all 0.2s ease;
     height:auto;
+    font: 1.1em/120% 'inconsolatamedium';
 }
 .column-2{
     float:left;
-    margin-left:5%;
-    width:30%;
-    max-width:30%;
+    margin-left:3%;
+    width:31%;
     -webkit-transition: all 0.2s ease;
     -moz-transition: all 0.2s ease;
     -o-transition: all 0.2s ease;
     -ms-transition: all 0.2s ease;
     height:auto;
+    font: 1.1em/120% 'inconsolatamedium';
 }
 .column-3 {
     float:left;
-    margin-left:5%;
-    width:30%;
+    margin-left:3%;
+    width:31%;
     -webkit-transition: all 0.2s ease;
     -moz-transition: all 0.2s ease;
     -o-transition: all 0.2s ease;
     -ms-transition: all 0.2s ease;
     height:auto;
+    font: 1.1em/120% 'inconsolatamedium';
 }
 .column-1 li, .column-2 li, .column-3 li {
     text-align:left;
@@ -941,10 +946,14 @@ a.spin-active {
     margin: 0 auto;
 }
 .what-cards-mobile h3 {
-    color:orange;
+    color: #BFB6AA;
 }
 .what-cards-mobile p {
     font-size:.7em;
+}
+
+.what-cards-mobile h1 {
+    text-shadow: rgba(0, 0, 0, 0.1) -1px 0, rgba(0, 0, 0, 0.1) 0 -1px, rgba(255, 255, 255, 0.5) 0 1px, rgba(0, 0, 0, 0.1) -1px -1px;
 }
 
 /* BLOCK 4  | HOW WE WORK */
@@ -953,8 +962,8 @@ a.spin-active {
     padding-bottom: 12%;
     background:#2d2d2d url('../assets/img/bgwhite.png') repeat;
     overflow: hidden;
-    -webkit-box-shadow: inset 0px -8px 29px 10px rgba(0, 0, 0, .8);
-    box-shadow: inset 0px -8px 29px 0px rgba(0, 0, 0, .8);
+    -webkit-box-shadow: inset 0px -8px 29px 10px rgba(0, 0, 0, .1);
+    box-shadow: inset 0px -8px 29px 0px rgba(0, 0, 0, .1);
 }
 .how-content {
     position:relative;
@@ -964,18 +973,16 @@ a.spin-active {
     margin: 0 auto;
 }
 
+.how-content p {
+    font: 1.15em/120% 'inconsolatamedium';
+}
+
 .how-content .block-left{
     z-index: 10;
 }
 
 #how h1 {
-    margin-bottom: 0.5%;
     font: 3em/100% 'inconsolatamedium';
-    display: inline-block;
-    letter-spacing: -2px;
-    text-align: left;
-	  border-bottom: 0px;
-    padding-bottom: 1%;
 }
 
 /* GEARS CSS */
