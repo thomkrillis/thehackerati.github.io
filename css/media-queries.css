@@ -99,6 +99,7 @@
   .footer-wrapper { width: 888px;}
   footer .content-container { width: 77.2em; }
   .footer-column3 { padding: 0; }
+  .footer-copyright { width: 100%;}
 
 }
 
@@ -242,6 +243,7 @@
   .footer-share { width: 60%; margin-bottom: 3em;}
   .footer-contact { width: 80%; }
   .footer-sprite { margin-bottom: 0.7em; }
+  .footer-copyright { width: 100%;}
 
 }
 
