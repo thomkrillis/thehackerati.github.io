@@ -960,6 +960,11 @@ a.spin-active {
     width: 80%;
     margin: 0 auto;
 }
+
+.how-content .block-left{
+    z-index: 10;
+}
+
 #how h1 {
     margin-bottom: 0.5%;
     font: 3em/100% 'inconsolatamedium';
@@ -1731,11 +1736,6 @@ img.splash{
 	color: rgb(244, 244, 244);
 	margin-left:auto;
 	margin-right:auto;
-}
-
-.recruit-window .block-left, 
-.recruit-window .block-right{
-
 }
 
 .recruit-window .block-left{
