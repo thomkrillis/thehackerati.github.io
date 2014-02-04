@@ -575,11 +575,12 @@ title: The Hackerati
   var marker;
   var map;
   var contentString = 
-        '<h2 id="firstHeading" class="firstHeading orange">The Hackerati</h2>'+
+        '<img src="../assets/img/logo.png" style="width: 55%; height: auto;" />' +
         '<p> 41 Cooper Square, #205</p><p>New York, NY, 10003</p><p>(917) 426-1066</p>';
   var infowindow = new google.maps.InfoWindow({
       content: contentString,
-      maxWidth: 220
+      maxWidth: 180,
+      maxHeight: 200
   });
 
   var styles = [
@@ -642,7 +643,6 @@ title: The Hackerati
     }  
   ];
 
-
   function initializeMaps() {
     var mapOptions = {
       zoom: 13,
@@ -672,6 +672,12 @@ google.maps.event.addListener(marker, 'click', function() {
   });
 infowindow.open(map,marker);
 }
+
+google.maps.event.addDomListener(window, "resize", function() {
+    var center = map.getCenter();
+    google.maps.event.trigger(map, "resize");
+    map.setCenter(center); 
+});
 
 function toggleBounce() {
     if (marker.getAnimation() != null) {
