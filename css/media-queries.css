@@ -162,6 +162,24 @@
   #gear-wrapper{opacity: .5;left: -180px;display:block;}
 
   /* SECTION 5 */
+   #clients-title{width:275px;min-width:275px;}
+   .test-pic {width:275px;min-width:275px;}
+   .test-pic img {width:90%;}
+   .test-info {width:295px;}
+   .test-details{float:left;height:400px;width:250px;background:rgba(255, 255, 255, 0.8);padding: 10px;font-size:.8em;display:block;opacity:1;}
+   p.bjqs-caption{width:85%;}
+   ul.bjqs-controls {left:38%;}
+   #clients-wrapper{width: 893px;margin-left: 100px}
+   .views-field-field-simage .field-content img{padding-top:5%;}
+   .toggle-details {display:inline-block;float: left;top: 0px;margin-left: 290px;display: inline-block;position: absolute;}
+   .test-details{position:absolute;background:#f5e0ce;width: 294px;margin-left: 296px;z-index: 9999999;opacity:0;}
+   #views_slideshow_controls_text_testslideshow-block {margin-left:-30%;}
+   #views_slideshow_cycle_teaser_section_testslideshow-block{margin:0;}
+   #wrapper-contact h1 {margin-top:10%;padding-left:6%;}
+   #wrapper-contact{height:100%;}
+   #contact-copy{padding-left:6%;border-left:none;margin-top:0;}
+   #clients-wrapper{margin-left: 100px}
+   .views-field-field-simage .field-content img{padding-top:6%;}
 
   /******** ABOUT PAGE *********/
 
@@ -256,6 +274,37 @@
 
   /* SECTION 4 */
   #gear-wrapper{display: none;}
+
+  /* SECTION 5 */
+  #clients br {line-height:15px;} 
+  #clients-wrapper{margin-left: -215px;width: 425px;min-width:425px;left: 50%;}
+  .test-pic{display:none;}
+  .test-info{min-width:425px;height: 105px;padding-bottom: 0;}
+  .test-resources{display:none;}
+  .deets{margin-bottom:1%;font-size: 1.3em;line-height: .95em;}
+  .test-details{display:block;clear:left;height:100%;opacity:1;min-width:427px;font-size:.6em;padding:0 10px 10px 10px;position:relative;background:rgba(255,255,255,0.8);margin-left:0;z-index:99;}
+  .toggle-details{display:none;}
+  .test-client{font-size:1.4em;white-space:normal;letter-spacing:-1px;}
+  #clients-title{min-width:427px;width:427px;text-align:center;font-size:1.2em;}
+  #clients-title h1 {letter-spacing:-1px;font-size: 1.4em;}
+  #clients-content{font-size:.9em;}
+  #views_slideshow_controls_text_testslideshow-block {margin-left:0;}
+  #wrapper-contact h1 {padding-left:0;width: 100%;text-align: center;font-size: 1.8em;}
+  #contact-copy{display:none;}
+  #views_slideshow_controls_text_testslideshow-block{width:275px;}
+  #clients br {line-height:15px;}     
+  #clients-wrapper{margin-left: -125px;width: 250px;left: 50%;}
+  .test-pic{display:none;}
+  .test-info{min-width:250px;width:250px;height: 105px;padding-bottom: 0;}
+  .test-resources{display:none;}
+  .deets{margin-bottom:1%;font-size: 1.3em;line-height: .95em;}
+  .test-details{opacity:1;min-width:252px;width:252px;font-size:.6em;padding:0 10px 10px 10px;position:relative;background:rgba(255,255,255,0.8);margin-left:0;z-index:99;}
+  .toggle-details{display:none;}
+  .test-client{font-size:1.4em;white-space:normal;letter-spacing:-1px;}
+  #clients-title{min-width:252px;width:252px;text-align:center;font-size:1.2em;}
+  #clients-title h1 {letter-spacing:-1px;font-size: 1.4em;}
+  #clients-content{font-size:.9em;}
+
 
     /****** CAREERS PAGE *******/
   .section1-content-container {	width: 22.5em;}
@@ -369,7 +418,6 @@
   .welcome-container .block-left { width:100%;	} 
   .related-words-terminal, .terminal-buttons{ display:none;}
   #terminal-block-title {font-size: 4.0em; }
-
 
   /******** ACADEMY PAGE *********/
   #academy-focus{ background: none; z-index: 9999999; margin-top: 0; }
