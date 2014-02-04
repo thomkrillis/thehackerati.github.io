@@ -352,10 +352,10 @@ a.about-link {
     background-image:none;
 }
 .welcome-container .content-container {
-    width:80%;
+    width:87%;
 }
 .welcome-container .logo {
-    height: 8em;
+    height: 9.5em;
     padding-top: 2.5em;
     padding-bottom: 0;
     width: auto;
@@ -374,7 +374,7 @@ a.about-link {
 }
 #terminal-window a {
     letter-spacing:0px;
-    font-size:.9em;
+    font-size: 1.2em;
     padding:6px 13px;
     color:black;
     text-decoration:none;
@@ -429,7 +429,7 @@ li.definitions {
     margin-top:7%;
     left:30px;
     position:relative;
-    width: 400px;
+    width: 33em;
 }
 #typewriter {
     margin-top:15%;
@@ -442,7 +442,7 @@ li.definitions {
 #type-command-one {
     width: auto;
     height: auto;
-    font: 1em/100%'inconsolatamedium';
+    font: 1.3em/100%'inconsolatamedium';
     color: #f4f4f4;
     float: left;
     margin-top: 3%;
@@ -457,7 +457,7 @@ li.definitions {
 #type-command-two {
     width: auto;
     height: auto;
-    font: 1em/100%'inconsolatamedium';
+    font: 1.3em/100%'inconsolatamedium';
     color: #f4f4f4;
     float: left;
     margin-top: 3%;
@@ -471,7 +471,7 @@ li.definitions {
 #type-command-three {
     width: auto;
     height: auto;
-    font: 1em/100%'inconsolatamedium';
+    font: 1.3em/100%'inconsolatamedium';
     color: #f4f4f4;
     float: left;
     margin-top: 3%;
