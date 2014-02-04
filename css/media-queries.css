@@ -310,8 +310,8 @@
 
   /* SECTION 2 */
   .who-content { width: 22em; }
-  #who-title h2 { text-align: left; width: 10em; }
-  #who-title h1 { margin-bottom: 0.5em; }
+  #who-title h2 { margin-left: 1em; width: 10em; }
+  #who-title h1 { margin-bottom: 0.5em; text-align: center; }
 
   /* SECTION 3 */
   .what-content { width: 22em; }
