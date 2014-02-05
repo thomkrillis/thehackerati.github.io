@@ -33,6 +33,12 @@
   #who-title h1 { font: 4.5em/100% 'inconsolatamedium';}
   #who-title h2 { font: 3.0em/100% 'inconsolatamedium'; }
 
+  /* SECTION 4 */
+  .how-content { width: 70em; }
+
+  /* SECTION 6 */
+  #contact-content { width: 70em; }
+
   /****** ACADEMY PAGE *******/
   .academy-page .block-right img { width: auto; }
 
@@ -161,7 +167,7 @@
   #who-info{ border-left: 0; padding-left:0; margin-left:0; font: 1.15em/120% 'inconsolatamedium'; } 
   #who-title{ text-align: center;}
   #who-title h2{ text-align: center; padding-bottom: 7.5%;}
-  #who .column-1 img, #who .column-2 img, #who .column-3 img, .rollover {display:none;}
+  /*#who .column-1 img, #who .column-2 img, #who .column-3 img, .rollover {display:none;}*/
   #who .column-1, #who .column-2,#who .column-3  {width:100%;max-width:100%;height:auto;margin-left:0;margin-top:0; font: 1.15em/120% 'inconsolatamedium';}
   #who .column-1 h2{text-align:center;}
   #wrapper-columns .column-1 p:nth-child(2), #wrapper-columns .column-2 p:nth-child(2), #wrapper-columns .column-3 p:nth-child(2) {display:none;} 
@@ -172,7 +178,7 @@
   /* SECTION 3 */
   .what-cards-mobile{display:block; width:100%;}
   .what-cards-mobile h1{ font: 2.5em/120% 'inconsolatamedium';}
-  .what-cards-mobile h3{ font: 1.8em/120% 'inconsolatamedium'; }
+  .what-cards-mobile h3{ font: 1.8em/120% 'inconsolatamedium'; text-align: center; }
   .what-cards-mobile p { font: 1.3em/120% 'inconsolatamedium'; }
    #carousel-wrapper,
    #carousel-buttons { display:none; }
@@ -182,6 +188,7 @@
   #gear-wrapper{opacity: .5;left: -180px;display:none;}
   .how-content .block-left { width: 100%; }
   .how-content { width: 44em; }
+  #how h1 { margin-left:4.7em;}
 
   /* SECTION 5 */
    #clients-title{width:275px;min-width:275px;}
@@ -202,6 +209,12 @@
    #contact-copy{padding-left:6%;border-left:none;margin-top:0;}
    #clients-wrapper{margin-left: 100px}
    .views-field-field-simage .field-content img{padding-top:6%;}
+
+   /* SECTION 6 */
+   #contact-content { width: 44em; }
+
+   /* SECTION 7 */
+  #google-maps-wrapper { top: 9em; }
 
   /******** ABOUT PAGE *********/
 
@@ -319,6 +332,7 @@
   /* SECTION 4 */
   #gear-wrapper{display: none;}
   .how-content { width: 22em; }
+  #how h1 { margin-left: 1em; }
 
   /* SECTION 5 */
   #clients br {line-height:15px;} 
@@ -349,6 +363,10 @@
   #clients-title{min-width:252px;width:252px;text-align:center;font-size:1.2em;}
   #clients-title h1 {letter-spacing:-1px;font-size: 1.4em;}
   #clients-content{font-size:.9em;}
+
+  /* SECTION 6 */
+  #contact-content { width: 22em; }
+  #google-maps-wrapper { top: 8em; }
 
     /****** CAREERS PAGE *******/
   .section1-content-container {	width: 22.5em;}
@@ -475,15 +493,18 @@
   /* SECTION 2 */
   .who-content { width: 19em; }
   #who-title h1 { margin-bottom: 0.3em; }
+  #who-title h2 { margin-left: 0.2em; }
 
   /* SECTION 3 */
   .what-content { width: 19em; }
 
   /* SECTION 4 */
   .how-content { width: 19em; }
+  #how h1 { margin-left: 0.45em; }
 
   /* SECTION 6 */
-  #google-maps-wrapper {width:250px;height:325px;margin-left:-125px;left:50%;top:50%;margin-top:-180px;}
+  #google-maps-wrapper {left:50%;top:7em;}
+  #contact-content { width: 19em; }
 
   /******** ACADEMY PAGE *********/
   #academy-focus{ background: none; z-index: 9999999; margin-top: 0; }
