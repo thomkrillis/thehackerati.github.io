@@ -1564,6 +1564,7 @@ a#google-maps-wrapper{
 /*****************************/
 .splash-container {
   width: 100%;
+  min-height: 800px;
   display: inline-block;
   position:relative;
 }
