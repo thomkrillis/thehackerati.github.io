@@ -128,6 +128,16 @@ li {
 	color: #0078D3;
 }
 
+.white-border {
+    border-bottom: 1px dotted #f4f4f4;
+    width: 100%;
+}
+
+.gray-border {
+    border-bottom: 1px dotted #999;
+    width: 100%;
+}
+
 .b-page-image {
     position: fixed;
     top: 0;
@@ -382,7 +392,7 @@ a.about-link {
 }
 
 #terminal-window a:hover {
-    background:rgba(241,102,29,0.5);
+    background:rgba(241,102,29,1);
 }
 
 #terminal-block-title {
@@ -1458,6 +1468,7 @@ p.bjqs-caption {
     color:white;
     float: left;
     font: 3em/100% 'inconsolatamedium';
+    width: 5em;
 }
 #contact-copy {
     padding-left: 5%;
@@ -1514,9 +1525,9 @@ p.bjqs-caption {
 }
 #google-maps-wrapper {
     position: absolute;
-    left: 42%;
-    top: 18%;
-    width: 90%;
+    left: 50%;
+    top: 10em;
+    width: 100%;
     height: 65%;
     margin-left: -240%;
     background-color: #333;
@@ -1558,6 +1569,10 @@ a#google-maps-wrapper{
 }
 #google-maps-wrapper h2{
     font-size:24px;
+}
+
+#contact-content .gray-border {
+    height: 4.5em;
 }
 
 /******** COMMON  ************/
