@@ -17,4 +17,4 @@ Browse the test vesion of the site at http://50.116.61.35/
 Blogging
 --------
 
-To learn how to blog using Jekyll, visit the README file in the blog directory. It's super!
+To learn how to blog using Jekyll, visit the README file in the [blog](https://github.com/thehackerati/thehackerati.github.io/tree/master/blog) directory. It's super!
