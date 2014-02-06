@@ -509,6 +509,7 @@
   #how h1 { margin-left: 0.45em; }
 
   /* SECTION 6 */
+  .contact-container { display:none; }
   #google-maps-wrapper {left:50%;top:7em;}
   #contact-content { width: 19em; }
 
