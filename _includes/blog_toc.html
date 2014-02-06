@@ -3,6 +3,7 @@
         <div class="menu-bar-button"></div>
         <div class="menu-bar-button"></div>
         <div class="menu-bar-button"></div>
+        <div class="menu-bar-title">Archive</div>
         <div class="clearfix"></div>
     </div>
     <div class="terminal-body span10">
@@ -11,6 +12,7 @@
                <li>{{ post.post_author }}$ <a href="{{ post.url }}">{{ post.title }}</a></li>
             
             {% endfor %}
+            <li class="cursor-blink">_</li>
         </ul>
     </div>
 </div>

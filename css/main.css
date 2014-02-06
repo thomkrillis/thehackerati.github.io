@@ -1845,6 +1845,13 @@ img.splash{
     float: left;
 }
 
+.menu-bar-title {
+    font: 1em/100% 'inconsolatamedium';
+    text-align: center;
+    margin-top: 2px;
+    color: #3d3d3d;
+}
+
 .terminal-body {
     -webkit-border-radius: 0px 0px 5px 5px;
     -moz-border-radius: 0px 0px 5px 5px;
@@ -1852,6 +1859,18 @@ img.splash{
     background-image: url('../assets/img/bgblack.png');
     color: #58D958;
 }
+
+@-webkit-keyframes blinker {  
+  from { opacity: 1.0; }
+  to { opacity: 0.0; }
+}
+
+.cursor-blink {
+  -webkit-animation-name: blinker;  
+  -webkit-animation-iteration-count: infinite;  
+  -webkit-animation-timing-function: cubic-bezier(1.0,0,0,1.0);
+  -webkit-animation-duration: 1s; 
+}     
 
 .blog-left-column li {
     margin: 8px;
