@@ -1801,6 +1801,7 @@ img.splash{
     text-align: center;
     margin-top: 1em;
     color: #f4f4f4;
+    text-shadow: none !important;
     border-bottom: none !important;
 }
 
