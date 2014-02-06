@@ -1,9 +1,18 @@
 ---
-layout: about
+layout: b_page
 title: The Hackerati Blog
 ---
 
-{% for post in site.posts %}	
-    <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
-		    <p><small><strong>{{ post.date | date: "%B %e, %Y" }}</strong> . {{ post.category }} . <a href="http://erjjones.github.com{{ post.url }}#disqus_thread"></a></small></p>			
-{% endfor %}	
+{% include desktop-header.html %}
+
+<div class="all-content">
+    <div class="section section1" id="blog-summary">
+        <div class="content-container blog-summary-content-container">
+            <div class="blog-page-title span10"><h2>Blog</h2></div>   
+            {% include blog_toc.html %}
+            {% include blog_summary.html %}
+            <div class="clearfix"></div> 
+        </div>
+    </div>
+</div>
+{% include footer.html %}

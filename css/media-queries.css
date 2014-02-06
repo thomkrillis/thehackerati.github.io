@@ -127,7 +127,9 @@
 @media only screen and (max-width : 1024px) {
 
   /********* GENERAL **********/
-  .mobile { display: inline-block;}
+  .mobile { display: inline-block; }
+  .tablet { display: inline-block; }
+  .tablet-and-desktop { display: inline-block; }
   .desktop { display: none;	}
   .wrapper-splash {	width: 650px;	font-size: 16px;	padding: 15px; }
   .section3 .content-container { width: 51.5em;	padding-top: 0;	}
@@ -283,6 +285,8 @@
 
   /********* GENERAL **********/
   .mobile {	display: inline-block;}
+  .tablet { display: inline-block;}
+  .tablet-and-desktop { display: inline-block; }
   .desktop { 	display: none;}
   .section3 .content-container { width: 23em;	padding-top: 0;	}
   .careers-page .section1 p { text-align: center; }
@@ -431,6 +435,8 @@
 
   /********* GENERAL *********/
   .mobile { display: inline-block;}
+  .tablet-and-desktop { display: none; }
+  .tablet { display: none;}
   .desktop { display: none;}
   .span1,.span2,.span3,.span4,.span5,.span6,.span7,.span8,.span9 {width: 100%;} 
   .section1 p {	font: 1.2em/130% 'inconsolatamedium';}
