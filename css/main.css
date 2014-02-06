@@ -1837,7 +1837,7 @@ img.splash{
 .post-date {
     text-align: right !important;
     font-size: .8em !important;
-    border-bottom: 1px dotted #808080;
+    border-bottom: 2px solid #c4c4c4;
 }
 
 .blog a:link {
