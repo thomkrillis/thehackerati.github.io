@@ -1,10 +1,18 @@
-<div class="blog-left-column span2">
-    <div class="placeholder">
+<div class="blog-left-column">
+    <div class="terminal-menu-bar span10">
+        <div class="menu-bar-button"></div>
+        <div class="menu-bar-button"></div>
+        <div class="menu-bar-button"></div>
+        <div class="menu-bar-title">Archive</div>
+        <div class="clearfix"></div>
+    </div>
+    <div class="terminal-body span10">
         <ul>
             {% for post in site.posts %}
-               <li><a href="{{ post.url }}">{{ post.title }}</a> &#8226; {{ post.date | date: "%B %e, %Y" }}</li>
+               <li>{{ post.post_author }}$ <a href="{{ post.url }}">{{ post.title }}</a></li>
             
             {% endfor %}
+            <li class="cursor-blink">_</li>
         </ul>
     </div>
 </div>

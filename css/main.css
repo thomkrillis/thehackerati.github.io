@@ -1813,15 +1813,72 @@ img.splash{
 }
 
 .blog-left-column {
-    border-radius: 8px 0px 0px 8px;
-    background-image: url('../assets/img/bgblue.png');
+    width: 27%;
+    margin-right: 3%;
+    float: left;
 }
+
+.terminal-menu-bar {
+    height: 20px;
+    -moz-border-radius: 5px 5px 0px 0px;   
+    -webkit-border-radius: 5px 5px 0px 0px;   
+    border-radius: 5px 5px 0px 0px;   
+
+    background: #eaeaea; /* Old browsers */
+    background: -moz-linear-gradient(top,  #eaeaea 0%, #eaeaea 49%, #aaaaaa 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#eaeaea), color-stop(49%,#eaeaea), color-stop(100%,#aaaaaa)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  #eaeaea 0%,#eaeaea 49%,#aaaaaa 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  #eaeaea 0%,#eaeaea 49%,#aaaaaa 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  #eaeaea 0%,#eaeaea 49%,#aaaaaa 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  #eaeaea 0%,#eaeaea 49%,#aaaaaa 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eaeaea', endColorstr='#aaaaaa',GradientType=0 ); /* IE6-9 */
+         
+}
+
+.menu-bar-button {
+    width: 13px;
+    height: 13px;
+    margin-top: 3px;
+    margin-left: 4px;
+    border-radius: 45px;
+    background-color: #3d3d3d;
+    float: left;
+}
+
+.menu-bar-title {
+    font: 1em/100% 'inconsolatamedium';
+    text-align: center;
+    margin-top: 2px;
+    color: #3d3d3d;
+}
+
+.terminal-body {
+    -webkit-border-radius: 0px 0px 5px 5px;
+    -moz-border-radius: 0px 0px 5px 5px;
+    border-radius: 0px 0px 5px 5px;
+    background-image: url('../assets/img/bgblack.png');
+    color: #58D958;
+}
+
+@-webkit-keyframes blinker {  
+  from { opacity: 1.0; }
+  to { opacity: 0.0; }
+}
+
+.cursor-blink {
+  -webkit-animation-name: blinker;  
+  -webkit-animation-iteration-count: infinite;  
+  -webkit-animation-timing-function: cubic-bezier(1.0,0,0,1.0);
+  -webkit-animation-duration: 1s; 
+}     
 
 .blog-left-column li {
     margin: 8px;
 }
 
 .blog-right-column {
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
     border-radius: 8px;
     background-image: url('../assets/img/bgwhite.png');
     padding-bottom: 1em;
