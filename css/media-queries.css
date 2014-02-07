@@ -141,6 +141,7 @@
   .generic-content { width: 36.5em; }
   .block-mobile { display: block; }
   .block-desktop { display: none; }
+  #feedback{display:none;}
 
   /********** HEADER **********/
   #navigation-mobile {	display: none;}
