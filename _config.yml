@@ -1,3 +1,6 @@
 safe: true
 lsi: false
-pygments: true 
+pygments: true
+name: Write the F_cking Manual
+description: a community blog by The Hackerati
+url: http://thehackerati.com/blog
