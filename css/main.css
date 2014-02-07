@@ -1799,10 +1799,19 @@ img.splash{
   
 .blog-page-title h2{
     text-align: center;
-    margin-top: 1em;
+    margin-top: 1.5em;
+    margin-bottom: 0em;
     color: #f4f4f4;
+    font-size: 6em;
     text-shadow: none !important;
     border-bottom: none !important;
+}
+
+.blog-page-title p {
+    text-align: center;
+    margin-bottom: 6em;
+    font: .6em/100% 'inconsolatamedium';
+    color: #f4f4f4;
 }
 
 .blog h3 {
@@ -1814,7 +1823,8 @@ img.splash{
 
 .blog-left-column {
     width: 27%;
-    margin-right: 3%;
+    margin-right: 2%;
+    margin-left: 1%;
     float: left;
 }
 
@@ -1836,11 +1846,11 @@ img.splash{
 }
 
 .menu-bar-button {
-    width: 13px;
-    height: 13px;
-    margin-top: 3px;
+    width: 12px;
+    height: 12px;
+    margin-top: 4px;
     margin-left: 4px;
-    border-radius: 45px;
+    border-radius: 90px;
     background-color: #3d3d3d;
     float: left;
 }

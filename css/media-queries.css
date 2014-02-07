@@ -561,6 +561,21 @@
   .logo-center img{ width: 80%; height: auto;}
   .mid-radio{ border: 0;}
 
+  /*********** BLOG ***********/
+  .blog-left-column {
+      width: 98%;
+      margin-left: 1%;
+      margin-right: 1%;
+  }
+
+  #blog-summary {
+      padding-right: 0%;
+  }
+
+  .blog-page-title p {
+      margin-bottom: 4em;
+  }
+
   /********** FOOTER **********/
   .footer-wrapper {	width: 295px;	}
   .tweets.column,.sitemap.column {	display: none;	}
