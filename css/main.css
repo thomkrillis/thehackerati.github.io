@@ -1812,10 +1812,10 @@ img.splash{
   
 .blog-page-title h2{
     text-align: center;
-    margin-top: 1.5em;
+    margin-top: 1.3em;
     margin-bottom: 0em;
     color: #f4f4f4;
-    font-size: 6em;
+    font-size: 7em;
     text-shadow: none !important;
     border-bottom: none !important;
 }
@@ -1889,6 +1889,7 @@ img.splash{
 }
 
 .cursor-blink {
+  display: inline;
   -webkit-animation-name: blinker;  
   -webkit-animation-iteration-count: infinite;  
   -webkit-animation-timing-function: cubic-bezier(1.0,0,0,1.0);

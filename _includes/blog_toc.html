@@ -8,11 +8,11 @@
     </div>
     <div class="terminal-body span10">
         <ul>
+            <li>user@home:~ $ <p class="cursor-blink">_</p></li>            
             {% for post in site.posts %}
                <li>{{ post.post_author }}$ <a href="{{ post.url }}">{{ post.title }}</a></li>
             
             {% endfor %}
-            <li class="cursor-blink">_</li>
         </ul>
     </div>
 </div>
