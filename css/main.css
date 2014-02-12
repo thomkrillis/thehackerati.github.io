@@ -986,7 +986,7 @@ a.spin-active {
 .how-container {
     padding-top: 5%;
     padding-bottom: 12%;
-    background:#2d2d2d url('../assets/img/bgwhite.png') repeat;
+    background:#2d2d2d url('../assets/img/bglightblue.png') repeat;
     overflow: hidden;
     -webkit-box-shadow: inset 0px -8px 29px 10px rgba(0, 0, 0, .1);
     box-shadow: inset 0px -8px 29px 0px rgba(0, 0, 0, .1);
@@ -1014,6 +1014,10 @@ a.spin-active {
 
 .what-cards-mobile h1 { 
     font: 3em/100% 'inconsolatamedium'; 
+}
+
+#section4-anchor-link hr {
+    border-top: 1px dotted #666;
 }
 
 /* GEARS CSS */
@@ -1167,9 +1171,11 @@ body > svg {
 /* BLOCK 5  | CLIENTS */
 
 #clients {
-    background-image: url('../assets/img/bgdarkblue.png');
+    background-image: url('../assets/img/bgwhite.png');
     background-repeat: repeat;
     overflow: hidden;
+    -webkit-box-shadow: inset 0px -8px 29px 10px rgba(0, 0, 0, .1);
+    box-shadow: inset 0px -8px 29px 0px rgba(0, 0, 0, .1);
 }
 .clients-content {
     padding-top: 12%;
@@ -1450,13 +1456,9 @@ p.bjqs-caption {
 
 /* BLOCK 6  | LETS TALK */
 .contact-container {
-    background: #5B5752;
+    background: #2d2d2d url('../assets/img/bgdarkblue.png') repeat;
     height: 800px;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    background-repeat: no-repeat;
+    background-repeat: repeat;
     overflow: hidden;
 }
 .contact-bg-overlay {
