@@ -25,7 +25,7 @@ else {
 
       $('.clients-slideshow-previous').click(function(){
         var boxPrev = TweenLite.to(gears, 2, { rotation: -720, transformOrigin:"74px, 50px", ease: Power4.easeInOut });
-        var gearsPrev = TweenLite.to(box, 3, { left: "-1000px", ease: Power4.easeInOut});
+        var gearsPrev = TweenLite.to(box, 3, { left: "-100px", ease: Power4.easeInOut});
 
         if (!firstRun) {
         boxPrev.restart();
