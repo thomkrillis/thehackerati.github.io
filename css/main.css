@@ -1889,6 +1889,7 @@ img.splash{
 }
 
 .cursor-blink {
+  display: inline;
   -webkit-animation-name: blinker;  
   -webkit-animation-iteration-count: infinite;  
   -webkit-animation-timing-function: cubic-bezier(1.0,0,0,1.0);
