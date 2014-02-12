@@ -14,7 +14,7 @@ if (navigator.userAgent.match(/MSIE\s(?!10.0)/)) {
               }
           });
           // DETAILS ORIENTATION CHANGE
-          jQuery(window).bind('orientationchange', function(e) {
+/*          jQuery(window).bind('orientationchange', function(e) {
             switch ( window.orientation ) {
               case 0:
               break;
@@ -26,6 +26,7 @@ if (navigator.userAgent.match(/MSIE\s(?!10.0)/)) {
               break;
             }
           });
+*/
           //Menu Links
           $('#wrapper-nav .menu li.leaf').each(function(){
           $(this).wrap("<a class='wrapperLeaf' href=''></a>");
