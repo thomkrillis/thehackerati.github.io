@@ -299,7 +299,6 @@
   .block-right img, .block-left img{ display:block; width:50%; margin-right: auto; margin-left: auto; }
   .text-focus{ height: 100%; width: 100%;}
   .section1-content-container { margin-top: 2em; margin-bottom: 2em; background: none; }
-  .splash-container img { display: none; }
   .splash-container { display: block; background: #2D6296; min-height: 0px; }
   .text-focus { background: none; }
   .block-desktop { display: none; }
@@ -394,6 +393,8 @@
   .block-mobile .perks-copy { width: 100%; height: auto; margin-bottom: 3em; left: 0;}
   .block-mobile .perks-cell { width: 100%; margin: 1.1em; }
   .block-mobile .perks-icon { width: 90%; height: 90%;}
+  .testimonial-img img { -webkit-box-shadow: 0px 0px 9px -2px rgba(0,0,0,0.76); -moz-box-shadow: 0px 0px 9px -2px rgba(0,0,0,0.76); box-shadow: 0px 0px 9px -2px rgba(0,0,0,0.76);}
+  .apply-button { color: #4CA0D3; }
 
   /******** ACADEMY PAGE *********/
   .academy-page .generic-content { width: 20em; }
@@ -447,8 +448,7 @@
   .section3 .content-container {	width: 19em;	padding-top: 0;	}
   .block-right img, .block-left img{ display:block; width:70%; margin-right: auto; margin-left: auto; }
   .section1-content-container { margin-top: 2em ; margin-bottom: 2em; }
-  .splash-container img { display: none; }
-  .splash-container { display: block; background: #5B5752; }
+  .splash-container { display: block; background: #2D6296; }
   .text-focus { background: none; }
   .block-desktop { display: none; }
   .block-mobile { display: block; }
@@ -533,7 +533,6 @@
   .b-page-image.about, 
   .b-page-image.academy {	background-image: none;	background: #424345;}
   .section1-content-container {	background: none;	}
-  .testimonial-img {	display: none;}
   .testimonial-copy-mobile {	width: 100%;	display: block;	}
   .testimonial-copy-tablet {	display: none;}
   .section1 h2 {	font: 3.0em/100% 'inconsolatamedium';	}
@@ -553,6 +552,8 @@
   .block-mobile .perks-cell { margin: 0; }
   .block-mobile .perks-copy { left: 0.5em; }
   .block-mobile .perks-icon p { padding: 0; }
+  .testimonial-img img { -webkit-box-shadow: 0px 0px 9px -2px rgba(0,0,0,0.76); -moz-box-shadow: 0px 0px 9px -2px rgba(0,0,0,0.76); box-shadow: 0px 0px 9px -2px rgba(0,0,0,0.76);}
+  .apply-button { color: #4CA0D3; }
 
   /******** RECRUITING ********/
   .recruit-window .block-left{ width:100%; padding-bottom: 25%;}

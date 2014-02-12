@@ -313,22 +313,22 @@ li#academy {
 	margin-left: 30px;
 }
 
-.content-container a:link {
+.content-container .nav-links a:link {
     text-decoration: none;
     color: #f4f4f4;
 }
 
-.content-container a:active {
+.content-container .nav-links a:active {
     text-decoration: none;
     color: #f4f4f4;
 }
 
-.content-container a:visited {
+.content-container .nav-links a:visited {
     text-decoration: none;
     color: #f4f4f4;
 }
 
-.content-container a:hover {
+.content-container .nav-links a:hover {
     text-decoration: none;
     color: #EC6314;
 }
@@ -2018,6 +2018,14 @@ img.splash{
 	background: url('../assets/img/largecooperstairs.jpg');
     background-size: cover;
     background-attachment: fixed;
+}
+
+.apply-button {
+    color: #0078D3;
+}
+
+.apply-button:hover {
+    color: #f4f4f4;
 }
 
 .apply-now-button {
