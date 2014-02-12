@@ -299,7 +299,7 @@
   .block-right img, .block-left img{ display:block; width:50%; margin-right: auto; margin-left: auto; }
   .text-focus{ height: 100%; width: 100%;}
   .section1-content-container { margin-top: 2em; margin-bottom: 2em; background: none; }
-  .splash-container { display: block; background: #2D6296; min-height: 0px; }
+  .splash-container { display: block; background: #2D6296 url('../assets/img/bgdarkblue.png') repeat; min-height: 0px; }
   .text-focus { background: none; }
   .block-desktop { display: none; }
   .block-mobile { display: block; }
@@ -448,7 +448,7 @@
   .section3 .content-container {	width: 19em;	padding-top: 0;	}
   .block-right img, .block-left img{ display:block; width:70%; margin-right: auto; margin-left: auto; }
   .section1-content-container { margin-top: 2em ; margin-bottom: 2em; }
-  .splash-container { display: block; background: #2D6296; }
+  .splash-container { display: block; background: #2D6296 url('../assets/img/bgdarkblue.png') repeat; }
   .text-focus { background: none; }
   .block-desktop { display: none; }
   .block-mobile { display: block; }
