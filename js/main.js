@@ -3,6 +3,26 @@
  * navigation by alternately adding and removing an .active class.
  */
 
+// DOM Ready      
+/*$(function() {
+
+   var clonedHeaderRow;
+
+   $(".persist-area").each(function() {
+       clonedHeaderRow = $(".persist-header", this);
+       clonedHeaderRow
+         .before(clonedHeaderRow.clone())
+         .css("width", clonedHeaderRow.width())
+         .addClass("floatingHeader");
+         
+   });
+   
+   $(window)
+    .scroll(UpdateTableHeaders)
+    .trigger("scroll");
+   
+});*/
+
 function expandMobileNav() {
 	
 	var navExpansion = $(".nav-tray");
@@ -46,6 +66,17 @@ $(window).resize(function() {
     }
 
 });
+
+/*$(window).scroll(function() {
+    if ($(this).scrollTop() < 200) {
+        $("#persistent-header").hide();
+    	console.log("haven't scrolled down yet");
+    }
+    else {
+        $("#persistent-header").show();
+    	console.log("just scrolled down");
+    }
+});*/
 
 $(document).ready(function() {
  

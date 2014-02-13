@@ -3,9 +3,26 @@ layout: main-page
 title: The Hackerati
 ---
 
+<div id="persistent-header">
+    <div class="content-container">
+        <div class="logo">
+            <a href="/">
+                <img src="../assets/img/logo.png" />
+            </a>
+        </div>
+    
+        <nav class="nav-links">
+            <a class="about-link" href="/about">About</a>
+            <a href="/careers">Careers</a>
+            <a href="/academy">Academy</a>
+        </nav>
+
+        <div class="clearfix"></div>
+    </div>
+</div>
 
 <!--* SPLASH PAGE SECTION 1 *-->  
-<div class="welcome-container">
+<div class="welcome-container" id="welcome-container">
   {% include desktop-header.html %}
   <div class="welcome-content">
     <div id="terminal-window">
@@ -35,6 +52,8 @@ title: The Hackerati
     </div>
   </div>
 </div>
+
+<div class="all-content">
 
 <!--* MEET THE HACKERATI | SECTION 2 *-->
 <div id="section2-anchor-link" class="who-container">
@@ -560,6 +579,8 @@ title: The Hackerati
     </div>
   </div>
 </div>
+
+</div><!--all-content-->
 
 <!--* GOOGLE MAPS *-->  
 
