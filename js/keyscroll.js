@@ -47,7 +47,6 @@ $(document).ready(function() {
   slideCount = slideShowCounter();
 
   clients.eq(slideCount.getCurrentClient()).css("display", "block");
-  //clients.eq(slideCount.getCurrentClient()).css("position", "absolute");
   clients.eq(slideCount.getCurrentClient()).find('.tooltip').css("display", "block");
 
   $('.clients-slideshow-next').click(function(){
@@ -57,7 +56,7 @@ $(document).ready(function() {
 
     tooltips.fadeOut( 200, function() {
       //spin the gears
-      TweenLite.to(gears, .8, { rotation: "+=720", transformOrigin:"74% 50%", ease: Expo.easeInOut });
+      TweenLite.to(gears, .8, { rotation: "+=720", transformOrigin:"72% 50%", ease: Expo.easeInOut });
 
       //move current box offscreen
       TweenLite.to(box, .7, { left: "+=100%", ease: Expo.easeInOut, 
@@ -73,7 +72,6 @@ $(document).ready(function() {
       // position box on outside left of screen
       box.css("left", "-50%");
       clients.eq(slideCount.getNextClient()).css("display", "block");
-      //clients.eq(slideCount.getNextClient()).css("position", "absolute");
 
       //roll in the new box
       TweenLite.to(box, .7, { left: "37%", ease: Expo.easeInOut, 
@@ -94,7 +92,7 @@ $(document).ready(function() {
 
     tooltips.fadeOut( 200, function() {
       //spin the gears
-      TweenLite.to(gears, .8, { rotation: "-=720", transformOrigin:"74% 50%", ease: Expo.easeInOut });
+      TweenLite.to(gears, .8, { rotation: "-=720", transformOrigin:"72% 50%", ease: Expo.easeInOut });
 
       //move current box offscreen
       TweenLite.to(box, .7, { left: "-=100%", ease: Power4.easeInOut, 
@@ -110,7 +108,6 @@ $(document).ready(function() {
       // position box on outside right of screen
       box.css("left", "150%");
       clients.eq(slideCount.getPrevClient()).css("display", "block");
-//      clients.eq(slideCount.getPrevClient()).css("position", "absolute");
 
       //roll in the new box
       TweenLite.to(box, .7, { left: "37%", ease: Power4.easeInOut, 

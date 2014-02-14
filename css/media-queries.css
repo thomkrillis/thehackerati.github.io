@@ -199,15 +199,16 @@
   .arrow-box-left:after { border-top-color: #3E8EC9; border-left-color: transparent;}
   .arrow-box-right:after { border-top-color: #1E3E68; border-right-color: transparent;}
   .clients-info { position: relative;}
-  .conveyor{ position:relative; display: block; height: 110px;}
+  .conveyor{ position:relative; display: block; height: 110px; margin-top:-80px;}
   .conveyor-gear-row { bottom: 1px;}
+  #gear-spread div {width: 12%;}
   .clients-description p { font: 1.1em/100% 'inconsolatamedium'; padding: 2% 2%;}
   .clients-resources .clients-icon{ display: inline-block; width:20%; height:auto; font: 1.0em/100% 'inconsolatamedium';}
   .clients-tools .clients-icon{ display:inline-block; width:18%; height:auto; font: 1.0em/100% 'inconsolatamedium';}
   .clients-resources .clients-icon p{} 
   .clients-tools .clients-icon p {}
   .clients-resources .clients-icon p{ margin-top: 0; } 
-  .clients-box{ position: relative; } 
+  .clients-box{ padding-top:5%; position: relative;} 
 
   /* SECTION 6 */
   #contact-content { width: 44em; }
