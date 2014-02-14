@@ -1,0 +1,45 @@
+body {
+  position: relative;
+  width: 85%;
+  max-width: 1100px;
+  margin: 0 auto;
+  padding-top: 3em;
+  background-image: url('../../../../assets/img/bgblue.png');
+  margin-bottom: 3em;
+}
+
+h1 {
+  text-align: center;
+  color: #f4f4f4;
+}
+
+p {
+  font-size: 1.2em;
+  color: #f4f4f4;
+}
+
+li {
+  color: #f4f4f4;
+}
+
+pre {
+  width: 50%;
+  margin-left: 40px;
+  background-color: #f4f4f4;
+  opacity: 0.8;
+  overflow: scroll;
+}
+
+.post-author {
+  text-align: center;
+  color: white;
+  margin-bottom: 2em;
+}
+
+#feedback {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  background-color: #f4f4f4;
+  opacity: 0.8;
+}
