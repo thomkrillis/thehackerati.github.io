@@ -312,6 +312,12 @@
   nav a {	margin-left: 1.0em;	}
   .header-section > .content-container {	width: 31em;}
   .logo img {	width: 76%;	max-height: none;	}
+  #persistent-header > .content-container { width: 31em; }
+  #persistent-header .logo img { width: 45%; }
+  #persistent-header .content-container nav { margin-top: 0; }
+  #persistent-header .nav-links { padding-top: .2em; }
+  .content-container nav { padding-bottom: 0.5em; }
+  #persistent-header { display: none; }
 
   /********** HOME PAGE **********/
   .welcome-container .block-right { display: none;	} 
@@ -471,6 +477,12 @@
   nav a {	margin-left: 0.5em;}
   .header-section > .content-container {	width: 21em;}
   .logo img {	width: 94%;	max-height: none;	}
+  #persistent-header { display: none; }
+  #persistent-header > .content-container { width: 21em; }
+  #persistent-header .logo img { width: 60%; }
+  #persistent-header .content-container nav { margin-top: 0; }
+  #persistent-header .nav-links { padding-top: .2em; }
+  .content-container nav { padding-bottom: 0.9em; }
 
   /********** HOME PAGE **********/
   .welcome-container #header {	height: 170px;}
