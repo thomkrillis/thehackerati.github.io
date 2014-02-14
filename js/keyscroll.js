@@ -1,15 +1,10 @@
-// H,J,K,L FUNCTIONALITY 
-
-if(/Android|webOS|iPhone|iPod|iPad|BlackBerry/i.test(navigator.userAgent) ) {
-}
-
-else {
-  $(document).ready(function() {
+$(document).ready(function() {
+  if(/Android|webOS|iPhone|iPod|iPad|BlackBerry/i.test(navigator.userAgent) ) {}
+  else {
     $('.clients-slideshow-previous a').html("← H");
     $('.clients-slideshow-next a').html("L →");
-
-    var firstRun = true,
-      stillFading = false,
+  }
+    var stillFading = false,
       gears = $('.conveyor-gear'),
       clients = $('.clients-info');
 
@@ -127,46 +122,6 @@ else {
         });
       });
     });
-/*
-    $('.clients-slideshow-next').click(function(){
-        var newBox = $('.new-box');
-        newBox.css("left", "-50%");
-        newBox.css("display", "inline");
-
-        var currentBox = $('.current-box');
-        var gearsNext = TweenLite.to(gears, 1, { rotation: "+=720", transformOrigin:"74% 50%", ease: Power4.easeInOut });
-        var currentBoxNext = TweenLite.to(box, 2, { left: "+=100%", ease: Power4.easeInOut});
-        var newBoxNext = TweenLite.fromTo(box, 2, {left: "-120%"}, { left: "37%", ease: Power4.easeInOut});
-
-        if (!firstRun) {
-          client3.fadeOut();
-          newBoxNext.play(0);
-          currentBoxNext.play(0);
-          gearsNext.play(0);
-         // client3.fadeIn(1);
-        }
-      });
-
-      $('.clients-slideshow-previous').click(function(){
-        var newBox = $('.new-box');
-        newBox.css("left", "150%");
-        newBox.css("display", "inline");
-
-        var currentBox = $('.current-box');
-        var gearsPrev = TweenLite.to(gears, 1, { rotation: "-=720", transformOrigin:"74% 50%", ease: Power4.easeInOut });
-        var currentBoxPrev = TweenLite.to(box, 2, { left: "-=100%", ease: Power4.easeInOut});
-        var newBoxPrev = TweenLite.to(box, 2, { left: "37%", ease: Power4.easeInOut});
-        if (!firstRun) {
-          client3.fadeOut();
-          newBoxPrev.play(0);
-          currentBoxPrev.play(0);
-          gearsPrev.play(0);
-          //client3.fadeIn(1);
-        }
-      });
-*/
-
-      firstRun = false;
 
       $(window).keydown(function(event){
 
@@ -188,4 +143,3 @@ else {
           }
       })
   })
-}
