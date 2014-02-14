@@ -208,7 +208,8 @@
   .clients-resources .clients-icon p{} 
   .clients-tools .clients-icon p {}
   .clients-resources .clients-icon p{ margin-top: 0; } 
-  .clients-box{ padding-top:5%; position: relative;} 
+  .clients-box{ min-width: 275px; height: auto; padding-top:5%; position: relative; left: 0; margin-right: auto; margin-left: auto;} 
+  .clients-box h3{ top: 35%; }
 
   /* SECTION 6 */
   #contact-content { width: 44em; }
