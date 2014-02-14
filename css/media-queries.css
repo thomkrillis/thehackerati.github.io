@@ -400,7 +400,7 @@
   .block-mobile .perks-cell { width: 100%; margin: 1.1em; }
   .block-mobile .perks-icon { width: 90%; height: 90%;}
   .testimonial-img img { -webkit-box-shadow: 0px 0px 9px -2px rgba(0,0,0,0.76); -moz-box-shadow: 0px 0px 9px -2px rgba(0,0,0,0.76); box-shadow: 0px 0px 9px -2px rgba(0,0,0,0.76);}
-  .apply-button { color: #4CA0D3; }
+  .apply-button { color: #ec6314; }
 
   /******** ACADEMY PAGE *********/
   .academy-page .generic-content { width: 20em; }
@@ -429,10 +429,10 @@
   .footer-share{ width: 100%; margin-bottom: 0;}
   .footer-contact{width: 100%;}
   .footer-section .content-container { width: 23em; }
-
   .footer-copyright { width: 80%; text-align: center; margin-left: 1.7em; }
   .twitter-footer { margin-left: 3em; }
   .footer-madeny { text-align: center; }
+  .madenyc { width: 9em; height: 9em; }
 
 }
 
@@ -565,7 +565,7 @@
   .block-mobile .perks-copy { left: 0.5em; }
   .block-mobile .perks-icon p { padding: 0; }
   .testimonial-img img { -webkit-box-shadow: 0px 0px 9px -2px rgba(0,0,0,0.76); -moz-box-shadow: 0px 0px 9px -2px rgba(0,0,0,0.76); box-shadow: 0px 0px 9px -2px rgba(0,0,0,0.76);}
-  .apply-button { color: #4CA0D3; }
+  .apply-button { color: #ec6314; }
 
   /******** RECRUITING ********/
   .recruit-window .block-left{ width:100%; padding-bottom: 25%;}
@@ -607,4 +607,5 @@
   .footer-copyright { width: 80%; text-align: center; margin-left: 1.7em; }
   .twitter-footer { margin-left: 1.8em; }
   .footer-madeny { text-align: center; }
+  .madenyc { width: 9em; height: 9em; }
 }
