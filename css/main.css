@@ -406,6 +406,8 @@ a.about-link {
     margin: 0;
 }
 
+.left-slider-button { display: none;}
+.right-slider-button { display: none;}
 /******** HOME PAGE **********/
 /*****************************/
 

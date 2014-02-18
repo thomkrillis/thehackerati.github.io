@@ -1,0 +1,77 @@
+</div>
+
+<div class="sb-slidebar sb-left">
+  <ul class="sb-menu">
+    <li><a class="sitemap-cat" href="/">Home</a></li>
+    <li><a class="sitemap-sub" href="/#who">Who</a></li>
+    <li><a class="sitemap-sub" href="/#what">What</a></li>
+    <li><a class="sitemap-sub" href="/#how">How</a></li>
+    <li><a class="sitemap-sub" href="/#clients">Clients</a></li>
+    <li><a class="sitemap-sub" href="/#contact">Contact</a></li>
+    <li><a class="sitemap-cat" href="/about">About</a></li>
+    <li><a class="sitemap-sub" href="/about/#supply">Supply</a></li>
+    <li><a class="sitemap-sub" href="/about/#apprenticeship">Apprenticeship</a></li>
+    <li><a class="sitemap-sub" href="/about/#benefits">Benefits</a></li>
+    <li><a class="sitemap-sub" href="/about/#leadership">Leadership</a></li>
+    <li><a class="sitemap-cat" href="/careers">Careers</a></li>
+    <li><a class="sitemap-sub" href="/careers/#perks">Perks</a></li>
+    <li><a class="sitemap-sub" href="/careers/#guild">Guild Model</a></li>
+    <li><a class="sitemap-cat" href="/academy">Academy</a></li>
+    <li><a class="sitemap-sub" href="/academy/#audience">Audience</a></li>
+    <li><a class="sitemap-sub" href="/academy/#pedagogy">Pedagogy</a></li>
+  </ul>
+</div>
+
+<div class="sb-slidebar sb-right">
+  <div>
+    <ul class="sb-menu sb-social">
+      <li>
+        <a href="http://twitter.com/TheHackerati" target="blank">
+          <span class="twitter-footer footer-sprite"></span> Twitter
+        </a>
+      </li>
+      <li>
+        <a href="https://www.facebook.com/pages/The-Hackerati/352879328133465?fref=ts" target="blank">
+          <span class="facebook-footer footer-sprite"></span> Facebook
+        </a>
+      </li>
+      <li>
+        <a href="http://www.linkedin.com/company/the-hackerati-inc-" target="blank">
+          <span class="linkedin-footer footer-sprite"></span>LinkedIn
+        </a>
+      </li>
+      <li>
+        <a href="https://github.com/thehackerati" target="blank">
+          <span class="github-footer footer-sprite"></span>GitHub
+        </a>
+      </li>
+      <li>
+        <a href="https://plus.google.com/116959192453188050047/posts" target="blank">
+          <span class="gplus-footer footer-sprite"></span> Google+
+        </a>
+      </li>
+      <li>
+        <a href="http://www.meetup.com/Startup-Office-Hours-NYC/" target="blank">
+          <span class="meetup-footer footer-sprite"></span> Meetup
+        </a>
+    </ul>
+  </div>
+</div>
+
+<script src="../js/slidebars.min.js"></script>
+<script>
+  (function($) {
+    $(document).ready(function() {
+      var mySlidebars = new $.slidebars({
+        disableOver: 768,
+        hideControlClasses: true
+      });
+      $('.left-slider-button').on('click', function() {
+        mySlidebars.toggle('left');
+      });
+      $('.right-slider-button').on('click', function() {
+        mySlidebars.toggle('right');
+      });
+    });
+  }) (jQuery);
+</script>
