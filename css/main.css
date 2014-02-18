@@ -128,6 +128,14 @@ li {
 	color: #0078D3;
 }
 
+.hidden {
+    display: none;
+}
+
+.visible {
+    display: block;
+}
+
 .white-border {
     border-bottom: 1px dotted #f4f4f4;
     width: 100%;
@@ -237,10 +245,11 @@ li {
 
 .tablet { display: none; }
 
-#all-content {
+.all-content {
     position: relative;
     width: auto;
     height: auto;
+    /*z-index: -100;*/
 }
 
 .section3 .content-container {
@@ -264,6 +273,36 @@ li {
 
 /********** HEADER **********/
 /****************************/
+
+#persistent-header {
+    position: fixed;
+    top: 0;
+    background-image: url('../assets/img/bgblack.png');
+    height: auto;
+    -webkit-box-shadow: inset 0px -15px 25px 6px rgba(0, 0, 0, .3);
+    box-shadow: inset 0px -15px 25px 6px rgba(0, 0, 0, .3);
+    width: 100%;
+    /*z-index: -50;*/
+    z-index: 500;
+}
+
+#persistent-header > .content-container {
+    margin: 0 auto;
+    text-align: center;
+    width: 91%;
+}
+
+#persistent-header .content-container nav {
+    margin-top: 0.25em;
+}
+
+#persistent-header .nav-links {
+    padding-top: .6em;
+}
+
+#persistent-header .logo {
+    height: 3.5em;
+}
 
 .logo {
     height: 5em;
@@ -346,6 +385,7 @@ li#academy {
     height: auto;
     -webkit-box-shadow: inset 0px -15px 25px 6px rgba(0, 0, 0, .3);
     box-shadow: inset 0px -15px 25px 6px rgba(0, 0, 0, .3);
+    z-index: 99999 !important
 }
 
 nav a {
@@ -356,6 +396,10 @@ nav a {
     margin: 0 auto;
     text-align: center;
     width: 91%;
+}
+
+#section1-anchor-link {
+    z-index: 99999 !important;
 }
 
 a.about-link {
@@ -1779,6 +1823,10 @@ img.splash{
          
 }
 
+.typer-target {
+  display: inline;
+}
+
 .menu-bar-button {
     width: 12px;
     height: 12px;
@@ -1935,6 +1983,10 @@ img.splash{
 
 /******** CAREERS PAGE *******/
 /*****************************/
+
+.careers-page {
+    z-index: 50;
+}
 
 .b-page-image.careers {
 	background: url('../assets/img/largecooperstairs.jpg');

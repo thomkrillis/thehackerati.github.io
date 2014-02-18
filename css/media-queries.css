@@ -310,6 +310,12 @@
   nav a {	margin-left: 1.0em;	}
   .header-section > .content-container {	width: 31em;}
   .logo img {	width: 76%;	max-height: none;	}
+  #persistent-header > .content-container { width: 31em; }
+  #persistent-header .logo img { width: 45%; }
+  #persistent-header .content-container nav { margin-top: 0; }
+  #persistent-header .nav-links { padding-top: .2em; }
+  .content-container nav { padding-bottom: 0.5em; }
+  #persistent-header { display: none; }
 
   /********** HOME PAGE **********/
   .welcome-container .block-right { display: none;	} 
@@ -364,7 +370,7 @@
   .block-mobile .perks-cell { width: 100%; margin: 1.1em; }
   .block-mobile .perks-icon { width: 90%; height: 90%;}
   .testimonial-img img { -webkit-box-shadow: 0px 0px 9px -2px rgba(0,0,0,0.76); -moz-box-shadow: 0px 0px 9px -2px rgba(0,0,0,0.76); box-shadow: 0px 0px 9px -2px rgba(0,0,0,0.76);}
-  .apply-button { color: #4CA0D3; }
+  .apply-button { color: #ec6314; }
 
   /******** ACADEMY PAGE *********/
   .academy-page .generic-content { width: 20em; }
@@ -393,10 +399,10 @@
   .footer-share{ width: 100%; margin-bottom: 0;}
   .footer-contact{width: 100%;}
   .footer-section .content-container { width: 23em; }
-
   .footer-copyright { width: 80%; text-align: center; margin-left: 1.7em; }
   .twitter-footer { margin-left: 3em; }
   .footer-madeny { text-align: center; }
+  .madenyc { width: 9em; height: 9em; }
 
 }
 
@@ -441,6 +447,12 @@
   nav a {	margin-left: 0.5em;}
   .header-section > .content-container {	width: 21em;}
   .logo img {	width: 94%;	max-height: none;	}
+  #persistent-header { display: none; }
+  #persistent-header > .content-container { width: 21em; }
+  #persistent-header .logo img { width: 60%; }
+  #persistent-header .content-container nav { margin-top: 0; }
+  #persistent-header .nav-links { padding-top: .2em; }
+  .content-container nav { padding-bottom: 0.9em; }
 
   /********** HOME PAGE **********/
   .welcome-container #header {	height: 170px;}
@@ -523,7 +535,7 @@
   .block-mobile .perks-copy { left: 0.5em; }
   .block-mobile .perks-icon p { padding: 0; }
   .testimonial-img img { -webkit-box-shadow: 0px 0px 9px -2px rgba(0,0,0,0.76); -moz-box-shadow: 0px 0px 9px -2px rgba(0,0,0,0.76); box-shadow: 0px 0px 9px -2px rgba(0,0,0,0.76);}
-  .apply-button { color: #4CA0D3; }
+  .apply-button { color: #ec6314; }
 
   /******** RECRUITING ********/
   .recruit-window .block-left{ width:100%; padding-bottom: 25%;}
@@ -565,4 +577,5 @@
   .footer-copyright { width: 80%; text-align: center; margin-left: 1.7em; }
   .twitter-footer { margin-left: 1.8em; }
   .footer-madeny { text-align: center; }
+  .madenyc { width: 9em; height: 9em; }
 }
