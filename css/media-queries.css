@@ -164,6 +164,8 @@
   #terminal-window a {font-size: 1.2em; padding: 15px 18px; margin-left: 3%; margin-right: 3%;}
   .nav-links .about-link { margin-left: 0.3em; }
   .welcome-content { width: 44em; }
+  .left-slider-button { display: none;}
+  .right-slider-button { display: none;}
 
   /* SECTION 2 */
   #who-title, #who-info{ width:100%; float:none; clear:both; display:block;}
@@ -302,6 +304,8 @@
   .block-desktop { display: none; }
   .block-mobile { display: block; }
   .block-mobile img { width: 100%; }
+  .splash { display:none; }
+
 
   /********** HEADER **********/
   .logo {	float: none;}
@@ -316,6 +320,7 @@
   #persistent-header .nav-links { padding-top: .2em; }
   .content-container nav { padding-bottom: 0.5em; }
   #persistent-header { display: none; }
+  .header-section{ display:none; }
 
   /********** HOME PAGE **********/
   .welcome-container .block-right { display: none;	} 
@@ -348,7 +353,7 @@
   #contact-content { width: 22em; }
   #google-maps-wrapper { top: 8em; }
 
-    /****** CAREERS PAGE *******/
+  /****** CAREERS PAGE *******/
   .section1-content-container {	width: 22.5em;}
   .testimonial-copy-tablet {	width: 100%;	display: block;	}
   .testimonial-copy-mobile {	display: none;}
