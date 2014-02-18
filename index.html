@@ -3,24 +3,6 @@ layout: b_page
 title: The Hackerati
 ---
 
-<!--<div id="persistent-header">
-    <div class="content-container">
-        <div class="logo">
-            <a href="/">
-                <img src="../assets/img/logo.png" />
-            </a>
-        </div>
-    
-        <nav class="nav-links">
-            <a class="about-link" href="/about">About</a>
-            <a href="/careers">Careers</a>
-            <a href="/academy">Academy</a>
-        </nav>
-
-        <div class="clearfix"></div>
-    </div>
-</div>-->
-
 <!--* SPLASH PAGE SECTION 1 *-->  
 <div class="welcome-container" id="welcome-container">
   {% include desktop-header.html %}
@@ -610,6 +592,7 @@ title: The Hackerati
 <script src="http://maps.googleapis.com/maps/api/js?key=AIzaSyCjevm4lVn1HRpGnIkfIKZJ-kA9OnPfvnQ&sensor=false"></script>
 <script type="text/javascript">
 
+  var isMapDisplayed = false;
   var cooper = new google.maps.LatLng(40.7286, -73.9905);
   if (screen.width >= 600) {
     var center = new google.maps.LatLng(40.736778, -73.9905);
@@ -751,15 +734,25 @@ function expandMap(){
 
 function slideMaps() {
   if( /Android|webOS|iPhone|iPod|BlackBerry/i.test(navigator.userAgent) &&
-      window.innerWidth < 480 ) {
-  }
+      window.innerWidth < 480 ) {}
   else {
     document.getElementById('google-maps-wrapper').style.marginLeft = "-50%";
+    isMapDisplayed = true;
   }
 }
 
-function slideMapIfScrolled(){
-  if (isElementInViewport(document.getElementById('contact-title'))) {
+function scrollHandler(){
+  var scrollPos = document.documentElement.scrollTop;
+  var offsetHeight = document.getElementById('welcome-container').offsetHeight;
+
+  if(scrollPos >= offsetHeight){
+    document.getElementById('sb-nav').style.display = "block";
+  }
+  else {
+    document.getElementById('sb-nav').style.display = "none";
+  }
+
+  if (!isMapDisplayed && isElementInViewport(document.getElementById('contact-title'))) {
     growLetsTalk();
   }
 }
@@ -774,7 +767,7 @@ if( /iPad/i.test(navigator.userAgent) || ( /Android/i.test(navigator.userAgent) 
   document.getElementById('google-maps-wrapper').style.marginLeft = "-50%";
 }
 else{
-  window.onscroll = slideMapIfScrolled
+  window.onscroll = scrollHandler
 }
 
 function bouncePause(){
@@ -783,4 +776,5 @@ function bouncePause(){
   }    
 }
  
+document.getElementById('sb-nav').style.display = "none";
 </script>
