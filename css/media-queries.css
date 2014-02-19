@@ -196,23 +196,7 @@
   #how h1 { margin-left:4.7em;}
 
   /* SECTION 5 */
-/*  .arrow-box-left, .arrow-box-right, .arrow-box-middle { width:100%; display:block; position: relative; float:none; clear: both; margin-bottom:8%; height: auto; margin- left: 0; margin-right: 0;}
-  .arrow-box-right:after, .arrow-box-left:after { right:0%; top:100%; left: 50%; margin-top: 0px; margin-left: -25px;}
-  .arrow-box-left:after { border-top-color: #3E8EC9; border-left-color: transparent;}
-  .arrow-box-right:after { border-top-color: #1E3E68; border-right-color: transparent;}
-  .clients-info { position: relative;}
-  .conveyor{ position:relative; display: block; height: 110px; margin-top:-80px;}
-  .conveyor-gear-row { bottom: 1px;}
-  #gear-spread div {width: 12%;}
-  .clients-description p { font: 1.1em/100% 'inconsolatamedium'; padding: 2% 2%;}
-  .clients-resources .clients-icon{ display: inline-block; width:20%; height:auto; font: 1.0em/100% 'inconsolatamedium';}
-  .clients-tools .clients-icon{ display:inline-block; width:18%; height:auto; font: 1.0em/100% 'inconsolatamedium';}
-  .clients-resources .clients-icon p{} 
-  .clients-tools .clients-icon p {}
-  .clients-resources .clients-icon p{ margin-top: 0; } 
-  .clients-box{ min-width: 275px; height: auto; padding-top:5%; position: relative; left: 0; margin-right: auto; margin-left: auto;} 
-  .clients-box h3{ top: 35%; }
-*/
+
   /* SECTION 6 */
   #contact-content { width: 44em; }
 
@@ -344,9 +328,11 @@
 
   /* SECTION 5 */
   .clients-content{width: 100%;}
+  .arrow-box-left, .arrow-box-right, .arrow-box-middle { width:100%; display:block; position: relative; float:none; clear: both; margin-bottom:8%; height: auto; margin- left: 0; margin-right: 0;}
   #clients-title{width: 80%; margin-left: auto; margin-right: auto; text-align: center;}
   .clients-intro, .clients-tap{ display: block; padding-left: 10%; padding-right: 10%;}
   .clients-tap{ text-align: right; color: #4CA0D3;} 
+  .clients-box{ height: auto; padding-top:5%; position: relative; left: 0; margin-right: auto; margin-left: auto;} 
   #clients-slideshow-block, .conveyor, .conveyor-gear-row, .clients-box img, .clients-box p{display: none;}
   .tooltip {display:block;}
   .arrow-box-left, .arrow-box-middle, .arrow-box-right{background:transparent;}
@@ -361,6 +347,9 @@
   .clients4{ background-color: #ea8553;}
   .clients5{ background-color: #ec6314;}
   .clients6{ background-color: #918c87;}
+  .clients-resources .clients-icon p{ margin-top: 0; } 
+  .clients-resources .clients-icon{ display: inline-block; width:20%; height:auto; font: 1.0em/100% 'inconsolatamedium';}
+  .clients-tools .clients-icon{ display:inline-block; width:18%; height:auto; font: 1.0em/100% 'inconsolatamedium';}
 
   /* SECTION 6 */
   #contact-content { width: 22em; }
