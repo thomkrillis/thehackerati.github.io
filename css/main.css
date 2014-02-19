@@ -1626,6 +1626,7 @@ a#google-maps-wrapper{
     width: 47%;
 }
 .block-right img {
+    width: 100%;
     height:auto;
     vertical-align: middle;
 }
@@ -1642,6 +1643,7 @@ a#google-maps-wrapper{
     width: 49%;
 }
 .block-left img {
+    width: 100%;
     height:auto;
     vertical-align: middle;
 }
@@ -1943,6 +1945,8 @@ img.splash{
 .about-page #section2-anchor-link .block-mobile {
     text-align: center;
 }
+
+.photo-contact-info, .name-contact-info{ display:inline-block; width: 220px; padding-top: 2.5%; padding-bottom:2.5%; padding-right: 2.5%}
 
 /******** ACADEMY PAGE *********/
 /*****************************/
