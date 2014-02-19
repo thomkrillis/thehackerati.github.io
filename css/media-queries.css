@@ -196,6 +196,14 @@
   #how h1 { margin-left:4.7em;}
 
   /* SECTION 5 */
+  .clients-box{ min-width: 160px;}
+  .clients-info h3 { font: 1.8em/120% 'inconsolatamedium'; }
+  .clients-box h3 { font: 1.3em/120% 'inconsolatamedium'; }
+  .tooltip p { font: 1.05em/120% 'inconsolatamedium'; }
+  .clients-resources p{ font: 0.75em/120% 'inconsolatamedium'; }
+  .clients-resources .clients-icon p{ margin-top: -40px;}
+  .clients-tools p{ font: 0.75em/120% 'inconsolatamedium'; }
+  .clients-tools .clients-icon { padding-top: 8%; padding-bottom 0%;}
 
   /* SECTION 6 */
   #contact-content { width: 44em; }
@@ -332,13 +340,13 @@
   #clients-title{width: 80%; margin-left: auto; margin-right: auto; text-align: center;}
   .clients-intro, .clients-tap{ display: block; padding-left: 10%; padding-right: 10%;}
   .clients-tap{ text-align: right; color: #4CA0D3;} 
-  .clients-box{ height: auto; padding-top:5%; position: relative; left: 0; margin-right: auto; margin-left: auto;} 
+  .clients-box{ height: auto; padding-top:1%; left: 0; margin-right: auto; margin-left: auto; max-width: none;} 
   #clients-slideshow-block, .conveyor, .conveyor-gear-row, .clients-box img, .clients-box p{display: none;}
   .tooltip {display:block;}
   .arrow-box-left, .arrow-box-middle, .arrow-box-right{background:transparent;}
   .arrow-box-left h3, .arrow-box-middle h3, .arrow-box-right h3{ display: none;}
   .arrow-box-right:after, .arrow-box-middle:after, .arrow-box-left:after { display: none;} 
-  .clients-box, .clients-box h3{text-align: left; display: block; width: 100%; position:relative; }
+  .clients-box, .clients-box h3{text-align: left; display: block; width: 100%; position:initial; }
   .clients-slideshow{height: auto; min-height: 0; overflow: hidden; padding-bottom: 0; background-color: #242424; -webkit-transition: max-height 0.3s linear;  }
   .clients-info{position:relative; display:block; min-height:0; height: auto; max-height: 3em; overflow: hidden; -webkit-transition: max-height 0.3s linear;  }
   .clients1{ background-color: #3e8ec9;}
