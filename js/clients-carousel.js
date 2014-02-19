@@ -1,9 +1,30 @@
-$(document).ready(function() {
-  if(/Android|webOS|iPhone|iPod|iPad|BlackBerry/i.test(navigator.userAgent) ) {}
+$(window).on('resize', function() {
+  if(/Android|webOS|iPhone|iPod|iPad|BlackBerry/i.test(navigator.userAgent) || window.innerWidth < 768 ) {
+    var clientsOpen = false; 
+    var tileFlags = new Array();
+
+    for (var i = 0; i < $('.clients-info').length; i++){
+      tileFlags[i] = false;
+      $('.clients-info').eq(i).css("max-height", "3em");
+    }
+     
+    $('.clients-info').on("click", function() {
+      var listIndex = $(this).index();
+      var elem = $('.clients-info').eq(listIndex);
+
+      if(!tileFlags[listIndex]) {
+        elem.css("max-height", "1000px");
+        tileFlags[listIndex] = !tileFlags[listIndex];
+      } else {
+        elem.css("max-height", "3em");
+        tileFlags[listIndex] = !tileFlags[listIndex];
+      }
+    });
+  }
   else {
     $('.clients-slideshow-previous a').html("← H");
     $('.clients-slideshow-next a').html("L →");
-  }
+
     var stillFading = false,
       gears = $('.conveyor-gear'),
       clients = $('.clients-info');
@@ -132,4 +153,9 @@ $(document).ready(function() {
           $('.clients-slideshow-previous').click();
         }
     })
-  })
+  }
+})
+
+$(document).ready(function(){
+  $(window).trigger('resize');
+});
