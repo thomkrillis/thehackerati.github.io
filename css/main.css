@@ -1293,6 +1293,7 @@ body > svg {
   min-height: 550px;
   display: block;
   position: relative;
+  overflow: hidden;
 }
 .clients-info{
   width: 100%;
