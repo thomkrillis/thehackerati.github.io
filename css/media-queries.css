@@ -199,14 +199,18 @@
   #how h1 { margin-left:4.7em;}
 
   /* SECTION 5 */
-  .clients-box{ min-width: 160px;}
+  .clients-box{ min-width: 160px; bottom: 0.8em; }
+  .clients-box img { width: 75%; }
+  .clients-box h3 { width: 46%; left: 15%; }
+  .clients-box p { bottom: 3px; left: 11%; }
   .clients-info h3 { font: 1.8em/120% 'inconsolatamedium'; }
   .clients-box h3 { font: 1.3em/120% 'inconsolatamedium'; }
-  .tooltip p { font: 1.05em/120% 'inconsolatamedium'; }
-  .clients-resources p{ font: 0.75em/120% 'inconsolatamedium'; }
-  .clients-resources .clients-icon p{ margin-top: -40px;}
+  .tooltip p { font: 1.03em/120% 'inconsolatamedium'; }
+  .clients-resources p{ font: 0.9em/120% 'inconsolatamedium'; width: 4em; margin-left: auto; margin-right: auto; }
+  .clients-resources .clients-icon p{ margin-top: 1em; margin-bottom: 2em;}
   .clients-tools p{ font: 0.75em/120% 'inconsolatamedium'; }
   .clients-tools .clients-icon { padding-top: 8%; padding-bottom 0%;}
+  .clients-icon .fa-icon { margin-left: auto; margin-right: auto; }
 
   /* SECTION 6 */
   #contact-content { width: 44em; }
@@ -334,16 +338,18 @@
   /* SECTION 5 */
   .clients-content{width: 22em;}
   .arrow-box-left, .arrow-box-right, .arrow-box-middle { width:100%; display:block; position: relative; float:none; clear: both; margin-bottom:8%; height: auto; margin- left: 0; margin-right: 0;}
+  .arrow-box-middle { margin-bottom: 0; }
   #clients-title{width: 100%; margin-left: auto; margin-right: auto; text-align: center;}
   .clients-intro, .clients-tap{ display: block; padding-left: 0%; padding-right: 0%; font: 1.15em/120% 'inconsolatamedium';}
   .clients-tap{ text-align: center; color: #0078D3;} 
   .clients-box{ height: auto; padding-top:1%; left: 0; margin-right: auto; margin-left: auto; max-width: none;} 
   #clients-slideshow-block, .conveyor, .conveyor-gear-row, .clients-box img, .clients-box p{display: none;}
   .tooltip {display:block;}
+  .tooltip p { font: 1.05em/120% 'inconsolatamedium'; }
   .arrow-box-left, .arrow-box-middle, .arrow-box-right{background:transparent;}
   .arrow-box-left h3, .arrow-box-middle h3, .arrow-box-right h3{ display: none;}
   .arrow-box-right:after, .arrow-box-middle:after, .arrow-box-left:after { display: none;} 
-  .clients-box, .clients-box h3{text-align: left; display: block; width: 100%; position:initial; cursor: pointer; }
+  .clients-box, .clients-box h3{text-align: left; display: block; width: 100%; position:initial; cursor: pointer; margin-left: 0.2em; }
   .clients-slideshow{height: auto; min-height: 0; overflow: hidden; padding-bottom: 0; background-color: #242424; -webkit-transition: max-height 0.3s linear;  }
   .clients-info{position:relative; display:block; min-height:0; height: auto; max-height: 3em; overflow: hidden; -webkit-transition: max-height 0.3s linear;  }
   .clients1{ background-color: #3e8ec9;}
@@ -352,9 +358,11 @@
   .clients4{ background-color: #ea8553;}
   .clients5{ background-color: #ec6314;}
   .clients6{ background-color: #918c87;}
-  .clients-resources .clients-icon p{ margin-top: 0; } 
-  .clients-resources .clients-icon{ display: inline-block; width:20%; height:auto; font: 1.0em/100% 'inconsolatamedium';}
-  .clients-tools .clients-icon{ display:inline-block; width:18%; height:auto; font: 1.0em/100% 'inconsolatamedium';}
+  .clients-resources .clients-icon p{ margin-top: 1em; } 
+  .clients-resources .clients-icon{ display: inline-block; width:30%; height:auto; font: 1.0em/100% 'inconsolatamedium'; margin-right: 0.5em;}
+  .clients-tools .clients-icon{ display:inline-block; width:25%; height:auto; font: 1.0em/100% 'inconsolatamedium'; margin-right: 1.7em;}
+  .clients-resources p { width: 5em; margin-left: auto; margin-right: auto; }
+  .clients-tools { margin-top: 0; }
 
   /* SECTION 6 */
   #contact-content { width: 22em; }
