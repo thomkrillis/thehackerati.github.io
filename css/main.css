@@ -1043,6 +1043,9 @@ a.spin-active {
 body > svg {
     position: absolute;
 }
+#outerTurn img{
+  width: auto;
+}
 #gear-wrapper{
     width: 630px;
     height: 630px;
