@@ -6,10 +6,10 @@ $(document).ready(function() {
       var offsetHeight = document.getElementById('welcome-container').offsetHeight;
 
       if(scrollPos >= offsetHeight){
-        document.getElementById('sb-nav').style.display = "block";
+        document.getElementById('sb-nav').style.opacity = "1";
       }
       else {
-        document.getElementById('sb-nav').style.display = "none";
+        document.getElementById('sb-nav').style.opacity = "0";
       }
     }
   }
