@@ -201,7 +201,7 @@
   /* SECTION 5 */
   .clients-box{ min-width: 160px;}
   .clients-info h3 { font: 1.8em/120% 'inconsolatamedium'; }
-  .clients-box h3 { font: 1.3em/120% 'inconsolatamedium'; }
+  .clients-box h3 { font: 1.3em/120% 'inconsolatamedium'; margin-left: 15px;}
   .tooltip p { font: 1.05em/120% 'inconsolatamedium'; }
   .clients-resources p{ font: 0.75em/120% 'inconsolatamedium'; }
   .clients-resources .clients-icon p{ margin-top: -40px;}
