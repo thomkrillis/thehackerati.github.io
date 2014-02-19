@@ -142,7 +142,7 @@
   .section2 .content-container { width: 51.5em;}
   .section2 p {	font: 2.0em/120% 'inconsolatamedium';}
   .generic-content { width: 36.5em; }
-  .block-mobile { display: block; }
+  .block-mobile { display: block; text-align:center;}
   .block-desktop { display: none; }
   #feedback{display:none;}
 
@@ -219,13 +219,7 @@
   .rob, .geoff { width: 100%; }
   .name-contact-info { display: inline-block; }
   #apprentice-text { text-align: center; }
-  .about-page #section2-anchor-link img,
-  .about-page #section3-anchor-link img,
-  .about-page #section4-anchor-link img { width: auto; }
-  .about-page #section2-anchor-link .block-left, 
-  .about-page #section3-anchor-link .block-left,
-  .about-page #section3-anchor-link .block-right, 
-  .about-page #section4-anchor-link .block-left { width: 100%; padding-left: 0; padding-right: 0;}
+  .block-right, .block-left { width: 100%; padding-left: 0; padding-right: 0;}
   .about-page #section4-anchor-link .block-mobile { text-align: center; }
   #benefits-img { margin-top: 1em; }
 
@@ -298,7 +292,7 @@
   .text-focus { background: none; }
   .block-desktop { display: none; }
   .block-mobile { display: block; }
-  .block-mobile img { width: 100%; }
+  .block-mobile img { width: 50%; }
   .splash { display:none; }
 
 
@@ -446,7 +440,7 @@
   .text-focus { background: none; }
   .block-desktop { display: none; }
   .block-mobile { display: block; }
-  .block-mobile img { width: 100%; }
+  .block-mobile img { width: 50%; }
   .generic-content { padding-top: 2%; padding-top: 2%; }
 
   /********** HEADER **********/
