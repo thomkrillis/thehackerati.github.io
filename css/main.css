@@ -276,47 +276,16 @@ li {
 
 /********** HEADER **********/
 /****************************/
-
-#persistent-header {
-    position: fixed;
-    top: 0;
-    background-image: url('../assets/img/bgblack.png');
-    height: auto;
-    -webkit-box-shadow: inset 0px -15px 25px 6px rgba(0, 0, 0, .3);
-    box-shadow: inset 0px -15px 25px 6px rgba(0, 0, 0, .3);
-    width: 100%;
-    /*z-index: -50;*/
-    z-index: 500;
-}
-
-#persistent-header > .content-container {
-    margin: 0 auto;
-    text-align: center;
-    width: 91%;
-}
-
-#persistent-header .content-container nav {
-    margin-top: 0.25em;
-}
-
-#persistent-header .nav-links {
-    padding-top: .6em;
-}
-
-#persistent-header .logo {
-    height: 3.5em;
-}
-
 .logo {
-    height: 5em;
-    padding-top: 1em;
-    padding-bottom: 1em;
-    width: auto;
-    float: left;
+  height: 7.5em;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  width: auto;
+  float: left;
 }
 
 .logo img {
-    max-height: 100%;
+  max-height: 100%;
 }
 
 #header {
@@ -341,7 +310,7 @@ li {
 .content-container nav {
     font: 2em/100% 'inconsolatamedium';
     color: #f4f4f4;
-    margin-top: 0.75em;
+    margin-top: 0.8em;
 }
 
 .nav-links {
@@ -384,11 +353,11 @@ li#academy {
 }
 
 .header-section {
-    background-image: url('../assets/img/bgblack.png');
-    height: auto;
-    -webkit-box-shadow: inset 0px -15px 25px 6px rgba(0, 0, 0, .3);
-    box-shadow: inset 0px -15px 25px 6px rgba(0, 0, 0, .3);
-    z-index: 99999 !important
+  background-image: url('../assets/img/bgblack.png');
+  height: auto;
+  -webkit-box-shadow: inset 0px -15px 25px 6px rgba(0, 0, 0, .3);
+  box-shadow: inset 0px -15px 25px 6px rgba(0, 0, 0, .3);
+  z-index: 99999 !important
 }
 
 nav a {
