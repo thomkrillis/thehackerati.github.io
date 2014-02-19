@@ -1311,9 +1311,14 @@ body > svg {
   margin-left: auto;
   margin-right:auto;
 }
+
+.clients-tools, .clients-resources {
+    margin-top: 1em;
+}
+
 .clients-resources .clients-icon{
   width: 50%;
-  height: 40%;
+  height: auto;
   color: white;
   text-align: center;
   font: 1.1em/100% 'inconsolatamedium';
@@ -1321,9 +1326,7 @@ body > svg {
   padding: 0;
   margin: 0 auto;
 }
-.clients-resources .clients-icon p{
-  margin-top: -54px;
-}
+
 .clients-tools .clients-icon{
   width: 31%;
   max-width: 100px;
