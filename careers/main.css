@@ -155,10 +155,10 @@ title: Careers | The Hackerati
                 <div class="perks-copy"id="perks-copy4">
                     <ul>
                         <li>insurance from day one</li>
-                            &#09;<li>medical</li>
-                            &#09;<li>dental</li>
-                            &#09;<li>vision</li>
-                            &#09;<li>life</li>
+                            <li class="indent">medical</li>
+                            <li class="indent">dental</li>
+                            <li class="indent">vision</li>
+                            <li class="indent">life</li>
                         <li>flex spending accounts</li>
                     </ul>
                 </div>
