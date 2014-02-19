@@ -1316,6 +1316,9 @@ body > svg {
   border-width: 25px;
   margin-top: -25px;
 }
+.clients-intro, .clients-tap{
+  display:none;
+}
 .clients-slideshow{
   width: 100%;
   min-height: 550px;
