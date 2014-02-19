@@ -332,18 +332,18 @@
   #how h1 { margin-left: 1em; }
 
   /* SECTION 5 */
-  .clients-content{width: 100%;}
+  .clients-content{width: 22em;}
   .arrow-box-left, .arrow-box-right, .arrow-box-middle { width:100%; display:block; position: relative; float:none; clear: both; margin-bottom:8%; height: auto; margin- left: 0; margin-right: 0;}
-  #clients-title{width: 80%; margin-left: auto; margin-right: auto; text-align: center;}
-  .clients-intro, .clients-tap{ display: block; padding-left: 10%; padding-right: 10%;}
-  .clients-tap{ text-align: right; color: #4CA0D3;} 
+  #clients-title{width: 100%; margin-left: auto; margin-right: auto; text-align: center;}
+  .clients-intro, .clients-tap{ display: block; padding-left: 0%; padding-right: 0%; font: 1.15em/120% 'inconsolatamedium';}
+  .clients-tap{ text-align: center; color: #0078D3;} 
   .clients-box{ height: auto; padding-top:1%; left: 0; margin-right: auto; margin-left: auto; max-width: none;} 
   #clients-slideshow-block, .conveyor, .conveyor-gear-row, .clients-box img, .clients-box p{display: none;}
   .tooltip {display:block;}
   .arrow-box-left, .arrow-box-middle, .arrow-box-right{background:transparent;}
   .arrow-box-left h3, .arrow-box-middle h3, .arrow-box-right h3{ display: none;}
   .arrow-box-right:after, .arrow-box-middle:after, .arrow-box-left:after { display: none;} 
-  .clients-box, .clients-box h3{text-align: left; display: block; width: 100%; position:initial; }
+  .clients-box, .clients-box h3{text-align: left; display: block; width: 100%; position:initial; cursor: pointer; }
   .clients-slideshow{height: auto; min-height: 0; overflow: hidden; padding-bottom: 0; background-color: #242424; -webkit-transition: max-height 0.3s linear;  }
   .clients-info{position:relative; display:block; min-height:0; height: auto; max-height: 3em; overflow: hidden; -webkit-transition: max-height 0.3s linear;  }
   .clients1{ background-color: #3e8ec9;}
@@ -497,6 +497,9 @@
   /* SECTION 4 */
   .how-content { width: 19em; }
   #how h1 { margin-left: 0.45em; }
+
+  /* SECTION 5 */
+  .clients-content { width: 19em; }
 
   /* SECTION 6 */
   .contact-container { display:none; }
