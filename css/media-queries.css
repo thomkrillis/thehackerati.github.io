@@ -196,7 +196,7 @@
   #how h1 { margin-left:4.7em;}
 
   /* SECTION 5 */
-  .arrow-box-left, .arrow-box-right, .arrow-box-middle { width:100%; display:block; position: relative; float:none; clear: both; margin-bottom:8%; height: auto; margin- left: 0; margin-right: 0;}
+/*  .arrow-box-left, .arrow-box-right, .arrow-box-middle { width:100%; display:block; position: relative; float:none; clear: both; margin-bottom:8%; height: auto; margin- left: 0; margin-right: 0;}
   .arrow-box-right:after, .arrow-box-left:after { right:0%; top:100%; left: 50%; margin-top: 0px; margin-left: -25px;}
   .arrow-box-left:after { border-top-color: #3E8EC9; border-left-color: transparent;}
   .arrow-box-right:after { border-top-color: #1E3E68; border-right-color: transparent;}
@@ -212,7 +212,7 @@
   .clients-resources .clients-icon p{ margin-top: 0; } 
   .clients-box{ min-width: 275px; height: auto; padding-top:5%; position: relative; left: 0; margin-right: auto; margin-left: auto;} 
   .clients-box h3{ top: 35%; }
-
+*/
   /* SECTION 6 */
   #contact-content { width: 44em; }
 
@@ -314,12 +314,7 @@
   nav a {	margin-left: 1.0em;	}
   .header-section > .content-container {	width: 31em;}
   .logo img {	width: 76%;	max-height: none;	}
-  #persistent-header > .content-container { width: 31em; }
-  #persistent-header .logo img { width: 45%; }
-  #persistent-header .content-container nav { margin-top: 0; }
-  #persistent-header .nav-links { padding-top: .2em; }
   .content-container nav { padding-bottom: 0.5em; }
-  #persistent-header { display: none; }
   .header-section{ display:none; }
 
   /********** HOME PAGE **********/
@@ -348,6 +343,24 @@
   #how h1 { margin-left: 1em; }
 
   /* SECTION 5 */
+  .clients-content{width: 100%;}
+  #clients-title{width: 80%; margin-left: auto; margin-right: auto; text-align: center;}
+  .clients-intro, .clients-tap{ display: block; padding-left: 10%; padding-right: 10%;}
+  .clients-tap{ text-align: right; color: #4CA0D3;} 
+  #clients-slideshow-block, .conveyor, .conveyor-gear-row, .clients-box img, .clients-box p{display: none;}
+  .tooltip {display:block;}
+  .arrow-box-left, .arrow-box-middle, .arrow-box-right{background:transparent;}
+  .arrow-box-left h3, .arrow-box-middle h3, .arrow-box-right h3{ display: none;}
+  .arrow-box-right:after, .arrow-box-middle:after, .arrow-box-left:after { display: none;} 
+  .clients-box, .clients-box h3{text-align: left; display: block; width: 100%; position:relative; }
+  .clients-slideshow{height: auto; min-height: 0; overflow: hidden; padding-bottom: 0; background-color: #242424; -webkit-transition: max-height 0.3s linear;  }
+  .clients-info{position:relative; display:block; min-height:0; height: auto; max-height: 3em; overflow: hidden; -webkit-transition: max-height 0.3s linear;  }
+  .clients1{ background-color: #3e8ec9;}
+  .clients2{ background-color: #0d61c8;}
+  .clients3{ background-color: #1e3e68;}
+  .clients4{ background-color: #ea8553;}
+  .clients5{ background-color: #ec6314;}
+  .clients6{ background-color: #918c87;}
 
   /* SECTION 6 */
   #contact-content { width: 22em; }
@@ -452,11 +465,6 @@
   nav a {	margin-left: 0.5em;}
   .header-section > .content-container {	width: 21em;}
   .logo img {	width: 94%;	max-height: none;	}
-  #persistent-header { display: none; }
-  #persistent-header > .content-container { width: 21em; }
-  #persistent-header .logo img { width: 60%; }
-  #persistent-header .content-container nav { margin-top: 0; }
-  #persistent-header .nav-links { padding-top: .2em; }
   .content-container nav { padding-bottom: 0.9em; }
 
   /********** HOME PAGE **********/
