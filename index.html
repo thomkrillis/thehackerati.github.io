@@ -755,10 +755,10 @@ function scrollHandler(){
   var offsetHeight = document.getElementById('welcome-container').offsetHeight;
 
   if(scrollPos >= offsetHeight || window.innerWidth < 768){
-    document.getElementById('sb-nav-home').style.display = "block";
+    document.getElementById('sb-nav-home').style.opacity = "1";
   }
   else {
-    document.getElementById('sb-nav-home').style.display = "none";
+    document.getElementById('sb-nav-home').style.opacity = "0";
   }
 
   if (!isMapDisplayed && isElementInViewport(document.getElementById('contact-title'))) {
