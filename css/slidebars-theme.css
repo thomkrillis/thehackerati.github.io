@@ -200,15 +200,19 @@ span.sb-caret { /* Caret Down */
 .sb-navbar, .sb-navbar-home {
   background: #2d2d2d url('../assets/img/bgblack.png') repeat;
 	width: 100%;
-	height: 100px;
+	height: 65px;
+  padding-top: 5px;
+  padding-bottom: 5px;
 	position: fixed;
   display: block;
 	top: 0;
 	left: auto;
 	right: auto;
 	z-index: 1000;
+  opacity: 1;
 	-webkit-box-shadow: inset 0px -15px 25px 6px rgba(0, 0, 0, .3);
 	box-shadow: inset 0px -15px 25px 6px rgba(0, 0, 0, .3);
+  -webkit-transition: opacity 1s linear;
 /*	background-color: #222222; */
 /*	
 	box-shadow:
@@ -229,9 +233,11 @@ span.sb-caret { /* Caret Down */
 }
 
 #sb-nav-home{ 
-  display:none;
+  display:block;
 	-webkit-box-shadow:none;
 	box-shadow: none;
+  opacity: 0;
+  -webkit-transition: opacity 0.2s linear;
 }
 
 html.sb-android .sb-navbar {
@@ -319,6 +325,7 @@ html.sb-android .sb-navbar {
   top: 5px;
   margin-left:auto;
   margin-right:auto;
+  -webkit-transition: all 1s linear;
 }
 
 img.sb-logo-img {
