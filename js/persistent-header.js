@@ -7,12 +7,32 @@ $(document).ready(function() {
 
       if(scrollPos >= offsetHeight || window.innerWidth < 768){
         document.getElementById('sb-nav-home').style.display = "block";
-        document.getElementById('sb-nav-home').style.opacity = "1";
       }
       else {
-        document.getElementById('sb-nav-home').style.opacity = "0";
         document.getElementById('sb-nav-home').style.display = "none";
       }
     }
   }
 })
+
+$(window).on("touchmove", function() {
+      var scrollPos = window.pageYOffset;
+      var offsetHeight = document.getElementById('top-section').clientHeight;
+
+      if(scrollPos >= offsetHeight || window.innerWidth < 768){
+        document.getElementById('sb-nav-home').style.display = "block";
+      }
+      else {
+        document.getElementById('sb-nav-home').style.display = "none";
+      }
+})
+
+$(window).on('resize', function() {
+    if (window.innerWidth < 768){
+      document.getElementById('sb-nav-home').style.display = "block";
+    }
+    else{
+      document.getElementById('sb-nav-home').style.display = "none";
+    }
+});
+
