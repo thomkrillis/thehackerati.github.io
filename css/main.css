@@ -364,10 +364,11 @@ nav a {
 	margin-left: 1.5em;
 }
 
-.header-section > .content-container {
+.header-section .content-container {
     margin: 0 auto;
     text-align: center;
     width: 91%;
+    height: 100%;
 }
 
 #section1-anchor-link {
@@ -399,10 +400,11 @@ a.about-link {
     width:87%;
 }
 .welcome-container .logo {
-    height: 9.5em;
+    height: 175px;
+    max-height:none;
     padding-top: 2.5em;
     padding-bottom: 0;
-    width: 25em;
+    width: 300px;
     float: left;
 }
 .welcome-container .nav-links {
