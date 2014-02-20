@@ -751,14 +751,16 @@ function slideMaps() {
 }
 
 function scrollHandler(){
-  var scrollPos = document.documentElement.scrollTop;
-  var offsetHeight = document.getElementById('welcome-container').offsetHeight;
+  var scrollPos = window.pageYOffset;
+  var offsetHeight = document.getElementById('welcome-container').clientHeight;
 
   if(scrollPos >= offsetHeight || window.innerWidth < 768){
+    document.getElementById('sb-nav-home').style.display = "block";
     document.getElementById('sb-nav-home').style.opacity = "1";
   }
   else {
     document.getElementById('sb-nav-home').style.opacity = "0";
+    document.getElementById('sb-nav-home').style.display = "none";
   }
 
   if (!isMapDisplayed && isElementInViewport(document.getElementById('contact-title'))) {
