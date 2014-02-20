@@ -340,7 +340,7 @@
   .arrow-box-left, .arrow-box-right, .arrow-box-middle { width:100%; display:block; position: relative; float:none; clear: both; margin-bottom:8%; height: auto; margin- left: 0; margin-right: 0;}
   .arrow-box-middle { margin-bottom: 0; }
   #clients-title{width: 100%; margin-left: auto; margin-right: auto; text-align: center;}
-  .clients-intro, .clients-tap{ display: block; padding-left: 0%; padding-right: 0%; font: 1.15em/120% 'inconsolatamedium';}
+  .clients-intro, .clients-tap{ display: block; margin-right: 10px; margin-left: 10px; padding-left: 0%; padding-right: 0%; font: 1.15em/120% 'inconsolatamedium';}
   .clients-tap{ text-align: center; color: #0078D3;} 
   .clients-box{ height: auto; padding-top:1%; left: 0; margin-right: auto; margin-left: auto; max-width: none;} 
   #clients-slideshow-block, .conveyor, .conveyor-gear-row, .clients-box img, .clients-box p{display: none;}
@@ -507,7 +507,7 @@
   #how h1 { margin-left: 0.45em; }
 
   /* SECTION 5 */
-  .clients-content { width: 19em; }
+  .clients-content { width: 100%; }
 
   /* SECTION 6 */
   .contact-container { display:none; }
