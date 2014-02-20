@@ -358,7 +358,7 @@
   #how h1 { margin-left: 1em; }
 
   /* SECTION 5 */
-  .clients-content{width: 80%;}
+  .clients-content{width: 80%; padding-top: 50px;}
   .arrow-box-left, .arrow-box-right, .arrow-box-middle { width:100%; display:block; position: relative; float:none; clear: both; margin-bottom:8%; height: auto; margin- left: 0; margin-right: 0;}
   .arrow-box-middle { margin-bottom: 0; }
   #clients-title{width: 100%; margin-left: auto; margin-right: auto; text-align: center;}
