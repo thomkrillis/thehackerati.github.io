@@ -8,9 +8,9 @@ Step One
 
 Fork the repo, then:
 
-    git clone git@github.com:<username>/blog.git
+    git@github.com:<username>/thehackerati.github.io.git
+    cd thehackerati.github.io
     gem install jekyll
-    cd blog/
     jekyll serve --watch
 
 Step Two
