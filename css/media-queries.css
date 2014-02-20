@@ -383,7 +383,7 @@
   h2 {	font: 3.5em 'inconsolatamedium';}
   .guild-shield img, .guild-shield, .guild-copy {	width: 100%; float: none;	}
   .careers-page .splash-container { padding-top: 7%; padding-bottom: 7%; }
-  .careers-page .section1-content-container { margin-bottom: 0; margin-top: 0; width: 22em; }
+  .careers-page .section1-content-container { margin-bottom: 0; margin-top: 0; width: 23em; }
   .section1 .apply-button { text-align: center; }
   .perks-cell img { width: auto; }
   .block-mobile .perks-copy { width: 100%; height: auto; margin-bottom: 3em; left: 0;}
@@ -554,6 +554,8 @@
   .block-mobile .perks-icon p { padding: 0; }
   .testimonial-img img { -webkit-box-shadow: 0px 0px 9px -2px rgba(0,0,0,0.76); -moz-box-shadow: 0px 0px 9px -2px rgba(0,0,0,0.76); box-shadow: 0px 0px 9px -2px rgba(0,0,0,0.76);}
   .apply-button { color: #ec6314; }
+  .careers-page .section1 p { font: 1.0em/130% 'inconsolatamedium'; }
+  .careers-page .section1-content-container { padding: 0; }
 
   /******** RECRUITING ********/
   .recruit-window .block-left{ width:100%; padding-bottom: 25%;}
