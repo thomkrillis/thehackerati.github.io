@@ -240,7 +240,7 @@
 
   .rob, .geoff { width: 100%; }
   .name-contact-info { display: inline-block; }
-  #apprentice-text { text-align: center; }
+  #apprentice-text { text-align: left; }
   .block-right, .block-left { width: 100%; padding-left: 0; padding-right: 0;}
   .about-page #section4-anchor-link .block-mobile { text-align: center; }
   #benefits-img { margin-top: 1em; }
@@ -477,7 +477,7 @@
   .text-focus { background: none; }
   .block-desktop { display: none; }
   .block-mobile { display: block; }
-  .block-mobile img { width: 50%; }
+  .block-mobile img { width: 100%; }
   .generic-content { padding-top: 2%; padding-top: 2%; }
 
   /********** HEADER **********/
