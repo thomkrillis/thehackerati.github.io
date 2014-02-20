@@ -145,6 +145,8 @@
   .block-mobile { display: block; text-align:center;}
   .block-desktop { display: none; }
   #feedback{display:none;}
+  
+
 
   /********** HEADER **********/
   #navigation-mobile {	display: none;}
@@ -193,8 +195,12 @@
     margin-top: 50px;
   }
   .clients-container h2 {
-    margin-top: 50px;
   }
+
+  .clients-container {
+    padding-top: 0px;
+  }
+
   /* SECTION 3 */
   .what-cards-mobile{display:block; width:100%;}
   .what-cards-mobile h1{ font: 2.5em/120% 'inconsolatamedium';}
@@ -243,6 +249,9 @@
 
   .audience-section .block-left { padding-right: 5%; width: 51%; }
   .audience-section .block-right { padding-left: 1% width: 43%;}
+
+  #guild h2 {
+  }
 
   /****** CAREERS PAGE *******/
 
@@ -405,7 +414,7 @@
   .testimonial-img img { -webkit-box-shadow: 0px 0px 9px -2px rgba(0,0,0,0.76); -moz-box-shadow: 0px 0px 9px -2px rgba(0,0,0,0.76); box-shadow: 0px 0px 9px -2px rgba(0,0,0,0.76);}
   .apply-button { color: #ec6314; }
   .content-container h2 {
-    margin-top: 20px;
+    padding-top: 50px;
   }
   
   /******** ACADEMY PAGE *********/
