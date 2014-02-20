@@ -145,6 +145,8 @@
   .block-mobile { display: block; text-align:center;}
   .block-desktop { display: none; }
   #feedback{display:none;}
+  
+
 
   /********** HEADER **********/
   #navigation-mobile {	display: none;}
@@ -154,6 +156,7 @@
   /********** HOME PAGE **********/
 
   /* SECTION 1 */
+  .welcome-container { padding-top: 100px; }
   .welcome-container .logo {	float: left; width: 24em;}
   .welcome-container .nav-links {	float: left;	text-align: center;	}
   .welcome-container .content-container nav {	font: 1.8em/100% 'inconsolatamedium'; margin-top: 0;	padding-top:0;	padding-bottom: 1.0em;}
@@ -182,6 +185,21 @@
   #who .column-1:hover .rollover,#who .column-2:hover .rollover,#who .column-3:hover .rollover {opacity:0;}
   #who .column-1:hover img,#who .column-2:hover img,#who .column-3:hover img {opacity:1;}
   .who-content { width: 44em; }
+  .who-content h1 {
+    margin-top: 50px;
+  }  
+  .what-container h1 {
+    margin-top: 50px;
+  }
+  .how-content h1 {
+    margin-top: 50px;
+  }
+  .clients-container h2 {
+  }
+
+  .clients-container {
+    padding-top: 0px;
+  }
 
   /* SECTION 3 */
   .what-cards-mobile{display:block; width:100%;}
@@ -231,6 +249,9 @@
 
   .audience-section .block-left { padding-right: 5%; width: 51%; }
   .audience-section .block-right { padding-left: 1% width: 43%;}
+
+  #guild h2 {
+  }
 
   /****** CAREERS PAGE *******/
 
@@ -286,7 +307,8 @@
   .careers-page .section1 p { text-align: center; }
   .generic-container{ width: 100%; padding-top:5%; padding-bottom:5%;}
   .generic-content{ width:80%; padding-top: 2%; padding-bottom: 2%; }
-  .generic-content h2 {	font: 2.0em 'inconsolatamedium';	}
+  .generic-content h1 { margin-top: 100px; }
+  .generic-content h2 {	font: 2.0em 'inconsolatamedium'; margin-top: 80px;	}
   .generic-content p {	font: 1.0em/130% 'inconsolatamedium'; }
   .block-right, .block-left{ /*display:block;*/ width:100%; float:none; clear:both; padding-top: 5%; padding-bottom: 5%;}
   .block-right img, .block-left img{ display:block; width:50%; margin-right: auto; margin-left: auto; }
@@ -368,6 +390,10 @@
   #contact-content { width: 22em; }
   #google-maps-wrapper { top: 8em; }
 
+  #contact {
+    padding-top: 30px;
+  }
+
   /****** CAREERS PAGE *******/
   .section1-content-container {	width: 22.5em;}
   .testimonial-copy-tablet {	width: 100%;	display: block;	}
@@ -391,7 +417,10 @@
   .block-mobile .perks-icon { width: 90%; height: 90%;}
   .testimonial-img img { -webkit-box-shadow: 0px 0px 9px -2px rgba(0,0,0,0.76); -moz-box-shadow: 0px 0px 9px -2px rgba(0,0,0,0.76); box-shadow: 0px 0px 9px -2px rgba(0,0,0,0.76);}
   .apply-button { color: #ec6314; }
-
+  .content-container h2 {
+    padding-top: 50px;
+  }
+  
   /******** ACADEMY PAGE *********/
   .academy-page .generic-content { width: 20em; }
   #academy-focus { margin-top: 0; }
@@ -470,7 +499,7 @@
   .content-container nav { padding-bottom: 0.9em; }
 
   /********** HOME PAGE **********/
-  .welcome-container #header {	height: 170px;}
+  .welcome-container #header {	height: 170px; }
   .welcome-container #navigation {	display: none;}
   .welcome-container #navigation-mobile { display: block; width: 295px;	height: 50px;	position: absolute;	margin-left: -147.5px;	left: 50%;	margin-top: 100px;}
   .welcome-container #navigation-mobile ul {	list-style: none;	padding-left: 0;}
