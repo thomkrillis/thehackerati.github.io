@@ -18,6 +18,10 @@
   /********** HEADER **********/
   .header-section > .content-container { width: 77.7em;}
 
+  .fa {
+    color: white;
+  }
+
   /********** HOME PAGE **********/
 
   /* SECTION 1 */
@@ -145,6 +149,9 @@
   .block-mobile { display: block; text-align:center;}
   .block-desktop { display: none; }
   #feedback{display:none;}
+  .fa {
+    color: white;
+  }
   
 
 
@@ -331,6 +338,9 @@
   .logo img {	width: 76%;	max-height: none;	}
   .content-container nav { padding-bottom: 0.5em; }
   .header-section{ display:none; }
+  .fa {
+    color: white;
+  }
 
   /********** HOME PAGE **********/
   .welcome-container .block-right { display: none;	} 
@@ -497,6 +507,9 @@
   .header-section > .content-container {	width: 21em;}
   .logo img {	width: 94%;	max-height: none;	}
   .content-container nav { padding-bottom: 0.9em; }
+  .fa {
+    color: white;
+  }
 
   /********** HOME PAGE **********/
   .welcome-container #header {	height: 170px; }
