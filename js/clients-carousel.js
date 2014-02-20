@@ -1,5 +1,5 @@
 $(window).on('resize', function() {
-  if(/Android|webOS|iPhone|iPod|iPad|BlackBerry/i.test(navigator.userAgent) || window.innerWidth < 768 ) {
+  if(/Android|webOS|iPhone|iPod|BlackBerry/i.test(navigator.userAgent) || window.innerWidth < 768 ) {
     var clientsOpen = false; 
     var tileFlags = new Array();
       
