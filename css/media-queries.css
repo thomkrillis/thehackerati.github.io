@@ -292,6 +292,8 @@
   .footer-madeny { margin-left: 0;}
   footer .content-container { width: 51.5em; }
   .footer-column1 { width: 32%; }
+  .footer-column1 .fa-phone { display:none; }
+  .footer-column1 .fa-envelope{ display:none; }
   .footer-column2 { width: 23%; }
   .footer-share { width: 60%; margin-bottom: 3em;}
   .footer-contact { width: 80%; }
