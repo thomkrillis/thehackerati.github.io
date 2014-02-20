@@ -6,7 +6,7 @@ The Hackerati blog and _you_
 Step One
 --------
 
-Fork the repo
+Fork the repo, then:
 
     git clone git@github.com:<username>/blog.git
     gem install jekyll
