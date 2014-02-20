@@ -390,6 +390,10 @@
   #contact-content { width: 22em; }
   #google-maps-wrapper { top: 8em; }
 
+  #contact {
+    padding-top: 30px;
+  }
+
   /****** CAREERS PAGE *******/
   .section1-content-container {	width: 22.5em;}
   .testimonial-copy-tablet {	width: 100%;	display: block;	}
