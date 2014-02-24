@@ -49,6 +49,12 @@
   /****** ACADEMY PAGE *******/
   .academy-page .block-right img { width: auto; }
 
+  /********** BLOG *********/
+
+  .blog-right-column p {
+    font: 1.3em/120% 'inconsolatamedium';
+  }
+
   /****** CAREERS PAGE *******/
   .testimonial-copy { width: 44%;}
   .apply-now-button p { font: 1.5em/120% 'inconsolatamedium' !important;}
