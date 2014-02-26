@@ -157,7 +157,7 @@ MEDIA QUERIES
     }
 
     .apply-now-button p {
-        font: 1.5em/120% 'inconsolatamedium' !important;
+        font: 1.5em/120% 'inconsolatamedium';
     }
 
     .perks-cell {
@@ -734,7 +734,7 @@ MEDIA QUERIES
     }
     
     .apply-now-button p {
-        font: 1.5em/120% 'inconsolatamedium' !important; 
+        font: 1.5em/120% 'inconsolatamedium'; 
     }
     
     .perks-copy li { 
