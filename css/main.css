@@ -343,14 +343,16 @@ li {
     padding-left:1%;
     float: left;
     top: 0;
-    height: 100%;
     width: 47%;
+    height: 100%;
 }
+
 .block-right img {
     width: 100%;
     height:auto;
     vertical-align: middle;
 }
+
 .block-left {
     position: relative;
     margin-top:auto;
@@ -360,17 +362,20 @@ li {
     top: 0;
     left: 0;
     float:left;
-    height: 100%;
     width: 49%;
+    height: 100%;
 }
+
 .block-left img {
     width: 100%;
     height:auto;
     vertical-align: middle;
 }
+
 .text-block{
     vertical-align: middle;
 }
+
 .middle {
     display: table-cell;
     vertical-align: middle;
@@ -468,13 +473,13 @@ li#academy {
 }
 
 .header-section {
-  background-image: url('../assets/img/bgblack.png');
-  height: 7em;
-  padding-top: 1em;
-  padding-bottom: 1em;
-  -webkit-box-shadow: inset 0px -15px 25px 6px rgba(0, 0, 0, .3);
-  box-shadow: inset 0px -15px 25px 6px rgba(0, 0, 0, .3);
-  z-index: 99999;
+    background-image: url('../assets/img/bgblack.png');
+    height: 7em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    -webkit-box-shadow: inset 0px -15px 25px 6px rgba(0, 0, 0, .3);
+    box-shadow: inset 0px -15px 25px 6px rgba(0, 0, 0, .3);
+    z-index: 99999;
 }
 
 nav a {
@@ -526,11 +531,11 @@ HOME PAGE
 }
 
 .welcome-container .logo {
+    width: 300px;
     height: 175px;
     max-height:none;
     padding-top: 2.5em;
     padding-bottom: 0;
-    width: 300px;
     float: left;
 }
 
@@ -684,9 +689,9 @@ li.definitions {
 
 #hackworld{
     width: 100%;
+    min-width: 425px;
     padding-top:18%;
     padding-bottom: 10%;
-    min-width: 425px;
 }
 
 /* BLOCK 2  | MEET THE HACKERATI */
@@ -760,11 +765,11 @@ li.definitions {
 .column-1 {
     float:left;
     width: 31%;
+    height: auto;
     -webkit-transition: all 0.2s ease;
     -moz-transition: all 0.2s ease;
     -o-transition: all 0.2s ease;
     -ms-transition: all 0.2s ease;
-    height: auto;
     font: 1.1em/120% 'inconsolatamedium';
 }
 
@@ -772,11 +777,11 @@ li.definitions {
     float: left;
     margin-left: 3%;
     width: 31%;
+    height: auto;
     -webkit-transition: all 0.2s ease;
     -moz-transition: all 0.2s ease;
     -o-transition: all 0.2s ease;
     -ms-transition: all 0.2s ease;
-    height: auto;
     font: 1.1em/120% 'inconsolatamedium';
 }
 
@@ -784,11 +789,11 @@ li.definitions {
     float: left;
     margin-left: 3%;
     width: 31%;
+    height: auto;
     -webkit-transition: all 0.2s ease;
     -moz-transition: all 0.2s ease;
     -o-transition: all 0.2s ease;
     -ms-transition: all 0.2s ease;
-    height: auto;
     font: 1.1em/120% 'inconsolatamedium';
 }
 
@@ -912,8 +917,8 @@ li.definitions {
 
 #carouselcover {
     position:absolute;
-    height:600px;
     width:100%;
+    height:600px;
     z-index:100;
     overflow:hidden;
     top:0;
@@ -1024,9 +1029,9 @@ li.definitions {
 
 #carousel-wrapper {
     position: relative;
-    height: 475px;
     margin-top:5%;
     width:960px;
+    height: 475px;
     left:50%;
     margin-left:-480px;
     max-width: 960px;
@@ -1082,8 +1087,8 @@ a.spin-active {
 .card-copy {
     position: relative;
     width:43%;
-    float:right;
     height: auto;
+    float:right;
     padding:10px;
     text-align: left;
     font-size:.9em;
@@ -1275,9 +1280,9 @@ body > svg {
 
 #outerTurn {
     width: 0px;
-    margin: 0 auto;
     height: 100%;
     min-height: 485px;
+    margin: 0 auto;
 }
 
 @-webkit-keyframes rotation {
@@ -1505,8 +1510,8 @@ body > svg {
     left: 50%;
     border: solid transparent;
     content: " ";
-    height: 0;
     width: 0;
+    height: 0;
     position: absolute;
     pointer-events: none;
     border-color: rgba(13, 97, 200, 0);
@@ -1530,8 +1535,8 @@ body > svg {
     top: 75%;
     border: solid transparent;
     content: " ";
-    height: 0;
     width: 0;
+    height: 0;
     position: absolute;
     pointer-events: none;
     border-color: rgba(62, 142, 201, 0);
@@ -1878,8 +1883,8 @@ RECRUITING PAGE
 }
 
 .logo-center img{
-	height:7em;
-	width:auto;
+    width: auto;
+	height: 7em;
 }
 
 .ss-q-title {
@@ -1918,16 +1923,16 @@ RECRUITING PAGE
 	max-width: 650px;
     width: 90%;
 	color: rgb(244, 244, 244);
-	margin-left:auto;
-	margin-right:auto;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 .recruit-window .block-left{
-    width:60%;
+    width: 60%;
 }
 
 .recruit-window .block-right{
-    width:35%;
+    width: 35%;
 }
 
 #statue{ 
@@ -2470,7 +2475,7 @@ CAREERS PAGE
 }
 
 .guild-list {
-  text-align: center;
+    text-align: center;
 }
 
 /*
@@ -2652,7 +2657,7 @@ footer p {
 }
 
 .footer-contact {
-	  font: 1.3em/100% 'inconsolatamedium';
+	font: 1.3em/100% 'inconsolatamedium';
     line-height: 1.3em;
 }
 
