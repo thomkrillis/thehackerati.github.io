@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 /********************************************************************
 =====================================================================
 DEFAULT CSS FOR THEHACKERATI.COM. For tablet, smartphone, and desktop 
@@ -243,6 +242,7 @@ li {
 }
 
 .content-container {
+    height: 100%;
     max-width: 1200px;
     margin-left: auto;
     margin-right: auto;
@@ -405,8 +405,17 @@ HEADER
     float: left;
 }
 
+.b-page-logo {
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
 .logo img {
     max-height: 100%;
+}
+
+.b-page-logo img {
+    margin-left: 10%;
 }
 
 #header {
@@ -434,10 +443,18 @@ HEADER
     margin-top: 0.5em;
 }
 
+.b-page-content-container nav {
+    margin-top: 1.2em;
+}
+
 .nav-links {
     text-align: center;
     width: 50%;
     float: left;
+}
+
+.b-page-nav-links {
+    margin-top: 5em;
 }
 
 li#careers,
@@ -478,6 +495,14 @@ li#academy {
     height: 11em;
     margin-top: 4em;
     padding-bottom: 1em;
+    -webkit-box-shadow: inset 0px -15px 25px 6px rgba(0, 0, 0, .3);
+    box-shadow: inset 0px -15px 25px 6px rgba(0, 0, 0, .3);
+    z-index: 99999;
+}
+
+.b-page-header-section {
+    background-image: url('../assets/img/bgblack.png');
+    height: 7em;
     -webkit-box-shadow: inset 0px -15px 25px 6px rgba(0, 0, 0, .3);
     box-shadow: inset 0px -15px 25px 6px rgba(0, 0, 0, .3);
     z-index: 99999;

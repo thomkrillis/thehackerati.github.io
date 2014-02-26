@@ -372,6 +372,10 @@ MEDIA QUERIES
         width: auto;
     }
 
+    .b-page-logo {
+        width: 35%;
+    }
+
     .welcome-container .logo {
         float: none;
         width: auto;
@@ -399,6 +403,15 @@ MEDIA QUERIES
 
     .nav-links {
         width: 100%;
+    }
+
+    .b-page-nav-links {
+        width: 65%;
+    }
+
+    .persistent-nav-links {
+        text-align: right;
+        margin-left: 5%;
     }
 
     /*
