@@ -368,8 +368,25 @@ MEDIA QUERIES
     ======================================================
     */
 
+    .logo {
+        width: auto;
+    }
+
+    .welcome-container .logo {
+        float: none;
+        width: auto;
+    }
+
     #navigation-mobile {
         display: none;
+    }
+
+    .header-section {
+        height: 8em;
+        margin-top: 0;
+    }
+    .header-section .content-container {
+        height: 100%;
     }
 
     .header-section > .content-container {
@@ -378,6 +395,10 @@ MEDIA QUERIES
 
     nav a {	
         margin-left: 1.0em;	
+    }
+
+    .nav-links {
+        width: 100%;
     }
 
     /*
@@ -392,10 +413,6 @@ MEDIA QUERIES
         padding-top: 100px; 
     }
 
-    .welcome-container .logo {	
-        float: left; width: 24em;
-    }
-
     .welcome-container .nav-links {	
         float: left;	
         text-align: center;	
@@ -403,7 +420,7 @@ MEDIA QUERIES
 
     .welcome-container .content-container nav {	
         font: 1.8em/100% 'inconsolatamedium'; 
-        margin-top: 0;	
+        margin-top: 1em;	
         padding-top: 0;	
         padding-bottom: 1.0em;
     }
@@ -413,12 +430,12 @@ MEDIA QUERIES
     }
 
     .welcome-container .header-section > .content-container {	
-        width: 24em;
+        width: 50%;
     }
 
     .welcome-container .logo img {	
-        width: 100%;	
-        max-height: none;	
+        max-height: 100%;	
+        max-width: 100%;
     }
 
     .welcome-container .block-right { 
@@ -1007,7 +1024,7 @@ MEDIA QUERIES
     
     .nav-links { 
         float: none; 
-        text-align: center; 
+        text-align: center;
     }
     
     .content-container nav { 

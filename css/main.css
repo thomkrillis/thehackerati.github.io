@@ -401,7 +401,7 @@ HEADER
 .logo {
     height: 100%;
     max-height: 100%;
-    width: auto;
+    width: 50%;
     float: left;
 }
 
@@ -435,8 +435,9 @@ HEADER
 }
 
 .nav-links {
-    text-align: right;
-    float: right;
+    text-align: center;
+    width: 50%;
+    float: left;
 }
 
 li#careers,
@@ -474,8 +475,8 @@ li#academy {
 
 .header-section {
     background-image: url('../assets/img/bgblack.png');
-    height: 7em;
-    padding-top: 1em;
+    height: 11em;
+    margin-top: 4em;
     padding-bottom: 1em;
     -webkit-box-shadow: inset 0px -15px 25px 6px rgba(0, 0, 0, .3);
     box-shadow: inset 0px -15px 25px 6px rgba(0, 0, 0, .3);
@@ -483,7 +484,7 @@ li#academy {
 }
 
 nav a {
-	margin-left: 1.5em;
+	margin-left: 5%;
 }
 
 .header-section .content-container {
@@ -531,16 +532,12 @@ HOME PAGE
 }
 
 .welcome-container .logo {
-    width: 300px;
-    height: 175px;
-    max-height:none;
-    padding-top: 2.5em;
-    padding-bottom: 0;
+    max-height: 100%;
     float: left;
 }
 
 .welcome-container .nav-links {
-    margin-top: 2.3em;
+    margin-top: 2.1em;
 }
 
 .welcome-content {
