@@ -38,4 +38,4 @@ Make a [pull request](http://bit.ly/1eudZYq)!
 
 Feedback
 ----------
-If there is a problem, email alex@thehackerati.com to file a report. If you can't see the repo email geoff@thehackerati.com.
+If there is a problem, email alex@thehackerati.com to file a report. If you can't see the repo, email geoff@thehackerati.com.
