@@ -1,14 +1,8 @@
 <!-- <div id="fb-root"></div> -->
 
 <ul class="post-share ulno mob">
-
-    <!-- Hacker News -->
-    <li class="hn-iframe">
-      <iframe frameborder="no" scrolling="no" height="30px" width="100px" src="http://hnlike.com/upvote.php?link=thehackerat.com&title=the+hackerati">iframes not supported by your browser</iframe>
-    </li>
-    
     <!-- Reddit -->
-    <li>
+    <li class="rdt">
       <script type="text/javascript" src="http://www.reddit.com/buttonlite.js?i=4"></script>
     </li>
 
