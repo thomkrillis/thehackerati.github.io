@@ -43,7 +43,7 @@
 .sb-slidebar a {
 	color: #f2f2f2; /* Link colour. */
 	text-decoration: none;
-  font: 1.5em/100% 'inconsolatamedium';
+	font: 1.5em/100% 'inconsolatamedium';
 }
 
 .sb-slidebar a:hover {
@@ -52,28 +52,29 @@
 }
 
 a.sitemap-sub:link {
-  color: #4CA0D3;
-  font: 1.3em/100% 'inconsolatamedium';
+	color: #4CA0D3;
+	font: 1.3em/100% 'inconsolatamedium';
 }
 
 a.sitemap-sub:visited {
-  color: #4CA0D3;
+	color: #4CA0D3;
 }
 
 a.sitemap-cat:link {
-  color: #EC6314;
-  font: 1.5em/100% 'inconsolatamedium';
+	color: #EC6314;
+	font: 1.5em/100% 'inconsolatamedium';
 }
 
 a.sitemap-cat:visited {
-  color: #EC6314;
+	color: #EC6314;
 }
 
 .sb-social a {
-  font: 1.5em/100% 'inconsolatamedium';
+	font: 1.5em/100% 'inconsolatamedium';
 }
+
 .sb-social a:hover {
-  color: #EC6314;
+	color: #EC6314;
 }
 
 /* --------------------
@@ -132,12 +133,13 @@ a.sitemap-cat:visited {
 }
 
 .sb-right .twitter-footer { 
-  margin-left: 0; 
+	margin-left: 0; 
 }
 
 .sb-right .meetup-footer { 
-  margin-right: 0.5em; 
+	margin-right: 0.5em; 
 }
+
 /* Submenus */
 .sb-submenu {
 	display: none;
@@ -197,29 +199,30 @@ span.sb-caret { /* Caret Down */
  * 006 - Top Navigation Bar
  */
 
-.sb-navbar, .sb-navbar-home {
-  background: #2d2d2d url('../assets/img/bgblack.png') repeat;
+.sb-navbar, 
+.sb-navbar-home {
+	background: #2d2d2d url('../assets/img/bgblack.png') repeat;
 	width: 100%;
 	height: 65px;
-  padding-top: 5px;
-  padding-bottom: 5px;
+	padding-top: 5px;
+	padding-bottom: 5px;
 	position: fixed;
-  display: block;
+	display: block;
 	top: 0;
 	left: auto;
 	right: auto;
 	z-index: 1000;
-  opacity: 1;
+	opacity: 1;
 	-webkit-box-shadow: inset 0px -15px 25px 6px rgba(0, 0, 0, .3);
 	box-shadow: inset 0px -15px 25px 6px rgba(0, 0, 0, .3);
 }
 
 #sb-nav-home{ 
-  display:none;
+	display:none;
 	-webkit-box-shadow:none;
 	box-shadow: none;
-  -webkit-transition: opacity 0.2s linear;
-  opacity: 1;
+	-webkit-transition: opacity 0.2s linear;
+	opacity: 1;
 }
 
 html.sb-android .sb-navbar {
@@ -264,7 +267,11 @@ html.sb-android .sb-navbar {
  * 007 - Slidebar Controls
  */
  
-.sb-toggle-left, .sb-toggle-right, .sb-open-left, .sb-open-right, .sb-close {
+.sb-toggle-left, 
+.sb-toggle-right, 
+.sb-open-left, 
+.sb-open-right, 
+.sb-close {
 	cursor: pointer; /* Help desktop users with Slidebar controls. */
 }
 
@@ -300,28 +307,30 @@ html.sb-android .sb-navbar {
 }
 
 .sb-logo {
-  position: absolute;
-  width: 130px;
-  left:0;
-  right:0;
-  top: 5px;
-  margin-left:auto;
-  margin-right:auto;
-  -webkit-transition: all 1s linear;
+	position: absolute;
+	width: 130px;
+	left:0;
+	right:0;
+	top: 5px;
+	margin-left:auto;
+	margin-right:auto;
+	-webkit-transition: all 1s linear;
 }
 
 img.sb-logo-img {
-  width: 100%;
+	width: 100%;
 }
 
-.sb-toggle-left, .sb-toggle-right, .sb-logo {
-  display:none;
+.sb-toggle-left, 
+.sb-toggle-right, 
+.sb-logo {
+	display:none;
 }
 
 .sb-navbar .content-container {
-  height: 100%;
-  padding-left:3.75%;
-  padding-right:3.75%;
+	height: 100%;
+	padding-left:3.75%;
+	padding-right:3.75%;
 }
 
 /* -------------------
@@ -329,24 +338,28 @@ img.sb-logo-img {
  */
 
 @media (max-width: 767px) {
-	/* This is entirely optional, it hides the navbar menu items when device width is under 768px. */
-  .sb-navbar{
-    height: 50px;
-  }
 
-  #sb-nav-home{ 
-    display:block;
-  }
+	/* This is entirely optional, it hides the navbar menu items when device width is under 768px. */
+	.sb-navbar{
+		height: 50px;
+	}
+
+	#sb-nav-home{ 
+		display:block;
+	}
 
 	.sb-navbar-menu {
 		display: none;
 	}
 
-  .sb-toggle-left, .sb-toggle-right, .sb-logo {
-    display:block;
-  }
-  .sb-navbar .content-container {
-    display:none;
-  }
+	.sb-toggle-left, 
+	.sb-toggle-right, 
+	.sb-logo {
+		display:block;
+	}
+	
+	.sb-navbar .content-container {
+		display:none;
+	}
 
 }

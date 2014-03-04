@@ -20,7 +20,7 @@ MEDIA QUERIES
         padding: 20px; 
     }
 
-    .section2 .content-container {
+    .careers-page .section2 .content-container {
         width: 77.2em;
     }
 
@@ -56,10 +56,6 @@ MEDIA QUERIES
     
     .header-section > .content-container {
         width: 77.7em;
-    }
-
-    .fa {
-        color: white;
     }
 
     /*
@@ -305,18 +301,18 @@ MEDIA QUERIES
     }
 
     .desktop {
-        display: none;	
+        display: none;  
     }
 
     .wrapper-splash {
-        width: 650px;	
-        font-size: 16px;	
+        width: 650px;   
+        font-size: 16px;    
         padding: 15px; 
     }
 
     .section3 .content-container {
-        width: 51.5em;	
-        padding-top: 0;	
+        width: 51.5em;  
+        padding-top: 0; 
     }
 
     .section1 p {
@@ -328,13 +324,13 @@ MEDIA QUERIES
     }
 
     .section1 h3 {
-        font: 1.8em/100% 'inconsolatamedium';	
-        text-align: center;	
+        font: 1.8em/100% 'inconsolatamedium';   
+        text-align: center; 
         width: auto; 
         margin: 0 4.4em .5em 4.4em;
     }
 
-    .section2 .content-container {
+    .careers-page .section2 .content-container {
         width: 51.5em;
     }
 
@@ -358,10 +354,6 @@ MEDIA QUERIES
         display: none;
     }
 
-    .fa {
-        color: white;
-    }
-
     /*
     ====================================================== 
     HEADER 
@@ -381,14 +373,11 @@ MEDIA QUERIES
         width: auto;
     }
 
-    #navigation-mobile {
-        display: none;
-    }
-
     .header-section {
         height: 8em;
         margin-top: 0;
     }
+
     .header-section .content-container {
         height: 100%;
     }
@@ -397,8 +386,8 @@ MEDIA QUERIES
         width: 50em;
     }
 
-    nav a {	
-        margin-left: 1.0em;	
+    nav a { 
+        margin-left: 1.0em; 
     }
 
     .nav-links {
@@ -426,42 +415,42 @@ MEDIA QUERIES
         padding-top: 100px; 
     }
 
-    .welcome-container .nav-links {	
-        float: left;	
-        text-align: center;	
+    .welcome-container .nav-links { 
+        float: left;    
+        text-align: center; 
     }
 
-    .welcome-container .content-container nav {	
+    .welcome-container .content-container nav { 
         font: 1.8em/100% 'inconsolatamedium'; 
-        margin-top: 1em;	
-        padding-top: 0;	
+        margin-top: 1em;    
+        padding-top: 0; 
         padding-bottom: 1.0em;
     }
 
-    .welcome-container nav a {	
-        margin-left: 1.0em;	
+    .welcome-container nav a {  
+        margin-left: 1.0em; 
     }
 
-    .welcome-container .header-section > .content-container {	
+    .welcome-container .header-section > .content-container {   
         width: 50%;
     }
 
-    .welcome-container .logo img {	
-        max-height: 100%;	
+    .welcome-container .logo img {  
         max-width: 100%;
+        max-height: 100%;   
     }
 
     .welcome-container .block-right { 
-        display: none;	
+        display: none;  
     }
 
     .welcome-container .block-left { 
-        width:100%;	
+        width: 100%;    
     }
 
     #type-command-one, 
     #type-command-two, 
-    #type-command-three{ 
+    #type-command-three { 
         display: none;
     }
 
@@ -496,7 +485,8 @@ MEDIA QUERIES
 
     /* SECTION 2 */
 
-    #who-title, #who-info { 
+    #who-title, 
+    #who-info { 
         width: 100%; 
         float: none; 
         clear: both; 
@@ -618,7 +608,7 @@ MEDIA QUERIES
     }
 
     #how h1 { 
-        margin-left:4.7em;
+        margin-left: 4.7em;
 
     }
 
@@ -673,7 +663,7 @@ MEDIA QUERIES
 
     .clients-tools .clients-icon { 
         padding-top: 8%; 
-        padding-bottom 0%;
+        padding-bottom: 0%;
     }
 
     .clients-icon .fa-icon { 
@@ -729,21 +719,6 @@ MEDIA QUERIES
 
     /*
     ====================================================== 
-    ACADEMY PAGE 
-    ======================================================
-    */
-
-    .audience-section .block-left { 
-        padding-right: 5%; 
-        width: 51%; 
-    }
-
-    .audience-section .block-right { 
-        padding-left: 1% width: 43%;
-    }
-
-    /*
-    ====================================================== 
     CAREERS PAGE 
     ======================================================
     */
@@ -777,7 +752,8 @@ MEDIA QUERIES
         margin: 30px; 
     }
     
-    .guild-shield, .guild-copy { 
+    .guild-shield, 
+    .guild-copy { 
         float: none; 
         width: 100%; 
     }
@@ -935,10 +911,6 @@ MEDIA QUERIES
         display: inline-block; 
     }
 
-    .desktop { 
-        isplay: none;
-    }
-
     .section3 .content-container { 
         width: 23em; 
         padding-top: 0; 
@@ -965,15 +937,16 @@ MEDIA QUERIES
     }
 
     .generic-content h2 { 
-      font: 2.0em 'inconsolatamedium'; 
-      margin-top: 80px; 
+        font: 2.0em 'inconsolatamedium'; 
+        margin-top: 80px; 
     }
 
     .generic-content p { 
        font: 1.0em/130% 'inconsolatamedium'; 
     }
 
-    .block-right, .block-left { 
+    .block-right, 
+    .block-left { 
         width: 100%; 
         float: none; 
         clear: both; 
@@ -981,7 +954,8 @@ MEDIA QUERIES
         padding-bottom: 5%;
     }
 
-    .block-right img, .block-left img { 
+    .block-right img, 
+    .block-left img { 
         display: block; 
         width: 50%; 
         margin-right: auto; 
@@ -989,8 +963,8 @@ MEDIA QUERIES
     }
 
     .text-focus{ 
-        height: 100%; 
         width: 100%;
+        height: 100%; 
     }
 
     .section1-content-container { 
@@ -1003,6 +977,7 @@ MEDIA QUERIES
         display: block; 
         background: #2D6296 url('../assets/img/bgdarkblue.png') repeat; 
         min-height: 0px; 
+        padding: 1em;
     }
 
     .text-focus { 
@@ -1070,10 +1045,6 @@ MEDIA QUERIES
     .header-section{ 
         display: none; 
     }
-    
-    .fa { 
-        color: white; 
-    }
 
     /*
     ====================================================== 
@@ -1089,7 +1060,9 @@ MEDIA QUERIES
         width: 100%; 
     }
 
-    #type-command-one, #type-command-two, #type-command-three{ 
+    #type-command-one, 
+    #type-command-two, 
+    #type-command-three { 
         display: none;
     }
 
@@ -1158,19 +1131,21 @@ MEDIA QUERIES
 
     /* SECTION 5 */
 
-    .clients-content{
+    .clients-content {
         width: 80%; 
         padding-top: 50px;
     }
 
-    .arrow-box-left, .arrow-box-right, .arrow-box-middle { 
-        width:100%; 
+    .arrow-box-left, 
+    .arrow-box-right, 
+    .arrow-box-middle { 
+        width: 100%; 
+        height: auto; 
         display:block; 
         position: relative; 
         float: none; 
         clear: both; 
         margin-bottom:8%; 
-        height: auto; 
         margin- left: 0; 
         margin-right: 0;
     }
@@ -1179,14 +1154,15 @@ MEDIA QUERIES
         margin-bottom: 0; 
     }
 
-    #clients-title{
+    #clients-title {
         width: 100%; 
         margin-left: auto; 
         margin-right: auto; 
         text-align: center;
     }
 
-    .clients-intro, .clients-tap{ 
+    .clients-intro, 
+    .clients-tap { 
         display: block; 
         margin-right: 10px; 
         margin-left: 10px; 
@@ -1195,21 +1171,25 @@ MEDIA QUERIES
         font: 1.15em/120% 'inconsolatamedium';
     }
 
-    .clients-tap{ 
+    .clients-tap { 
         text-align: center; 
         color: #0078D3;
     }
 
     .clients-box{ 
         height: auto; 
-        padding-top:1%; 
+        padding-top: 1%; 
         left: 0; 
         margin-right: auto; 
         margin-left: auto; 
         max-width: none;
     }
 
-    #clients-slideshow-block, .conveyor, .conveyor-gear-row, .clients-box img, .clients-box p{
+    #clients-slideshow-block, 
+    .conveyor, 
+    .conveyor-gear-row, 
+    .clients-box img, 
+    .clients-box p{
         display: none;
 
     }
@@ -1222,19 +1202,26 @@ MEDIA QUERIES
         font: 1.05em/120% 'inconsolatamedium'; 
     }
 
-    .arrow-box-left, .arrow-box-middle, .arrow-box-right{
+    .arrow-box-left, 
+    .arrow-box-middle, 
+    .arrow-box-right{
         background: transparent;
     }
 
-    .arrow-box-left h3, .arrow-box-middle h3, .arrow-box-right h3{ 
+    .arrow-box-left h3, 
+    .arrow-box-middle h3, 
+    .arrow-box-right h3{ 
         display: none;
     }
 
-    .arrow-box-right:after, .arrow-box-middle:after, .arrow-box-left:after { 
+    .arrow-box-right:after, 
+    .arrow-box-middle:after, 
+    .arrow-box-left:after { 
         display: none;
     }
 
-    .clients-box, .clients-box h3 {
+    .clients-box, 
+    .clients-box h3 {
         text-align: left; 
         display: block; 
         width: 100%; 
@@ -1370,7 +1357,7 @@ MEDIA QUERIES
         font: 1.5em/100% 'inconsolatamedium'; 
     }
     
-    .section2 .content-container { 
+    .careers-page .section2 .content-container { 
         width: 23.0em;
     }
     
@@ -1392,7 +1379,9 @@ MEDIA QUERIES
         font: 3.5em 'inconsolatamedium';
     }
     
-    .guild-shield img, .guild-shield, .guild-copy { 
+    .guild-shield img, 
+    .guild-shield, 
+    .guild-copy { 
         width: 100%; 
         float: none; 
     }
@@ -1476,15 +1465,8 @@ MEDIA QUERIES
         z-index: 9999999; 
     }
     
-    #founder1, #founder2 { 
-        width: auto; 
-        margin-right:0; 
-        margin-left:0; 
-        padding-top:0; 
-        padding-bottom:2%;
-    }
-    
-    .photo-contact-info, .name-contact-info{ 
+    .photo-contact-info, 
+    .name-contact-info{ 
         display:inline-block; 
         float:left; 
         width: 250px; 
@@ -1497,8 +1479,7 @@ MEDIA QUERIES
         padding-left: 0; 
         padding-right: 0; 
         -ms-word-break: break-all; 
-        word-break: break-all; 
-        word-break: break-word; 
+        word-break: break-all;  
         -webkit-hyphens: auto; 
         -moz-hyphens: auto; 
         -ms-hyphens: auto; 
@@ -1612,7 +1593,15 @@ MEDIA QUERIES
         display: none;
     }
 
-    .span1,.span2,.span3,.span4,.span5,.span6,.span7,.span8,.span9 {
+    .span1,
+    .span2,
+    .span3,
+    .span4,
+    .span5,
+    .span6,
+    .span7,
+    .span8,
+    .span9 {
         width: 100%;
     }
 
@@ -1640,7 +1629,8 @@ MEDIA QUERIES
         padding-top: 0; 
     }
 
-    .block-right img, .block-left img{ 
+    .block-right img, 
+    .block-left img{ 
         display: block; 
         width: 70%; 
         margin-right: auto; 
@@ -1688,47 +1678,6 @@ MEDIA QUERIES
         height: 170px;
     }
     
-    #navigation { 
-        display: none;
-    }
-    
-    #navigation-mobile { 
-        display: block;
-        width: 295px;
-        height: 50px;
-        position: absolute; 
-        margin-left: -147.5px;  
-        left: 50%;  
-        margin-top: 100px;
-    }
-    
-    #navigation-mobile ul { 
-        list-style: none;   
-        padding-left: 0;
-    }
-    
-    #navigation-mobile li { 
-        list-style: none;   
-        float: left; 
-        font: 16px 'inconsolatamedium';
-    }
-    
-    #navigation-mobile li a:hover { 
-        color: #FFA500; 
-    }
-    
-    #navigation-mobile li a { 
-        color: #fff;
-    }
-    
-    li#careers-mobile,li#academy-mobile { 
-        margin-left: 30px;
-    }
-    
-    li#about-mobile { 
-        margin-left: 23px;
-    }
-    
     .logo { 
         float: none;
     }
@@ -1771,51 +1720,6 @@ MEDIA QUERIES
     ======================================================
     */
     
-    .welcome-container #header { 
-        height: 170px; 
-    }
-    
-    .welcome-container #navigation { 
-        display: none;
-    }
-    
-    .welcome-container #navigation-mobile { 
-        display: block; 
-        width: 295px; 
-        height: 50px; 
-        position: absolute; 
-        margin-left: -147.5px; 
-        left: 50%; 
-        margin-top: 100px;
-    }
-    
-    .welcome-container #navigation-mobile ul { 
-        list-style: none; 
-        padding-left: 0;
-    }
-    
-    .welcome-container #navigation-mobile li { 
-        list-style: none; 
-        float: left; 
-        font: 16px 'inconsolatamedium';
-    }
-    
-    .welcome-container #navigation-mobile li a:hover { 
-        color: #FFA500; 
-    }
-    
-    .welcome-container #navigation-mobile li a { 
-        color: #fff;
-    }
-    
-    .welcome-container li#careers-mobile,.welcome-container li#academy-mobile { 
-        margin-left: 30px;
-    }
-    
-    .welcome-container li#about-mobile { 
-        margin-left: 23px;
-    }
-    
     .welcome-container .logo { 
         float: none;
     }
@@ -1848,7 +1752,8 @@ MEDIA QUERIES
         width: 100%; 
     }
      
-    .related-words-terminal, .terminal-buttons{ 
+    .related-words-terminal, 
+    .terminal-buttons{ 
         display: none;
     }
 
@@ -1860,11 +1765,6 @@ MEDIA QUERIES
 
     #terminal-block-title {
         font-size: 2.9em; 
-    }
-
-    .welcome-container .logo img { 
-        width: 85%; 
-        margin-left: -3em; 
     }
 
     .nav-links .about-link {
@@ -1957,22 +1857,13 @@ MEDIA QUERIES
         background: #8a8a8a;
     }
 
-    #founder1, 
-    #founder2 { 
-        display: block; 
-        width: auto; 
-        margin-right: auto; 
-        margin-left: auto; 
-        padding-bottom: 2%;
-    }
-
     .founder-info, 
     .photo-contact-info, 
     .name-contact-info { 
         display: block; 
         float: none; 
         clear: both; 
-        padding-top: 3% 
+        padding-top: 3%;
     }
 
     .about-page .generic-content { 
@@ -1990,14 +1881,14 @@ MEDIA QUERIES
     
     /*
     ====================================================== 
-    ABOUT PAGE 
+    CAREERS PAGE 
     ======================================================
     */
 
     .b-page-image.careers, 
     .b-page-image.about, 
-    .b-page-image.academy {	
-        background-image: none;	
+    .b-page-image.academy { 
+        background-image: none; 
         background: #424345;
     }
 
@@ -2036,7 +1927,9 @@ MEDIA QUERIES
         font: 3.5em 'inconsolatamedium';
     }
     
-    .guild-shield img, .guild-shield, .guild-copy { 
+    .guild-shield img, 
+    .guild-shield, 
+    .guild-copy { 
         width: 100%; 
         float: none; 
     }
@@ -2115,7 +2008,7 @@ MEDIA QUERIES
     }
 
     .recruit-window .block-right { 
-        display: none
+        display: none;
     }
 
     .ss-choices { 
@@ -2166,7 +2059,8 @@ MEDIA QUERIES
         width: 295px; 
     }
     
-    .tweets.column,.sitemap.column { 
+    .tweets.column,
+    .sitemap.column { 
         display: none; 
     }
     
@@ -2209,7 +2103,9 @@ MEDIA QUERIES
         color: #ec6314; 
     }
     
-    .benefits-content, .apprentice-content, .supply-content { 
+    .benefits-content, 
+    .apprentice-content, 
+    .supply-content { 
         width: 295px;
     }
     
