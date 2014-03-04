@@ -1,0 +1,1 @@
+<div class="reddit" data-size="{{ site.reddit.size }}" data-annotation="{{ site.reddit.annotation }}" data-width="{{ site.reddit.width }}"></div>

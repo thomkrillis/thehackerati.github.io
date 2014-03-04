@@ -1,13 +1,10 @@
 <div class="blog blog-right-column tablet-and-desktop span7">
     {% for post in site.posts %}	
         <h3>
-            {{ post.title }} by 
-            {{ post.post_author }} 
-        </h3>        
+            {{ post.title }}
+        </h3>   
+        <p class="orange-text">{{ post.post_author }} | {{ post.date | date: "%B %e, %Y" }}</p>
         {{ post.excerpt }}
-        <p><a href="{{ post.url }}">...continue reading</a></p>
-        <p class="post-date">
-           {{ post.date | date: "%B %e, %Y" }}
-        </p>
+        <p class="continue-reading"><a href="{{ post.url }}">...continue reading</a></p>
     {% endfor %}
 </div>
