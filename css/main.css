@@ -2118,6 +2118,10 @@ BLOG PAGE
   	transition-timing-function: ease;
 }
 
+.post-share li{
+  list-style: none;
+}
+
 /*
 ====================================================== 
 ABOUT PAGE 

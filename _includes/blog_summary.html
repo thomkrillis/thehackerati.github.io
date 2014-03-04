@@ -6,5 +6,6 @@
         <p>{{ post.post_author }} | {{ post.date | date: "%B %e, %Y" }}</p>
         {{ post.excerpt }}
         <p><a href="{{ post.url }}">...continue reading</a></p>
+        {% include blog_social_links.html %}
     {% endfor %}
 </div>

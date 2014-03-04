@@ -43,3 +43,9 @@ pre {
   background-color: #f4f4f4;
   opacity: 0.8;
 }
+
+.post-share li{
+  list-style: none;
+}
+
+
