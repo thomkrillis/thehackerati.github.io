@@ -1969,6 +1969,25 @@ BLOG PAGE
 ======================================================
 */
 
+.orange-text {
+    color: rgb(236, 99, 20);
+}
+
+.rdt {
+    margin-right: 25px;
+}
+
+.post-share {
+    margin-top: 1em;
+    margin-left: 10%;
+}
+
+.reddit_button img {
+    margin-right: 1px !important;
+    height: 20px !important;
+    padding-bottom: 1px;
+}
+
 #blog-summary {
     background-image: url('../assets/img/bgdarkblue.png');
     padding-bottom: 5em;
@@ -2004,6 +2023,11 @@ BLOG PAGE
     margin-right: 2%;
     margin-left: 1%;
     float: left;
+}
+
+.continue-reading {
+    padding-bottom: 2.5em;
+    border-bottom: 1px solid #a8a8a8;
 }
 
 .terminal-menu-bar {
@@ -2087,7 +2111,6 @@ BLOG PAGE
 .blog-right-column p {
     width: 80%;
     padding-top: .3em;
-    padding-bottom: .3em;
     padding-left: 10%;
     font: 1.2em/120% 'inconsolatamedium';
 }
@@ -2116,6 +2139,10 @@ BLOG PAGE
   	transition-property: background color;
   	transition-duration: 0.3s;
   	transition-timing-function: ease;
+}
+
+.post-share li{
+  list-style: none;
 }
 
 /*
