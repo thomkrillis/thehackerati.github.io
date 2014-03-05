@@ -91,7 +91,7 @@ h4 {
 
 a {
     font-family: 'inconsolatamedium';
-    color: #666;
+/*    color: #666;*/
     text-decoration: none;
 }
 
@@ -1953,6 +1953,22 @@ BLOG PAGE
 */
 .blog-summary-content-container {
     width: 90%;
+}
+
+.blog-summary-content-container {
+    padding-top: 0;
+}
+
+.blog-page-title a:link {
+    color: #f4f4f4;
+}
+
+.blog-page-title a:hover {
+    color: #f4f4f4;
+}
+
+.blog-page-title a:visited {
+    color: #f4f4f4;
 }
 
 .orange-text {
