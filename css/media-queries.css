@@ -20,14 +20,6 @@ MEDIA QUERIES
         padding: 20px; 
     }
 
-    .careers-page .section2 .content-container {
-        width: 77.2em;
-    }
-
-    .section3 .content-container {
-        width: 77.2em;
-    }
-
     .section1 p {
         font: 1.3em/100% 'inconsolatamedium';
     }
@@ -36,16 +28,16 @@ MEDIA QUERIES
         font: 1.8em/100% 'inconsolatamedium';
     }
 
-    .section3 .content-container {
-        width: 77.2em; 
-    }
-
     .generic-content {
         width: 43em; 
     }
 
     .block-mobile {
         display: none; 
+    }
+
+    .content-container {
+        width: 794px;
     }
 
     /*
@@ -164,9 +156,13 @@ MEDIA QUERIES
         float: left; 
     }
     
-    .section2 p {
+    .careers-page .section2 .content-container p {
         font: 2.0em/120% 'inconsolatamedium'; 
-        color: #f6f6f6;
+        color: #f4f4f4;
+    }
+
+    .careers-page .section2 .content-container {
+        width: 77.2em;
     }
     
     .perks-copy li {
@@ -310,17 +306,8 @@ MEDIA QUERIES
         padding: 15px; 
     }
 
-    .section3 .content-container {
-        width: 51.5em;  
-        padding-top: 0; 
-    }
-
     .section1 p {
         font: 1.3em/100% 'inconsolatamedium'; 
-    }
-
-    .careers-page .section1 p {
-        text-align: center; 
     }
 
     .section1 h3 {
@@ -330,12 +317,12 @@ MEDIA QUERIES
         margin: 0 4.4em .5em 4.4em;
     }
 
-    .careers-page .section2 .content-container {
-        width: 51.5em;
+    .section3 .content-container {
+        padding-top: 5%;
     }
 
-    .section2 p {
-        font: 2.0em/120% 'inconsolatamedium';
+    .content-container {
+        width: 75%;
     }
 
     .generic-content {
@@ -723,11 +710,15 @@ MEDIA QUERIES
     ======================================================
     */
 
-    .testimonial-copy-mobile { 
-        display: none;
+    .careers-page .section1 p {
+        text-align: center; 
+    }
+
+    .careers-page .section2 .content-container {
+        width: 51.5em;
     }
     
-    .testimonial-copy-tablet { 
+    .testimonial-copy-mobile { 
         width: 100%; 
         display: block;
     }
@@ -911,11 +902,6 @@ MEDIA QUERIES
         display: inline-block; 
     }
 
-    .section3 .content-container { 
-        width: 23em; 
-        padding-top: 0; 
-    }
-
     .careers-page .section1 p { 
         text-align: center; 
     }
@@ -943,6 +929,10 @@ MEDIA QUERIES
 
     .generic-content p { 
        font: 1.0em/130% 'inconsolatamedium'; 
+    }
+
+    .section3 .content-container {
+        padding-top: 0;
     }
 
     .block-right, 
@@ -1322,18 +1312,10 @@ MEDIA QUERIES
     CAREERS PAGE 
     ======================================================
     */
-
-    .section1-content-container { 
-        width: 22.5em;
-    }
-    
-    .testimonial-copy-tablet { 
-        width: 100%; 
-        display: block; 
-    }
     
     .testimonial-copy-mobile { 
-        display: none;
+        width: 100%; 
+        display: block; 
     }
     
     .testimonial-img { 
@@ -1369,10 +1351,6 @@ MEDIA QUERIES
      
     .perks-copy li { 
         font: 1.4em/150% 'inconsolatamedium'; 
-    }
-    
-    .section2 p { 
-        font: 1.7em/120% 'inconsolatamedium'; 
     }
     
     h2 { 
@@ -1620,15 +1598,6 @@ MEDIA QUERIES
         padding: 0 0 .25em 0; 
     }
 
-    .section1-content-container { 
-        width: 16em;
-    }
-
-    .section3 .content-container { 
-        width: 19em; 
-        padding-top: 0; 
-    }
-
     .block-right img, 
     .block-left img{ 
         display: block; 
@@ -1660,7 +1629,7 @@ MEDIA QUERIES
     }
 
     .block-mobile img { 
-        width: 100%; 
+        width: 75%; 
     }
 
     .generic-content { 
@@ -1901,10 +1870,6 @@ MEDIA QUERIES
         display: block; 
     }
     
-    .testimonial-copy-tablet { 
-        display: none;
-    }
-    
     .section1 h2 { 
         font: 3.0em/100% 'inconsolatamedium'; 
     }
@@ -1917,10 +1882,6 @@ MEDIA QUERIES
     
     .perks-copy li { 
         font: 1.4em/150% 'inconsolatamedium'; 
-    }
-    
-    .section2 p { 
-        font: 1.7em/120% 'inconsolatamedium'; 
     }
     
     h2 { 
