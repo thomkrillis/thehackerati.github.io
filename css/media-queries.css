@@ -20,10 +20,6 @@ MEDIA QUERIES
         padding: 20px; 
     }
 
-    .section1 p {
-        font: 1.3em/100% 'inconsolatamedium';
-    }
-
     .section1 h3 {
         font: 1.8em/100% 'inconsolatamedium';
     }
@@ -164,6 +160,10 @@ MEDIA QUERIES
     .careers-page .section2 .content-container {
         width: 77.2em;
     }
+
+    .careers-page .section3 .content-container {
+        width: 948px;
+    }
     
     .perks-copy li {
         list-style-type: disc; 
@@ -171,9 +171,9 @@ MEDIA QUERIES
     }
 
     .guild-copy {
-        margin: 1em 0; 
+        margin: 1em 0 1em 2%; 
         font: 1.4em/120% 'inconsolatamedium'; 
-        width: 54%; 
+        width: 50%; 
         float: left; 
     }
     
@@ -754,7 +754,8 @@ MEDIA QUERIES
     }
     
     .guild-copy { 
-        font: 1.4em/130% 'inconsolatamedium'; 
+        font: 1.4em/130% 'inconsolatamedium';
+        margin: 1em 0; 
     }
     
     .academy-page #section2-anchor-link .block-left { 
@@ -1340,7 +1341,7 @@ MEDIA QUERIES
     }
     
     .careers-page .section2 .content-container { 
-        width: 23.0em;
+        width: 80%;
     }
     
     .perks-cell { 
@@ -1356,12 +1357,15 @@ MEDIA QUERIES
     h2 { 
         font: 3.5em 'inconsolatamedium';
     }
-    
-    .guild-shield img, 
+     
     .guild-shield, 
     .guild-copy { 
         width: 100%; 
         float: none; 
+    }
+
+    .guild-shield img {
+        width: 73%;
     }
     
     .careers-page .splash-container { 
@@ -1388,16 +1392,21 @@ MEDIA QUERIES
         height: auto; 
         margin-bottom: 3em; 
         left: 0;
+        float: none;
+        display: inline-block;
     }
     
     .block-mobile .perks-cell { 
         width: 100%; 
-        margin: 1.1em; 
+        margin: 0em; 
+        height: auto;
     }
     
     .block-mobile .perks-icon { 
-        width: 90%; 
-        height: 90%;
+        width: 295px; 
+        height: 21em;
+        float: none;
+        display: inline-block;
     }
     
     .testimonial-img img { 
@@ -1919,12 +1928,12 @@ MEDIA QUERIES
     }
     
     .careers-page .section2 .content-container { 
-        width: 19em; 
+        width: 80%; 
     }
     
     .block-mobile .perks-icon { 
-        width: 100%; 
-        height: 84%; 
+        width: 275px; 
+        height: 275px; 
     }
     
     .block-mobile .perks-cell { 

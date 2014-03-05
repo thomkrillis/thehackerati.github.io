@@ -189,12 +189,6 @@ li {
     padding: 2%;
 }
 
-.careers-page .section1-content-container {
-    width: 87%;
-    margin-bottom: 4em;
-    margin-top: 4em;
-}
-
 .section1 h2 {
     font: 3.25em/100% 'inconsolatamedium';
     text-align: center;
@@ -208,12 +202,6 @@ li {
     color: #BFB6AA;
     border-bottom: 1px dotted #BFB6AA;
     text-align: left;
-}
-
-.section1 p {
-    text-align: left; 
-    font: 1.2em/120% 'inconsolatamedium';
-    margin: 0;
 }
 
 .section2 h3 {
@@ -237,6 +225,9 @@ li {
 }
 
 .section1 p {
+    text-align: left; 
+    font: 1.2em/120% 'inconsolatamedium';
+    margin: 0;
     color: #f4f4f4;
 }
 
@@ -249,10 +240,6 @@ li {
     -webkit-border-radius: 8px;
     -moz-border-radius: 8px;
     border-radius: 8px;
-}
-
-.content-container {
-    width: 67%;
     position:relative;
     padding-top: 7%;
     padding-bottom: 7%;
@@ -2303,6 +2290,21 @@ CAREERS PAGE
     color: #f4f4f4;
 }
 
+.careers-page .section1 p {
+    margin: 0.5em 0 0 0;
+    font: 1.2em/130% 'inconsolatamedium';
+}
+
+.careers-page .section1-content-container {
+    width: 87%;
+    margin-bottom: 4em;
+    margin-top: 4em;
+}
+
+.careers-page .section3 .content-container {
+    width: 80%;
+}
+
 .social-interstitial {
     height: auto;
     padding-top: 0;
@@ -2397,9 +2399,9 @@ CAREERS PAGE
 }
 
 .guild-copy {
-    margin: 1em 0;
+    margin: 1em 0 1em 8%;
     font: 1.3em/120% 'inconsolatamedium';
-    width: 54%;
+    width: 44%;
     float: left;
 }
 
@@ -2408,9 +2410,13 @@ CAREERS PAGE
     margin-bottom: 1em;
 }
 
+.guild-copy p {
+    font: 1.0em/130% 'inconsolatamedium';
+}
+
 .guild-shield {
     margin: 0;
-    width: 46%;
+    width: 48%;
     float: left;
 }
 
@@ -2512,7 +2518,7 @@ CAREERS PAGE
 
 .perks-copy li {
     list-style-type: disc;
-    font: 1.2em/150% 'inconsolatamedium';
+    font: 1.3em/150% 'inconsolatamedium';
 }
 
 #perks-copy1 {
