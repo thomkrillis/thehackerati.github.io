@@ -307,7 +307,7 @@ MEDIA QUERIES
     }
 
     .section1 p {
-        font: 1.3em/100% 'inconsolatamedium'; 
+        font: 1.2em/130% 'inconsolatamedium'; 
     }
 
     .section1 h3 {
@@ -676,13 +676,18 @@ MEDIA QUERIES
     ======================================================
     */
 
-    .rob, 
-    .geoff { 
-        width: 100%; 
+    .photo-contact-info {
+        width: 100%;
+    }
+
+    .geoff img, 
+    .rob img {
+        margin-right: 1em;
     }
 
     .name-contact-info { 
         display: inline-block; 
+        width: 50%;
     }
 
     #apprentice-text { 
@@ -947,10 +952,7 @@ MEDIA QUERIES
 
     .block-right img, 
     .block-left img { 
-        display: block; 
-        width: 50%; 
-        margin-right: auto; 
-        margin-left: auto; 
+        width: auto; 
     }
 
     .text-focus{ 
@@ -964,7 +966,7 @@ MEDIA QUERIES
         background: none; 
     }
 
-    .splash-container { 
+    .section.section1.splash-container { 
         display: block; 
         background: #2D6296 url('../assets/img/bgdarkblue.png') repeat; 
         min-height: 0px; 
@@ -1421,6 +1423,7 @@ MEDIA QUERIES
     
     .content-container h2 {
         padding-top: 50px;
+        font: 2.5em 'inconsolatamedium';
     }
     
     /*
@@ -1451,26 +1454,41 @@ MEDIA QUERIES
     #about-focus{ 
         z-index: 9999999; 
     }
+
+    .founder-info, 
+    .photo-contact-info, 
+    .name-contact-info { 
+        padding-right: 0;
+    }
+
+    .name-contact-info {
+        font: 1.0em/130% 'inconsolatamedium';
+    }
+
+    .geoff img,
+    .rob img {
+        margin-right: 0.1em;
+    }
     
     .photo-contact-info, 
     .name-contact-info{ 
         display:inline-block; 
-        float:left; 
-        width: 250px; 
         padding-top: 2.5%; 
         padding-bottom:2.5%;
+    }
+
+    .photo-contact-info {
+        width: 100%;
+    }
+
+    .name-contact-info {
+        width: auto;
     }
     
     .founder-info{ 
         display:inline-block; 
         padding-left: 0; 
         padding-right: 0; 
-        -ms-word-break: break-all; 
-        word-break: break-all;  
-        -webkit-hyphens: auto; 
-        -moz-hyphens: auto; 
-        -ms-hyphens: auto; 
-        hyphens: auto; 
     }
     
     .name-contact-info h3{ 
@@ -1484,11 +1502,6 @@ MEDIA QUERIES
     .about-page #section2-anchor-link .block-left, 
     .about-page #section4-anchor-link .block-left, 
     .about-page #section3-anchor-link .block-left { 
-        width: 100%; 
-    }
-    
-    .about-page #section3-anchor-link img,
-    .about-page #section4-anchor-link img { 
         width: 100%; 
     }
     
@@ -1610,7 +1623,6 @@ MEDIA QUERIES
     .block-right img, 
     .block-left img{ 
         display: block; 
-        width: 70%; 
         margin-right: auto; 
         margin-left: auto; 
     }
@@ -1686,10 +1698,6 @@ MEDIA QUERIES
     
     .content-container nav { 
         padding-bottom: 0.9em; 
-    }
-    
-    .fa {   
-        color: white;
     }
 
     /*
@@ -1842,6 +1850,17 @@ MEDIA QUERIES
         float: none; 
         clear: both; 
         padding-top: 3%;
+        padding-right: 0;
+    }
+
+    .name-contact-info {
+        font: 1.10em/130% 'inconsolatamedium';
+    }
+
+    .geoff img,
+    .rob img {
+        margin-right: 0;
+        margin-left: 0;
     }
 
     .about-page .generic-content { 
@@ -1851,10 +1870,6 @@ MEDIA QUERIES
     #academy-focus { 
         margin-top: 7.5%; 
         margin-bottom: 7.5%; 
-    }
-
-    .about-page #section2-anchor-link img { 
-        width: 100%; 
     }
     
     /*

@@ -216,17 +216,20 @@ li {
     margin: 0.3em 0 1.3em 0;
 }
 
-.section2,
-.section3 {
+.section {
     width: 100%;
     height: auto;
     background:#2d2d2d url('../assets/img/bgwhite.png') repeat;
     overflow: hidden;
 }
 
+.section.section1.splash-container {
+    background: none;
+}
+
 .section1 p {
     text-align: left; 
-    font: 1.2em/120% 'inconsolatamedium';
+    font: 1.2em/130% 'inconsolatamedium';
     margin: 0;
     color: #f4f4f4;
 }
@@ -339,7 +342,6 @@ li {
 }
 
 .block-right img {
-    width: 100%;
     height:auto;
     vertical-align: middle;
 }
@@ -358,7 +360,6 @@ li {
 }
 
 .block-left img {
-    width: 100%;
     height:auto;
     vertical-align: middle;
 }
@@ -515,6 +516,8 @@ nav a {
     text-align: center;
     width: 91%;
     height: 100%;
+    padding-top: 0;
+    padding-bottom: 0;
 }
 
 a.about-link {
@@ -2150,20 +2153,8 @@ ABOUT PAGE
 ======================================================
 */
 
-.founder-container {
-    width: 47%;
-    display: inline-block;
-    vertical-align: top;
-    margin-top: 20px;
-}
-
 .geoff {
     margin-right: 2%;
-}
-
-#about-focus{
-    margin-top: 7.5%;
-    margin-bottom: 7.5%;
 }
 
 .geoff img, 
@@ -2176,13 +2167,18 @@ ABOUT PAGE
     padding-bottom: 4em;
 }
 
+.leadership-content h3 {
+    font: 1.3em/120% 'inconsolatamedium';
+}
+
 .photo-contact-info, 
 .name-contact-info { 
     display:inline-block; 
-    width: 220px; 
     padding-top: 2.5%; 
     padding-bottom:2.5%; 
-    padding-right: 2.5%
+    padding-right: 2.5%;
+    width: 100%; 
+    font: 1.15em/130% 'inconsolatamedium';
 }
 
 /*
@@ -2190,10 +2186,6 @@ ABOUT PAGE
 ACADEMY PAGE 
 ======================================================
 */
-
-#academy-focus{
-    margin-top: 15%;
-}
 
 .academy-page .section1 p {
     font: 1.3em/120% 'inconsolatamedium';
@@ -2254,10 +2246,6 @@ CAREERS PAGE
     display: inline-block;
     vertical-align: top;
     width: 44%;
-}
-
-.testimonial-copy-tablet {
-    display: none;
 }
 
 .testimonial-copy-mobile {
@@ -2418,11 +2406,6 @@ CAREERS PAGE
     margin: 0;
     width: 48%;
     float: left;
-}
-
-.section3 .content-container {
-    padding-top: 10%;
-    padding-bottom: 12%;
 }
     
 /* PERKS */
