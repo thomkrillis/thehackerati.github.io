@@ -51,7 +51,16 @@ pre {
 
 .post-share {
     margin-top: 4em;
+    height: auto;
     text-align: right;
+    padding-top: 8px;
+    padding-bottom: 3px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -o-border-radius: 5px;
+    -ms-border-radius: 5px;
+    background-image: url('../../../../assets/img/bgwhite.png');
 }
 
 .post-share li{
@@ -65,16 +74,34 @@ pre {
 
 .reddit_button {
     margin-right: 30px;
+    padding: 2px;
+    background-color: #eee;
+    background-image: webkit-linear-gradient(#fff,#dedede);
+    background-image: linear-gradient(#fff,#dedede);
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font: 0.5em/100% Helvetica;
 }
 
 .reddit_button img {
-    height: 20px !important;
 }
 
 .reddit_button a:link {
-    color: #f4f4f4 !important;
+    color: #333 !important;
 }
 
 .reddit_button a:visited {
-    color: #f4f4f4 !important;
+    color: #333 !important;
+}
+
+.fb {
+  margin-right: 30px; 
+}
+
+.fb-share-button {
+    
+}
+
+.linkedin {
+  margin-right: 10px;
 }
