@@ -11,20 +11,20 @@
 
 <ul class="post-share ulno mob">
     <li class="rdt">
-      <script type="text/javascript" src="http://www.reddit.com/buttonlite.js?i=4"></script>
+        <script type="text/javascript" src="http://www.reddit.com/buttonlite.js?i=4"></script>
     </li>
 
     <li class="tw">
-      <a href="https://twitter.com/share" class="twitter-share-button" data-text="{{ page.title }}" 
-        data-via="{{ site.sharing.twitter.via }}" data-related="{{ site.sharing.author.twitter }}" 
-        data-count="{{ site.sharing.twitter.count }}" data-size="{{ site.sharing.twitter.size }}">Tweet
-      </a>
+        <a href="https://twitter.com/share" class="twitter-share-button" data-text="{{ page.title }}" 
+          data-via="{{ site.sharing.twitter.via }}" data-related="{{ site.sharing.author.twitter }}" 
+          data-count="{{ site.sharing.twitter.count }}" data-size="{{ site.sharing.twitter.size }}">Tweet
+        </a>
     </li>
     
     <li class="gp">
-      <div class="g-plusone" data-size="{{ site.sharing.googleplus.size }}" 
-        data-annotation="{{ site.sharing.googleplus.annotation }}" 
-        data-width="{{ site.sharing.googleplus.width }}"></div>
+        <div class="g-plusone" data-size="{{ site.sharing.googleplus.size }}" 
+          data-annotation="{{ site.sharing.googleplus.annotation }}" 
+          data-width="{{ site.sharing.googleplus.width }}"></div>
     </li>
 
     <li class="fb">

@@ -83,9 +83,6 @@ pre {
     font: 0.5em/100% Helvetica;
 }
 
-.reddit_button img {
-}
-
 .reddit_button a:link {
     color: #333 !important;
 }
@@ -95,13 +92,9 @@ pre {
 }
 
 .fb {
-  margin-right: 30px; 
-}
-
-.fb-share-button {
-    
+    margin-right: 30px; 
 }
 
 .linkedin {
-  margin-right: 10px;
+    margin-right: 10px;
 }
