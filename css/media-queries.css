@@ -32,6 +32,10 @@ MEDIA QUERIES
         width: 794px;
     }
 
+    .blog-summary-content-container {
+        width: 90%;
+    }
+
     /*
     ====================================================== 
     HEADER 

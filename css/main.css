@@ -122,6 +122,10 @@ li {
     list-style: none;
 }
 
+.inline {
+    display: inline;
+}
+
 .left {
     float: left;
 }
@@ -207,7 +211,6 @@ li {
 
 .section p {
     font: 1.3em/130% 'inconsolatamedium';
-    color: #000;
     margin: 0.3em 0 1.3em 0;
 }
 
@@ -226,7 +229,6 @@ li {
     text-align: left; 
     font: 1.2em/130% 'inconsolatamedium';
     margin: 0;
-    color: #f4f4f4;
 }
 
 .content-container {
@@ -1949,9 +1951,20 @@ RECRUITING PAGE
 BLOG PAGE 
 ======================================================
 */
+.blog-summary-content-container {
+    width: 90%;
+}
 
 .orange-text {
     color: rgb(236, 99, 20);
+}
+
+.tag_list {
+    margin-left: 10%;
+}
+
+.entry-summary p{
+    color: #333;
 }
 
 .rdt {
