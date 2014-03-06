@@ -1,10 +1,10 @@
-safe: true
+isafe: true
 lsi: false
 pygments: true
 name: The Hackerati
 description: website for The Hackerati
 url: http://thehackerati.com
-gems: [_tag_gen]
+#gems: [_tag_gen]
 
 # Settings for sharing 
 # Sharing is for things like tweet, plusone, hn upvotes, like, linkedin

@@ -2,10 +2,7 @@
 post_author: Alex Sheehan
 post_gravatar: c22b31aaaf01e8126d671fcd4c219dcc
 layout: blog_entry
-tags:
-- this
-- that
-- theother
+tags: [this, that, the, other]
 ---
 
 In the past few years, the brain child of Martin Odersky has grown from niche, to niche-chic, to a language du jour used by the likes of Twitter and LinkedIn. The Typesafe team is not resting on its Laurels however, in fact they have some pretty exciting plans for Scala in 2013.
