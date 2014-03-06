@@ -2,6 +2,7 @@
 post_author: Alex Sheehan
 post_gravatar: c22b31aaaf01e8126d671fcd4c219dcc
 layout: blog_entry
+comments: true
 tags: [this, that, the, other]
 ---
 

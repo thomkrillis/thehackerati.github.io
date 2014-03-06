@@ -25,10 +25,14 @@ Your files must stick to some conventions such as the following:
     \-\-\-
     post_author: Alex Sheehan
     post_gravatar: c22b31aaaf01e8126d671fcd4c219dcc
+    layout: blog_entry
+    comments: true
     tags: [tag-1, tag-2, ..., tag-n]
     \-\-\-
 
 * The post\_gravatar value is an md5 hash. You will need to make a gravatar and generate the hash from your email address. Delete all leading and trailing white space and make sure its all lower case. Here is a website that makes it [easy peasy](http://bit.ly/LBDlq9)
+
+* If you would like to disable comments on your entry, leave this line out.
 
 * For tags to function correctly, you must build the site locally before making your pull request. After adding your post, run
 
