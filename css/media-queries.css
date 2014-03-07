@@ -15,15 +15,6 @@ MEDIA QUERIES
     ======================================================
     */
 
-    .wrapper-splash {
-        width: 830px; 
-        padding: 20px; 
-    }
-
-    .section1 h3 {
-        font: 1.8em/100% 'inconsolatamedium';
-    }
-
     .block-mobile {
         display: none; 
     }
@@ -43,7 +34,7 @@ MEDIA QUERIES
     */
     
     .header-section > .content-container {
-        width: 77.7em;
+        width: 1000px;
     }
 
     /*
@@ -140,10 +131,6 @@ MEDIA QUERIES
         width: 44%;
     }
 
-    .apply-now-button p {
-        font: 1.5em/120% 'inconsolatamedium';
-    }
-
     .perks-cell {
         position: relative; 
         width: 300px; 
@@ -158,7 +145,7 @@ MEDIA QUERIES
     }
 
     .careers-page .section2 .content-container {
-        width: 77.2em;
+        width: 1080px;
     }
 
     .careers-page .section3 .content-container {
@@ -253,21 +240,13 @@ MEDIA QUERIES
     FOOTER 
     ======================================================
     */
-
-    .footer-wrapper {
-        width: 888px;
-    }
     
     footer .content-container {
-        width: 77.2em; 
+        width: 1080px; 
     }
 
     .footer-column3 {
         padding: 0; 
-    }
-
-    .footer-copyright {
-        width: 100%;
     }
 
 }
@@ -292,18 +271,8 @@ MEDIA QUERIES
         display: inline-block; 
     }
 
-    .tablet-and-desktop {
-        display: inline-block; 
-    }
-
     .desktop {
         display: none;  
-    }
-
-    .wrapper-splash {
-        width: 650px;   
-        font-size: 16px;    
-        padding: 15px; 
     }
 
     .section1 p {
@@ -326,7 +295,8 @@ MEDIA QUERIES
     }
 
     .block-mobile {
-        display: block; text-align:center;
+        display: block; 
+        text-align: center;
     }
 
     .block-desktop {
@@ -354,11 +324,16 @@ MEDIA QUERIES
     .welcome-container .logo {
         float: none;
         width: auto;
+        text-align: center;
     }
 
     .header-section {
         height: 8em;
         margin-top: 0;
+    }
+
+    .welcome-container .content-container {
+        padding-top: 0;
     }
 
     .header-section .content-container {
@@ -405,7 +380,7 @@ MEDIA QUERIES
 
     .welcome-container .content-container nav { 
         font: 1.8em/100% 'inconsolatamedium'; 
-        margin-top: 1em;    
+        margin-top: 5em;    
         padding-top: 0; 
         padding-bottom: 1.0em;
     }
@@ -415,12 +390,7 @@ MEDIA QUERIES
     }
 
     .welcome-container .header-section > .content-container {   
-        width: 50%;
-    }
-
-    .welcome-container .logo img {  
-        max-width: 100%;
-        max-height: 100%;   
+        width: 56%;
     }
 
     .welcome-container .block-right { 
@@ -730,10 +700,6 @@ MEDIA QUERIES
         margin: 2em 0;
     }
     
-    .apply-now-button p {
-        font: 1.5em/120% 'inconsolatamedium'; 
-    }
-    
     .perks-copy li { 
         font: 1.4em/150% 'inconsolatamedium'; 
     }
@@ -764,10 +730,6 @@ MEDIA QUERIES
     }
     
     .academy-page #section2-anchor-link .block-mobile { 
-        text-align: center; 
-    }
-    
-    .section1 .apply-button { 
         text-align: center; 
     }
     
@@ -826,16 +788,8 @@ MEDIA QUERIES
     ======================================================
     */
 
-    .footer-wrapper { 
-        width: 709px;
-    }
-
     .mobile-copyright-madeny { 
         display: block;
-    }
-
-    .footer-copyright { 
-        margin-left: 0;
     }
 
     .footer-madeny { 
@@ -875,10 +829,6 @@ MEDIA QUERIES
         margin-bottom: 0.7em; 
     }
 
-    .footer-copyright { 
-        width: 100%;
-    }
-
 }
 
 /* SMALL TABLET/BIG SMARTPHONE
@@ -898,10 +848,6 @@ MEDIA QUERIES
 
     .tablet { 
         display: inline-block;
-    }
-
-    .tablet-and-desktop { 
-        display: inline-block; 
     }
 
     .careers-page .section1 p { 
@@ -926,13 +872,8 @@ MEDIA QUERIES
         width: auto; 
     }
 
-    .text-focus{ 
-        width: 100%;
-        height: 100%; 
-    }
-
     .section1-content-container { 
-        margin-top: 2em; 
+        margin-top: 4em; 
         margin-bottom: 2em; 
         background: none; 
     }
@@ -942,10 +883,6 @@ MEDIA QUERIES
         background: #2D6296 url('../assets/img/bgdarkblue.png') repeat; 
         min-height: 0px; 
         padding: 1em;
-    }
-
-    .text-focus { 
-        background: none; 
     }
 
     .block-desktop { 
@@ -1053,8 +990,6 @@ MEDIA QUERIES
     #terminal-window a {
         font-size: 1.2em; 
         padding: 15px 18px; 
-        margin-left: 0; 
-        margin-right: 0; 
     }
 
     /* SECTION 2 */
@@ -1316,6 +1251,14 @@ MEDIA QUERIES
     .careers-page .section2 .content-container { 
         width: 80%;
     }
+
+    .careers-page .section1 .content-container a {
+        color: #ec6314;
+    }
+
+    .careers-page .section1 .content-container a:hover {
+        color: #fff;
+    }
     
     .perks-cell { 
         width: 280px; 
@@ -1348,12 +1291,7 @@ MEDIA QUERIES
     
     .careers-page .section1-content-container { 
         margin-bottom: 0; 
-        margin-top: 0; 
         width: 23em; 
-    }
-    
-    .section1 .apply-button { 
-        text-align: center; 
     }
     
     .perks-cell img { 
@@ -1402,10 +1340,6 @@ MEDIA QUERIES
     ABOUT PAGE 
     ======================================================
     */
-
-    #about-focus{ 
-        z-index: 9999999; 
-    }
 
     .founder-info, 
     .photo-contact-info, 
@@ -1493,12 +1427,6 @@ MEDIA QUERIES
         width: 23em; 
     }
 
-    .footer-copyright { 
-        width: 80%; 
-        text-align: center; 
-        margin-left: 1.7em; 
-    }
-
     .twitter-footer { 
         margin-left: 3em; 
     }
@@ -1527,10 +1455,6 @@ MEDIA QUERIES
 
     .mobile { 
         display: inline-block;
-    }
-
-    .tablet-and-desktop { 
-        display: none; 
     }
 
     .tablet { 
@@ -1576,17 +1500,13 @@ MEDIA QUERIES
     }
 
     .section1-content-container { 
-        margin-top: 2em ; 
+        margin-top: 4em ; 
         margin-bottom: 2em; 
     }
 
     .splash-container { 
         display: block; 
         background: #2D6296 url('../assets/img/bgdarkblue.png') repeat; 
-    }
-
-    .text-focus { 
-        background: none; 
     }
 
     .block-desktop { 
@@ -1599,6 +1519,10 @@ MEDIA QUERIES
 
     .block-mobile img { 
         width: 75%; 
+    }
+
+    .content-container {
+        width: 90%;
     }
 
     /*
@@ -1753,23 +1677,9 @@ MEDIA QUERIES
     
     /*
     ====================================================== 
-    HOME PAGE 
-    ======================================================
-    */
-
-    .splash-academy { 
-        background: #ec6314;
-    }
-    
-    /*
-    ====================================================== 
     ABOUT PAGE 
     ======================================================
     */
-
-    .splash-about{ 
-        background: #8a8a8a;
-    }
 
     .founder-info, 
     .photo-contact-info, 
@@ -1840,21 +1750,12 @@ MEDIA QUERIES
     
     .careers-page .section1-content-container { 
         width: 16em; 
-        margin-top: 0; 
         margin-bottom: 0; 
     }
     
     .careers-page .splash-container { 
         padding-top: 7%; 
         padding-bottom: 7%; 
-    }
-    
-    .section1 .apply-button { 
-        text-align: center; 
-    }
-    
-    .apply-now-button { 
-        margin: 20px 30px; 
     }
     
     .perks-cell img { 
@@ -1886,10 +1787,6 @@ MEDIA QUERIES
         -webkit-box-shadow: 0px 0px 9px -2px rgba(0,0,0,0.76); 
         -moz-box-shadow: 0px 0px 9px -2px rgba(0,0,0,0.76); 
         box-shadow: 0px 0px 9px -2px rgba(0,0,0,0.76);
-    }
-    
-    .apply-button { 
-        color: #ec6314; 
     }
     
     .careers-page .section1 p { 
@@ -1958,59 +1855,14 @@ MEDIA QUERIES
     FOOTER 
     ======================================================
     */
-
-    .footer-wrapper { 
-        width: 295px; 
-    }
     
     .tweets.column,
     .sitemap.column { 
         display: none; 
     }
     
-    #footer .column { 
-        width: 100%; 
-        text-align: center; 
-    }
-    
-    .social-icons { 
-        margin: 0 auto; 
-        position: relative; 
-        width: 65%; 
-    }
-    
     .madenyc { 
         margin-top: 15px; 
-    }
-    
-    .copyright { 
-        margin: 0 auto; 
-        width: 65%; 
-        position: relative; 
-    }
-    
-    .contact-info { 
-        width: 65%; 
-        margin: 0 auto; 
-        position: relative; 
-    }
-    
-    #nav-expansion { 
-        display: block; 
-        margin: 15px 10% 0 0; 
-    }
-    
-    #nav-expansion a { 
-        line-height: 50px; 
-        text-decoration: none; 
-        font-size: 4em; 
-        color: #ec6314; 
-    }
-    
-    .benefits-content, 
-    .apprentice-content, 
-    .supply-content { 
-        width: 295px;
     }
     
     .footer-column1 { 
@@ -2026,12 +1878,6 @@ MEDIA QUERIES
     
     .footer-section .content-container { 
         width: 21em; 
-    }
-    
-    .footer-copyright { 
-        width: 80%; 
-        text-align: center; 
-        margin-left: 1.7em; 
     }
     
     .twitter-footer { 
