@@ -221,7 +221,12 @@ span.sb-caret { /* Caret Down */
 	display:none;
 	-webkit-box-shadow:none;
 	box-shadow: none;
-	-webkit-transition: opacity 0.2s linear;
+  transition: all 0.4s;
+  -o-transition: all 0.4s;
+  -ms-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+  -webkit-transition: all 0.4s;
+
 	opacity: 1;
 }
 
