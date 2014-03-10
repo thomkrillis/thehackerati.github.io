@@ -92,7 +92,6 @@ h4 {
 
 a {
     font-family: 'inconsolatamedium';
-/*    color: #666;*/
     text-decoration: none;
 }
 
@@ -205,6 +204,14 @@ li {
     height: auto;
     background:#2d2d2d url('../assets/img/bgwhite.png') repeat;
     overflow: hidden;
+}
+
+.section a {
+    color: #666;
+}
+
+.section a:hover {
+    color: #000;
 }
 
 .section.section1.splash-container {
@@ -1553,8 +1560,6 @@ body > svg {
     margin: 0 auto;
 }
 
-/* UP TO HERE */
-
 .clients-tools .clients-icon p {
     margin-top: -10px;
     margin-bottom: 2%;
@@ -1562,12 +1567,10 @@ body > svg {
 
 .fa-icon {
     width: 90%;
-    height: 90%;
 }
 
 .clients-icon img {
     width: 80%;
-    height: 80%;
 }
 
 .clients-description p {
@@ -1590,7 +1593,6 @@ body > svg {
 
 .clients-box img {
     width: 100%;
-    height: 100%;
 }
 
 .clients-box h3 {
@@ -1618,7 +1620,7 @@ body > svg {
     bottom: 0;
     left: 0;
     width: 100%;
-    height: 150px;
+    height: 10.7em;
 }
 
 .conveyor-gear-row {
@@ -1669,13 +1671,12 @@ body > svg {
 
 .contact-container {
     background: #2d2d2d url('../assets/img/bgdarkblue.png') repeat;
-    height: 800px;
+    height: 60em;
     background-repeat: repeat;
     overflow: hidden;
 }
 
 .contact-bg-overlay {
-    width: 100%;
     height: 100%;
 }
 
@@ -1695,74 +1696,13 @@ body > svg {
 }
 
 #contact-content h1 {
-    margin-bottom:0;
-    padding-bottom:0;
-    border-bottom:0;
-    color:white;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    border-bottom: 0;
+    color: white;
     float: left;
     font: 3em/100% 'inconsolatamedium';
-    width: 5em;
-}
-
-#contact-copy {
-    padding-left: 5%;
-    border-left: 2px solid white;
-}
-
-#contact-copy a:link {
-    color: #f4f4f4;
-}
-
-#contact-copy a:hover {
-    color: #f86815;
-    text-decoration:none;
-}
-
-#contact-copy .socialicons img {
-    width:50px;
-    padding-right:5px;
-    -webkit-transition: all .2s ease-in-out;
-    -moz-transition: all .2s ease-in-out;
-    -o-transition: all .2s ease-in-out;
-    transition: all .2s ease-in-out;
-}
-
-#contact-copy a span {
-    padding: 5px;
-    opacity:0;
-    position: absolute;
-    z-index:99999;
-    background: rgba(6,31,69,0.8);
-    margin-left:-30px;
-    margin-top:65px;
-    -webkit-border-radius: 0px 10px 10px 10px;
-    border-radius: 0px 10px 10px 10px;
-    width: 100px;
-    text-align:center;
-     -webkit-transition: all .2s ease-in-out;
-    -moz-transition: all .2s ease-in-out;
-    -o-transition: all .2s ease-in-out;
-    transition: all .2s ease-in-out;
-}
-
-#contact-copy span p {
-    margin-top:-20px;
-    color:white;
-}
-
-#contact-copy a:hover span{
-    opacity:1;
-}
-
-.tip-arrow {
-    width: 0; 
-    height: 0; 
-    border-left: 0px solid transparent;
-    border-right: 10px solid transparent;
-    border-bottom: 10px solid rgba(6,31,69,0.8);
-    position:absolute;
-    left:0;
-    top:-10px;
+    width: auto;
 }
 
 #google-maps-wrapper {
@@ -1770,7 +1710,7 @@ body > svg {
     left: 50%;
     top: 10em;
     width: 100%;
-    height: 65%;
+    height: 33em;
     margin-left: -240%;
     background-color: #333;
     -webkit-border-radius: 8px;
@@ -1990,7 +1930,7 @@ BLOG PAGE
 }
 
 .terminal-menu-bar {
-    height: 20px;
+    height: 1.4em;
     -moz-border-radius: 5px 5px 0px 0px;   
     -webkit-border-radius: 5px 5px 0px 0px;   
     border-radius: 5px 5px 0px 0px;   
@@ -2017,8 +1957,8 @@ BLOG PAGE
 }
 
 .menu-bar-button {
-    width: 12px;
-    height: 12px;
+    width: 0.8em;
+    height: 0.8em;
     margin-top: 4px;
     margin-left: 4px;
     border-radius: 90px;
@@ -2197,7 +2137,7 @@ CAREERS PAGE
 .careers-page .section2 .content-container {
     padding-top: 7em;
     padding-bottom: 7em;
-    width: 71.9em;
+    width: 1006px;
     font: 1.0em/120% 'inconsolatamedium';
 }
 
@@ -2231,7 +2171,7 @@ CAREERS PAGE
 .social-media-sprite {
     margin-left: 48%;
     width: 44px;
-    height: 44px;
+    height: 3.3em;
     margin-top: 1em;
 }
 
@@ -2345,7 +2285,7 @@ CAREERS PAGE
 .perks-cell {
     position: relative;
     width: 285px;
-    height: 285px;
+    height: 20.4em;
     margin: 2.5%;
     float: left;
 }
@@ -2355,7 +2295,6 @@ CAREERS PAGE
     top: 0;
     left: 0;
     width: 100%;
-    height: 100%;
 }
 
 .perks-icon {
@@ -2510,12 +2449,6 @@ footer p {
 
 .madenyc {
     width: 150px;
-    height: 150px;
-}
-
-.contact.column p {
-    font-size: 12px;
-    height: 4px;
 }
 
 .sitemap.column ul li {
@@ -2575,7 +2508,7 @@ footer p {
 .sitemap-category {
     display: inline-block;
     vertical-align: top;
-    width: 12em;
+    width: 92%;
 }
 
 .footer-share {
@@ -2613,7 +2546,7 @@ footer .content-container {
 .footer-sprite {
     background: url('../assets/img/social-media-footer-small.png') no-repeat; 
     width: 34.54px;
-    height: 34.54px;
+    height: 2.5em;
     float: left;
     margin-right: 0.5em;
 }
