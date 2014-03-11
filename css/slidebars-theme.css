@@ -140,6 +140,11 @@ a.sitemap-cat:visited {
 	margin-right: 0.5em; 
 }
 
+.h-watermark {
+    margin-top: 5em;
+    text-align: center;
+}
+
 /* Submenus */
 .sb-submenu {
 	display: none;
