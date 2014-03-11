@@ -16,19 +16,27 @@ Fork the repo, then:
 Step Two
 --------
 
-In the drafts folder, start writing your files! You will be using markdown, so get cozy with this [cheat sheet](http://bit.ly/LTtexM)
+In the \_posts folder, start writing your files! You will be using markdown, so get cozy with this [cheat sheet](http://bit.ly/LTtexM)
 
 Your files must stick to some conventions such as the following:
 * The name of your file must have the date, then the name. ie: 2014-02-06-title-of-article.md
-* If you would like your name and picture to be associated with your article, you will have to add a little something to the top of your markdown. (make sure to include the ---'s)
+* If you would like your name and picture to be associated with your article, you will have to add a little [frontmatter](http://jekyllrb.com/docs/frontmatter/) to the top of your markdown.
 
     \-\-\-
     post_author: Alex Sheehan
     post_gravatar: c22b31aaaf01e8126d671fcd4c219dcc
+    layout: blog_entry
+    comments: true
     tags: [tag-1, tag-2, ..., tag-n]
     \-\-\-
 
 * The post\_gravatar value is an md5 hash. You will need to make a gravatar and generate the hash from your email address. Delete all leading and trailing white space and make sure its all lower case. Here is a website that makes it [easy peasy](http://bit.ly/LBDlq9)
+
+* If you would like to disable comments on your entry, leave this line out.
+
+* For tags to function correctly, you must build the site locally before making your pull request. After adding your post, run
+
+    jekyll build
 
 Step Three
 ----------
