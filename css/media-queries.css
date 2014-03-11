@@ -1448,6 +1448,10 @@ MEDIA QUERIES
         height: 9em; 
     }
 
+    .h-watermark {
+        margin-left: 0;
+    }
+
 }
 
 /* SMARTPHONE

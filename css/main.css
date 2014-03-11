@@ -2600,6 +2600,10 @@ footer .content-container {
     margin-right: 0em;
 }
 
+.h-watermark {
+    margin-left: 15%;
+}
+
 /*
 ====================================================== 
 FONTAWESOME LIBRARY 
