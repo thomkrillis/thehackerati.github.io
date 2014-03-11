@@ -141,8 +141,12 @@ a.sitemap-cat:visited {
 }
 
 .h-watermark {
-    margin-top: 5em;
+    height: 30%;
     text-align: center;
+}
+
+.h-watermark img {
+    max-height: 100%;
 }
 
 /* Submenus */
