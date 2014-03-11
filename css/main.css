@@ -169,7 +169,7 @@ li {
 .section1-content-container {
     margin-left: auto;
     margin-right: auto;
-    margin-top: 15%;
+    margin-top: 7%;
     position: relative;
     padding: 2%;
     font-size: 18px;
@@ -269,7 +269,7 @@ li {
 
 .splash-container {
     width: 100%;
-    min-height: 57em;
+    min-height: 51em;
     display: inline-block;
     position:relative;
 }
