@@ -625,6 +625,12 @@ MEDIA QUERIES
         margin-right: auto; 
     }
 
+    .clients-content {
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 6em;
+    }
+
     /* SECTION 6 */
 
     #contact-content { 
@@ -940,6 +946,10 @@ MEDIA QUERIES
     
     .header-section{ 
         display: none; 
+    }
+
+    .sb-right .footer-sprite {
+        height: 1.5em;
     }
 
     /*
