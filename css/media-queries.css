@@ -59,28 +59,12 @@ MEDIA QUERIES
         font: 1.5em/100% 'inconsolatamedium'; 
     }
 
-    #who-info {
-        font: 1.15em/120% 'inconsolatamedium'; 
-    }
-
-    .column-1 {
-        font: 1.15em/120% 'inconsolatamedium'; 
-    }
-
-    .column-2 {
-        font: 1.15em/120% 'inconsolatamedium'; 
-    }
-
-    .column-3 {
-        font: 1.15em/120% 'inconsolatamedium'; 
-    }
-
     #who-title h1 {
-        font: 4.5em/100% 'inconsolatamedium';
+        font: 4.5em/100% 'HelveticaRegular';
     }
 
     #who-title h2 {
-        font: 3.0em/100% 'inconsolatamedium'; 
+        font: 3.0em/100% 'HelveticaRegular'; 
     }
 
     /* SECTION 4 */
@@ -140,7 +124,7 @@ MEDIA QUERIES
     }
     
     .careers-page .section2 .content-container p {
-        font: 2.0em/120% 'inconsolatamedium'; 
+        font: 2.1em/120% 'HelveticaRegular'; 
         color: #f4f4f4;
     }
 
@@ -154,12 +138,12 @@ MEDIA QUERIES
     
     .perks-copy li {
         list-style-type: disc; 
-        font: 1.4em/150% 'inconsolatamedium'; 
+        font: 1.4em/150% 'din-regularregular'; 
     }
 
     .guild-copy {
         margin: 1em 0 1em 2%; 
-        font: 1.4em/120% 'inconsolatamedium'; 
+        font: 1.4em/150% 'din-regularregular'; 
         width: 50%; 
         float: left; 
     }
@@ -275,12 +259,8 @@ MEDIA QUERIES
         display: none;  
     }
 
-    .section1 p {
-        font: 1.2em/130% 'inconsolatamedium'; 
-    }
-
     .section1 h3 {
-        font: 1.8em/100% 'inconsolatamedium';   
+        font: 1.8em/100% 'din-regularregular';   
         text-align: center; 
         width: auto; 
         margin: 0 4.4em .5em 4.4em;
@@ -445,13 +425,7 @@ MEDIA QUERIES
         float: none; 
         clear: both; 
         display: block;
-    }
-
-    #who-info { 
-        border-left: 0; 
-        padding-left: 0; 
-        margin-left: 0; 
-        font: 1.15em/120% 'inconsolatamedium'; 
+        border-left: 0;
     }
 
     #who-title { 
@@ -471,7 +445,6 @@ MEDIA QUERIES
         height: auto;
         margin-left: 0;
         margin-top: 0; 
-        font: 1.15em/120% 'inconsolatamedium';
     }
 
     #who .column-1 h2 {
@@ -524,16 +497,16 @@ MEDIA QUERIES
     }
 
     .what-cards-mobile h1 { 
-        font: 2.5em/120% 'inconsolatamedium';
+        font: 3.5em/120% 'HelveticaRegular';
     }
 
     .what-cards-mobile h3 { 
-        font: 1.8em/120% 'inconsolatamedium'; 
+        font: 1.8em/120% 'HelveticaRegular'; 
         text-align: center; 
     }
 
     .what-cards-mobile p { 
-        font: 1.3em/120% 'inconsolatamedium'; 
+        font: 1.3em/150% 'din-lightregular'; 
     }
 
     #carousel-wrapper,
@@ -584,23 +557,25 @@ MEDIA QUERIES
 
     .clients-box p { 
         bottom: 3px; 
-        left: 11%; 
+        left: 14%;
+        width: 48%;
+        margin-bottom: 1.5%; 
     }
 
     .clients-info h3 { 
-        font: 1.8em/120% 'inconsolatamedium'; 
+        font: 1.8em/120% 'HelveticaRegular'; 
     }
 
     .clients-box h3 { 
-        font: 1.3em/120% 'inconsolatamedium'; 
+        font: 1.3em/120% 'HelveticaRegular'; 
     }
 
     .tooltip p { 
-        font: 1.03em/120% 'inconsolatamedium'; 
+        font: 1.03em/120% 'din-lightregular'; 
     }
 
     .clients-resources p { 
-        font: 0.9em/120% 'inconsolatamedium'; 
+        font: 0.9em/120% 'din-lightregular'; 
         width: 4em; 
         margin-left: auto; 
         margin-right: auto; 
@@ -612,7 +587,7 @@ MEDIA QUERIES
     }
 
     .clients-tools p { 
-        font: 0.75em/120% 'inconsolatamedium'; 
+        font: 0.85em/120% 'din-lightregular'; 
     }
 
     .clients-tools .clients-icon { 
@@ -708,7 +683,7 @@ MEDIA QUERIES
     }
     
     .perks-copy li { 
-        font: 1.4em/150% 'inconsolatamedium'; 
+        font: 1.4em/150% 'din-regularregular'; 
     }
     
     .perks-cell {  
@@ -727,7 +702,7 @@ MEDIA QUERIES
     }
     
     .guild-copy { 
-        font: 1.4em/130% 'inconsolatamedium';
+        font: 1.4em/150% 'din-regularregular';
         margin: 1em 0; 
     }
     
@@ -887,7 +862,7 @@ MEDIA QUERIES
         display: block; 
         background: #2D6296 url('../assets/img/bgdarkblue.png') repeat; 
         min-height: 0px; 
-        padding: 1em;
+        padding: 0;
     }
 
     .block-desktop { 
@@ -1034,7 +1009,7 @@ MEDIA QUERIES
 
     .clients-content {
         width: 80%; 
-        padding-top: 50px;
+        padding-top: 0px;
     }
 
     .arrow-box-left, 
@@ -1069,7 +1044,7 @@ MEDIA QUERIES
         margin-left: 10px; 
         padding-left: 0%; 
         padding-right: 0%; 
-        font: 1.15em/120% 'inconsolatamedium';
+        font: 1.15em/150% 'din-regularregular';
     }
 
     .clients-tap { 
@@ -1100,7 +1075,7 @@ MEDIA QUERIES
     }
 
     .tooltip p { 
-        font: 1.05em/120% 'inconsolatamedium'; 
+        font: 1.05em/130% 'din-lightregular'; 
     }
 
     .arrow-box-left, 
@@ -1207,7 +1182,7 @@ MEDIA QUERIES
     /* SECTION 6 */
     
     #contact-content { 
-        width: 22em; 
+        width: 80%; 
     }
 
     #google-maps-wrapper { 
@@ -1247,7 +1222,7 @@ MEDIA QUERIES
     }
     
     .section1 h3 { 
-        font: 1.5em/100% 'inconsolatamedium'; 
+        font: 1.5em/100% 'din-regularregular'; 
     }
     
     .careers-page .section2 .content-container { 
@@ -1273,10 +1248,6 @@ MEDIA QUERIES
         left: 0;
         margin-bottom: 2em;
     }
-     
-    .perks-copy li { 
-        font: 1.4em/150% 'inconsolatamedium'; 
-    }
 
     .perks-icon {
         float: none;
@@ -1289,7 +1260,7 @@ MEDIA QUERIES
     }
     
     h2 { 
-        font: 3.5em 'inconsolatamedium';
+        font: 3.5em 'HelveticaRegular';
     }
      
     .guild-shield, 
@@ -1350,7 +1321,7 @@ MEDIA QUERIES
     
     .content-container h2 {
         padding-top: 50px;
-        font: 2.5em 'inconsolatamedium';
+        font: 2.5em 'HelveticaRegular';
     }
     
     /*
@@ -1393,10 +1364,6 @@ MEDIA QUERIES
         display:inline-block; 
         padding-left: 0; 
         padding-right: 0; 
-    }
-    
-    .name-contact-info h3{ 
-        font: 1.1em/100% "inconsolatamedium"; 
     }
     
     .about-page #section2-anchor-link .block-left, 
@@ -1497,10 +1464,6 @@ MEDIA QUERIES
     .span8,
     .span9 {
         width: 100%;
-    }
-
-    .section1 p { 
-        font: 1.2em/130% 'inconsolatamedium';
     }
 
     .careers .section1 p { 
@@ -1635,7 +1598,7 @@ MEDIA QUERIES
     /* SECTION 1 */
 
     .welcome-content { 
-        width: 17em; 
+        width: 86%; 
     }
 
     #terminal-block-title {
@@ -1649,11 +1612,12 @@ MEDIA QUERIES
     /* SECTION 2 */
 
     .who-content { 
-        width: 19em; 
+        width: 90%; 
     }
 
     #who-title h1 { 
         margin-bottom: 0.3em; 
+        font: 4.1em/100% 'HelveticaRegular';
     }
 
     #who-title h2 { 
@@ -1663,23 +1627,20 @@ MEDIA QUERIES
     /* SECTION 3 */
 
     .what-content { 
-        width: 19em; 
+        width: 90%; 
     }
 
     /* SECTION 4 */
 
     .how-content { 
-        width: 19em; 
-    }
-
-    #how h1 { 
-        margin-left: 0.45em; 
+        width: 90%; 
     }
 
     /* SECTION 5 */
 
     .clients-content { 
         width: 100%; 
+        margin-top: 0;
     }
 
     /* SECTION 6 */
@@ -1755,12 +1716,8 @@ MEDIA QUERIES
         margin: 2.5%;
     }
     
-    .perks-copy li { 
-        font: 1.4em/150% 'inconsolatamedium'; 
-    }
-    
     h2 { 
-        font: 3.5em 'inconsolatamedium';
+        font: 3.5em 'HelveticaRegular';
     }
     
     .guild-shield img, 
@@ -1771,7 +1728,7 @@ MEDIA QUERIES
     }
     
     .careers-page .section1-content-container { 
-        width: 16em; 
+        width: 90%; 
         margin-bottom: 0; 
     }
     
@@ -1811,12 +1768,13 @@ MEDIA QUERIES
         box-shadow: 0px 0px 9px -2px rgba(0,0,0,0.76);
     }
     
-    .careers-page .section1 p { 
-        font: 1.0em/130% 'inconsolatamedium'; 
-    }
-    
     .careers-page .section1-content-container { 
         padding: 0; 
+    }
+
+    .perks-icon {
+        width: 293px;
+        height: 20.9em;
     }
     
     /*
