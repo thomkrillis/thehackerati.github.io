@@ -10,7 +10,7 @@ var marker;
 var map;
 var contentString = 
   '<img src="../assets/img/logo.png" style="width: 100%; height: auto;" />' +
-  '<p style="margin-top: 1em; font: 1.15em/120% inconsolatamedium"> 41 Cooper Square, #205</p><p>New York, NY, 10003</p><p>(917) 426-1066</p>';
+  '<p> 41 Cooper Square, #205</p><p>New York, NY, 10003</p><p>(917) 426-1066</p>';
 var infowindow = new google.maps.InfoWindow({
   content: contentString,
   maxWidth: 180,
