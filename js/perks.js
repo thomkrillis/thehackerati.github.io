@@ -6,6 +6,9 @@ $(document).ready(function() {
 
     if (windowsize >= 1010) {
 
+
+
+
 	    $('.perks-icon1').css('opacity','1');
 	    $('#perks-copy1').css('opacity','0');
 
