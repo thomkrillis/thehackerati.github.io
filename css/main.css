@@ -2181,6 +2181,10 @@ CAREERS PAGE
     font: 1.2em/130% 'din-lightregular';
 }
 
+.careers-leading-paragraph {
+    margin: -0.35em 0 0 0 !important;
+}
+
 .careers-page .section1-content-container {
     width: 87%;
     margin-bottom: 4em;
