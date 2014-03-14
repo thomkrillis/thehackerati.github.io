@@ -140,15 +140,6 @@ a.sitemap-cat:visited {
 	margin-right: 0.5em; 
 }
 
-.h-watermark {
-    height: 30%;
-    text-align: center;
-}
-
-.h-watermark img {
-    max-height: 100%;
-}
-
 /* Submenus */
 .sb-submenu {
 	display: none;

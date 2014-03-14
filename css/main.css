@@ -2177,12 +2177,8 @@ CAREERS PAGE
 }
 
 .careers-page .section1 p {
-    margin: 0.5em 0 0 0;
+    margin: 0 0 0.5em 0;
     font: 1.2em/130% 'din-lightregular';
-}
-
-.careers-leading-paragraph {
-    margin: -0.35em 0 0 0 !important;
 }
 
 .careers-page .section1-content-container {
