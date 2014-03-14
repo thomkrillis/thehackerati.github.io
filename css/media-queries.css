@@ -154,7 +154,7 @@ MEDIA QUERIES
 
     .social-media-sprite {
         margin-left: 48%;
-        width: 44px;
+        width: 46px;
         height: 3.3em;
         margin-top: 1em;
     }
@@ -924,7 +924,7 @@ MEDIA QUERIES
     }
 
     .sb-right .footer-sprite {
-        height: 1.5em;
+        height: 1.6em;
     }
 
     /*
@@ -1775,6 +1775,7 @@ MEDIA QUERIES
     .perks-icon {
         width: 293px;
         height: 20.9em;
+        margin-left: -8%;
     }
     
     /*
