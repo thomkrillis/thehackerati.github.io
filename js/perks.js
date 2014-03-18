@@ -4,7 +4,7 @@ $(document).ready(function() {
   function checkWidth() {
     var windowsize = $window.width();
 
-    if (windowsize >= 1010) {
+    if (windowsize >= 1024) {
 
 
 
@@ -77,7 +77,7 @@ $(document).ready(function() {
 
     }
 
-    else if(windowsize < 1010) {
+    else if(windowsize < 1024) {
 
       $('.perks-icon1').css('opacity','1');
       $('#perks-copy1').css('opacity','1');
