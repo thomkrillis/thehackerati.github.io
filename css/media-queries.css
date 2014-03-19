@@ -267,11 +267,12 @@ MEDIA QUERIES
     }
 
     .section3 .content-container {
-        padding-top: 5%;
+        padding-top: 7em;
     }
 
     .content-container {
         width: 75%;
+        padding-top: 10%;
     }
 
     .block-mobile {
@@ -745,7 +746,7 @@ MEDIA QUERIES
     }
     
     .careers-page .section2 .content-container { 
-        padding-top: 5em; 
+        padding-top: 7em; 
         padding-bottom: 0em; 
     }
     

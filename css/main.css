@@ -1198,7 +1198,7 @@ a.spin-active {
 
 .how-content {
     position:relative;
-    padding-top: 5%;
+    padding-top: 6em;
     padding-bottom: 5%;
     width: 80%;
     margin: 0 auto;
@@ -1407,7 +1407,7 @@ body > svg {
 /* BLOCK 5  | CLIENTS */
 
 .clients-container {
-    padding-top: 5%;
+    padding-top: 0;
     padding-bottom: 8%;
     background:#2d2d2d url('../assets/img/bgwhite.png') repeat;
     overflow: hidden;
@@ -1418,6 +1418,7 @@ body > svg {
 .clients-content {
     width: 80%;
     margin: 0 auto;
+    padding-top: 6em;
 }
 
 .clients-content h1 {
@@ -1526,7 +1527,7 @@ body > svg {
 
 .clients-info{
     width: 100%;
-    min-height: 36em;
+    min-height: 36.1em;
     display: none;
     position:absolute;
     z-index: 8;
@@ -1710,12 +1711,13 @@ body > svg {
 
 .contact-bg-overlay {
     height: 100%;
+    padding-top: 2em;
 }
 
 #contact-content {
     position: relative;
     margin: 0px auto 0 auto;
-    padding-top: 5%;
+    padding-top: 3em;
     padding-bottom: 5%;
     width: 80%;
     height: 100%;
@@ -1740,7 +1742,7 @@ body > svg {
 #google-maps-wrapper {
     position: absolute;
     left: 50%;
-    top: 10em;
+    top: 7.25em;
     width: 100%;
     height: 33em;
     margin-left: -240%;
@@ -1750,12 +1752,6 @@ body > svg {
     -ms-border-radius: 8px;
     -o-border-radius: 8px;
     border-radius: 8px;
-    -webkit-transform: translateX(0deg) translateY(0deg) translateZ(deg0);
-    -webkit-transition: margin-left .5s ease-in-out;
-    -moz-transition: margin-left .5s ease-in-out;
-    -ms-transition: margin-left .5s ease-in-out;
-    -o-transition: margin-left .5s ease-in-out;
-    transition: margin-left .5s ease-in-out;
     border-top-width: 0px;
     border-right-width: 0px;
     border-bottom-width: 0px;
