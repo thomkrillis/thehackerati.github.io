@@ -43,7 +43,7 @@
 .sb-slidebar a {
 	color: #f2f2f2; /* Link colour. */
 	text-decoration: none;
-	font: 1.5em/100% 'inconsolatamedium';
+	font: 1.5em/100% 'din-lightregular';
 }
 
 .sb-slidebar a:hover {
@@ -53,7 +53,7 @@
 
 a.sitemap-sub:link {
 	color: #4CA0D3;
-	font: 1.3em/100% 'inconsolatamedium';
+	font: 1.3em/100% 'din-lightregular';
 }
 
 a.sitemap-sub:visited {
@@ -62,7 +62,7 @@ a.sitemap-sub:visited {
 
 a.sitemap-cat:link {
 	color: #EC6314;
-	font: 1.5em/100% 'inconsolatamedium';
+	font: 1.5em/100% 'din-lightregular';
 }
 
 a.sitemap-cat:visited {
@@ -70,7 +70,7 @@ a.sitemap-cat:visited {
 }
 
 .sb-social a {
-	font: 1.5em/100% 'inconsolatamedium';
+	font: 1.5em/100% 'din-lightregular';
 }
 
 .sb-social a:hover {

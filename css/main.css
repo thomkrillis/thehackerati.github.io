@@ -25,6 +25,39 @@ FONTS
 
 }
 
+@font-face {
+    font-family: 'din-lightregular';
+    src: url('../assets/fonts/DIN-light/dinl____-webfont.eot');
+    src: url('../assets/fonts/DIN-light/dinl____-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../assets/fonts/DIN-light/dinl____-webfont.woff') format('woff'),
+         url('../assets/fonts/DIN-light/dinl____-webfont.ttf') format('truetype'),
+         url('../assets/fonts/DIN-light/dinl____-webfont.svg#din-lightregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'din-regularregular';
+    src: url('../assets/fonts/DIN-regular/dinr____-webfont.eot');
+    src: url('../assets/fonts/DIN-regular/dinr____-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../assets/fonts/DIN-regular/dinr____-webfont.woff') format('woff'),
+         url('../assets/fonts/DIN-regular/dinr____-webfont.ttf') format('truetype'),
+         url('../assets/fonts/DIN-regular/dinr____-webfont.svg#din-regularregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'HelveticaRegular';
+    src: url('../assets/fonts/Helvetica/helvetica.eot');
+    src: url('../assets/fonts/Helvetica/helvetica.eot') format('embedded-opentype'),
+         url('../assets/fonts/Helvetica/helvetica.woff') format('woff'),
+         url('../assets/fonts/Helvetica/helvetica.ttf') format('truetype'),
+         url('../assets/fonts/Helvetica/helvetica.svg#HelveticaRegular') format('svg');
+}
+
 /*
 ====================================================== 
 GENERAL 
@@ -41,13 +74,14 @@ body {
 }
 
 p {
-    font-family: 'inconsolatamedium';
+    font-family: 'din-regularregular';
 }
 
 h1 {
-    font: 3.25em/100% 'inconsolatamedium';
+    font: 3.25em/100% 'HelveticaRegular';
     text-align: center;
     margin-bottom: .5em;
+    margin-top: .2em;
     border-bottom: 1px dotted #808080;
     text-shadow: rgba(0, 0, 0, 0.5) -1px 0, 
     rgba(0, 0, 0, 0.3) 0 -1px, 
@@ -57,7 +91,7 @@ h1 {
 }
 
 h2 {
-    font: 3.5em 'inconsolatamedium';
+    font: 3.5em 'HelveticaRegular';
     text-shadow: rgba(0, 0, 0, 0.5) -1px 0, 
     rgba(0, 0, 0, 0.3) 0 -1px, 
     rgba(255, 255, 255, 0.5) 0 1px, 
@@ -69,17 +103,21 @@ h2 {
 }
 
 h3 {
-    font: 1.2em/100% 'inconsolatamedium';
+    font: 1.2em/100% 'HelveticaRegular';
+    text-shadow: rgba(0, 0, 0, 0.0) -1px 0, 
+                 rgba(0, 0, 0, 0.0) 0 -1px, 
+                 rgba(255, 255, 255, 0.3) 0 1px, 
+                 rgba(0, 0, 0, 0.1) -1px -1px;
 }
 
 h4 {
-    font: 2.0em/100% 'inconsolatamedium';
+    font: 2.0em/100% 'HelveticaRegular';
     margin: 0 0 0.7em 0;
     color: #f4f4f4;
 }
 
 a {
-    font-family: 'inconsolatamedium';
+    font-family: 'din-regularregular';
     text-decoration: none;
 }
 
@@ -170,7 +208,7 @@ li {
 .section1-content-container {
     margin-left: auto;
     margin-right: auto;
-    margin-top: 15%;
+    margin-top: 7%;
     position: relative;
     padding: 2%;
     font-size: 18px;
@@ -183,7 +221,7 @@ li {
 }
 
 .section p {
-    font: 1.3em/130% 'inconsolatamedium';
+    font: 1.15em/150% 'din-regularregular';
     margin: 0.3em 0 1.3em 0;
 }
 
@@ -208,12 +246,12 @@ li {
 
 .section1 p {
     text-align: left; 
-    font: 1.2em/130% 'inconsolatamedium';
+    font: 1.2em/150% 'din-lightregular';
     margin: 0;
 }
 
 .section1 h3 {
-    font: 1.5em/100% 'inconsolatamedium';
+    font: 1.5em/100% 'din-regularregular';
     margin: 0 0 .5em 0;
     padding: 0 0 .5em 0;
     color: #BFB6AA;
@@ -270,7 +308,7 @@ li {
 
 .splash-container {
     width: 100%;
-    min-height: 57em;
+    min-height: 51em;
     display: inline-block;
     position:relative;
 }
@@ -399,6 +437,7 @@ HEADER
 .content-container .nav-links a:link {
     text-decoration: none;
     color: #f4f4f4;
+    font: 1em/100% 'HelveticaRegular';
 }
 
 .content-container .nav-links a:active {
@@ -504,7 +543,7 @@ HOME PAGE
 #terminal-block-title {
     display: inline;
     font-size: 5.0em;
-    font-family: 'inconsolatamedium';
+    font-family: 'HelveticaRegular';
     color: #f4f4f4;
 }
 
@@ -516,7 +555,7 @@ HOME PAGE
 }
 
 .related-words-terminal {
-    font: 1.2em/120% 'inconsolatamedium',sans-serif;
+    font: 1.2em/120% 'din-lightregular',sans-serif;
     color: rgb(236, 99, 20);
     margin-top: 3%;
     width: 98%;
@@ -525,7 +564,7 @@ HOME PAGE
 }
 
 #phonetic {
-    font: 1.2em/140% 'inconsolatamedium';
+    font: 1.2em/140% 'HelveticaRegular';
     color: #f4f4f4;
     font-style: italic;
     letter-spacing: 0;
@@ -536,7 +575,7 @@ li.definitions {
 }
 
 .definitions {
-    font: 1.5em/130% 'inconsolatamedium';
+    font: 1.5em/130% 'din-lightregular';
     margin-bottom: 1%;
 }
 
@@ -634,8 +673,6 @@ li.definitions {
 .who-container {
     background: #2d2d2d url('../assets/img/bgwhite.png') repeat;
     overflow: hidden;
-    -webkit-box-shadow: inset 0px -8px 29px 10px rgba(0, 0, 0, .1);
-    box-shadow: inset 0px -8px 29px 0px rgba(0, 0, 0, .1);
 }
 
 .who-content {
@@ -655,7 +692,7 @@ li.definitions {
 #how h1 {
     margin-bottom: 0.5%;
     font-size: 2.5em;
-    font: 4.3em/100% 'inconsolatamedium';
+    font: 4.3em/100% 'HelveticaRegular';
     display: inline-block;
     padding-bottom: 0px;
     border-bottom: 0px;
@@ -666,7 +703,7 @@ li.definitions {
 #who-title h2 {
     margin-bottom: 0px;
     font-size: 1.8em;
-    font: 2.7em/100% 'inconsolatamedium';
+    font: 2.7em/100% 'HelveticaRegular';
     padding-bottom: 0px;
     border-bottom: 0px;
     text-align: left;
@@ -678,7 +715,7 @@ li.definitions {
     border-left: 1px solid #CCC;
     margin-left: 1%;
     width: 45%;
-    font: 1.1em/120% 'inconsolatamedium';
+    font: 1.15em/150% 'inconsolatamedium';
 }
 
 #wrapper-columns {
@@ -690,14 +727,24 @@ li.definitions {
 #wrapper-columns h2 {
     margin-bottom: 3%;
     font-size: 1.3em;
-    font: 1.3em/100% 'inconsolatamedium';
+    font: 1.3em/100% 'din-regularregular';
     padding-bottom: 0px;
     border-bottom: 0px;
     text-align: center;
     text-shadow: 0px 0px 0px #000;
 }
 
-.column-1 {
+#wrapper-columns h2 a {
+    font: 1.0em/100% 'din-regularregular';
+    text-shadow: rgba(0, 0, 0, 0.2) -1px 0, 
+                 rgba(0, 0, 0, 0.1) 0 -1px, 
+                 rgba(255, 255, 255, 0.5) 0 1px, 
+                 rgba(0, 0, 0, 0.1) -1px -1px;
+}
+
+.column-1,
+.column-2,
+.column-3 {
     float:left;
     width: 31%;
     height: auto;
@@ -705,31 +752,15 @@ li.definitions {
     -moz-transition: all 0.2s ease;
     -o-transition: all 0.2s ease;
     -ms-transition: all 0.2s ease;
-    font: 1.1em/120% 'inconsolatamedium';
+    font: 1.15em/150% 'din-regularregular';
 }
 
 .column-2{
-    float: left;
     margin-left: 3%;
-    width: 31%;
-    height: auto;
-    -webkit-transition: all 0.2s ease;
-    -moz-transition: all 0.2s ease;
-    -o-transition: all 0.2s ease;
-    -ms-transition: all 0.2s ease;
-    font: 1.1em/120% 'inconsolatamedium';
 }
 
 .column-3 {
-    float: left;
     margin-left: 3%;
-    width: 31%;
-    height: auto;
-    -webkit-transition: all 0.2s ease;
-    -moz-transition: all 0.2s ease;
-    -o-transition: all 0.2s ease;
-    -ms-transition: all 0.2s ease;
-    font: 1.1em/120% 'inconsolatamedium';
 }
 
 .column-1 li, 
@@ -779,6 +810,7 @@ li.definitions {
 #wrapper-columns {
     display: table;
     clear: both;
+    max-width: 980px;
 }
 
 .rollover {
@@ -1166,14 +1198,14 @@ a.spin-active {
 
 .how-content {
     position:relative;
-    padding-top: 5%;
+    padding-top: 6em;
     padding-bottom: 5%;
     width: 80%;
     margin: 0 auto;
 }
 
 .how-content p {
-    font: 1.15em/120% 'inconsolatamedium';
+    font: 1.15em/150% 'din-regularregular';
 }
 
 .how-content .block-left{
@@ -1181,7 +1213,7 @@ a.spin-active {
 }
 
 #how h1 {
-    font: 3em/100% 'inconsolatamedium';
+    font: 3.5em/100% 'HelveticaRegular';
 }
 
 
@@ -1375,7 +1407,7 @@ body > svg {
 /* BLOCK 5  | CLIENTS */
 
 .clients-container {
-    padding-top: 5%;
+    padding-top: 0;
     padding-bottom: 8%;
     background:#2d2d2d url('../assets/img/bgwhite.png') repeat;
     overflow: hidden;
@@ -1386,6 +1418,7 @@ body > svg {
 .clients-content {
     width: 80%;
     margin: 0 auto;
+    padding-top: 6em;
 }
 
 .clients-content h1 {
@@ -1402,7 +1435,7 @@ body > svg {
     padding: .5em 0 .3em 0;
     text-align:center;
     color:white;
-    font: 2.0em/100% 'inconsolatamedium';
+    font: 2.2em/100% 'HelveticaRegular';
     width: 100%;
 }
 
@@ -1494,16 +1527,21 @@ body > svg {
 
 .clients-info{
     width: 100%;
-    min-height: 36em;
+    min-height: 36.1em;
     display: none;
     position:absolute;
     z-index: 8;
 }
 
 .clients-tools,
-.clients-description,
-.clients-resources{
+.clients-description {
     width: 95%;
+    margin-left: auto;
+    margin-right:auto;
+}
+
+.clients-resources {
+    width: 86%;
     margin-left: auto;
     margin-right:auto;
 }
@@ -1530,10 +1568,16 @@ body > svg {
     height: auto;
     color: white;
     text-align: center;
-    font: 1.1em/100% 'inconsolatamedium';
+    font: 1.1em/140% 'inconsolatamedium';
     float: left;
     padding: 0;
     margin: 0 auto;
+}
+
+.clients-resources .clients-icon p {
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 .clients-tools .clients-icon {
@@ -1542,7 +1586,7 @@ body > svg {
     height: auto;
     color: white;
     text-align: center;
-    font: 1.1em/100% 'inconsolatamedium';
+    font: 1.1em/130% 'inconsolatamedium';
     float: left;
     padding: 0;
     margin: 0 auto;
@@ -1564,7 +1608,7 @@ body > svg {
 .clients-description p {
     padding: 3% 4%;
     color: white;
-    font: 1.2em/110% 'inconsolatamedium';
+    font: 1.2em/130% 'din-lightregular';
     margin: 0 auto;
 }
 
@@ -1589,18 +1633,19 @@ body > svg {
     top: 15%;
     left: 23%;
     text-align: center;
-    font: 1.8em/100% 'inconsolatamedium';
+    font: 1.8em/120% 'HelveticaRegular';
 }
 
 .clients-box p {
     position: absolute;
-    width: 55%;
+    width: 60%;
     padding-bottom: 0%;
     margin-bottom:2%;
-    bottom: 8px;
-    left: 23%;
+    bottom: 12px;
+    left: 21%;
     text-align: center;
-    font: 1.0em/100% 'inconsolatamedium';
+    font: 0.9em/120% 'din-lightregular';
+    color: #fff;
 }
 
 .conveyor {
@@ -1666,12 +1711,13 @@ body > svg {
 
 .contact-bg-overlay {
     height: 100%;
+    padding-top: 2em;
 }
 
 #contact-content {
     position: relative;
     margin: 0px auto 0 auto;
-    padding-top: 5%;
+    padding-top: 3em;
     padding-bottom: 5%;
     width: 80%;
     height: 100%;
@@ -1689,14 +1735,14 @@ body > svg {
     border-bottom: 0;
     color: white;
     float: left;
-    font: 3em/100% 'inconsolatamedium';
-    width: auto;
+    font: 3.5em/100% 'HelveticaRegular';
+    width: 100%;
 }
 
 #google-maps-wrapper {
     position: absolute;
     left: 50%;
-    top: 10em;
+    top: 7.25em;
     width: 100%;
     height: 33em;
     margin-left: -240%;
@@ -1706,12 +1752,6 @@ body > svg {
     -ms-border-radius: 8px;
     -o-border-radius: 8px;
     border-radius: 8px;
-    -webkit-transform: translateX(0deg) translateY(0deg) translateZ(deg0);
-    -webkit-transition: margin-left .5s ease-in-out;
-    -moz-transition: margin-left .5s ease-in-out;
-    -ms-transition: margin-left .5s ease-in-out;
-    -o-transition: margin-left .5s ease-in-out;
-    transition: margin-left .5s ease-in-out;
     border-top-width: 0px;
     border-right-width: 0px;
     border-bottom-width: 0px;
@@ -1739,11 +1779,15 @@ a#google-maps-wrapper{
 }
 
 #google-maps-wrapper p{
-    font-size: 14px;
+    font: 1em/150% 'din-regularregular';
 }
 
 #google-maps-wrapper h2{
     font-size:24px;
+}
+
+#google-maps-wrapper img {
+    margin-bottom: 15px;
 }
 
 #contact-content .gray-border {
@@ -2069,16 +2113,6 @@ ABOUT PAGE
 
 /*
 ====================================================== 
-ACADEMY PAGE 
-======================================================
-*/
-
-.academy-page .section1 p {
-    font: 1.3em/120% 'inconsolatamedium';
-}
-
-/*
-====================================================== 
 CAREERS PAGE 
 ======================================================
 */
@@ -2122,6 +2156,10 @@ CAREERS PAGE
     box-shadow: 0px 0px 29px -2px rgba(0,0,0,0.76);
 }
 
+.academy-page > .section2 {
+    padding-bottom: 5em;
+}
+
 .careers-page .section2 .content-container {
     padding-top: 7em;
     padding-bottom: 7em;
@@ -2130,13 +2168,13 @@ CAREERS PAGE
 }
 
 .careers-page .section2 .content-container p {
-    font: 1.7em/120% 'inconsolatamedium';
+    font: 1.9em/120% 'HelveticaRegular';
     color: #f4f4f4;
 }
 
 .careers-page .section1 p {
-    margin: 0.5em 0 0 0;
-    font: 1.2em/130% 'inconsolatamedium';
+    margin: 0 0 0.5em 0;
+    font: 1.2em/130% 'din-lightregular';
 }
 
 .careers-page .section1-content-container {
@@ -2244,7 +2282,7 @@ CAREERS PAGE
 
 .guild-copy {
     margin: 1em 0 1em 8%;
-    font: 1.3em/120% 'inconsolatamedium';
+    font: 1.3em/150% 'din-regularregular';
     width: 44%;
     float: left;
 }
@@ -2255,7 +2293,7 @@ CAREERS PAGE
 }
 
 .guild-copy p {
-    font: 1.0em/130% 'inconsolatamedium';
+    font: 1.0em/150% 'din-regularregular';
 }
 
 .guild-shield {
@@ -2362,7 +2400,7 @@ CAREERS PAGE
 
 .perks-copy li {
     list-style-type: disc;
-    font: 1.3em/150% 'inconsolatamedium';
+    font: 1.3em/150% 'din-regularregular';
 }
 
 #perks-copy1 {
@@ -2479,7 +2517,7 @@ footer p {
 .sitemap a:link {
     color: #EC6314;
     text-align: left;
-    font: 1.5em/100% 'inconsolatamedium';
+    font: 1.5em/100% 'HelveticaRegular';
 }
 
 .sitemap a:visited {
@@ -2493,7 +2531,7 @@ footer p {
 .sitemap ul a:link {
     color: #4CA0D3;
     list-style: none;
-    font: 1.3em/100% 'inconsolatamedium';
+    font: 1.3em/100% 'din-regularregular';
 }
 
 .sitemap ul a:visited {
