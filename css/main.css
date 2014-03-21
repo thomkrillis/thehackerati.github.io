@@ -2303,7 +2303,28 @@ CAREERS PAGE
 }
 
 .guild-list {
+    margin-left: auto;
+    margin-right: auto;
+    height: 4.5em;
+    width: 15.1em;
+}
+
+.guild-titles {
+    float: left;
+    text-align: left;
+    width: auto;
+}
+
+.equals-signs {
+    float: left;
     text-align: center;
+    width: 100px;
+}
+
+.guild-translations {
+    float: left;
+    text-align: left;
+    width: auto;
 }
     
 /* PERKS */
