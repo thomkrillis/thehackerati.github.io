@@ -1771,7 +1771,12 @@ MEDIA QUERIES
     }
 
     .perks-copy {
-        left: 17px;
+        left: 27px;
+        width: 90%;
+    }
+
+    .careers-page .section3 .content-container {
+        width: 90%;
     }
     
     /*
