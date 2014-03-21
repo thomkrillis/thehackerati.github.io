@@ -1775,8 +1775,16 @@ MEDIA QUERIES
     }
 
     .perks-icon {
-        width: 293px;
-        height: 20.9em;
+        width: 280px;
+        height: 20em;
+    }
+
+    .equals-signs {
+        width: 80px;
+    }
+
+    .guild-list {
+        width: 13.9em;
     }
     
     /*
