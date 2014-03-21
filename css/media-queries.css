@@ -352,7 +352,7 @@ MEDIA QUERIES
     /* SECTION 1 */
 
     .welcome-container { 
-        padding-top: 100px; 
+        padding-top: 3em; 
     }
 
     .welcome-container .nav-links { 
