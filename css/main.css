@@ -519,15 +519,11 @@ HOME PAGE
     margin: 0 auto;
 }
 
-#terminal-window  {
+.terminal-window  {
     color: rgb(244, 244, 244);
 }
 
-.terminal-buttons .contact-us {
-    margin-left: 1em;
-}
-
-#terminal-window a {
+.terminal-window a {
     letter-spacing:0px;
     font-size: 1.2em;
     padding:6px 13px;
@@ -536,15 +532,15 @@ HOME PAGE
     background:rgba(255,255,255,0.5);
 }
 
-#terminal-window a:hover {
+.terminal-window a:hover {
     background:rgba(241,102,29,1);
 }
 
-#terminal-block-title {
-    display: inline;
+.terminal-block-title {
     font-size: 5.0em;
     font-family: 'HelveticaRegular';
     color: #f4f4f4;
+    margin: 0.7em 0;
 }
 
 #terminal-block-subtitle {
@@ -563,7 +559,11 @@ HOME PAGE
     text-align: left;
 }
 
-#phonetic {
+#see-also {
+    margin-top: 2em;
+}
+
+.phonetic {
     font: 1.2em/140% 'HelveticaRegular';
     color: #f4f4f4;
     font-style: italic;
@@ -571,7 +571,7 @@ HOME PAGE
 }
 
 li.definitions {
-    list-style: decimal;
+    list-style: none;
 }
 
 .definitions {
@@ -581,22 +581,25 @@ li.definitions {
 
 #def-1 {
     margin-top: 2%;
-    margin-left: 5%;
+    margin-left: 0;
 }
 
 #def-2 {
-    margin-left: 5%;
+    margin-left: 0;
 }
 
 .terminal-buttons {
     margin-top: 7%;
     left: 30px;
     position: relative;
-    width: 476px;
+    width: 680px;
+}
+
+.terminal-buttons a {
+    margin-right: 1em;
 }
 
 #typewriter {
-    margin-top:5%;
     clear: both;
     height: auto;
     font-family:'inconsolatamedium';
@@ -615,7 +618,7 @@ li.definitions {
 
 #type-command-one p {
     text-align: left;
-    color:white;
+    color: #ec6314;
     margin: 0px;
 }
 
@@ -646,7 +649,7 @@ li.definitions {
 
 #type-command-three p {
     text-align: left;
-    color:white;
+    color: #ec6314;
     margin: 0px;
 }
 
