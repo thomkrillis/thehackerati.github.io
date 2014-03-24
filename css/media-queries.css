@@ -395,7 +395,7 @@ MEDIA QUERIES
         width: 100%; 
     }
 
-    #terminal-window a {
+    .terminal-window a {
         font-size: 1.2em; 
         padding: 15px 18px; 
         margin-left: 3%; 
@@ -950,7 +950,7 @@ MEDIA QUERIES
 
     .terminal-buttons { 
         left: 0; 
-        text-align: center; 
+        text-align: left; 
         width: 100%; 
     }
 
@@ -958,9 +958,10 @@ MEDIA QUERIES
 
     .welcome-content { 
         width: 75%; 
+        margin-top: 2em;
     }
 
-    #terminal-block-title { 
+    .terminal-block-title { 
         font-size: 4.0em; 
     }
 
@@ -968,9 +969,13 @@ MEDIA QUERIES
         margin-top: 3em; 
     }
 
-    #terminal-window a {
+    .terminal-window a {
         font-size: 1.2em; 
-        padding: 15px 18px; 
+        padding: 6px 13px;
+        display: inline-block; 
+        margin-bottom: 1.5em;
+        float: none;
+        margin-left: 0;
     }
 
     /* SECTION 2 */
@@ -1603,7 +1608,7 @@ MEDIA QUERIES
         width: 86%; 
     }
 
-    #terminal-block-title {
+    .terminal-block-title {
         font-size: 2.9em; 
     }
 
@@ -1771,7 +1776,12 @@ MEDIA QUERIES
     }
 
     .perks-copy {
-        left: 17px;
+        left: 27px;
+        width: 90%;
+    }
+
+    .careers-page .section3 .content-container {
+        width: 90%;
     }
     
     /*
