@@ -1,6 +1,6 @@
 ---
-post_author: Michael Ketigian
-post_gravatar: 25bca2a4802e8db7325c0907494ae203
+post_author: Alex Krupp
+post_gravatar: c22b31aaaf01e8126d671fcd4c219dcc
 layout: blog
 comments: true
 tags: [this, that, the, other]
