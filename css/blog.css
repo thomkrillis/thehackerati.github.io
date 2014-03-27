@@ -142,7 +142,10 @@ nav a:visited {
 }
 
 .terminal-body {
+    position: relative;
     width: 100%;
+    height: 254px;
+    overflow: hidden;
     background-image: url('../assets/img/bgwhite.png');
     padding-bottom: 10px;
     -webkit-border-radius: 0px 0px 5px 5px;
@@ -151,6 +154,21 @@ nav a:visited {
     -o-border-radius: 0px 0px 5px 5px;
     border-radius: 0px 0px 5px 5px;
     font: 1em/100% 'din-regularregular';
+    transition: height 0.2s linear;
+}
+
+.expand-archive {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding: 3px 5px;
+    background-color: #0078d3;
+    -webkit-border-radius: 5px 0px 0px 0px;
+    -moz-border-radius: 5px 0px 0px 0px;
+    -ms-border-radius: 5px 0px 0px 0px;
+    -o-border-radius: 5px 0px 0px 0px;
+    border-radius: 5px 0px 0px 0px;
+    color: #f4f4f4;
 }
 
 .terminal-body a:link {
