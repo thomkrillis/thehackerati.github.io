@@ -1,0 +1,66 @@
+{% include blog_head.html %}
+
+<div class="blog-content">
+
+    <header>
+      <h1>&#123;<a href="/blog">Bit Shift</a>&#125;</h1>
+      <span class="blog-sub-title">a blog maintained by <a href="/">The Hackerati</a></span>
+      <nav>
+        <ul>
+          <li><a href="/blog">Home</a> / </li>
+          <li> Tech / </li>
+          <li> Entrepreneurship / </li>
+          <li> Culture</li>
+        </ul>
+      <div class="clearfix"></div>
+      </nav>
+    </header>
+    <main>
+        <div class="blog-left-column">
+            <div class="terminal-menu-bar">
+                <div class="menu-bar-button"></div>
+                <div class="menu-bar-button"></div>
+                <div class="menu-bar-button"></div>
+                <div class="clearfix"></div>
+            </div>
+            <div class="terminal-body">
+                <ul>
+                    <li class="term-user">user@home:~ $ <p class="cursor-blink">_</p></li>            
+                    {% for post in site.posts %}
+        
+                       <li>{{ post.post_author }}:~ $ <a href="{{ post.url }}">{{ post.title }}</a></li>
+                    
+                    {% endfor %}
+                </ul>
+            </div>
+            <div class="blogroll">
+                <h5>Blogroll</h5>
+                <div class="blogroll-box">
+                    <a href="http://googledevelopers.blogspot.com/"><img src='../assets/img/googleicon128.png' /></a>
+                </div>
+                <div class="blogroll-box">
+                    <a href="http://sethgodin.typepad.com/"><img src='../assets/img/sethsblog.png' /></a>
+                </div>
+                <div class="blogroll-box">
+                    <a href="https://news.ycombinator.com/"><img src='../assets/img/ycomb.png' /></a>
+                </div>            
+                <div class="blogroll-box">
+                    <a href="https://blog.twitter.com/developer"><img src='../assets/img/twittericon128.png' /></a>
+                </div>            
+                <div class="blogroll-box">
+                    <a href="http://alexkrupp.typepad.com/"><img src='../assets/img/krupp128.png' /></a>
+                </div>
+                <div class="blogroll-box">
+                    <a href="http://dailyjs.com/"><img src='../assets/img/dailyjs128.png' /></a>
+                </div>                
+            </div>
+        </div>
+         
+        <div class="blog-right-column content">
+            {{ content }}
+        </div>
+        <div class="clearfix"></div>
+    </div>
+    </main>
+    {% include footer.html %}
+{% include closing-tags.html %}
