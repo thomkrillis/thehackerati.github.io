@@ -227,6 +227,43 @@ nav a:visited {
     max-width: 100%;
 }
 
+.projects-in-progress {
+    width: 100%;
+    margin-top: 15px;
+    background-image: url('../assets/img/bgwhite.png');
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    border-radius: 5px;
+    text-align: left:
+}
+
+.projects-in-progress h5 {
+    width: 100%;
+    margin: 10px;
+    font: 1.2em/150% 'din-regularregular' sans-serif;
+    text-align: center;
+}
+
+.projects-box {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    margin: 5%;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.projects-box img {
+    max-width: 100%;
+}
+
 .blog-right-column {
     display: inline-block;
     width: 60%;
