@@ -69,7 +69,6 @@ li {
 .blog-sub-title a:link {
     color: #ec6314;
 }
-
 .blog-sub-title a:visited {
     color: #ec6314;
 }
@@ -332,6 +331,25 @@ nav a:visited {
     color: #0078d3;
 }
 
+.pagination {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 2em;
+    font: 0.8em/100% 'din-regularregular';
+    color: #1c1c1c;
+}
+
+.pagination a {
+    margin: 0 5px;
+}
+
+.pagination a:link {
+    color: #0078d3;
+}
+
+.pagination a:visited {
+    color: #0078d3;
+}
 
 /*
 ====================================================== 
