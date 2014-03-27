@@ -7,9 +7,9 @@
       <span class="blog-sub-title">a blog maintained by <a href="/">The Hackerati</a></span>
       <nav>
         <ul>
-          <li><a href="http://thehackerati.com/blog">Home</a> / </li>
-          <li> Code / </li>
-          <li> Design / </li>
+          <li><a href="/blog">Home</a> / </li>
+          <li> Tech / </li>
+          <li> Entrepreneurship / </li>
           <li> Culture</li>
         </ul>
       <div class="clearfix"></div>
@@ -28,13 +28,13 @@
                     <li class="term-user">user@home:~ $ <p class="cursor-blink">_</p></li>            
                     {% for post in site.posts %}
         
-                       <li>{{ post.post_author }}$ <a href="{{ post.url }}">{{ post.title }}</a></li>
+                       <li>{{ post.post_author }}:~ $ <a href="{{ post.url }}">{{ post.title }}</a></li>
                     
                     {% endfor %}
                 </ul>
             </div>
             <div class="blogroll">
-                <h4>Blogroll</h4>
+                <h5>Blogroll</h5>
                 <div class="blogroll-box">
                     <a href="http://googledevelopers.blogspot.com/"><img src='../assets/img/googleicon128.png' /></a>
                 </div>
@@ -44,6 +44,15 @@
                 <div class="blogroll-box">
                     <a href="https://news.ycombinator.com/"><img src='../assets/img/ycomb.png' /></a>
                 </div>            
+                <div class="blogroll-box">
+                    <a href="https://blog.twitter.com/developer"><img src='../assets/img/twittericon128.png' /></a>
+                </div>            
+                <div class="blogroll-box">
+                    <a href="http://alexkrupp.typepad.com/"><img src='../assets/img/krupp128.png' /></a>
+                </div>
+                <div class="blogroll-box">
+                    <a href="http://dailyjs.com/"><img src='../assets/img/dailyjs128.png' /></a>
+                </div>                
             </div>
         </div>
          
