@@ -4,6 +4,7 @@ pygments: true
 name: The Hackerati
 description: website for The Hackerati
 url: http://thehackerati.com
+paginate: 5
 #gems: [tag_gen]
 
 # Settings for sharing 
