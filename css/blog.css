@@ -14,7 +14,7 @@ header {
   margin-bottom: 3.5em;
 }
 
-h1 {  
+.header-block h1 {  
     display: inline;
     width: 100%;
     font: 7em/100% 'Exo 2' sans-serif;
