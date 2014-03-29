@@ -1,28 +1,30 @@
 body {
     line-height: 18px;
     position: relative;
-    width: 85%;
+    width: 60%;
     max-width: 1100px;
     margin: 0 auto;
+    margin-bottom: 3em;
     padding-top: 3em;
     background-image: url('../../../../assets/img/bgwhite.png');
-    margin-bottom: 3em;
 }
 
 h1 {
-    font: 4em/100% Helvetica;
-    text-align: center;
-    color: #2c2c2c;
+    text-align: center;    
+    font: 2.6em/100% Helvetica;
+    font-weight: 900;
+    color: #0078d3;
 }
 
 p {
-    font: 1.2em/100% Helvetica;
+    font: 1.2em/130% Helvetica;
     font-size: 1.2em;
     color: #2c2c2c;
 }
 
 li {
     color: #2c2c2c;
+    margin-left: 40px;
 }
 
 pre {
@@ -37,7 +39,7 @@ pre {
 
 .post-author {
     text-align: center;
-    color: #2c2c2c;
+    color: #ec6314;
     margin-bottom: 2em;
 }
 
