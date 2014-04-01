@@ -43,6 +43,17 @@ pre {
     margin-bottom: 2em;
 }
 
+.blue-h-logo-blog {
+    position: fixed;
+    bottom: 30px;
+    left: 5%;
+    height: 75px;
+}
+
+.blue-h-logo-blog img {
+    max-height: 100%;
+}
+
 #feedback {
     position: fixed;
     bottom: 0;
