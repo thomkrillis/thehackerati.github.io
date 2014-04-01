@@ -1,28 +1,28 @@
 body {
     line-height: 18px;
     position: relative;
-    width: 60%;
+    width: 50%;
     max-width: 1100px;
     margin: 0 auto;
     margin-bottom: 3em;
     padding-top: 3em;
-    background-image: url('../../../../assets/img/bgwhite.png');
+    background-color: #f4f4f4;
 }
 
 h1 {
     text-align: center;    
-    font: 2.6em/100% Helvetica;
-    font-weight: 900;
+    font: 5.3em/100% 'Exo 2' sans-serif;
+    font-weight: 500;
     color: #0078d3;
 }
 
 p {
-    font: 1.2em/130% Helvetica;
-    font-size: 1.2em;
+    font: 1.5em/180% georgia serif;
     color: #2c2c2c;
 }
 
 li {
+    font: 1.5em/180% georgia serif;
     color: #2c2c2c;
     margin-left: 40px;
 }
@@ -62,7 +62,6 @@ pre {
     -moz-border-radius: 5px 5px 0px 0px;
     -o-border-radius: 5px 5px 0px 0px;
     -ms-border-radius: 5px 5px 0px 0px;
-    background-image: url('../../../../assets/img/bgwhite.png');
 }
 
 .post-share li{
@@ -104,7 +103,6 @@ pre {
 /* COMMENTS */
 
 #disqus_thread {
-    background-image: url('../../../../assets/img/bgwhite.png');
     padding: 20px;
     border-radius: 0px 0px 5px 5px;
     -webkit-border-radius: 0px 0px 5px 5px;
