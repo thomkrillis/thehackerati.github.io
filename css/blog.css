@@ -343,7 +343,12 @@ nav a:visited {
     color: #0078d3;
 }
 
-.entry-summary p{
+.entry-summary p {
+    font: 1.1em/120% 'din-regularregular';
+    color: #1c1c1c;
+}
+
+.entry-summary {
     font: 1.1em/120% 'din-regularregular';
     color: #1c1c1c;
 }
@@ -596,6 +601,7 @@ FONTAWESOME LIBRARY
 #sb-nav-home .fa-2x {
     color: #fff;
 }
+
 
 /*
 ====================================================== 
