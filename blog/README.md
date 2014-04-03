@@ -1,6 +1,7 @@
 blog
 ====
 
+
 The Hackerati blog and _you_
 
 Step One
