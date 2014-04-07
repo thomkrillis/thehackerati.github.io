@@ -1,19 +1,21 @@
-/********************************************************************
-=====================================================================
-MEDIA QUERIES 
-=====================================================================
-********************************************************************/
+/*
+  orange: #ec6314;
+  blue: #4CA0D3;
+*/
 
-/* BIGGEST DESKTOP
-####################################################################*/
+/*
+MEDIA QUERIES 
+*/
+
+/* 
+BIGGEST DESKTOP
+*/
 
 @media all and (min-width: 1200px) {
 
-    /*
-    ====================================================== 
-    GENERAL 
-    ======================================================
-    */
+/*
+GENERAL 
+*/
 
     .block-mobile {
         display: none; 
@@ -28,25 +30,20 @@ MEDIA QUERIES
     }
 
     /*
-    ====================================================== 
     HEADER 
-    ======================================================
     */
     
     .header-section > .content-container {
         width: 1000px;
     }
 
-    /*
-    ====================================================== 
-    HOME PAGE 
-    ======================================================
-    */
+/*
+HOME PAGE 
+*/
 
     /* SECTION 1 */
 
     .welcome-content {
-        width: 980px; 
     }
 
     /* SECTION 2 */
@@ -242,9 +239,7 @@ MEDIA QUERIES
 @media only screen and (max-width : 1024px) {
 
     /*
-    ====================================================== 
     GENERAL 
-    ======================================================
     */
 
     .mobile {
@@ -294,6 +289,33 @@ MEDIA QUERIES
     ======================================================
     */
 
+    
+
+    .welcome-copy {
+        width: 100%;
+        margin-top: 2em;
+    }
+
+    .welcome-copy h4 {
+        text-align: center;
+    }
+
+    .welcome-copy-second {
+        padding: 0;
+    }
+
+    .type-command-wrapper {
+        display: none;
+    }
+
+    .welcome-image {
+        width: 100%;
+    }
+
+    .welcome-image img {
+        display: none;
+    }   
+
     .logo {
         width: auto;
     }
@@ -309,7 +331,6 @@ MEDIA QUERIES
     }
 
     .header-section {
-        height: 6.5em;
         margin-top: 0;
     }
 
@@ -323,6 +344,7 @@ MEDIA QUERIES
 
     .header-section > .content-container {
         width: 75%;
+        padding-bottom: 0;
     }
 
     nav a { 
@@ -362,11 +384,25 @@ MEDIA QUERIES
 
     .welcome-container .content-container nav { 
         font: 1.8em/100% 'inconsolatamedium'; 
-        margin-top: 5em;    
+        margin-top: 2em;    
         padding-top: 0; 
         padding-bottom: 1.0em;
     }
 
+    .content-container .nav-links a:link {
+        font: 0.8em/100% 'HelveticaRegular';
+        color: #4CA0D3;
+    }
+   
+    .content-container .nav-links a:visited {
+        text-decoration: none;
+        color: #4CA0D3;
+    }
+    
+    .content-container .nav-links a:hover {
+        text-decoration: none;
+        color: #EC6314;
+    }
     .welcome-container nav a {  
         margin-left: 1.0em; 
     }
@@ -389,6 +425,7 @@ MEDIA QUERIES
         left: 0; 
         text-align: center; 
         width: 100%; 
+        margin-top: 5em;
     }
 
     .terminal-window a {
@@ -822,10 +859,25 @@ MEDIA QUERIES
 @media only screen and (max-width : 767px) {
 
     /*
-    ====================================================== 
     GENERAL 
-    ======================================================
     */
+   
+    .welcome-copy-first {
+        margin-bottom: 1em;
+        font: 2.8em/100% 'HelveticaRegular' sans-serif;
+    }
+    
+    .welcome-copy-second {
+        font: 2em/100% 'HelveticaRegular' sans-serif;
+    }
+   
+    .welcome-image {
+        text-align: center;
+    }
+
+    .welcome-image img {
+        display: inline;
+    }
 
     .mobile { 
         display: inline-block;
@@ -952,7 +1004,7 @@ MEDIA QUERIES
 
     .terminal-buttons { 
         left: 0; 
-        text-align: left; 
+        text-align: center; 
         width: 100%; 
     }
 
