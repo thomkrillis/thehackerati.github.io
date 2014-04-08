@@ -35,6 +35,8 @@ Your files must stick to some conventions such as the following:
 
 * If you would like to disable comments on your entry, leave this line out.
 
+* Always include one of the big bucket titles as a tag. This ensures that the buckets filter correctly
+
 * For tags to function correctly, you must build the site locally before making your pull request. After adding your post, run
 
     jekyll build

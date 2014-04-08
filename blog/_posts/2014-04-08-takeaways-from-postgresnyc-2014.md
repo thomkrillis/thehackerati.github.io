@@ -4,7 +4,7 @@ post_author: Alan Johnson
 post_gravatar: 31c7b5855877e79d99ce5ede7a3e2816
 layout: blog_entry
 comments: true
-tags: databases, postgres
+tags: [databases, postgres, tech]
 ---
 
 [My other post]({% post_url 2014-04-08-drinking-the-postgres-kool-aid-and-loving-it %}) discusses on a high level how PostgresNYC 2014 reinforced my belief that it makes a very attractive default choice for the database for most projects. This piece covers some of the specific tools from the presentations and some thoughts.
