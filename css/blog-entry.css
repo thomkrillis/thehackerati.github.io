@@ -60,6 +60,8 @@ a:visited {
 
 .post-author-info {
     height: 4em;
+    margin-top: 2em;
+    margin-left: -2.55em;
 }
 
 .post-gravatar {
@@ -80,7 +82,7 @@ a:visited {
 .blue-h-logo-blog {
     position: fixed;
     bottom: 30px;
-    left: 5%;
+    right: 5%;
     height: 75px;
 }
 
