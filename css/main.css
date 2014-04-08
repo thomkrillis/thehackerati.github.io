@@ -1257,6 +1257,10 @@ body > svg {
     width: 100%;
 }
 
+.huffington-post-h3 {
+    display: none;
+}
+
 .clients-box h3 {
     position: absolute;
     width: 55%;
