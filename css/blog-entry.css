@@ -58,9 +58,22 @@ a:visited {
     color: #0078d3;
 }
 
+.post-author-info {
+    height: 4em;
+}
+
+.post-gravatar {
+    display: inline-block;
+    width: 35px; 
+    border-radius: 45px;
+}
+
 .post-author {
-    text-align: center;
+    display: inline-block;
+    text-align: left;
+    vertical-align: middle;
     color: #ec6314;
+    margin-top: 1em;
     margin-bottom: 2em;
 }
 
