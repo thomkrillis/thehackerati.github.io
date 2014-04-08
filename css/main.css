@@ -607,45 +607,37 @@ HOME PAGE
     margin: 0 auto;
 }
 
-.def-hacker {
-    display: inline-block;
-    width: 50%;
-    padding-left: 5%;
-    padding-bottom: 1em;
+.def-hacker p {
+    margin-bottom: 2em;
 }
 
 .def-hacker h1 {
     text-align: left;
+    margin-bottom: 0;
     padding-bottom: 0;
 }
 
-.def-hackerati {
-    display: inline-block;
-    width: 45%;
-    padding-left: 5%;
-    padding-bottom: 1em;
-    border-left: 1px solid #ec6314;
+.def-hackerati p {
 }
 
 .def-hackerati h1 {
     text-align: left;
+    margin-bottom: 0;
     padding-bottom: 0;
 }
 
 .see-also {
-    position: absolute;
-    left: 48%;
-    top: 47%;
-    width: auto;
-    height: auto;
-    border: 1px solid #ec6314;
-    background-color: #f4f4f4;
-    border-radius: 45px;
+    font: 0.8em/100% 'din-lightregular';
 }
 
 .see-also p {
     margin: 0;
-    padding: 3px 5px;
+}
+
+.def-part-of-speech {
+    font: 1em/100% 'HelveticaRegular' !important;
+    margin-top: 1em !important;
+    margin-bottom: 1em !important;
 }
 
 /* BLOCK 3  | MEET THE HACKERATI */
