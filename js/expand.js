@@ -2,7 +2,7 @@ $(document).ready(function () {
 
   var expanded = false,
     numOfListItems = $('.post-list').children().length,
-    newHeight = 24 * numOfListItems,
+    newHeight = 26 * numOfListItems,
     consoleHeight = $('terminal-body').innerHeight();
 
   if (newHeight >= 253) {
