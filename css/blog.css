@@ -353,6 +353,14 @@ nav a:visited {
     color: #1c1c1c;
 }
 
+.entry-summary a:link {
+    color: #0078d3;
+}
+
+.entry-summary a:visited {
+    color: #0078d3;
+}
+
 .continue-reading {
     font: 0.8em/100% 'din-regularregular';
     color: #0078d3;
