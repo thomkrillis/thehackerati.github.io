@@ -80,21 +80,11 @@ h1 {
     text-align: center;
     margin-bottom: .5em;
     margin-top: .2em;
-    border-bottom: 1px dotted #808080;
-    text-shadow: rgba(0, 0, 0, 0.5) -1px 0, 
-    rgba(0, 0, 0, 0.3) 0 -1px, 
-    rgba(255, 255, 255, 0.5) 0 1px, 
-    rgba(0, 0, 0, 0.3) -1px -1px;
     padding-bottom: 0.3em;
 }
 
 h2 {
     font: 3.5em 'HelveticaRegular';
-    text-shadow: rgba(0, 0, 0, 0.5) -1px 0, 
-    rgba(0, 0, 0, 0.3) 0 -1px, 
-    rgba(255, 255, 255, 0.5) 0 1px, 
-    rgba(0, 0, 0, 0.3) -1px -1px;
-    border-bottom: 1px dotted #808080;
     padding-bottom: 0.3em;
     margin-bottom: 0.3em;
     text-align: center;
@@ -102,10 +92,6 @@ h2 {
 
 h3 {
     font: 1.2em/100% 'HelveticaRegular';
-    text-shadow: rgba(0, 0, 0, 0.0) -1px 0, 
-                 rgba(0, 0, 0, 0.0) 0 -1px, 
-                 rgba(255, 255, 255, 0.3) 0 1px, 
-                 rgba(0, 0, 0, 0.1) -1px -1px;
 }
 
 h4 {
@@ -521,15 +507,16 @@ HOME PAGE
     display: inline-block;
     width: 60%;
     margin: 0;
+    margin-top: 2em;
 }
 
 .welcome-copy-first {
-    font: 4em/120% 'HelveticaRegular' sans-serif;
+    font: 3.8em/120% 'HelveticaRegular' sans-serif;
     text-align: left;
 }
 
 .welcome-copy-second {
-    font: 2.9em/120% 'HelveticaRegular' sans-serif;
+    font: 2.5em/120% 'HelveticaRegular' sans-serif;
     padding-right: 5%;
     text-align: left;
 }
@@ -562,7 +549,7 @@ HOME PAGE
 
 .type-command-one p {
     display: inline;
-    font: 1.3em/100% 'din-regularregular';
+    font: 1em/100% 'din-regularregular';
     text-align: left;
 }
 
@@ -572,7 +559,7 @@ HOME PAGE
 
 .type-command-two p {
     display: inline;
-    font: 1.3em/100% 'din-regularregular';
+    font: 1em/100% 'din-regularregular';
     text-align: left;
 }
 
@@ -581,7 +568,7 @@ HOME PAGE
     width: 100%;
     height: 100%;
     text-align: center;
-    margin-top: 4em;
+    margin-top: 6em;
 }
 
 .terminal-buttons a {
@@ -609,7 +596,59 @@ HOME PAGE
 }
 
 
-/* BLOCK 2  | MEET THE HACKERATI */
+/* BLOCK 2 | WHO WE ARE */
+
+.who-we-are-container {
+    background-color: #f4f4f4;
+}
+
+.who-we-are-content {
+    position: relative;
+    margin: 0 auto;
+}
+
+.def-hacker {
+    display: inline-block;
+    width: 50%;
+    padding-left: 5%;
+    padding-bottom: 1em;
+}
+
+.def-hacker h1 {
+    text-align: left;
+    padding-bottom: 0;
+}
+
+.def-hackerati {
+    display: inline-block;
+    width: 45%;
+    padding-left: 5%;
+    padding-bottom: 1em;
+    border-left: 1px solid #ec6314;
+}
+
+.def-hackerati h1 {
+    text-align: left;
+    padding-bottom: 0;
+}
+
+.see-also {
+    position: absolute;
+    left: 48%;
+    top: 47%;
+    width: auto;
+    height: auto;
+    border: 1px solid #ec6314;
+    background-color: #f4f4f4;
+    border-radius: 45px;
+}
+
+.see-also p {
+    margin: 0;
+    padding: 3px 5px;
+}
+
+/* BLOCK 3  | MEET THE HACKERATI */
 
 .who-container {
     background: #2d2d2d url('../assets/img/bgwhite.png') repeat;
@@ -638,7 +677,6 @@ HOME PAGE
     padding-bottom: 0px;
     border-bottom: 0px;
     text-align: left;
-    text-shadow: rgba(0, 0, 0, 0.2) -1px 0, rgba(0, 0, 0, 0.1) 0 -1px, rgba(255, 255, 255, 0.5) 0 1px, rgba(0, 0, 0, 0.1) -1px -1px;
 }
 
 #who-title h2 {
@@ -648,7 +686,6 @@ HOME PAGE
     padding-bottom: 0px;
     border-bottom: 0px;
     text-align: left;
-    text-shadow: rgba(0, 0, 0, 0.1) -1px 0, rgba(0, 0, 0, 0.1) 0 -1px, rgba(255, 255, 255, 0.5) 0 1px, rgba(0, 0, 0, 0.1) -1px -1px;
 }
 
 #who-info {
@@ -666,15 +703,10 @@ HOME PAGE
     padding-bottom: 0px;
     border-bottom: 0px;
     text-align: center;
-    text-shadow: 0px 0px 0px #000;
 }
 
 #wrapper-columns h2 a {
     font: 1.0em/100% 'din-regularregular';
-    text-shadow: rgba(0, 0, 0, 0.2) -1px 0, 
-                 rgba(0, 0, 0, 0.1) 0 -1px, 
-                 rgba(255, 255, 255, 0.5) 0 1px, 
-                 rgba(0, 0, 0, 0.1) -1px -1px;
 }
 
 .column-1,
