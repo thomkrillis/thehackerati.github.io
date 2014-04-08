@@ -607,7 +607,8 @@ HOME PAGE
     margin: 0 auto;
 }
 
-.def-hacker {
+.def-hacker p {
+    margin-bottom: 2em;
 }
 
 .def-hacker h1 {
@@ -616,24 +617,27 @@ HOME PAGE
     padding-bottom: 0;
 }
 
-.def-hackerati {
+.def-hackerati p {
 }
 
 .def-hackerati h1 {
     text-align: left;
     margin-bottom: 0;
     padding-bottom: 0;
-    margin-top: 0.6em;
 }
 
 .see-also {
     font: 0.8em/100% 'din-lightregular';
-    margin-top: 1em;
 }
 
 .see-also p {
     margin: 0;
-    padding: 3px 5px;
+}
+
+.def-part-of-speech {
+    font: 1em/100% 'HelveticaRegular' !important;
+    margin-top: 1em !important;
+    margin-bottom: 1em !important;
 }
 
 /* BLOCK 3  | MEET THE HACKERATI */
