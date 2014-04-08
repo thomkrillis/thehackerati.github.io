@@ -608,39 +608,27 @@ HOME PAGE
 }
 
 .def-hacker {
-    display: inline-block;
-    width: 50%;
-    padding-left: 5%;
-    padding-bottom: 1em;
 }
 
 .def-hacker h1 {
     text-align: left;
+    margin-bottom: 0;
     padding-bottom: 0;
 }
 
 .def-hackerati {
-    display: inline-block;
-    width: 45%;
-    padding-left: 5%;
-    padding-bottom: 1em;
-    border-left: 1px solid #ec6314;
 }
 
 .def-hackerati h1 {
     text-align: left;
+    margin-bottom: 0;
     padding-bottom: 0;
+    margin-top: 0.6em;
 }
 
 .see-also {
-    position: absolute;
-    left: 48%;
-    top: 47%;
-    width: auto;
-    height: auto;
-    border: 1px solid #ec6314;
-    background-color: #f4f4f4;
-    border-radius: 45px;
+    font: 0.8em/100% 'din-lightregular';
+    margin-top: 1em;
 }
 
 .see-also p {
