@@ -314,6 +314,7 @@ nav a:visited {
 }
 
 .post-author {
+    display: inline-block;
     font: 1em/100% 'din-regularregular';
     color: #ec6314;
     margin-bottom: 0.2em;
@@ -326,13 +327,15 @@ nav a:visited {
 }
 
 .tag_list {
+    display: inline;
     margin-left: 10px;
 }
 
 .tag_list li{
     display: inline;
-    font: 0.8em/100% 'din-lightregular';
+    font: 1em/100% 'din-lightregular';
     color: #0078d3;
+    margin-right: 10px;
 }
 
 .tag_list a:link {
