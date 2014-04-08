@@ -4,7 +4,7 @@ post_author: Alan Johnson
 post_gravatar: 31c7b5855877e79d99ce5ede7a3e2816
 layout: blog_entry
 comments: true
-tags: [databases, postgres]
+tags: [databases, postgres, tech]
 ---
 
 Data occupies a crucial position in the tech world, now more than ever. While much developer attention is occupied chasing the latest Javascript framework or newest server-side technology, the most crucial architectural step in many projects is determining how business data will be stored and manipulated. The Hackerati sent me to [PostgresNYC 2014][] to see how PostgreSQL is being used in modern applications at scale. *TL;DR: Postgres may not be the coolest kid on the block, but it is definitely alive and well.* 
