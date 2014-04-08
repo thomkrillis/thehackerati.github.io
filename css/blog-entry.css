@@ -11,9 +11,20 @@ body {
 
 h1 {
     text-align: center;    
-    font: 5.3em/100% 'Exo 2' sans-serif;
+    font: 4.5em/100% 'Exo 2' sans-serif;
     font-weight: 500;
     color: #0078d3;
+}
+
+h2 {
+    font: 2.3em/100% 'Exo 2' sans-serif;
+    color: #2c2c2c;
+    margin-top: 1.5em;
+}
+
+h3 {
+    font: 2em/100% 'Exo 2' sans-serif;
+    color: #2c2c2c;
 }
 
 p {
@@ -35,6 +46,16 @@ pre {
     background-color: #f4f4f4;
     opacity: 0.8;
     overflow: scroll;
+}
+
+a:link { 
+    text-decoration: none;
+    color: #0078d3;
+}
+
+a:visited { 
+    text-decoration: none;
+    color: #0078d3;
 }
 
 .post-author {
