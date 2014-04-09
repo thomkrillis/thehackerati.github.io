@@ -285,6 +285,10 @@ p {
     padding-bottom: 1%;
 }
 
+.post-share {
+    margin-top: 1em;
+}
+
 .post-share ul {
     padding: 0;
     width: 90%;
@@ -292,8 +296,16 @@ p {
 }
 
 .post-share li {
-    display: block;
-    width: 60%;
+    width: 20%;
+    display: inline-block;
+    margin-left: 8%;
+    margin-top: 10px;
+}
+
+.rdt-container {
+    width: 100px !important;
+    margin-left: 5% !important;
+    margin-top: 0px !important;
 }
 
 }
