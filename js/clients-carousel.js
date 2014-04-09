@@ -160,11 +160,11 @@ $(window).on('resize', function() {
     });
 
     $(window).keydown(function(event){
-        if (window.innerWidth > 767 && event.keyCode === 76 && $(window).scrollTop() >= ($(window).height() * 2.5) && !stillFading ) {
+        if (window.innerWidth > 767 && event.keyCode === 76 && $(window).scrollTop() <= ($(window).height() * 4) && !stillFading ) {
           $('.clients-slideshow-next').click();
         }
 
-        else if (window.innerWidth > 767 && event.keyCode === 72 && $(window).scrollTop() >= ($(window).height() * 2.5) && !stillFading) {
+        else if (window.innerWidth > 767 && event.keyCode === 72 && $(window).scrollTop() <= ($(window).height() * 4) && !stillFading) {
           $('.clients-slideshow-previous').click();
         }
     })
