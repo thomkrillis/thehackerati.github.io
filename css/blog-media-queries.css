@@ -94,6 +94,10 @@ and (orientation : portrait) {
     width: 80%;
 }
 
+#disqus_thread {
+    margin-bottom: 2em;
+}
+
 }
 
 /*
@@ -106,6 +110,10 @@ and (orientation : portrait) {
 body {
     width: 100%;
     padding-top: 0.5em;
+}
+
+.blog-entry-content-container {
+    width: 96%;
 }
 
 h1 {
@@ -334,7 +342,7 @@ and (max-device-width : 568px)
 and (orientation : landscape) { 
 
 p {
-    font: 1.3em/170% 'din-lightregular' sans-serif;
+    font: 1em/170% 'din-lightregular' sans-serif;
 }
 
 }
