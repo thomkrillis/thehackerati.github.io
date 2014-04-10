@@ -53,12 +53,17 @@ FONTS
 body {
     line-height: 18px;
     position: relative;
-    width: 60%;
+    width: 100%;
     max-width: 1100px;
     margin: 0 auto;
     margin-bottom: 3em;
     padding-top: 3em;
     background-color: #f4f4f4;
+}
+
+.blog-entry-content-container {
+    width: 70%;
+    margin: 0 auto;
 }
 
 h1 {
@@ -80,7 +85,7 @@ h3 {
 }
 
 p {
-    font: 1.5em/180% georgia serif;
+    font: 1.5em/180% 'din-lightregular' sans-serif;
     color: #2c2c2c;
 }
 
@@ -112,6 +117,8 @@ a:visited {
 
 .post-author-info {
     height: 4em;
+    width: 80%;
+    margin: 0 auto;
     margin-top: 2em;
     margin-left: -2.55em;
 }
@@ -120,17 +127,16 @@ a:visited {
     display: inline-block;
     width: 35px; 
     border-radius: 45px;
-    vertical-align: middle;
 }
 
 .post-author {
     display: inline-block;
+    vertical-align: middle;
     text-align: left;
     color: #ec6314;
     margin-top: 1em;
     margin-bottom: 2em;
     font: 1.5em/100% 'din-lightregular' sans-serif !important;
-    vertical-align: baseline;
 }
 
 .blue-h-logo-blog {

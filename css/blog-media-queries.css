@@ -84,6 +84,22 @@ main {
 
 }
 
+/* iPad Portrait */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : portrait) {
+
+.blog-entry-content-container {
+    width: 80%;
+}
+
+#disqus_thread {
+    margin-bottom: 2em;
+}
+
+}
+
 /*
   SMALL TABLET/BIG SMARTPHONE
 */
@@ -94,6 +110,10 @@ main {
 body {
     width: 100%;
     padding-top: 0.5em;
+}
+
+.blog-entry-content-container {
+    width: 96%;
 }
 
 h1 {
@@ -240,6 +260,10 @@ footer p {
 
 @media only screen and (max-width : 479px) {
 
+p {
+    font: 1.1em/170% 'din-lightregular';
+}
+
 .entry-header {
     font: 2em/100% 'Exo 2' sans-serif;
     margin: 0;
@@ -269,6 +293,7 @@ footer p {
 h2 {
     margin: 0;
     padding: 0;
+    padding-left: 2%;
     margin-top: 1.2em;
     margin-bottom: 0.3em;
 }
@@ -278,7 +303,7 @@ h2 {
 }
 
 p {
-    width: 98%;
+    width: 96%;
     padding-left: 0;
     padding-right: 0;
     padding-top: 1%;
@@ -310,4 +335,14 @@ p {
 
 }
 
+/* iPhone 5 landscape */
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 568px) 
+and (orientation : landscape) { 
 
+p {
+    font: 1em/170% 'din-lightregular' sans-serif;
+}
+
+}

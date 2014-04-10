@@ -1780,7 +1780,15 @@ HOME PAGE
         margin-right: 0;
         margin-left: 0;
     }
+   
+    .def-hacker h1 {
+        font: 2.5em/100% 'HelveticaRegular';
+    }
     
+    .def-hackerati h1 {
+        font: 2.5em/100% 'HelveticaRegular';
+    }
+
     /*
     ====================================================== 
     CAREERS PAGE 
