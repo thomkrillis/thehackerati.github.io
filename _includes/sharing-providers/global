@@ -10,10 +10,6 @@
 </script>
 
 <ul class="post-share ulno mob">
-    <li class="rdt">
-        <script type="text/javascript" src="http://www.reddit.com/buttonlite.js?i=4"></script>
-    </li>
-
     <li class="tw">
         <a href="https://twitter.com/share" class="twitter-share-button" data-text="{{ page.title }}" 
           data-via="{{ site.sharing.twitter.via }}" data-related="{{ site.sharing.author.twitter }}" 
@@ -36,6 +32,12 @@
            lang: en_US
         </script>
         <script type="IN/Share" data-url="http://thehackerati.com/blog{{ page.url }}" data-counter="right"></script>
+    </li>
+    
+    <li class="rdt-container">
+        <div class="rdt">
+            <script type="text/javascript" src="http://www.reddit.com/buttonlite.js?i=4"></script>
+        </div>
     </li>
 
 </ul>

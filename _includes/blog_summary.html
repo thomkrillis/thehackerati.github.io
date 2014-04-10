@@ -1,17 +1,40 @@
-<div class="blog blog-right-column tablet-and-desktop span7">
-    {% for post in site.posts %}	
+<div class="blog-right-column content">
+    {% for post in paginator.posts %}	
         <h3>
-            {{ post.title }}
+            <a href="{{ post.url }}">{{ post.title }}</a>
         </h3>   
-        <p class="orange-text">
-            {{ post.post_author }} | {{ post.date | date: "%B %e, %Y" }}
+        <p class="orange-text post-author">
+            <img src="http://www.gravatar.com/avatar/{{ post.post_gravatar }}.jpg"/> {{ post.post_author }} | {{ post.date | date: "%B %e, %Y" }} |
             <ul class="tag_list">
                 {% for tag in post.tags %}
-                    <li class="inline archive_list"><a class="tag_list_link" href="/tag/{{ tag }}">{{ tag }}</a></li>
+                    <li class="inline archive_list"><a class="tag_list_link" href="/tag/{{ tag }}"> {{ tag }}</a></li>
                 {% endfor %}
             </ul>
         </p>
         <article class="entry-summary">{{ post.excerpt }}</article>
         <p class="continue-reading"><a href="{{ post.url }}">...continue reading</a></p>
     {% endfor %}
+
+    <!-- Pagination links -->
+    <div class="pagination">
+        {% if paginator.previous_page %}
+            {% if paginator.previous_page == 1 %}
+                <a href="/blog" class="previous">Previous</a>
+            {% else %}
+                <a href="/blog/page{{ paginator.previous_page }}" class="previous">Previous</a>
+            {% endif %}
+        {% else %}
+            <span class="previous">Previous</span>
+        {% endif %}
+        
+        <span class="page_number "> | Page: {{ paginator.page }} of {{ paginator.total_pages }} | </span>
+        
+        {% if paginator.next_page %}
+            <a href="/blog/page{{ paginator.next_page }}" class="next">Next</a>
+        {% else %}
+            <span class="next ">Next</span>
+        {% endif %}
+    </div>
 </div>
+
+<div class="clearfix"></div>

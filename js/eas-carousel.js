@@ -107,7 +107,7 @@ if (navigator.userAgent.match(/MSIE\s(?!10.0)/)) {
 
      
       $("html").keypress(function (e) {
-          if (e.which == 108 && $(window).scrollTop() <= ($(window).height() * 2.5)) {
+          if (e.which == 108 && $(window).scrollTop() >= 1500) {
               $("#carouselcover").css("margin-top", "-1000px");
               var r = $("#page-one-stage").data('rot') + 90;
               $("#page-one-stage").css({
@@ -118,7 +118,7 @@ if (navigator.userAgent.match(/MSIE\s(?!10.0)/)) {
                       'transform': 'rotate(' + r + 'deg)'
               });
               $("#page-one-stage").data('rot', r).trigger('contentchanged');
-          } else if (e.which == 104 && $(window).scrollTop() <= ($(window).height() * 2.5)) {
+          } else if (e.which == 104 && $(window).scrollTop() >= 1500) {
               $("#carouselcover").css("margin-top", "-1000px");
               var r = $("#page-one-stage").data('rot') - 90;
               $("#page-one-stage").css({

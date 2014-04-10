@@ -1,6 +1,7 @@
 blog
 ====
 
+
 The Hackerati blog and _you_
 
 Step One
@@ -33,6 +34,8 @@ Your files must stick to some conventions such as the following:
 * The post\_gravatar value is an md5 hash. You will need to make a gravatar and generate the hash from your email address. Delete all leading and trailing white space and make sure its all lower case. Here is a website that makes it [easy peasy](http://bit.ly/LBDlq9)
 
 * If you would like to disable comments on your entry, leave this line out.
+
+* Always include one of the big bucket titles as a tag. This ensures that the buckets filter correctly
 
 * For tags to function correctly, you must build the site locally before making your pull request. After adding your post, run
 
