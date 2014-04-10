@@ -315,10 +315,11 @@ HOME PAGE
 
     .welcome-image {
         width: 100%;
+        text-align: center;
     }
 
     .welcome-image img {
-        display: none;
+
     }   
 
     .logo {
