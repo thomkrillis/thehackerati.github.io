@@ -1,0 +1,48 @@
+body {
+  font: 10px sans-serif;
+  text-align: center;
+}
+
+header {
+  height: 15em;
+  text-align: center;
+  margin-top: 5em;
+  margin-bottom: 3em;
+}
+
+h1 {
+  display: inline-block;
+  font-size: 6em;
+  vertical-align: middle;
+}
+
+h2 {
+  margin-top: 5em;
+}
+
+header img {
+  display: inline-block;
+  max-height: 60%;
+  margin-left: 5%;
+}
+
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+
+.x.axis path {
+  display: none;
+}
+
+.line {
+  fill: none;
+  stroke: steelblue;
+  stroke-width: 1.5px;
+}
+
+iframe {
+  border: none;
+}
