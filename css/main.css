@@ -578,7 +578,7 @@ HOME PAGE
 
 .terminal-buttons a:link {
     color: #2c2c2c;
-    font: 1.5em/130% 'din-regularregular' sans-serif;
+    font: 1.2em/130% 'din-regularregular' sans-serif;
     margin-bottom: 0.9em;
 }
 
@@ -866,6 +866,11 @@ HOME PAGE
 
 .how-content p.bold {
     font: 1.15em/150% 'din-mediumregular';
+}
+
+.how-content h1 {
+    text-align: left;
+    color: #f4f4f4;
 }
 
 #how h1 {
@@ -1657,7 +1662,7 @@ CAREERS PAGE
 }
 
 .careers-page .section1 .content-container a:hover {
-    color: #666;
+    color: #ec6314;
 }
 
 .testimonial-img img {
