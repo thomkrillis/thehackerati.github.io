@@ -1,4 +1,4 @@
-blog
+Blog
 ====
 
 
@@ -12,10 +12,24 @@ Fork the repo, then:
     git clone git@github.com:<username>/thehackerati.github.io.git
     cd thehackerati.github.io
     gem install jekyll
-    jekyll serve --watch
+    jekyll build
 
 Step Two
 --------
+
+Set up your repository to track the remote blog branch:
+
+    git checkout master
+    git fetch
+    git branch --track blog origin/blog
+
+Every blog post you make should be done on a branch you create off of the blog branch.
+ie:
+    git checkout blog
+    git checkout -b your-branch-name
+
+Step Three
+----------
 
 In the \_posts folder, start writing your files! You will be using markdown, so get cozy with this [cheat sheet](http://bit.ly/LTtexM)
 
@@ -41,11 +55,12 @@ Your files must stick to some conventions such as the following:
 
     jekyll build
 
-Step Three
+Step Four
 ----------
 
-Make a [pull request](http://bit.ly/1eudZYq)!
+Make a [pull request](http://bit.ly/1eudZYq) with blog as the base branch (vital to national hackerati security).
 
+Once your pull request is made, a moderator (Mr. Ketigian) will review the entry and merge it into our site.
 
 Feedback
 ----------
