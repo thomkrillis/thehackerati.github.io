@@ -59,4 +59,9 @@ Be Fearless!
 
 Innovation is a free fall. When we jump off of solid ground and attempt to invent the future, we often don't know how to fly. But we jump anyways, despite any fears that we might have, because we believe that we can land in one piece. We don't let what we don't know get in the way of taking action. We make decisions despite ambiguity; and we always make new mistakes.
 
-This is how we roll at The Hackerati. Our culture of innovation is our secret sauce and our competitive advantage.
+Have Fun!
+---------
+> Einstein wasn't motivated by survival when he was thinking about physics... It was entertainment to him.
+-- Linus Torvalds
+
+We do what we do not because we have to do so in order to survive. We do it for the sheer joy. This is how we roll at The Hackerati. Our culture of innovation is our secret sauce and our competitive advantage.
