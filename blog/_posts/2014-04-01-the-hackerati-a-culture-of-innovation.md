@@ -13,7 +13,7 @@ published: true
 
 When we first contemplated starting a business together in early 2012, we came up with a diverse list of new product ideas that we could potentially pursue, including software, hardware, security, media, mobile, analytics, and more. Then a funny thing happened: we liked several of them; but we couldn't choose just one!
 
-We figured that investors probably wouldn't fund a product company that was trying to concurrently build more than one product, so we tried to imagine a different kind of company that could realistically develop a portfolio of market leading products across a diverse set of market segments.
+We figured that investors probably wouldn't fund a product company that was trying to concurrently build more than one product, so we tried to imagine a different kind of company that could realistically develop a portfolio of market-leading products across a diverse set of market segments.
 
 We knew this company would need a non-traditional business model that could provide a perpetual source of non-dilutive capital to incubate our portfolio companies, as well as a continuous stream of new founders, top engineers and designers, and great product ideas. Hence was born our "Engineering as a Service" consulting business.
 
