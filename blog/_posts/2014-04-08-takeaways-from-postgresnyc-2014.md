@@ -1,7 +1,7 @@
 ---
 title: Takeaways From PostgresNYC 2014
 post_author: Alan Johnson
-post_gravatar: 31c7b5855877e79d99ce5ede7a3e2816
+post_gravatar: [31c7b5855877e79d99ce5ede7a3e2816]
 layout: blog_entry
 comments: true
 tags: [databases, postgres, tech]
