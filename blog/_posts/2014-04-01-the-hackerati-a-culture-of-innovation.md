@@ -1,7 +1,7 @@
 ---
 title: "The Hackerati - A Culture of Innovation"
 post_author: "Geoff Scott & Rob Marano"
-post_gravatar: 31c7b5855877e79d99ce5ede7a3e2816
+post_gravatar: [e0280b0b0bcc36571ca71370c051850d, 97e58c87339322f28d26550fa2c3eb13]
 layout: blog_entry
 comments: true
 tags: 
