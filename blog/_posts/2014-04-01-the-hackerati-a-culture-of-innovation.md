@@ -11,13 +11,13 @@ When we first contemplated starting a business together in early 2012, we came u
 
 We figured that investors probably wouldn't fund a product company that was trying to concurrently build more than one product, so we tried to imagine a different kind of company that could realistically develop a portfolio of market leading products across a diverse set of market segments.
 
-We knew this company would need a non-traditional business model that could provide a perpetual source of non-dilutive capital to incubate our portfolio companies, as well as a continuous stream of new founders, top engineers and designers, and great product ideas. Hence was born our Engineering as as Service consulting business.
+We knew this company would need a non-traditional business model that could provide a perpetual source of non-dilutive capital to incubate our portfolio companies, as well as a continuous stream of new founders, top engineers and designers, and great product ideas. Hence was born our "Engineering as a Service" consulting business.
 
 Above all, we knew that in order to surface the best product ideas, our company would have to be based on a unique culture that elevates innovation to a first-class citizen, along side execution. We created such a culture and continuously strive to reinforce it throughout our organization and in every aspect of leadership and management. Here's how we do it:
 
 Start With Entrepreneurial Hackers
 ----------------------------------
-Entrepreneurs are characterized by the risks that they take in striving to create value. Hackers are inventors --- people who naturally defy conventional wisdom to create and improve all kinds of things. We start by hiring really smart hackers with entrepreneurship in their DNA. Hackerati are visionary, unconventional, quirky tinkerers and explorers. 
+Entrepreneurs are characterized by the risks that they take in striving to create value. Hackers are inventors --- people who naturally defy conventional wisdom to create and improve all kinds of things. We start by hiring really smart hackers with entrepreneurship in their DNA. Hackerati are visionary, unconventional, quirky tinkerers and explorers. We understand the value of creating a sustainable business.
 
 Have Gumption
 -------------
