@@ -26,6 +26,7 @@ Set up your repository to track the remote blog branch:
 Every blog post you make should be done on a branch you create off of the blog branch.
 ie:
     git checkout blog
+    git pull
     git checkout -b your-branch-name
 
 Step Three
