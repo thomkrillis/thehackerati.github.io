@@ -22,7 +22,8 @@ Entrepreneurs are characterized by the risks that they take in striving to creat
 Have Gumption
 -------------
 > Gumption is the psychic gasoline that keeps the whole thing going.
--- Robert M. Pirsig
+>
+> -- Robert M. Pirsig
 
 Gumption is one of those words that you rarely hear people use these days; but you kind of know it when you see it. We see gumption as passion --- sweating the small stuff. We encourage Hackerati to form an opinion; to articulate why and to listen as others do the same; and to tenaciously drive towards solutions; so that there is no way the problem at hand could possibly go unresolved.
 
@@ -35,7 +36,8 @@ Sailing fast is an exercise in balancing true wind and apparent wind to move the
 Rely on Social Contracts Over Rules
 -----------------------------------
 > Integrity has no need of rules.
--- Albert Camus
+>
+> -- Albert Camus
 
 Some rules are necessary for any organization to function, but too many rules can create drag that slows down the team and stifles innovation. We try to minimize rules but instead rely on the social contracts that we establish among ourselves and the integrity on which those social contracts depend. Integrity starts with the individual: be authentic; don't try to be what others think you should be; do what you say; tell the truth and be as transparent as possible.
 
@@ -48,20 +50,23 @@ Innovation is about envisioning a state in which things will be substantially im
 Practice Intellectual Humility
 ------------------------------
 > What gets us into trouble is not what we don't know. It's what we know for sure that just ain't so.
--- Mark Twain
+>
+> -- Mark Twain
 
 No one knows everything or is correct all of the time, especially when we are innovating, when we often work in areas where we have little frame of reference or a posteriori knowledge on which to rely. Our path becomes a series of rapid experiments, leading towards our destination. We must ask ourselves the hard questions, especially of our own entrenched positions, and be willing to admit when our prior conclusions are incorrect.
 
 Be Fearless!
 ------------
 > We have to continually be jumping off cliffs and developing our wings on the way down.
--- Kurt Vonnegut, Ray Bradbury, and others
+>
+> -- Kurt Vonnegut, Ray Bradbury, and others
 
 Innovation is a free fall. When we jump off of solid ground and attempt to invent the future, we often don't know how to fly. But we jump anyways, despite any fears that we might have, because we believe that we can land in one piece. We don't let what we don't know get in the way of taking action. We make decisions despite ambiguity; and we always make new mistakes.
 
 Have Fun!
 ---------
 > Einstein wasn't motivated by survival when he was thinking about physics... It was entertainment to him.
--- Linus Torvalds
+>
+> -- Linus Torvalds
 
 We do what we do not because we have to do so in order to survive. We do it for the sheer joy. This is how we roll at The Hackerati. Our culture of innovation is our secret sauce and our competitive advantage.
