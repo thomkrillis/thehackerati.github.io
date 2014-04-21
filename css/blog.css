@@ -1,3 +1,14 @@
+/*
+orange:
+  #ec6314;
+
+blue:
+  #0078d3;
+
+black:
+  #1c1c1c;
+*/
+
 
 /*
 FONTS 
@@ -49,17 +60,6 @@ FONTS
          url('../assets/fonts/Helvetica/helvetica.ttf') format('truetype'),
          url('../assets/fonts/Helvetica/helvetica.svg#HelveticaRegular') format('svg');
 }
-
-/*
-orange:
-  #ec6314;
-
-blue:
-  #0078d3;
-
-black:
-  #1c1c1c;
-*/
 
 html {
   background-color: #2c2c2c;
