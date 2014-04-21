@@ -57,7 +57,7 @@ Practice Intellectual Humility
 >
 > -- Mark Twain
 
-No one knows everything or is correct all of the time, especially when innovating, when we often work in areas where we have little frame of reference or a posteriori knowledge on which to rely. Our path becomes a series of rapid experiments, leading towards our destination. To reach that destination, we must ask ourselves the hard questions --- especially of our own entrenched positions --- and be willing to admit when our prior conclusions are incorrect.
+No one knows everything or is correct all of the time, especially when innovating, which often means working in areas where we have little frame of reference or are relying only on a posteriori knowledge. Our path becomes a series of rapid experiments, leading towards our destination. To reach that destination, we must ask ourselves the hard questions --- especially of our own entrenched positions --- and be willing to admit when our prior conclusions are incorrect.
 
 Be Fearless!
 ------------
