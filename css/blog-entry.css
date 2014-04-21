@@ -1,3 +1,14 @@
+/*
+orange:
+  #ec6314;
+
+blue:
+  #0078d3;
+
+black:
+  #1c1c1c;
+*/
+
 
 /*
 FONTS 
@@ -148,6 +159,18 @@ a:visited {
 
 .blue-h-logo-blog img {
     max-height: 100%;
+}
+
+blockquote {
+    border-left: 5px solid #ec6314;
+    padding-left: 25px;
+    padding-right: 10px;
+}
+
+blockquote p {
+    font: 1.6em/120% 'Josefin Slab', serif;
+    font-style: italic;
+    color: #696969;
 }
 
 #feedback {
