@@ -1,10 +1,14 @@
 ---
-title: The Hackerati - A Culture of Innovation
-post_author: Geoff Scott & Rob Marano
+title: "The Hackerati - A Culture of Innovation"
+post_author: "Geoff Scott & Rob Marano"
 post_gravatar: 31c7b5855877e79d99ce5ede7a3e2816
 layout: blog_entry
 comments: true
-tags: [tech, entrepreneurship, culture]
+tags: 
+  - tech
+  - entrepreneurship
+  - culture
+published: true
 ---
 
 When we first contemplated starting a business together in early 2012, we came up with a diverse list of new product ideas that we could potentially pursue, including software, hardware, security, media, mobile, analytics, and more. Then a funny thing happened: we liked several of them; but we couldn't choose just one!
@@ -70,3 +74,5 @@ Have Fun!
 > -- Linus Torvalds
 
 We do what we do not because we have to do so in order to survive. We do it for the sheer joy. This is how we roll at The Hackerati. Our culture of innovation is our secret sauce and our competitive advantage.
+
+This is an experimental commit from prose.io
