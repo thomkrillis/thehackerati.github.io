@@ -161,6 +161,10 @@ a:visited {
     max-height: 100%;
 }
 
+img {
+    max-width: 100%;
+}
+
 blockquote {
     border-left: 5px solid #ec6314;
     padding-left: 25px;
