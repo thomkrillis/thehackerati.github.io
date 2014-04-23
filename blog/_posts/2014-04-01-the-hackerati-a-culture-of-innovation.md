@@ -79,4 +79,4 @@ This is how we roll. Our culture of innovation is our secret sauce and our compe
 
 We are thinkers and builders. We are doers and dreamers. We are scientists and artists.
 
-We are Hackerati.
+We are The Hackerati.
