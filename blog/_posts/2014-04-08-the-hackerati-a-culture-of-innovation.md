@@ -4,10 +4,7 @@ post_author: "Geoff Scott & Rob Marano"
 post_gravatar: [e0280b0b0bcc36571ca71370c051850d, 97e58c87339322f28d26550fa2c3eb13]
 layout: blog_entry
 comments: true
-tags: 
-  - tech
-  - entrepreneurship
-  - culture
+tags: [tech, entrepreneurship, culture]
 published: true
 ---
 
