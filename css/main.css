@@ -691,10 +691,14 @@ HOME PAGE
     margin: 0 auto;
 }
 
+.who-title-wrapper {
+    margin: 0 auto;
+}
+
 #who-title{
-    float: left;
     font-size: 0.7em;
-    width: 47%;
+    width: 100%;
+    text-align: center;
 }
 
 #who-title h1,
@@ -702,10 +706,9 @@ HOME PAGE
     margin-bottom: 0.5%;
     font-size: 2.5em;
     font: 4.3em/100% 'HelveticaRegular';
-    display: inline-block;
     padding-bottom: 0px;
     border-bottom: 0px;
-    text-align: left;
+    margin-left: 5%;
 }
 
 #who-title h2 {
@@ -714,11 +717,11 @@ HOME PAGE
     font: 2.7em/100% 'HelveticaRegular';
     padding-bottom: 0px;
     border-bottom: 0px;
-    text-align: left;
+    margin-left: 5%;
 }
 
 #who-info {
-    padding-left: 2%;
+    padding-left: 5%;
     border-left: 1px solid #CCC;
     margin-left: 1%;
     width: 45%;
@@ -804,6 +807,7 @@ HOME PAGE
 }
 
 #wrapper-columns {
+    margin: 0 auto;
     display: table;
     clear: both;
     max-width: 980px;
@@ -844,6 +848,7 @@ HOME PAGE
     padding-top: 6em;
     padding-bottom: 0;
     width: 80%;
+    max-width: 1500px;
     margin: 0 auto;
 }
 
@@ -863,6 +868,7 @@ HOME PAGE
 
 .how-content .block-left{
     width: 57%;
+    max-width: 645px;
     z-index: 10;
 }
 
@@ -1081,6 +1087,7 @@ body > svg {
 
 .clients-content {
     width: 80%;
+    max-width: 1100px;
     margin: 0 auto;
     padding-top: 6em;
 }
@@ -1284,12 +1291,12 @@ body > svg {
 .clients-box {
     position: absolute;
     bottom: 0em;
-    left: 29%;
     z-index: 10;
 }
 
 .clients-box img {
     width: 100%;
+    
 }
 
 .huffington-post-h3 {
