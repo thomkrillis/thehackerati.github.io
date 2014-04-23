@@ -79,6 +79,10 @@ HOME PAGE
         width: 980px; 
     }
 
+    .how-content .block-left {
+        max-width: 645px;
+    }
+
     /* SECTION 5 */
 
     .clients-content {
