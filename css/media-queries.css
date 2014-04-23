@@ -246,6 +246,15 @@ HOME PAGE
 }
 
 
+@media only screen and (max-width : 1115px) {
+
+  .content-container .nav-links a:link {
+      font: 0.8em/100% "HelveticaRegular";
+  }
+
+}
+
+
 /* BIG TABLET 
 ####################################################################*/
 
@@ -397,14 +406,14 @@ HOME PAGE
     }
 
     .welcome-container .content-container nav { 
-        font: 1.8em/100% 'inconsolatamedium'; 
+        font: 1.5em/100% 'inconsolatamedium'; 
         margin-top: 2em;    
         padding-top: 0; 
         padding-bottom: 1.0em;
     }
 
     .content-container .nav-links a:link {
-        font: 1.1em/100% 'HelveticaRegular';
+        font: 0.8em/100% 'HelveticaRegular';
     }
    
     .content-container .nav-links a:visited {
