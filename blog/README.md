@@ -1,4 +1,4 @@
-blog
+Blog
 ====
 
 
@@ -12,10 +12,25 @@ Fork the repo, then:
     git clone git@github.com:<username>/thehackerati.github.io.git
     cd thehackerati.github.io
     gem install jekyll
-    jekyll serve --watch
+    jekyll build
 
 Step Two
 --------
+
+Set up your repository to track the remote blog branch:
+
+    git checkout master
+    git fetch
+    git branch --track blog origin/blog
+
+Every blog post you make should be done on a branch you create off of the blog branch.
+    
+    git checkout blog
+    git pull
+    git checkout -b your-branch-name
+
+Step Three
+----------
 
 In the \_posts folder, start writing your files! You will be using markdown, so get cozy with this [cheat sheet](http://bit.ly/LTtexM)
 
@@ -25,13 +40,13 @@ Your files must stick to some conventions such as the following:
 
     \-\-\-
     post_author: Alex Sheehan
-    post_gravatar: c22b31aaaf01e8126d671fcd4c219dcc
+    post_gravatar: [c22b31aaaf01e8126d671fcd4c219dcc, hash-n]
     layout: blog_entry
     comments: true
     tags: [tag-1, tag-2, ..., tag-n]
     \-\-\-
 
-* The post\_gravatar value is an md5 hash. You will need to make a gravatar and generate the hash from your email address. Delete all leading and trailing white space and make sure its all lower case. Here is a website that makes it [easy peasy](http://bit.ly/LBDlq9)
+* The post\_gravatar value is an md5 hash. You will need to make a gravatar and generate the hash from your email address. Delete all leading and trailing white space and make sure its all lower case. Here is a website that makes it [easy peasy](http://bit.ly/LBDlq9). You must put the hash(es) in an array.
 
 * If you would like to disable comments on your entry, leave this line out.
 
@@ -41,11 +56,12 @@ Your files must stick to some conventions such as the following:
 
     jekyll build
 
-Step Three
+Step Four
 ----------
 
-Make a [pull request](http://bit.ly/1eudZYq)!
+Make a [pull request](http://bit.ly/1eudZYq) with blog as the base branch (vital to national hackerati security).
 
+Once your pull request is made, a moderator (Mr. Ketigian) will review the entry and merge it into our site.
 
 Feedback
 ----------

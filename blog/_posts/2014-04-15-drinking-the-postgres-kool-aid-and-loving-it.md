@@ -1,7 +1,7 @@
 ---
 title: Drinking the Postgres Kool-Aid and Loving It
 post_author: Alan Johnson
-post_gravatar: 31c7b5855877e79d99ce5ede7a3e2816
+post_gravatar: [31c7b5855877e79d99ce5ede7a3e2816]
 layout: blog_entry
 comments: true
 tags: [databases, postgres, tech]
@@ -15,7 +15,7 @@ Two recent trends upset this duopoly. For small apps, document stores like Mongo
 
 Trying to track the [pros and cons of database systems][] with wildly varying data models is arguably much more perilous than deciding which front-end framework to invest in. And while the barriers of entry of many NoSQL databases are low, scaling them typically requires significant investment in mastery. The stakes of choosing correctly are massive. One cannot simply refactor one's database.
 
-But while the past several years have seen much of the tech world distracted by flavor-of-the-week NoSQL systems, the venerable PostgreSQL quietly and continuously evolved with the times. The vibrant community has contributed a staggering array of features with an eye on modern day data problems. Unknown to many, key features of many alternative data stores exist within Postgres. These include the ability to store and query documents, full-text search, and to perform advanced aggregations on large data sets. I discuss some of these in [my companion piece]({% post_url 2014-04-08-takeaways-from-postgresnyc-2014 %}) from the conference.
+But while the past several years have seen much of the tech world distracted by flavor-of-the-week NoSQL systems, the venerable PostgreSQL quietly and continuously evolved with the times. The vibrant community has contributed a staggering array of features with an eye on modern day data problems. Unknown to many, key features of many alternative data stores exist within Postgres. These include the ability to store and query documents, full-text search, and to perform advanced aggregations on large data sets. I discuss some of these in [my companion piece]({% post_url 2014-04-22-takeaways-from-postgresnyc-2014 %}) from the conference.
 
 PostgresNYC 2014 has featured great talks by presenters who are employing the database in all sorts of cutting-edge applications, which can be sampled from the [conference program][].
 

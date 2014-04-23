@@ -1,0 +1,7 @@
+[
+  {"title":"/","subtitle":"","ranges":[1500,2250,3000],"measures":[2200,2700],"markers":[2300]},
+  {"title":"login","subtitle":"","ranges":[2000,2500,3800],"measures":[2400,2900],"markers":[2600]},
+  {"title":"edit-profile","subtitle":"","ranges":[2500,5000,6000],"measures":[1000,3200],"markers":[2900]},
+  {"title":"sign-up","subtitle":"","ranges":[1400,2000,2500],"measures":[1000,1650],"markers":[1800]},
+  {"title":"read-message","subtitle":"","ranges":[750,2000,3000],"measures":[800,1700],"markers":[1200]}
+]

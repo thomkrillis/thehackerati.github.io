@@ -1,4 +1,4 @@
-/*
+a/*
   orange: #ec6314;
   blue: #4CA0D3;
 */
@@ -46,6 +46,10 @@ HOME PAGE
     .welcome-content {
     }
 
+    .welcome-copy {
+        
+    }
+
     /* SECTION 2 */
 
     .who-we-are-content {
@@ -73,6 +77,10 @@ HOME PAGE
 
     .how-content {
         width: 980px; 
+    }
+
+    .how-content .block-left {
+        max-width: 645px;
     }
 
     /* SECTION 5 */
@@ -238,6 +246,15 @@ HOME PAGE
 }
 
 
+@media only screen and (max-width : 1115px) {
+
+  .content-container .nav-links a:link {
+      font: 0.8em/100% "HelveticaRegular";
+  }
+
+}
+
+
 /* BIG TABLET 
 ####################################################################*/
 
@@ -362,7 +379,7 @@ HOME PAGE
     }
 
     .b-page-nav-links {
-        width: 65%;
+        width: 60%;
     }
 
     .persistent-nav-links {
@@ -389,7 +406,7 @@ HOME PAGE
     }
 
     .welcome-container .content-container nav { 
-        font: 1.8em/100% 'inconsolatamedium'; 
+        font: 1.5em/100% 'inconsolatamedium'; 
         margin-top: 2em;    
         padding-top: 0; 
         padding-bottom: 1.0em;
@@ -397,12 +414,10 @@ HOME PAGE
 
     .content-container .nav-links a:link {
         font: 0.8em/100% 'HelveticaRegular';
-        color: #4CA0D3;
     }
    
     .content-container .nav-links a:visited {
         text-decoration: none;
-        color: #4CA0D3;
     }
     
     .content-container .nav-links a:hover {
@@ -428,7 +443,6 @@ HOME PAGE
     }
 
     .terminal-buttons { 
-        left: 0; 
         text-align: center; 
         width: 100%; 
         margin-top: 5em;
@@ -531,6 +545,8 @@ HOME PAGE
 
     .how-content h1 {
         margin-top: 0;
+        text-align: center;
+        color: #f4f4f4;
     }
 
     .clients-container {
@@ -870,11 +886,11 @@ HOME PAGE
    
     .welcome-copy-first {
         margin-bottom: 1em;
-        font: 2.8em/100% 'HelveticaRegular' sans-serif;
+        font: 2.8em/130% 'HelveticaRegular' sans-serif;
     }
     
     .welcome-copy-second {
-        font: 2em/100% 'HelveticaRegular' sans-serif;
+        font: 2em/130% 'din-lightregular' sans-serif;
     }
    
     .welcome-image {
@@ -1009,9 +1025,10 @@ HOME PAGE
     }
 
     .terminal-buttons { 
-        left: 0; 
         text-align: center; 
-        width: 100%; 
+        width: 75%; 
+        margin: 0 auto;
+        position: relative;
     }
 
     .welcome-content { 

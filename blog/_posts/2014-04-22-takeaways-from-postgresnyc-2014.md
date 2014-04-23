@@ -1,13 +1,13 @@
 ---
 title: Takeaways From PostgresNYC 2014
 post_author: Alan Johnson
-post_gravatar: 31c7b5855877e79d99ce5ede7a3e2816
+post_gravatar: [31c7b5855877e79d99ce5ede7a3e2816]
 layout: blog_entry
 comments: true
 tags: [databases, postgres, tech]
 ---
 
-[My other post]({% post_url 2014-04-08-drinking-the-postgres-kool-aid-and-loving-it %}) discusses on a high level how PostgresNYC 2014 reinforced my belief that it makes a very attractive default choice for the database for most projects. This piece covers some of the specific tools from the presentations and some thoughts.
+[My other post]({% post_url 2014-04-15-drinking-the-postgres-kool-aid-and-loving-it %}) discusses on a high level how PostgresNYC 2014 reinforced my belief that it makes a very attractive default choice for the database for most projects. This piece covers some of the specific tools from the presentations and some thoughts.
 
 ## Postgres as the data model layer
 A theme I found interesting is that many of the presenters are doing much of their back-end development directly within Postgres, as opposed to in their web server. After seeing how much innovation is going on in the Postgres community, it makes a lot of sense. It's really difficult to imagine that it will remain productive to try to project the full power of the DB in ORM layers. This has always been a drawback of the ORM, but we're at a point where very commonly used features, like document types, will likely never have standard SQL semantics.
