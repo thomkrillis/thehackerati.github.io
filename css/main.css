@@ -2155,7 +2155,7 @@ footer .content-container {
 }
 
 .footer-sprite {
-    background: url('../assets/img/social-media-footer-small.png') no-repeat; 
+    background: url('../assets/img/social-media-footer-small.svg') no-repeat; 
     width: 34.54px;
     height: 2.5em;
     float: left;
@@ -2163,11 +2163,11 @@ footer .content-container {
 }
 
 .gplus-footer {
-    background-position:-59.003px -15.938px;
+    background-position:-58.003px -15.938px;
 }
 
 .gplus-footer:hover { 
-    background-position:-129px -16.66px;
+    background-position:-128px -16px;
 }
 
 .facebook-footer {
@@ -2203,12 +2203,12 @@ footer .content-container {
 }
 
 .meetup-footer {
-    background-position:-59.003px -86.138px;
+    background-position:-58.003px -86.138px;
     margin-right: 0em;
 }
 
 .meetup-footer:hover {
-    background-position:-129.624px -87.861px;
+    background-position:-128.624px -87.861px;
     margin-right: 0em;
 }
 
