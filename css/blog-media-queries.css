@@ -117,7 +117,7 @@ body {
 }
 
 h1 {
-    font: 2.5em/100% 'Exo 2' sans-serif;
+    font: 2.5em/100% 'Exo 2', sans-serif;
     width: 95%;
 }
 
@@ -184,7 +184,7 @@ header {
 }
 
 .header-block h1 {
-    font: 4.5em/100% 'Exo 2' sans-serif;
+    font: 4.5em/100% 'Exo 2', sans-serif;
 }
 
 .blog-logo {
@@ -194,11 +194,11 @@ header {
 .blog-sub-title {
     margin-top: 1.8em;
     margin-bottom: 2em;
-    font: 1em/100% 'din-lightregular' sans-serif;
+    font: 1em/100% 'din-lightregular', sans-serif;
 }
 
 .blog-nav li {
-    font: 1em/100% 'din-regularregular' sans-serif;
+    font: 1em/100% 'din-regularregular', sans-serif;
 }
 
 .blog-left-column {
@@ -219,7 +219,7 @@ header {
 
 .post-author {
     margin: 10px 0px;
-    font: 0.8em/100% 'din-lightregular' sans-serif !important;
+    font: 0.8em/100% 'din-lightregular', sans-serif !important;
 }
 
 .tag_list {
@@ -265,7 +265,7 @@ p {
 }
 
 .entry-header {
-    font: 2em/100% 'Exo 2' sans-serif;
+    font: 2em/100% 'Exo 2', sans-serif;
     margin: 0;
 }
 
@@ -341,8 +341,8 @@ and (min-device-width : 320px)
 and (max-device-width : 568px) 
 and (orientation : landscape) { 
 
-p {
-    font: 1em/170% 'din-lightregular' sans-serif;
-}
+    p {
+        font: 1em/170% 'din-lightregular', sans-serif;
+    }
 
 }
