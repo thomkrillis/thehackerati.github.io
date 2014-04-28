@@ -79,24 +79,24 @@ body {
 
 h1 {
     text-align: center;    
-    font: 4.5em/100% 'Exo 2' sans-serif;
+    font: 4.5em/100% 'Exo 2', sans-serif;
     font-weight: 500;
     color: #0078d3;
 }
 
 h2 {
-    font: 2.3em/100% 'Exo 2' sans-serif;
+    font: 2.3em/100% 'Exo 2', sans-serif;
     color: #2c2c2c;
     margin-top: 1.5em;
 }
 
 h3 {
-    font: 2em/100% 'Exo 2' sans-serif;
+    font: 2em/100% 'Exo 2', sans-serif;
     color: #2c2c2c;
 }
 
 p {
-    font: 1.5em/180% 'din-lightregular' sans-serif;
+    font: 1.5em/180% 'din-lightregular', sans-serif;
     color: #2c2c2c;
 }
 
@@ -147,7 +147,7 @@ a:visited {
     color: #ec6314;
     margin-top: 1em;
     margin-bottom: 2em;
-    font: 1.5em/100% 'din-lightregular' sans-serif !important;
+    font: 1.5em/100% 'din-lightregular', sans-serif !important;
 }
 
 .blue-h-logo-blog {

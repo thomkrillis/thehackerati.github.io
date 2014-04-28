@@ -73,7 +73,7 @@ header {
 .header-block h1 {  
     display: inline;
     width: 100%;
-    font: 7em/100% 'Exo 2' sans-serif;
+    font: 7em/100% 'Exo 2', sans-serif;
     text-align: center;
     color: #0078d3;
 }
@@ -132,7 +132,7 @@ li {
 .blog-sub-title {
     display: block;
     width: 100%;
-    font: 1.2em/100% 'din-lightregular' sans-serif; 
+    font: 1.2em/100% 'din-lightregular', sans-serif; 
     text-align: left; 
     color: #f4f4f4;
     margin-bottom: 3em;
@@ -163,7 +163,7 @@ nav li {
     display: inline;
     list-style: none;
     color: #f4f4f4;
-    font: 1.2em/100% 'din-regularregular' sans-serif;
+    font: 1.2em/100% 'din-regularregular', sans-serif;
 }
 
 nav a:link {
@@ -308,7 +308,7 @@ main {
 .blogroll h5 {
     width: 100%;
     margin: 10px;
-    font: 1.2em/150% 'din-regularregular' sans-serif;
+    font: 1.2em/150% 'din-regularregular', sans-serif;
     text-align: center;
 }
 
@@ -347,7 +347,7 @@ main {
 .projects-in-progress h5 {
     width: 100%;
     margin: 10px;
-    font: 1.2em/150% 'din-regularregular' sans-serif;
+    font: 1.2em/150% 'din-regularregular', sans-serif;
     text-align: center;
 }
 
@@ -484,7 +484,7 @@ footer {
 footer p { 
     display: inline;
     width: 100%;
-    font: 0.8em/100% 'din-regularregular' sans-serif;
+    font: 0.8em/100% 'din-regularregular', sans-serif;
     color: #f4f4f4;
     text-align: center;
 }
