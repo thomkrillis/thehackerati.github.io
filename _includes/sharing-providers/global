@@ -24,7 +24,7 @@
     </li>
 
     <li class="fb">
-        <div class="fb-share-button" data-href="http://thehackerati.com/blog{{ page.url }}" data-width="110" data-type="button_count"></div>
+        <div class="fb-share-button" data-href="http://thehackerati.com/{{ page.url }}" data-width="110" data-type="button_count"></div>
     </li>    
 
     <li class="linkedin">
