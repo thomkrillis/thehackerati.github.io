@@ -1424,6 +1424,10 @@ CSS MEDIA QUERIES FOR THEHACKERATI.COM
     ======================================================
     */
 
+    .culture-interstitial {
+        font-size: 1.4em;
+    }
+
     .founder-info, 
     .photo-contact-info, 
     .name-contact-info { 

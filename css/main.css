@@ -682,6 +682,7 @@ HOME PAGE
 .who-container {
     background: #2d2d2d url('../assets/img/bgwhite.png') repeat;
     overflow: hidden;
+    padding-bottom: 5em;
 }
 
 .who-content {
@@ -1611,6 +1612,38 @@ BLOG PAGE
 ABOUT PAGE 
 ======================================================
 */
+
+
+.culture-interstitial {
+    position: relative;
+    width: 100%;
+    background-color: #4CA0D3;
+    font: 2em/120% 'din-regularregular', sans-serif;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    text-align: center;
+}
+
+.culture-interstitial p {
+    width: 98%;
+    margin: 0 auto;
+    color: #f4f4f4;
+    margin: 0;
+    text-align: center;
+}
+
+.culture-interstitial a:link {
+    color: #2d2d2d;
+    transition: all 0.15s linear;
+}
+
+.culture-interstitial a:visited {
+    color: #2d2d2d; 
+}
+
+.culture-interstitial a:hover {
+    color: #f4f4f4;
+}
 
 .geoff {
     margin-right: 2%;
