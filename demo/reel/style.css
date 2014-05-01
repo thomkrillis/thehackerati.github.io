@@ -22,7 +22,7 @@ h1 {
 }
 
 h2 {
-  font-size: 2.5em
+  font-size: 2.5em;
 }
 
 ul {
@@ -57,11 +57,45 @@ content {
 .left-column {
   display: inline-block;
   width: 65%;
+  padding-top: 1.5em;
+}
+
+.vimeo-iframe {
+  max-width: 100%;
+  margin: 0 auto;
 }
 
 .right-column {
   display: inline-block;
   width: 30%;
   padding-top: 1em;
+  margin-left: 4%;
   vertical-align: top;
+}
+
+/* MEDIA QUERIES */
+@media only screen and (max-width : 775px) {
+
+header {
+  height: auto;
+}
+
+.logo {
+  margin-left: 0px;
+}
+
+.logo img {
+  max-width: 50%;
+}
+
+.left-column {
+  display: block;
+  width: 100%;
+}
+
+.right-column {
+  display: block;
+  width: 100%;
+}
+
 }
