@@ -521,12 +521,8 @@ CSS MEDIA QUERIES FOR THEHACKERATI.COM
 
     .who-content { 
         width: 75%; 
-        padding-top: 0;
-    }
-
-    .who-content h1 {
-        margin-top: 80px;
-    }  
+        padding-top: 6em;
+    } 
 
     .what-container h1 {
         margin-top: 50px;
