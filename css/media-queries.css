@@ -1,21 +1,18 @@
-a/*
-  orange: #ec6314;
-  blue: #4CA0D3;
-*/
+/********************************************************************
+CSS MEDIA QUERIES FOR THEHACKERATI.COM
+=====================================================================
+********************************************************************/
 
-/*
-MEDIA QUERIES 
-*/
-
-/* 
-BIGGEST DESKTOP
-*/
+/* BIGGEST DESKTOP
+####################################################################*/
 
 @media all and (min-width: 1200px) {
 
-/*
-GENERAL 
-*/
+    /*
+    ====================================================== 
+    GENERAL
+    ======================================================
+    */
 
     .block-mobile {
         display: none; 
@@ -29,25 +26,29 @@ GENERAL
         width: 90%;
     }
 
-    /*
-    HEADER 
-    */
+    /* HEADER */
     
     .header-section > .content-container {
         width: 1000px;
     }
 
-/*
-HOME PAGE 
-*/
+    .nav-links {
+        text-align: right;
+        width: 45%;
+        float: left;
+    }
+
+    /*
+    ====================================================== 
+    HOME PAGE
+    ======================================================
+    */
 
     /* SECTION 1 */
 
-    .welcome-content {
-    }
-
-    .welcome-copy {
-        
+    .welcome-container .content-container {
+        width: 87%;
+        padding-top: 3em;
     }
 
     /* SECTION 2 */
@@ -245,16 +246,6 @@ HOME PAGE
 
 }
 
-
-@media only screen and (max-width : 1115px) {
-
-  .content-container .nav-links a:link {
-      font: 0.8em/100% "HelveticaRegular";
-  }
-
-}
-
-
 /* BIG TABLET 
 ####################################################################*/
 
@@ -310,8 +301,6 @@ HOME PAGE
     HEADER 
     ======================================================
     */
-
-    
 
     .welcome-copy {
         width: 100%;
@@ -406,10 +395,10 @@ HOME PAGE
     }
 
     .welcome-container .content-container nav { 
-        font: 1.5em/100% 'inconsolatamedium'; 
-        margin-top: 2em;    
+        font: 2.5em/100% 'inconsolatamedium'; 
+        margin-top: 1.5em;    
         padding-top: 0; 
-        padding-bottom: 1.0em;
+        padding-bottom: 0.5em;
     }
 
     .content-container .nav-links a:link {
@@ -429,7 +418,7 @@ HOME PAGE
     }
 
     .welcome-container .header-section > .content-container {   
-        width: 56%;
+        width: 65%;
     }
 
     .welcome-container .block-left { 
@@ -886,11 +875,11 @@ HOME PAGE
    
     .welcome-copy-first {
         margin-bottom: 1em;
-        font: 2.8em/130% 'HelveticaRegular' sans-serif;
+        font: 2.8em/130% 'HelveticaRegular', sans-serif;
     }
     
     .welcome-copy-second {
-        font: 2em/130% 'din-lightregular' sans-serif;
+        font: 2em/130% 'din-lightregular', sans-serif;
     }
    
     .welcome-image {
@@ -1126,7 +1115,7 @@ HOME PAGE
         float: none; 
         clear: both; 
         margin-bottom:8%; 
-        margin- left: 0; 
+        margin-left: 0; 
         margin-right: 0;
     }
 
@@ -1434,6 +1423,10 @@ HOME PAGE
     ABOUT PAGE 
     ======================================================
     */
+
+    .culture-interstitial {
+        font-size: 1.4em;
+    }
 
     .founder-info, 
     .photo-contact-info, 
