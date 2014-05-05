@@ -152,6 +152,10 @@ CSS MEDIA QUERIES FOR THEHACKERATI.COM
         font: 1.4em/150% 'din-regularregular'; 
     }
 
+    .insurance-list li {
+        font: 1em/150% 'din-regularregular';
+    }
+
     .guild-copy {
         margin: 1em 0 1em 2%; 
         font: 1.4em/150% 'din-regularregular'; 
@@ -734,7 +738,11 @@ CSS MEDIA QUERIES FOR THEHACKERATI.COM
     .perks-copy li { 
         font: 1.4em/150% 'din-regularregular'; 
     }
-    
+   
+    .insurance-list li {
+        font: 1em/150% 'din-regularregular';
+    }
+   
     .perks-cell {  
         margin: 30px; 
         float: none;
