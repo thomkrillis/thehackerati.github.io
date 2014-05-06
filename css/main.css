@@ -410,7 +410,7 @@ HEADER
 
 .nav-links {
     text-align: right;
-    width: 50%;
+    width: 45%;
     float: left;
 }
 
@@ -709,7 +709,6 @@ HOME PAGE
     font: 4.3em/100% 'HelveticaRegular';
     padding-bottom: 0px;
     border-bottom: 0px;
-    margin-left: 5%;
 }
 
 #who-title h2 {
@@ -718,7 +717,6 @@ HOME PAGE
     font: 2.7em/100% 'HelveticaRegular';
     padding-bottom: 0px;
     border-bottom: 0px;
-    margin-left: 5%;
 }
 
 #who-info {
@@ -1613,7 +1611,6 @@ ABOUT PAGE
 ======================================================
 */
 
-
 .culture-interstitial {
     position: relative;
     width: 100%;
@@ -1645,33 +1642,172 @@ ABOUT PAGE
     color: #f4f4f4;
 }
 
+.hackeratus-founder-wrapper {
+    width: 250px;
+    float: left;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.hackeratus-team-wrapper {
+    width: 200px;
+    float: left;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.hackeratus-team-wrapper p, 
+.hackeratus-founder-wrapper p {
+    text-align: center;
+    font: 1.3em/120% 'din-regularregular', sans-serif;
+    margin-bottom: 3em;
+}
+
+.hackeratus {
+    -webkit-transition: opacity .2s linear;
+    transition: opacity .2s linear;
+    -webkit-box-shadow: 0px 0px 6px 0px rgba(143, 143, 143, 0.51);
+    -moz-box-shadow:    0px 0px 6px 0px rgba(143, 143, 143, 0.51);
+    box-shadow:         0px 0px 6px 0px rgba(143, 143, 143, 0.51);
+}
+
+.hackeratus-team {
+    width: 200px;
+    height: 200px;
+    border-radius: 150px;
+}
+
+.hackeratus-founder {
+    width: 250px;
+    height: 250px;
+    border-radius: 130px;
+}
+
+.hackeratus:hover {
+    cursor: pointer;
+}
+
+.founders-wrapper {
+    width: 600px;
+    height: 20em;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 6em;
+}
+
+.team-wrapper {
+    width: 920px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .geoff {
-    margin-right: 2%;
+    background: url('../assets/img/geoff.png'); 
+    background-position: 0px 0px;
 }
 
-.geoff img, 
-.rob img {
-    margin-bottom: 1em;
-    width: auto;
+.geoff:hover {
+    background: url('../assets/img/geoff.png'); 
+    background-position: 0px -250px;
 }
 
-.geoff, 
-.rob {
-    padding-bottom: 4.7em;
+#rob {
+    background: url('../assets/img/rob.png');
+    background-position: 0px 0px; 
 }
 
-.leadership-content h3 {
-    font: 1.3em/120% 'inconsolatamedium';
+#rob:hover {
+    background: url('../assets/img/rob.png');
+    background-position: 0px -250px;
 }
 
-.photo-contact-info, 
-.name-contact-info { 
-    display:inline-block; 
-    padding-top: 2.5%; 
-    padding-bottom: 2.5%; 
-    padding-right: 2.5%;
-    width: 100%; 
-    font: 1.15em/130% 'inconsolatamedium';
+#alan {
+    background: url('../assets/img/alan.png') 0px 0px; 
+}
+
+#alan:hover {
+    background: url('../assets/img/alan.png') 0px -200px;
+}
+
+#alex {
+    background: url('../assets/img/alex.png') 0px 0px; 
+}
+
+#alex:hover {
+    background: url('../assets/img/alex.png') 0px -200px;
+}
+
+#ariel {
+    background: url('../assets/img/ariel.png') 0px 0px; 
+}
+
+#ariel:hover {
+    background: url('../assets/img/ariel.png') 0px -200px;
+}
+
+#bobby {
+    background: url('../assets/img/bobby.png') 0px 0px; 
+}
+
+#bobby:hover {
+    background: url('../assets/img/bobby.png') 0px -200px;
+}
+
+#derby {
+    background: url('../assets/img/derby.png') 0px 0px; 
+}
+
+#derby:hover {
+    background: url('../assets/img/derby.png') 0px -200px;
+}
+
+#derek {
+    background: url('../assets/img/derek.png') 0px 0px; 
+}
+
+#derek:hover {
+    background: url('../assets/img/derek.png') 0px -200px;
+}
+
+#donny {
+    background: url('../assets/img/donny.png') 0px 0px; 
+}
+
+#donny:hover {
+    background: url('../assets/img/donny.png') 0px -200px;
+}
+
+#ethan {
+    background: url('../assets/img/ethan.png') 0px 0px; 
+}
+
+#ethan:hover {
+    background: url('../assets/img/ethan.png') 0px -200px;
+}
+
+#kevin {
+    background: url('../assets/img/kevin.png') 0px -200px; 
+}
+
+#kevin:hover {
+    background: url('../assets/img/kevin.png') 0px 0px;
+}
+
+#mike {
+    background: url('../assets/img/mike.png') 0px 0px; 
+}
+
+#mike:hover {
+    background: url('../assets/img/mike.png') 0px -200px;
+}
+
+#ramon {
+    background: url('../assets/img/ramon.png') 0px 0px; 
+}
+
+#ramon:hover {
+    background: url('../assets/img/ramon.png') 0px -200px;
 }
 
 /*
