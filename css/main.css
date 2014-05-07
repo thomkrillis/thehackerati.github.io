@@ -1260,7 +1260,7 @@ body > svg {
     float: right;
     width: 15%;
     height: auto;
-    color: white;
+    color: #f4f4f4;
     text-align: center;
     font: 1.1em/130% 'din-regularregular';
     padding: 0;
@@ -1274,6 +1274,12 @@ body > svg {
 .clients-tools .clients-icon p {
     margin-top: -10px;
     margin-bottom: 2%;
+    opacity: 0.2;
+}
+
+.clients-icon:hover p {
+    opacity: 1;
+    transition: all 0.2s linear;
 }
 
 .fa-icon {
