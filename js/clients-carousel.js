@@ -46,7 +46,7 @@ $(window).on('resize', function () {
       $('.clients-info').eq(0).css("display", "block"); 
       $('.tooltip').eq(0).css("display", "block"); 
       $('.clients-box').eq(0).css("display", "block"); 
-      $('.clients-box').css("left", "29%");
+      $('.clients-box').css("left", "32%");
       $('.clients-info').css("max-height", "none");
       $('.clients-info').css("position", "absolute");
 
@@ -121,7 +121,7 @@ $(window).on('resize', function () {
         clients.eq(slideCount.getNextClient()).css("position", "absolute");
 
         //roll in the new box
-        TweenLite.to(box, .7, { left: "29%", ease: Power4.easeInOut, 
+        TweenLite.to(box, .7, { left: "32%", ease: Power4.easeInOut, 
           onComplete: function(){
             //Display the new tooltips
             clients.eq(slideCount.getNextClient()).find('.tooltip').fadeIn(200);
@@ -158,7 +158,7 @@ $(window).on('resize', function () {
         clients.eq(slideCount.getPrevClient()).css("position", "absolute");
 
         //roll in the new box
-        TweenLite.to(box, .7, { left: "29%", ease: Power4.easeInOut, 
+        TweenLite.to(box, .7, { left: "32%", ease: Power4.easeInOut, 
           onComplete: function(){
             //Display the new tooltips
             clients.eq(slideCount.getPrevClient()).find('.tooltip').fadeIn(200);
