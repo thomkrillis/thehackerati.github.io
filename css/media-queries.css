@@ -300,6 +300,10 @@ CSS MEDIA QUERIES FOR THEHACKERATI.COM
         display: none;
     }
 
+    .no-tablet {
+        display: none;
+    }
+
     /*
     ====================================================== 
     HEADER 
@@ -1261,7 +1265,7 @@ CSS MEDIA QUERIES FOR THEHACKERATI.COM
 
     .clients-tools .clients-icon { 
         display:inline-block; 
-        width:25%; 
+        width:20%; 
         height:auto; 
         font: 1.0em/100% 'inconsolatamedium'; 
         margin-right: 1.7em;
