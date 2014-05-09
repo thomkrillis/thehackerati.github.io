@@ -1,8 +1,19 @@
-$(window).on('resize', function() {
-  if(/webOS|iPhone|iPod|BlackBerry/i.test(navigator.userAgent) || window.innerWidth < 768 || (/Android/i.test(navigator.userAgent) && window.innerWidth < 768 )) {
-    var clientsOpen = false; 
-    var tileFlags = new Array();
-      
+/* 
+ * The following commented-out statements are parsed by
+ * JSLint, our chosen linter for JavaScript, and they are
+ * used to determine which errors we want JSLint to ignore. 
+ * Please do not remove them! 
+ */
+/*jslint browser: true*/
+/*global $, jQuery, alert*/
+/*jslint indent: 2 */
+/*jslint white: false */
+
+$(window).on('resize', function () {
+  //"use strict";
+  if (/webOS|iPhone|iPod|BlackBerry/i.test(navigator.userAgent) || window.innerWidth < 768 || (/Android/i.test(navigator.userAgent) && window.innerWidth < 768)) {
+    var clientsOpen = false;
+    var tileFlags = [];
     $('.clients-info').css("max-height", "3em");
     $('.clients-info').css("display", "block");
     $('.tooltip').css("display", "block");
@@ -25,7 +36,6 @@ $(window).on('resize', function() {
         tileFlags[listIndex] = !tileFlags[listIndex];
       }
     });
-
   }
   else {
     $('.clients-slideshow-previous a').html("← H");
@@ -36,7 +46,7 @@ $(window).on('resize', function() {
       $('.clients-info').eq(0).css("display", "block"); 
       $('.tooltip').eq(0).css("display", "block"); 
       $('.clients-box').eq(0).css("display", "block"); 
-      $('.clients-box').css("left", "29%");
+      $('.clients-box').css("left", "32%");
       $('.clients-info').css("max-height", "none");
       $('.clients-info').css("position", "absolute");
 
@@ -111,7 +121,7 @@ $(window).on('resize', function() {
         clients.eq(slideCount.getNextClient()).css("position", "absolute");
 
         //roll in the new box
-        TweenLite.to(box, .7, { left: "29%", ease: Power4.easeInOut, 
+        TweenLite.to(box, .7, { left: "32%", ease: Power4.easeInOut, 
           onComplete: function(){
             //Display the new tooltips
             clients.eq(slideCount.getNextClient()).find('.tooltip').fadeIn(200);
@@ -148,7 +158,7 @@ $(window).on('resize', function() {
         clients.eq(slideCount.getPrevClient()).css("position", "absolute");
 
         //roll in the new box
-        TweenLite.to(box, .7, { left: "29%", ease: Power4.easeInOut, 
+        TweenLite.to(box, .7, { left: "32%", ease: Power4.easeInOut, 
           onComplete: function(){
             //Display the new tooltips
             clients.eq(slideCount.getPrevClient()).find('.tooltip').fadeIn(200);

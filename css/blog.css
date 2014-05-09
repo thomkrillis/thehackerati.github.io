@@ -419,12 +419,16 @@ main {
     color: #0078d3;
 }
 
-.entry-summary p {
+.entry-summary {
     font: 1.1em/120% 'din-regularregular';
     color: #1c1c1c;
 }
 
-.entry-summary {
+.entry-summary img {
+    max-width: 100%;
+}
+
+.entry-summary p {
     font: 1.1em/120% 'din-regularregular';
     color: #1c1c1c;
 }
