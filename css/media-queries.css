@@ -38,6 +38,10 @@ CSS MEDIA QUERIES FOR THEHACKERATI.COM
         float: left;
     }
 
+    .nav-links.persistent-nav-links {
+        width: 68%;
+    }
+
     /*
     ====================================================== 
     HOME PAGE
@@ -168,8 +172,13 @@ CSS MEDIA QUERIES FOR THEHACKERATI.COM
     }
 
     .insurance-list li {
+<<<<<<< HEAD
         list-style-type: circle;
         font: 1.0em/150% 'din-regularregular';
+=======
+        font: 1em/150% 'din-regularregular';
+        list-style-type: circle;
+>>>>>>> HACK-571 HACK-570 HACK-565 team page
     }
 
     .guild-copy {
@@ -395,7 +404,7 @@ CSS MEDIA QUERIES FOR THEHACKERATI.COM
         width: 60%;
     }
 
-    .persistent-nav-links {
+    .nav-links.persistent-nav-links {
         text-align: right;
         margin-left: 5%;
         width: 66%;
@@ -697,37 +706,17 @@ CSS MEDIA QUERIES FOR THEHACKERATI.COM
     ======================================================
     */
 
-    .photo-contact-info {
-        width: 100%;
+    .team-wrapper {
+        width: 690px;
     }
 
-    .geoff img, 
-    .rob img {
-        margin-right: 1em;
+    .founders-wrapper {
+        width: 560px;
     }
 
-    .name-contact-info { 
-        display: inline-block; 
-        width: 50%;
-    }
-
-    #apprentice-text { 
-        text-align: left; 
-    }
-
-    .block-right, 
-    .block-left { 
-        width: 100%; 
-        padding-left: 0; 
-        padding-right: 0;
-    }
-
-    .about-page #section4-anchor-link .block-mobile { 
-        text-align: center; 
-    }
-
-    #benefits-img { 
-        margin-top: 1em; 
+    .hackeratus-founder-wrapper {
+        margin-right: 15px;
+        margin-left: 15px;
     }
 
     .team-wrapper {
@@ -1484,7 +1473,11 @@ CSS MEDIA QUERIES FOR THEHACKERATI.COM
         margin-left: 10px;
         margin-right: 10px;
     }
+<<<<<<< HEAD
 
+=======
+    
+>>>>>>> HACK-571 HACK-570 HACK-565 team page
     /*
     ====================================================== 
     FOOTER 
@@ -1777,6 +1770,33 @@ CSS MEDIA QUERIES FOR THEHACKERATI.COM
     ABOUT PAGE 
     ======================================================
     */
+<<<<<<< HEAD
+=======
+
+    .team-wrapper {
+        width: 200px;
+    }
+
+    .hackeratus-team-wrapper {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .founders-wrapper {
+        width: 280px;
+    }
+
+    #who-title h1 {
+        margin-left: 0;
+    }
+
+    .culture-interstitial p {
+        width: 95%;
+        margin-left: 2.5%;
+        margin-right: 2.5%;
+        font: 0.9em/150% 'din-regularregular', sans-serif;
+    }
+>>>>>>> HACK-571 HACK-570 HACK-565 team page
    
     .def-hacker h1 {
         font: 2.5em/100% 'HelveticaRegular';
