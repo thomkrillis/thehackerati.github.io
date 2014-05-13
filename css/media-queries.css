@@ -38,6 +38,10 @@ CSS MEDIA QUERIES FOR THEHACKERATI.COM
         float: left;
     }
 
+    .nav-links.persistent-nav-links {
+        width: 68%;
+    }
+
     /*
     ====================================================== 
     HOME PAGE
@@ -67,7 +71,7 @@ CSS MEDIA QUERIES FOR THEHACKERATI.COM
     }
 
     #who-title h1 {
-        font: 4.5em/100% 'HelveticaRegular';
+        font: 5em/100% 'HelveticaRegular';
     }
 
     #who-title h2 {
@@ -94,6 +98,21 @@ CSS MEDIA QUERIES FOR THEHACKERATI.COM
 
     #contact-content {
         width: 980px; 
+    }
+
+    /*
+    ====================================================== 
+    ABOUT PAGE 
+    ======================================================
+    */
+
+    .team-wrapper {
+        width: 980px;
+    }
+
+    .hackeratus-team-wrapper {
+        margin-left: 22px;
+        margin-right: 22px;
     }
 
     /*
@@ -150,6 +169,11 @@ CSS MEDIA QUERIES FOR THEHACKERATI.COM
     .perks-copy li {
         list-style-type: disc; 
         font: 1.4em/150% 'din-regularregular'; 
+    }
+
+    .insurance-list li {
+        font: 1em/150% 'din-regularregular';
+        list-style-type: circle;
     }
 
     .guild-copy {
@@ -371,7 +395,7 @@ CSS MEDIA QUERIES FOR THEHACKERATI.COM
         width: 60%;
     }
 
-    .persistent-nav-links {
+    .nav-links.persistent-nav-links {
         text-align: right;
         margin-left: 5%;
         width: 66%;
@@ -402,7 +426,7 @@ CSS MEDIA QUERIES FOR THEHACKERATI.COM
     }
 
     .content-container .nav-links a:link {
-        font: 0.8em/100% 'HelveticaRegular';
+        font: 0.9em/100% 'HelveticaRegular';
     }
    
     .content-container .nav-links a:visited {
@@ -677,37 +701,17 @@ CSS MEDIA QUERIES FOR THEHACKERATI.COM
     ======================================================
     */
 
-    .photo-contact-info {
-        width: 100%;
+    .team-wrapper {
+        width: 690px;
     }
 
-    .geoff img, 
-    .rob img {
-        margin-right: 1em;
+    .founders-wrapper {
+        width: 560px;
     }
 
-    .name-contact-info { 
-        display: inline-block; 
-        width: 50%;
-    }
-
-    #apprentice-text { 
-        text-align: left; 
-    }
-
-    .block-right, 
-    .block-left { 
-        width: 100%; 
-        padding-left: 0; 
-        padding-right: 0;
-    }
-
-    .about-page #section4-anchor-link .block-mobile { 
-        text-align: center; 
-    }
-
-    #benefits-img { 
-        margin-top: 1em; 
+    .hackeratus-founder-wrapper {
+        margin-right: 15px;
+        margin-left: 15px;
     }
 
     /*
@@ -1059,7 +1063,7 @@ CSS MEDIA QUERIES FOR THEHACKERATI.COM
     /* SECTION 2 */
 
     .who-content { 
-        width: 75%; 
+        width: 79%; 
         padding-bottom: 0;
     }
 
@@ -1424,60 +1428,29 @@ CSS MEDIA QUERIES FOR THEHACKERATI.COM
     ======================================================
     */
 
-    .culture-interstitial {
-        font-size: 1.4em;
+    .culture-interstitial p {
+        width: 98%;
+        margin-left: 1%;
+        margin-right: 1%;
+        font: 0.9em/150% 'din-regularregular', sans-serif;
     }
 
-    .founder-info, 
-    .photo-contact-info, 
-    .name-contact-info { 
-        padding-right: 0;
+    .founders-wrapper {
+        width: 300px;
     }
 
-    .name-contact-info {
-        font: 1.0em/130% 'inconsolatamedium';
+    .hackeratus-wrapper {
+        margin: 0;
     }
 
-    .geoff img,
-    .rob img {
-        margin-right: 0.1em;
-    }
-    
-    .photo-contact-info, 
-    .name-contact-info{ 
-        display:inline-block; 
-        padding-top: 2.5%; 
-        padding-bottom:2.5%;
+    .team-wrapper {
+        width: 440px;
     }
 
-    .photo-contact-info {
-        width: 100%;
+    .hackeratus-team-wrapper {
+        margin-left: 10px;
+        margin-right: 10px;
     }
-
-    .name-contact-info {
-        width: auto;
-    }
-    
-    .founder-info{ 
-        display:inline-block; 
-        padding-left: 0; 
-        padding-right: 0; 
-    }
-    
-    .about-page #section2-anchor-link .block-left, 
-    .about-page #section4-anchor-link .block-left, 
-    .about-page #section3-anchor-link .block-left { 
-        width: 100%; 
-    }
-    
-    #benefits-img { 
-        margin-top: 1em; 
-    }
-
-    .leadership-content-container {
-        padding-top: 0;
-    }
-
     
     /*
     ====================================================== 
@@ -1772,24 +1745,28 @@ CSS MEDIA QUERIES FOR THEHACKERATI.COM
     ======================================================
     */
 
-    .founder-info, 
-    .photo-contact-info, 
-    .name-contact-info { 
-        display: block; 
-        float: none; 
-        clear: both; 
-        padding-top: 3%;
-        padding-right: 0;
+    .team-wrapper {
+        width: 200px;
     }
 
-    .name-contact-info {
-        font: 1.10em/130% 'inconsolatamedium';
-    }
-
-    .geoff img,
-    .rob img {
-        margin-right: 0;
+    .hackeratus-team-wrapper {
         margin-left: 0;
+        margin-right: 0;
+    }
+
+    .founders-wrapper {
+        width: 280px;
+    }
+
+    #who-title h1 {
+        margin-left: 0;
+    }
+
+    .culture-interstitial p {
+        width: 95%;
+        margin-left: 2.5%;
+        margin-right: 2.5%;
+        font: 0.9em/150% 'din-regularregular', sans-serif;
     }
    
     .def-hacker h1 {
