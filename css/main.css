@@ -128,6 +128,11 @@ a:hover {
     transition-timing-function: ease;
 }
 
+a:focus, 
+button:focus {
+    outline: none;
+}
+
 li {
     list-style: none;
 }
@@ -410,8 +415,12 @@ HEADER
 
 .nav-links {
     text-align: right;
-    width: 50%;
+    width: 49%;
     float: left;
+}
+
+.nav-links.persistent-nav-links {
+    width: 47%;
 }
 
 .b-page-nav-links {
@@ -709,7 +718,6 @@ HOME PAGE
     font: 4.3em/100% 'HelveticaRegular';
     padding-bottom: 0px;
     border-bottom: 0px;
-    margin-left: 5%;
 }
 
 #who-title h2 {
@@ -718,7 +726,6 @@ HOME PAGE
     font: 2.7em/100% 'HelveticaRegular';
     padding-bottom: 0px;
     border-bottom: 0px;
-    margin-left: 5%;
 }
 
 #who-info {
@@ -1613,7 +1620,6 @@ ABOUT PAGE
 ======================================================
 */
 
-
 .culture-interstitial {
     position: relative;
     width: 100%;
@@ -1645,33 +1651,100 @@ ABOUT PAGE
     color: #f4f4f4;
 }
 
-.geoff {
-    margin-right: 2%;
+.hackeratus-founder-wrapper {
+    width: 250px;
+    float: left;
+    margin-left: 25px;
+    margin-right: 25px;
 }
 
-.geoff img, 
-.rob img {
-    margin-bottom: 1em;
-    width: auto;
+.hackeratus-team-wrapper {
+    width: 200px;
+    float: left;
+    margin-left: 15px;
+    margin-right: 15px;
 }
 
-.geoff, 
-.rob {
-    padding-bottom: 4.7em;
+.hackeratus-team-wrapper p, 
+.hackeratus-founder-wrapper p {
+    text-align: center;
+    font: 1.3em/120% 'din-regularregular', sans-serif;
+    margin-bottom: 3em;
 }
 
-.leadership-content h3 {
-    font: 1.3em/120% 'inconsolatamedium';
+.hackeratus {
+    -webkit-transition: opacity .2s linear;
+    transition: opacity .2s linear;
+    -webkit-box-shadow: 0px 0px 6px 0px rgba(143, 143, 143, 0.51);
+    -moz-box-shadow:    0px 0px 6px 0px rgba(143, 143, 143, 0.51);
+    box-shadow:         0px 0px 6px 0px rgba(143, 143, 143, 0.51);
+    -webkit-filter: grayscale(50%);
+    -moz-filter: grayscale(50%);
+    filter: grayscale(50%);
 }
 
-.photo-contact-info, 
-.name-contact-info { 
-    display:inline-block; 
-    padding-top: 2.5%; 
-    padding-bottom: 2.5%; 
-    padding-right: 2.5%;
-    width: 100%; 
-    font: 1.15em/130% 'inconsolatamedium';
+.hackeratus:hover {
+    -webkit-filter: grayscale(0%);
+    -moz-filter: grayscale(0%);
+    filter: grayscale(0%);
+}
+
+.hackeratus-team {
+    width: 200px;
+    height: 200px;
+    border-radius: 150px;
+}
+
+.hackeratus-founder {
+    width: 250px;
+    height: 250px;
+    border-radius: 130px;
+}
+
+.hackeratus:hover {
+    cursor: pointer;
+}
+
+.teamphoto img {
+    -webkit-box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.51);
+    -moz-box-shadow:    0px 0px 6px 0px rgba(0, 0, 0, 0.51);
+    box-shadow:         0px 0px 6px 0px rgba(0, 0, 0, 0.51);
+    border-radius: 150px;
+}
+
+.teamphoto {
+    float: left;
+    display: inline-block;
+    width: 40%;
+}
+
+.teambio {
+    display:inline-block;
+    width: 60%;
+    margin-top: 20px;
+}
+
+.founders-wrapper {
+    width: 600px;
+    height: 20em;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 6em;
+}
+
+.team-wrapper {
+    width: 920px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#colorbox p {
+    font: 1.2em/150% 'din-lightregular';
+}
+
+#colorbox {
+    width: 80%;
 }
 
 /*
