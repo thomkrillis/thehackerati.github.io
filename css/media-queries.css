@@ -714,6 +714,19 @@ CSS MEDIA QUERIES FOR THEHACKERATI.COM
         margin-left: 15px;
     }
 
+    .team-wrapper {
+        width: 690px;
+    }
+
+    .founders-wrapper {
+        width: 560px;
+    }
+
+    .hackeratus-founder-wrapper {
+        margin-right: 15px;
+        margin-left: 15px;
+    }
+
     /*
     ====================================================== 
     CAREERS PAGE 
@@ -1451,7 +1464,7 @@ CSS MEDIA QUERIES FOR THEHACKERATI.COM
         margin-left: 10px;
         margin-right: 10px;
     }
-    
+
     /*
     ====================================================== 
     FOOTER 

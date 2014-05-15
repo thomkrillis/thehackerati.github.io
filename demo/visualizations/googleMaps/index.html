@@ -1,0 +1,219 @@
+<!doctype html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+  <title>Google Maps Example</title>
+  <link rel="stylesheet" href="style.css">
+  <script type="text/javascript" src="http://maps.google.com/maps/api/js?libraries=drawing&sensor=true"></script>
+  <script type="text/javascript">
+    function initialize() {
+      var markers = [
+      {
+        "title": "Modell's",
+        "lat": 40.7568,
+        "lng": -73.9886,
+        "description": "Modell's"
+      },
+      {
+        "title": "Above Chevy's Corner",
+        "lat": 40.7572,
+        "lng": -73.9891,
+        "description": "Above Chevy's - Corner"
+      },
+      {
+        "title": "CBS/Panasonic",
+        "lat": 40.7572,
+        "lng": -73.9885,
+        "description": "CBS/Panasonic"
+      },
+      {
+        "title": "Skechers",
+        "lat": 40.7567,
+        "lng": -73.9872,
+        "description": "Skechers"
+      },
+      {
+        "title": "NBC Screen",
+        "lat": -73.9872,
+        "lng": 40.7560,
+        "description": ""
+      },
+      {
+        "title": "Toshiba",
+        "lat": 40.7565,
+        "lng": -73.9864,
+        "description": "Toshiba"
+      },
+      {
+        "title": "Anheuser-Busch Budlight Screen",
+        "lat": 40.7568,
+        "lng": -73.9855,
+        "description": "Anheuser-Busch Budlight Screen"
+      },
+      {
+        "title": "Hard Rock Cafe Screen",
+        "lat": 40.7581,
+        "lng": -73.9863,
+        "description": "Hard Rock Cafe Screen"
+      },
+      {
+        "title": "Kodak Screen",
+        "lat": 40.7586,
+        "lng": -73.9862,
+        "description": "Kodak Screen"
+      },
+      {
+        "title": "Disney",
+        "lat": 40.7581,
+        "lng": -73.9848,
+        "description": "Disney"
+      },
+      {
+        "title": "American Eagle (two screens)",
+        "lat": 40.7535,
+        "lng": -73.9871,
+        "description": "American Eagle (two screens)"
+      },
+      {
+        "title": "CNN Screen",
+        "lat": 40.7594,
+        "lng": -73.9852,
+        "description": "CNN Screen"
+      },
+      {
+        "title": "Hershey's Screen",
+        "lat": 40.7606,
+        "lng": -73.9850,
+        "description": "Hershey's Screen"
+      },
+      {
+        "title": "Military Recruitment Center",
+        "lat": 40.7567,
+        "lng": -73.9861,
+        "description": "Military Recruitment Center"
+      },
+      {
+        "title": "Morgan Stanely Screen",
+        "lat": 40.7549,
+        "lng": -73.9806,
+        "description": "Morgan Stanely Screen"
+      },
+      {
+        "title": "M&M Screen",
+        "lat": 40.7605,
+        "lng": -73.9843,
+        "description": "M&M Screen"
+      },
+      {
+        "title": "North of M&M's",
+        "lat": 40.7607,
+        "lng": -73.9843,
+        "description": "North of M&M's"
+      },
+      {
+        "title": "Barclays Wrap Around",
+        "lat": 40.7608,
+        "lng": -73.9830,
+        "description": "Barclays Wrap Around"
+      },
+      {
+        "title": "1460 Broadway",
+        "lat": 40.7553,
+        "lng": -73.9861,
+        "description": "1460 Broadway"
+      },
+      {
+        "title": "Mary Poppins",
+        "lat": 40.7563,
+        "lng": -73.9877,
+        "description": "Mary Poppins"
+      },
+      {
+        "title": "South Side of 42nd Street Facing North",
+        "lat": 40.7566,
+        "lng": -73.9886,
+        "description": "South Side of 42nd Street Facing North"
+      },
+      {
+        "title": "Above Cold Stone",
+        "lat": 40.7571,
+        "lng": -73.9885,
+        "description": "Above Cold Stone"
+      },
+      {
+        "title": "Above Subway Entrance",
+        "lat": 40.7556,
+        "lng": -73.9867,
+        "description": "Above Subway Entrance"
+      },
+      {
+        "title": "ABC Vinyl Facing North",
+        "lat": 40.7567,
+        "lng": -73.9855,
+        "description": "ABC Vinyl Facing North"
+      }];
+      
+      var myStyles =[
+        {
+          featureType: "poi",
+          elementType: "labels",
+          stylers: [
+            { visibility: "off" }
+          ]
+        },
+        {
+          featureType: "transit.station",
+          elementType: "labels",
+          stylers: [
+            { visibility: "off" }
+          ]
+        }
+      ];
+
+      var mapOptions = {
+        center: new google.maps.LatLng(40.7575, -73.9840),
+        zoom: 16,
+        streetViewControl: false,
+        mapTypeId: google.maps.MapTypeId.ROADMAP,
+        styles: myStyles
+      };
+      
+      var infoWindow = new google.maps.InfoWindow();
+      
+      var map = new google.maps.Map(document.getElementById("map_canvas"), mapOptions);
+
+      var sv = new google.maps.StreetViewService();
+
+      for (i = 0; i < markers.length; i++) {
+        var data = markers[i]
+        var myLatlng = new google.maps.LatLng(data.lat, data.lng);
+        var marker = new google.maps.Marker({
+          position: myLatlng,
+          animation: google.maps.Animation.DROP,
+          map: map,
+          title: data.title
+        });
+        (function(marker, data) {
+          var contentString = data.description + '<div id="content" style="width:500px;height:350px;"></div><br/>';
+
+          google.maps.event.addListener(marker, "click", function(e) {
+            infoWindow.setContent(contentString);
+            infoWindow.open(map, marker);
+         
+            google.maps.event.addListener(infoWindow, 'domready', function() { 
+               var panoramaOptions = {
+                  addressControl: false
+                };
+              var panorama = new google.maps.StreetViewPanorama(document.getElementById("content"), panoramaOptions); 
+              panorama.setPosition(marker.getPosition());
+            }); 
+
+          });
+        })(marker, data);
+      }
+    }
+  </script>
+  </head>
+    <body onload="initialize()">
+    <div id="map_canvas" style="width: 900px; height: 650px"></div>
+  </body>
+</html>
