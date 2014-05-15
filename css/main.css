@@ -128,7 +128,8 @@ a:hover {
     transition-timing-function: ease;
 }
 
-a:focus {
+a:focus, 
+button:focus {
     outline: none;
 }
 
@@ -414,7 +415,7 @@ HEADER
 
 .nav-links {
     text-align: right;
-    width: 45%;
+    width: 49%;
     float: left;
 }
 
