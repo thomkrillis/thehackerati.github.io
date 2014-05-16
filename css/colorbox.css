@@ -37,10 +37,10 @@
         /* avoid outlines on :active (mouseclick), but preserve outlines on :focus (tabbed navigating) */
         #cboxPrevious:active, #cboxNext:active, #cboxSlideshow:active, #cboxClose:active {outline:0;}
 
-        #cboxPrevious{left:0px; background:url(../assets/img/controls.png) no-repeat -126.301px 0px; top: 50%; width: 26.087px; height:56.363px;}
+        #cboxPrevious{left:10px; background:url(../assets/img/controls.png) no-repeat -126.301px 0px; top: 50%; width: 26.087px; height:56.363px; margin-top: -28px;}
         #cboxPrevious:hover{background-position:-87.208px 0px; width: 26.087px; height:56.363px;}
-        #cboxNext{right: 0; top: 50%; background:url(../assets/img/controls.png) no-repeat -0.006px 0px; width: 26.087px; height:56.363px;}
-        #cboxNext:hover{background-position:-39.091px 0px; width: 26.087px; height:56.363px;}
+        #cboxNext{right: 10px; top: 50%; background:url(../assets/img/controls.png) no-repeat -4.006px 0px; width: 26.087px; height:56.363px; margin-top: -28px;}
+        #cboxNext:hover{background-position:-43.091px 0px; width: 26.087px; height:56.363px;}
         #cboxClose{right:20px; top: 20px; background:url(../assets/img/close.png) no-repeat 1px 0px;}
         #cboxClose:hover{background-position:-33.8px 0px;}
 

@@ -1665,169 +1665,6 @@ ABOUT PAGE
     float: left;
     margin-left: 25px;
     margin-right: 25px;
-<<<<<<< HEAD
-}
-
-.hackeratus-team-wrapper {
-    width: 200px;
-    float: left;
-    margin-left: 15px;
-    margin-right: 15px;
-}
-
-.hackeratus-team-wrapper p, 
-.hackeratus-founder-wrapper p {
-    text-align: center;
-    font: 1.3em/120% 'din-regularregular', sans-serif;
-    margin-bottom: 3em;
-}
-
-.hackeratus {
-    -webkit-transition: opacity .2s linear;
-    transition: opacity .2s linear;
-    -webkit-box-shadow: 0px 0px 6px 0px rgba(143, 143, 143, 0.51);
-    -moz-box-shadow:    0px 0px 6px 0px rgba(143, 143, 143, 0.51);
-    box-shadow:         0px 0px 6px 0px rgba(143, 143, 143, 0.51);
-}
-
-.hackeratus-team {
-    width: 200px;
-    height: 200px;
-    border-radius: 150px;
-}
-
-.hackeratus-founder {
-    width: 250px;
-    height: 250px;
-    border-radius: 130px;
-}
-
-.hackeratus:hover {
-    cursor: pointer;
-}
-
-.founders-wrapper {
-    width: 600px;
-    height: 20em;
-    margin-left: auto;
-    margin-right: auto;
-    padding-top: 6em;
-}
-
-.team-wrapper {
-    width: 920px;
-    height: auto;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.geoff {
-    background: url('../assets/img/geoff.png'); 
-    background-position: 0px 0px;
-}
-
-.geoff:hover {
-    background: url('../assets/img/geoff.png'); 
-    background-position: 0px -250px;
-}
-
-#rob {
-    background: url('../assets/img/rob.png');
-    background-position: 0px 0px; 
-}
-
-#rob:hover {
-    background: url('../assets/img/rob.png');
-    background-position: 0px -250px;
-}
-
-#alan {
-    background: url('../assets/img/alan.png') 0px 0px; 
-}
-
-#alan:hover {
-    background: url('../assets/img/alan.png') 0px -200px;
-}
-
-#alex {
-    background: url('../assets/img/alex.png') 0px 0px; 
-}
-
-#alex:hover {
-    background: url('../assets/img/alex.png') 0px -200px;
-}
-
-#ariel {
-    background: url('../assets/img/ariel.png') 0px 0px; 
-}
-
-#ariel:hover {
-    background: url('../assets/img/ariel.png') 0px -200px;
-}
-
-#bobby {
-    background: url('../assets/img/bobby.png') 0px 0px; 
-}
-
-#bobby:hover {
-    background: url('../assets/img/bobby.png') 0px -200px;
-}
-
-#derby {
-    background: url('../assets/img/derby.png') 0px 0px; 
-}
-
-#derby:hover {
-    background: url('../assets/img/derby.png') 0px -200px;
-}
-
-#derek {
-    background: url('../assets/img/derek.png') 0px 0px; 
-}
-
-#derek:hover {
-    background: url('../assets/img/derek.png') 0px -200px;
-}
-
-#donny {
-    background: url('../assets/img/donny.png') 0px 0px; 
-}
-
-#donny:hover {
-    background: url('../assets/img/donny.png') 0px -200px;
-}
-
-#ethan {
-    background: url('../assets/img/ethan.png') 0px 0px; 
-}
-
-#ethan:hover {
-    background: url('../assets/img/ethan.png') 0px -200px;
-}
-
-#kevin {
-    background: url('../assets/img/kevin.png') 0px -200px; 
-}
-
-#kevin:hover {
-    background: url('../assets/img/kevin.png') 0px 0px;
-}
-
-#mike {
-    background: url('../assets/img/mike.png') 0px 0px; 
-}
-
-#mike:hover {
-    background: url('../assets/img/mike.png') 0px -200px;
-}
-
-#ramon {
-    background: url('../assets/img/ramon.png') 0px 0px; 
-}
-
-#ramon:hover {
-    background: url('../assets/img/ramon.png') 0px -200px;
-=======
 }
 
 .hackeratus-team-wrapper {
@@ -1888,11 +1725,12 @@ ABOUT PAGE
     float: left;
     display: inline-block;
     width: 40%;
+    text-align: center;
 }
 
 .teambio {
     display:inline-block;
-    width: 60%;
+    width: 55%;
     margin-top: 20px;
 }
 
@@ -1915,9 +1753,45 @@ ABOUT PAGE
     font: 1.2em/150% 'din-lightregular';
 }
 
-#colorbox {
-    width: 80%;
->>>>>>> HACK-571 HACK-570 HACK-565 team page
+.team-social-media-sprite {
+    background: url('../assets/img/social-media-team-page.svg') no-repeat; 
+    width: 34.54px;
+    height: 2.5em;
+    float: left;
+    margin-right: 0.5em;
+}
+
+.linkedin-team {
+    background-position:-58.775px -50.577px;
+}
+
+.linkedin-team:hover { 
+    background-position:-128.487px -51.246px;
+}
+
+.github-team {
+    background-position:-23.843px -85.573px;
+}
+
+.github-team:hover {
+    background-position:-93.555px -86.242px;
+}
+
+.twitter-team {
+    background-position:-23.844px -15.741px;
+}
+
+.twitter-team:hover {
+    background-position:-93.555px -16.41px;
+}
+
+#colorbox a:link, #colorbox a:visited {
+    color: #F9A15F;
+}
+
+#colorbox a:hover {
+    color: #fff;
+>>>>>>> HACK-571 HACK-565 tweaking team page to make it look more tight
 }
 
 /*
