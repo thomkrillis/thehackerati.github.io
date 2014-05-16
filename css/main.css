@@ -1716,11 +1716,12 @@ ABOUT PAGE
     float: left;
     display: inline-block;
     width: 40%;
+    text-align: center;
 }
 
 .teambio {
     display:inline-block;
-    width: 60%;
+    width: 55%;
     margin-top: 20px;
 }
 
@@ -1743,6 +1744,48 @@ ABOUT PAGE
     font: 1.2em/150% 'din-lightregular';
 }
 
+.team-social-media-sprite {
+    background: url('../assets/img/social-media-team-page.svg') no-repeat; 
+    width: 34.54px;
+    height: 2.5em;
+    float: left;
+    margin-right: 0.5em;
+}
+
+.linkedin-team {
+    background-position:-58.775px -50.577px;
+}
+
+.linkedin-team:hover { 
+    background-position:-128.487px -51.246px;
+}
+
+.github-team {
+    background-position:-23.843px -85.573px;
+}
+
+.github-team:hover {
+    background-position:-93.555px -86.242px;
+}
+
+.twitter-team {
+    background-position:-23.844px -15.741px;
+}
+
+.twitter-team:hover {
+    background-position:-93.555px -16.41px;
+}
+
+#colorbox a:link, #colorbox a:visited {
+    color: #F9A15F;
+}
+
+#colorbox a:hover {
+    color: #fff;
+}
+
+=======
+>>>>>>> HACK-565
 /*
 ====================================================== 
 ACADEMY PAGE 
