@@ -101,7 +101,13 @@ p {
 }
 
 li {
-    font: 1.5em/180% georgia serif;
+    font: 1.5em/180% 'din-lightregular', sans-serif;
+    color: #2c2c2c;
+    margin-left: 40px;
+}
+
+li > ul {
+    font: 0.5em/180% 'din-lightregular', sans-serif;
     color: #2c2c2c;
     margin-left: 40px;
 }
