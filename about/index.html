@@ -152,15 +152,6 @@ ABOUT PAGE
             </div>
 
             <div class="hackeratus-team-wrapper">
-                <a class='inline' href="#derek-modal">
-                    <div class="hackeratus hackeratus-team" id="derek">
-                        <img src="../assets/img/derek.png">
-                    </div>
-                </a>
-                <p>Derek Toub</p>
-            </div>
-
-            <div class="hackeratus-team-wrapper">
                 <a class='inline' href="#donny-modal">
                     <div class="hackeratus hackeratus-team" id="donny">
                         <img src="../assets/img/donny.png">
@@ -221,24 +212,27 @@ ABOUT PAGE
     <!-- This contains the hidden content for inline calls -->
         <div style='display:none'>
             <div id='geoff-modal'>
-                <div class="teamphoto">
-                    <img src="../assets/img/geoff.png">
-                </div>
-                <div class="teambio">
-                    <h4>Geoff Scott</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed bibendum ornare eleifend. Nullam lorem quam, tristique non lacus nec, volutpat elementum odio. Donec purus nisi, blandit convallis volutpat sed, varius vel elit. Integer bibendum pulvinar diam. Morbi sed dignissim elit, sit amet pulvinar massa. Aenean eget odio eu sapien consectetur feugiat ac in elit. Fusce risus dolor, laoreet sed tincidunt quis, malesuada sed erat.</p>
-                    <p><a href="mailto:geoff@thehackerati.com">geoff@thehackerati.com</a> &middot; <a href="http://www.scottopia.com/" target="blank">scottopia.com</a></p>
-                    <a href="https://twitter.com/geoffscott"target="blank">
-                        <div class="team-social-media-sprite twitter-team"></div>
-                    </a>
-                    <a href="https://www.linkedin.com/in/geoffscott"target="blank">
-                        <div class="team-social-media-sprite linkedin-team"></div>
-                    </a>
-                    <a href="https://github.com/geoffscott" target="blank">
-                        <div class="team-social-media-sprite github-team"></div>
-                    </a>
-                </div>
-            </div>
+                <div class="team-desktop">
+                    <div class="teamphoto">
+                        <img src="../assets/img/geoff.png">
+                    </div>
+                    <div class="teambio">
+                        {% include team-page/geoff-header.html %}
+                        {% include team-page/geoff-bio.html %}
+                        {% include team-page/geoff-contact.html %}
+                    </div>
+                </div><!--/team-desktop-->
+                <div class="team-tablet">
+                    <div class="teamphoto">
+                        <img src="../assets/img/geoff.png">
+                    </div>
+                    <div class="teambio">
+                        {% include team-page/geoff-header.html %}
+                        {% include team-page/geoff-contact.html %}
+                    </div>
+                    {% include team-page/geoff-bio.html %}
+                </div><!--/team-tablet-->
+            </div><!--geoff-modal-->
             <div id='rob-modal'>
                 <div class="teamphoto">
                     <img src="../assets/img/rob.png">
@@ -288,7 +282,7 @@ ABOUT PAGE
                     <a href="https://www.linkedin.com/in/alexkrupp"target="blank">
                         <div class="team-social-media-sprite linkedin-team"></div>
                     </a>
-                    <a href="#" target="blank">
+                    <a href="https://github.com/Alex3917" target="blank">
                         <div class="team-social-media-sprite github-team"></div>
                     </a>
                 </div>
@@ -304,7 +298,7 @@ ABOUT PAGE
                     <a href="https://twitter.com/argoncobalt"target="blank">
                         <div class="team-social-media-sprite twitter-team"></div>
                     </a>
-                    <a href="https://www.linkedin.com/pub/ariel-cotton/50/73a/273"target="blank">
+                    <a href="https://www.linkedin.com/in/arielcotton"target="blank">
                         <div class="team-social-media-sprite linkedin-team"></div>
                     </a>
                     <a href="https://github.com/argoncobalt" target="blank">
@@ -319,15 +313,13 @@ ABOUT PAGE
                 <div class="teambio">
                     <h4>Bobby Yankou</h4>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed bibendum ornare eleifend. Nullam lorem quam, tristique non lacus nec, volutpat elementum odio. Donec purus nisi, blandit convallis volutpat sed, varius vel elit. Integer bibendum pulvinar diam. Morbi sed dignissim elit, sit amet pulvinar massa. Aenean eget odio eu sapien consectetur feugiat ac in elit. Fusce risus dolor, laoreet sed tincidunt quis, malesuada sed erat.</p>
-                </div>
-            </div>
-            <div id='derek-modal'>
-                <div class="teamphoto">
-                    <img src="../assets/img/derek.png">
-                </div>
-                <div class="teambio">
-                    <h4>Derek Toub</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed bibendum ornare eleifend. Nullam lorem quam, tristique non lacus nec, volutpat elementum odio. Donec purus nisi, blandit convallis volutpat sed, varius vel elit. Integer bibendum pulvinar diam. Morbi sed dignissim elit, sit amet pulvinar massa. Aenean eget odio eu sapien consectetur feugiat ac in elit. Fusce risus dolor, laoreet sed tincidunt quis, malesuada sed erat.</p>
+                    <p><a href="mailto:bobby@thehackerati.com">bobby@thehackerati.com</a></p>
+                    <a href="https://www.linkedin.com/in/robertyankou"target="blank">
+                        <div class="team-social-media-sprite linkedin-team"></div>
+                    </a>
+                    <a href="https://github.com/thomkrillis" target="blank">
+                        <div class="team-social-media-sprite github-team"></div>
+                    </a>
                 </div>
             </div>
             <div id='donny-modal'>
@@ -337,6 +329,16 @@ ABOUT PAGE
                 <div class="teambio">
                     <h4>Donny Kanner</h4>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed bibendum ornare eleifend. Nullam lorem quam, tristique non lacus nec, volutpat elementum odio. Donec purus nisi, blandit convallis volutpat sed, varius vel elit. Integer bibendum pulvinar diam. Morbi sed dignissim elit, sit amet pulvinar massa. Aenean eget odio eu sapien consectetur feugiat ac in elit. Fusce risus dolor, laoreet sed tincidunt quis, malesuada sed erat.</p>
+                    <p><a href="mailto:donny@thehackerati.com">donny@thehackerati.com</a></p>
+                    <a href="https://twitter.com/donnykanner"target="blank">
+                        <div class="team-social-media-sprite twitter-team"></div>
+                    </a>
+                    <a href="https://www.linkedin.com/pub/daniel-donny-kanner/29/787/555"target="blank">
+                        <div class="team-social-media-sprite linkedin-team"></div>
+                    </a>
+                    <a href="https://github.com/DKanner" target="blank">
+                        <div class="team-social-media-sprite github-team"></div>
+                    </a>
                 </div>
             </div>
             <div id='ethan-modal'>
@@ -346,6 +348,16 @@ ABOUT PAGE
                 <div class="teambio">
                     <h4>Ethan Lusterman</h4>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed bibendum ornare eleifend. Nullam lorem quam, tristique non lacus nec, volutpat elementum odio. Donec purus nisi, blandit convallis volutpat sed, varius vel elit. Integer bibendum pulvinar diam. Morbi sed dignissim elit, sit amet pulvinar massa. Aenean eget odio eu sapien consectetur feugiat ac in elit. Fusce risus dolor, laoreet sed tincidunt quis, malesuada sed erat.</p>
+                    <p><a href="mailto:ethan@thehackerati.com">ethan@thehackerati.com</a></p>
+                    <a href="https://twitter.com/lusterdome"target="blank">
+                        <div class="team-social-media-sprite twitter-team"></div>
+                    </a>
+                    <a href="https://www.linkedin.com/pub/ethan-lusterman/35/620/661"target="blank">
+                        <div class="team-social-media-sprite linkedin-team"></div>
+                    </a>
+                    <a href="https://github.com/luster" target="blank">
+                        <div class="team-social-media-sprite github-team"></div>
+                    </a>
                 </div>
             </div>
             <div id='kevin-modal'>
@@ -355,6 +367,13 @@ ABOUT PAGE
                 <div class="teambio">
                     <h4>Kevin Ruiz</h4>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed bibendum ornare eleifend. Nullam lorem quam, tristique non lacus nec, volutpat elementum odio. Donec purus nisi, blandit convallis volutpat sed, varius vel elit. Integer bibendum pulvinar diam. Morbi sed dignissim elit, sit amet pulvinar massa. Aenean eget odio eu sapien consectetur feugiat ac in elit. Fusce risus dolor, laoreet sed tincidunt quis, malesuada sed erat.</p>
+                    <p><a href="mailto:kevin.ruiz@thehackerati.com">kevin.ruiz@thehackerati.com</a></p>
+                    <a href="https://www.linkedin.com/pub/kevin-ruiz/78/b9/829"target="blank">
+                        <div class="team-social-media-sprite linkedin-team"></div>
+                    </a>
+                    <a href="https://github.com/engineerKev" target="blank">
+                        <div class="team-social-media-sprite github-team"></div>
+                    </a>
                 </div>
             </div>
             <div id='mike-modal'>
@@ -364,6 +383,16 @@ ABOUT PAGE
                 <div class="teambio">
                     <h4>Michael Ketigian</h4>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed bibendum ornare eleifend. Nullam lorem quam, tristique non lacus nec, volutpat elementum odio. Donec purus nisi, blandit convallis volutpat sed, varius vel elit. Integer bibendum pulvinar diam. Morbi sed dignissim elit, sit amet pulvinar massa. Aenean eget odio eu sapien consectetur feugiat ac in elit. Fusce risus dolor, laoreet sed tincidunt quis, malesuada sed erat.</p>
+                    <p><a href="mailto:michael@thehackerati.com">mike@thehackerati.com</a></p>
+                    <a href="https://twitter.com/mketigian"target="blank">
+                        <div class="team-social-media-sprite twitter-team"></div>
+                    </a>
+                    <a href="https://www.linkedin.com/pub/michael-ketigian/16/9b9/823"target="blank">
+                        <div class="team-social-media-sprite linkedin-team"></div>
+                    </a>
+                    <a href="https://github.com/mketigian" target="blank">
+                        <div class="team-social-media-sprite github-team"></div>
+                    </a>
                 </div>
             </div>
             <div id='ramon-modal'>
@@ -373,6 +402,13 @@ ABOUT PAGE
                 <div class="teambio">
                     <h4>Ramon Sandoval</h4>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed bibendum ornare eleifend. Nullam lorem quam, tristique non lacus nec, volutpat elementum odio. Donec purus nisi, blandit convallis volutpat sed, varius vel elit. Integer bibendum pulvinar diam. Morbi sed dignissim elit, sit amet pulvinar massa. Aenean eget odio eu sapien consectetur feugiat ac in elit. Fusce risus dolor, laoreet sed tincidunt quis, malesuada sed erat.</p>
+                    <p><a href="mailto:ramon@thehackerati.com">ramon@thehackerati.com</a></p>
+                    <a href="https://www.linkedin.com/pub/ramon-sandoval/58/2a2/55"target="blank">
+                        <div class="team-social-media-sprite linkedin-team"></div>
+                    </a>
+                    <a href="https://github.com/Rhathe" target="blank">
+                        <div class="team-social-media-sprite github-team"></div>
+                    </a>
                 </div>
             </div>
             <div id='derby-modal'>
@@ -382,6 +418,13 @@ ABOUT PAGE
                 <div class="teambio">
                     <h4>Steven Derby</h4>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed bibendum ornare eleifend. Nullam lorem quam, tristique non lacus nec, volutpat elementum odio. Donec purus nisi, blandit convallis volutpat sed, varius vel elit. Integer bibendum pulvinar diam. Morbi sed dignissim elit, sit amet pulvinar massa. Aenean eget odio eu sapien consectetur feugiat ac in elit. Fusce risus dolor, laoreet sed tincidunt quis, malesuada sed erat.</p>
+                    <p><a href="mailto:derby@thehackerati.com">derby@thehackerati.com</a> &middot; <a href="http://www.tripticsoul.com/" target="blank">Triptic Soul</a></p>
+                    <a href="https://www.linkedin.com/pub/steven-derby/1/508/801"target="blank">
+                        <div class="team-social-media-sprite linkedin-team"></div>
+                    </a>
+                    <a href="https://github.com/derbios" target="blank">
+                        <div class="team-social-media-sprite github-team"></div>
+                    </a>
                 </div>
             </div>
         </div>
