@@ -1726,12 +1726,17 @@ ABOUT PAGE
     display: inline-block;
     width: 40%;
     text-align: center;
+    margin-left: 1%;
+    position: absolute;
+    margin-top: -135px;
+    top: 50%;
 }
 
 .teambio {
     display:inline-block;
-    width: 55%;
+    width: 50%;
     margin-top: 20px;
+    margin-left: 44%;
 }
 
 .founders-wrapper {
