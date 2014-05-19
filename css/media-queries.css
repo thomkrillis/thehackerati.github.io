@@ -115,6 +115,18 @@ CSS MEDIA QUERIES FOR THEHACKERATI.COM
         margin-right: 22px;
     }
 
+    .team-desktop {
+        display: block;
+    }
+
+    .team-tablet {
+        display: none;
+    }
+
+    .team-smartphone {
+        display: none;
+    }
+
     /*
     ====================================================== 
     ACADEMY PAGE 
@@ -172,13 +184,8 @@ CSS MEDIA QUERIES FOR THEHACKERATI.COM
     }
 
     .insurance-list li {
-<<<<<<< HEAD
         list-style-type: circle;
         font: 1.0em/150% 'din-regularregular';
-=======
-        font: 1em/150% 'din-regularregular';
-        list-style-type: circle;
->>>>>>> HACK-571 HACK-570 HACK-565 team page
     }
 
     .guild-copy {
@@ -730,6 +737,46 @@ CSS MEDIA QUERIES FOR THEHACKERATI.COM
     .hackeratus-founder-wrapper {
         margin-right: 15px;
         margin-left: 15px;
+    }
+
+    .team-desktop {
+        display: none;
+    }
+
+    .team-tablet {
+        display: block;
+    }
+
+    .team-smartphone {
+        display: none;
+    }
+
+    .teamcontact {
+        height: 180px;
+        width: 34%;
+        margin-left: 5%;
+        position: relative;
+        display: inline-block;
+        margin-top: 70px;
+    }
+
+    .teambio {
+        width: 490px;
+        margin-bottom: 1px;
+        margin-top: 50px;
+        position: relative;
+        display: block;
+        margin-left: 40px;
+    }
+
+    .teamphoto {
+        position: relative;
+        margin-top: 0;
+        top: 0;
+        width: 46%;
+        margin-left: 7%;
+        margin-top: 20px;
+        height: 250px;
     }
 
     /*
@@ -1473,11 +1520,19 @@ CSS MEDIA QUERIES FOR THEHACKERATI.COM
         margin-left: 10px;
         margin-right: 10px;
     }
-<<<<<<< HEAD
 
-=======
-    
->>>>>>> HACK-571 HACK-570 HACK-565 team page
+    .team-desktop {
+        display: none;
+    }
+
+    .team-tablet {
+        display: none;
+    }
+
+    .team-smartphone {
+        display: block;
+    }
+
     /*
     ====================================================== 
     FOOTER 
@@ -1512,6 +1567,7 @@ CSS MEDIA QUERIES FOR THEHACKERATI.COM
 
     .footer-section .content-container { 
         width: 23em; 
+        padding-bottom: 0;
     }
 
     .twitter-footer { 
@@ -1770,8 +1826,6 @@ CSS MEDIA QUERIES FOR THEHACKERATI.COM
     ABOUT PAGE 
     ======================================================
     */
-<<<<<<< HEAD
-=======
 
     .team-wrapper {
         width: 200px;
@@ -1796,7 +1850,6 @@ CSS MEDIA QUERIES FOR THEHACKERATI.COM
         margin-right: 2.5%;
         font: 0.9em/150% 'din-regularregular', sans-serif;
     }
->>>>>>> HACK-571 HACK-570 HACK-565 team page
    
     .def-hacker h1 {
         font: 2.5em/100% 'HelveticaRegular';
@@ -1806,28 +1859,16 @@ CSS MEDIA QUERIES FOR THEHACKERATI.COM
         font: 2.5em/100% 'HelveticaRegular';
     }
 
-    .team-wrapper {
-        width: 200px;
+    .team-desktop {
+        display: none;
     }
 
-    .hackeratus-team-wrapper {
-        margin-left: 0;
-        margin-right: 0;
+    .team-tablet {
+        display: none;
     }
 
-    .founders-wrapper {
-        width: 280px;
-    }
-
-    #who-title h1 {
-        margin-left: 0;
-    }
-
-    .culture-interstitial p {
-        width: 95%;
-        margin-left: 2.5%;
-        margin-right: 2.5%;
-        font: 0.9em/150% 'din-regularregular', sans-serif;
+    .team-smartphone {
+        display: block;
     }
 
     /*

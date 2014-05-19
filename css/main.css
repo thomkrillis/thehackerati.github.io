@@ -351,6 +351,18 @@ img.splash{
     z-index: -200;
 }
 
+.clearfix:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+
+.clearfix {
+    display: inline-block;
+}
+
 /*
 ====================================================== 
 HEADER 
@@ -1724,12 +1736,18 @@ ABOUT PAGE
 .teamphoto {
     float: left;
     display: inline-block;
-    width: 40%;
-    text-align: center;
-    margin-left: 1%;
+    width: 31.5%;
+    margin-left: 6%;
     position: absolute;
-    margin-top: -135px;
+    margin-top: -180px;
     top: 50%;
+    height: 380px;
+}
+
+.teamphoto img {
+    text-align: center;
+    width: 250px;
+    height: 250px;
 }
 
 .teambio {
@@ -1737,6 +1755,15 @@ ABOUT PAGE
     width: 50%;
     margin-top: 20px;
     margin-left: 44%;
+}
+
+.teamcontact {
+    width: 200px;
+    margin: 0 auto;
+}
+
+.teamcontact p {
+    margin-bottom: 10px;
 }
 
 .founders-wrapper {
@@ -1791,12 +1818,24 @@ ABOUT PAGE
 }
 
 #colorbox a:link, #colorbox a:visited {
-    color: #F9A15F;
+    color: #F97B3D;
 }
 
 #colorbox a:hover {
     color: #fff;
 >>>>>>> HACK-571 HACK-565 tweaking team page to make it look more tight
+}
+
+.team-desktop {
+    display: block;
+}
+
+.team-tablet {
+    display: none;
+}
+
+.team-smartphone {
+    display: none;
 }
 
 /*
@@ -2199,7 +2238,7 @@ footer p {
 
 .footer-section .content-container {
     padding-top: 0;
-    padding-bottom: 0;
+    padding-bottom: 450px;
 }
 
 .column.contact {
