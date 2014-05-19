@@ -115,6 +115,18 @@ CSS MEDIA QUERIES FOR THEHACKERATI.COM
         margin-right: 22px;
     }
 
+    .team-desktop {
+        display: block;
+    }
+
+    .team-tablet {
+        display: none;
+    }
+
+    .team-smartphone {
+        display: none;
+    }
+
     /*
     ====================================================== 
     ACADEMY PAGE 
@@ -725,6 +737,46 @@ CSS MEDIA QUERIES FOR THEHACKERATI.COM
     .hackeratus-founder-wrapper {
         margin-right: 15px;
         margin-left: 15px;
+    }
+
+    .team-desktop {
+        display: none;
+    }
+
+    .team-tablet {
+        display: block;
+    }
+
+    .team-smartphone {
+        display: none;
+    }
+
+    .teamcontact {
+        height: 180px;
+        width: 34%;
+        margin-left: 5%;
+        position: relative;
+        display: inline-block;
+        margin-top: 70px;
+    }
+
+    .teambio {
+        width: 490px;
+        margin-bottom: 1px;
+        margin-top: 50px;
+        position: relative;
+        display: block;
+        margin-left: 40px;
+    }
+
+    .teamphoto {
+        position: relative;
+        margin-top: 0;
+        top: 0;
+        width: 46%;
+        margin-left: 7%;
+        margin-top: 20px;
+        height: 250px;
     }
 
     /*
@@ -1465,6 +1517,18 @@ CSS MEDIA QUERIES FOR THEHACKERATI.COM
         margin-right: 10px;
     }
 
+    .team-desktop {
+        display: none;
+    }
+
+    .team-tablet {
+        display: none;
+    }
+
+    .team-smartphone {
+        display: block;
+    }
+
     /*
     ====================================================== 
     FOOTER 
@@ -1499,6 +1563,7 @@ CSS MEDIA QUERIES FOR THEHACKERATI.COM
 
     .footer-section .content-container { 
         width: 23em; 
+        padding-bottom: 0;
     }
 
     .twitter-footer { 
@@ -1788,6 +1853,18 @@ CSS MEDIA QUERIES FOR THEHACKERATI.COM
     
     .def-hackerati h1 {
         font: 2.5em/100% 'HelveticaRegular';
+    }
+
+    .team-desktop {
+        display: none;
+    }
+
+    .team-tablet {
+        display: none;
+    }
+
+    .team-smartphone {
+        display: block;
     }
 
     /*

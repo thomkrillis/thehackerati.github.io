@@ -23,7 +23,7 @@
 #cboxOverlay{background:#000;}
 #colorbox{outline:0;}
     #cboxBottomCenter{height:43px; background: none;}
-    #cboxContent{background:#2D6296; overflow:visible; color: #fff; padding: 25px; border-radius: 20px; }
+    #cboxContent{background:#2D6296; overflow:visible; color: #fff; padding: 25px; border-radius: 20px; background: #2D6296 url('../assets/img/bgdarkblue.png') repeat;}
         #cboxError{padding:50px; border:1px solid #ccc;}
         #cboxLoadedContent{margin-bottom:5px;}
         #cboxLoadingOverlay{background:url(../assets/colorbox-images/loading_background.png) no-repeat center center;}

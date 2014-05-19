@@ -214,219 +214,327 @@ ABOUT PAGE
             <div id='geoff-modal'>
                 <div class="team-desktop">
                     <div class="teamphoto">
-                        <img src="../assets/img/geoff.png">
+                        {% include team-page/geoff-img.html %}
+                        <div class="teamcontact">
+                            {% include team-page/geoff-contact.html %}
+                        </div>
                     </div>
                     <div class="teambio">
                         {% include team-page/geoff-header.html %}
                         {% include team-page/geoff-bio.html %}
-                        {% include team-page/geoff-contact.html %}
                     </div>
                 </div><!--/team-desktop-->
                 <div class="team-tablet">
                     <div class="teamphoto">
-                        <img src="../assets/img/geoff.png">
+                        {% include team-page/geoff-img.html %}
                     </div>
-                    <div class="teambio">
+                    <div class="teamcontact">
                         {% include team-page/geoff-header.html %}
                         {% include team-page/geoff-contact.html %}
                     </div>
-                    {% include team-page/geoff-bio.html %}
+                    <div class="teambio">
+                        {% include team-page/geoff-bio.html %}
+                    </div>
                 </div><!--/team-tablet-->
             </div><!--geoff-modal-->
+
             <div id='rob-modal'>
-                <div class="teamphoto">
-                    <img src="../assets/img/rob.png">
-                </div>
-                <div class="teambio">
-                    <h4>Rob Marano</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed bibendum ornare eleifend. Nullam lorem quam, tristique non lacus nec, volutpat elementum odio. Donec purus nisi, blandit convallis volutpat sed, varius vel elit. Integer bibendum pulvinar diam. Morbi sed dignissim elit, sit amet pulvinar massa. Aenean eget odio eu sapien consectetur feugiat ac in elit. Fusce risus dolor, laoreet sed tincidunt quis, malesuada sed erat.</p>
-                    <p><a href="mailto:rob@thehackerati.com">rob@thehackerati.com</a></p>
-                    <a href="https://twitter.com/robmarano"target="blank">
-                        <div class="team-social-media-sprite twitter-team"></div>
-                    </a>
-                    <a href="https://www.linkedin.com/in/robmarano"target="blank">
-                        <div class="team-social-media-sprite linkedin-team"></div>
-                    </a>
-                    <a href="https://github.com/robmarano" target="blank">
-                        <div class="team-social-media-sprite github-team"></div>
-                    </a>
-                </div>
-            </div>
+                <div class="team-desktop">
+                    <div class="teamphoto">
+                        {% include team-page/rob-img.html %}
+                        <div class="teamcontact">
+                            {% include team-page/rob-contact.html %}
+                        </div>
+                    </div>
+                    <div class="teambio">
+                        {% include team-page/rob-header.html %}
+                        {% include team-page/rob-bio.html %}
+                    </div>
+                </div><!--/team-desktop-->
+                <div class="team-tablet">
+                    <div class="teamphoto">
+                        {% include team-page/rob-img.html %}
+                    </div>
+                    <div class="teamcontact">
+                        {% include team-page/rob-header.html %}
+                        {% include team-page/rob-contact.html %}
+                    </div>
+                    <div class="teambio">
+                        {% include team-page/rob-bio.html %}
+                    </div>
+                </div><!--/team-tablet-->
+            </div><!--rob-modal-->
+
             <div id='alan-modal'>
-                <div class="teamphoto">
-                    <img src="../assets/img/alan.png">
-                </div>
-                <div class="teambio">
-                    <h4>Alan Johnson</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed bibendum ornare eleifend. Nullam lorem quam, tristique non lacus nec, volutpat elementum odio. Donec purus nisi, blandit convallis volutpat sed, varius vel elit. Integer bibendum pulvinar diam. Morbi sed dignissim elit, sit amet pulvinar massa. Aenean eget odio eu sapien consectetur feugiat ac in elit. Fusce risus dolor, laoreet sed tincidunt quis, malesuada sed erat.</p>
-                    <p><a href="mailto:alan@thehackerati.com">alan@thehackerati.com</a> &middot; <a href="http://breakrs.com" target="blank">breakrs.com</a></p>
-                    <a href="https://www.linkedin.com/in/acjay"target="blank">
-                        <div class="team-social-media-sprite linkedin-team"></div>
-                    </a>
-                    <a href="https://github.com/acjay" target="blank">
-                        <div class="team-social-media-sprite github-team"></div>
-                    </a>
-                </div>
-            </div>
+                <div class="team-desktop">
+                    <div class="teamphoto">
+                        {% include team-page/alan-img.html %}
+                        <div class="teamcontact">
+                            {% include team-page/alan-contact.html %}
+                        </div>
+                    </div>
+                    <div class="teambio">
+                        {% include team-page/alan-header.html %}
+                        {% include team-page/alan-bio.html %}
+                    </div>
+                </div><!--/team-desktop-->
+                <div class="team-tablet">
+                    <div class="teamphoto">
+                        {% include team-page/alan-img.html %}
+                    </div>
+                    <div class="teamcontact">
+                        {% include team-page/alan-header.html %}
+                        {% include team-page/alan-contact.html %}
+                    </div>
+                    <div class="teambio">
+                        {% include team-page/alan-bio.html %}
+                    </div>
+                </div><!--/team-tablet-->
+            </div><!--alan-modal-->
+
             <div id='alexk-modal'>
-                <div class="teamphoto">
-                    <img src="../assets/img/alex.png">
-                </div>
-                <div class="teambio">
-                    <h4>Alex Krupp</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed bibendum ornare eleifend. Nullam lorem quam, tristique non lacus nec, volutpat elementum odio. Donec purus nisi, blandit convallis volutpat sed, varius vel elit. Integer bibendum pulvinar diam. Morbi sed dignissim elit, sit amet pulvinar massa. Aenean eget odio eu sapien consectetur feugiat ac in elit. Fusce risus dolor, laoreet sed tincidunt quis, malesuada sed erat.</p>
-                    <p><a href="mailto:alex.krupp@thehackerati.com">alex.krupp@thehackerati.com</a> &middot; <a href="http://alexkrupp.typepad.com/" target="blank">Sensemaking</a></p>
-                    <a href="https://twitter.com/alexkrupp"target="blank">
-                        <div class="team-social-media-sprite twitter-team"></div>
-                    </a>
-                    <a href="https://www.linkedin.com/in/alexkrupp"target="blank">
-                        <div class="team-social-media-sprite linkedin-team"></div>
-                    </a>
-                    <a href="https://github.com/Alex3917" target="blank">
-                        <div class="team-social-media-sprite github-team"></div>
-                    </a>
-                </div>
-            </div>
+                <div class="team-desktop">
+                    <div class="teamphoto">
+                        {% include team-page/alexk-img.html %}
+                        <div class="teamcontact">
+                            {% include team-page/alexk-contact.html %}
+                        </div>
+                    </div>
+                    <div class="teambio">
+                        {% include team-page/alexk-header.html %}
+                        {% include team-page/alexk-bio.html %}
+                    </div>
+                </div><!--/team-desktop-->
+                <div class="team-tablet">
+                    <div class="teamphoto">
+                        {% include team-page/alexk-img.html %}
+                    </div>
+                    <div class="teamcontact">
+                        {% include team-page/alexk-header.html %}
+                        {% include team-page/alexk-contact.html %}
+                    </div>
+                    <div class="teambio">
+                        {% include team-page/alexk-bio.html %}
+                    </div>
+                </div><!--/team-tablet-->
+            </div><!--alexk-modal-->
+
             <div id='ariel-modal'>
-                <div class="teamphoto">
-                    <img src="../assets/img/ariel.png">
-                </div>
-                <div class="teambio">
-                    <h4>Ariel Cotton</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed bibendum ornare eleifend. Nullam lorem quam, tristique non lacus nec, volutpat elementum odio. Donec purus nisi, blandit convallis volutpat sed, varius vel elit. Integer bibendum pulvinar diam. Morbi sed dignissim elit, sit amet pulvinar massa. Aenean eget odio eu sapien consectetur feugiat ac in elit. Fusce risus dolor, laoreet sed tincidunt quis, malesuada sed erat.</p>
-                    <p><a href="mailto:ariel@thehackerati.com">ariel@thehackerati.com</a> &middot; <a href="http://www.electricstud.io/" target="blank">electricstud.io</a></p>
-                    <a href="https://twitter.com/argoncobalt"target="blank">
-                        <div class="team-social-media-sprite twitter-team"></div>
-                    </a>
-                    <a href="https://www.linkedin.com/in/arielcotton"target="blank">
-                        <div class="team-social-media-sprite linkedin-team"></div>
-                    </a>
-                    <a href="https://github.com/argoncobalt" target="blank">
-                        <div class="team-social-media-sprite github-team"></div>
-                    </a>
-                </div>
-            </div>
+                <div class="team-desktop">
+                    <div class="teamphoto">
+                        {% include team-page/ariel-img.html %}
+                        <div class="teamcontact">
+                            {% include team-page/ariel-contact.html %}
+                        </div>
+                    </div>
+                    <div class="teambio">
+                        {% include team-page/ariel-header.html %}
+                        {% include team-page/ariel-bio.html %}
+                    </div>
+                </div><!--/team-desktop-->
+                <div class="team-tablet">
+                    <div class="teamphoto">
+                        {% include team-page/ariel-img.html %}
+                    </div>
+                    <div class="teamcontact">
+                        {% include team-page/ariel-header.html %}
+                        {% include team-page/ariel-contact.html %}
+                    </div>
+                    <div class="teambio">
+                        {% include team-page/ariel-bio.html %}
+                    </div>
+                </div><!--/team-tablet-->
+            </div><!--ariel-modal-->
+
             <div id='bobby-modal'>
-                <div class="teamphoto">
-                    <img src="../assets/img/bobby.png">
-                </div>
-                <div class="teambio">
-                    <h4>Bobby Yankou</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed bibendum ornare eleifend. Nullam lorem quam, tristique non lacus nec, volutpat elementum odio. Donec purus nisi, blandit convallis volutpat sed, varius vel elit. Integer bibendum pulvinar diam. Morbi sed dignissim elit, sit amet pulvinar massa. Aenean eget odio eu sapien consectetur feugiat ac in elit. Fusce risus dolor, laoreet sed tincidunt quis, malesuada sed erat.</p>
-                    <p><a href="mailto:bobby@thehackerati.com">bobby@thehackerati.com</a></p>
-                    <a href="https://www.linkedin.com/in/robertyankou"target="blank">
-                        <div class="team-social-media-sprite linkedin-team"></div>
-                    </a>
-                    <a href="https://github.com/thomkrillis" target="blank">
-                        <div class="team-social-media-sprite github-team"></div>
-                    </a>
-                </div>
-            </div>
+                <div class="team-desktop">
+                    <div class="teamphoto">
+                        {% include team-page/bobby-img.html %}
+                        <div class="teamcontact">
+                            {% include team-page/bobby-contact.html %}
+                        </div>
+                    </div>
+                    <div class="teambio">
+                        {% include team-page/bobby-header.html %}
+                        {% include team-page/bobby-bio.html %}
+                    </div>
+                </div><!--/team-desktop-->
+                <div class="team-tablet">
+                    <div class="teamphoto">
+                        {% include team-page/bobby-img.html %}
+                    </div>
+                    <div class="teamcontact">
+                        {% include team-page/bobby-header.html %}
+                        {% include team-page/bobby-contact.html %}
+                    </div>
+                    <div class="teambio">
+                        {% include team-page/bobby-bio.html %}
+                    </div>
+                </div><!--/team-tablet-->
+            </div><!--bobby-modal-->
+
             <div id='donny-modal'>
-                <div class="teamphoto">
-                    <img src="../assets/img/donny.png">
-                </div>
-                <div class="teambio">
-                    <h4>Donny Kanner</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed bibendum ornare eleifend. Nullam lorem quam, tristique non lacus nec, volutpat elementum odio. Donec purus nisi, blandit convallis volutpat sed, varius vel elit. Integer bibendum pulvinar diam. Morbi sed dignissim elit, sit amet pulvinar massa. Aenean eget odio eu sapien consectetur feugiat ac in elit. Fusce risus dolor, laoreet sed tincidunt quis, malesuada sed erat.</p>
-                    <p><a href="mailto:donny@thehackerati.com">donny@thehackerati.com</a></p>
-                    <a href="https://twitter.com/donnykanner"target="blank">
-                        <div class="team-social-media-sprite twitter-team"></div>
-                    </a>
-                    <a href="https://www.linkedin.com/pub/daniel-donny-kanner/29/787/555"target="blank">
-                        <div class="team-social-media-sprite linkedin-team"></div>
-                    </a>
-                    <a href="https://github.com/DKanner" target="blank">
-                        <div class="team-social-media-sprite github-team"></div>
-                    </a>
-                </div>
-            </div>
+                <div class="team-desktop">
+                    <div class="teamphoto">
+                        {% include team-page/donny-img.html %}
+                        <div class="teamcontact">
+                            {% include team-page/donny-contact.html %}
+                        </div>
+                    </div>
+                    <div class="teambio">
+                        {% include team-page/donny-header.html %}
+                        {% include team-page/donny-bio.html %}
+                    </div>
+                </div><!--/team-desktop-->
+                <div class="team-tablet">
+                    <div class="teamphoto">
+                        {% include team-page/donny-img.html %}
+                    </div>
+                    <div class="teamcontact">
+                        {% include team-page/donny-header.html %}
+                        {% include team-page/donny-contact.html %}
+                    </div>
+                    <div class="teambio">
+                        {% include team-page/donny-bio.html %}
+                    </div>
+                </div><!--/team-tablet-->
+            </div><!--donny-modal-->
+
             <div id='ethan-modal'>
-                <div class="teamphoto">
-                    <img src="../assets/img/ethan.png">
-                </div>
-                <div class="teambio">
-                    <h4>Ethan Lusterman</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed bibendum ornare eleifend. Nullam lorem quam, tristique non lacus nec, volutpat elementum odio. Donec purus nisi, blandit convallis volutpat sed, varius vel elit. Integer bibendum pulvinar diam. Morbi sed dignissim elit, sit amet pulvinar massa. Aenean eget odio eu sapien consectetur feugiat ac in elit. Fusce risus dolor, laoreet sed tincidunt quis, malesuada sed erat.</p>
-                    <p><a href="mailto:ethan@thehackerati.com">ethan@thehackerati.com</a></p>
-                    <a href="https://twitter.com/lusterdome"target="blank">
-                        <div class="team-social-media-sprite twitter-team"></div>
-                    </a>
-                    <a href="https://www.linkedin.com/pub/ethan-lusterman/35/620/661"target="blank">
-                        <div class="team-social-media-sprite linkedin-team"></div>
-                    </a>
-                    <a href="https://github.com/luster" target="blank">
-                        <div class="team-social-media-sprite github-team"></div>
-                    </a>
-                </div>
-            </div>
+                <div class="team-desktop">
+                    <div class="teamphoto">
+                        {% include team-page/ethan-img.html %}
+                        <div class="teamcontact">
+                            {% include team-page/ethan-contact.html %}
+                        </div>
+                    </div>
+                    <div class="teambio">
+                        {% include team-page/ethan-header.html %}
+                        {% include team-page/ethan-bio.html %}
+                    </div>
+                </div><!--/team-desktop-->
+                <div class="team-tablet">
+                    <div class="teamphoto">
+                        {% include team-page/ethan-img.html %}
+                    </div>
+                    <div class="teamcontact">
+                        {% include team-page/ethan-header.html %}
+                        {% include team-page/ethan-contact.html %}
+                    </div>
+                    <div class="teambio">
+                        {% include team-page/ethan-bio.html %}
+                    </div>
+                </div><!--/team-tablet-->
+            </div><!--ethan-modal-->
+
             <div id='kevin-modal'>
-                <div class="teamphoto">
-                    <img src="../assets/img/kevin.png">
-                </div>
-                <div class="teambio">
-                    <h4>Kevin Ruiz</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed bibendum ornare eleifend. Nullam lorem quam, tristique non lacus nec, volutpat elementum odio. Donec purus nisi, blandit convallis volutpat sed, varius vel elit. Integer bibendum pulvinar diam. Morbi sed dignissim elit, sit amet pulvinar massa. Aenean eget odio eu sapien consectetur feugiat ac in elit. Fusce risus dolor, laoreet sed tincidunt quis, malesuada sed erat.</p>
-                    <p><a href="mailto:kevin.ruiz@thehackerati.com">kevin.ruiz@thehackerati.com</a></p>
-                    <a href="https://www.linkedin.com/pub/kevin-ruiz/78/b9/829"target="blank">
-                        <div class="team-social-media-sprite linkedin-team"></div>
-                    </a>
-                    <a href="https://github.com/engineerKev" target="blank">
-                        <div class="team-social-media-sprite github-team"></div>
-                    </a>
-                </div>
-            </div>
+                <div class="team-desktop">
+                    <div class="teamphoto">
+                        {% include team-page/kevin-img.html %}
+                        <div class="teamcontact">
+                            {% include team-page/kevin-contact.html %}
+                        </div>
+                    </div>
+                    <div class="teambio">
+                        {% include team-page/kevin-header.html %}
+                        {% include team-page/kevin-bio.html %}
+                    </div>
+                </div><!--/team-desktop-->
+                <div class="team-tablet">
+                    <div class="teamphoto">
+                        {% include team-page/kevin-img.html %}
+                    </div>
+                    <div class="teamcontact">
+                        {% include team-page/kevin-header.html %}
+                        {% include team-page/kevin-contact.html %}
+                    </div>
+                    <div class="teambio">
+                        {% include team-page/kevin-bio.html %}
+                    </div>
+                </div><!--/team-tablet-->
+            </div><!--kevin-modal-->
+
             <div id='mike-modal'>
-                <div class="teamphoto">
-                    <img src="../assets/img/mike.png">
-                </div>
-                <div class="teambio">
-                    <h4>Michael Ketigian</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed bibendum ornare eleifend. Nullam lorem quam, tristique non lacus nec, volutpat elementum odio. Donec purus nisi, blandit convallis volutpat sed, varius vel elit. Integer bibendum pulvinar diam. Morbi sed dignissim elit, sit amet pulvinar massa. Aenean eget odio eu sapien consectetur feugiat ac in elit. Fusce risus dolor, laoreet sed tincidunt quis, malesuada sed erat.</p>
-                    <p><a href="mailto:michael@thehackerati.com">mike@thehackerati.com</a></p>
-                    <a href="https://twitter.com/mketigian"target="blank">
-                        <div class="team-social-media-sprite twitter-team"></div>
-                    </a>
-                    <a href="https://www.linkedin.com/pub/michael-ketigian/16/9b9/823"target="blank">
-                        <div class="team-social-media-sprite linkedin-team"></div>
-                    </a>
-                    <a href="https://github.com/mketigian" target="blank">
-                        <div class="team-social-media-sprite github-team"></div>
-                    </a>
-                </div>
-            </div>
+                <div class="team-desktop">
+                    <div class="teamphoto">
+                        {% include team-page/mike-img.html %}
+                        <div class="teamcontact">
+                            {% include team-page/mike-contact.html %}
+                        </div>
+                    </div>
+                    <div class="teambio">
+                        {% include team-page/mike-header.html %}
+                        {% include team-page/mike-bio.html %}
+                    </div>
+                </div><!--/team-desktop-->
+                <div class="team-tablet">
+                    <div class="teamphoto">
+                        {% include team-page/mike-img.html %}
+                    </div>
+                    <div class="teamcontact">
+                        {% include team-page/mike-header.html %}
+                        {% include team-page/mike-contact.html %}
+                    </div>
+                    <div class="teambio">
+                        {% include team-page/mike-bio.html %}
+                    </div>
+                </div><!--/team-tablet-->
+            </div><!--mike-modal-->
+
             <div id='ramon-modal'>
-                <div class="teamphoto">
-                    <img src="../assets/img/ramon.png">
-                </div>
-                <div class="teambio">
-                    <h4>Ramon Sandoval</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed bibendum ornare eleifend. Nullam lorem quam, tristique non lacus nec, volutpat elementum odio. Donec purus nisi, blandit convallis volutpat sed, varius vel elit. Integer bibendum pulvinar diam. Morbi sed dignissim elit, sit amet pulvinar massa. Aenean eget odio eu sapien consectetur feugiat ac in elit. Fusce risus dolor, laoreet sed tincidunt quis, malesuada sed erat.</p>
-                    <p><a href="mailto:ramon@thehackerati.com">ramon@thehackerati.com</a></p>
-                    <a href="https://www.linkedin.com/pub/ramon-sandoval/58/2a2/55"target="blank">
-                        <div class="team-social-media-sprite linkedin-team"></div>
-                    </a>
-                    <a href="https://github.com/Rhathe" target="blank">
-                        <div class="team-social-media-sprite github-team"></div>
-                    </a>
-                </div>
-            </div>
+                <div class="team-desktop">
+                    <div class="teamphoto">
+                        {% include team-page/ramon-img.html %}
+                        <div class="teamcontact">
+                            {% include team-page/ramon-contact.html %}
+                        </div>
+                    </div>
+                    <div class="teambio">
+                        {% include team-page/ramon-header.html %}
+                        {% include team-page/ramon-bio.html %}
+                    </div>
+                </div><!--/team-desktop-->
+                <div class="team-tablet">
+                    <div class="teamphoto">
+                        {% include team-page/ramon-img.html %}
+                    </div>
+                    <div class="teamcontact">
+                        {% include team-page/ramon-header.html %}
+                        {% include team-page/ramon-contact.html %}
+                    </div>
+                    <div class="teambio">
+                        {% include team-page/ramon-bio.html %}
+                    </div>
+                </div><!--/team-tablet-->
+            </div><!--ramon-modal-->
+
             <div id='derby-modal'>
-                <div class="teamphoto">
-                    <img src="../assets/img/derby.png">
-                </div>
-                <div class="teambio">
-                    <h4>Steven Derby</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed bibendum ornare eleifend. Nullam lorem quam, tristique non lacus nec, volutpat elementum odio. Donec purus nisi, blandit convallis volutpat sed, varius vel elit. Integer bibendum pulvinar diam. Morbi sed dignissim elit, sit amet pulvinar massa. Aenean eget odio eu sapien consectetur feugiat ac in elit. Fusce risus dolor, laoreet sed tincidunt quis, malesuada sed erat.</p>
-                    <p><a href="mailto:derby@thehackerati.com">derby@thehackerati.com</a> &middot; <a href="http://www.tripticsoul.com/" target="blank">Triptic Soul</a></p>
-                    <a href="https://www.linkedin.com/pub/steven-derby/1/508/801"target="blank">
-                        <div class="team-social-media-sprite linkedin-team"></div>
-                    </a>
-                    <a href="https://github.com/derbios" target="blank">
-                        <div class="team-social-media-sprite github-team"></div>
-                    </a>
-                </div>
-            </div>
+                <div class="team-desktop">
+                    <div class="teamphoto">
+                        {% include team-page/derby-img.html %}
+                        <div class="teamcontact">
+                            {% include team-page/derby-contact.html %}
+                        </div>
+                    </div>
+                    <div class="teambio">
+                        {% include team-page/derby-header.html %}
+                        {% include team-page/derby-bio.html %}
+                    </div>
+                </div><!--/team-desktop-->
+                <div class="team-tablet">
+                    <div class="teamphoto">
+                        {% include team-page/derby-img.html %}
+                    </div>
+                    <div class="teamcontact">
+                        {% include team-page/derby-header.html %}
+                        {% include team-page/derby-contact.html %}
+                    </div>
+                    <div class="teambio">
+                        {% include team-page/derby-bio.html %}
+                    </div>
+                </div><!--/team-tablet-->
+            </div><!--derby-modal-->
+            
         </div>
 
 </div>
