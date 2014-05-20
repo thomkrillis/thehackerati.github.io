@@ -691,7 +691,7 @@ HOME PAGE
 .who-container {
     background: #2d2d2d url('../assets/img/bgwhite.png') repeat;
     overflow: hidden;
-    padding-bottom: 5em;
+    padding-bottom: 6em;
 }
 
 .who-content {
@@ -1111,7 +1111,7 @@ body > svg {
 
 .clients-content h3 {
     margin: 0 auto;
-    padding: .5em 0 .3em 0;
+    padding: 1em 0 .3em 0;
     text-align:center;
     color:white;
     font: 2.2em/100% 'HelveticaRegular';
@@ -1121,13 +1121,13 @@ body > svg {
 .arrow-box-right {
     float:left;
     margin-left: 1%;
-    width: 33%;
+    width: 48%;
     height: 31.5em;
     position: relative;
     background: #2D6296;
     border-radius: 10px; 
 }
-
+/*
 .arrow-box-right:after {
     right: 100%;
     top: 75%;
@@ -1142,7 +1142,8 @@ body > svg {
     border-width: 25px;
     pointer-events: none;
 }
-
+*/
+/*
 .arrow-box-middle {
     float:left;
     margin: 0 1%;
@@ -1168,17 +1169,18 @@ body > svg {
     margin-left: -25px;
     pointer-events: none;
 }
+*/
 
 .arrow-box-left {
     float:left;
     margin-right: 1%;
-    width: 33%;
+    width: 50%;
     height: 31.5em;
     position: relative;
     background: #4CA0D3;
     border-radius: 10px; 
 }
-
+/*
 .arrow-box-left:after {
     left: 100%;
     top: 75%;
@@ -1193,7 +1195,7 @@ body > svg {
     border-width: 25px;
     pointer-events: none;
 }
-
+*/
 .clients-intro, 
 .clients-tap{
     display: none;
@@ -1215,12 +1217,12 @@ body > svg {
     z-index: 8;
 }
 
-.clients-tools,
 .clients-description {
     width: 95%;
     margin-left: auto;
     margin-right:auto;
 }
+
 
 .clients-resources {
     width: 86%;
@@ -1233,16 +1235,14 @@ body > svg {
 }
 
 .clients-description {
-    height: auto;
 }
 
 .clients-tools {
-    height: auto;
+    text-align: center;
 }
 
 .clients-tools, 
 .clients-resources {
-    margin-top: 1em;
 }
 
 .clients-resources .clients-icon {
@@ -1264,20 +1264,29 @@ body > svg {
 }
 
 .clients-tools .clients-icon {
-    width: 31%;
-    max-width: 100px;
+    float: right;
+    width: 15%;
     height: auto;
-    color: white;
+    color: #f4f4f4;
     text-align: center;
-    font: 1.1em/130% 'inconsolatamedium';
-    float: left;
+    font: 1.1em/130% 'din-regularregular';
     padding: 0;
-    margin: 0 auto;
+    margin: 5%;
+}
+
+.clients-icon img {
+    max-width: 100%;
 }
 
 .clients-tools .clients-icon p {
     margin-top: -10px;
     margin-bottom: 2%;
+    opacity: 0.2;
+}
+
+.clients-icon:hover p {
+    opacity: 1;
+    transition: all 0.2s linear;
 }
 
 .fa-icon {
