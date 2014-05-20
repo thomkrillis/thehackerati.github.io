@@ -311,7 +311,11 @@ CSS MEDIA QUERIES FOR THEHACKERATI.COM
     }
 
     .section3 .content-container {
-        padding-top: 7em;
+        padding-top: 6em;
+    }
+
+    .careers-page .section3 .content-container {
+        padding-bottom: 6em;
     }
 
     .content-container {
@@ -490,6 +494,7 @@ CSS MEDIA QUERIES FOR THEHACKERATI.COM
 
     .welcome-content { 
         width: 75%; 
+        margin-top: 0;
     }
 
     .left-slider-button { 
@@ -617,6 +622,7 @@ CSS MEDIA QUERIES FOR THEHACKERATI.COM
 
     .how-content .block-left { 
         width: 100%; 
+        max-width: none;
     }
 
     .how-content { 
@@ -659,8 +665,8 @@ CSS MEDIA QUERIES FOR THEHACKERATI.COM
         font: 1.3em/120% 'HelveticaRegular'; 
     }
 
-    .tooltip p { 
-        font: 1.03em/120% 'din-lightregular'; 
+    .clients-tools p {
+        font: 0.95em/120% 'din-lightregular';
     }
 
     .clients-resources p { 
@@ -673,10 +679,6 @@ CSS MEDIA QUERIES FOR THEHACKERATI.COM
     .clients-resources .clients-icon p { 
         margin-top: 1em; 
         margin-bottom: 2em;
-    }
-
-    .clients-tools p { 
-        font: 0.85em/120% 'din-lightregular'; 
     }
 
     .clients-tools .clients-icon { 
@@ -1487,8 +1489,7 @@ CSS MEDIA QUERIES FOR THEHACKERATI.COM
     }
     
     .content-container h2 {
-        padding-top: 50px;
-        font: 2.5em 'HelveticaRegular';
+        font: 3.5em 'HelveticaRegular';
     }
     
     /*
@@ -1707,6 +1708,10 @@ CSS MEDIA QUERIES FOR THEHACKERATI.COM
 
     .content-container {
         width: 90%;
+    }
+    
+    .content-container h2 {
+        font: 3.3em 'HelveticaRegular';
     }
 
     /*
