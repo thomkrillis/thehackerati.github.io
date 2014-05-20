@@ -26,8 +26,8 @@
     #cboxContent{background:#2D6296; overflow:visible; color: #fff; padding: 25px; border-radius: 20px; background: #2D6296 url('../assets/img/bgdarkblue.png') repeat;}
         #cboxError{padding:50px; border:1px solid #ccc;}
         #cboxLoadedContent{margin-bottom:5px;}
-        #cboxLoadingOverlay{background:url(../assets/colorbox-images/loading_background.png) no-repeat center center;}
-        #cboxLoadingGraphic{background:url(../assets/colorbox-images/loading.gif) no-repeat center center;}
+        #cboxLoadingOverlay{background:url() no-repeat center center;}
+        #cboxLoadingGraphic{background:url(../assets/img/hourglass.svg) no-repeat center center;}
         #cboxTitle{position:absolute; bottom:-25px; left:0; text-align:center; width:100%; font-weight:bold; color:#7C7C7C;}
         #cboxCurrent{position:absolute; bottom:-25px; left:58px; font-weight:bold; color:#7C7C7C; visibility: hidden;}
 
