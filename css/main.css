@@ -95,7 +95,7 @@ h3 {
 }
 
 h4 {
-    font: 2em/100% 'HelveticaRegular';
+    font: 2em/130% 'HelveticaRegular';
     margin: 0 0 0.7em 0;
     color: #f4f4f4;
 }
@@ -349,6 +349,18 @@ img.splash{
     width: 100%;
     height: auto;
     z-index: -200;
+}
+
+.clearfix:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+
+.clearfix {
+    display: inline-block;
 }
 
 /*
@@ -1687,21 +1699,17 @@ ABOUT PAGE
     -webkit-box-shadow: 0px 0px 6px 0px rgba(143, 143, 143, 0.51);
     -moz-box-shadow:    0px 0px 6px 0px rgba(143, 143, 143, 0.51);
     box-shadow:         0px 0px 6px 0px rgba(143, 143, 143, 0.51);
-    -webkit-filter: grayscale(50%);
-    -moz-filter: grayscale(50%);
-    filter: grayscale(50%);
-}
-
-.hackeratus:hover {
-    -webkit-filter: grayscale(0%);
-    -moz-filter: grayscale(0%);
-    filter: grayscale(0%);
 }
 
 .hackeratus-team {
     width: 200px;
     height: 200px;
     border-radius: 150px;
+}
+
+.hackeratus-team img {
+    width: 200px;
+    height: 200px;
 }
 
 .hackeratus-founder {
@@ -1724,13 +1732,34 @@ ABOUT PAGE
 .teamphoto {
     float: left;
     display: inline-block;
-    width: 40%;
+    width: 31.5%;
+    margin-left: 6%;
+    position: absolute;
+    margin-top: -180px;
+    top: 50%;
+    height: 380px;
+}
+
+.teamphoto img {
+    text-align: center;
+    width: 250px;
+    height: 250px;
 }
 
 .teambio {
     display:inline-block;
-    width: 60%;
+    width: 50%;
     margin-top: 20px;
+    margin-left: 44%;
+}
+
+.teamcontact {
+    width: 200px;
+    margin: 0 auto;
+}
+
+.teamcontact p {
+    margin-bottom: 10px;
 }
 
 .founders-wrapper {
@@ -1750,6 +1779,58 @@ ABOUT PAGE
 
 #colorbox p {
     font: 1.2em/150% 'din-lightregular';
+}
+
+.team-social-media-sprite {
+    background: url('../assets/img/social-media-team-page.svg') no-repeat; 
+    width: 34.54px;
+    height: 2.5em;
+    float: left;
+    margin-right: 0.5em;
+}
+
+.linkedin-team {
+    background-position:-58.775px -50.577px;
+}
+
+.linkedin-team:hover { 
+    background-position:-128.487px -51.246px;
+}
+
+.github-team {
+    background-position:-23.843px -85.573px;
+}
+
+.github-team:hover {
+    background-position:-93.555px -86.242px;
+}
+
+.twitter-team {
+    background-position:-23.844px -15.741px;
+}
+
+.twitter-team:hover {
+    background-position:-93.555px -16.41px;
+}
+
+#colorbox a:link, #colorbox a:visited {
+    color: #F97B3D;
+}
+
+#colorbox a:hover {
+    color: #fff;
+}
+
+.team-desktop {
+    display: block;
+}
+
+.team-tablet {
+    display: none;
+}
+
+.team-smartphone {
+    display: none;
 }
 
 /*
@@ -2152,7 +2233,7 @@ footer p {
 
 .footer-section .content-container {
     padding-top: 0;
-    padding-bottom: 0;
+    padding-bottom: 450px;
 }
 
 .column.contact {
