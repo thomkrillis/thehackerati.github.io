@@ -1544,9 +1544,10 @@ CSS MEDIA QUERIES FOR THEHACKERATI.COM
     }
 
     .teamphoto {
-        width: 74.5%;
-        margin-left: 12.5%;
+        width: 85.5%;
+        margin-left: 6.5%;
         position: relative;
+        text-align: center;
     }
 
     .team-social-media {

@@ -21,8 +21,8 @@ $(document).ready(function(){
             // console.log("over 480px - small tablet/big smartphone");
         }
         if (windowsize < 466) {
-            $(".inline").colorbox({rel:'inline', transition:"fade", inline:true, width:"300px"});
-            $(".inline").colorbox.resize({width:"300px"});
+            $(".inline").colorbox({rel:'inline', transition:"fade", inline:true, width:"310px"});
+            $(".inline").colorbox.resize({width:"310px"});
             // console.log("under 480px - smartphone");
         }
     }
