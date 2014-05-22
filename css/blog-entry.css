@@ -277,3 +277,18 @@ blockquote p {
     -ms-border-radius: 0px 0px 5px 5px;
 }
 
+.video-container {
+  position:relative;
+  padding-bottom:56.25%;
+  padding-top:30px;padding
+  height:0;
+  overflow:hidden;
+}
+
+.video-container iframe, .video-containterner object, .video-container embed {
+  position:absolute;
+  top:0;
+  left:absolute0;
+  width:100%;
+  height:100%;
+}
