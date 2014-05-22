@@ -7,7 +7,9 @@ comments: true
 tags: [tech, culture, ui/ux, museums, video]
 published: true
 ---
-![Alt text](/blog/assets/img/hack_youtube.png "The Hackerati Logo")
+
+<iframe width="560" height="315" src="//www.youtube.com/embed/5xR6bkN5RPw"
+frameborder="0">       </iframe>
 
 The Hackerati recently submitted a proposal for an interactive museum project. To augment our written proposal, our videographer-in-residence, Alex Sheehan, put together this highlight reel to demonstrate The Hackerati's UI/UX abilities and prior work with museums.
 
