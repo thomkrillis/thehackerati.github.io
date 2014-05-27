@@ -106,10 +106,10 @@ li {
     margin-left: 40px;
 }
 
-li > ul {
-    font: 0.5em/180% 'din-lightregular', sans-serif;
-    color: #2c2c2c;
-    margin-left: 40px;
+ul>li>ul>li {
+    font-size: 0.9em;
+    width: 90%;
+    margin: 0 auto;
 }
 
 .under-photo {

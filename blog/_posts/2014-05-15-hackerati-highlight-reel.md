@@ -18,7 +18,7 @@ frameborder="0">       </iframe></div>
 The [Highlight Reel](https://www.youtube.com/watch?v=5xR6bkN5RPw) shows the following work:
 
 
-###Alex Sheehan  
+__Alex Sheehan__  
 
 - _Bugs_ on [Alex's personal website](http://www.amsheehan.com)
 - Clips from two videos Alex directed/shot/edited
@@ -26,19 +26,19 @@ The [Highlight Reel](https://www.youtube.com/watch?v=5xR6bkN5RPw) shows the foll
   - The [Google Glass video](http://www.youtube.com/watch?v=hf6JSzoGTag) referenced in [my last post](http://www.thehackerati.com/blog/2014/05/06/the-hackerati-at-the-un.html) about our work with the United Nations
 
 
-###Eddy Garcia  
+__Eddy Garcia__  
 
 - A Kinect-driven motion capture server which connects to user's smartphones, providing activity feedback. The smartphone then plays a customized playlist for users based on accelerometer, location, and activity data. An example use case would be a playlist generator used while exercising.
 - A pseudo-3D video game made in hardware (VHDL on an FPGA) with an embedded
    processor. The project implemented a customized VHDL raycasting module which was used to accelerate 3D graphics.
 
 
-###Geoff Scott  
+__Geoff Scott__  
 
 - Created software for immersive video exhibits at the National Prisoner-of-War museum in Andersonville, Georgia
 
 
-###Rob Marano  
+__Rob Marano__  
 
 - Technology Director for the September 11th Photo Project
 
