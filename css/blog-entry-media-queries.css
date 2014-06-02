@@ -1,0 +1,102 @@
+
+/*
+  BIG TABLET
+*/
+
+@media only screen and (max-width : 1024px) {
+
+
+
+}
+
+/* iPad Portrait */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : portrait) {
+
+ul>li {
+    width: 85%;
+    margin: 0 auto;
+    font-size: 1.2em;
+}
+
+ul>li>ul>li {
+    width: 90%;
+    margin: 0 auto;
+    font-size: 0.9em;
+}
+
+}
+
+/*
+  SMALL TABLET/BIG SMARTPHONE
+*/
+
+@media only screen and (max-width : 767px) {
+
+ul>li {
+    width: 80%;
+    margin: 0 auto;
+    font-size: 1.2em;
+}
+
+ul>li>ul>li {
+    width: 90%;
+    margin: 0 auto;
+    font-size: 0.9em;
+}
+
+}
+
+@media only screen and (max-width : 560px) {
+
+ul>li {
+    width: 80%;
+    margin: 0 auto;
+    font-size: 1.1em;
+}
+
+ul>li>ul>li {
+    width: 90%;
+    margin: 0 auto;
+    font-size: 0.9em;
+}
+
+}
+
+/*
+  SMARTPHONE
+*/
+
+@media only screen and (max-width : 479px) {
+
+ul>li {
+    font: 1.1em/170% 'din-lightregular';
+    width: 85%;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+ul>li>ul>li {
+    font: 0.8em/170% 'din-lightregular';
+    width: 85%;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+}
+
+
+
+
+
+
+
+
+
+
