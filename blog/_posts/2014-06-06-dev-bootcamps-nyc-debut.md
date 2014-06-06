@@ -30,7 +30,7 @@ Dev Bootcamp isn't just about teaching people how to create with technology. It'
   
 How The Hackerati Got Involved
 --------
-Derby and I met DBC NYC Director Lloyd Nimetz for lunch several weeks ago after being introduced by a mutual contact, and I was blown away when he filled us in on their philosophical approach. It was obvious to me that this is the future of teaching programming—and _everything_.  
+Derby and I met DBC NYC Director Lloyd Nimetz for lunch several weeks ago after being introduced by a mutual contact, and I was blown away when he filled us in on their philosophical approach. It was obvious to me that this is the future of teaching programming—and *everything*.
   
 One of the issues I had with my own education—from K–12 through my undergraduate engineering program—was that it was mostly information-based. But there are universal principles of life that enable us to see connections between diverse fields of knowledge, and to ultimately connect this knowledge to ourselves.   
   
