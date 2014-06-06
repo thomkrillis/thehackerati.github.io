@@ -42,7 +42,7 @@ The Presentations
 --------
 DBC NYC's premier cohort, the Fiddler Crabs [each cohort is named after an animal], graduated and presented their final projects on Friday, May 30th. The class of 12 was broken into three groups, each of which had their own impressive project to demonstrate:
 
-[The Delta](http://thedelta.herokuapp.com)
+###[The Delta](http://thedelta.herokuapp.com)
 Know a programming language? Want to learn another? The Delta links common concepts between different languages by translating the language you know to the ones you desire to learn right before your eyes.
 
 [Encore](http://www.encoreapp.io)
