@@ -1751,6 +1751,11 @@ ABOUT PAGE
     margin-left: 44%;
 }
 
+.role-title {
+    font-weight: bold !important;
+    margin-top: -25px !important;
+}
+
 .teamcontact {
     width: 200px;
     margin: 0 auto;

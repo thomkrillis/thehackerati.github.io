@@ -26,7 +26,7 @@
 		height: false,
 		initialHeight: "450",
 		innerHeight: false,
-		maxHeight: false,
+		maxHeight: "515px", //modified by Donny
 		scalePhotos: true,
 		scrolling: true,
 		href: false,
