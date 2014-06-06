@@ -58,7 +58,7 @@ Reflections
 --------
 All of the graduates spoke confidently and articulately about their work—a clear indicator that they gained a cohesive skillset throughout the rigorous nine-week course. It was most encouraging to see that they all set out to solve real problems that they've encountered directly. Equipped with new skills and _serious_ dedication to the craft, they built tools to solve them.
 
-After the presentations, Derby and I were invited to eat and chat with the graduates. It was great to be able to get to know more about their backgrounds and their unique journeys to and through the bootcamp. It was also a lot of fun to introduce them to Google Glass, which has become quite a common ritual when interacting with thew groups.
+After the presentations, Derby and I were invited to eat and chat with the graduates. It was great to be able to get to know more about their backgrounds and their unique journeys to and through the bootcamp. It was also a lot of fun to introduce them to Google Glass, which has become quite a common ritual when interacting with new groups.
 
 ![Alt text](/blog/assets/img/glass-test1.jpg)
 
