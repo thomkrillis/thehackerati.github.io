@@ -34,9 +34,9 @@ Derby and I met DBC NYC Director Lloyd Nimetz for lunch several weeks ago after 
   
 One of the issues I had with my own education—from K–12 through my undergraduate engineering program—was that it was mostly information-based. But there are universal principles of life that enable us to see connections between diverse fields of knowledge, and to ultimately connect this knowledge to ourselves.   
   
-It's one thing to say, "This is a tool, this is how it works, this is how you use it." It's infinitely more comprehensible and powerful to say, "_You_ are a tool and this is how _you_ work. _That_ is a tool that you don't yet have and this is how _it_ works. Finally, this is how _your_ unique toolkit can best interface with _that_ tool." That last bit of understanding must ultimately take place within the individual, and a strong philosophical foundation is the most effective catalyst.  
+It's one thing to say, "This is a tool, this is how it works, this is how you use it." It's infinitely more comprehensible and powerful to say, "*You* are a tool and this is how *you* work. *That* is a tool that you don't yet have and this is how *it* works. Finally, this is how *your* unique toolkit can best interface with *that* tool." That last bit of understanding must ultimately take place within the individual, and a strong philosophical foundation is the most effective catalyst.  
   
-A tool is useless without an informed operator, and is potentially dangerous without an understanding of its relation to society. DBC's acknowledgement of this idea allows them to stand out from other _learn to code quickly_ courses/bootcamps. They're the real deal, and I was stoked to get involved. Attending their first NYC presentation was a great way to get started.
+A tool is useless without an informed operator, and is potentially dangerous without an understanding of its relation to society. DBC's acknowledgement of this idea allows them to stand out from other *learn to code quickly* courses/bootcamps. They're the real deal, and I was stoked to get involved. Attending their first NYC presentation was a great way to get started.
   
 The Presentations
 --------
@@ -56,7 +56,7 @@ consumer.
 
 Reflections
 --------
-All of the graduates spoke confidently and articulately about their work—a clear indicator that they gained a cohesive skillset throughout the rigorous nine-week course. It was most encouraging to see that they all set out to solve real problems that they've encountered directly. Equipped with new skills and _serious_ dedication to the craft, they built tools to solve them.
+All of the graduates spoke confidently and articulately about their work—a clear indicator that they gained a cohesive skillset throughout the rigorous nine-week course. It was most encouraging to see that they all set out to solve real problems that they've encountered directly. Equipped with new skills and *serious* dedication to the craft, they built tools to solve them.
 
 After the presentations, Derby and I were invited to eat and chat with the graduates. It was great to be able to get to know more about their backgrounds and their unique journeys to and through the bootcamp. It was also a lot of fun to introduce them to Google Glass, which has become quite a common ritual when interacting with new groups.
 
