@@ -45,12 +45,12 @@ DBC NYC's premier cohort, the Fiddler Crabs [each cohort is named after an anima
 ###[The Delta](http://thedelta.herokuapp.com)
 Know a programming language? Want to learn another? The Delta links common concepts between different languages by translating the language you know to the ones you desire to learn right before your eyes.
 
-[Encore](http://www.encoreapp.io)
+###[Encore](http://www.encoreapp.io)
 Encore allows you to "relive your favorite concerts" by automatically aggregating information and media associated with concerts. So if you want to remember what song your favorite band played to kick off the second set, or simply want to check out a show from another seat in the venue, you can do so with Encore.
 
 ![Alt text](/blog/assets/img/encore.jpg)
 
-[Tattle](http://whoownswhat.herokuapp.com)
+###[Tattle](http://whoownswhat.herokuapp.com)
 Tattle enables users to discover where their products are actually coming from by identifying whether brands have parent companies, and by surfacing any controversies associated with them to help you make more informed decisions as a consumer.
 consumer.  
 
