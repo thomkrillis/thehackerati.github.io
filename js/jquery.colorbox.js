@@ -622,7 +622,8 @@
 		} else if (settings.top !== false) {
 			top += setSize(settings.top, 'y');
 		} else {
-			top += Math.round(Math.max(winheight() - settings.h - loadedHeight - interfaceHeight, 0) / 2);
+			temp_height = (settings.h + loadedHeight) > 355 ? (settings.h + loadedHeight) : 355;
+			top += Math.round(Math.max(winheight() - temp_height - interfaceHeight, 0) / 2);
 		}
 
 		$box.css({top: offset.top, left: offset.left, visibility:'visible'});
@@ -633,8 +634,10 @@
 		$wrap[0].style.width = $wrap[0].style.height = "9999px";
 		
 		function modalDimensions() {
+			temp_height = (parseInt($box[0].style.height,10) - interfaceHeight) > 355 ? (parseInt($box[0].style.height,10) - interfaceHeight) : 355;
+			temp_height = temp_height+'px';
 			$topBorder[0].style.width = $bottomBorder[0].style.width = $content[0].style.width = (parseInt($box[0].style.width,10) - interfaceWidth)+'px';
-			$content[0].style.height = $leftBorder[0].style.height = $rightBorder[0].style.height = (parseInt($box[0].style.height,10) - interfaceHeight)+'px';
+			$content[0].style.height = $leftBorder[0].style.height = $rightBorder[0].style.height = temp_height;
 		}
 
 		css = {width: settings.w + loadedWidth + interfaceWidth, height: settings.h + loadedHeight + interfaceHeight, top: top, left: left};
