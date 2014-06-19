@@ -939,6 +939,12 @@ CSS MEDIA QUERIES FOR THEHACKERATI.COM
 
 }
 
+@media only screen and (max-width : 1024px) and (orientation : portrait) {
+    .teambio {
+        width: 490px;
+    }
+}
+
 /* SMALL TABLET/BIG SMARTPHONE
 ####################################################################*/
 
