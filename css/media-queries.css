@@ -1543,6 +1543,14 @@ CSS MEDIA QUERIES FOR THEHACKERATI.COM
         margin-left: 0;
     }
 
+    .teambio {
+        width: 300px;
+        margin: 1px;
+        position: relative;
+        display: block;
+        font-size: 12px;
+    }
+
     .teamphoto {
         width: 85.5%;
         margin-left: 6.5%;
@@ -1916,6 +1924,14 @@ CSS MEDIA QUERIES FOR THEHACKERATI.COM
     .team-smartphone {
         display: block;
         height: 440px;
+    }
+
+    .teambio {
+        width: 225px;
+        margin: 1px;
+        position: relative;
+        display: block;
+        font-size: 10px;
     }
 
     .teamphoto img {
