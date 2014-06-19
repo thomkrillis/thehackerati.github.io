@@ -51,8 +51,7 @@ Encore allows you to "relive your favorite concerts" by automatically aggregatin
 ![Alt text](/blog/assets/img/encore.jpg)
 
 ###[Tattle](http://whoownswhat.herokuapp.com)
-Tattle enables users to discover where their products are actually coming from by identifying whether brands have parent companies, and by surfacing any controversies associated with them to help you make more informed decisions as a consumer.
-consumer.  
+Tattle enables users to discover where their products are actually coming from by identifying whether brands have parent companies, and by surfacing any controversies associated with them to help you make more informed decisions as a consumer. 
 
 Reflections
 --------
