@@ -135,14 +135,15 @@ p {
 }
 
 .post-author-info {
-    margin-top: 0.8em;
+    margin-top: 1.0em;
     margin-left: 1%;
     font-size: 1em;
     margin-bottom: 0.5em;
+    width: 150%;
 }
 
 .post-author-info img {
-    width: 25px;
+    width: 35px;
 }
 
 .blue-h-logo-blog {
@@ -218,7 +219,26 @@ header {
 
 .post-author {
     margin: 10px 0px;
-    font: 0.8em/100% 'din-lightregular', sans-serif !important;
+    font: 1.5em/100% 'din-lightregular', sans-serif !important;
+}
+
+.post-author.orange-text {
+    font: 1.0em/100% 'din-lightregular', sans-serif !important;
+}
+
+.post-author-info {
+    margin-top: 1.0em;
+    margin-left: 1%;
+    font-size: 1.5em/100% 'din-regularregular';
+    margin-bottom: 0.0em;
+    width: 170%;
+}
+
+.post-author-info img {
+
+    width: 35px;
+    vertical-align: middle;
+
 }
 
 .tag_list {
@@ -274,7 +294,7 @@ p {
     height: 1.5em;
     margin: 15px 0px;
     margin-top: 25px;
-    font: 1.5em/100% 'din-regularregular';
+    font: 1.0em/100% 'din-regularregular';
 }
 
 .post-author-info img {
@@ -287,6 +307,7 @@ p {
 
 .post-author {
     display: inline;
+    font: 0.8em;
 }
 
 h2 {
