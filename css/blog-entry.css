@@ -101,9 +101,22 @@ p {
 }
 
 li {
-    font: 1.5em/180% georgia serif;
+    font: 1.5em/180% 'din-lightregular', sans-serif;
     color: #2c2c2c;
     margin-left: 40px;
+}
+
+li > ul {
+    font: 0.5em/180% 'din-lightregular', sans-serif;
+    color: #2c2c2c;
+    margin-left: 40px;
+}
+
+.under-photo {
+    display: block;
+    width: 100%;
+    font: 0.6em/120% 'din-lightregular', sans-serif;
+    font-style: italic;
 }
 
 pre {
@@ -264,3 +277,18 @@ blockquote p {
     -ms-border-radius: 0px 0px 5px 5px;
 }
 
+.video-container {
+  position:relative;
+  padding-bottom:56.25%;
+  padding-top:30px;padding
+  height:0;
+  overflow:hidden;
+}
+
+.video-container iframe, .video-containterner object, .video-container embed {
+  position:absolute;
+  top:0;
+  left:absolute0;
+  width:100%;
+  height:100%;
+}
