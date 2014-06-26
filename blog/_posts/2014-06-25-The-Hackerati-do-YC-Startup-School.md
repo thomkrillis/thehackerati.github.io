@@ -24,7 +24,7 @@ If you want to read about a particular speaker choose from the following list:
 
 1. [Shana Fisher – Highline Capital](#Shana)
 2. [Fred Wilson – Union Square Ventures](#Fred)
-3. [Zach Sims – Code Academy](#Zach)
+3. [Zach Sims – Codecademy](#Zach)
 4. [Kathryn Minshew — The Muse](#Kathryn)
 5. [Apoorva Mehta — Instacart](#Apoorva)
 6. [David Lee – SV Angel](#David)
@@ -78,7 +78,7 @@ In his final comment, Fred discussed the geography question that Shana had touch
 
 Fred’s talk was one of my favorites for the night because it included so many pieces of advice that were delivered concisely and with awesome anecdotes to back them up. 
 
-<h3 id="Zach">Zach Sims — Code Academy:</h3>
+<h3 id="Zach">Zach Sims — Codecademy:</h3>
 
 Zach Sims was probably the most relatable speaker of the night. As the cofounder of Codecademy, he had an audience full of entrepreneurs and budding coders gratefully and attentively hanging on to every word his founding story. 
 
