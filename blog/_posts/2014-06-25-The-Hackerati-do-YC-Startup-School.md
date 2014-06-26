@@ -30,7 +30,7 @@ If you want to read about a particular speaker choose from the following list:
 6. [David Lee – SV Angel](#David)
 7. [Chase Adam - Watsi](#Chase)
 
-## What Happened:
+## What Happened
 
 Alexis Ohanian, founder of Reddit, kicked off the event with a bit of history on YC Startup School. Startup School started as a small meeting between founders to share ideas and learn from each other how to be successful in building a technology company. “It’s important for people to come out to Startup School to be around people who are doing things.” He told all the people who just talk about doing something innovative and new to “stay home.” And he reminded us that it’s easy to get started: “You don’t have to open a factory—you just have to open a laptop.”
 
@@ -38,7 +38,7 @@ Ohanian is a dynamic moderator with a relaxed stage presence and serious charism
 
 The first speaker of the series was one of the most topically interesting. Each speaker shared the things that they had learned during their experience working in startups, but Shana Fisher from Highline VP addressed her talk to opinions that are the opposite advice of what you usually hear. The following list summarizes the thought-provoking takeaways.
 
-<h3 id="Shana">Shana Fisher — Unconventional Opinions for Startups:</h3>
+<h3 id="Shana">Shana Fisher — Unconventional Opinions for Startups</h3>
 
 a) Runway: Don’t think about the time that your money gives you (i.e. your “runway”). Instead, make it last as long as you can; **bootstrap and be creative to get things like free space, free food, and free employment**.
 
@@ -64,7 +64,7 @@ She also chided the audience to not write about what she said.
 
 Whoops.
 
-<h3 id="Fred">Fred Wilson — Attitudes Towards Investing:</h3>
+<h3 id="Fred">Fred Wilson — Attitudes Towards Investing</h3>
 
 Next to the stage was the eminent VC Fred Wilson, revered Union Square Ventures investor. The format of his presentation was an interview with one of the YC partners. They lounged in comfy chairs and went back and forth discussing the status of New York entrepreneurship and his beliefs on what makes a successful startup. 
 
@@ -78,7 +78,7 @@ In his final comment, Fred discussed the geography question that Shana had touch
 
 Fred’s talk was one of my favorites for the night because it included so many pieces of advice that were delivered concisely and with awesome anecdotes to back them up. 
 
-<h3 id="Zach">Zach Sims — Codecademy:</h3>
+<h3 id="Zach">Zach Sims — Codecademy</h3>
 
 Zach Sims was probably the most relatable speaker of the night. As the cofounder of Codecademy, he had an audience full of entrepreneurs and budding coders gratefully and attentively hanging on to every word his founding story. 
 
@@ -92,7 +92,7 @@ There were a number of lessons incorporated into the presentation, but the main 
 
 Thank you, Zach and Ryan, from the tech community at large, for bringing programming to the world.
 
-<h3 id="Kathryn">Kathryn Minshew — The Muse:</h3>
+<h3 id="Kathryn">Kathryn Minshew — The Muse</h3>
 
 Kathryn Minshew is the founder of the Muse, a career content site for professional women. This YC alum told her story and the lessons she learned from starting her business. To summarize her points:
 
@@ -108,7 +108,7 @@ Kathryn gave her tips on hiring, including advice to hire from the “deadpool,�
 
 Kathryn talked very quickly but carried herself with poise. Her talk may have been riddled with expletives, but her frankness served to add to her honesty and credibility. 
 
-<h3 id="Apoorva">Apoorva Mehta — Instacart:</h3>
+<h3 id="Apoorva">Apoorva Mehta — Instacart</h3>
 
 Instacart is an app for grocery shopping that delivers groceries to your door. You select the products you want from select grocery stores in your area, and a personal shopper purchases and delivers them within two hours. Instacart is a recent phenomenon that takes shopping for groceries to the Internet. 
 
@@ -120,7 +120,7 @@ Lessons:
 a) **Keep trying until you find the right idea; solve a problem that matters to you**
 b) **Worry about scalability later; bootstrap your ideas and solve problems with what you have until you require something better**
 
-<h3 id="David">David Lee - SV Angel:</h3>
+<h3 id="David">David Lee - SV Angel</h3>
 
 David Lee is an accomplished investing partner at SV Angel. His talk centered on lessons he learned from Ron Conway, who has over 20 years of experience investing in startups. 
 
@@ -165,6 +165,6 @@ Some important lessons for startups he shared included:
 
 Chase was an inspirational closing act because he showed how radical startups can drastically improve social welfare.
 
-### Closing Thoughts:
+### Closing Thoughts
 
 People stayed well past 10:00PM to talk startups and embody the philosophy of the event. They shared the experience and dream of DOING, innovating, and creating positive change through technology. I highly recommend Startup School to anyone who feels they gained insight from this article.
