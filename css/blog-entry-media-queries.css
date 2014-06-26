@@ -80,6 +80,15 @@ ul>li {
     padding-bottom: 1%;
 }
 
+ol>li {
+    font: 1.1em/170% 'din-lightregular';
+    width: 85%;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
 ul>li>ul>li {
     font: 0.8em/170% 'din-lightregular';
     width: 85%;
@@ -88,6 +97,17 @@ ul>li>ul>li {
     padding-top: 1%;
     padding-bottom: 1%;
 }
+
+ol>li>ol>li {
+    font: 0.8em/170% 'din-lightregular';
+    width: 85%;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+
 
 }
 
