@@ -48,7 +48,7 @@ c) Time to Launch: **Launching quickly with plans to improve a half-baked produc
 
 d) Location: **New York is good for early-stage startups, though they need roots in SF community. San Francisco still has better infrastructure for middle-stage startups.**
 
-e) Investors: William Goldman once said “Nobody knows anything.” D**on’t always trust investors when they tell you something about your business.** Sometimes investors have too many deals going on and aren’t in the headspace to properly evaluate your deal. Shana followed up with, “I don’t believe in patterns,” and many investors are used to using patterns to make judgements about businesses. Each case needs to be evaluated individually as well.
+e) Investors: William Goldman once said “Nobody knows anything.” **Don’t always trust investors when they tell you something about your business.** Sometimes investors have too many deals going on and aren’t in the headspace to properly evaluate your deal. Shana followed up with, “I don’t believe in patterns,” and many investors are used to using patterns to make judgements about businesses. Each case needs to be evaluated individually as well.
 
 f) Product Development: **Plan for today and don’t always think too much about scaling in the future.** Your focus as a business is to build a product your users can pay you for or make use of TODAY. Additionally, product design is plateauing as investors see flat, simple design as the only option for good design. You should think about design breakthroughs. Copying Apple and other top products raises the risk of getting lost in the crowd.
 
