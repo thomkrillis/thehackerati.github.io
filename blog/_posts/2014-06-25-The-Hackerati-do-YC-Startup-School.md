@@ -1,5 +1,5 @@
 ---
-title: The Hackerati do YC Startup School
+title: The Hackerati Do YC Startup School
 post_author: Donny Kanner
 post_gravatar: 
   - 0edfc9df58328fc851ae0889e8b9939e
