@@ -54,7 +54,7 @@ f) Product Development: **Plan for today and don’t always think too much about
 
 g) People: **People are the most important asset for every company so take care to be a good manager.** Many entrepreneurs have little management experience and should learn one by one as they hire employees. Don’t hire a new employee until you’ve learned how to manage the last employee. Also, hire different perspectives: men, women, people from New York and people from abroad. Don’t forget to be mindful of “can I talk to you for a minute” conversations. Take care of what your employees need and don’t hire unless you understand or have the ability to manage each employee. Otherwise things will go wrong.
 
-h) Equinox: There is a line between when you *don’t* have to make money and when you *do* called the equinox. Think about your business model and understand when you’re past the equinox and NEED to make money before things begin to unravel.
+h) Equinox: There is a line between when you *don’t* have to make money and when you *do* called the equinox. **Think about your business model and understand when you’re past the equinox** and NEED to make money before things begin to unravel.
 
 i) Cosmos: **Dream of building something that can reach the end of the universe.** Grand ideas for changing the world are what make startups great and lead to success when executed with passion and vision. 
 
@@ -80,7 +80,9 @@ Fred’s talk was one of my favorites for the night because it included so many 
 
 <h3 id="Zach">Zach Sims — Codecademy</h3>
 
-Zach Sims was probably the most relatable speaker of the night. As the cofounder of Codecademy, he had an audience full of entrepreneurs and budding coders gratefully and attentively hanging on to every word his founding story. 
+Zach Sims was probably the most relatable speaker of the night. As the cofounder
+of Codecademy, he had an audience full of entrepreneurs and budding coders
+gratefully and attentively hanging on to every word of his founding story. 
 
 For those who aren’t aware, Codecademy is a web platform that teaches people to code in a number of programming languages through in-browser command line challenges. Zach’s story is a Y Combinator legend. A mere few weeks before demo day, he and his partner, Ryan Bubinski, weren’t even sure what company/product they were building. The YC partners and other advisors had all but given up hope and told them to make sure that whatever they presented should be embarrassing—but not *super* embarrassing.
 
