@@ -665,13 +665,8 @@ CSS MEDIA QUERIES FOR THEHACKERATI.COM
         font: 1.3em/120% 'HelveticaRegular'; 
     }
 
-<<<<<<< HEAD
     .clients-tools p {
         font: 0.95em/120% 'din-lightregular';
-=======
-    .tooltip p { 
-        font: 0.97em/120% 'din-lightregular'; 
->>>>>>> development
     }
 
     .clients-resources p { 
