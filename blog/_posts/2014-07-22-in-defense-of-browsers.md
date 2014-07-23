@@ -1,7 +1,7 @@
 ---
 title: "In Defense of Browsers"
 post_author: "Eddy Garcia"
-post_gravatar: [af13685fadb66b168a9ebf20fae8b546]
+post_gravatar: [a53f1632974b3117a829e5e160381dcb]
 layout: blog_entry
 comments: true
 tags: [tech, culture, mobile, JavaScript]
