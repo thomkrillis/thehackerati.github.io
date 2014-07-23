@@ -1,7 +1,7 @@
 ---
 title: "In Defense of Browsers"
 post_author: "Eddy Garcia"
-post_gravatar: [03452931bc0b7325ca8389e0d15977e4]
+post_gravatar: [af13685fadb66b168a9ebf20fae8b546]
 layout: blog_entry
 comments: true
 tags: [tech, culture, mobile, JavaScript]
@@ -15,7 +15,7 @@ TL;DR
 The Browser and JavaScripts = SUCH WOW, SO AMAZE!!11!! 
 ![Alt text](/blog/assets/img/doge.png)
 
-[Browsers are the worst?](http://www.thehackerati.com/blog/2014/07/15/the-days-of-browsers-are-numbered.html)
+In response to: [Browsers Are the Worst](http://www.thehackerati.com/blog/2014/07/15/the-days-of-browsers-are-numbered.html)
 
 Really, Alex? REALLY?
 ---
