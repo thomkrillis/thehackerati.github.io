@@ -15,6 +15,8 @@ TL;DR
 The Browser and JavaScripts = SUCH WOW, SO AMAZE!!11!! 
 ![Alt text](/blog/assets/img/doge.png)
 
+[Browsers are the worst?](http://www.thehackerati.com/blog/2014/07/15/the-days-of-browsers-are-numbered.html)
+
 Really, Alex? REALLY?
 ---
 I completely disagree with you, Alex. I believe that browsers are the future of application development, especially when it comes to mobile. When mobile devices first came out, the general strategy was to be the first app in the marketplace to be competitive. But the strategy has shifted to differentiating an app with better performance and UI, which is mainly achieved through native libraries. 
