@@ -1387,9 +1387,13 @@ body > svg {
 
 /* BLOCK 5  | LETS TALK */
 
+input {
+    font-size: 1em;
+}
+
 .contact-container {
     background: #2d2d2d url('../assets/img/bgdarkblue.png') repeat;
-    height: 60em;
+    height: 120em;
     background-repeat: repeat;
     overflow: hidden;
 }
@@ -1428,7 +1432,6 @@ body > svg {
 #google-maps-wrapper {
     position: absolute;
     left: 50%;
-    top: 8.75em;
     width: 100%;
     height: 33em;
     margin-left: -240%;
