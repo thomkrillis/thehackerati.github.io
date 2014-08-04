@@ -31,7 +31,7 @@
         <script src="//platform.linkedin.com/in.js" type="text/javascript">
            lang: en_US
         </script>
-        <script type="IN/Share" data-url="http://thehackerati.com/blog{{ page.url }}" data-counter="right"></script>
+        <script type="IN/Share" data-url="http://thehackerati.com{{ page.url }}" data-counter="right"></script>
     </li>
     
     <li class="rdt-container">
