@@ -151,16 +151,31 @@ p {
     right: 0;
     width: 100%;
     height: 30px;
-    padding-bottom: 3px;
+    padding-bottom: 1px;
     text-align: right;
     background-color: rgba(44,44,44,0.9);
     z-index: 9999;
 }
 
 .blue-h-logo-blog img {
-    margin-right: 2%;
+    margin-right: 96%;
 }
 
+.blue-h-logo-blog div {
+	visibility: hidden;
+	margin-left: 0%;
+	margin-top: -23px;
+}
+
+.blue-h-logo-blog div a {
+	visibility: hidden;
+}
+
+.blue-h-logo-blog div a img{
+	visibility: visible;
+	height: 28px;
+	margin-right: 1%;
+}
 
 }
 

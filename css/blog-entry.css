@@ -165,13 +165,30 @@ a:visited {
 
 .blue-h-logo-blog {
     position: fixed;
-    bottom: 30px;
-    right: 5%;
+    bottom: 50px;
+    right: 0.5%;
     height: 75px;
+    z-index: 9999;
 }
 
 .blue-h-logo-blog img {
     max-height: 100%;
+}
+
+.blue-h-logo-blog div {
+    margin-left: -30%;
+    font-size: small;
+}
+
+.blue-h-logo-blog div a {
+    margin-left: 5%;
+    font-size: medium;
+    font-weight: bold;
+}
+
+.blue-h-logo-blog div a img{
+	visibility: hidden;
+	height: 0px;
 }
 
 img {
