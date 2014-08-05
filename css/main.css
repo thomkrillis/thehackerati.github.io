@@ -1387,10 +1387,6 @@ body > svg {
 
 /* BLOCK 5  | LETS TALK */
 
-input {
-    font-size: 1em;
-}
-
 .contact-container {
     background: #2d2d2d url('../assets/img/bgdarkblue.png') repeat;
     height: 120em;
