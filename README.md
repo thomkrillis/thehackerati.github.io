@@ -14,6 +14,14 @@ Development
 Browse the local version of your site here: http://localhost:4000
 Browse the test vesion of the site at http://50.116.61.35/
 
+Updating
+--------
+
+After you cloned the repository and each time a new gem is added into Gemfile you need to run the following commands:
+
+	bundle install
+	bundle update
+
 Blogging
 --------
 
