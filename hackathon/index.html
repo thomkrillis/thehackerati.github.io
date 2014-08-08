@@ -44,17 +44,58 @@ $(document).ready(function(){
 	    moveCloud($('#cloud10'), 0.2, (window_width / -4));
 	    moveCloud($('#cloud11'), 0.7, (window_width / -2));
 
+	    //scroll_position -= window_height;
+	    var scrollPercent = scroll_position / document_height;
+	    console.log('unadjsted ' + $(document).height());
+	    console.log('height = ' + document_height);
+	    console.log('scroll = ' + scroll_position);
+	    console.log(scrollPercent);
 
 	    var mountains = $('#mountains2');
-
-	    var scrollPercent = scroll_position / document_height;
-		var n = scrollPercent * (mountains.height() + 80);
-	    n = scroll_position + window_height - n;
-
+		var mountainY = scrollPercent * mountains.height();
+	    mountainY = scroll_position + window_height - mountainY;
 
 	    mountains.css({
-	    	'top':n
+	    	'top':mountainY
 	    });
+
+	    var mid = document_height / 2;
+	    if(scroll_position > mid){
+	    	var tree1 = $('#tree1');
+
+
+
+	    	var percent = (scroll_position - mid) / mid;
+		    var treeY = percent * tree1.height();
+		    treeY = scroll_position + window_height - treeY;
+		    tree1.css({
+		    	'top':treeY	
+		    });
+	    }
+
+	    
+
+
+
+
+
+	  //   var treeFrame = scroll_position % 100;
+	  //   var img1 = '../assets/img/hotm/tree3.png';
+
+	  //   if(treeFrame < 50){
+	  //   	//$(".tree").attr("src", "../assets/img/hotm/tree3.png");
+
+			// $('.tree').css("content", "url(../assets/img/hotm/tree3.png)");  
+
+			// console.log('1');
+	  //   }else{
+	  //   	//$(".tree").attr("src", "../assets/img/hotm/tree1.png");
+
+			// $('.tree').css("content", "url(../assets/img/hotm/tree2.png)");  
+
+			// console.log('2');
+	  //   }
+
 }));
 
 });
@@ -65,8 +106,10 @@ $(document).ready(function(){
 
 
 <div class="all-content">
+	<div id="mountains2"></div>
+	<div class="tree" id="tree1"></div>
 
-    <div class="titleSection" id="pictureBG1">
+    <div class="titleSection lightBlue">
 
     	<div class="hackathonHeader">
 			<a href="http://www.thehackerati.com"><img src="../assets/img/hotm/hack-presents.png" class="displayed"></a>
@@ -74,13 +117,13 @@ $(document).ready(function(){
 
 		<h1>HackathOn The Mountain</h1>
 
-		<div class="hackathon">
+		<div class="hackathonButtons">
 			<a class = "btn first-btn" href="apply">Apply</a>
 			<a class = "btn" href="sponsor">Sponsor</a>
 		</div>
 	</div>
 
-	<div class="details" id="num1">
+	<div class="details purple">
 		<div class="verticallyCentered">
 			<div class="verticallyCenteredInner">
 				<h2>24 Hours | May 2015 | <a href="http://bit.ly/1pXelZn">Metzgar's Farm</a></h2>
@@ -88,7 +131,7 @@ $(document).ready(function(){
 		</div>
 	</div>
 
-	<div class="overview">
+	<div class="overview black">
 		<div class="verticallyCentered">
 			<div class="verticallyCenteredInner">
 				<p>An open-air sustainability hackathon atop a mountain in Northeastern Pennsylvania.</p>
@@ -203,9 +246,7 @@ $(document).ready(function(){
 
 		
 	</div>
-	<div id="mountains2"></div>
-
-
+	<div class="clear"></div>
 </div>
 
 
