@@ -1,0 +1,468 @@
+.hackathon {
+    text-align:center;
+    min-height: 100px;
+    vertical-align: middle;
+    margin-top: 50px;
+    
+}
+
+
+.section p {
+    font: 1.15em/150% 'din-regularregular';
+    margin: 0.3em 0 1.3em 0;
+}
+
+.section {
+    width: 100%;
+    height: auto;
+    background:#2d2d2d url('../assets/img/bgwhite.png') repeat;
+    overflow: hidden;
+}
+
+.section a {
+    color: white;
+}
+
+.section a:hover {
+    color: #000;
+}
+
+
+
+
+body {
+    width: 100%;
+    line-height: 16px;
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    //background-color: rgb(194,255,254);
+
+    background: rgb(168,255,252); /* Old browsers */
+    background: -moz-linear-gradient(top,  rgba(168,255,252,1) 45%, rgba(0,63,191,1) 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(45%,rgba(168,255,252,1)), color-stop(100%,rgba(0,63,191,1))); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  rgba(168,255,252,1) 45%,rgba(0,63,191,1) 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  rgba(168,255,252,1) 45%,rgba(0,63,191,1) 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  rgba(168,255,252,1) 45%,rgba(0,63,191,1) 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  rgba(168,255,252,1) 45%,rgba(0,63,191,1) 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a8fffc', endColorstr='#003fbf',GradientType=0 ); /* IE6-9 */
+
+}
+
+
+
+#pictureBG1 {
+    background-image: url('../assets/img/hotm/hotm-splash.jpg');
+    background-size:cover;
+    background-position: center center;
+    height:100vh;
+}
+
+#pictureBG2 {
+    background-image: url('../assets/img/hotm/metzgersFarm.jpg');
+
+    background-size:cover;
+    //height:100vh;
+}
+
+#mountains {
+/*    background: url('../assets/img/hotm/mountains.png') no-repeat;
+
+    background-size:cover;
+
+    //width:100%;
+    //min-height: 600px;
+    //position: absolute;
+    //left:0px;
+    //top:80%;
+    z-index: -2;*/
+}
+
+#mountains2 {
+    background: url('../assets/img/hotm/mountains.png') no-repeat;
+
+    background-size:cover;
+
+    width:100%;
+    min-height: 600px;
+    position: absolute;
+    //left:0px;
+    //top:80%;
+    //bottom: 0px;
+    z-index: -2;
+}
+
+.titleSection {
+    height:100vh;
+}
+.titleSection h1 {
+    font-size:100px;
+    font-weight: bold;
+    color:white;
+    margin-top:20vh;
+}
+
+.hackathonCenter img{
+	margin-left: auto;
+	margin-right: auto;
+	display:block;
+}
+
+
+img.displayed {
+    display: block;
+    margin-left: auto;
+    margin-right: auto; 
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+.hackathonHeader{
+
+	width:100%;
+	background-color:black;
+	min-height: 100px;
+}
+
+.details{
+	width:100%;
+	min-height: 100px;
+	background: rgb(72,119,207);
+}
+
+
+.details h2 {
+    margin-bottom: 0px;
+    margin-top:0px;
+}
+
+.details a{
+	color: white;
+	
+}
+
+.btn{
+    border-radius:30px;
+    -moz-border-radius:30px;
+    -webkit-border-radius:30px;
+    border:2px solid #fff;
+    background-color:transparent;
+    -webkit-transition:background-color 0.3s ease-in-out;
+    -moz-transition:background-color 0.3s ease-in-out;
+    transition:background-color 0.3s ease-in-out;
+    -webkit-transition:color 0.3s ease-in-out;
+    -moz-transition:color 0.3s ease-in-out;
+    transition:color 0.3s ease-in-out;
+    color:white;
+    font-size:30px;
+    text-decoration:none;
+    text-align:center;
+    padding:15px 30px;
+    margin-top:100px;
+}
+
+.btn:hover{
+    -webkit-transition:background-color 0.3s ease-in-out;
+    -moz-transition:background-color 0.3s ease-in-out;
+    transition:background-color 0.3s ease-in-out;
+    -webkit-transition:color 0.3s ease-in-out;
+    -moz-transition:color 0.3s ease-in-out;
+    transition:color 0.3s ease-in-out;
+    background-color:white;
+    color:black;
+}
+
+.btn a {
+    color:white;
+}
+
+.first-btn{
+    width:60px;
+    margin-right:30px;
+    padding:15px 40px;
+}
+
+
+.overview{
+	width:100%;
+	min-height: 100px;
+	background: rgb(207, 99, 57);
+    position:relative;
+}
+
+
+
+.verticallyCentered {
+    position: absolute; 
+    width: 100%;
+    height: 100px; 
+    display: table; 
+}
+
+.verticallyCenteredInner{
+    display: table-cell; 
+    vertical-align: middle; 
+    text-align: center; 
+}
+
+.overview p {
+    color: white;
+    font-size:28px;
+}
+
+.info {
+    padding:20px 20%;
+    min-height: 100px;
+    //background: white;
+    color:black;
+    line-height: 30px;
+    position:relative;
+}
+.info h3{
+	width:100%;
+    font-weight: bold;
+    font-size:32px;
+    text-align: left;
+}
+.info p{
+    font-size:24px;
+}
+
+
+.infoWithInner{
+    min-height: 100px;
+    color:black;
+    line-height: 30px;
+    padding:0 20%;
+}
+.infoWithInner h3{
+    width:100%;
+    font-weight: bold;
+    font-size:32px;
+    text-align: left;
+}
+.infoWithInner p{
+    font-size:24px;
+}
+
+.innerSection{
+    //margin: 0 20%;
+}
+
+.white {
+    background-color: white;
+}
+
+
+.outdoors {
+    //background: rgb(180,235,241);
+
+}
+
+.interlude {
+    height: 30%;
+}
+
+
+
+.participate {
+    //background: rgb(235,171,156);
+    //background: rgb(72,119,207);
+    //background: rgb(207, 99, 57);
+    //background: white;
+}
+
+.sponsors {
+    //background: rgb(207, 99, 57);
+    //background: rgb(72,119,207);
+    padding:20px 10%;
+    min-height: 100px;
+    line-height: 30px;
+    overflow: visible;
+}
+
+.sponsors img {
+    float: left;
+    max-width: 25%;
+    max-height: 25%;
+    margin: 3%;
+    top:auto;
+    bottom:auto;
+}
+.sponsors h3{
+    width:100%;
+    font-weight: bold;
+    font-size:40px;
+    text-align: center;
+
+}
+
+
+.moreInformation{
+    //background: rgb(180,235,241);
+}
+
+.clear {
+    clear:both;
+}
+
+.ribbon {
+    background-position:center center;
+    background-size:cover;
+    color:white;
+    width:100%;
+    height: 150px;
+    line-height: 150px;
+    position:relative;
+
+    text-align: center;
+    font-weight: bold;
+    font-size:80px;
+    color:white;    
+    text-shadow: 2px 2px black;
+}
+
+
+
+.cloud{
+    position: absolute;
+    left: 0;
+    top: 35%;
+    height: 200px;
+    width: 300px;
+    background: url('../assets/img/hotm/cloud.png') no-repeat;
+    z-index: -1;
+}
+
+#cloud1{
+    top: 10%;
+}
+#cloud2{
+    top: 70%;
+}
+#cloud3{
+    top: 20%;
+}
+#cloud4{
+    top: 60%;
+}
+#cloud5{
+    top: 10%;
+}
+#cloud6{
+    top: 10%;
+}
+#cloud7{
+    top: 20%;
+}
+#cloud8{
+    top: 80%;
+}
+#cloud9{
+    top: 0;
+}
+#cloud10{
+    top: 50%;
+}
+#cloud11{
+    top: 70%;
+}
+
+
+
+p {
+    font-family: 'din-regularregular';
+}
+
+h1 {
+    font: 3.25em/100% 'HelveticaRegular';
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: .2em;
+    padding-bottom: 10px;
+}
+
+h2 {
+    font: 3.5em/120% 'HelveticaRegular';
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+h3 {
+    font: 1.2em/100% 'HelveticaRegular';
+	padding-bottom: 10px;
+	padding-bottom: 10px;
+	text-align: center;
+}
+
+h4 {
+    font: 2em/100% 'HelveticaRegular';
+    margin: 0 0 0.7em 0;
+    color: #f4f4f4;
+}
+
+a {
+    font-family: 'din-regularregular';
+    text-decoration: none;
+}
+
+a:hover {
+    color: #000;
+}
+
+a, 
+a:hover {
+    -webkit-transition-property: color;
+    -webkit-transition-duration: 0.3s;
+    -webkit-transition-timing-function: ease;
+    -moz-transition-property: color;
+    -moz-transition-duration: 0.3s;
+    -moz-transition-timing-function: ease;
+    -o-transition-property: color;
+    -o-transition-duration: 0.3s;
+    -o-transition-timing-function: ease;
+    -ms-transition-property: color;
+    -ms-transition-duration: 0.3s;
+    -ms-transition-timing-function: ease;
+    transition-property: color;
+    transition-duration: 0.3s;
+    transition-timing-function: ease;
+}
+
+.hidden {
+    display: none;
+}
+
+.visible {
+    display: block;
+}
+
+
+
+
+.content-container {
+    width: 67%;
+    height: 100%;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+    position:relative;
+    padding-top: 6em;
+    padding-bottom: 3%;
+}
+
+.all-content {
+    position: relative;
+    width: auto;
+    height: auto;
+}
+
+.text-right {
+    text-align: right;
+}
+
+
