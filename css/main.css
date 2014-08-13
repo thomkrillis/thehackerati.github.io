@@ -575,6 +575,14 @@ HOME PAGE
     margin-top: 4em;
 }
 
+.terminal-buttons button {
+    display: inline-block;
+    text-decoration: none;
+    color: #2c2c2c;
+    font: 1.1em/130% 'din-regularregular', sans-serif;
+    margin-bottom: 0.9em;
+}
+
 .terminal-buttons a {
     display: inline-block;
     text-decoration: none;
@@ -591,6 +599,8 @@ HOME PAGE
 }
 
 .landing-btn {
+    height: 30px;
+    border: none;
     padding: 5px 10px;
     -webkit-border-radius: 4px;
     -moz-border-radius: 4px;
@@ -1389,7 +1399,7 @@ body > svg {
 
 .contact-container {
     background: #2d2d2d url('../assets/img/bgdarkblue.png') repeat;
-    height: 120em;
+    height: 60em;
     background-repeat: repeat;
     overflow: hidden;
 }
@@ -1397,6 +1407,14 @@ body > svg {
 .contact-bg-overlay {
     height: 100%;
     padding-top: 2em;
+}
+
+.google-maps-container {
+    display: block;
+}
+
+.google-maps-container-mobile {
+    display: none;
 }
 
 #contact-content {

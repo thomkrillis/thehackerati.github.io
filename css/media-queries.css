@@ -1327,6 +1327,18 @@ CSS MEDIA QUERIES FOR THEHACKERATI.COM
         width: 80%; 
     }
 
+    .contact-container {
+        height: 48em;
+    }
+
+    .google-maps-container {
+        display: none;
+    }
+
+    .google-maps-container-mobile {
+        display: block;
+    }
+
     #google-maps-wrapper { 
         top: 8em; 
     }
@@ -1827,8 +1839,20 @@ CSS MEDIA QUERIES FOR THEHACKERATI.COM
 
     /* SECTION 6 */
 
-    .contact-container { 
-        display: none; 
+    #contact-content { 
+        width: 80%; 
+    }
+
+    .contact-container {
+        height: 48em;
+    }
+
+    .google-maps-container {
+        display: none;
+    }
+
+    .google-maps-container-mobile {
+        display: block;
     }
 
     #google-maps-wrapper {
