@@ -15,7 +15,7 @@ published: true
 ---
 ![Alt text](/blog/assets/img/robin/robin.jpg)
 
-We've discussed internally the possibility of sharing personal art on this blog, such as the [awesome comic](http://www.thehackerati.com/blog/2014/05/20/hackerati-comics.html) that Grace posted a few months back. 
+We've discussed internally the possibility of sharing personal art on this blog, such Grace's _[Cosmospolitan](http://www.thehackerati.com/blog/2014/04/28/cosmospolitan.html)_ and [awesome comic](http://www.thehackerati.com/blog/2014/05/20/hackerati-comics.html). 
 
 The immense sadness surrounding Robin Williams' death has been overwhelmingly present in my mind, so I decided to share a poem I wrote after hearing the news last night:
 <br><br>
