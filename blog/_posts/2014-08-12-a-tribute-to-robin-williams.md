@@ -5,7 +5,7 @@ post_gravatar:
   - 25bca2a4802e8db7325c0907494ae203
 layout: blog_entry
 comments: true
-tags: 
+tags:
   - culture
   - art
   - poetry
@@ -29,6 +29,7 @@ on his ability to inspire<br>
 a tireless stream of happy thoughts<br>
 that made flying as easy as realizing<br>
 that we _all_ have magic inside of us<br>
+BANGARANG!<br>
 
 then Jumanji got me wandering<br>
 through the mystical lands of imagination<br>
@@ -38,14 +39,14 @@ just roll the dice<br>
 and hope you'll hit the finish line<br>
 no turning back now<br>
 
-I was jacked up<br>
+I was Jacked up<br>
 growing<br>
 but forever young<br>
 
 and wondering<br>
 what dreams may come<br>
 when the end is reached<br>
-does one perish only to be revived<br>
+does one perish only to be revived?<br>
 
 like dead poets brought alive<br>
 by John Keating<br>
@@ -55,7 +56,7 @@ so we too may learn to contribute a verse<br>
 and see the world as it is<br>
 an endless ocean of emotion<br>
 in constant flux between pain and beauty<br>
-O Captain, My Captain<br>
+O Captain, My Captain!<br>
 
 you man a rowboat solo<br>
 navigating more serious waters now<br>
@@ -67,7 +68,7 @@ than experiencing<br>
 and feeling<br>
 
 goooooood<br> 
-_morning_ Vietnaaaaam<br>
+_morning_ Vietnaaaaam!<br>
 wake up and smell the napalm
 
 though I doubt fire ever burned hotter<br>
@@ -89,7 +90,7 @@ of feeling so helplessly alone<br>
 
 this is a testament<br>
 to the importance<br>
-of looking beyond another's outward disposition<br>
+of looking beyond someone's outward disposition<br>
 of peering past the carefully constructed façade<br>
 and nourishing the inner light<br>
 before the flame loses life<br>
