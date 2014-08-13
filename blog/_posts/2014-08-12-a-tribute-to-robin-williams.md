@@ -24,7 +24,7 @@ Aladdin rubbed that magic lamp<br>
 and a gleeful genie emerged to affirm<br>
 that we ain't never had a friend like Robin Williams
 
-wasn't long before I was Hooked<br>
+wasn't long before I was hooked<br>
 on his ability to inspire<br>
 a tireless stream of happy thoughts<br>
 that made flying as easy as realizing<br>
@@ -38,16 +38,16 @@ just roll the dice<br>
 and hope you'll hit the finish line<br>
 no turning back now<br>
 
-I was Jacked up<br>
+I was jacked up<br>
 growing<br>
 but forever young<br>
 
 and wondering<br>
-What Dreams May Come<br>
+what dreams may come<br>
 when the end is reached<br>
 does one perish only to be revived<br>
 
-like Dead Poets brought alive<br>
+like dead poets brought alive<br>
 by John Keating<br>
 insisting that we seize the day<br>
 and pray to the lords of language<br>
@@ -59,18 +59,18 @@ O Captain, My Captain<br>
 
 you man a rowboat solo<br>
 navigating more serious waters now<br>
-effusing Good Will by<br>
-Hunting for the means to communicate<br>
+effusing good will by<br>
+hunting for the means to communicate<br>
 to an immature genius<br>
 that life is less about knowing<br>
 than experiencing<br>
 and feeling<br>
 
-Goooooood<br> 
-_Morning_ Vietnaaaaam<br>
+goooooood<br> 
+_morning_ Vietnaaaaam<br>
 wake up and smell the napalm
 
-though I Doubtfire ever burned hotter<br>
+though I doubt fire ever burned hotter<br>
 than in Robin's heart<br>
 so heated that it sparked through his chest<br>
 and spread to his synthetic breasts<br>
@@ -89,7 +89,7 @@ of feeling so helplessly alone<br>
 
 this is a testament<br>
 to the importance<br>
-of looking beyond one's outward disposition<br>
+of looking beyond another's outward disposition<br>
 of peering past the carefully constructed façade<br>
 and nourishing the inner light<br>
 before the flame loses life<br>
