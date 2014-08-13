@@ -15,9 +15,9 @@ published: true
 ---
 ![Alt text](/blog/assets/img/robin/robin.jpg)
 
-We've discussed internally the possibility of sharing personal art on this blog, such Grace's _[Cosmospolitan](http://www.thehackerati.com/blog/2014/04/28/cosmospolitan.html)_ and [awesome comic](http://www.thehackerati.com/blog/2014/05/20/hackerati-comics.html). 
+We've discussed internally the possibility of sharing more personal art on this blog, à la Grace's _[Cosmospolitan](http://www.thehackerati.com/blog/2014/04/28/cosmospolitan.html)_ and [awesome comic](http://www.thehackerati.com/blog/2014/05/20/hackerati-comics.html). 
 
-The immense sadness surrounding Robin Williams' death has been overwhelmingly present in my mind, so I decided to share a poem I wrote after hearing the news last night:
+The immense sadness surrounding Robin Williams' death has been overwhelmingly present in my mind, so I've decided to share a poem I wrote after hearing the news last night:
 <br><br>
 
 Aladdin rubbed that magic lamp<br>
@@ -89,8 +89,8 @@ of feeling so helplessly alone<br>
 
 this is a testament<br>
 to the importance<br>
-of looking past one's outward disposition<br>
-of peering through the constructed façade<br>
+of looking beyond one's outward disposition<br>
+of peering past the carefully constructed façade<br>
 and nourishing the inner light<br>
 before the flame loses life<br>
 and suffocates in shadow<br>
