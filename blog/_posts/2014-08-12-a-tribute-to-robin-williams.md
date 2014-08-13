@@ -1,0 +1,101 @@
+---
+title: "A Tribute to Robin Williams"
+post_author: Michael Ketigian
+post_gravatar: 
+  - 25bca2a4802e8db7325c0907494ae203
+layout: blog_entry
+comments: true
+tags: 
+  - culture
+  - art
+  - poetry
+    
+published: true
+---
+![Alt text](/blog/assets/img/robin/robin.jpg)
+
+We've discussed internally the possibility of sharing personal art on this blog, such as the [awesome comic](http://www.thehackerati.com/blog/2014/05/20/hackerati-comics.html) that Grace posted a few months back. 
+
+The immense sadness surrounding Robin Williams' death has been overwhelmingly present in my mind, so I decided to share a poem I wrote after hearing the news last night:
+<br><br>
+
+Aladdin rubbed that magic lamp<br>
+and a gleeful genie emerged to affirm<br>
+that we ain't never had a friend like Robin Williams
+
+wasn't long before I was Hooked<br>
+on his ability to inspire<br>
+a tireless stream of happy thoughts<br>
+that made flying as easy as realizing<br>
+that we _all_ have magic inside of us<br>
+
+then Jumanji got me wandering<br>
+through the mystical lands of imagination<br>
+dangerous, yes<br>
+but riddled with unlimited possibilities<br>
+just roll the dice<br>
+and hope you'll hit the finish line<br>
+no turning back now<br>
+
+I was Jacked up<br>
+growing<br>
+but forever young<br>
+
+and wondering<br>
+What Dreams May Come<br>
+when the end is reached<br>
+does one perish only to be revived<br>
+
+like Dead Poets brought alive<br>
+by John Keating<br>
+insisting that we seize the day<br>
+and pray to the lords of language<br>
+so we too may learn to contribute a verse<br>
+and see the world as it is<br>
+an endless ocean of emotion<br>
+in constant flux between pain and beauty<br>
+O Captain, My Captain<br>
+
+you man a rowboat solo<br>
+navigating more serious waters now<br>
+effusing Good Will by<br>
+Hunting for the means to communicate<br>
+to an immature genius<br>
+that life is less about knowing<br>
+than experiencing<br>
+and feeling<br>
+
+Goooooood<br> 
+_Morning_ Vietnaaaaam<br>
+wake up and smell the napalm
+
+though I Doubtfire ever burned hotter<br>
+than in Robin's heart<br>
+so heated that it sparked through his chest<br>
+and spread to his synthetic breasts<br>
+when he surrendered his manhood<br>
+for man's good<br>
+because everyone needs a good laugh
+
+and...that's what makes it so tragic
+
+that the magic behind those laughs<br>
+was slowly killing the clown<br>
+
+that one who inspired so much joy<br>
+could not escape the darkness<br>
+of feeling so helplessly alone<br>
+
+this is a testament<br>
+to the importance<br>
+of looking past one's outward disposition<br>
+of peering through the constructed façade<br>
+and nourishing the inner light<br>
+before the flame loses life<br>
+and suffocates in shadow<br>
+
+You will be missed, Robin Williams. <br>
+Thank you for sharing your light while you had it.
+
+
+![Alt text](/blog/assets/img/robin/painting.png)
