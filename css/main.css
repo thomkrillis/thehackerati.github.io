@@ -1409,6 +1409,18 @@ body > svg {
     padding-top: 2em;
 }
 
+.contact-head {
+    text-align: center;
+}
+
+.contact-head button {
+    display: inline-block;
+    text-decoration: none;
+    color: #2c2c2c;
+    font: 1.1em/130% 'din-regularregular', sans-serif;
+    margin-bottom: 0.9em;
+}
+
 .google-maps-container {
     display: block;
 }
