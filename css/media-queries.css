@@ -1622,6 +1622,15 @@ CSS MEDIA QUERIES FOR THEHACKERATI.COM
         margin-left: 0;
     }
 
+    /*
+    ====================================================== 
+    CONTACT MODAL 
+    ======================================================
+    */
+    
+    .modal-dialog {
+        margin-top: 5em;
+    }
 
 }
 
@@ -2117,4 +2126,14 @@ CSS MEDIA QUERIES FOR THEHACKERATI.COM
         height: 9em; 
     }
     
+    /*
+    ====================================================== 
+    CONTACT MODAL 
+    ======================================================
+    */
+    
+    .modal-dialog {
+        margin-top: 5em;
+    }
+
 }

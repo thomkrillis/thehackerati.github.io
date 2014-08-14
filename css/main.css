@@ -2288,6 +2288,14 @@ footer p {
     color: #f4f4f4;
 }
 
+.footer-contact button {
+    color: #4CA0D3;
+}
+
+.footer-contact button:hover {
+    color: #f4f4f4;
+}
+
 .footer-envelope {
     color: #f4f4f4 !important;
 }
