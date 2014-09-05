@@ -1,12 +1,58 @@
 <div id="myModal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
     <div class="modal-dialog">
         <div class="modal-content">
-            <div class="modal-body">
-                <iframe height="1017" allowTransparency="true" frameborder="0" scrolling="no" style="width:100%;border:none"  src="https://thisisjackolantern.wufoo.com/embed/z1y9176g1crbjqm/">
-                    <a href="https://thisisjackolantern.wufoo.com/forms/z1y9176g1crbjqm/">Fill out my Wufoo form!</a>
-                </iframe>
-                <div id="wuf-adv" style="font-family:inherit;font-size: small;color:#a7a7a7;text-align:center;display:block;">HTML Forms powered by <a href="http://www.wufoo.com">Wufoo</a>.</div>
-            </div>
+            <div class="modal-body" id="modal-body" style="height:700px">
+
+<div id="contact-form-ie" style="display: none">
+<iframe height="930" allowTransparency="true" frameborder="0" scrolling="no" style="width:100%;border:none"  src="https://thisisjackolantern.wufoo.com/embed/z1y9176g1crbjqm/"><a href="https://thisisjackolantern.wufoo.com/forms/z1y9176g1crbjqm/">Fill out my Wufoo form!</a></iframe><div id="wuf-adv" style="font-family:inherit;font-size: small;color:#a7a7a7;text-align:center;display:block;">Use <a href="http://www.wufoo.com/partners/">Wufoo integrations</a> and get your data to your favorite apps.</div>
+</div>
+
+<div id="contact-form-main" style="display: none">
+<div id="wufoo-z1y9176g1crbjqm">
+Fill out my <a href="https://thisisjackolantern.wufoo.com/forms/z1y9176g1crbjqm">online form</a>.
+</div>
+<div id="wuf-adv" style="font-family:inherit;font-size: small;color:#a7a7a7;text-align:center;display:block;">There are tons of <a href="http://www.wufoo.com/features/">Wufoo features</a> to help make your forms awesome.</div>
+</div>
+<script type="text/javascript">
+var z1y9176g1crbjqm;(function(d, t) {
+var s = d.createElement(t), options = {
+'userName':'thisisjackolantern',
+'formHash':'z1y9176g1crbjqm',
+'autoResize':true,
+'height':'650',
+'resizeDone':function(height){
+  if (height>0 && height<1100) {
+    console.log("damn");
+    document.getElementById('modal-body').style.height = height + 50 + "px";
+    document.getElementById('wufooFormz1y9176g1crbjqm').style.height = height + "px";
+  }
+  else if (height>1100) {
+    console.log("dAamn");
+    document.getElementById('wufooFormz1y9176g1crbjqm').style.height = "650px";
+  }
+},
+'async':true,
+'host':'wufoo.com',
+'header':'show',
+'ssl':true};
+s.src = ('https:' == d.location.protocol ? 'https://' : 'http://') + 'www.wufoo.com/scripts/embed/form.js';
+s.onload = s.onreadystatechange = function() {
+var rs = this.readyState; if (rs) if (rs != 'complete') if (rs != 'loaded') return;
+try { z1y9176g1crbjqm = new WufooForm();z1y9176g1crbjqm.initialize(options);z1y9176g1crbjqm.display(); } catch (e) {}};
+var scr = d.getElementsByTagName(t)[0], par = scr.parentNode; par.insertBefore(s, scr);
+})(document, 'script');</script>
+
+
+<script type="text/javascript">
+if (!!navigator.userAgent.match(/Trident.*rv\:11\./)) {
+  document.getElementById("contact-form-ie").style.display="inline";
+  document.getElementById("modal-body").style.height="980px";
+} else {
+  document.getElementById("contact-form-main").style.display="inline";
+}
+</script>
+
+            </div><!-- /.modal-body -->
         </div><!-- /.modal-content -->
     </div><!-- /.modal-dialog -->
 </div><!-- /.modal -->
