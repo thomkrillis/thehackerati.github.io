@@ -1,58 +1,149 @@
 <div id="myModal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-    <div class="modal-dialog">
-        <div class="modal-content">
-            <div class="modal-body" id="modal-body" style="height:700px">
+  <div class="modal-dialog">
+    <div class="modal-content" id="modal-content">
+      <div class="modal-body" id="modal-body" style="height:444px">
+        <script>
+        function postInfo() {
+          //Reset modal size and error warnings upon resubmitting
+          document.getElementById('nameGroup').classList.remove('has-error');
+          document.getElementById('nameSpan').style.display = 'none';
+          document.getElementById('emailGroup').classList.remove('has-error');
+          document.getElementById('emailSpan').style.display = 'none';
+          document.getElementById('phoneGroup').classList.remove('has-error');
+          document.getElementById('phoneSpan').style.display = 'none';
+          document.getElementById('projectDescriptionGroup').classList.remove('has-error');
+          document.getElementById('projectDescriptionSpan').style.display = 'none';
+          document.getElementById('requiredTechnologiesGroup').classList.remove('has-error');
+          document.getElementById('requiredTechnologiesSpan').style.display = 'none';
+          document.getElementById('budgetGroup').classList.remove('has-error');
+          document.getElementById('budgetSpan').style.display = 'none';
+          document.getElementById('cityGroup').classList.remove('has-error');
+          document.getElementById('citySpan').style.display = 'none';
+          document.getElementById('howGroup').classList.remove('has-error');
+          document.getElementById('howSpan').style.display = 'none';
+          document.getElementById('modal-body').style.height = '444px';
+          //Retrieve input field values
+          var myDataRef = new Firebase('https://luminous-fire-4244.firebaseio.com/');
+          var name = document.getElementById('nameInput').value;
+          var email = document.getElementById('emailInput').value;
+          var phone = document.getElementById('phoneInput').value;
+          var projDesc = document.getElementById('projectDescriptionInput').value;
+          var reqTech = document.getElementById('requiredTechnologiesInput').value;
+          var budget = document.getElementById('budgetInput').value;
+          var city = document.getElementById('cityInput').value;
+          var how = document.getElementById('howInput').value;
+          //test required fields
+          var fail = false;
+          var heightDiff = 0;
+          if (name == null || name == "") {
+            document.getElementById('nameGroup').classList.add('has-error');
+            document.getElementById('nameSpan').style.display = 'inline';
+            heightDiff = heightDiff + 23;
+            fail = true;
+          }
+          if (email == null || email == "") {
+            document.getElementById('emailGroup').classList.add('has-error');
+            document.getElementById('emailSpan').style.display = 'inline';
+            heightDiff = heightDiff + 23;
+            fail = true;
+          }
+          if (phone == null || phone == "" || Math.floor(phone.replace(/[\s|\(|\)|-]/g, '').length / 2) != 5) {
+            document.getElementById('phoneGroup').classList.add('has-error');
+            document.getElementById('phoneSpan').style.display = 'inline';
+            heightDiff = heightDiff + 23;
+            fail = true;
+          }
+          if (projDesc == null || projDesc == "") {
+            document.getElementById('projectDescriptionGroup').classList.add('has-error');
+            document.getElementById('projectDescriptionSpan').style.display = 'inline';
+            heightDiff = heightDiff + 23;
+            fail = true;
+          }
+          if (reqTech == null || reqTech == "") {
+            document.getElementById('requiredTechnologiesGroup').classList.add('has-error');
+            document.getElementById('requiredTechnologiesSpan').style.display = 'inline';
+            heightDiff = heightDiff + 23;
+            fail = true;
+          }
+          if (budget == null || budget == "") {
+            document.getElementById('budgetGroup').classList.add('has-error');
+            document.getElementById('budgetSpan').style.display = 'inline';
+            heightDiff = heightDiff + 23;
+            fail = true;
+          }
+          if (city == null || city == "") {
+            document.getElementById('cityGroup').classList.add('has-error');
+            document.getElementById('citySpan').style.display = 'inline';
+            heightDiff = heightDiff + 23;
+            fail = true;
+          }
+          if (how == null || how == "") {
+            document.getElementById('howGroup').classList.add('has-error');
+            document.getElementById('howSpan').style.display = 'inline';
+            heightDiff = heightDiff + 23;
+            fail = true;
+          }
+          //Resize modal
+          document.getElementById('modal-body').style.height = 444 + heightDiff + 'px';
 
-<div id="contact-form-ie" style="display: none">
-<iframe height="930" allowTransparency="true" frameborder="0" scrolling="no" style="width:100%;border:none"  src="https://thisisjackolantern.wufoo.com/embed/z1y9176g1crbjqm/"><a href="https://thisisjackolantern.wufoo.com/forms/z1y9176g1crbjqm/">Fill out my Wufoo form!</a></iframe><div id="wuf-adv" style="font-family:inherit;font-size: small;color:#a7a7a7;text-align:center;display:block;">Use <a href="http://www.wufoo.com/partners/">Wufoo integrations</a> and get your data to your favorite apps.</div>
-</div>
+          if (!fail) {
+            myDataRef.push({name: name, email: email, phone: phone, projDesc: projDesc, reqTech: reqTech, budget: budget, city: city, how: how});
+            document.getElementById('nameGroup').style.display = 'none';
+            document.getElementById('emailGroup').style.display = 'none';
+            document.getElementById('phoneGroup').style.display = 'none';
+            document.getElementById('projectDescriptionGroup').style.display = 'none';
+            document.getElementById('requiredTechnologiesGroup').style.display = 'none';
+            document.getElementById('budgetGroup').style.display = 'none';
+            document.getElementById('cityGroup').style.display = 'none';
+            document.getElementById('howGroup').style.display = 'none';
+            document.getElementById('formSubmit').style.display = 'none';
+            document.getElementById('confirmationMessage').style.display = 'inline';
+            document.getElementById('modal-body').style.height = '66px';
+            document.getElementById('modal-body').style.height = '66px';
+            document.getElementById('modal-content').style.width = '350px';
+            document.getElementById('modal-content').style.marginLeft = '125px';
+          }
+        }
+        </script>
 
-<div id="contact-form-main" style="display: none">
-<div id="wufoo-z1y9176g1crbjqm">
-Fill out my <a href="https://thisisjackolantern.wufoo.com/forms/z1y9176g1crbjqm">online form</a>.
-</div>
-<div id="wuf-adv" style="font-family:inherit;font-size: small;color:#a7a7a7;text-align:center;display:block;">There are tons of <a href="http://www.wufoo.com/features/">Wufoo features</a> to help make your forms awesome.</div>
-</div>
-<script type="text/javascript">
-var z1y9176g1crbjqm;(function(d, t) {
-var s = d.createElement(t), options = {
-'userName':'thisisjackolantern',
-'formHash':'z1y9176g1crbjqm',
-'autoResize':true,
-'height':'650',
-'resizeDone':function(height){
-  if (height>0 && height<1100) {
-    console.log("damn");
-    document.getElementById('modal-body').style.height = height + 50 + "px";
-    document.getElementById('wufooFormz1y9176g1crbjqm').style.height = height + "px";
-  }
-  else if (height>1100) {
-    console.log("dAamn");
-    document.getElementById('wufooFormz1y9176g1crbjqm').style.height = "650px";
-  }
-},
-'async':true,
-'host':'wufoo.com',
-'header':'show',
-'ssl':true};
-s.src = ('https:' == d.location.protocol ? 'https://' : 'http://') + 'www.wufoo.com/scripts/embed/form.js';
-s.onload = s.onreadystatechange = function() {
-var rs = this.readyState; if (rs) if (rs != 'complete') if (rs != 'loaded') return;
-try { z1y9176g1crbjqm = new WufooForm();z1y9176g1crbjqm.initialize(options);z1y9176g1crbjqm.display(); } catch (e) {}};
-var scr = d.getElementsByTagName(t)[0], par = scr.parentNode; par.insertBefore(s, scr);
-})(document, 'script');</script>
-
-
-<script type="text/javascript">
-if (!!navigator.userAgent.match(/Trident.*rv\:11\./)) {
-  document.getElementById("contact-form-ie").style.display="inline";
-  document.getElementById("modal-body").style.height="980px";
-} else {
-  document.getElementById("contact-form-main").style.display="inline";
-}
-</script>
-
-            </div><!-- /.modal-body -->
-        </div><!-- /.modal-content -->
-    </div><!-- /.modal-dialog -->
+        <!-- CONTACT FORM FIELDS -->
+        <div class="form-group" id="nameGroup">
+          <input type='text' class='form-control' id='nameInput' placeholder='Name'>
+          <span class="help-block" id="nameSpan" style="display: none">Please enter your name</span>
+        </div>
+        <div class="form-group"i id="emailGroup">
+          <input type='email' class='form-control' id='emailInput' placeholder='Email'>
+          <span class="help-block" id="emailSpan" style="display: none">Please enter a valid email address</span>
+        </div>
+        <div class="form-group" id="phoneGroup">
+          <input type='tel' class='form-control' id='phoneInput' placeholder='Phone'>
+          <span class="help-block" id="phoneSpan" style="display: none">Please enter a ten digit phone number (e.g. xxx-xxx-xxxx)</span>
+        </div>
+        <div class="form-group" id="projectDescriptionGroup">
+          <input type='text' class='form-control' id='projectDescriptionInput' placeholder='Project Description'>
+          <span class="help-block" id="projectDescriptionSpan" style="display: none">Please provide a project description</span>
+        </div>
+        <div class="form-group" id="requiredTechnologiesGroup">
+          <input type='text' class='form-control' id='requiredTechnologiesInput' placeholder='Required Technologies'>
+          <span class="help-block" id="requiredTechnologiesSpan" style="display: none">Please include a statement of required technologies</span>
+        </div>
+        <div class="form-group" id="budgetGroup">
+          <input type='text' class='form-control' id='budgetInput' placeholder='Budget'>
+          <span class="help-block" id="budgetSpan" style="display: none">Please provide a budget estimate</span>
+        </div>
+        <div class="form-group" id="cityGroup">
+          <input type='text' class='form-control' id='cityInput' placeholder='City'>
+          <span class="help-block" id="citySpan" style="display: none">Please enter a location</span>
+        </div>
+        <div class="form-group" id="howGroup">
+          <input type='text' class='form-control' id='howInput' placeholder='How did you find out about The Hackerati?'>
+          <span class="help-block" id="howSpan" style="display: none">Please include how you found us</span>
+        </div>
+        <button id="formSubmit" onclick="postInfo()">Submit</button>
+        <div id="confirmationMessage" style="display: none">
+          <h4 style="color: black; margin: 0; text-align: center">Thanks for submitting!</h4>
+        </div>
+      </div><!-- /.modal-body -->
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
 </div><!-- /.modal -->
