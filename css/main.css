@@ -104,7 +104,9 @@ h4 {
 }
 
 input {
+    display: inline-block !important;
     margin-bottom: 0.5em !important;
+    width: 98% !important;
 }
 
 a {
@@ -1415,6 +1417,15 @@ body > svg {
 
 .modal-open {
     padding-right: 0px !important;
+}
+
+.control-label {
+   vertical-align: top;
+}
+
+.modal-body .control-label:after { 
+   content:"*";
+   color:#a94442;
 }
 
 .contact-container {

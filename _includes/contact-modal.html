@@ -3,9 +3,9 @@
     <div class="modal-content" id="modal-content">
       <div class="modal-header">
         <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-        <h4 class="modal-title" style="color: black">Contact Us</h4>
+        <h4 class="modal-title" style="color: black">Need Some Work Done? Contact Us</h4>
       </div>
-      <div class="modal-body" id="modal-body" style="height:422px">
+      <div class="modal-body" id="modal-body" style="height:478px">
         <script>
         function postInfo() {
           //Reset modal size and error warnings upon resubmitting
@@ -42,53 +42,53 @@
           if (name == null || name == "") {
             document.getElementById('nameGroup').classList.add('has-error');
             document.getElementById('nameSpan').style.display = 'inline';
-            heightDiff = heightDiff + 23;
+            heightDiff = heightDiff + 16;
             fail = true;
           }
           if (email == null || email == "") {
             document.getElementById('emailGroup').classList.add('has-error');
             document.getElementById('emailSpan').style.display = 'inline';
-            heightDiff = heightDiff + 23;
+            heightDiff = heightDiff + 16;
             fail = true;
           }
           if (phone == null || phone == "" || Math.floor(phone.replace(/[\s|\(|\)|-]/g, '').length / 2) != 5) {
             document.getElementById('phoneGroup').classList.add('has-error');
             document.getElementById('phoneSpan').style.display = 'inline';
-            heightDiff = heightDiff + 23;
+            heightDiff = heightDiff + 16;
             fail = true;
           }
           if (projDesc == null || projDesc == "") {
             document.getElementById('projectDescriptionGroup').classList.add('has-error');
             document.getElementById('projectDescriptionSpan').style.display = 'inline';
-            heightDiff = heightDiff + 23;
+            heightDiff = heightDiff + 16;
             fail = true;
           }
           if (reqTech == null || reqTech == "") {
             document.getElementById('requiredTechnologiesGroup').classList.add('has-error');
             document.getElementById('requiredTechnologiesSpan').style.display = 'inline';
-            heightDiff = heightDiff + 23;
+            heightDiff = heightDiff + 16;
             fail = true;
           }
           if (budget == null || budget == "") {
             document.getElementById('budgetGroup').classList.add('has-error');
             document.getElementById('budgetSpan').style.display = 'inline';
-            heightDiff = heightDiff + 23;
+            heightDiff = heightDiff + 16;
             fail = true;
           }
           if (city == null || city == "") {
             document.getElementById('cityGroup').classList.add('has-error');
             document.getElementById('citySpan').style.display = 'inline';
-            heightDiff = heightDiff + 23;
+            heightDiff = heightDiff + 16;
             fail = true;
           }
           if (how == null || how == "") {
             document.getElementById('howGroup').classList.add('has-error');
             document.getElementById('howSpan').style.display = 'inline';
-            heightDiff = heightDiff + 23;
+            heightDiff = heightDiff + 16;
             fail = true;
           }
           //Resize modal
-          document.getElementById('modal-body').style.height = 422 + heightDiff + 'px';
+          document.getElementById('modal-body').style.height = 478 + heightDiff + 'px';
 
           if (!fail) {
             myDataRef.push({name: name, email: email, phone: phone, projDesc: projDesc, reqTech: reqTech, budget: budget, city: city, how: how});
@@ -113,34 +113,42 @@
         <!-- CONTACT FORM FIELDS -->
         <div class="form-group" id="nameGroup">
           <input type='text' class='form-control' id='nameInput' placeholder='Name'>
+          <label class="control-label"></label>
           <span class="help-block" id="nameSpan" style="display: none">Please enter your name</span>
         </div>
-        <div class="form-group"i id="emailGroup">
+        <div class="form-group" id="emailGroup">
           <input type='email' class='form-control' id='emailInput' placeholder='Email'>
+          <label class="control-label"></label>
           <span class="help-block" id="emailSpan" style="display: none">Please enter a valid email address</span>
         </div>
         <div class="form-group" id="phoneGroup">
           <input type='tel' class='form-control' id='phoneInput' placeholder='Phone'>
+          <label class="control-label"></label>
           <span class="help-block" id="phoneSpan" style="display: none">Please enter a ten digit phone number (e.g. xxx-xxx-xxxx)</span>
         </div>
         <div class="form-group" id="projectDescriptionGroup">
           <input type='text' class='form-control' id='projectDescriptionInput' placeholder='Project Description'>
+          <label class="control-label"></label>
           <span class="help-block" id="projectDescriptionSpan" style="display: none">Please provide a project description</span>
         </div>
         <div class="form-group" id="requiredTechnologiesGroup">
           <input type='text' class='form-control' id='requiredTechnologiesInput' placeholder='Required Technologies'>
+          <label class="control-label"></label>
           <span class="help-block" id="requiredTechnologiesSpan" style="display: none">Please include a statement of required technologies</span>
         </div>
         <div class="form-group" id="budgetGroup">
           <input type='text' class='form-control' id='budgetInput' placeholder='Budget'>
+          <label class="control-label"></label>
           <span class="help-block" id="budgetSpan" style="display: none">Please provide a budget estimate</span>
         </div>
         <div class="form-group" id="cityGroup">
           <input type='text' class='form-control' id='cityInput' placeholder='City'>
+          <label class="control-label"></label>
           <span class="help-block" id="citySpan" style="display: none">Please enter a location</span>
         </div>
         <div class="form-group" id="howGroup">
           <input type='text' class='form-control' id='howInput' placeholder='How did you find out about The Hackerati?'>
+          <label class="control-label"></label>
           <span class="help-block" id="howSpan" style="display: none">Please include how you found us</span>
         </div>
         <div id="confirmationMessage" style="display: none">
