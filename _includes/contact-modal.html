@@ -1,7 +1,11 @@
 <div id="myModal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
   <div class="modal-dialog">
     <div class="modal-content" id="modal-content">
-      <div class="modal-body" id="modal-body" style="height:444px">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+        <h4 class="modal-title" style="color: black">Contact Us</h4>
+      </div>
+      <div class="modal-body" id="modal-body" style="height:422px">
         <script>
         function postInfo() {
           //Reset modal size and error warnings upon resubmitting
@@ -84,7 +88,7 @@
             fail = true;
           }
           //Resize modal
-          document.getElementById('modal-body').style.height = 444 + heightDiff + 'px';
+          document.getElementById('modal-body').style.height = 422 + heightDiff + 'px';
 
           if (!fail) {
             myDataRef.push({name: name, email: email, phone: phone, projDesc: projDesc, reqTech: reqTech, budget: budget, city: city, how: how});
@@ -139,11 +143,14 @@
           <input type='text' class='form-control' id='howInput' placeholder='How did you find out about The Hackerati?'>
           <span class="help-block" id="howSpan" style="display: none">Please include how you found us</span>
         </div>
-        <button id="formSubmit" onclick="postInfo()">Submit</button>
         <div id="confirmationMessage" style="display: none">
           <h4 style="color: black; margin: 0; text-align: center">Thanks for submitting!</h4>
         </div>
       </div><!-- /.modal-body -->
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary" id="formSubmit" onclick="postInfo()">Submit</button>
+      </div>
     </div><!-- /.modal-content -->
   </div><!-- /.modal-dialog -->
 </div><!-- /.modal -->
