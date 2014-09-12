@@ -529,6 +529,18 @@ HOME PAGE
     text-align: left;
 }
 
+.welcome-contact-link {
+    text-decoration: none;
+    color: #4CA0D3;
+    font: 2.4em/130% 'HelveticaRegular', sans-serif;
+    text-align: left;
+    cursor: pointer;
+}
+
+.welcome-contact-link:hover {
+    color: #ec6314;
+}
+
 .welcome-copy-second {
     font: 2.0em/130% 'din-lightregular', sans-serif;
     padding-right: 5%;
