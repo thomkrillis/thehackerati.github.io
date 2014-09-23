@@ -218,7 +218,6 @@ span.sb-caret { /* Caret Down */
 }
 
 #sb-nav-home{ 
-	display:none;
 	-webkit-box-shadow:none;
 	box-shadow: none;
   transition: all 0.4s;
