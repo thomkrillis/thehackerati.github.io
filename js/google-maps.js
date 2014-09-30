@@ -105,13 +105,6 @@ google.maps.event.addDomListener(window, "resize", function() {
   var center = map.getCenter();
   google.maps.event.trigger(map, "resize");
   map.setCenter(center); 
-
-  if (window.innerWidth < 768){
-    document.getElementById('sb-nav-home').style.display = "block";
-  }
-  else{
-    document.getElementById('sb-nav-home').style.display = "none";
-  }
 });
 
 function toggleBounce() {
