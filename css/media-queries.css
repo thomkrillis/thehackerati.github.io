@@ -405,7 +405,7 @@ CSS MEDIA QUERIES FOR THEHACKERATI.COM
     /* SECTION 1 */
 
     .welcome-container { 
-        padding-top: 3em; 
+        padding-top: 20em; 
     }
 
     .welcome-container .nav-links { 
@@ -1046,6 +1046,10 @@ CSS MEDIA QUERIES FOR THEHACKERATI.COM
     */
 
     /* SECTION 1 */
+
+    .welcome-container { 
+        padding-top: 3em; 
+    }
 
     .welcome-container .block-left { 
         width: 100%; 
