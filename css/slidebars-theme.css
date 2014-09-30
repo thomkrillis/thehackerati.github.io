@@ -347,44 +347,6 @@ img.sb-logo-img {
  * 006 - Media Queries
  */
 
-/* BIG TABLET
-####################################################################*/
-
-@media only screen and (max-width : 1024px) {
-
-    #sb-nav .nav-links {
-        width: 60%;
-        float: right;
-    }
-
-    #sb-nav-home {
-        height: 261px;
-        padding-top: 42px;
-        position: absolute;
-    }
-
-    #sb-nav-home .content-container {
-        height: 251px;
-        margin-top: 0;
-        text-align: center;
-    }
-
-    #sb-nav-home .logo {
-        display: inline-block;
-        height: 50%;
-        float: none;
-    }
-
-    #sb-nav-home .nav-links {
-        font-size: 2.5em;
-        text-align: center;
-    }
-
-}
-
-/* SMALL TABLET/BIG SMARTPHONE
-####################################################################*/
-
 @media (max-width: 767px) {
 
     /* This is entirely optional, it hides the navbar menu items when device width is under 768px. */
@@ -392,7 +354,6 @@ img.sb-logo-img {
     #sb-nav-home{ 
         display:block;
         height: 50px;
-        padding-top: 5px;
     }
 
     .sb-navbar-menu {
