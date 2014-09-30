@@ -393,6 +393,7 @@ img.sb-logo-img {
         display:block;
         height: 50px;
         padding-top: 5px;
+        position: fixed;
     }
 
     .sb-navbar-menu {
