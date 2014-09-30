@@ -28,6 +28,10 @@ CSS MEDIA QUERIES FOR THEHACKERATI.COM
 
     /* HEADER */
     
+    .header-section > .content-container {
+        width: 1000px;
+    }
+
     .nav-links {
         text-align: right;
         width: 45%;
@@ -372,14 +376,31 @@ CSS MEDIA QUERIES FOR THEHACKERATI.COM
         width: auto;
     }
 
+    .b-page-logo {
+        width: 35%;
+    }
+
     .welcome-container .logo {
         float: none;
         width: auto;
         text-align: center;
     }
 
+    .header-section {
+        margin-top: 0;
+    }
+
     .welcome-container .content-container {
         padding-top: 0;
+    }
+
+    .header-section .content-container {
+        height: 100%;
+    }
+
+    .header-section > .content-container {
+        width: 75%;
+        padding-bottom: 0;
     }
 
     nav a { 
@@ -388,6 +409,10 @@ CSS MEDIA QUERIES FOR THEHACKERATI.COM
 
     .nav-links {
         width: 100%;
+    }
+
+    .b-page-nav-links {
+        width: 60%;
     }
 
     .nav-links.persistent-nav-links {
@@ -434,6 +459,10 @@ CSS MEDIA QUERIES FOR THEHACKERATI.COM
     }
     .welcome-container nav a {  
         margin-left: 1.0em; 
+    }
+
+    .welcome-container .header-section > .content-container {   
+        width: 65%;
     }
 
     .welcome-container .block-left { 
@@ -1026,6 +1055,10 @@ CSS MEDIA QUERIES FOR THEHACKERATI.COM
         margin-left: 1.0em; 
     }
     
+    .b-page-header-section {
+        display: none;
+    }
+
     .logo img { 
         width: 76%; 
         max-height: none; 
@@ -1035,6 +1068,10 @@ CSS MEDIA QUERIES FOR THEHACKERATI.COM
         padding-bottom: 0.5em; 
     }
     
+    .header-section{ 
+        display: none; 
+    }
+
     .sb-right .footer-sprite {
         height: 1.6em;
     }
@@ -1721,6 +1758,10 @@ CSS MEDIA QUERIES FOR THEHACKERATI.COM
         margin-left: 0.5em;
     }
     
+    .header-section > .content-container { 
+        width: 21em;
+    }
+    
     .logo img { 
         width: 94%; 
         max-height: none;   
@@ -1755,6 +1796,10 @@ CSS MEDIA QUERIES FOR THEHACKERATI.COM
     
     .welcome-container nav a { 
         margin-left: 0.5em;
+    }
+    
+    .welcome-container .header-section > .content-container { 
+        width: 21em;
     }
     
     .welcome-container .logo img { 

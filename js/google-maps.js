@@ -156,9 +156,7 @@ function scrollHandler(){
   var scrollPos = window.pageYOffset;
   var offsetHeight = document.getElementById('welcome-container').clientHeight - 65;
 
-  if(window.innerWidth < 768) {
-  }
-  else if(scrollPos >= offsetHeight){
+  if(scrollPos >= offsetHeight || window.innerWidth < 768){
     document.getElementById('content-container').style.marginTop = "0";
     document.getElementById('nav-links').style.lineHeight = "55px";
     document.getElementById('sb-nav-home').style.height = "65px";

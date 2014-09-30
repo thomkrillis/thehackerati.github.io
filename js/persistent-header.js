@@ -5,16 +5,14 @@ $(document).ready(function() {
       var scrollPos = window.pageYOffset;
       var offsetHeight = document.getElementById('top-section').clientHeight - 85;
 
-      if(window.innerWidth < 768) {
-      }
-      else if(scrollPos >= offsetHeight){
+      if(scrollPos >= offsetHeight || window.innerWidth < 768){
         document.getElementById('nav-links').style.lineHeight = "55px";
-        document.getElementById('sb-nav').style.height = "65px";
+        document.getElementById('sb-nav-home').style.height = "65px";
         document.getElementById('content-container').style.marginTop = "0";
         document.getElementById('content-container').style.height = "55px";
       }
       else {
-        document.getElementById('sb-nav').style.height = "98px";
+        document.getElementById('sb-nav-home').style.height = "98px";
         document.getElementById('nav-links').style.lineHeight = "68px";
         document.getElementById('content-container').style.marginTop = "10px";
         document.getElementById('content-container').style.height = "68px";
@@ -27,16 +25,14 @@ $(window).on("touchmove", function() {
       var scrollPos = window.pageYOffset;
       var offsetHeight = document.getElementById('top-section').clientHeight - 85;
 
-      if(window.innerWidth < 768) {
-      }
-      else if(scrollPos >= offsetHeight){
+      if(scrollPos >= offsetHeight || window.innerWidth < 768){
         document.getElementById('nav-links').style.lineHeight = "55px";
-        document.getElementById('sb-nav').style.height = "65px";
+        document.getElementById('sb-nav-home').style.height = "65px";
         document.getElementById('content-container').style.marginTop = "0";
         document.getElementById('content-container').style.height = "55px";
       }
       else {
-        document.getElementById('sb-nav').style.height = "98px";
+        document.getElementById('sb-nav-home').style.height = "98px";
         document.getElementById('nav-links').style.lineHeight = "68px";
         document.getElementById('content-container').style.marginTop = "10px";
         document.getElementById('content-container').style.height = "68px";
@@ -44,16 +40,14 @@ $(window).on("touchmove", function() {
 })
 
 $(window).on('resize', function() {
-    if(window.innerWidth < 768) {
-    }
-    else if(scrollPos >= offsetHeight){
+    if(scrollPos >= offsetHeight || window.innerWidth < 768){
       document.getElementById('nav-links').style.lineHeight = "55px";
-      document.getElementById('sb-nav').style.height = "65px";
+      document.getElementById('sb-nav-home').style.height = "65px";
       document.getElementById('content-container').style.marginTop = "0";
       document.getElementById('content-container').style.height = "55px";
     }
     else {
-      document.getElementById('sb-nav').style.height = "98px";
+      document.getElementById('sb-nav-home').style.height = "98px";
       document.getElementById('nav-links').style.lineHeight = "68px";
       document.getElementById('content-container').style.marginTop = "10px";
       document.getElementById('content-container').style.height = "68px";
