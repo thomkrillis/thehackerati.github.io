@@ -254,11 +254,6 @@ li {
     max-width: 1200px;
     margin-left: auto;
     margin-right: auto;
-    -webkit-transition: all 0.4s;
-    -moz-transition: all 0.4s;
-    -o-transition: all 0.4s;
-    -ms-transition: all 0.4s;
-    transition: all 0.4s;
     -webkit-border-radius: 8px;
     -moz-border-radius: 8px;
     border-radius: 8px;
@@ -302,10 +297,9 @@ li {
 
 .splash-container {
     width: 100%;
-    min-height: 59em;
+    min-height: 51em;
     display: inline-block;
     position:relative;
-    padding-top: 6.85em;
 }
 
 .block-right {
@@ -382,8 +376,12 @@ HEADER
     float: left;
 }
 
+.b-page-logo {
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
 .logo img {
-    display: block;
     max-height: 100%;
 }
 
@@ -392,10 +390,17 @@ HEADER
     max-height: 9em;
 }
 
+.sb-navbar .logo img {
+    width: auto;
+}
+
+.b-page-logo img {
+    margin-left: 10%;
+}
+
+.b-page-header-section .content-container,
 .sb-navbar .content-container {
     width: auto;
-    height: 130px;
-    margin-top: 2.5em;
     padding-top: 0;
     padding-bottom: 0;
 }
@@ -413,22 +418,25 @@ HEADER
 .content-container nav {
     font: 2em/100% 'inconsolatamedium';
     color: #f4f4f4;
-    line-height: 130px;
+    margin-top: 0.5em;
+}
+
+.b-page-content-container nav {
+    margin-top: 1.2em;
 }
 
 .nav-links {
     text-align: right;
     width: 45%;
     float: left;
-    -webkit-transition: all 0.4s;
-    -moz-transition: all 0.4s;
-    -o-transition: all 0.4s;
-    -ms-transition: all 0.4s;
-    transition: all 0.4s;
 }
 
 .nav-links.persistent-nav-links {
     width: 47%;
+}
+
+.b-page-nav-links {
+    margin-top: 5em;
 }
 
 .content-container .nav-links a:link {
@@ -450,6 +458,14 @@ HEADER
 .content-container .nav-links a:hover {
     text-decoration: none;
     color: #EC6314;
+}
+
+.b-page-header-section {
+    background-image: url('../assets/img/bgblack.png');
+    height: 7em;
+    -webkit-box-shadow: inset 0px -15px 25px 6px rgba(0, 0, 0, .3);
+    box-shadow: inset 0px -15px 25px 6px rgba(0, 0, 0, .3);
+    z-index: 99999;
 }
 
 nav a {
@@ -481,8 +497,12 @@ HOME PAGE
     overflow: hidden;
     -webkit-box-shadow: inset 0px -8px 29px 10px rgba(0, 0, 0, .3);
     box-shadow: inset 0px -8px 29px 0px rgba(0, 0, 0, .3);
-    padding-top: 6.85em;
     padding-bottom: 6em;
+}
+
+.welcome-container > .header-section {
+    box-shadow: none;
+    background-image:none;
 }
 
 .welcome-container .content-container {
@@ -490,7 +510,7 @@ HOME PAGE
     padding-top: 3em;
 }
 
-.sb-navbar .logo {
+.welcome-container .logo {
     max-height: 100%;
     float: left;
 }
@@ -2408,10 +2428,6 @@ FONTAWESOME LIBRARY
 
 .fa-ul {
     margin-left: 0;
-}
-
-#sb-nav .fa-2x {
-    color: #fff;
 }
 
 #sb-nav-home .fa-2x {

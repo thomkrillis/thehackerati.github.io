@@ -3,21 +3,13 @@ $(document).ready(function() {
   else {
     window.onscroll = function () {
       var scrollPos = window.pageYOffset;
-      var offsetHeight = document.getElementById('top-section').clientHeight - 85;
+      var offsetHeight = document.getElementById('top-section').clientHeight;
 
-      if(window.innerWidth < 768) {
-      }
-      else if(scrollPos >= offsetHeight){
-        document.getElementById('nav-links').style.lineHeight = "55px";
-        document.getElementById('sb-nav').style.height = "65px";
-        document.getElementById('content-container').style.marginTop = "0";
-        document.getElementById('content-container').style.height = "55px";
+      if(scrollPos >= offsetHeight || window.innerWidth < 768){
+        document.getElementById('sb-nav-home').style.display = "block";
       }
       else {
-        document.getElementById('sb-nav').style.height = "98px";
-        document.getElementById('nav-links').style.lineHeight = "68px";
-        document.getElementById('content-container').style.marginTop = "10px";
-        document.getElementById('content-container').style.height = "68px";
+        document.getElementById('sb-nav-home').style.display = "none";
       }
     }
   }
@@ -25,38 +17,22 @@ $(document).ready(function() {
 
 $(window).on("touchmove", function() {
       var scrollPos = window.pageYOffset;
-      var offsetHeight = document.getElementById('top-section').clientHeight - 85;
+      var offsetHeight = document.getElementById('top-section').clientHeight;
 
-      if(window.innerWidth < 768) {
-      }
-      else if(scrollPos >= offsetHeight){
-        document.getElementById('nav-links').style.lineHeight = "55px";
-        document.getElementById('sb-nav').style.height = "65px";
-        document.getElementById('content-container').style.marginTop = "0";
-        document.getElementById('content-container').style.height = "55px";
+      if(scrollPos >= offsetHeight || window.innerWidth < 768){
+        document.getElementById('sb-nav-home').style.display = "block";
       }
       else {
-        document.getElementById('sb-nav').style.height = "98px";
-        document.getElementById('nav-links').style.lineHeight = "68px";
-        document.getElementById('content-container').style.marginTop = "10px";
-        document.getElementById('content-container').style.height = "68px";
+        document.getElementById('sb-nav-home').style.display = "none";
       }
 })
 
 $(window).on('resize', function() {
-    if(window.innerWidth < 768) {
+    if (window.innerWidth < 768){
+      document.getElementById('sb-nav-home').style.display = "block";
     }
-    else if(scrollPos >= offsetHeight){
-      document.getElementById('nav-links').style.lineHeight = "55px";
-      document.getElementById('sb-nav').style.height = "65px";
-      document.getElementById('content-container').style.marginTop = "0";
-      document.getElementById('content-container').style.height = "55px";
-    }
-    else {
-      document.getElementById('sb-nav').style.height = "98px";
-      document.getElementById('nav-links').style.lineHeight = "68px";
-      document.getElementById('content-container').style.marginTop = "10px";
-      document.getElementById('content-container').style.height = "68px";
+    else{
+      document.getElementById('sb-nav-home').style.display = "none";
     }
 });
 
