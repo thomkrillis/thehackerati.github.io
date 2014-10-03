@@ -147,7 +147,7 @@ function slideMaps() {
 
 function scrollHandler(){
   var scrollPos = window.pageYOffset;
-  var offsetHeight = document.getElementById('welcome-container').clientHeight - 65;
+  var offsetHeight = 75;
 
   if(window.innerWidth < 768) {
   }

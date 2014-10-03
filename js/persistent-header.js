@@ -3,7 +3,7 @@ $(document).ready(function() {
   else {
     window.onscroll = function () {
       var scrollPos = window.pageYOffset;
-      var offsetHeight = document.getElementById('top-section').clientHeight - 85;
+      var offsetHeight = 65;
 
       if(window.innerWidth < 768) {
       }
@@ -25,7 +25,7 @@ $(document).ready(function() {
 
 $(window).on("touchmove", function() {
       var scrollPos = window.pageYOffset;
-      var offsetHeight = document.getElementById('top-section').clientHeight - 85;
+      var offsetHeight = 65;
 
       if(window.innerWidth < 768) {
       }
