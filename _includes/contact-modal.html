@@ -3,7 +3,7 @@
     <div class="modal-content" id="modal-content">
       <div class="modal-header">
         <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-        <h4 class="modal-title" style="color: black">Need Some Work Done? Contact Us</h4>
+        <h4 id="modal-title" class="modal-title" style="color: black">Need Some Work Done? Contact Us</h4>
       </div>
       <div class="modal-body" id="modal-body" style="height:478px">
         <script>
@@ -92,6 +92,7 @@
 
           if (!fail) {
             myDataRef.push({name: name, email: email, phone: phone, projDesc: projDesc, reqTech: reqTech, budget: budget, city: city, how: how});
+            document.getElementById('modal-title').style.display = 'none';
             document.getElementById('nameGroup').style.display = 'none';
             document.getElementById('emailGroup').style.display = 'none';
             document.getElementById('phoneGroup').style.display = 'none';

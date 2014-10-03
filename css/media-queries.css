@@ -404,6 +404,12 @@ CSS MEDIA QUERIES FOR THEHACKERATI.COM
 
     /* SECTION 1 */
 
+    .contact-btn-container {
+        float: none;
+        width: 100%;
+        text-align: center;
+    }
+    
     .welcome-container { 
         padding-top: 20em; 
     }
@@ -681,7 +687,7 @@ CSS MEDIA QUERIES FOR THEHACKERATI.COM
     /* SECTION 7 */
 
     #google-maps-wrapper { 
-        top: 12em; 
+        top: 14em; 
     }
 
     /*
@@ -929,6 +935,10 @@ CSS MEDIA QUERIES FOR THEHACKERATI.COM
     GENERAL 
     */
    
+    input {
+        width: 96% !important;
+    }
+   
     .welcome-copy-first {
         margin-bottom: 1em;
         font: 2.8em/130% 'HelveticaRegular', sans-serif;
@@ -1050,6 +1060,10 @@ CSS MEDIA QUERIES FOR THEHACKERATI.COM
     */
 
     /* SECTION 1 */
+
+    .contact-btn-container {
+        margin-bottom: 10%;
+    }
 
     .welcome-container { 
         padding-top: 3em; 
@@ -1766,7 +1780,7 @@ CSS MEDIA QUERIES FOR THEHACKERATI.COM
     */
 
     /* SECTION 1 */
-    
+
     .welcome-container .logo { 
         float: none;
     }
@@ -1853,11 +1867,12 @@ CSS MEDIA QUERIES FOR THEHACKERATI.COM
     /* SECTION 6 */
 
     #contact-content { 
-        width: 80%; 
+	padding-top: 1.5em;
+        width: 19em; 
     }
 
     .contact-container {
-        height: 45em;
+        height: 38em;
     }
 
     .google-maps-container {
@@ -1871,10 +1886,6 @@ CSS MEDIA QUERIES FOR THEHACKERATI.COM
     #google-maps-wrapper {
         left: 50%;
         top: 7em;
-    }
-
-    #contact-content { 
-        width: 19em; 
     }
     
     /*
