@@ -404,6 +404,12 @@ CSS MEDIA QUERIES FOR THEHACKERATI.COM
 
     /* SECTION 1 */
 
+    .contact-btn-container {
+        float: none;
+        width: 100%;
+        text-align: center;
+    }
+    
     .welcome-container { 
         padding-top: 20em; 
     }
@@ -674,10 +680,14 @@ CSS MEDIA QUERIES FOR THEHACKERATI.COM
         width: 75%; 
     }
 
+    .contact-container {
+        height: 65em;
+    }
+
     /* SECTION 7 */
 
     #google-maps-wrapper { 
-        top: 9em; 
+        top: 14em; 
     }
 
     /*
@@ -925,6 +935,10 @@ CSS MEDIA QUERIES FOR THEHACKERATI.COM
     GENERAL 
     */
    
+    input {
+        width: 96% !important;
+    }
+   
     .welcome-copy-first {
         margin-bottom: 1em;
         font: 2.8em/130% 'HelveticaRegular', sans-serif;
@@ -1046,6 +1060,10 @@ CSS MEDIA QUERIES FOR THEHACKERATI.COM
     */
 
     /* SECTION 1 */
+
+    .contact-btn-container {
+        margin-bottom: 10%;
+    }
 
     .welcome-container { 
         padding-top: 3em; 
@@ -1325,6 +1343,18 @@ CSS MEDIA QUERIES FOR THEHACKERATI.COM
     
     #contact-content { 
         width: 80%; 
+    }
+
+    .contact-container {
+        height: 58em;
+    }
+
+    .google-maps-container {
+        display: none;
+    }
+
+    .google-maps-container-mobile {
+        display: block;
     }
 
     #google-maps-wrapper { 
@@ -1610,6 +1640,15 @@ CSS MEDIA QUERIES FOR THEHACKERATI.COM
         margin-left: 0;
     }
 
+    /*
+    ====================================================== 
+    CONTACT MODAL 
+    ======================================================
+    */
+    
+    .modal-dialog {
+        margin-top: 5em;
+    }
 
 }
 
@@ -1741,7 +1780,7 @@ CSS MEDIA QUERIES FOR THEHACKERATI.COM
     */
 
     /* SECTION 1 */
-    
+
     .welcome-container .logo { 
         float: none;
     }
@@ -1827,17 +1866,26 @@ CSS MEDIA QUERIES FOR THEHACKERATI.COM
 
     /* SECTION 6 */
 
-    .contact-container { 
-        display: none; 
+    #contact-content { 
+	padding-top: 1.5em;
+        width: 19em; 
+    }
+
+    .contact-container {
+        height: 38em;
+    }
+
+    .google-maps-container {
+        display: none;
+    }
+
+    .google-maps-container-mobile {
+        display: block;
     }
 
     #google-maps-wrapper {
         left: 50%;
         top: 7em;
-    }
-
-    #contact-content { 
-        width: 19em; 
     }
     
     /*
@@ -2093,4 +2141,14 @@ CSS MEDIA QUERIES FOR THEHACKERATI.COM
         height: 9em; 
     }
     
+    /*
+    ====================================================== 
+    CONTACT MODAL 
+    ======================================================
+    */
+    
+    .modal-dialog {
+        margin-top: 5em;
+    }
+
 }
