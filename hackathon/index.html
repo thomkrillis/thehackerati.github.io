@@ -2,251 +2,40 @@
 title: HackathOn the Mountain | The Hackerati
 ---
 
+<!DOCTYPE html>
 <head>
-<link rel="stylesheet" type="text/css" href="hackathon.css">
-
-<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js"></script>
-
-
-<script type="text/javascript">
-$(document).ready(function(){
-	//$('#pictureBG1').parallax("50%", 0.3);
-	//$('#mountains').parallax("50%", -0.4);
-
-	var window_width = $(window).width() - $('.cloud').width();
-	var window_height = $(window).height();
-	var document_height = $(document).height() - $(window).height();
-	console.log(window_width);
-	console.log(document_height);
-
-	$(window).scroll((function () {
-	    var scroll_position = $(window).scrollTop();
-
-	    function baseXPosition (cloud) {
-	    	return window_width * ((scroll_position - $(cloud).parent().position().top + window_height) / window_height);
-	    }
-	    function moveCloud(cloud, multiplier, offset){
-	    	var cloudLeft = baseXPosition($(cloud)) * multiplier + offset;
-	    	$(cloud).css({
-	    		'left':cloudLeft
-	    	});
-	    }
-
-	    moveCloud($('#cloud1'), 0.5, -10);
-	    moveCloud($('#cloud2'), 0.3, (window_width / 3));
-	    moveCloud($('#cloud3'), 1.0, 0);
-	    moveCloud($('#cloud4'), 0.6, (window_width / 9));
-	    moveCloud($('#cloud5'), 0.6, (window_width / -3));
-	    moveCloud($('#cloud6'), 0.3, (window_width / 2));
-	    moveCloud($('#cloud7'), 0.4, (window_width * 2/3));
-	    moveCloud($('#cloud8'), 0.9, (window_width / -2));
-	    moveCloud($('#cloud9'), 0.3, (window_width  * 3/4));
-	    moveCloud($('#cloud10'), 0.2, (window_width / -4));
-	    moveCloud($('#cloud11'), 0.7, (window_width / -2));
-
-	    //scroll_position -= window_height;
-	    var scrollPercent = scroll_position / document_height;
-	    console.log('unadjsted ' + $(document).height());
-	    console.log('height = ' + document_height);
-	    console.log('scroll = ' + scroll_position);
-	    console.log(scrollPercent);
-
-	    var mountains = $('#mountains2');
-		var mountainY = scrollPercent * mountains.height();
-	    mountainY = scroll_position + window_height - mountainY;
-
-	    mountains.css({
-	    	'top':mountainY
-	    });
-
-	    var mid = document_height / 2;
-	    if(scroll_position > mid){
-	    	var tree1 = $('#tree1');
-
-
-
-	    	var percent = (scroll_position - mid) / mid;
-		    var treeY = percent * tree1.height();
-		    treeY = scroll_position + window_height - treeY;
-		    tree1.css({
-		    	'top':treeY	
-		    });
-	    }
-
-	    
-
-
-
-
-
-	  //   var treeFrame = scroll_position % 100;
-	  //   var img1 = '../assets/img/hotm/tree3.png';
-
-	  //   if(treeFrame < 50){
-	  //   	//$(".tree").attr("src", "../assets/img/hotm/tree3.png");
-
-			// $('.tree').css("content", "url(../assets/img/hotm/tree3.png)");  
-
-			// console.log('1');
-	  //   }else{
-	  //   	//$(".tree").attr("src", "../assets/img/hotm/tree1.png");
-
-			// $('.tree').css("content", "url(../assets/img/hotm/tree2.png)");  
-
-			// console.log('2');
-	  //   }
-
-}));
-
-});
-
-
-</script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="hackathon.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
 </head>
 
-
-<div class="all-content">
-	<div id="mountains2"></div>
-	<div class="tree" id="tree1"></div>
-
-    <div class="titleSection lightBlue">
-
-    	<div class="hackathonHeader">
-			<a href="http://www.thehackerati.com"><img src="../assets/img/hotm/hack-presents.png" class="displayed"></a>
-		</div>
-
-		<h1>HackathOn The Mountain</h1>
-
-		<div class="hackathonButtons">
-			<a class = "btn first-btn" href="apply">Apply</a>
-			<a class = "btn" href="sponsor">Sponsor</a>
-		</div>
-	</div>
-
-	<div class="details purple">
-		<div class="verticallyCentered">
-			<div class="verticallyCenteredInner">
-				<h2>24 Hours | June 13–14 | <a href="https://www.google.com/maps/@41.1914965,-75.3010623,102m/data=!3m1!1e3">Metzgar's Farm</a></h2>
-			</div>
-		</div>
-	</div>
-
-	<div class="overview black">
-		<div class="verticallyCentered">
-			<div class="verticallyCenteredInner">
-				<p>An open-air sustainability hackathon atop a mountain in Northeastern Pennsylvania.</p>
-			</div>
-		</div>
-	</div >
-
-
-	<div class="info">
-		<div class="cloud" id="cloud1"></div>
-		<div class="cloud" id="cloud2"></div>
-		<h3>Why Sustainability?</h3>
-			
-			<p>Humans have done enough damage to this planet to ensure our eventual destruction. <br>
-
-			Our only chance at survival is to innovate and evolve our outlook.<br>
-
-			There may be technologies that we haven't yet discovered.<br>
-
-			The purpose of this event is to provide aid to future generations.</p>
-
-			
-
-			<p>Our only hope is to create. <br>
-
-			Our current trajectory suggests an expiration date. <br>
-		
-			Technological innovation is our only hope. <br>
-
-			There's no time to waste!</p>
-
-	</div>
-
-	
-
-	<div class="info outdoors">
-		<div class="cloud" id="cloud3"></div>
-		<div class="cloud" id="cloud4"></div>
-		<div class="cloud" id="cloud5"></div>
-		<h3>Why Outdoors?</h3>
-		<p>Reintegrating the NYC tech scene into the natural world will communicate the importance of sustainability far better than words.</p>
-
-		<p>The ability to directly interact with the environment will inspire the creative process.
-
-			<ul>
-				<li>build a tree-planting app while sitting in the forest</li>
-				<li>hack solar cells while basking in the sun</li>
-				<li>address pollution politics while breathing clean mountain air</li>
-			</ul>
-		</p>
-
-	</div>
-
-	<div class="info participate">
-		<div class="cloud" id="cloud6"></div>
-		<div class="cloud" id="cloud7"></div>
-		<div class="cloud" id="cloud8"></div>
-		<h3>Why Participate?</h3>
-			<ul>
-				<li>You care about the environment thriving.</li>
-				<li>You care about our species not dying.</li>
-				<li>You care about hacking cool hardware and software.</li>
-				<li>You don't care at all, but want to look like you're trying.</li>
-			</ul>
-			<p>
-				Whatever your motivation to join us atop the Mountain, we hope that you do. Everyone who gets involved - either by hacking or sponsoring [or both] - will be contributing to the promotion and optimization of a sustainable civilization.
-			</p>
-	</div>
-
-	<div class="info moreInformation">
-		<div class="cloud" id="cloud9"></div>
-		<div class="cloud" id="cloud10"></div>
-		<div class="cloud" id="cloud11"></div>
-		<h3>More Information</h3>
-		<p>Check out <a href="logistics">this page</a> for logistics.</p>
-
-		<ul>
-			<li>Tranportation</li>
-			<li>Costs
-				<ul>
-					<li>At this point, we're planning on having everything covered by our sponsors. The only potential fee will be transportation.</li>
-				</ul></li>
-			<li>You'll need:
-				<ul>
-					<li>Hacking
-						<ul>
-							<li>Laptop & Charger</li>
-						</ul></li>
-					<li>Living
-						<ul>
-							<li>Tent</li>
-							<li>Sleeping Bag</li>
-							<li>Pillow</li>
-							<li>Toiletries</li>
-						</ul></li>
-				</ul>
-			</li>
-		</ul>
-
-
-
-	</div>
-
-
-	<div class="info sponsors" id="mountains">
-		<h3>Sponsors</h3>
-
-		<img src="../assets/img/hotm/hackLogo2.png" class="displayed">
-		<img src="../assets/img/hotm/devBootCampLogo2.png" class="displayed">
-		<img src="../assets/img/hotm/mailJetLogo.jpg" class="displayed">
-		<div class="clear"></div>
-
-		
-	</div>
-	<div class="clear"></div>
-</div>
-
-
+<body>
+    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+        <div class="hackathonHeader">
+            <div class="logo">
+                <a href="http://www.thehackerati.com"><img src="../assets/img/hotm/hack-presents.png"></a>
+            </div>
+            <div id="nav-links" class="nav-links">
+                <a href="apply">Apply</a>
+                <a href="#mountains">Sponsors</a>
+            </div>
+        </div>
+    </nav>
+    <div class="section1">
+        <div class="mountain"></div>
+        <div class="trees1"></div>
+        <div class="trees2"></div>
+    </div>
+    <div class="section2">
+        <div class="seafloor"></div>
+    </div>
+    <div class="section3">
+        <div class="column"></div>
+        <div class="lavaline"></div>
+        <div class="cthulhu"></div>
+    </div>
+    <div class="section4">
+    </div>
+</body>
