@@ -15,27 +15,74 @@ title: HackathOn the Mountain | The Hackerati
     <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
         <div class="hackathonHeader">
             <div class="logo">
-                <a href="http://www.thehackerati.com"><img src="../assets/img/hotm/hack-presents.png"></a>
+                <a href="/"><img src="../assets/img/hotm/hack-presents.png"></a>
             </div>
             <div id="nav-links" class="nav-links">
                 <a href="apply">Apply</a>
-                <a href="#mountains">Sponsors</a>
+                <a href="#sponsors">Sponsors</a>
             </div>
         </div>
     </nav>
+
     <div class="section1">
         <div class="mountain"></div>
         <div class="trees1"></div>
         <div class="trees2"></div>
+        <h1>HackathOn the Mountain</h1>
+        <p>An open-air sustainability hackathon atop a mountain in Northeastern Pennsylvania</p>
+        <div class="links">
+            <a href="apply">Apply</a>
+            <a href="#sponsors">Sponsors</a>
+        </div>
     </div>
     <div class="section2">
         <div class="seafloor"></div>
+        <div data--100-top-top="left:-1%; background-position: 0% 0%;" data-100-top-top="left[sin]:1%; background-position: 0% 100%;" class="bubble skrollable skrollable-between"></div>
+        <div data--100-top-top="left:1%; background-position: 0% 0%;" data-100-top-top="left[sin]:-1%; background-position: 0% 100%;" class="bubble skrollable skrollable-between" style="margin: 0 0 1% 10%;"></div>
+        <div data--100-top-top="left:-1%; background-position: 0% 0%;" data-100-top-top="left[sin]:1%; background-position: 0% 100%;" class="bubble skrollable skrollable-between" style="margin: 0 0 0 20%;"></div>
+        <div data--100-top-top="left:1%; background-position: 0% 0%;" data-100-top-top="left[sin]:-1%; background-position: 0% 100%;" class="bubble skrollable skrollable-between" style="margin: 0 0 1% 30%;"></div>
+        <div data--100-top-top="left:-1%; background-position: 0% 0%;" data-100-top-top="left[sin]:1%; background-position: 0% 100%;" class="bubble skrollable skrollable-between" style="margin: 0 0 0 40%;"></div>
+        <div data--100-top-top="left:1%; background-position: 0% 0%;" data-100-top-top="left[sin]:-1%; background-position: 0% 100%;" class="bubble skrollable skrollable-between" style="margin: 0 0 1% 50%;"></div>
+        <div data--100-top-top="left:-1%; background-position: 0% 0%;" data-100-top-top="left[sin]:1%; background-position: 0% 100%;" class="bubble skrollable skrollable-between" style="margin: 0 0 0 60%;"></div>
+        <div data--100-top-top="left:1%; background-position: 0% 0%;" data-100-top-top="left[sin]:-1%; background-position: 0% 100%;" class="bubble skrollable skrollable-between" style="margin: 0 0 1% 70%;"></div>
+        <div data--100-top-top="left:-1%; background-position: 0% 0%;" data-100-top-top="left[sin]:1%; background-position: 0% 100%;" class="bubble skrollable skrollable-between" style="margin: 0 0 0 80%;"></div>
+        <div data--100-top-top="left:1%; background-position: 0% 0%;" data-100-top-top="left[sin]:-1%; background-position: 0% 100%;" class="bubble skrollable skrollable-between" style="margin: 0 0 1% 90%;"></div>
     </div>
     <div class="section3">
         <div class="column"></div>
-        <div class="lavaline"></div>
+        <div data--300-bottom-center="background-position: 0% -10%;" data-0-bottom-center="background-position:0% 500%;" class="lavaline skrollable skrollable-between"></div>
         <div class="cthulhu"></div>
+        <div id="sponsors" class="sponsors">
+        </div>
+        <div class="core">
+            <h2>Sponsors</h2>
+        </div>
     </div>
     <div class="section4">
+        <div class="sponsor-image-links">
+            <a class="col-md-4" href="/">
+                <img src="../assets/img/hotm/hackLogo2.png">
+            </a>
+            <a class="col-md-4" href="http://devbootcamp.com/">
+                <img src="../assets/img/hotm/devBootCampLogo2.png">
+            </a>
+            <a class="col-md-4" href="https://www.mailjet.com/">
+                <img src="../assets/img/hotm/mailJetLogo.jpg">
+            </a>
+        </div>
+        <div class="become-sponsor-link">
+            <a href="sponsor">Become a Sponsor</a>
+        </div>
     </div>
+
+    <script src="skrollr.min.js"></script>
+    <script type="text/javascript">
+        var s = skrollr.init({
+            easing: {
+                sin: function(p) {
+                    return (Math.sin(2 * p * Math.PI * 2 - Math.PI/2) + 1) / 2;
+                }
+            }
+        });
+    </script>
 </body>
