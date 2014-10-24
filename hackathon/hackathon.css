@@ -133,6 +133,16 @@ a:hover {
     background-color: #73A9BE;
 }
 
+.section2 h3 {
+    font: bold 2.5em/100% 'inconsolatamedium';
+    color: white;
+}
+
+.section2 p {
+    font: 2.0em/100% 'inconsolatamedium';
+    color: white;
+}
+
 .seafloor {
     width:100%;
     height: 100%;
@@ -152,10 +162,43 @@ a:hover {
     position: absolute;
 }
 
+.section2 .text-block1 {
+    position: absolute;
+    top: 115%;
+    left: 3%;
+    width: 40%;
+}
+
+.section2 .text-block2 {
+    position: absolute;
+    top: 140%;
+    left: 48%;
+    width: 40%;
+}
+
+.section2 .text-block3 {
+    position: absolute;
+    top: 165%;
+    left: 3%;
+    width: 40%;
+}
+
 /* Third section */
 .section3 {
     height: 100vh;
     background-color: #453D3D;
+}
+
+.section3 h3 {
+    display: inline;
+    font: bold 2.0em/100% 'inconsolatamedium';
+    color: inherit;
+}
+
+.section3 p {
+    display: inline;
+    font: 1.5em/100% 'inconsolatamedium';
+    color: inherit;
 }
 
 .column {
@@ -181,6 +224,17 @@ a:hover {
     background: url('../assets/img/hotm/cthulhu.png') no-repeat;
     background-position: 85% 30%;
     background-size: 20%;
+}
+
+.text-container {
+    position: absolute;
+    top: 215%;
+    left: 40%;
+    width: 30%;
+}
+
+.text-block {
+    margin-bottom: 15%;
 }
 
 .sponsors {
