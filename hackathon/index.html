@@ -12,121 +12,292 @@ title: HackathOn the Mountain | The Hackerati
 </head>
 
 <body>
-    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
-        <div class="hackathonHeader">
-            <div class="logo">
-                <a href="/"><img src="../assets/img/hotm/hack-presents.png"></a>
+    <div id="skrollr-body">
+        <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+            <div class="hackathonHeader">
+                <div class="logo">
+                    <a href="/"><img src="../assets/img/hotm/hack-presents.png"></a>
+                </div>
+                <div id="nav-links" class="nav-links">
+                    <a data-toggle="modal" data-target="#myModal">Apply</a>
+                    <a href="#sponsors">Sponsors</a>
+                </div>
             </div>
-            <div id="nav-links" class="nav-links">
-                <a href="apply">Apply</a>
+        </nav>
+
+        <div class="section1">
+            <div class="mountain"></div>
+            <div class="trees1"></div>
+            <div class="trees2"></div>
+            <!-- Opening text -->
+            <h1>HackathOn the Mountain</h1>
+            <p>An open-air sustainability hackathon atop a mountain in Northeastern Pennsylvania</p>
+            <div class="links">
+                <a data-toggle="modal" data-target="#myModal">Apply</a>
                 <a href="#sponsors">Sponsors</a>
             </div>
+            <!-- Clouds -->
+            <div data-1000="left: 100%;" data--100="left: 0%;" class="cloud skrollable skrollable-between"></div>
+            <div data-800="left: 100%;" data--100="left: 65%;" class="cloud skrollable skrollable-between" id="cloud2"></div>
+            <div data-700="left: 100%;" data--100="left: -13%;" class="cloud skrollable skrollable-between" id="cloud3"></div>
+            <div data-2000="left: 100%;" data--100="left: 35%;" class="cloud skrollable skrollable-between" id="cloud4"></div>
         </div>
-    </nav>
+        <div class="section2">
+            <div class="seafloor"></div>
+            <!-- Bubble packet 1 -->
+            <div data--200-top-top="left:-2%; background-position: 0% 0%;" data-1500-top-top="left[sin]:2%; background-position: 0% 100%;" class="bubble skrollable skrollable-between" style="margin: 0 0 0 85%;"></div>
+            <div data--200-top-top="left:-2%; background-position: 0% 0%;" data-1500-top-top="left[sin]:2%; background-position: 0% 100%;" class="bubble skrollable skrollable-between" style="margin: 0 0 0 87%; bottom: -104%"></div>
+            <div data--200-top-top="left:-2%; background-position: 0% 0%;" data-1500-top-top="left[sin]:2%; background-position: 0% 100%;" class="bubble skrollable skrollable-between" style="margin: 0 0 0 87%; background-size: 1%; bottom: -99%"></div>
+            <div data--200-top-top="left:-2%; background-position: 0% 0%;" data-1500-top-top="left[sin]:2%; background-position: 0% 100%;" class="bubble skrollable skrollable-between" style="margin: 0 0 0 87%; background-size: 1%; bottom: -102%"></div>
+            <div data--200-top-top="left:-2%; background-position: 0% 0%;" data-1500-top-top="left[sin]:2%; background-position: 0% 100%;" class="bubble skrollable skrollable-between" style="margin: 0 0 0 85.5%; background-size: 1%; bottom: -103.5%"></div>
+            <!-- Bubble packet 2 -->
+            <div data--900-top-top="left:-2%; background-position: 0% 0%;" data-400-top-top="left[sin]:2%; background-position: 0% 100%;" class="bubble skrollable skrollable-between" style="margin: 0 0 0 34%;"></div>
+            <div data--900-top-top="left:-2%; background-position: 0% 0%;" data-400-top-top="left[sin]:2%; background-position: 0% 100%;" class="bubble skrollable skrollable-between" style="margin: 0 0 0 32%; bottom: -104%"></div>
+            <div data--900-top-top="left:-2%; background-position: 0% 0%;" data-400-top-top="left[sin]:2%; background-position: 0% 100%;" class="bubble skrollable skrollable-between" style="margin: 0 0 0 33%; background-size: 1%; bottom: -98%"></div>
+            <div data--900-top-top="left:-2%; background-position: 0% 0%;" data-400-top-top="left[sin]:2%; background-position: 0% 100%;" class="bubble skrollable skrollable-between" style="margin: 0 0 0 32%; background-size: 1%; bottom: -100%"></div>
+            <div data--900-top-top="left:-2%; background-position: 0% 0%;" data-400-top-top="left[sin]:2%; background-position: 0% 100%;" class="bubble skrollable skrollable-between" style="margin: 0 0 0 33.5%; background-size: 1%; bottom: -102%"></div>
+            <!-- Bubble packet 3 -->
+            <div data-0-top-top="left:2%; background-position: 0% 0%;" data-800-top-top="left[sin]:-2%; background-position: 0% 100%;" class="bubble skrollable skrollable-between" style="margin: 0 0 0 1%; bottom: -104%"></div>
+            <div data-0-top-top="left:2%; background-position: 0% 0%;" data-800-top-top="left[sin]:-2%; background-position: 0% 100%;" class="bubble skrollable skrollable-between" style="margin: 0 0 0 1%; background-size: 1%; bottom: -105.5%"></div>
+            <div data-0-top-top="left:2%; background-position: 0% 0%;" data-800-top-top="left[sin]:-2%; background-position: 0% 100%;" class="bubble skrollable skrollable-between" style="margin: 0 0 0 1%; background-size: 1%; bottom: -102%"></div>
+            <!-- Bubble packet 4 -->
+            <div data--1200-top-top="left:1%; background-position: 0% 0%;" data-1000-top-top="left[sin]:-1%; background-position: 0% 100%;" class="bubble skrollable skrollable-between" style="margin: 0 0 0 90%; background-size: 1.2%; bottom: -104%"></div>
+            <div data--1200-top-top="left:1%; background-position: 0% 0%;" data-1000-top-top="left[sin]:-1%; background-position: 0% 100%;" class="bubble skrollable skrollable-between" style="margin: 0 0 0 90.5%; background-size: 0.85%; bottom: -102.5%"></div>
+            <div data--1200-top-top="left:1%; background-position: 0% 0%;" data-1000-top-top="left[sin]:-1%; background-position: 0% 100%;" class="bubble skrollable skrollable-between" style="margin: 0 0 0 89.5%; background-size: 0.85%; bottom: -102%"></div>
+            <!-- Floating text -->
+            <div data-100-top-top="opacity: 0; top: 99%;" data-300-top-top="opacity: 1; top: 107%;" data-500-top-top="opacity: 0; top: 115%;" class="text-block1 skrollable skrollable-between">
+                <h3>Date</h3>
+                <p>Mark your calendars.</p>
+            </div>
+            <div data-100-top-top="opacity: 0; top: 124%;" data-300-top-top="opacity: 1; top: 132%;" data-500-top-top="opacity: 0; top: 140%;" class="text-block2 skrollable skrollable-between">
+                <h3>Location</h3>
+                <p>This is where we are.</p>
+            </div>
+            <div data-100-top-top="opacity: 0; top: 149%;" data-300-top-top="opacity: 1; top: 157%;" data-500-top-top="opacity: 0; top: 165%;" class="text-block3 skrollable skrollable-between">
+                <h3>Why do this?</h3>
+                <p>Because you know you are awesome.</p>
+            </div>
+        </div>
+        <div class="section3">
+            <div class="column"></div>
+            <div data--300-bottom-center="background-position: 0% -10%;" data-0-bottom-center="background-position:0% 500%;" class="lavaline skrollable skrollable-between"></div>
+            <div class="cthulhu"></div>
+            <!-- Heated text -->
+            <div class="text-container">
+                <div data-250-top-top="color: rgba(255,0,0,1);" data-300-top-top="color: rgba(255,255,255,1);" class="text-block skrollable skrollable-between">
+                    <h3>Transportation </h3>
+                    <p>is our problem not yours.</p>
+                </div>
+                <div data-400-top-top="color: rgba(255,0,0,1);" data-500-top-top="color: rgba(255,255,255,1);" class="text-block skrollable skrollable-between">
+                    <h3>Please bring </h3>
+                    <p>your laptops, chargers, a sleeping bag, and some mace.</p>
+                </div>
+                <div data-600-top-top="color: rgba(255,0,0,1);" data-750-top-top="color: rgba(255,255,255,1);" class="text-block skrollable skrollable-between">
+                    <h3>Food, beverages, and electricity </h3>
+                    <p>will be given to you, so chill.</p>
+                </div>
+            </div>
+            <div id="sponsors" class="sponsors">
+            </div>
+            <div class="core">
+                <h2>Sponsors</h2>
+            </div>
+        </div>
+        <div class="section4">
+            <div class="sponsor-image-links">
+                <a class="col-md-4" href="/">
+                    <img src="../assets/img/hotm/hackLogo2.png">
+                </a>
+                <a class="col-md-4" href="http://devbootcamp.com/">
+                    <img src="../assets/img/hotm/devBootCampLogo2.png">
+                </a>
+                <a class="col-md-4" href="https://www.mailjet.com/">
+                    <img src="../assets/img/hotm/mailJetLogo.jpg">
+                </a>
+            </div>
+            <div class="become-sponsor-link">
+                <a href="sponsor">Become a Sponsor</a>
+            </div>
+        </div>
 
-    <div class="section1">
-        <div class="mountain"></div>
-        <div class="trees1"></div>
-        <div class="trees2"></div>
-        <!-- Opening text -->
-        <h1>HackathOn the Mountain</h1>
-        <p>An open-air sustainability hackathon atop a mountain in Northeastern Pennsylvania</p>
-        <div class="links">
-            <a href="apply">Apply</a>
-            <a href="#sponsors">Sponsors</a>
-        </div>
-        <!-- Clouds -->
-        <div data--1000-top-top="left: 100%;" data--500-top-top="left: 0%;" class="cloud skrollable skrollable-between"></div>
-        <div data--900-top-top="left: 100%;" data--450-top-top="left: 65%;" class="cloud skrollable skrollable-between" style="bottom: 60%;"></div>
-        <div data--1000-top-top="left: 100%;" data--100-top-top="left: 0%;" class="cloud skrollable skrollable-between" style="bottom: 30%;"></div>
-        <div data--2000-top-top="left: 100%;" data-0-top-top="left: 35%;" class="cloud skrollable skrollable-between" style="bottom: 18%;"></div>
-    </div>
-    <div class="section2">
-        <div class="seafloor"></div>
-        <!-- Bubble packet 1 -->
-        <div data--200-top-top="left:-2%; background-position: 0% 0%;" data-1500-top-top="left[sin]:2%; background-position: 0% 100%;" class="bubble skrollable skrollable-between" style="margin: 0 0 0 85%;"></div>
-        <div data--200-top-top="left:-2%; background-position: 0% 0%;" data-1500-top-top="left[sin]:2%; background-position: 0% 100%;" class="bubble skrollable skrollable-between" style="margin: 0 0 0 87%; bottom: -104%"></div>
-        <div data--200-top-top="left:-2%; background-position: 0% 0%;" data-1500-top-top="left[sin]:2%; background-position: 0% 100%;" class="bubble skrollable skrollable-between" style="margin: 0 0 0 87%; background-size: 1%; bottom: -99%"></div>
-        <div data--200-top-top="left:-2%; background-position: 0% 0%;" data-1500-top-top="left[sin]:2%; background-position: 0% 100%;" class="bubble skrollable skrollable-between" style="margin: 0 0 0 87%; background-size: 1%; bottom: -102%"></div>
-        <div data--200-top-top="left:-2%; background-position: 0% 0%;" data-1500-top-top="left[sin]:2%; background-position: 0% 100%;" class="bubble skrollable skrollable-between" style="margin: 0 0 0 85.5%; background-size: 1%; bottom: -103.5%"></div>
-        <!-- Bubble packet 2 -->
-        <div data--900-top-top="left:-2%; background-position: 0% 0%;" data-400-top-top="left[sin]:2%; background-position: 0% 100%;" class="bubble skrollable skrollable-between" style="margin: 0 0 0 34%;"></div>
-        <div data--900-top-top="left:-2%; background-position: 0% 0%;" data-400-top-top="left[sin]:2%; background-position: 0% 100%;" class="bubble skrollable skrollable-between" style="margin: 0 0 0 32%; bottom: -104%"></div>
-        <div data--900-top-top="left:-2%; background-position: 0% 0%;" data-400-top-top="left[sin]:2%; background-position: 0% 100%;" class="bubble skrollable skrollable-between" style="margin: 0 0 0 33%; background-size: 1%; bottom: -98%"></div>
-        <div data--900-top-top="left:-2%; background-position: 0% 0%;" data-400-top-top="left[sin]:2%; background-position: 0% 100%;" class="bubble skrollable skrollable-between" style="margin: 0 0 0 32%; background-size: 1%; bottom: -100%"></div>
-        <div data--900-top-top="left:-2%; background-position: 0% 0%;" data-400-top-top="left[sin]:2%; background-position: 0% 100%;" class="bubble skrollable skrollable-between" style="margin: 0 0 0 33.5%; background-size: 1%; bottom: -102%"></div>
-        <!-- Bubble packet 3 -->
-        <div data-0-top-top="left:2%; background-position: 0% 0%;" data-800-top-top="left[sin]:-2%; background-position: 0% 100%;" class="bubble skrollable skrollable-between" style="margin: 0 0 0 1%; bottom: -104%"></div>
-        <div data-0-top-top="left:2%; background-position: 0% 0%;" data-800-top-top="left[sin]:-2%; background-position: 0% 100%;" class="bubble skrollable skrollable-between" style="margin: 0 0 0 1%; background-size: 1%; bottom: -105.5%"></div>
-        <div data-0-top-top="left:2%; background-position: 0% 0%;" data-800-top-top="left[sin]:-2%; background-position: 0% 100%;" class="bubble skrollable skrollable-between" style="margin: 0 0 0 1%; background-size: 1%; bottom: -102%"></div>
-        <!-- Bubble packet 4 -->
-        <div data--1200-top-top="left:1%; background-position: 0% 0%;" data-1000-top-top="left[sin]:-1%; background-position: 0% 100%;" class="bubble skrollable skrollable-between" style="margin: 0 0 0 90%; background-size: 1.2%; bottom: -104%"></div>
-        <div data--1200-top-top="left:1%; background-position: 0% 0%;" data-1000-top-top="left[sin]:-1%; background-position: 0% 100%;" class="bubble skrollable skrollable-between" style="margin: 0 0 0 90.5%; background-size: 0.85%; bottom: -102.5%"></div>
-        <div data--1200-top-top="left:1%; background-position: 0% 0%;" data-1000-top-top="left[sin]:-1%; background-position: 0% 100%;" class="bubble skrollable skrollable-between" style="margin: 0 0 0 89.5%; background-size: 0.85%; bottom: -102%"></div>
-        <!-- Floating text -->
-        <div data-100-top-top="opacity: 0; top: 99%;" data-300-top-top="opacity: 1; top: 107%;" data-500-top-top="opacity: 0; top: 115%;" class="text-block1 skrollable skrollable-between">
-            <h3>Date</h3>
-            <p>Mark your calendars.</p>
-        </div>
-        <div data-100-top-top="opacity: 0; top: 124%;" data-300-top-top="opacity: 1; top: 132%;" data-500-top-top="opacity: 0; top: 140%;" class="text-block2 skrollable skrollable-between">
-            <h3>Location</h3>
-            <p>This is where we are.</p>
-        </div>
-        <div data-100-top-top="opacity: 0; top: 149%;" data-300-top-top="opacity: 1; top: 157%;" data-500-top-top="opacity: 0; top: 165%;" class="text-block3 skrollable skrollable-between">
-            <h3>Why do this?</h3>
-            <p>Because you know you are awesome.</p>
-        </div>
-    </div>
-    <div class="section3">
-        <div class="column"></div>
-        <div data--300-bottom-center="background-position: 0% -10%;" data-0-bottom-center="background-position:0% 500%;" class="lavaline skrollable skrollable-between"></div>
-        <div class="cthulhu"></div>
-        <!-- Heated text -->
-        <div class="text-container">
-            <div data-250-top-top="color: rgba(255,0,0,1);" data-300-top-top="color: rgba(255,255,255,1);" class="text-block skrollable skrollable-between">
-                <h3>Transportation </h3>
-                <p>is our problem not yours.</p>
-            </div>
-            <div data-400-top-top="color: rgba(255,0,0,1);" data-500-top-top="color: rgba(255,255,255,1);" class="text-block skrollable skrollable-between">
-                <h3>Please bring </h3>
-                <p>your laptops, chargers, a sleeping bag, and some mace.</p>
-            </div>
-            <div data-600-top-top="color: rgba(255,0,0,1);" data-750-top-top="color: rgba(255,255,255,1);" class="text-block skrollable skrollable-between">
-                <h3>Food, beverages, and electricity </h3>
-                <p>will be given to you, so chill.</p>
-            </div>
-        </div>
-        <div id="sponsors" class="sponsors">
-        </div>
-        <div class="core">
-            <h2>Sponsors</h2>
-        </div>
-    </div>
-    <div class="section4">
-        <div class="sponsor-image-links">
-            <a class="col-md-4" href="/">
-                <img src="../assets/img/hotm/hackLogo2.png">
-            </a>
-            <a class="col-md-4" href="http://devbootcamp.com/">
-                <img src="../assets/img/hotm/devBootCampLogo2.png">
-            </a>
-            <a class="col-md-4" href="https://www.mailjet.com/">
-                <img src="../assets/img/hotm/mailJetLogo.jpg">
-            </a>
-        </div>
-        <div class="become-sponsor-link">
-            <a href="sponsor">Become a Sponsor</a>
-        </div>
-    </div>
-
-    <script src="skrollr.min.js"></script>
-    <script type="text/javascript">
-        var s = skrollr.init({
-            easing: {
-                sin: function(p) {
-                    return (Math.sin(2 * p * Math.PI * 2 - Math.PI/2) + 1) / 2;
+        <script src="skrollr.min.js"></script>
+        <script type="text/javascript">
+            var s = skrollr.init({
+                easing: {
+                    sin: function(p) {
+                        return (Math.sin(2 * p * Math.PI * 2 - Math.PI/2) + 1) / 2;
+                    }
                 }
+            });
+        </script>
+
+    </div>
+
+    <div id="myModal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content" id="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+            <h4 id="modal-title" class="modal-title" style="color: black">Need Some Work Done? Contact Us</h4>
+          </div>
+          <div class="modal-body" id="modal-body" style="height:478px">
+            <script>
+            function postInfo() {
+              //Reset modal size and error warnings upon resubmitting
+              document.getElementById('nameGroup').classList.remove('has-error');
+              document.getElementById('nameSpan').style.display = 'none';
+              document.getElementById('emailGroup').classList.remove('has-error');
+              document.getElementById('emailSpan').style.display = 'none';
+              document.getElementById('phoneGroup').classList.remove('has-error');
+              document.getElementById('phoneSpan').style.display = 'none';
+              document.getElementById('projectDescriptionGroup').classList.remove('has-error');
+              document.getElementById('projectDescriptionSpan').style.display = 'none';
+              document.getElementById('requiredTechnologiesGroup').classList.remove('has-error');
+              document.getElementById('requiredTechnologiesSpan').style.display = 'none';
+              document.getElementById('budgetGroup').classList.remove('has-error');
+              document.getElementById('budgetSpan').style.display = 'none';
+              document.getElementById('cityGroup').classList.remove('has-error');
+              document.getElementById('citySpan').style.display = 'none';
+              document.getElementById('howGroup').classList.remove('has-error');
+              document.getElementById('howSpan').style.display = 'none';
+              document.getElementById('modal-body').style.height = '444px';
+              //Retrieve input field values
+              var myDataRef = new Firebase('https://luminous-fire-4244.firebaseio.com/');
+              var name = document.getElementById('nameInput').value;
+              var email = document.getElementById('emailInput').value;
+              var phone = document.getElementById('phoneInput').value;
+              var projDesc = document.getElementById('projectDescriptionInput').value;
+              var reqTech = document.getElementById('requiredTechnologiesInput').value;
+              var budget = document.getElementById('budgetInput').value;
+              var city = document.getElementById('cityInput').value;
+              var how = document.getElementById('howInput').value;
+              //test required fields
+              var fail = false;
+              var heightDiff = 0;
+              if (name == null || name == "") {
+                document.getElementById('nameGroup').classList.add('has-error');
+                document.getElementById('nameSpan').style.display = 'inline';
+                heightDiff = heightDiff + 16;
+                fail = true;
+              }
+              if (email == null || email == "") {
+                document.getElementById('emailGroup').classList.add('has-error');
+                document.getElementById('emailSpan').style.display = 'inline';
+                heightDiff = heightDiff + 16;
+                fail = true;
+              }
+              if (phone == null || phone == "" || Math.floor(phone.replace(/[\s|\(|\)|-]/g, '').length / 2) != 5) {
+                document.getElementById('phoneGroup').classList.add('has-error');
+                document.getElementById('phoneSpan').style.display = 'inline';
+                heightDiff = heightDiff + 16;
+                fail = true;
+              }
+              if (projDesc == null || projDesc == "") {
+                document.getElementById('projectDescriptionGroup').classList.add('has-error');
+                document.getElementById('projectDescriptionSpan').style.display = 'inline';
+                heightDiff = heightDiff + 16;
+                fail = true;
+              }
+              if (reqTech == null || reqTech == "") {
+                document.getElementById('requiredTechnologiesGroup').classList.add('has-error');
+                document.getElementById('requiredTechnologiesSpan').style.display = 'inline';
+                heightDiff = heightDiff + 16;
+                fail = true;
+              }
+              if (budget == null || budget == "") {
+                document.getElementById('budgetGroup').classList.add('has-error');
+                document.getElementById('budgetSpan').style.display = 'inline';
+                heightDiff = heightDiff + 16;
+                fail = true;
+              }
+              if (city == null || city == "") {
+                document.getElementById('cityGroup').classList.add('has-error');
+                document.getElementById('citySpan').style.display = 'inline';
+                heightDiff = heightDiff + 16;
+                fail = true;
+              }
+              if (how == null || how == "") {
+                document.getElementById('howGroup').classList.add('has-error');
+                document.getElementById('howSpan').style.display = 'inline';
+                heightDiff = heightDiff + 16;
+                fail = true;
+              }
+              //Resize modal
+              document.getElementById('modal-body').style.height = 478 + heightDiff + 'px';
+
+              if (!fail) {
+                myDataRef.push({name: name, email: email, phone: phone, projDesc: projDesc, reqTech: reqTech, budget: budget, city: city, how: how});
+                document.getElementById('modal-title').style.display = 'none';
+                document.getElementById('nameGroup').style.display = 'none';
+                document.getElementById('emailGroup').style.display = 'none';
+                document.getElementById('phoneGroup').style.display = 'none';
+                document.getElementById('projectDescriptionGroup').style.display = 'none';
+                document.getElementById('requiredTechnologiesGroup').style.display = 'none';
+                document.getElementById('budgetGroup').style.display = 'none';
+                document.getElementById('cityGroup').style.display = 'none';
+                document.getElementById('howGroup').style.display = 'none';
+                document.getElementById('formSubmit').style.display = 'none';
+                document.getElementById('confirmationMessage').style.display = 'inline';
+                document.getElementById('modal-body').style.height = '66px';
+                document.getElementById('modal-body').style.height = '66px';
+                document.getElementById('modal-content').style.width = '350px';
+                document.getElementById('modal-content').style.marginLeft = '125px';
+              }
             }
-        });
-    </script>
+            </script>
+
+            <!-- CONTACT FORM FIELDS -->
+            <div class="form-group" id="nameGroup">
+              <input type='text' class='form-control' id='nameInput' placeholder='Name'>
+              <label class="control-label"></label>
+              <span class="help-block" id="nameSpan" style="display: none">Please enter your name</span>
+            </div>
+            <div class="form-group" id="emailGroup">
+              <input type='email' class='form-control' id='emailInput' placeholder='Email'>
+              <label class="control-label"></label>
+              <span class="help-block" id="emailSpan" style="display: none">Please enter a valid email address</span>
+            </div>
+            <div class="form-group" id="phoneGroup">
+              <input type='tel' class='form-control' id='phoneInput' placeholder='Phone'>
+              <label class="control-label"></label>
+              <span class="help-block" id="phoneSpan" style="display: none">Please enter a ten digit phone number (e.g. xxx-xxx-xxxx)</span>
+            </div>
+            <div class="form-group" id="projectDescriptionGroup">
+              <input type='text' class='form-control' id='projectDescriptionInput' placeholder='Project Description'>
+              <label class="control-label"></label>
+              <span class="help-block" id="projectDescriptionSpan" style="display: none">Please provide a project description</span>
+            </div>
+            <div class="form-group" id="requiredTechnologiesGroup">
+              <input type='text' class='form-control' id='requiredTechnologiesInput' placeholder='Required Technologies'>
+              <label class="control-label"></label>
+              <span class="help-block" id="requiredTechnologiesSpan" style="display: none">Please include a statement of required technologies</span>
+            </div>
+            <div class="form-group" id="budgetGroup">
+              <input type='text' class='form-control' id='budgetInput' placeholder='Budget'>
+              <label class="control-label"></label>
+              <span class="help-block" id="budgetSpan" style="display: none">Please provide a budget estimate</span>
+            </div>
+            <div class="form-group" id="cityGroup">
+              <input type='text' class='form-control' id='cityInput' placeholder='City'>
+              <label class="control-label"></label>
+              <span class="help-block" id="citySpan" style="display: none">Please enter a location</span>
+            </div>
+            <div class="form-group" id="howGroup">
+              <input type='text' class='form-control' id='howInput' placeholder='How did you find out about The Hackerati?'>
+              <label class="control-label"></label>
+              <span class="help-block" id="howSpan" style="display: none">Please include how you found us</span>
+            </div>
+            <div id="confirmationMessage" style="display: none">
+              <h4 style="color: black; margin: 0; text-align: center">Thanks for submitting!</h4>
+            </div>
+          </div><!-- /.modal-body -->
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-primary" id="formSubmit" onclick="postInfo()">Submit</button>
+          </div>
+        </div><!-- /.modal-content -->
+      </div><!-- /.modal-dialog -->
+    </div><!-- /.modal -->
+
+
 </body>

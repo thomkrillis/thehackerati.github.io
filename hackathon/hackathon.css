@@ -7,7 +7,7 @@ body {
     overflow-x: hidden;
 }
 
-a:link {
+a {
     border-bottom: none;
     color: white;
     margin: 0% 3%;
@@ -21,6 +21,7 @@ a:hover {
     text-decoration: none;
     border-bottom: 1px solid;
     color: black;
+    cursor: pointer;
 }
 
 
@@ -33,7 +34,6 @@ a:hover {
 
 .hackathonHeader{
     width:100%;
-    min-height: 100px;
 }
 
 .logo {
@@ -48,7 +48,7 @@ a:hover {
 
 .nav-links {
     display: inline-block;
-    width: 69%;
+    width: 68%;
     text-align: right;
     vertical-align: middle;
     font: 1.8em/100% 'inconsolatamedium';
@@ -93,6 +93,7 @@ a:hover {
     font: 2.5em/100% 'inconsolatamedium';
     text-align: center;
     color: white;
+    z-index: 1;
 }
 
 .mountain {
@@ -136,6 +137,18 @@ a:hover {
     left: 0%;
     bottom: 70%;
     position: absolute;
+}
+
+#cloud2 {
+    bottom: 60%;
+}
+
+#cloud3 {
+    bottom: 30%;
+}
+
+#cloud4 {
+    bottom: 18%;
 }
 
 /* Second section */
@@ -321,3 +334,66 @@ a:hover {
     color: green;
 }
 
+
+/* SMARTPHONE
+####################################################################*/
+
+@media only screen and (max-width : 479px) {
+
+    /* Navbar */
+    .nav-links {
+        font: 1.0em/100% 'inconsolatamedium';
+    }
+
+    .logo img {
+        width: 100%;
+    }
+
+    /* First section */
+    .section1 h1 {
+        top: 2%;
+        left: 0;
+        width: 100%;
+        font: 2.5em/100% 'inconsolatamedium';
+    }
+
+    .section1 p {
+        top: 8%;
+        left: 0;
+        width: 100%;
+    }
+
+    .links {
+        top: 15%;
+        left: 0;
+        width: 100%;
+        line-height: 160%;
+    }
+
+    .trees1 {
+        bottom: 300vh;
+    }
+
+    .trees2 {
+        bottom: 300vh;
+    }
+
+    .cloud {
+        height: 100vh;
+        background-position: left top;
+        top: 2%;
+    }
+
+    #cloud2 {
+        top: 7%;
+    }
+
+    #cloud3 {
+        top: 13%;
+    }
+
+    #cloud4 {
+        top: 21%;
+    }
+
+}
