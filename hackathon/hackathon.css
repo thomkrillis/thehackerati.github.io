@@ -1,3 +1,24 @@
+@font-face {
+    font-family: 'AlpacaScarlett';
+    src: url('../assets/fonts/Alpaca/Alpaca-Scarlett-v1.1/Alpaca-Scarlett.otf');
+    src: url('../assets/fonts/Alpaca/Alpaca-Scarlett-v1.1/Alpaca-Scarlett.otf') format('opentype'),
+         url('../assets/fonts/Alpaca/Alpaca-Scarlett-v1.1/Alpaca-Scarlett.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'AlpacaSabotage';
+    src: url('../assets/fonts/Alpaca/Extras/Alpaca-Sabotage/Alpaca-Sabotage.otf');
+    src: url('../assets/fonts/Alpaca/Extras/Alpaca-Sabotage/Alpaca-Sabotage.otf') format('opentype'),
+         url('../assets/fonts/Alpaca/Extras/Alpaca-Sabotage/Alpaca-Sabotage.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'AlpacaSolidify';
+    src: url('../assets/fonts/Alpaca/Extras/Alpaca-Solidify/Alpaca-Solidify.otf');
+    src: url('../assets/fonts/Alpaca/Extras/Alpaca-Solidify/Alpaca-Solidify.otf') format('opentype'),
+         url('../assets/fonts/Alpaca/Extras/Alpaca-Solidify/Alpaca-Solidify.ttf') format('truetype');
+}
+
 body {
     width: 100%;
     line-height: 16px;
@@ -51,7 +72,7 @@ a:hover {
     width: 68%;
     text-align: right;
     vertical-align: middle;
-    font: 1.8em/100% 'inconsolatamedium';
+    font: 1.8em/100% 'AlpacaScarlett';
 }
 
 /* First section */
@@ -65,7 +86,7 @@ a:hover {
     top: 15%;
     left: 25%;
     width: 50%;
-    font: 4.0em/100% 'inconsolatamedium';
+    font: 4.0em/100% 'AlpacaSolidify';
     text-align: center;
     color: white;
 }
@@ -75,7 +96,7 @@ a:hover {
     top: 43%;
     left: 10%;
     width: 80%;
-    font: 1.5em/100% 'inconsolatamedium';
+    font: 1.5em/100% 'AlpacaScarlett';
     text-align: center;
     color: white;
 }
@@ -87,10 +108,10 @@ a:hover {
 
 .links {
     position: absolute;
-    top: 52%;
+    top: 54%;
     left: 25%;
     width: 50%;
-    font: 2.5em/100% 'inconsolatamedium';
+    font: 2.5em/100% 'AlpacaScarlett';
     text-align: center;
     color: white;
     z-index: 1;
@@ -158,12 +179,12 @@ a:hover {
 }
 
 .section2 h3 {
-    font: bold 2.5em/100% 'inconsolatamedium';
+    font: bold 2.5em/100% 'AlpacaScarlett';
     color: white;
 }
 
 .section2 p {
-    font: 2.0em/100% 'inconsolatamedium';
+    font: 2.0em/100% 'AlpacaScarlett';
     color: white;
 }
 
@@ -215,13 +236,13 @@ a:hover {
 
 .section3 h3 {
     display: inline;
-    font: bold 2.0em/100% 'inconsolatamedium';
+    font: bold 2.0em/100% 'AlpacaScarlett';
     color: inherit;
 }
 
 .section3 p {
     display: inline;
-    font: 1.5em/100% 'inconsolatamedium';
+    font: 1.5em/100% 'AlpacaScarlett';
     color: inherit;
 }
 
@@ -286,7 +307,7 @@ a:hover {
     height: 15%;
     text-align: center;
     vertical-align: bottom;
-    font: 3em/100% 'inconsolatamedium';
+    font: 3em/100% 'AlpacaScarlett';
     color: #453D3D;
 }
 
@@ -318,7 +339,7 @@ a:hover {
     width: 100%;
     margin-top: 5%;
     text-align: center;
-    font: 4.0em/100% 'inconsolatamedium';
+    font: 4.0em/100% 'AlpacaScarlett';
 }
 
 .become-sponsor-link a:link {
@@ -342,7 +363,7 @@ a:hover {
 
     /* Navbar */
     .nav-links {
-        font: 1.0em/100% 'inconsolatamedium';
+        font: 1.0em/100% 'AlpacaScarlett';
     }
 
     .logo img {
@@ -354,7 +375,7 @@ a:hover {
         top: 2%;
         left: 0;
         width: 100%;
-        font: 2.5em/100% 'inconsolatamedium';
+        font: 2.5em/100% 'AlpacaScarlett';
     }
 
     .section1 p {
