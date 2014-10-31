@@ -1,3 +1,5 @@
+@media all {
+
 @font-face {
     font-family: 'AlpacaScarlett';
     src: url('../assets/fonts/Alpaca/Alpaca-Scarlett-v1.1/Alpaca-Scarlett.otf');
@@ -89,6 +91,7 @@ a:hover {
     font: 4.0em/100% 'AlpacaSolidify';
     text-align: center;
     color: white;
+    z-index: 1;
 }
 
 .section1 p {
@@ -99,6 +102,7 @@ a:hover {
     font: 1.5em/100% 'AlpacaScarlett';
     text-align: center;
     color: white;
+    z-index: 1;
 }
 
 .section1 a {
@@ -205,6 +209,95 @@ a:hover {
     left: 0%;
     bottom: -100%;
     position: absolute;
+    margin: 0;
+}
+
+#bubble1 {
+    margin-left: 85%;
+}
+
+#bubble2 {
+    bottom: -104%;
+    margin-left: 87%;
+}
+
+#bubble3 {
+    background-size: 1%;
+    bottom: -99%;
+    margin-left: 87%;
+}
+
+#bubble4 {
+    background-size: 1%;
+    bottom: -102%;
+    margin-left: 87%;
+}
+
+#bubble5 {
+    background-size: 1%;
+    bottom: -103.5%;
+    margin-left: 85.5%;
+}
+
+#bubble6 {
+    margin-left: 34%;
+}
+
+#bubble7 {
+    bottom: -104%;
+    margin-left: 32%;
+}
+
+#bubble8 {
+    background-size: 1%;
+    bottom: -98%;
+    margin-left: 33%;
+}
+
+#bubble9 {
+    background-size: 1%;
+    margin-left: 32%;
+}
+
+#bubble10 {
+    background-size: 1%;
+    bottom: -102%;
+    margin-left: 33.5%;
+}
+
+#bubble11 {
+    bottom: -104%;
+    margin-left: 1%;
+}
+
+#bubble12 {
+    background-size: 1%;
+    bottom: -105.5%;
+    margin-left: 1%;
+}
+
+#bubble13 {
+    background-size: 1%;
+    bottom: -102%;
+    margin-left: 1%;
+}
+
+#bubble14 {
+    background-size: 1.2%;
+    bottom: -104%;
+    margin-left: 90%;
+}
+
+#bubble15 {
+    background-size: 0.85%;
+    bottom: -102.5%;
+    margin-left: 90.5%;
+}
+
+#bubble16 {
+    background-size: 0.85%;
+    bottom: -102%;
+    margin-left: 89.5%;
 }
 
 .section2 .text-block1 {
@@ -355,6 +448,7 @@ a:hover {
     color: green;
 }
 
+}
 
 /* SMARTPHONE
 ####################################################################*/
@@ -415,6 +509,88 @@ a:hover {
 
     #cloud4 {
         top: 21%;
+    }
+
+    /* First section */
+    .bubble {
+        height: 100vh;
+        bottom: 200vh;
+        background-size: 5%;
+    }
+
+    #bubble1 {
+        bottom: 199vh;
+    }
+
+    #bubble2 {
+        bottom: 202vh;
+    }
+
+    #bubble3 {
+        bottom: 204vh;
+        background-size: 3%;
+    }
+
+    #bubble4 {
+        bottom: 196vh;
+        background-size: 3%;
+    }
+
+    #bubble5 {
+        bottom: 206vh;
+        background-size: 3%;
+    }
+
+    #bubble6 {
+        bottom: 200vh;
+    }
+
+    #bubble7 {
+        bottom: 203vh;
+    }
+
+    #bubble8 {
+        bottom: 198vh;
+        background-size: 3%;
+    }
+
+    #bubble9 {
+        bottom: 206vh;
+        background-size: 3%;
+    }
+
+    #bubble10 {
+        bottom: 208vh;
+        background-size: 3%;
+    }
+
+    #bubble11 {
+        bottom: 200vh;
+    }
+
+    #bubble12 {
+        bottom: 202vh;
+        background-size: 3%;
+    }
+
+    #bubble13 {
+        bottom: 198vh;
+        background-size: 3.5%;
+    }
+
+    #bubble14 {
+        bottom: 202vh;
+        background-size: 4%;
+    }
+
+    #bubble15 {
+        bottom: 204vh;
+        background-size: 3%;
+    }
+
+    #bubble16 {
+        bottom: 200vh;
+        background-size: 3%;
     }
 
 }
