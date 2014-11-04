@@ -20,7 +20,7 @@ title: HackathOn the Mountain | The Hackerati
                 </div>
                 <div id="nav-links" class="nav-links">
                     <a data-toggle="modal" data-target="#myModal">Apply</a>
-                    <a href="#sponsors">Sponsors</a>
+                    <a href="#sponsors" data-menu-top="280p">Sponsors</a>
                 </div>
             </div>
         </nav>
@@ -34,7 +34,7 @@ title: HackathOn the Mountain | The Hackerati
             <p>An open-air sustainability hackathon atop a mountain in Northeastern Pennsylvania</p>
             <div class="links">
                 <a data-toggle="modal" data-target="#myModal">Apply</a>
-                <a href="#sponsors">Sponsors</a>
+                <a href="#sponsors" data-menu-top="280p">Sponsors</a>
             </div>
             <!-- Clouds -->
             <div data-1000="left: 100%;" data--100="left: 0%;" class="cloud skrollable skrollable-between"></div>
@@ -65,22 +65,22 @@ title: HackathOn the Mountain | The Hackerati
             <div data--1200-top-top="left:1%; background-position: 0% 0%;" data-1000-top-top="left[sin]:-1%; background-position: 0% 100%;" class="bubble skrollable skrollable-between" id="bubble15"></div>
             <div data--1200-top-top="left:1%; background-position: 0% 0%;" data-1000-top-top="left[sin]:-1%; background-position: 0% 100%;" class="bubble skrollable skrollable-between" id="bubble16"></div>
             <!-- Floating text -->
-            <div data-100-top-top="opacity: 0; top: 99%;" data-300-top-top="opacity: 1; top: 107%;" data-500-top-top="opacity: 0; top: 115%;" class="text-block1 skrollable skrollable-between">
+            <div data-100-top-top="opacity: 0; margin-top: -15vh;" data-300-top-top="opacity: 1; margin-top: 0vh;" data-500-top-top="opacity: 0; margin-top: 15vh;" class="text-block1 skrollable skrollable-between">
                 <h3>Date</h3>
                 <p>Mark your calendars.</p>
             </div>
-            <div data-100-top-top="opacity: 0; top: 124%;" data-300-top-top="opacity: 1; top: 132%;" data-500-top-top="opacity: 0; top: 140%;" class="text-block2 skrollable skrollable-between">
+            <div data-100-top-top="opacity: 0; margin-top: -15vh;" data-300-top-top="opacity: 1; margin-top: 0vh;" data-500-top-top="opacity: 0; margin-top: 15vh;" class="text-block2 skrollable skrollable-between">
                 <h3>Location</h3>
                 <p>This is where we are.</p>
             </div>
-            <div data-100-top-top="opacity: 0; top: 149%;" data-300-top-top="opacity: 1; top: 157%;" data-500-top-top="opacity: 0; top: 165%;" class="text-block3 skrollable skrollable-between">
+            <div data-100-top-top="opacity: 0; margin-top: -15vh;" data-300-top-top="opacity: 1; margin-top: 0vh;" data-500-top-top="opacity: 0; margin-top: 15vh;" class="text-block3 skrollable skrollable-between">
                 <h3>Why do this?</h3>
                 <p>Because you know you are awesome.</p>
             </div>
         </div>
         <div class="section3">
             <div class="column"></div>
-            <div data--300-bottom-center="background-position: 0% -10%;" data-0-bottom-center="background-position:0% 500%;" class="lavaline skrollable skrollable-between"></div>
+            <div data-75-top-top="background-position: 0% -12%;" data-375-top-top="background-position:0% 500%;" class="lavaline skrollable skrollable-between"></div>
             <div class="cthulhu"></div>
             <!-- Heated text -->
             <div class="text-container">
@@ -114,6 +114,18 @@ title: HackathOn the Mountain | The Hackerati
                 <a class="col-md-4" href="https://www.mailjet.com/">
                     <img src="../assets/img/hotm/mailJetLogo.jpg">
                 </a>
+                <a class="col-md-4" href="http://www.freeplaymusic.com/">
+                    <img src="../assets/img/hotm/freeplayMusicLogo.png">
+                </a>
+                <a class="col-md-4" href="http://localprojects.net/">
+                    <img src="../assets/img/hotm/localProjectsLogo.png">
+                </a>
+                <a class="col-md-4" href="http://nycda.com/">
+                    <img src="../assets/img/hotm/nyCodeDesignAcademyLogo.svg">
+                </a>
+                <a class="col-md-4" href="http://www.intentmedia.com/">
+                    <img src="../assets/img/hotm/intentMediaLogo.png">
+                </a>
             </div>
             <div class="become-sponsor-link">
                 <a href="sponsor">Become a Sponsor</a>
@@ -121,6 +133,7 @@ title: HackathOn the Mountain | The Hackerati
         </div>
 
         <script src="skrollr.min.js"></script>
+        <script src="skrollr.menu.min.js"></script>
         <script type="text/javascript">
             var s = skrollr.init({
                 easing: {
@@ -129,6 +142,7 @@ title: HackathOn the Mountain | The Hackerati
                     }
                 }
             });
+            skrollr.menu.init(s, {});
         </script>
 
     </div>
