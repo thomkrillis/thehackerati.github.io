@@ -180,6 +180,13 @@ ABOUT PAGE
             </div>
 
             <div class="hackeratus-team-wrapper">
+                <a class='inline' href="#mikea-modal" onmouseover="document.getElementById('mikea').src=mikea2.src;" onmouseout="document.getElementById('mikea').src=mikea1.src;">
+                    <img src="../assets/img/team/mikea.png" class="hackeratus hackeratus-team" id="mikea">
+                </a>
+                <p>Michael Acar</p>
+            </div>
+
+            <div class="hackeratus-team-wrapper">
                 <a class='inline' href="#mike-modal" onmouseover="document.getElementById('mike').src=mike2.src;" onmouseout="document.getElementById('mike').src=mike1.src;">
                     <img src="../assets/img/team/mike.png" class="hackeratus hackeratus-team" id="mike">
                 </a>
@@ -693,6 +700,45 @@ ABOUT PAGE
                     </div>
                 </div><!--/team-smartphone-->
             </div><!--kevin-modal-->
+
+            <div id='mikea-modal'>
+                <div class="team-desktop">
+                    <div class="teamphoto">
+                        {% include team-page/mikea-img.html %}
+                        <div class="teamcontact">
+                            {% include team-page/mikea-contact.html %}
+                        </div>
+                    </div>
+                    <div class="teambio">
+                        {% include team-page/mikea-header.html %}
+                        {% include team-page/mikea-bio.html %}
+                    </div>
+                </div><!--/team-desktop-->
+                <div class="team-tablet">
+                    <div class="teamphoto">
+                        {% include team-page/mikea-img.html %}
+                    </div>
+                    <div class="teamcontact">
+                        {% include team-page/mikea-header.html %}
+                        {% include team-page/mikea-contact.html %}
+                    </div>
+                    <div class="teambio">
+                        {% include team-page/mikea-bio.html %}
+                    </div>
+                </div><!--/team-tablet-->
+                <div class="team-smartphone">
+                    <div class="teamphoto">
+                        {% include team-page/mikea-img.html %}
+                        <div class="teamcontact">
+                            {% include team-page/mikea-header.html %}
+                            {% include team-page/mikea-contact.html %}
+                            <div class="teambio">
+                                {% include team-page/mikea-bio.html %}
+                            </div>
+                        </div>
+                    </div>
+                </div><!--/team-smartphone-->
+            </div><!--mikea-modal-->
 
             <div id='mike-modal'>
                 <div class="team-desktop">
