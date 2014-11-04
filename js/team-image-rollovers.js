@@ -17,6 +17,8 @@ $(document).ready(function(){
     christopher2 = new Image();
     derby1 = new Image();
     derby2 = new Image();
+    derek1 = new Image();
+    derek2 = new Image();
     donny1 = new Image();
     donny2 = new Image();
     eddy1 = new Image();
@@ -29,12 +31,20 @@ $(document).ready(function(){
     igor2 = new Image();
     kevin1 = new Image();
     kevin2 = new Image();
+    mikea1 = new Image();
+    mikea2 = new Image();
     mike1 = new Image();
     mike2 = new Image();
     nenad1 = new Image();
     nenad2 = new Image();
+    patrick1 = new Image();
+    patrick2 = new Image();
     ramon1 = new Image();
     ramon2 = new Image();
+    susie1 = new Image();
+    susie2 = new Image();
+    vivian1 = new Image();
+    vivian2 = new Image();
 
     geoff1.src = "../assets/img/team/geoff.png"
     geoff2.src = "../assets/img/team/geoff-hover.png" 
@@ -54,6 +64,8 @@ $(document).ready(function(){
     christopher2.src = "../assets/img/team/christopher-hover.png" 
     derby1.src = "../assets/img/team/derby.png"  
     derby2.src = "../assets/img/team/derby-hover.png"
+    derek1.src = "../assets/img/team/derek.png"  
+    derek2.src = "../assets/img/team/derek-hover.png"
     donny1.src = "../assets/img/team/donny.png"  
     donny2.src = "../assets/img/team/donny-hover.png"
     eddy1.src = "../assets/img/team/eddy.png"  
@@ -66,10 +78,18 @@ $(document).ready(function(){
     igor2.src = "../assets/img/team/igor-hover.png" 
     kevin1.src = "../assets/img/team/kevin.png"  
     kevin2.src = "../assets/img/team/kevin-hover.png" 
+    mikea1.src = "../assets/img/team/mikea.png"  
+    mikea2.src = "../assets/img/team/mikea-hover.png" 
     mike1.src = "../assets/img/team/mike.png"  
     mike2.src = "../assets/img/team/mike-hover.png" 
     nenad1.src = "../assets/img/team/nenad.png"  
     nenad2.src = "../assets/img/team/nenad-hover.png" 
+    patrick1.src = "../assets/img/team/patrick.png"  
+    patrick2.src = "../assets/img/team/patrick-hover.png" 
     ramon1.src = "../assets/img/team/ramon.png"  
     ramon2.src = "../assets/img/team/ramon-hover.png" 
+    susie1.src = "../assets/img/team/susie.png"  
+    susie2.src = "../assets/img/team/susie-hover.png" 
+    vivian1.src = "../assets/img/team/vivian.png"  
+    vivian2.src = "../assets/img/team/vivian-hover.png" 
 });
