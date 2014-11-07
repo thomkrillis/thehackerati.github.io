@@ -27,6 +27,8 @@ $(document).ready(function(){
     ethan2 = new Image();
     grace1 = new Image();
     grace2 = new Image();
+    harrison1 = new Image();
+    harrison2 = new Image();
     igor1 = new Image();
     igor2 = new Image();
     kevin1 = new Image();
@@ -74,6 +76,8 @@ $(document).ready(function(){
     ethan2.src = "../assets/img/team/ethan-hover.png" 
     grace1.src = "../assets/img/team/grace.png"  
     grace2.src = "../assets/img/team/grace-hover.png" 
+    harrison1.src = "../assets/img/team/harrison.png"  
+    harrison2.src = "../assets/img/team/harrison-hover.png" 
     igor1.src = "../assets/img/team/igor.png"  
     igor2.src = "../assets/img/team/igor-hover.png" 
     kevin1.src = "../assets/img/team/kevin.png"  

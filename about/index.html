@@ -166,6 +166,13 @@ ABOUT PAGE
             </div>
 
             <div class="hackeratus-team-wrapper">
+                <a class='inline' href="#harrison-modal" onmouseover="document.getElementById('harrison').src=harrison2.src;" onmouseout="document.getElementById('harrison').src=harrison1.src;">
+                    <img src="../assets/img/team/harrison.png" class="hackeratus hackeratus-team" id="harrison">
+                </a>
+                <p>Harrison Zhao</p>
+            </div>
+
+            <div class="hackeratus-team-wrapper">
                 <a class='inline' href="#igor-modal" onmouseover="document.getElementById('igor').src=igor2.src;" onmouseout="document.getElementById('igor').src=igor1.src;">
                     <img src="../assets/img/team/igor.png" class="hackeratus hackeratus-team" alt="Igor Belyayev" id="igor">
                 </a>
@@ -622,6 +629,45 @@ ABOUT PAGE
                     </div>
                 </div><!--/team-smartphone-->
             </div><!--/grace-modal-->
+
+            <div id='harrison-modal'>
+                <div class="team-desktop">
+                    <div class="teamphoto">
+                        {% include team-page/harrison-img.html %}
+                        <div class="teamcontact">
+                            {% include team-page/harrison-contact.html %}
+                        </div>
+                    </div>
+                    <div class="teambio">
+                        {% include team-page/harrison-header.html %}
+                        {% include team-page/harrison-bio.html %}
+                    </div>
+                </div><!--/team-desktop-->
+                <div class="team-tablet">
+                    <div class="teamphoto">
+                        {% include team-page/harrison-img.html %}
+                    </div>
+                    <div class="teamcontact">
+                        {% include team-page/harrison-header.html %}
+                        {% include team-page/harrison-contact.html %}
+                    </div>
+                    <div class="teambio">
+                        {% include team-page/harrison-bio.html %}
+                    </div>
+                </div><!--/team-tablet-->
+                <div class="team-smartphone">
+                    <div class="teamphoto">
+                        {% include team-page/harrison-img.html %}
+                        <div class="teamcontact">
+                            {% include team-page/harrison-header.html %}
+                            {% include team-page/harrison-contact.html %}
+                            <div class="teambio">
+                                {% include team-page/harrison-bio.html %}
+                            </div>
+                        </div>
+                    </div>
+                </div><!--/team-smartphone-->
+            </div><!--/harrison-modal-->
 
             <div id='igor-modal'>
                 <div class="team-desktop">
