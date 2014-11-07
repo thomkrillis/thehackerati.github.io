@@ -15,13 +15,13 @@ ABOUT PAGE
     <div class="section section1 splash-container" id="top-section">
         <div class="content-container section1-content-container">
             <img src="../assets/img/aboutsplash_1.jpg" class="splash" alt="Splash, About, The Hackerati, New York Taxi" />
-       
+   
             <div class="def-hacker">
                 <h1>Hack&#183;er</h1>
                 <p class="def-part-of-speech"><em>noun </em>&nbsp;&#92;&#39;ha-k&#601;r&#92;</p>
                 <p>a creator who thrives on the intellectual challenge of solving problems by overcoming limitations</p>
-            </div>            
-            <div class="see-also"><p>see also:</p></div>            
+            </div>
+            <div class="see-also"><p>see also:</p></div>
             <div class="def-hackerati">
                 <h1>The Hack&#183;er&#183;a&#183;ti</h1>
                 <p class="def-part-of-speech"><em>plural noun </em>&nbsp;&#92;&#39;ha-k&#601;r-&#228;r-t&#275;&#92;</p>
@@ -29,7 +29,7 @@ ABOUT PAGE
             </div>
 
             <div class="clearfix"></div>
-        
+
         </div><!--/section1-content-container-->
 
         <div class="clearfix"></div>
@@ -91,936 +91,249 @@ ABOUT PAGE
 
         <div class="founders-wrapper" id="team">
 
-            <div class="hackeratus-founder-wrapper">
-                <a class='inline' href="#geoff-modal" onmouseover="document.getElementById('geoff').src=geoff2.src;" onmouseout="document.getElementById('geoff').src=geoff1.src;">
-                    <img src="../assets/img/team/geoff.png" class="hackeratus hackeratus-founder" id="geoff" alt="Geoff Scott">
-                </a>
-                <p>Geoff Scott, Cofounder</p>
-            </div>
+            {% for people in site.data.team %}
+                {% for founder in people.founders %}
+                    <div class="hackeratus-founder-wrapper">
+                        <a class='inline' href="#{{ founder.id }}-modal" onmouseover="document.getElementById('{{ founder.id }}').src={{ founder.id }}2.src;" onmouseout="document.getElementById('{{ founder.id }}').src={{ founder.id }}1.src;">
+                            <img src="../assets/img/team/{{ founder.id }}.png" class="hackeratus hackeratus-founder" id="{{ founder.id }}" alt="{{ founder.name }}">
+                        </a>
+                        <p>{{ founder.name }}, {{ founder.role }}</p>
+                    </div>
 
-            <div class="hackeratus-founder-wrapper">
-                <a class='inline' href="#rob-modal" onmouseover="document.getElementById('rob').src=rob2.src;" onmouseout="document.getElementById('rob').src=rob1.src;">
-                    <img src="../assets/img/team/rob.png" class="hackeratus hackeratus-founder" id="rob">
-                </a>
-                <p>Rob Marano, Cofounder</p>
-            </div>
+                    <div style='display:none'>
+                        <div id='{{ founder.id }}-modal'>
+                            <div class="team-desktop">
+                                <div class="teamphoto">
+                                    <img src="../assets/img/team/{{ founder.id }}.png">
+                                    <div class="teamcontact">
+                                        <p>
+                                            <a href="mailto:{{ founder.id }}@thehackerati.com">{{ founder.id }}@thehackerati.com</a>
+                                            {% for extra in founder.extras %}
+                                                <a href="{{ extra.url }}" target="blank">{{ extra.title }}</a>
+                                            {% endfor %}
+                                        </p>
+                                        <div class="team-social-media">
+                                            {% if founder.linkedin %}
+                                            <a href="https://www.linkedin.com/{{ founder.linkedin }}"target="blank">
+                                                <div class="team-social-media-sprite linkedin-team"></div>
+                                            </a>
+                                            {% endif %}
+                                            {% if founder.twitter %}
+                                            <a href="https://twitter.com/{{ founder.twitter }}"target="blank">
+                                                <div class="team-social-media-sprite twitter-team"></div>
+                                            </a>
+                                            {% endif %}
+                                            {% if founder.github %}
+                                            <a href="https://github.com/{{ founder.github }}" target="blank">
+                                                <div class="team-social-media-sprite github-team"></div>
+                                            </a>
+                                            {% endif %}
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="teambio">
+                                    <h4>{{ founder.name }}</h4>
+                                    {{ founder.bio }}
+                                </div>
+                            </div><!--/team-desktop-->
+                            <div class="team-tablet">
+                                <div class="teamphoto">
+                                    <img src="../assets/img/team/{{ founder.id }}.png">
+                                </div>
+                                <div class="teamcontact">
+                                    <h4>{{ founder.name }}</h4>
+                                    <p>
+                                        <a href="mailto:{{ founder.id }}@thehackerati.com">{{ founder.id }}@thehackerati.com</a>
+                                        {% for extra in founder.extras %}
+                                            <a href="{{ extra.url }}" target="blank">{{ extra.title }}</a>
+                                        {% endfor %}
+                                    </p>
+                                    <div class="team-social-media">
+                                        {% if founder.linkedin %}
+                                        <a href="https://www.linkedin.com/{{ founder.linkedin }}"target="blank">
+                                            <div class="team-social-media-sprite linkedin-team"></div>
+                                        </a>
+                                        {% endif %}
+                                        {% if founder.twitter %}
+                                        <a href="https://twitter.com/{{ founder.twitter }}"target="blank">
+                                            <div class="team-social-media-sprite twitter-team"></div>
+                                        </a>
+                                        {% endif %}
+                                        {% if founder.github %}
+                                        <a href="https://github.com/{{ founder.github }}" target="blank">
+                                            <div class="team-social-media-sprite github-team"></div>
+                                        </a>
+                                        {% endif %}
+                                    </div>
+                                </div>
+                                <div class="teambio">
+                                    {{ founder.bio }}
+                                </div>
+                            </div><!--/team-tablet-->
+                            <div class="team-smartphone">
+                                <div class="teamphoto">
+                                    <img src="../assets/img/team/{{ founder.id }}.png">
+                                    <div class="teamcontact">
+                                        <h4>{{ founder.name }}</h4>
+                                        <p>
+                                            <a href="mailto:{{ founder.id }}@thehackerati.com">{{ founder.id }}@thehackerati.com</a>
+                                            {% for extra in founder.extras %}
+                                                <a href="{{ extra.url }}" target="blank">{{ extra.title }}</a>
+                                            {% endfor %}
+                                        </p>
+                                        <div class="team-social-media">
+                                            {% if founder.linkedin %}
+                                            <a href="https://www.linkedin.com/{{ founder.linkedin }}"target="blank">
+                                                <div class="team-social-media-sprite linkedin-team"></div>
+                                            </a>
+                                            {% endif %}
+                                            {% if founder.twitter %}
+                                            <a href="https://twitter.com/{{ founder.twitter }}"target="blank">
+                                                <div class="team-social-media-sprite twitter-team"></div>
+                                            </a>
+                                            {% endif %}
+                                            {% if founder.github %}
+                                            <a href="https://github.com/{{ founder.github }}" target="blank">
+                                                <div class="team-social-media-sprite github-team"></div>
+                                            </a>
+                                            {% endif %}
+                                        </div>
+                                        <div class="teambio">
+                                            {{ founder.bio }}
+                                        </div>
+                                    </div>
+                                </div>
+                            </div><!--/team-smartphone-->
+                        </div><!--founder-modal-->
+                    </div>
+                {% endfor %}
+            {% endfor %}
 
         </div><!--/founders-wrapper-->
 
         <div class="team-wrapper">
 
-            <div class="hackeratus-team-wrapper">
-                <a class='inline' href="#alexs-modal" onmouseover="document.getElementById('alexs').src=alexsheehan2.src;" onmouseout="document.getElementById('alexs').src=alexsheehan1.src;">
-                    <img src="../assets/img/team/flake.png" class="hackeratus hackeratus-team" id="alexs">
-                </a>
-                <p>Alex Sheehan</p>
-            </div>
+            {% for people in site.data.team %}
+                {% for member in people.members %}
+                    <div class="hackeratus-team-wrapper">
+                        <a class='inline' href="#{{ member.id }}-modal" onmouseover="document.getElementById('{{ member.id }}').src={{ member.id }}2.src;" onmouseout="document.getElementById('{{ member.id }}').src={{ member.id }}1.src;">
+                            <img src="../assets/img/team/{{ member.id }}.png" class="hackeratus hackeratus-team" id="{{ member.id }}">
+                        </a>
+                        <p>{{ member.name }}</p>
+                    </div>
 
-            <div class="hackeratus-team-wrapper">
-                <a class='inline' href="#bobby-modal" onmouseover="document.getElementById('bobby').src=bobby2.src;" onmouseout="document.getElementById('bobby').src=bobby1.src;">
-                    <img src="../assets/img/team/bobby.png" class="hackeratus hackeratus-team" id="bobby">
-                </a>
-                <p>Bobby Yankou</p>
-            </div>
-
-            <div class="hackeratus-team-wrapper">
-                <a class='inline' href="#christopher-modal" onmouseover="document.getElementById('christopher').src=christopher2.src;" onmouseout="document.getElementById('christopher').src=christopher1.src;">
-                    <img src="../assets/img/team/christopher.png" class="hackeratus hackeratus-team" id="christopher">
-                </a>
-                <p>Christopher Sang</p>
-            </div>
-
-            <div class="hackeratus-team-wrapper">
-                <a class='inline' href="#derby-modal" onmouseover="document.getElementById('derby').src=derby2.src;" onmouseout="document.getElementById('derby').src=derby1.src;">
-                    <img src="../assets/img/team/derby.png" class="hackeratus hackeratus-team" id="derby">
-                </a>
-                <p>Derby</p>
-            </div>
-
-            <div class="hackeratus-team-wrapper">
-                <a class='inline' href="#derek-modal" onmouseover="document.getElementById('derek').src=derek2.src;" onmouseout="document.getElementById('derek').src=derek1.src;">
-                    <img src="../assets/img/team/derek.png" class="hackeratus hackeratus-team" id="derek">
-                </a>
-                <p>Derek Toub</p>
-            </div>
-
-            <div class="hackeratus-team-wrapper">
-                <a class='inline' href="#donny-modal" onmouseover="document.getElementById('donny').src=donny2.src;" onmouseout="document.getElementById('donny').src=donny1.src;">
-                    <img src="../assets/img/team/donny.png" class="hackeratus hackeratus-team" id="donny">
-                </a>
-                <p>Donny Kanner</p>
-            </div>
-
-            <div class="hackeratus-team-wrapper">
-                <a class='inline' href="#ethan-modal" onmouseover="document.getElementById('ethan').src=ethan2.src;" onmouseout="document.getElementById('ethan').src=ethan1.src;">
-                    <img src="../assets/img/team/ethan.png" class="hackeratus hackeratus-team" id="ethan">
-                </a>
-                <p>Ethan Lusterman</p>
-            </div>
-
-            <div class="hackeratus-team-wrapper">
-                <a class='inline' href="#grace-modal" onmouseover="document.getElementById('grace').src=grace2.src;" onmouseout="document.getElementById('grace').src=grace1.src;">
-                    <img src="../assets/img/team/grace.png" class="hackeratus hackeratus-team" alt="Grace Avery" id="grace">
-                </a>
-                <p>Grace Avery</p>
-            </div>
-
-            <div class="hackeratus-team-wrapper">
-                <a class='inline' href="#harrison-modal" onmouseover="document.getElementById('harrison').src=harrison2.src;" onmouseout="document.getElementById('harrison').src=harrison1.src;">
-                    <img src="../assets/img/team/harrison.png" class="hackeratus hackeratus-team" id="harrison">
-                </a>
-                <p>Harrison Zhao</p>
-            </div>
-
-            <div class="hackeratus-team-wrapper">
-                <a class='inline' href="#igor-modal" onmouseover="document.getElementById('igor').src=igor2.src;" onmouseout="document.getElementById('igor').src=igor1.src;">
-                    <img src="../assets/img/team/igor.png" class="hackeratus hackeratus-team" alt="Igor Belyayev" id="igor">
-                </a>
-                <p>Igor Belyayev</p>
-            </div>
-
-            <div class="hackeratus-team-wrapper">
-                <a class='inline' href="#kevin-modal" onmouseover="document.getElementById('kevin').src=kevin2.src;" onmouseout="document.getElementById('kevin').src=kevin1.src;">
-                    <img src="../assets/img/team/kevin.png" class="hackeratus hackeratus-team" id="kevin">
-                </a>
-                <p>Kevin Ruiz</p>
-            </div>
-
-            <div class="hackeratus-team-wrapper">
-                <a class='inline' href="#mikea-modal" onmouseover="document.getElementById('mikea').src=mikea2.src;" onmouseout="document.getElementById('mikea').src=mikea1.src;">
-                    <img src="../assets/img/team/mikea.png" class="hackeratus hackeratus-team" id="mikea">
-                </a>
-                <p>Michael Acar</p>
-            </div>
-
-            <div class="hackeratus-team-wrapper">
-                <a class='inline' href="#mike-modal" onmouseover="document.getElementById('mike').src=mike2.src;" onmouseout="document.getElementById('mike').src=mike1.src;">
-                    <img src="../assets/img/team/mike.png" class="hackeratus hackeratus-team" id="mike">
-                </a>
-                <p>Michael Ketigian</p>
-            </div>
-
-            <div class="hackeratus-team-wrapper">
-                <a class='inline' href="#nenad-modal" onmouseover="document.getElementById('nenad').src=nenad2.src;" onmouseout="document.getElementById('nenad').src=nenad1.src;">
-                    <img src="../assets/img/team/nenad.png" class="hackeratus hackeratus-team" id="nenad">
-                </a>
-                <p>Nenad Samardzic</p>
-            </div>
-
-            <div class="hackeratus-team-wrapper">
-                <a class='inline' href="#patrick-modal" onmouseover="document.getElementById('patrick').src=patrick2.src;" onmouseout="document.getElementById('patrick').src=patrick1.src;">
-                    <img src="../assets/img/team/patrick.png" class="hackeratus hackeratus-team" id="patrick">
-                </a>
-                <p>Patrick Cousins</p>
-            </div>
-
-            <div class="hackeratus-team-wrapper">
-                <a class='inline' href="#ramon-modal" onmouseover="document.getElementById('ramon').src=ramon2.src;" onmouseout="document.getElementById('ramon').src=ramon1.src;">
-                    <img src="../assets/img/team/ramon.png" class="hackeratus hackeratus-team" id="ramon">
-                </a>
-                <p>Ramon Sandoval</p>
-            </div>
-
-            <div class="hackeratus-team-wrapper">
-                <a class='inline' href="#susie-modal" onmouseover="document.getElementById('susie').src=susie2.src;" onmouseout="document.getElementById('susie').src=susie1.src;">
-                    <img src="../assets/img/team/susie.png" class="hackeratus hackeratus-team" id="susie">
-                </a>
-                <p>Susie Lin</p>
-            </div>
-
-            <div class="hackeratus-team-wrapper">
-                <a class='inline' href="#vivian-modal" onmouseover="document.getElementById('vivian').src=vivian2.src;" onmouseout="document.getElementById('vivian').src=vivian1.src;">
-                    <img src="../assets/img/team/vivian.png" class="hackeratus hackeratus-team" id="vivian">
-                </a>
-                <p>Vivian Keating</p>
-            </div>
+                    <div style='display:none'>
+                        <div id='{{ member.id }}-modal'>
+                            <div class="team-desktop">
+                                <div class="teamphoto">
+                                    <img src="../assets/img/team/{{ member.id }}.png">
+                                    <div class="teamcontact">
+                                        <p>
+                                            <a href="mailto:{{ member.id }}@thehackerati.com">{{ member.id }}@thehackerati.com</a>
+                                            {% for extra in member.extras %}
+                                                <a href="{{ extra.url }}" target="blank">{{ extra.title }}</a>
+                                            {% endfor %}
+                                        </p>
+                                        <div class="team-social-media">
+                                            {% if member.linkedin %}
+                                            <a href="https://www.linkedin.com/{{ member.linkedin }}"target="blank">
+                                                <div class="team-social-media-sprite linkedin-team"></div>
+                                            </a>
+                                            {% endif %}
+                                            {% if member.twitter %}
+                                            <a href="https://twitter.com/{{ member.twitter }}"target="blank">
+                                                <div class="team-social-media-sprite twitter-team"></div>
+                                            </a>
+                                            {% endif %}
+                                            {% if member.github %}
+                                            <a href="https://github.com/{{ member.github }}" target="blank">
+                                                <div class="team-social-media-sprite github-team"></div>
+                                            </a>
+                                            {% endif %}
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="teambio">
+                                    <h4>{{ member.name }}</h4>
+                                    {{ member.bio }}
+                                </div>
+                            </div><!--/team-desktop-->
+                            <div class="team-tablet">
+                                <div class="teamphoto">
+                                    <img src="../assets/img/team/{{ member.id }}.png">
+                                </div>
+                                <div class="teamcontact">
+                                    <h4>{{ member.name }}</h4>
+                                    <p>
+                                        <a href="mailto:{{ member.id }}@thehackerati.com">{{ member.id }}@thehackerati.com</a>
+                                        {% for extra in member.extras %}
+                                            <a href="{{ extra.url }}" target="blank">{{ extra.title }}</a>
+                                        {% endfor %}
+                                    </p>
+                                    <div class="team-social-media">
+                                        {% if member.linkedin %}
+                                        <a href="https://www.linkedin.com/{{ member.linkedin }}"target="blank">
+                                            <div class="team-social-media-sprite linkedin-team"></div>
+                                        </a>
+                                        {% endif %}
+                                        {% if member.twitter %}
+                                        <a href="https://twitter.com/{{ member.twitter }}"target="blank">
+                                            <div class="team-social-media-sprite twitter-team"></div>
+                                        </a>
+                                        {% endif %}
+                                        {% if member.github %}
+                                        <a href="https://github.com/{{ member.github }}" target="blank">
+                                            <div class="team-social-media-sprite github-team"></div>
+                                        </a>
+                                        {% endif %}
+                                    </div>
+                                </div>
+                                <div class="teambio">
+                                    {{ member.bio }}
+                                </div>
+                            </div><!--/team-tablet-->
+                            <div class="team-smartphone">
+                                <div class="teamphoto">
+                                    <img src="../assets/img/team/{{ member.id }}.png">
+                                    <div class="teamcontact">
+                                        <h4>{{ member.name }}</h4>
+                                        <p>
+                                            <a href="mailto:{{ member.id }}@thehackerati.com">{{ member.id }}@thehackerati.com</a>
+                                            {% for extra in member.extras %}
+                                                <a href="{{ extra.url }}" target="blank">{{ extra.title }}</a>
+                                            {% endfor %}
+                                        </p>
+                                        <div class="team-social-media">
+                                            {% if member.linkedin %}
+                                            <a href="https://www.linkedin.com/{{ member.linkedin }}"target="blank">
+                                                <div class="team-social-media-sprite linkedin-team"></div>
+                                            </a>
+                                            {% endif %}
+                                            {% if member.twitter %}
+                                            <a href="https://twitter.com/{{ member.twitter }}"target="blank">
+                                                <div class="team-social-media-sprite twitter-team"></div>
+                                            </a>
+                                            {% endif %}
+                                            {% if member.github %}
+                                            <a href="https://github.com/{{ member.github }}" target="blank">
+                                                <div class="team-social-media-sprite github-team"></div>
+                                            </a>
+                                            {% endif %}
+                                        </div>
+                                        <div class="teambio">
+                                            {{ member.bio }}
+                                        </div>
+                                    </div>
+                                </div>
+                            </div><!--/team-smartphone-->
+                        </div><!--member-modal-->
+                    </div>
+                {% endfor %}
+            {% endfor %}
 
         </div><!--/team-wrapper-->
 
     </div><!--/section2-anchor-link who-container--> 
-
-    <!-- This contains the hidden content for inline calls -->
-        <div style='display:none'>
-            <div id='geoff-modal'>
-                <div class="team-desktop">
-                    <div class="teamphoto">
-                        {% include team-page/geoff-img.html %}
-                        <div class="teamcontact">
-                            {% include team-page/geoff-contact.html %}
-                        </div>
-                    </div>
-                    <div class="teambio">
-                        {% include team-page/geoff-header.html %}
-                        {% include team-page/geoff-bio.html %}
-                    </div>
-                </div><!--/team-desktop-->
-                <div class="team-tablet">
-                    <div class="teamphoto">
-                        {% include team-page/geoff-img.html %}
-                    </div>
-                    <div class="teamcontact">
-                        {% include team-page/geoff-header.html %}
-                        {% include team-page/geoff-contact.html %}
-                    </div>
-                    <div class="teambio">
-                        {% include team-page/geoff-bio.html %}
-                    </div>
-                </div><!--/team-tablet-->
-                <div class="team-smartphone">
-                    <div class="teamphoto">
-                        {% include team-page/geoff-img.html %}
-                        <div class="teamcontact">
-                            {% include team-page/geoff-header.html %}
-                            {% include team-page/geoff-contact.html %}
-                            <div class="teambio">
-                                {% include team-page/geoff-bio.html %}
-                            </div>
-                        </div>
-                    </div>
-                </div><!--/team-smartphone-->
-            </div><!--geoff-modal-->
-
-            <div id='rob-modal'>
-                <div class="team-desktop">
-                    <div class="teamphoto">
-                        {% include team-page/rob-img.html %}
-                        <div class="teamcontact">
-                            {% include team-page/rob-contact.html %}
-                        </div>
-                    </div>
-                    <div class="teambio">
-                        {% include team-page/rob-header.html %}
-                        {% include team-page/rob-bio.html %}
-                    </div>
-                </div><!--/team-desktop-->
-                <div class="team-tablet">
-                    <div class="teamphoto">
-                        {% include team-page/rob-img.html %}
-                    </div>
-                    <div class="teamcontact">
-                        {% include team-page/rob-header.html %}
-                        {% include team-page/rob-contact.html %}
-                    </div>
-                    <div class="teambio">
-                        {% include team-page/rob-bio.html %}
-                    </div>
-                </div><!--/team-tablet-->
-                <div class="team-smartphone">
-                    <div class="teamphoto">
-                        {% include team-page/rob-img.html %}
-                        <div class="teamcontact">
-                            {% include team-page/rob-header.html %}
-                            {% include team-page/rob-contact.html %}
-                            <div class="teambio">
-                                {% include team-page/rob-bio.html %}
-                            </div>
-                        </div>
-                    </div>
-                </div><!--/team-smartphone-->
-            </div><!--rob-modal-->
-            <div id='alexs-modal'>
-                <div class="team-desktop">
-                    <div class="teamphoto">
-                        {% include team-page/alexs-img.html %}
-                        <div class="teamcontact">
-                            {% include team-page/alexs-contact.html %}
-                        </div>
-                    </div>
-                    <div class="teambio">
-                        {% include team-page/alexs-header.html %}
-                        {% include team-page/alexs-bio.html %}
-                    </div>
-                </div><!--/team-desktop-->
-                <div class="team-tablet">
-                    <div class="teamphoto">
-                        {% include team-page/alexs-img.html %}
-                    </div>
-                    <div class="teamcontact">
-                        {% include team-page/alexs-header.html %}
-                        {% include team-page/alexs-contact.html %}
-                    </div>
-                    <div class="teambio">
-                        {% include team-page/alexs-bio.html %}
-                    </div>
-                </div><!--/team-tablet-->
-                <div class="team-smartphone">
-                    <div class="teamphoto">
-                        {% include team-page/alexs-img.html %}
-                        <div class="teamcontact">
-                            {% include team-page/alexs-header.html %}
-                            {% include team-page/alexs-contact.html %}
-                            <div class="teambio">
-                                {% include team-page/alexs-bio.html %}
-                            </div>
-                        </div>
-                    </div>
-                </div><!--/team-smartphone-->
-            </div><!--alexs-modal-->
-
-            <div id='bobby-modal'>
-                <div class="team-desktop">
-                    <div class="teamphoto">
-                        {% include team-page/bobby-img.html %}
-                        <div class="teamcontact">
-                            {% include team-page/bobby-contact.html %}
-                        </div>
-                    </div>
-                    <div class="teambio">
-                        {% include team-page/bobby-header.html %}
-                        {% include team-page/bobby-bio.html %}
-                    </div>
-                </div><!--/team-desktop-->
-                <div class="team-tablet">
-                    <div class="teamphoto">
-                        {% include team-page/bobby-img.html %}
-                    </div>
-                    <div class="teamcontact">
-                        {% include team-page/bobby-header.html %}
-                        {% include team-page/bobby-contact.html %}
-                    </div>
-                    <div class="teambio">
-                        {% include team-page/bobby-bio.html %}
-                    </div>
-                </div><!--/team-tablet-->
-                <div class="team-smartphone">
-                    <div class="teamphoto">
-                        {% include team-page/bobby-img.html %}
-                        <div class="teamcontact">
-                            {% include team-page/bobby-header.html %}
-                            {% include team-page/bobby-contact.html %}
-                            <div class="teambio">
-                                {% include team-page/bobby-bio.html %}
-                            </div>
-                        </div>
-                    </div>
-                </div><!--/team-smartphone-->
-            </div><!--bobby-modal-->
-
-            <div id='christopher-modal'>
-                <div class="team-desktop">
-                    <div class="teamphoto">
-                        {% include team-page/christopher-img.html %}
-                        <div class="teamcontact">
-                            {% include team-page/christopher-contact.html %}
-                        </div>
-                    </div>
-                    <div class="teambio">
-                        {% include team-page/christopher-header.html %}
-                        {% include team-page/christopher-bio.html %}
-                    </div>
-                </div><!--/team-desktop-->
-                <div class="team-tablet">
-                    <div class="teamphoto">
-                        {% include team-page/christopher-img.html %}
-                    </div>
-                    <div class="teamcontact">
-                        {% include team-page/christopher-header.html %}
-                        {% include team-page/christopher-contact.html %}
-                    </div>
-                    <div class="teambio">
-                        {% include team-page/christopher-bio.html %}
-                    </div>
-                </div><!--/team-tablet-->
-                <div class="team-smartphone">
-                    <div class="teamphoto">
-                        {% include team-page/christopher-img.html %}
-                        <div class="teamcontact">
-                            {% include team-page/christopher-header.html %}
-                            {% include team-page/christopher-contact.html %}
-                            <div class="teambio">
-                                {% include team-page/christopher-bio.html %}
-                            </div>
-                        </div>
-                    </div>
-                </div><!--/team-smartphone-->
-            </div><!--christopher-modal-->
-
-            <div id='derby-modal'>
-                <div class="team-desktop">
-                    <div class="teamphoto">
-                        {% include team-page/derby-img.html %}
-                        <div class="teamcontact">
-                            {% include team-page/derby-contact.html %}
-                        </div>
-                    </div>
-                    <div class="teambio">
-                        {% include team-page/derby-header.html %}
-                        {% include team-page/derby-bio.html %}
-                    </div>
-                </div><!--/team-desktop-->
-                <div class="team-tablet">
-                    <div class="teamphoto">
-                        {% include team-page/derby-img.html %}
-                    </div>
-                    <div class="teamcontact">
-                        {% include team-page/derby-header.html %}
-                        {% include team-page/derby-contact.html %}
-                    </div>
-                    <div class="teambio">
-                        {% include team-page/derby-bio.html %}
-                    </div>
-                </div><!--/team-tablet-->
-                <div class="team-smartphone">
-                    <div class="teamphoto">
-                        {% include team-page/derby-img.html %}
-                        <div class="teamcontact">
-                            {% include team-page/derby-header.html %}
-                            {% include team-page/derby-contact.html %}
-                            <div class="teambio">
-                                {% include team-page/derby-bio.html %}
-                            </div>
-                        </div>
-                    </div>
-                </div><!--/team-smartphone-->
-            </div><!--derby-modal-->
-
-            <div id='derek-modal'>
-                <div class="team-desktop">
-                    <div class="teamphoto">
-                        {% include team-page/derek-img.html %}
-                        <div class="teamcontact">
-                            {% include team-page/derek-contact.html %}
-                        </div>
-                    </div>
-                    <div class="teambio">
-                        {% include team-page/derek-header.html %}
-                        {% include team-page/derek-bio.html %}
-                    </div>
-                </div><!--/team-desktop-->
-                <div class="team-tablet">
-                    <div class="teamphoto">
-                        {% include team-page/derek-img.html %}
-                    </div>
-                    <div class="teamcontact">
-                        {% include team-page/derek-header.html %}
-                        {% include team-page/derek-contact.html %}
-                    </div>
-                    <div class="teambio">
-                        {% include team-page/derek-bio.html %}
-                    </div>
-                </div><!--/team-tablet-->
-                <div class="team-smartphone">
-                    <div class="teamphoto">
-                        {% include team-page/derek-img.html %}
-                        <div class="teamcontact">
-                            {% include team-page/derek-header.html %}
-                            {% include team-page/derek-contact.html %}
-                            <div class="teambio">
-                                {% include team-page/derek-bio.html %}
-                            </div>
-                        </div>
-                    </div>
-                </div><!--/team-smartphone-->
-            </div><!--derek-modal-->
-
-            <div id='donny-modal'>
-                <div class="team-desktop">
-                    <div class="teamphoto">
-                        {% include team-page/donny-img.html %}
-                        <div class="teamcontact">
-                            {% include team-page/donny-contact.html %}
-                        </div>
-                    </div>
-                    <div class="teambio">
-                        {% include team-page/donny-header.html %}
-                        {% include team-page/donny-bio.html %}
-                    </div>
-                </div><!--/team-desktop-->
-                <div class="team-tablet">
-                    <div class="teamphoto">
-                        {% include team-page/donny-img.html %}
-                    </div>
-                    <div class="teamcontact">
-                        {% include team-page/donny-header.html %}
-                        {% include team-page/donny-contact.html %}
-                    </div>
-                    <div class="teambio">
-                        {% include team-page/donny-bio.html %}
-                    </div>
-                </div><!--/team-tablet-->
-                <div class="team-smartphone">
-                    <div class="teamphoto">
-                        {% include team-page/donny-img.html %}
-                        <div class="teamcontact">
-                            {% include team-page/donny-header.html %}
-                            {% include team-page/donny-contact.html %}
-                            <div class="teambio">
-                                {% include team-page/donny-bio.html %}
-                            </div>
-                        </div>
-                    </div>
-                </div><!--/team-smartphone-->
-            </div><!--donny-modal-->
-
-            <div id='ethan-modal'>
-                <div class="team-desktop">
-                    <div class="teamphoto">
-                        {% include team-page/ethan-img.html %}
-                        <div class="teamcontact">
-                            {% include team-page/ethan-contact.html %}
-                        </div>
-                    </div>
-                    <div class="teambio">
-                        {% include team-page/ethan-header.html %}
-                        {% include team-page/ethan-bio.html %}
-                    </div>
-                </div><!--/team-desktop-->
-                <div class="team-tablet">
-                    <div class="teamphoto">
-                        {% include team-page/ethan-img.html %}
-                    </div>
-                    <div class="teamcontact">
-                        {% include team-page/ethan-header.html %}
-                        {% include team-page/ethan-contact.html %}
-                    </div>
-                    <div class="teambio">
-                        {% include team-page/ethan-bio.html %}
-                    </div>
-                </div><!--/team-tablet-->
-                <div class="team-smartphone">
-                    <div class="teamphoto">
-                        {% include team-page/ethan-img.html %}
-                        <div class="teamcontact">
-                            {% include team-page/ethan-header.html %}
-                            {% include team-page/ethan-contact.html %}
-                            <div class="teambio">
-                                {% include team-page/ethan-bio.html %}
-                            </div>
-                        </div>
-                    </div>
-                </div><!--/team-smartphone-->
-            </div><!--/ethan-modal-->
-
-            <div id='grace-modal'>
-                <div class="team-desktop">
-                    <div class="teamphoto">
-                        {% include team-page/grace-img.html %}
-                        <div class="teamcontact">
-                            {% include team-page/grace-contact.html %}
-                        </div>
-                    </div>
-                    <div class="teambio">
-                        {% include team-page/grace-header.html %}
-                        {% include team-page/grace-bio.html %}
-                    </div>
-                </div><!--/team-desktop-->
-                <div class="team-tablet">
-                    <div class="teamphoto">
-                        {% include team-page/grace-img.html %}
-                    </div>
-                    <div class="teamcontact">
-                        {% include team-page/grace-header.html %}
-                        {% include team-page/grace-contact.html %}
-                    </div>
-                    <div class="teambio">
-                        {% include team-page/grace-bio.html %}
-                    </div>
-                </div><!--/team-tablet-->
-                <div class="team-smartphone">
-                    <div class="teamphoto">
-                        {% include team-page/grace-img.html %}
-                        <div class="teamcontact">
-                            {% include team-page/grace-header.html %}
-                            {% include team-page/grace-contact.html %}
-                            <div class="teambio">
-                                {% include team-page/grace-bio.html %}
-                            </div>
-                        </div>
-                    </div>
-                </div><!--/team-smartphone-->
-            </div><!--/grace-modal-->
-
-            <div id='harrison-modal'>
-                <div class="team-desktop">
-                    <div class="teamphoto">
-                        {% include team-page/harrison-img.html %}
-                        <div class="teamcontact">
-                            {% include team-page/harrison-contact.html %}
-                        </div>
-                    </div>
-                    <div class="teambio">
-                        {% include team-page/harrison-header.html %}
-                        {% include team-page/harrison-bio.html %}
-                    </div>
-                </div><!--/team-desktop-->
-                <div class="team-tablet">
-                    <div class="teamphoto">
-                        {% include team-page/harrison-img.html %}
-                    </div>
-                    <div class="teamcontact">
-                        {% include team-page/harrison-header.html %}
-                        {% include team-page/harrison-contact.html %}
-                    </div>
-                    <div class="teambio">
-                        {% include team-page/harrison-bio.html %}
-                    </div>
-                </div><!--/team-tablet-->
-                <div class="team-smartphone">
-                    <div class="teamphoto">
-                        {% include team-page/harrison-img.html %}
-                        <div class="teamcontact">
-                            {% include team-page/harrison-header.html %}
-                            {% include team-page/harrison-contact.html %}
-                            <div class="teambio">
-                                {% include team-page/harrison-bio.html %}
-                            </div>
-                        </div>
-                    </div>
-                </div><!--/team-smartphone-->
-            </div><!--/harrison-modal-->
-
-            <div id='igor-modal'>
-                <div class="team-desktop">
-                    <div class="teamphoto">
-                        {% include team-page/igor-img.html %}
-                        <div class="teamcontact">
-                            {% include team-page/igor-contact.html %}
-                        </div>
-                    </div>
-                    <div class="teambio">
-                        {% include team-page/igor-header.html %}
-                        {% include team-page/igor-bio.html %}
-                    </div>
-                </div><!--/team-desktop-->
-                <div class="team-tablet">
-                    <div class="teamphoto">
-                        {% include team-page/igor-img.html %}
-                    </div>
-                    <div class="teamcontact">
-                        {% include team-page/igor-header.html %}
-                        {% include team-page/igor-contact.html %}
-                    </div>
-                    <div class="teambio">
-                        {% include team-page/igor-bio.html %}
-                    </div>
-                </div><!--/team-tablet-->
-                <div class="team-smartphone">
-                    <div class="teamphoto">
-                        {% include team-page/igor-img.html %}
-                        <div class="teamcontact">
-                            {% include team-page/igor-header.html %}
-                            {% include team-page/igor-contact.html %}
-                            <div class="teambio">
-                                {% include team-page/igor-bio.html %}
-                            </div>
-                        </div>
-                    </div>
-                </div><!--/team-smartphone-->
-            </div><!--/igor-modal-->
-
-            <div id='kevin-modal'>
-                <div class="team-desktop">
-                    <div class="teamphoto">
-                        {% include team-page/kevin-img.html %}
-                        <div class="teamcontact">
-                            {% include team-page/kevin-contact.html %}
-                        </div>
-                    </div>
-                    <div class="teambio">
-                        {% include team-page/kevin-header.html %}
-                        {% include team-page/kevin-bio.html %}
-                    </div>
-                </div><!--/team-desktop-->
-                <div class="team-tablet">
-                    <div class="teamphoto">
-                        {% include team-page/kevin-img.html %}
-                    </div>
-                    <div class="teamcontact">
-                        {% include team-page/kevin-header.html %}
-                        {% include team-page/kevin-contact.html %}
-                    </div>
-                    <div class="teambio">
-                        {% include team-page/kevin-bio.html %}
-                    </div>
-                </div><!--/team-tablet-->
-                <div class="team-smartphone">
-                    <div class="teamphoto">
-                        {% include team-page/kevin-img.html %}
-                        <div class="teamcontact">
-                            {% include team-page/kevin-header.html %}
-                            {% include team-page/kevin-contact.html %}
-                            <div class="teambio">
-                                {% include team-page/kevin-bio.html %}
-                            </div>
-                        </div>
-                    </div>
-                </div><!--/team-smartphone-->
-            </div><!--kevin-modal-->
-
-            <div id='mikea-modal'>
-                <div class="team-desktop">
-                    <div class="teamphoto">
-                        {% include team-page/mikea-img.html %}
-                        <div class="teamcontact">
-                            {% include team-page/mikea-contact.html %}
-                        </div>
-                    </div>
-                    <div class="teambio">
-                        {% include team-page/mikea-header.html %}
-                        {% include team-page/mikea-bio.html %}
-                    </div>
-                </div><!--/team-desktop-->
-                <div class="team-tablet">
-                    <div class="teamphoto">
-                        {% include team-page/mikea-img.html %}
-                    </div>
-                    <div class="teamcontact">
-                        {% include team-page/mikea-header.html %}
-                        {% include team-page/mikea-contact.html %}
-                    </div>
-                    <div class="teambio">
-                        {% include team-page/mikea-bio.html %}
-                    </div>
-                </div><!--/team-tablet-->
-                <div class="team-smartphone">
-                    <div class="teamphoto">
-                        {% include team-page/mikea-img.html %}
-                        <div class="teamcontact">
-                            {% include team-page/mikea-header.html %}
-                            {% include team-page/mikea-contact.html %}
-                            <div class="teambio">
-                                {% include team-page/mikea-bio.html %}
-                            </div>
-                        </div>
-                    </div>
-                </div><!--/team-smartphone-->
-            </div><!--mikea-modal-->
-
-            <div id='mike-modal'>
-                <div class="team-desktop">
-                    <div class="teamphoto">
-                        {% include team-page/mike-img.html %}
-                        <div class="teamcontact">
-                            {% include team-page/mike-contact.html %}
-                        </div>
-                    </div>
-                    <div class="teambio">
-                        {% include team-page/mike-header.html %}
-                        {% include team-page/mike-bio.html %}
-                    </div>
-                </div><!--/team-desktop-->
-                <div class="team-tablet">
-                    <div class="teamphoto">
-                        {% include team-page/mike-img.html %}
-                    </div>
-                    <div class="teamcontact">
-                        {% include team-page/mike-header.html %}
-                        {% include team-page/mike-contact.html %}
-                    </div>
-                    <div class="teambio">
-                        {% include team-page/mike-bio.html %}
-                    </div>
-                </div><!--/team-tablet-->
-                <div class="team-smartphone">
-                    <div class="teamphoto">
-                        {% include team-page/mike-img.html %}
-                        <div class="teamcontact">
-                            {% include team-page/mike-header.html %}
-                            {% include team-page/mike-contact.html %}
-                            <div class="teambio">
-                                {% include team-page/mike-bio.html %}
-                            </div>
-                        </div>
-                    </div>
-                </div><!--/team-smartphone-->
-            </div><!--mike-modal-->
-
-            <div id='nenad-modal'>
-                <div class="team-desktop">
-                    <div class="teamphoto">
-                        {% include team-page/nenad-img.html %}
-                        <div class="teamcontact">
-                            {% include team-page/nenad-contact.html %}
-                        </div>
-                    </div>
-                    <div class="teambio">
-                        {% include team-page/nenad-header.html %}
-                        {% include team-page/nenad-bio.html %}
-                    </div>
-                </div><!--/team-desktop-->
-                <div class="team-tablet">
-                    <div class="teamphoto">
-                        {% include team-page/nenad-img.html %}
-                    </div>
-                    <div class="teamcontact">
-                        {% include team-page/nenad-header.html %}
-                        {% include team-page/nenad-contact.html %}
-                    </div>
-                    <div class="teambio">
-                        {% include team-page/nenad-bio.html %}
-                    </div>
-                </div><!--/team-tablet-->
-                <div class="team-smartphone">
-                    <div class="teamphoto">
-                        {% include team-page/nenad-img.html %}
-                        <div class="teamcontact">
-                            {% include team-page/nenad-header.html %}
-                            {% include team-page/nenad-contact.html %}
-                            <div class="teambio">
-                                {% include team-page/nenad-bio.html %}
-                            </div>
-                        </div>
-                    </div>
-                </div><!--/team-smartphone-->
-            </div><!--nenad-modal-->
-
-            <div id='patrick-modal'>
-                <div class="team-desktop">
-                    <div class="teamphoto">
-                        {% include team-page/patrick-img.html %}
-                        <div class="teamcontact">
-                            {% include team-page/patrick-contact.html %}
-                        </div>
-                    </div>
-                    <div class="teambio">
-                        {% include team-page/patrick-header.html %}
-                        {% include team-page/patrick-bio.html %}
-                    </div>
-                </div><!--/team-desktop-->
-                <div class="team-tablet">
-                    <div class="teamphoto">
-                        {% include team-page/patrick-img.html %}
-                    </div>
-                    <div class="teamcontact">
-                        {% include team-page/patrick-header.html %}
-                        {% include team-page/patrick-contact.html %}
-                    </div>
-                    <div class="teambio">
-                        {% include team-page/patrick-bio.html %}
-                    </div>
-                </div><!--/team-tablet-->
-                <div class="team-smartphone">
-                    <div class="teamphoto">
-                        {% include team-page/patrick-img.html %}
-                        <div class="teamcontact">
-                            {% include team-page/patrick-header.html %}
-                            {% include team-page/patrick-contact.html %}
-                            <div class="teambio">
-                                {% include team-page/patrick-bio.html %}
-                            </div>
-                        </div>
-                    </div>
-                </div><!--/team-smartphone-->
-            </div><!--patrick-modal-->
-
-            <div id='ramon-modal'>
-                <div class="team-desktop">
-                    <div class="teamphoto">
-                        {% include team-page/ramon-img.html %}
-                        <div class="teamcontact">
-                            {% include team-page/ramon-contact.html %}
-                        </div>
-                    </div>
-                    <div class="teambio">
-                        {% include team-page/ramon-header.html %}
-                        {% include team-page/ramon-bio.html %}
-                    </div>
-                </div><!--/team-desktop-->
-                <div class="team-tablet">
-                    <div class="teamphoto">
-                        {% include team-page/ramon-img.html %}
-                    </div>
-                    <div class="teamcontact">
-                        {% include team-page/ramon-header.html %}
-                        {% include team-page/ramon-contact.html %}
-                    </div>
-                    <div class="teambio">
-                        {% include team-page/ramon-bio.html %}
-                    </div>
-                </div><!--/team-tablet-->
-                <div class="team-smartphone">
-                    <div class="teamphoto">
-                        {% include team-page/ramon-img.html %}
-                        <div class="teamcontact">
-                            {% include team-page/ramon-header.html %}
-                            {% include team-page/ramon-contact.html %}
-                            <div class="teambio">
-                                {% include team-page/ramon-bio.html %}
-                            </div>
-                        </div>
-                    </div>
-                </div><!--/team-smartphone-->
-            </div><!--ramon-modal-->
-            
-            <div id='susie-modal'>
-                <div class="team-desktop">
-                    <div class="teamphoto">
-                        {% include team-page/susie-img.html %}
-                        <div class="teamcontact">
-                            {% include team-page/susie-contact.html %}
-                        </div>
-                    </div>
-                    <div class="teambio">
-                        {% include team-page/susie-header.html %}
-                        {% include team-page/susie-bio.html %}
-                    </div>
-                </div><!--/team-desktop-->
-                <div class="team-tablet">
-                    <div class="teamphoto">
-                        {% include team-page/susie-img.html %}
-                    </div>
-                    <div class="teamcontact">
-                        {% include team-page/susie-header.html %}
-                        {% include team-page/susie-contact.html %}
-                    </div>
-                    <div class="teambio">
-                        {% include team-page/susie-bio.html %}
-                    </div>
-                </div><!--/team-tablet-->
-                <div class="team-smartphone">
-                    <div class="teamphoto">
-                        {% include team-page/susie-img.html %}
-                        <div class="teamcontact">
-                            {% include team-page/susie-header.html %}
-                            {% include team-page/susie-contact.html %}
-                            <div class="teambio">
-                                {% include team-page/susie-bio.html %}
-                            </div>
-                        </div>
-                    </div>
-                </div><!--/team-smartphone-->
-            </div><!--susie-modal-->
-            
-            <div id='vivian-modal'>
-                <div class="team-desktop">
-                    <div class="teamphoto">
-                        {% include team-page/vivian-img.html %}
-                        <div class="teamcontact">
-                            {% include team-page/vivian-contact.html %}
-                        </div>
-                    </div>
-                    <div class="teambio">
-                        {% include team-page/vivian-header.html %}
-                        {% include team-page/vivian-bio.html %}
-                    </div>
-                </div><!--/team-desktop-->
-                <div class="team-tablet">
-                    <div class="teamphoto">
-                        {% include team-page/vivian-img.html %}
-                    </div>
-                    <div class="teamcontact">
-                        {% include team-page/vivian-header.html %}
-                        {% include team-page/vivian-contact.html %}
-                    </div>
-                    <div class="teambio">
-                        {% include team-page/vivian-bio.html %}
-                    </div>
-                </div><!--/team-tablet-->
-                <div class="team-smartphone">
-                    <div class="teamphoto">
-                        {% include team-page/vivian-img.html %}
-                        <div class="teamcontact">
-                            {% include team-page/vivian-header.html %}
-                            {% include team-page/vivian-contact.html %}
-                            <div class="teambio">
-                                {% include team-page/vivian-bio.html %}
-                            </div>
-                        </div>
-                    </div>
-                </div><!--/team-smartphone-->
-            </div><!--vivian-modal-->
-            
-        </div>
 
 </div>
 

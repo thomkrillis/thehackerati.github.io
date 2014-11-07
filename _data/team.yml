@@ -1,0 +1,219 @@
+- founders:
+  - id: geoff
+    name: Geoff Scott
+    role: Cofounder
+    bio: >
+        <p>Geoff specializes in leading technology teams for startups, turnarounds, and other organizations that are going through extended periods of intense growth and change. He has been building winning technology products, businesses, and companies for more than 23 years. He has worked in a variety of industries, including online advertising, education, direct marketing, media, and publishing, and at companies like DoubleClick, The Princeton Review, Donnelley Marketing, and CBS. Geoff currently hacks in Python, Django, Node.js, mongodb, and a little bit of Scala, while keeping his head in the clouds with Cloud Foundry and Google App engine.</p>
+    extras:
+    - url: http://www.scottopia.com/
+      title: scottopia.com
+    linkedin: in/geoffscott
+    twitter: geoffscott
+    github: geoffscott
+  - id: rob
+    name: Rob Marano
+    role: Cofounder
+    bio: >
+        <p>Rob has more than 20 years of technology, sales, marketing and general management experience in the software and tele-communications fields. A serial entrepreneur, Rob founded InDorse Technologies and Falkin Systems LLC. He was director of emerging software technologies at PricewaterhouseCoopers' (PwC) Global Technology Centres. He also held leadership roles at several successful software startups, including Micromuse (IBM), RiverSoft (IBM), and Voyence (EMC). And he was an actual rocket scientist at Lockheed Martin's Advanced Technology Labs and GE AstroSpace. Rob currently hacks in Java, Python, Node.js, Hadoop, Mahout, and HBase. And in his spare time, he hacks hardware using FPGAs and logic gates.</p>
+    linkedin: in/robmarano
+    twitter: robmarano
+    github: robmarano
+- members:
+  - id: alex
+    name: Alex Sheehan
+    role: Software Engineer
+    bio: >
+        <p>Alex is The Hackerati's Renaissance Man: Jack of all trades, master of many. After graduating from UW with a degree in Music, he toured the world as a drummer for three years, performing with several of Holland America Line's bands. Toward the end of these three years, he began to explore his interest in computer science by teaching himself to code in JavaScript. He enlisted in NYIT's Computer Science program after returning home from his final journey at sea, where he took Rob's Computer Architecture course and discovered his path to The Hackerati.</p><p>Alex hacks in JavaScript and iOS, and noodles with functional languages like Haskell and Scala. He is also a talented graphic designer and videographer, and frequently contributes to The Hackerati's multimedia projects. (See our <a href="https://www.youtube.com/channel/UCm20bzXDmrekchztqTkyaBQ">YouTube page</a>.)</p><p>In his free time—outside of being a fulltime student, boyfriend, and dog enthusiast—Alex enjoys podcasting, sport, and bickering with Mike.</p>
+    extras:
+    - url: http://amsheehan.github.io/
+      title: amsheehan.com
+    linkedin: in/amsheehan
+    twitter: WrksOnMyMachine
+    github: amsheehan
+  - id: bobby 
+    name: Bobby Yankou
+    role: Software/Hardware Engineer
+    bio: >
+        <p>Bobby has a bachelor’s degree in Mechanical Engineering from Cooper Union, and he’s currently pursuing his master’s degree in the same field. He hacks in MATLAB, Python, PHP, Javascript, HTML, CSS, Arduino, and PIC microcontrollers. He’s completed projects that include audio-based monosyllable-detecting neural networks, classification of EEG-based control signals, Checkers AI, MP3 encoding, a glove for detecting sign language, wave-related physics simulations, compressor and heat exchanger modeling, an autonomous mobile robot, engine optimization, and image acquisition and processing. Bobby worked as an operator at the Cooper Union Computer Center, and has played keyboard in a band with his three brothers for more than half of his life.</p>
+    extras:
+    - url: 
+      title: 
+    linkedin: in/robertyankou
+    twitter: thomkrillis
+    github: thomkrillis
+  - id: christopher 
+    name: Christopher Sang
+    role: Software/Hardware Engineer
+    bio: >
+        <p> Christopher has a bachelor's degree and a master's degree in electrical engineering from Cooper Union. He works on server-side projects for The Hackerati. He has experience in machine learning, NLP, signal processing, and wireless communications. Christopher primarily hacks in C, C++, Matlab, and Python. In his spare time, he enjoys playing video games, following his favorite sports teams, and keeping up with the latest tech trends.</p>
+    extras:
+    - url: 
+      title: 
+    linkedin: 
+    twitter: 
+    github: csdev 
+  - id: derby
+    name: Derby
+    role: Director of Talent
+    bio: >
+        <p>Derby is a creative entrepreneur: a hybrid of tech talent acquisition professional and a music performer/producer. He became The Hackerati’s Director of Talent after attracting and vetting tech talent for 15 years across multiple industries: media, entertainment, digital advertising, fashion, life sciences, financial, and publishing. He’s been at the forefront of implementation of non-traditional recruitment strategies and has helped several talent departments expand technologically.</p><p>Derby also greatly contributes to business development, collaborations with other organizations, and—as a veteran musician—is the unofficial leader of The Hackerati Band. He began touring as a percussionist/singer with a reggae band called Bambu after graduating from Maharishi University, and has become a guru of music composition production over the past 18 years.</p><p>In 2005 Derby founded his own startup venture—Derby Network Publishing—successfully placing many of his original compositions and productions in film and television. His credits include NBC, Oxygen, Speed Channel, Discovery Channel, "Crime Inc" UK, The Green Channel, Pantene, Clairol, various films, and the 2008 Summer Olympics.</p><p>Derby is passionate about the latest tech trends—especially when they’re open source. He is a science geek obsessed with recording equipment and plugins, artificial intelligence, machine learning, virtual reality, and robotics.</p>
+    extras:
+    - url: http://www.tripticsoul.com/
+      title: Triptic Soul
+    linkedin: pub/steven-derby/1/508/801
+    twitter: 
+    github: derbios
+  - id: derek 
+    name: Derek Toub
+    role: Software/Hardware Engineer
+    bio: >
+        <p>Derek earned Bachelor’s and Master's of Engineering degrees from The Cooper Union with a focus on artificial intelligence and natural language processing. He hacks in Python, C++, C, Objective-C, HTML, CSS, JavaScript/jQuery, PHP, Django, and MATLAB.</p><p>He has completed projects involving DSP, machine learning, AI, natural language processing, and web development. Examples include a neural network-based solution for automatical troll detection in online forums that decreased the need for human moderation by 69%, a statistical machine translation system that improves upon existing automatic translation from Korean to English, and a checkers AI.</p><p>Derek is also an avid dancer who competes in NYC and tri-state area breakdance battles.</p>
+    extras:
+    - url: 
+      title: 
+    linkedin: 
+    twitter: 
+    github: derektoub
+  - id: donny 
+    name: Donny Kanner
+    role: Project Manager/Scrum Master
+    bio: >
+        <p>The best way to describe Donny’s role at The Hackerati is Professional Cat Herder—that is, Certified Scrum Master and Agile enthusiast. He keeps the team from getting lost in the Cloud and ensures that we meet the mark on deliverables.</p><p>Donny attended Cooper Union for Mechanical Engineering, while also working in product development with the Stryker Orthopaedics Knee Implant division. After graduation, he worked in Project Management at Quirky on various products including a disappearing ink highlighter, a musical train, and a measured oil pourer.</p><p>When not working, Donny can be found making the rounds on the NYC startup scene—specifically events related to venture capital, alternative energy, connected devices, and agile/lean methodologies—meeting some of NYC’s many awesome technologists. Donny is also an active member of Toastmasters International and enjoys practicing his public speaking and the art of leadership. Combine his toasting skills with his certified bartending skills and it's obvious why he is fabulous to have at parties. Cheers!</p>
+    extras:
+    - url: 
+      title: 
+    linkedin: pub/daniel-donny-kanner/29/787/555
+    twitter: donnykanner
+    github: DKanner
+  - id: ethan 
+    name: Ethan Lusterman
+    role: Software Engineer
+    bio: >
+        <p>Ethan has academic experience from Cooper Union in machine learning, and signal processing. His main professional experience has been gained in maintaining the APIs and editorial CMS for a Top 50 website, designing/implementing a REST user API in Django, and using machine learning to classify national retail data for a top market research company.</p><p>Ethan primarily hacks in Python, Django, MATLAB, C++, and frontend web (HTML/CSS/Javascript).</p><p>On the side, Ethan is a guitar player and singer-songwriter. He’s been writing songs since he was 12, and he released his first material last year. Expect his next release sometime this summer.</p>
+    extras:
+    - url: 
+      title: 
+    linkedin: pub/ethan-lusterman/35/620/661
+    twitter: lusterdome
+    github: luster
+  - id: grace
+    name: Grace Avery
+    role: Software Engineer
+    bio: >
+        <p>Grace is The Hackerati’s lead iOS developer and UI/UX designer. She studied psychology at TCNJ, and has a background in music, which inspired her to work with the Westminster Conservatory of Music. She recently spent three years as a freelance game developer, during which she honed her storytelling and design skills.</p><p>Grace hacks in Objective-C, Actionscript, and Unity.</p><p>In her free time, Grace learns new technologies, plays the hammer dulcimer and classical piano (unless improvising with The Hackerati Band), levels up in all aspects of life, and makes some of the most clever puns anyone has ever heard. She also adores turtles.</p>
+    extras:
+    - url: http://graceavery.com/
+      title: graceavery.com
+    linkedin: pub/grace-avery/96/93b/830
+    twitter: 
+    github: graceavery
+  - id: harrison 
+    name: Harrison Zhao
+    role: Software Engineer
+    bio: >
+        <p>Harrison is currently pursuing a bachelor's degree in Electrical Engineering at Cooper Union. He primarily hacks in C, C++, Java, Javascript, and Node.js. He has experience in big data, machine learning, natural language processing, artificial intelligence, fullstack web development, systems level programming, and signal processing. In his spare time, he enjoys keeping up with the latest tech trends, drawing, and hanging out with friends.</p>
+    extras:
+    - url: 
+      title: 
+    linkedin: 
+    twitter: 
+    github: 
+  - id: igor
+    name: Igor Belyayev
+    role: Software Engineer
+    bio: >
+        <p>Igor holds a bachelor's degree in Mechanical Engineering from Cooper Union. He develops Android apps professionally and recreationally, including top education and news apps. Outside of work, he enjoys composing rap instrumentals and owning more sneakers than you do.</p>
+    extras:
+    - url: 
+      title: 
+    linkedin: pub/igor-belyayev/55/4a9/929
+    twitter: 
+    github: IgorBelyayev
+  - id: kevinruiz
+    name: Kevin Ruiz
+    role: Software Engineer
+    bio: >
+        <p>Kevin specializes in hitting the ground running. He's unafraid to ask questions to expand knowledge&mdash;whatever helps him achieve his best work. He lives by the motto "Work to Learn." Thinking of new app ideas is a daily routine.</p><p>Kevin graduated with a dual degree in Electrical and Computer Engineering from NYU Poly. Though he’s most recently been on the software side of engineering, concepts like Google's Project Ara are a huge side interest.</p><p>A hacker at heart, Kevin also considers himself a fashion enthusiast and sporadic writer. Whether gingham or stripes, recursion or looping, or simply figuring out how to best put down on paper the most current verse, Kevin is always solving problems.</p>
+    extras:
+    - url: 
+      title: 
+    linkedin: pub/kevinruiz/78/b9/829
+    twitter: 
+    github: engineerKev
+  - id: michaelacar 
+    name: Michael Acar
+    role: Software Engineer
+    bio: >
+        <p>Michael graduated from Cooper Union with a Bachelor's in Electrical Engineering. He hacks in Hadoop, Android, Python, Java, C++, and Ruby, and has worked extensively in the field of data warehousing. He also has experience in electronics design and signal processing, and is currently learning Scala. In his free time, Michael enjoys teaching a Hackerati Academy course in Android and rooting for Arsenal.</p>
+    extras:
+    - url: 
+      title: 
+    linkedin: 
+    twitter: 
+    github: 
+  - id: michael
+    name: Michael Ketigian
+    role: Operations Director
+    bio: >
+        <p>Michael is, at his core, a writer—but that didn't keep him from studying engineering at Cooper Union. Much to his amazement, it also didn't keep him from graduating! He now leads Operations at The Hackerati—a position that has allowed him to realize his passion for working <i>with</i> engineers, rather than as one. His roles include business development, project management, recruiting, event coordination, copywriting, and just about everything else associated with growing a startup...like solidifying [his own corny] jokes and puns with a <i>ba-dum-tsh</i> on his desktop drum kit.</p><p>Michael hacks in English. He's working on learning some languages that [nonhuman] computers will understand, but also realizes that computers will be converting spoken English into code soon enough. Call it a Catch-22. His primary outlet as a writer is spoken word poetry, which he's beginning to convert into music with the help of Derby and The Hackerati Band.</p><p>Above all else, Michael enjoys conversations with genuine people. He's also keen on refined user experiences, wearables/BCIs/transhumanism, well-crafted verbal permutations, &mdash;em dashes&mdash;, and the freedom to speak his mind. He's increasingly more excited to be alive [just take a look around!], and you'll surely notice this energy when you meet him in person. You’ve been warned.</p>
+    extras:
+    - url: 
+      title: 
+    linkedin: pub/michael-ketigian/16/9b9/823
+    twitter: mketigian
+    github: mketigian
+  - id: nenad
+    name: Nenad Samardzic
+    role: Software Engineer
+    bio: >
+        <p>Nenad has a degree in Mathematics and Computer Science from the University of Belgrade in Serbia. He originally began as a software engineer, but then switched to an IT auditor/consultant, which he pursued for ten years. After moving to the United States, however, he connected with The Hackerati, and is once again pursuing his dream job as a software engineer. Nenad hacks in PHP, Java, JavaScript, JQuery, Python, and plenty of other languages. He spends most of his time outside of The Hackerati with his wife and son.</p>
+    extras:
+    - url: 
+      title: 
+    linkedin: pub/nenad-samardzic/2/793/942
+    twitter: 
+    github: samardzicnenad
+  - id: patrick
+    name: Patrick Cousins
+    role: Software Engineer
+    bio: >
+        <p>Patrick has been a programmer for nearly 15 years. With a background in drawing, animation, games, DJ'ing, and music, he is now focusing on writing apps for Android.</p><p>Patrick is convinced that these androids will one day rise up against us all. Which would make for an excellent market for programmers...</p>
+    extras:
+    - url: 
+      title: 
+    linkedin: 
+    twitter: 
+    github: 
+  - id: ramon
+    name: Ramon Sandoval
+    role: Software Engineer
+    bio: >
+        <p>Ramon graduated from Cooper Union's Electrical Engineering program in May 2012, and was promptly offered a position as a founding Hackerati developer by his professor, Rob Marano. Ramon started hacking in college, and has picked up an extensive skillset in that short amount of time. He mainly hacks in C, C++, Java, Python, and JavaScript to produce solutions in artificial intelligence, machine learning, computer security, natural language processing, and distributed computing. While not hacking, Ramon is holding down the ping pong table, breakdancing, and playing video games. He beat I Wanna Be The Guy on the Very Hard difficulty level, and he tells us that this is, indeed, very hard to do.</p>
+    extras:
+    - url: 
+      title: 
+    linkedin: pub/ramon-sandoval/58/2a2/55 
+    twitter: 
+    github: Rhathe
+  - id: susie 
+    name: Susie Lin
+    role: Software Engineer
+    bio: >
+        <p>Susie is an iOS magician and takes great pleasure in bossing around computers. She began teaching herself Objective-C after getting her first iDevice, the iPhone 3. Since then she has helped code numerous apps, most recently a baseball gaming app called Topps BUNT and several white-label real estate apps for Smarter Agent.</p><p>Before jumping into mobile application development, Susie was a web developer at MTV Networks for five years. When not geeking out, she enjoys fiction writing, hip-hop dancing and going to church on Sundays. She lives in Brooklyn with her “son” Chester, a French Bulldog.</p>
+    extras:
+    - url: 
+      title: 
+    linkedin: 
+    twitter: 
+    github: 
+  - id: vivian
+    name: Vivian Keating
+    role: Software Engineer
+    bio: >
+        <p>Vivian holds a triple major in mathematics, physics, and French from St. John's University. She is a frontend iOS expert who creates apps with lively animations, videos, and exciting special effects.</p><p>Vivian hacks in Objective-C, Swift, and OpenGL.</p><p>In her spare time she loves playing competitive video games, learning human languages, and attempting to play Derby's crazy difficult drum beats.</p>
+    extras:
+    - url: 
+      title: 
+    linkedin: 
+    twitter: 
+    github: 
