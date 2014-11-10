@@ -255,6 +255,7 @@ ABOUT PAGE
                                 </div>
                                 <div class="teambio">
                                     <h4>{{ member.name }}</h4>
+                                    <p class = "role-title">{{ member.role }}</p>
                                     {{ member.bio }}
                                 </div>
                             </div><!--/team-desktop-->
@@ -264,6 +265,7 @@ ABOUT PAGE
                                 </div>
                                 <div class="teamcontact">
                                     <h4>{{ member.name }}</h4>
+                                    <p class = "role-title">{{ member.role }}</p>
                                     <p>
                                         <a href="mailto:{{ member.id }}@thehackerati.com">{{ member.id }}@thehackerati.com</a>
                                         {% for extra in member.extras %}
@@ -297,6 +299,7 @@ ABOUT PAGE
                                     <img src="../assets/img/team/{{ member.id }}.png">
                                     <div class="teamcontact">
                                         <h4>{{ member.name }}</h4>
+                                        <p class = "role-title">{{ member.role }}</p>
                                         <p>
                                             <a href="mailto:{{ member.id }}@thehackerati.com">{{ member.id }}@thehackerati.com</a>
                                             {% for extra in member.extras %}
