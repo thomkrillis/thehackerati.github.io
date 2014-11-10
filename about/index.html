@@ -94,8 +94,8 @@ ABOUT PAGE
             {% for people in site.data.team %}
                 {% for founder in people.founders %}
                     <div class="hackeratus-founder-wrapper">
-                        <a class='inline' href="#{{ founder.id }}-modal" onmouseover="document.getElementById('{{ founder.id }}').src={{ founder.id }}2.src;" onmouseout="document.getElementById('{{ founder.id }}').src={{ founder.id }}1.src;">
-                            <img src="../assets/img/team/{{ founder.id }}.png" class="hackeratus hackeratus-founder" id="{{ founder.id }}" alt="{{ founder.name }}">
+                        <a class='inline' href="#{{ founder.id }}-modal">
+                            <img src="../assets/img/team/{{ founder.id }}.png" onmouseover="this.src='../assets/img/team/{{ founder.id }}-hover.png'" onmouseout="this.src='../assets/img/team/{{ founder.id }}.png'" class="hackeratus hackeratus-founder">
                         </a>
                         <p>{{ founder.name }}, {{ founder.role }}</p>
                     </div>
@@ -216,8 +216,8 @@ ABOUT PAGE
             {% for people in site.data.team %}
                 {% for member in people.members %}
                     <div class="hackeratus-team-wrapper">
-                        <a class='inline' href="#{{ member.id }}-modal" onmouseover="document.getElementById('{{ member.id }}').src={{ member.id }}2.src;" onmouseout="document.getElementById('{{ member.id }}').src={{ member.id }}1.src;">
-                            <img src="../assets/img/team/{{ member.id }}.png" class="hackeratus hackeratus-team" id="{{ member.id }}">
+                        <a class='inline' href="#{{ member.id }}-modal">
+                            <img src="../assets/img/team/{{ member.id }}.png" onmouseover="this.src='../assets/img/team/{{ member.id }}-hover.png'" onmouseout="this.src='../assets/img/team/{{ member.id }}.png'" class="hackeratus hackeratus-team">
                         </a>
                         <p>{{ member.name }}</p>
                     </div>
