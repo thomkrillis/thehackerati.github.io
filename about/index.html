@@ -95,7 +95,7 @@ ABOUT PAGE
                 {% for founder in people.founders %}
                     <div class="hackeratus-founder-wrapper">
                         <a class='inline' href="#{{ founder.id }}-modal">
-                            <img src="../assets/img/team/{{ founder.id }}.png" onmouseover="this.src='../assets/img/team/{{ founder.id }}-hover.png'" onmouseout="this.src='../assets/img/team/{{ founder.id }}.png'" class="hackeratus hackeratus-founder">
+                            <img src="../assets/img/team/{{ founder.id }}.png" class="hackeratus hackeratus-founder">
                         </a>
                         <p>{{ founder.name }}, {{ founder.role }}</p>
                     </div>
@@ -217,7 +217,7 @@ ABOUT PAGE
                 {% for member in people.members %}
                     <div class="hackeratus-team-wrapper">
                         <a class='inline' href="#{{ member.id }}-modal">
-                            <img src="../assets/img/team/{{ member.id }}.png" onmouseover="this.src='../assets/img/team/{{ member.id }}-hover.png'" onmouseout="this.src='../assets/img/team/{{ member.id }}.png'" class="hackeratus hackeratus-team">
+                            <img src="../assets/img/team/{{ member.id }}.png" class="hackeratus hackeratus-team">
                         </a>
                         <p>{{ member.name }}</p>
                     </div>
@@ -339,6 +339,21 @@ ABOUT PAGE
     </div><!--/section2-anchor-link who-container--> 
 
 </div>
+
+<script>
+$(".hackeratus").on({
+    mouseenter: function() {
+        $(this).attr("src", function(index, attr) {
+            return attr.replace(".png","-hover.png");
+        });
+    },
+    mouseleave: function() {
+        $(this).attr("src", function(index, attr) {
+            return attr.replace("-hover.png",".png");
+        });
+    }
+});
+</script>
 
 <script type="text/javascript" src="../js/persistent-header.js"></script>
 {% include pingdom %}
