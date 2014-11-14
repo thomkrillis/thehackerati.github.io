@@ -96,6 +96,9 @@ ABOUT PAGE
                     <div class="hackeratus-founder-wrapper">
                         <a class='inline' href="#{{ founder.id }}-modal">
                             <img src="../assets/img/team/{{ founder.id }}.png" class="hackeratus hackeratus-founder">
+                            <div style="height: 0; width: 0; visibility: hidden; overflow: hidden;">
+                                <img src="../assets/img/team/{{ founder.id }}-hover.png">
+                            </div>
                         </a>
                         <p>{{ founder.name }}, {{ founder.role }}</p>
                     </div>
@@ -218,6 +221,9 @@ ABOUT PAGE
                     <div class="hackeratus-team-wrapper">
                         <a class='inline' href="#{{ member.id }}-modal">
                             <img src="../assets/img/team/{{ member.id }}.png" class="hackeratus hackeratus-team">
+                            <div style="height: 0; width: 0; visibility: hidden; overflow: hidden;">
+                                <img src="../assets/img/team/{{ member.id }}-hover.png">
+                            </div>
                         </a>
                         <p>{{ member.name }}</p>
                     </div>
