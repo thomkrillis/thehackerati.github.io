@@ -744,7 +744,7 @@
 		function getHeight() {
 			settings.h = settings.h || $loaded.height();
 			settings.h = settings.mh && settings.mh < settings.h ? settings.mh : settings.h;
-			return settings.h;
+			return settings.h + 1;
 		}
 		
 		$loaded.hide()
