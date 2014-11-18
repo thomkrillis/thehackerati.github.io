@@ -960,6 +960,14 @@ CSS MEDIA QUERIES FOR THEHACKERATI.COM
         display: inline-block;
     }
 
+    .phones-only { 
+        display: block;
+    }
+
+    .tablet-and-desktop {
+        display: none;
+    }
+
     .tablet { 
         display: inline-block;
     }
@@ -1665,6 +1673,14 @@ CSS MEDIA QUERIES FOR THEHACKERATI.COM
 
     .mobile { 
         display: inline-block;
+    }
+
+    .phones-only { 
+        display: block;
+    }
+
+    .tablet-and-desktop {
+        display: none;
     }
 
     .tablet { 
