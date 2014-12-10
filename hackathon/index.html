@@ -9,6 +9,7 @@ title: HackathOn the Mountain | The Hackerati
     <link rel="stylesheet" href="hackathon.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src='https://cdn.firebase.com/js/client/1.0.15/firebase.js'></script>
 </head>
 
 <body>
@@ -67,15 +68,15 @@ title: HackathOn the Mountain | The Hackerati
             <!-- Floating text -->
             <div data-100-top-top="opacity: 0; margin-top: -15vh;" data-300-top-top="opacity: 1; margin-top: 0vh;" data-500-top-top="opacity: 0; margin-top: 15vh;" class="text-block1 skrollable skrollable-between">
                 <h3>Date</h3>
-                <p>Mark your calendars.</p>
+                <p>June 13 @ 12pm<br>to<br>June 14 @ 5pm</p>
             </div>
             <div data-100-top-top="opacity: 0; margin-top: -15vh;" data-300-top-top="opacity: 1; margin-top: 0vh;" data-500-top-top="opacity: 0; margin-top: 15vh;" class="text-block2 skrollable skrollable-between">
                 <h3>Location</h3>
-                <p>This is where we are.</p>
+                <p><a href="https://www.google.com/maps/@41.1914965,-75.3010623,102m/data=!3m1!1e3">A gorgeous pitch of land in the Pocono Mountains.</a></p>
             </div>
             <div data-100-top-top="opacity: 0; margin-top: -15vh;" data-300-top-top="opacity: 1; margin-top: 0vh;" data-500-top-top="opacity: 0; margin-top: 15vh;" class="text-block3 skrollable skrollable-between">
                 <h3>Why do this?</h3>
-                <p>Because you know you are awesome.</p>
+                <p>We're ruining this planet.<br>Hack with us to secure our future.</p>
             </div>
         </div>
         <div class="section3">
@@ -145,173 +146,162 @@ title: HackathOn the Mountain | The Hackerati
             skrollr.menu.init(s, {});
         </script>
 
+        <div id="myModal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content" id="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                <h4 id="modal-title" class="modal-title" style="color: black">Join Us on the Mountain!</h4>
+              </div>
+              <div class="modal-body" id="modal-body" style="height:413px">
+                <script>
+                function selectRole () {
+                  var bodyHeight = parseInt(document.getElementById('modal-body').style.height,10);
+                  if (document.getElementById('roleSelect').value == 'Other') {
+                    document.getElementById('roleInput').style.display = 'block';
+                    document.getElementById('roleInput').value = null;
+                    if (bodyHeight % 7 == 0) {
+                      document.getElementById('modal-body').style.height = bodyHeight + 39 + 'px';
+                    }
+                  }
+                  else {
+                    document.getElementById('roleInput').style.display = 'none';
+                    document.getElementById('roleInput').value = document.getElementById('roleSelect').value;
+                    if (bodyHeight % 7 != 0) {
+                      document.getElementById('modal-body').style.height = bodyHeight - 39 + 'px';
+                    }
+                  }
+                  console.log(bodyHeight);
+                }
+                </script>
+                <script>
+                function postInfo() {
+                  //Reset modal size and error warnings upon resubmitting
+                  document.getElementById('firstNameGroup').classList.remove('has-error');
+                  document.getElementById('firstNameSpan').style.display = 'none';
+                  document.getElementById('lastNameGroup').classList.remove('has-error');
+                  document.getElementById('lastNameSpan').style.display = 'none';
+                  document.getElementById('roleGroup').classList.remove('has-error');
+                  document.getElementById('roleSpan').style.display = 'none';
+                  document.getElementById('emailGroup').classList.remove('has-error');
+                  document.getElementById('emailSpan').style.display = 'none';
+                  document.getElementById('modal-body').style.height = '444px';
+                  //Retrieve input field values
+                  var myDataRef = new Firebase('https://luminous-fire-4244.firebaseio.com/hack');
+                  var firstName = document.getElementById('firstNameInput').value;
+                  var lastName = document.getElementById('lastNameInput').value;
+                  var role = document.getElementById('roleInput').value;
+                  var email = document.getElementById('emailInput').value;
+                  var company = document.getElementById('companyInput').value;
+                  var companyWebsite = document.getElementById('companyWebsiteInput').value;
+                  var personal = document.getElementById('personalInput').value;
+                  var github = document.getElementById('githubInput').value;
+                  //test required fields
+                  var fail = false;
+                  var heightDiff = 0;
+                  if (firstName == null || firstName == "") {
+                    document.getElementById('firstNameGroup').classList.add('has-error');
+                    document.getElementById('firstNameSpan').style.display = 'block';
+                    heightDiff = heightDiff + 21;
+                    fail = true;
+                  }
+                  if (lastName == null || lastName == "") {
+                    document.getElementById('lastNameGroup').classList.add('has-error');
+                    document.getElementById('lastNameSpan').style.display = 'block';
+                    heightDiff = heightDiff + 21;
+                    fail = true;
+                  }
+                  if (role == null || role == "") {
+                    document.getElementById('roleGroup').classList.add('has-error');
+                    document.getElementById('roleSpan').style.display = 'block';
+                    heightDiff = heightDiff + 21;
+                    fail = true;
+                  }
+                  if (email == null || email == "") {
+                    document.getElementById('emailGroup').classList.add('has-error');
+                    document.getElementById('emailSpan').style.display = 'block';
+                    heightDiff = heightDiff + 21;
+                    fail = true;
+                  }
+                  if (document.getElementById('roleSelect').value == 'Other') {
+                    heightDiff = heightDiff + 39;
+                  }
+                  //Resize modal
+                  document.getElementById('modal-body').style.height = 413 + heightDiff + 'px';
+    
+                  if (!fail) {
+                    myDataRef.push({firstName: firstName, lastName: lastName, role: role, email: email, company: company, companyWebsite: companyWebsite, personal: personal, github: github});
+                    document.getElementById('modal-title').style.display = 'none';
+                    document.getElementById('firstNameGroup').style.display = 'none';
+                    document.getElementById('lastNameGroup').style.display = 'none';
+                    document.getElementById('roleGroup').style.display = 'none';
+                    document.getElementById('emailGroup').style.display = 'none';
+                    document.getElementById('companyGroup').style.display = 'none';
+                    document.getElementById('companyWebsiteGroup').style.display = 'none';
+                    document.getElementById('personalGroup').style.display = 'none';
+                    document.getElementById('githubGroup').style.display = 'none';
+                    document.getElementById('formSubmit').style.display = 'none';
+                    document.getElementById('confirmationMessage').style.display = 'inline';
+                    document.getElementById('modal-body').style.height = '66px';
+                    document.getElementById('modal-body').style.height = '66px';
+                    document.getElementById('modal-content').style.width = '350px';
+                    document.getElementById('modal-content').style.marginLeft = '125px';
+                  }
+                }
+                </script>
+    
+                <!-- CONTACT FORM FIELDS -->
+                <div class="form-group" id="firstNameGroup">
+                  <input type='text' class='form-control' id='firstNameInput' placeholder='First Name'>
+                  <label class="control-label"></label>
+                  <span class="help-block" id="firstNameSpan" style="display: none">Please enter your First Name</span>
+                </div>
+                <div class="form-group" id="lastNameGroup">
+                  <input type='text' class='form-control' id='lastNameInput' placeholder='Last Name'>
+                  <label class="control-label"></label>
+                  <span class="help-block" id="lastNameSpan" style="display: none">Please enter your Last Name</span>
+                </div>
+                <div class="form-group" id="roleGroup">
+                  <select class="form-control" id="roleSelect" onchange="selectRole()">
+                    <option value="" selected disabled>Role</option>
+                    <option value="Frontend">Frontend</option>
+                    <option value="Backend">Backend</option>
+                    <option value="iOS">iOS</option>
+                    <option value="Android">Android</option>
+                    <option value="Design">Design</option>
+                    <option>Other</option>
+                  </select>
+                  <label class="control-label"></label>
+                  <input type='text' class='form-control' id='roleInput' placeholder='Role' style="display: none; margin-top: 5px;">
+                  <span class="help-block" id="roleSpan" style="display: none">Please select a role</span>
+                </div>
+                <div class="form-group" id="emailGroup">
+                  <input type='email' class='form-control' id='emailInput' placeholder='Email'>
+                  <label class="control-label"></label>
+                  <span class="help-block" id="emailSpan" style="display: none">Please enter a valid email address</span>
+                </div>
+                <div class="form-group" id="companyGroup">
+                  <input type='text' class='form-control' id='companyInput' placeholder='Company'>
+                </div>
+                <div class="form-group" id="companyWebsiteGroup">
+                  <input type='text' class='form-control' id='companyWebsiteInput' placeholder='Company Website'>
+                </div>
+                <div class="form-group" id="personalGroup">
+                  <input type='text' class='form-control' id='personalInput' placeholder='Personal Website'>
+                </div>
+                <div class="form-group" id="githubGroup">
+                  <input type='text' class='form-control' id='githubInput' placeholder='Github'>
+                </div>
+                <div id="confirmationMessage" style="display: none">
+                  <h4 style="color: black; margin: 0; text-align: center">Thanks for submitting!</h4>
+                </div>
+              </div><!-- /.modal-body -->
+              <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary" id="formSubmit" onclick="postInfo()">Submit</button>
+              </div>
+            </div><!-- /.modal-content -->
+          </div><!-- /.modal-dialog -->
+        </div><!-- /.modal -->
     </div>
-
-    <div id="myModal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-      <div class="modal-dialog">
-        <div class="modal-content" id="modal-content">
-          <div class="modal-header">
-            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-            <h4 id="modal-title" class="modal-title" style="color: black">Need Some Work Done? Contact Us</h4>
-          </div>
-          <div class="modal-body" id="modal-body" style="height:478px">
-            <script>
-            function postInfo() {
-              //Reset modal size and error warnings upon resubmitting
-              document.getElementById('nameGroup').classList.remove('has-error');
-              document.getElementById('nameSpan').style.display = 'none';
-              document.getElementById('emailGroup').classList.remove('has-error');
-              document.getElementById('emailSpan').style.display = 'none';
-              document.getElementById('phoneGroup').classList.remove('has-error');
-              document.getElementById('phoneSpan').style.display = 'none';
-              document.getElementById('projectDescriptionGroup').classList.remove('has-error');
-              document.getElementById('projectDescriptionSpan').style.display = 'none';
-              document.getElementById('requiredTechnologiesGroup').classList.remove('has-error');
-              document.getElementById('requiredTechnologiesSpan').style.display = 'none';
-              document.getElementById('budgetGroup').classList.remove('has-error');
-              document.getElementById('budgetSpan').style.display = 'none';
-              document.getElementById('cityGroup').classList.remove('has-error');
-              document.getElementById('citySpan').style.display = 'none';
-              document.getElementById('howGroup').classList.remove('has-error');
-              document.getElementById('howSpan').style.display = 'none';
-              document.getElementById('modal-body').style.height = '444px';
-              //Retrieve input field values
-              var myDataRef = new Firebase('https://luminous-fire-4244.firebaseio.com/');
-              var name = document.getElementById('nameInput').value;
-              var email = document.getElementById('emailInput').value;
-              var phone = document.getElementById('phoneInput').value;
-              var projDesc = document.getElementById('projectDescriptionInput').value;
-              var reqTech = document.getElementById('requiredTechnologiesInput').value;
-              var budget = document.getElementById('budgetInput').value;
-              var city = document.getElementById('cityInput').value;
-              var how = document.getElementById('howInput').value;
-              //test required fields
-              var fail = false;
-              var heightDiff = 0;
-              if (name == null || name == "") {
-                document.getElementById('nameGroup').classList.add('has-error');
-                document.getElementById('nameSpan').style.display = 'inline';
-                heightDiff = heightDiff + 16;
-                fail = true;
-              }
-              if (email == null || email == "") {
-                document.getElementById('emailGroup').classList.add('has-error');
-                document.getElementById('emailSpan').style.display = 'inline';
-                heightDiff = heightDiff + 16;
-                fail = true;
-              }
-              if (phone == null || phone == "" || Math.floor(phone.replace(/[\s|\(|\)|-]/g, '').length / 2) != 5) {
-                document.getElementById('phoneGroup').classList.add('has-error');
-                document.getElementById('phoneSpan').style.display = 'inline';
-                heightDiff = heightDiff + 16;
-                fail = true;
-              }
-              if (projDesc == null || projDesc == "") {
-                document.getElementById('projectDescriptionGroup').classList.add('has-error');
-                document.getElementById('projectDescriptionSpan').style.display = 'inline';
-                heightDiff = heightDiff + 16;
-                fail = true;
-              }
-              if (reqTech == null || reqTech == "") {
-                document.getElementById('requiredTechnologiesGroup').classList.add('has-error');
-                document.getElementById('requiredTechnologiesSpan').style.display = 'inline';
-                heightDiff = heightDiff + 16;
-                fail = true;
-              }
-              if (budget == null || budget == "") {
-                document.getElementById('budgetGroup').classList.add('has-error');
-                document.getElementById('budgetSpan').style.display = 'inline';
-                heightDiff = heightDiff + 16;
-                fail = true;
-              }
-              if (city == null || city == "") {
-                document.getElementById('cityGroup').classList.add('has-error');
-                document.getElementById('citySpan').style.display = 'inline';
-                heightDiff = heightDiff + 16;
-                fail = true;
-              }
-              if (how == null || how == "") {
-                document.getElementById('howGroup').classList.add('has-error');
-                document.getElementById('howSpan').style.display = 'inline';
-                heightDiff = heightDiff + 16;
-                fail = true;
-              }
-              //Resize modal
-              document.getElementById('modal-body').style.height = 478 + heightDiff + 'px';
-
-              if (!fail) {
-                myDataRef.push({name: name, email: email, phone: phone, projDesc: projDesc, reqTech: reqTech, budget: budget, city: city, how: how});
-                document.getElementById('modal-title').style.display = 'none';
-                document.getElementById('nameGroup').style.display = 'none';
-                document.getElementById('emailGroup').style.display = 'none';
-                document.getElementById('phoneGroup').style.display = 'none';
-                document.getElementById('projectDescriptionGroup').style.display = 'none';
-                document.getElementById('requiredTechnologiesGroup').style.display = 'none';
-                document.getElementById('budgetGroup').style.display = 'none';
-                document.getElementById('cityGroup').style.display = 'none';
-                document.getElementById('howGroup').style.display = 'none';
-                document.getElementById('formSubmit').style.display = 'none';
-                document.getElementById('confirmationMessage').style.display = 'inline';
-                document.getElementById('modal-body').style.height = '66px';
-                document.getElementById('modal-body').style.height = '66px';
-                document.getElementById('modal-content').style.width = '350px';
-                document.getElementById('modal-content').style.marginLeft = '125px';
-              }
-            }
-            </script>
-
-            <!-- CONTACT FORM FIELDS -->
-            <div class="form-group" id="nameGroup">
-              <input type='text' class='form-control' id='nameInput' placeholder='Name'>
-              <label class="control-label"></label>
-              <span class="help-block" id="nameSpan" style="display: none">Please enter your name</span>
-            </div>
-            <div class="form-group" id="emailGroup">
-              <input type='email' class='form-control' id='emailInput' placeholder='Email'>
-              <label class="control-label"></label>
-              <span class="help-block" id="emailSpan" style="display: none">Please enter a valid email address</span>
-            </div>
-            <div class="form-group" id="phoneGroup">
-              <input type='tel' class='form-control' id='phoneInput' placeholder='Phone'>
-              <label class="control-label"></label>
-              <span class="help-block" id="phoneSpan" style="display: none">Please enter a ten digit phone number (e.g. xxx-xxx-xxxx)</span>
-            </div>
-            <div class="form-group" id="projectDescriptionGroup">
-              <input type='text' class='form-control' id='projectDescriptionInput' placeholder='Project Description'>
-              <label class="control-label"></label>
-              <span class="help-block" id="projectDescriptionSpan" style="display: none">Please provide a project description</span>
-            </div>
-            <div class="form-group" id="requiredTechnologiesGroup">
-              <input type='text' class='form-control' id='requiredTechnologiesInput' placeholder='Required Technologies'>
-              <label class="control-label"></label>
-              <span class="help-block" id="requiredTechnologiesSpan" style="display: none">Please include a statement of required technologies</span>
-            </div>
-            <div class="form-group" id="budgetGroup">
-              <input type='text' class='form-control' id='budgetInput' placeholder='Budget'>
-              <label class="control-label"></label>
-              <span class="help-block" id="budgetSpan" style="display: none">Please provide a budget estimate</span>
-            </div>
-            <div class="form-group" id="cityGroup">
-              <input type='text' class='form-control' id='cityInput' placeholder='City'>
-              <label class="control-label"></label>
-              <span class="help-block" id="citySpan" style="display: none">Please enter a location</span>
-            </div>
-            <div class="form-group" id="howGroup">
-              <input type='text' class='form-control' id='howInput' placeholder='How did you find out about The Hackerati?'>
-              <label class="control-label"></label>
-              <span class="help-block" id="howSpan" style="display: none">Please include how you found us</span>
-            </div>
-            <div id="confirmationMessage" style="display: none">
-              <h4 style="color: black; margin: 0; text-align: center">Thanks for submitting!</h4>
-            </div>
-          </div><!-- /.modal-body -->
-          <div class="modal-footer">
-            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-            <button type="button" class="btn btn-primary" id="formSubmit" onclick="postInfo()">Submit</button>
-          </div>
-        </div><!-- /.modal-content -->
-      </div><!-- /.modal-dialog -->
-    </div><!-- /.modal -->
-
-
 </body>

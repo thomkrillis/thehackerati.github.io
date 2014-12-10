@@ -47,7 +47,6 @@ a:hover {
     cursor: pointer;
 }
 
-
 /* Navbar */
 .navbar {
     border: none;
@@ -180,6 +179,7 @@ a:hover {
 .section2 {
     height: 100vh;
     background-color: #73A9BE;
+    text-align: center;
 }
 
 .section2 h3 {
@@ -190,6 +190,10 @@ a:hover {
 .section2 p {
     font: 2.0em/100% 'AlpacaScarlett';
     color: white;
+}
+
+.section2 a {
+    color: #C1D1AD;
 }
 
 .seafloor {
@@ -304,21 +308,21 @@ a:hover {
     position: absolute;
     top: 115%;
     left: 3%;
-    width: 40%;
+    width: 45%;
 }
 
 .section2 .text-block2 {
     position: absolute;
     top: 140%;
     left: 48%;
-    width: 40%;
+    width: 45%;
 }
 
 .section2 .text-block3 {
     position: absolute;
     top: 165%;
     left: 3%;
-    width: 40%;
+    width: 45%;
 }
 
 /* Third section */
@@ -439,16 +443,35 @@ a:hover {
 }
 
 .become-sponsor-link a:link {
-    color: black;
+    color: green;
 }
 
 .become-sponsor-link a:visited {
-    color: black;
+    color: green;
 }
 
 .become-sponsor-link a:hover {
     border-bottom: 1px solid;
-    color: green;
+    color: black;
+}
+
+/* Modal */
+.modal-backdrop {
+    display: none;
+}
+
+.form-control {
+    display: inline-block;
+    width: 95%;
+}
+
+.control-label {
+   vertical-align: top;
+}
+
+.modal-body .control-label:after { 
+   content:"*";
+   color:#a94442;
 }
 
 }
@@ -800,63 +823,67 @@ a:hover {
         background-size: 3%;
     }
 
-.section2 .text-block1 {
-    top: 115vh;
-    left: 5%;
-    width: 90%;
-}
+    .section2 p {
+        font: 1.5em/100% 'AlpacaScarlett';
+    }
 
-.section2 .text-block2 {
-    top: 140vh;
-    left: 5%;
-    width: 90%;
-}
+    .section2 .text-block1 {
+        top: 115vh;
+        left: 5%;
+        width: 90%;
+    }
 
-.section2 .text-block3 {
-    top: 165vh;
-    left: 5%;
-    width: 90%;
-}
+    .section2 .text-block2 {
+        top: 140vh;
+        left: 5%;
+        width: 90%;
+    }
 
-/* Third section */
-.lavaline {
-    top: 200vh;
-}
+    .section2 .text-block3 {
+        top: 165vh;
+        left: 5%;
+        width: 90%;
+    }
 
-.text-container {
-    top: 210vh;
-    left: 5%;
-    width: 90%;
-}
+    /* Third section */
+    .lavaline {
+        top: 200vh;
+    }
 
-.sponsors {
-    bottom: 110vh;
-}
+    .text-container {
+        top: 210vh;
+        left: 5%;
+        width: 90%;
+    }
 
-.core {
-    height: 100vh;
-    background-size: 100% 10%;
-    bottom: 100vh;
-}
+    .sponsors {
+        bottom: 110vh;
+    }
 
-.core h2 {
-    height: 7vh;
-    width: 100%;
-    left: 0;
-}
+    .core {
+        height: 100vh;
+        background-size: 100% 10%;
+        bottom: 100vh;
+    }
 
-/* Fourth section */
-.section4 a {
-    width: 100%;
-    float: left;
-}
+    .core h2 {
+        height: 7vh;
+        width: 100%;
+        left: 0;
+    }
 
-.sponsor-image-links a {
-    padding-left: 0;
-}
+    /* Fourth section */
+    .section4 a {
+        width: 100%;
+        float: left;
+    }
 
-.become-sponsor-link {
-    margin-top: 0;
-}
+    .sponsor-image-links a {
+        padding-left: 0;
+    }
+
+    .become-sponsor-link {
+        margin-top: 0;
+    }
 
 }
