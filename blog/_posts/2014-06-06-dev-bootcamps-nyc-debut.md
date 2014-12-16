@@ -22,9 +22,9 @@ _Disclaimer: I'm hooked on the DBC Kool-Aid. I wasn't asked by anyone in the org
   
 A Bit'a Background
 --------
-[Dev Bootcamp](http://www.devbootcamp.com) was founded in San Francisco in early 2012 with the mission to enable people to "make beautiful and meaningful things" by teaching a practical, hands-on course in web development. The school has since moved eastward to NYC, setting up camp in Chicago along the way. Surprisingly, the core of DBC's curriculum isn't just about imparting technical ability, but also philosophy—an understanding of the self, the other, and the world that we all share. Though technical knowledge is taught from Day 1 [and, in fact, earlier, through a [remote prep course](http://devbootcamp.com/2014/05/08/why-phase-0-is-key-to-your-success-at-dev-bootcamp/?utm_content=buffera2e63&utm_medium=social&utm_source=twitter.com&utm_campaign=buffer)], DBC also has major focuses on self-awareness and empathy, extending as far as mandatory yoga for the first three weeks. From a [blog post](http://devbootcamp.com/2013/01/30/yoga-panic-pandas-3-things-you-might-not-expect-from-a-programming-bootcamp/) on the subject:  
+[Dev Bootcamp](http://www.devbootcamp.com) was founded in San Francisco in early 2012 with the mission to enable people to "make beautiful and meaningful things" by teaching a practical, hands-on course in web development. The school has since moved eastward to NYC, setting up camp in Chicago along the way. Surprisingly, the core of DBC's curriculum isn't just about imparting technical ability, but also philosophy—an understanding of the self, the other, and the world that we all share. Though technical knowledge is taught from Day 1 [and, in fact, earlier, through a \[remote prep course\](http://devbootcamp.com/2014/05/08/why-phase-0-is-key-to-your-success-at-dev-bootcamp/?utm_content=buffera2e63&utm_medium=social&utm_source=twitter.com&utm_campaign=buffer)], DBC also has major focuses on self-awareness and empathy, extending as far as mandatory yoga for the first three weeks. From a [blog post](http://devbootcamp.com/2013/01/30/yoga-panic-pandas-3-things-you-might-not-expect-from-a-programming-bootcamp/) on the subject:  
   
->[Yoga] is a reminder for people to be mindful. It is a reminder that their body isn't just a vessel for their brains. It is a reminder, more than anything, that the point of acquiring these new skills isn't just to get a new job but to build a new, complete life.
+>\[Yoga\] is a reminder for people to be mindful. It is a reminder that their body isn't just a vessel for their brains. It is a reminder, more than anything, that the point of acquiring these new skills isn't just to get a new job but to build a new, complete life.
   
 Dev Bootcamp isn't just about teaching people how to create with technology. It's a platform for personal and, more importantly, interpersonal development to help shape our society into one that understands its people, its technologies, and the intimate connections between the two.  
   
@@ -40,7 +40,7 @@ A tool is useless without an informed operator, and is potentially dangerous wit
   
 The Presentations
 --------
-DBC NYC's premier cohort, the Fiddler Crabs [each cohort is named after an animal], graduated and presented their final projects on Friday, May 30th. The class of 12 was broken into three groups, each of which had their own impressive project to demonstrate:
+DBC NYC's premier cohort, the Fiddler Crabs \[each cohort is named after an animal\], graduated and presented their final projects on Friday, May 30th. The class of 12 was broken into three groups, each of which had their own impressive project to demonstrate:
 
 ###[The Delta](http://thedelta.herokuapp.com)
 Know a programming language? Want to learn another? The Delta links common concepts between different languages by translating the language you know to the ones you desire to learn right before your eyes.
@@ -68,7 +68,7 @@ Looking Forward
 --------
 Widespread technological ability is one of the brightest aspects of our future. In this increasingly digital age, the ability to improve an existing framework from your home or mobile device is incredibly powerful. This is the literacy of a new generation, and DBC is paving the path forward with social and technological awareness.
 
-With numerous bootcamps in existence in NYC alone—and more popping up every month—one should take DBC as the standard for an expertly-curated, comprehensive curriculum that understands contemporary sapiens and the tools they've built to manipulate information. In the [likely apocryphal, though sentimentally accurate] words of Albert Einstein, "It has become appallingly obvious that our technology has exceeded our humanity." Dev Bootcamp is doing its part to ensure that our humanity progresses alongside our ability to craft powerful new tools.
+With numerous bootcamps in existence in NYC alone—and more popping up every month—one should take DBC as the standard for an expertly-curated, comprehensive curriculum that understands contemporary sapiens and the tools they've built to manipulate information. In the \[likely apocryphal, though sentimentally accurate\] words of Albert Einstein, "It has become appallingly obvious that our technology has exceeded our humanity." Dev Bootcamp is doing its part to ensure that our humanity progresses alongside our ability to craft powerful new tools.
 
 The next generation of creators is here. Get ready to ascend the exponential!
 

@@ -158,7 +158,7 @@ The closing act of the event was an inspirational talk by Chase Adam about found
 
 Chase described his experience as the first YC nonprofit. His founding experience was born when returning to San Francisco after a couple of years in the Peace Corps. While he expected his friends back home to be relatively miserable in their nine-to-fives, he instead returned to find that they were thriving at startups, innovating to change the world.
 
-Chase was inspired to found his company and convinced his team to work as volunteers to build the initial site. He described the difficulties in finding a developer to build the product and also described the incredible effort that went into generating votes for a HuffPost-sponsored startup competition. He swore that he would never do an online voting competition again because it was “one of the most stressful weeks of [his] life.” To take the lead in the competition, one of his employees convinced a bouncer to make people vote before entering the bar. Awesome creativity and drive.
+Chase was inspired to found his company and convinced his team to work as volunteers to build the initial site. He described the difficulties in finding a developer to build the product and also described the incredible effort that went into generating votes for a HuffPost-sponsored startup competition. He swore that he would never do an online voting competition again because it was “one of the most stressful weeks of \[his\] life.” To take the lead in the competition, one of his employees convinced a bouncer to make people vote before entering the bar. Awesome creativity and drive.
 
 Some important lessons for startups he shared included:
 
