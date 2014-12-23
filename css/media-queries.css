@@ -69,7 +69,7 @@ CSS MEDIA QUERIES FOR THEHACKERATI.COM
     #who-title h1 {
         font: 5em/100% 'HelveticaRegular';
     }
- no-tablet
+
     #who-title h2 {
         font: 3.0em/100% 'HelveticaRegular'; 
     }
@@ -287,10 +287,6 @@ CSS MEDIA QUERIES FOR THEHACKERATI.COM
     GENERAL 
     */
 
-    .mobile {
-        display: inline-block; 
-    }
-
     .tablet {
         display: inline-block; 
     }
@@ -329,10 +325,6 @@ CSS MEDIA QUERIES FOR THEHACKERATI.COM
     }
 
     #feedback {
-        display: none;
-    }
-
-    .no-tablet {
         display: none;
     }
 
@@ -612,61 +604,6 @@ CSS MEDIA QUERIES FOR THEHACKERATI.COM
     }
 
     /* SECTION 5 */
-
-    .clients-box { 
-        min-width: 160px; 
-        bottom: 0.8em; 
-    }
-
-    .clients-box img { 
-        width: 75%; 
-    }
-
-    .clients-box h3 { 
-        width: 46%; 
-        left: 15%; 
-    }
-
-    .clients-box p { 
-        bottom: 3px; 
-        left: 14%;
-        width: 48%;
-        margin-bottom: 1.5%; 
-    }
-
-    .clients-info h3 { 
-        font: 1.8em/120% 'HelveticaRegular'; 
-    }
-
-    .clients-box h3 { 
-        font: 1.3em/120% 'HelveticaRegular'; 
-    }
-
-    .clients-tools p {
-        font: 0.95em/120% 'din-lightregular';
-    }
-
-    .clients-resources p { 
-        font: 0.9em/120% 'din-lightregular'; 
-        width: 4em; 
-        margin-left: auto; 
-        margin-right: auto; 
-    }
-
-    .clients-resources .clients-icon p { 
-        margin-top: 1em; 
-        margin-bottom: 2em;
-    }
-
-    .clients-tools .clients-icon { 
-        padding-top: 8%; 
-        padding-bottom: 0%;
-    }
-
-    .clients-icon .fa-icon { 
-        margin-left: auto; 
-        margin-right: auto; 
-    }
 
     .clients-content {
         margin-left: auto;
@@ -956,10 +893,6 @@ CSS MEDIA QUERIES FOR THEHACKERATI.COM
         display: inline;
     }
 
-    .mobile { 
-        display: inline-block;
-    }
-
     .phones-only { 
         display: block;
     }
@@ -1179,172 +1112,12 @@ CSS MEDIA QUERIES FOR THEHACKERATI.COM
         padding-top: 0px;
     }
 
-    .arrow-box-left, 
-    .arrow-box-right, 
-    .arrow-box-middle { 
-        width: 100%; 
-        height: auto; 
-        display:block; 
-        position: relative; 
-        float: none; 
-        clear: both; 
-        margin-bottom:8%; 
-        margin-left: 0; 
-        margin-right: 0;
-    }
-
-    .arrow-box-middle { 
-        margin-bottom: 0; 
-    }
-
     #clients-title {
         width: 100%; 
         margin-left: auto; 
         margin-right: auto; 
         text-align: center;
         margin-top: 1em;
-    }
-
-    .clients-intro, 
-    .clients-tap { 
-        display: block; 
-        margin-right: 10px; 
-        margin-left: 10px; 
-        padding-left: 0%; 
-        padding-right: 0%; 
-        font: 1.15em/150% 'din-regularregular';
-    }
-
-    .clients-tap { 
-        text-align: center; 
-        color: #0078D3;
-    }
-
-    .clients-box{ 
-        height: auto; 
-        padding-top: 1%; 
-        left: 0; 
-        margin-right: auto; 
-        margin-left: auto; 
-        max-width: none;
-    }
-
-    #clients-slideshow-block, 
-    .conveyor, 
-    .conveyor-gear-row, 
-    .clients-box img, 
-    .clients-box p{
-        display: none;
-
-    }
-
-    .tooltip {
-        display: block;
-    }
-
-    .tooltip p { 
-        font: 1.05em/130% 'din-lightregular'; 
-    }
-
-    .arrow-box-left, 
-    .arrow-box-middle, 
-    .arrow-box-right{
-        background: transparent;
-    }
-
-    .arrow-box-left h3, 
-    .arrow-box-middle h3, 
-    .arrow-box-right h3{ 
-        display: none;
-    }
-
-    .arrow-box-right:after, 
-    .arrow-box-middle:after, 
-    .arrow-box-left:after { 
-        display: none;
-    }
-
-    .clients-box, 
-    .clients-box h3 {
-        text-align: left; 
-        display: block; 
-        width: 100%; 
-        position: initial; 
-        cursor: pointer; 
-        margin-left: 0.2em; 
-    }
-
-    .clients-slideshow {
-        height: auto; 
-        min-height: 0; 
-        overflow: hidden; 
-        padding-bottom: 0; 
-        background-color: #242424; 
-        -webkit-transition: max-height 0.3s linear; 
-    }
-
-    .clients-info {
-        position:relative; 
-        display:block; 
-        min-height:0; 
-        height: auto; 
-        max-height: 3em; 
-        overflow: hidden; 
-        -webkit-transition: max-height 0.3s linear; 
-    }
-
-    .clients1 { 
-        background-color: #4CA0D3;
-    }
-
-    .clients2 { 
-        background-color: #0078D3;
-    }
-
-    .clients3 { 
-        background-color: #2D6296;
-    }
-
-    .clients4 { 
-        background-color: #ea8553;
-    }
-
-    .clients5 { 
-        background-color: #ec6314;
-    }
-
-    .clients6 { 
-        background-color: #918c87;
-    }
-
-    .clients-resources .clients-icon p { 
-        margin-top: 1em; 
-    }
-
-    .clients-resources .clients-icon { 
-        display: inline-block; 
-        width:30%; 
-        height:auto; 
-        font: 1.0em/100% 'inconsolatamedium'; 
-        margin-right: 0.5em;
-    }
-
-    .clients-tools .clients-icon { 
-        display:inline-block; 
-        width:20%; 
-        height:auto; 
-        font: 1.0em/100% 'inconsolatamedium'; 
-        margin-right: 1.7em;
-    }
-
-    .clients-resources p { 
-        width: 5em; 
-        margin-left: auto; 
-        margin-right: auto; 
-    }
-
-    .clients-tools { 
-        margin-top: 0; 
     }
 
     /* SECTION 6 */
@@ -1670,10 +1443,6 @@ CSS MEDIA QUERIES FOR THEHACKERATI.COM
     GENERAL 
     ======================================================
     */
-
-    .mobile { 
-        display: inline-block;
-    }
 
     .phones-only { 
         display: block;
