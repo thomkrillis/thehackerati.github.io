@@ -206,3 +206,14 @@
     linkedin: 
     twitter: 
     github: 
+  - id: zelimir
+    name: Želimir Kompes
+    role: Software Engineer
+    bio: >
+        <p>Želimir is an Android developer at The Hackerati. He is a true trailblazer who always looks on a bright side of life. He graduated from the University of Zagreb, Croatia, with a Master's degree in Information and Communication Technology. Shortly after his arrival in the States, he decided to take additional courses at Cooper Union to master his engineering skills.</p><p>Želimir mainly hacks in Java and Ruby on Rails. Besides being a software engineer, he loves studying history, traveling, and exploring new destinations. His passion mainly lies in discovering and creating new opportunities, as he is not afraid to try out new things and face challenges.</p>
+    extras:
+    - url: 
+      title: 
+    linkedin: 
+    twitter: 
+    github: 
