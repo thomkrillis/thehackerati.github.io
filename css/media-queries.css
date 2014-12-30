@@ -22,20 +22,12 @@ CSS MEDIA QUERIES FOR THEHACKERATI.COM
         width: 794px;
     }
 
-    .blog-summary-content-container {
-        width: 90%;
-    }
-
     /* HEADER */
     
     .nav-links {
         text-align: right;
         width: 45%;
         float: left;
-    }
-
-    .nav-links.persistent-nav-links {
-        width: 50%;
     }
 
     /*
@@ -46,15 +38,7 @@ CSS MEDIA QUERIES FOR THEHACKERATI.COM
 
     /* SECTION 1 */
 
-    .welcome-container .content-container {
-        width: 87%;
-        padding-top: 3em;
-    }
-
     /* SECTION 2 */
-
-    .who-we-are-content {
-    }
 
     /* SECTION 3 */
 
@@ -69,7 +53,7 @@ CSS MEDIA QUERIES FOR THEHACKERATI.COM
     #who-title h1 {
         font: 5em/100% 'HelveticaRegular';
     }
- no-tablet
+
     #who-title h2 {
         font: 3.0em/100% 'HelveticaRegular'; 
     }
@@ -131,16 +115,6 @@ CSS MEDIA QUERIES FOR THEHACKERATI.COM
 
     .academy-page .block-right img {
         width: auto; 
-    }
-
-    /*
-    ====================================================== 
-    BLOG 
-    ======================================================
-    */
-
-    .blog-right-column p {
-        font: 1.3em/120% 'inconsolatamedium';
     }
 
     /*
@@ -291,19 +265,8 @@ CSS MEDIA QUERIES FOR THEHACKERATI.COM
         display: inline-block; 
     }
 
-    .tablet {
-        display: inline-block; 
-    }
-
     .desktop {
         display: none;  
-    }
-
-    .section1 h3 {
-        font: 1.8em/100% 'din-regularregular';   
-        text-align: center; 
-        width: auto; 
-        margin: 0 4.4em .5em 4.4em;
     }
 
     .section3 .content-container {
@@ -372,28 +335,12 @@ CSS MEDIA QUERIES FOR THEHACKERATI.COM
         width: auto;
     }
 
-    .welcome-container .logo {
-        float: none;
-        width: auto;
-        text-align: center;
-    }
-
-    .welcome-container .content-container {
-        padding-top: 0;
-    }
-
     nav a { 
         margin-left: 1.0em; 
     }
 
     .nav-links {
         width: 100%;
-    }
-
-    .nav-links.persistent-nav-links {
-        text-align: right;
-        margin-left: 5%;
-        width: 66%;
     }
 
     /*
@@ -414,18 +361,6 @@ CSS MEDIA QUERIES FOR THEHACKERATI.COM
         padding-top: 20em; 
     }
 
-    .welcome-container .nav-links { 
-        float: left;    
-        text-align: center; 
-    }
-
-    .welcome-container .content-container nav { 
-        font: 2.5em/100% 'inconsolatamedium'; 
-        margin-top: 1.5em;    
-        padding-top: 0; 
-        padding-bottom: 0.5em;
-    }
-
     .content-container .nav-links a:link {
         font: 0.9em/100% 'HelveticaRegular';
     }
@@ -438,31 +373,11 @@ CSS MEDIA QUERIES FOR THEHACKERATI.COM
         text-decoration: none;
         color: #EC6314;
     }
-    .welcome-container nav a {  
-        margin-left: 1.0em; 
-    }
-
-    .welcome-container .block-left { 
-        width: 100%;    
-    }
-
-    #type-command-one, 
-    #type-command-two, 
-    #type-command-three { 
-        display: none;
-    }
 
     .terminal-buttons { 
         text-align: center; 
         width: 100%; 
         margin-top: 5em;
-    }
-
-    .terminal-window a {
-        font-size: 1.2em; 
-        padding: 15px 18px; 
-        margin-left: 3%; 
-        margin-right: 3%;
     }
 
     .nav-links .about-link { 
@@ -529,12 +444,6 @@ CSS MEDIA QUERIES FOR THEHACKERATI.COM
         display: none;
     } 
 
-    #who .column-1:hover .rollover,
-    #who .column-2:hover .rollover,
-    #who .column-3:hover .rollover {
-        opacity: 0;
-    }
-
     #who .column-1:hover img,
     #who .column-2:hover img,
     #who .column-3:hover img {
@@ -545,10 +454,6 @@ CSS MEDIA QUERIES FOR THEHACKERATI.COM
         width: 75%; 
         padding-top: 6em;
     } 
-
-    .what-container h1 {
-        margin-top: 50px;
-    }
 
     .how-content h1 {
         margin-top: 0;
@@ -561,33 +466,6 @@ CSS MEDIA QUERIES FOR THEHACKERATI.COM
     }
 
     /* SECTION 3 */
-
-    .what-cards-mobile{
-        display: block; 
-        width: 100%;
-    }
-
-    .what-cards-mobile h1 { 
-        font: 3.5em/120% 'HelveticaRegular';
-    }
-
-    .what-cards-mobile h3 { 
-        font: 1.8em/120% 'HelveticaRegular'; 
-        text-align: center; 
-    }
-
-    .what-cards-mobile p { 
-        font: 1.3em/150% 'din-lightregular'; 
-    }
-
-    #carousel-wrapper,
-    #carousel-buttons { 
-        display: none; 
-    }
-
-    .what-content { 
-        width: 75%; 
-    }
 
     /* SECTION 4 */
 
@@ -604,11 +482,6 @@ CSS MEDIA QUERIES FOR THEHACKERATI.COM
 
     .how-content { 
         width: 75%; 
-    }
-
-    #how h1 { 
-        width: 100%;
-        text-align: center;
     }
 
     /* SECTION 5 */
@@ -849,10 +722,6 @@ CSS MEDIA QUERIES FOR THEHACKERATI.COM
         margin-right: auto;
     }
     
-    .careers-page .section2 .block-mobile { 
-        padding-bottom: 5em; 
-    }
-    
     .careers-page .section2 .content-container { 
         padding-top: 7em; 
         padding-bottom: 0em; 
@@ -876,14 +745,6 @@ CSS MEDIA QUERIES FOR THEHACKERATI.COM
     FOOTER PAGE 
     ======================================================
     */
-
-    .mobile-copyright-madeny { 
-        display: block;
-    }
-
-    .footer-madeny { 
-        margin-left: 0;
-    }
 
     footer .content-container { 
         width: 94%; 
@@ -957,10 +818,6 @@ CSS MEDIA QUERIES FOR THEHACKERATI.COM
     }
 
     .mobile { 
-        display: inline-block;
-    }
-
-    .tablet { 
         display: inline-block;
     }
 
@@ -1069,16 +926,6 @@ CSS MEDIA QUERIES FOR THEHACKERATI.COM
         padding-top: 3em; 
     }
 
-    .welcome-container .block-left { 
-        width: 100%; 
-    }
-
-    #type-command-one, 
-    #type-command-two, 
-    #type-command-three { 
-        display: none;
-    }
-
     .terminal-buttons { 
         text-align: center; 
         width: 75%; 
@@ -1091,30 +938,8 @@ CSS MEDIA QUERIES FOR THEHACKERATI.COM
         margin-top: 2em;
     }
 
-    .terminal-block-title { 
-        font-size: 4.0em; 
-    }
-
     .terminal-buttons { 
         margin-top: 3em; 
-    }
-
-    .terminal-window a {
-        font-size: 1.2em; 
-        padding: 6px 13px;
-        display: inline-block; 
-        margin-bottom: 1.5em;
-        float: none;
-        margin-left: 0;
-    }
-
-    .welcome-container .block-left {
-        padding-bottom: 0;
-    }
-
-    .welcome-container .block-right {
-        padding-top: 0;
-        padding-bottom: 0;
     }
 
     #hackworld {
@@ -1139,10 +964,6 @@ CSS MEDIA QUERIES FOR THEHACKERATI.COM
     }
 
     /* SECTION 3 */
-
-    .what-content { 
-        width: 75%; 
-    }
 
     /* SECTION 4 */
 
@@ -1183,10 +1004,6 @@ CSS MEDIA QUERIES FOR THEHACKERATI.COM
         margin-bottom:8%; 
         margin-left: 0; 
         margin-right: 0;
-    }
-
-    .arrow-box-middle { 
-        margin-bottom: 0; 
     }
 
     #clients-title {
@@ -1305,10 +1122,6 @@ CSS MEDIA QUERIES FOR THEHACKERATI.COM
         background-color: #ec6314;
     }
 
-    .clients6 { 
-        background-color: #918c87;
-    }
-
     .clients-resources .clients-icon p { 
         margin-top: 1em; 
     }
@@ -1382,21 +1195,6 @@ CSS MEDIA QUERIES FOR THEHACKERATI.COM
         margin: 2em 0;
     }
     
-    .section1 h3 { 
-        text-align: center; 
-        width: auto; 
-        margin: 0 0.5em .5em 0.5em; 
-        border: none; 
-    }
-    
-    .section1 h2 { 
-        font: 3.5em/100% 'inconsolatamedium'; 
-    }
-    
-    .section1 h3 { 
-        font: 1.5em/100% 'din-regularregular'; 
-    }
-    
     .careers-page .section2 .content-container { 
         width: 80%;
     }
@@ -1459,28 +1257,6 @@ CSS MEDIA QUERIES FOR THEHACKERATI.COM
         width: auto; 
     }
     
-    .block-mobile .perks-copy { 
-        width: 100%; 
-        height: auto; 
-        margin-bottom: 3em; 
-        left: 0;
-        float: none;
-        display: inline-block;
-    }
-    
-    .block-mobile .perks-cell { 
-        width: 100%; 
-        margin: 0em; 
-        height: auto;
-    }
-    
-    .block-mobile .perks-icon { 
-        width: 295px; 
-        height: 21em;
-        float: none;
-        display: inline-block;
-    }
-    
     .testimonial-img img { 
         -webkit-box-shadow: 0px 0px 9px -2px rgba(0,0,0,0.76); 
         -moz-box-shadow: 0px 0px 9px -2px rgba(0,0,0,0.76); 
@@ -1510,10 +1286,6 @@ CSS MEDIA QUERIES FOR THEHACKERATI.COM
 
     .founders-wrapper {
         width: 300px;
-    }
-
-    .hackeratus-wrapper {
-        margin: 0;
     }
 
     .team-wrapper {
@@ -1567,23 +1339,12 @@ CSS MEDIA QUERIES FOR THEHACKERATI.COM
         margin: 0 auto;
     }
 
-    .team-social-media-two {
-        width: 79px;
-        height: 32px;
-        margin: 0 auto;
-    }
-
     .linkedin-team {
         margin-left: 0.2em;
     }
 
     .github-team {
         margin-right: 0;
-    }
-
-    .single-social-media {
-        float: none;
-        margin: 0 auto;
     }
 
     /*
@@ -1627,15 +1388,6 @@ CSS MEDIA QUERIES FOR THEHACKERATI.COM
         margin-left: 3em; 
     }
 
-    .footer-madeny { 
-        text-align: center; 
-    }
-
-    .madenyc { 
-        width: 9em; 
-        height: 9em; 
-    }
-
     .h-watermark {
         margin-left: 0;
     }
@@ -1667,10 +1419,6 @@ CSS MEDIA QUERIES FOR THEHACKERATI.COM
         display: inline-block;
     }
 
-    .tablet { 
-        display: none;
-    }
-
     .desktop { 
         display: none;
     }
@@ -1685,17 +1433,6 @@ CSS MEDIA QUERIES FOR THEHACKERATI.COM
     .span8,
     .span9 {
         width: 100%;
-    }
-
-    .careers .section1 p { 
-        text-align: center;
-    }
-
-    .section1 h3 { 
-        width: auto; 
-        border-bottom: none; 
-        text-align: center; 
-        padding: 0 0 .25em 0; 
     }
 
     .block-right img, 
@@ -1741,10 +1478,6 @@ CSS MEDIA QUERIES FOR THEHACKERATI.COM
     ======================================================
     */
 
-    #header { 
-        height: 170px;
-    }
-    
     .logo { 
         float: none;
     }
@@ -1781,34 +1514,6 @@ CSS MEDIA QUERIES FOR THEHACKERATI.COM
 
     /* SECTION 1 */
 
-    .welcome-container .logo { 
-        float: none;
-    }
-    
-    .welcome-container .nav-links { 
-        float: none; 
-        text-align: center; 
-    }
-    
-    .welcome-container .content-container nav { 
-        font: 1.7em/100% 'inconsolatamedium'; 
-        margin-top: 0.2em; 
-        padding-bottom: 1.25em; 
-    }
-    
-    .welcome-container nav a { 
-        margin-left: 0.5em;
-    }
-    
-    .welcome-container .logo img { 
-        width: 94%; 
-        max-height: none; 
-    }
-    
-    .welcome-container .block-left { 
-        width: 100%; 
-    }
-     
     .related-words-terminal, 
     .terminal-buttons{ 
         display: none;
@@ -1816,10 +1521,6 @@ CSS MEDIA QUERIES FOR THEHACKERATI.COM
 
     .welcome-content { 
         width: 86%; 
-    }
-
-    .terminal-block-title {
-        font-size: 2.9em; 
     }
 
     .nav-links .about-link {
@@ -1846,10 +1547,6 @@ CSS MEDIA QUERIES FOR THEHACKERATI.COM
     }
 
     /* SECTION 3 */
-
-    .what-content { 
-        width: 90%; 
-    }
 
     /* SECTION 4 */
 
@@ -1958,13 +1655,6 @@ CSS MEDIA QUERIES FOR THEHACKERATI.COM
     ======================================================
     */
 
-    .b-page-image.careers, 
-    .b-page-image.about, 
-    .b-page-image.academy { 
-        background-image: none; 
-        background: #424345;
-    }
-
     .section1-content-container { 
         background: none; 
     }
@@ -1972,10 +1662,6 @@ CSS MEDIA QUERIES FOR THEHACKERATI.COM
     .testimonial-copy-mobile { 
         width: 100%; 
         display: block; 
-    }
-    
-    .section1 h2 { 
-        font: 3.0em/100% 'inconsolatamedium'; 
     }
     
     .perks-cell { 
@@ -2080,26 +1766,6 @@ CSS MEDIA QUERIES FOR THEHACKERATI.COM
     
     /*
     ====================================================== 
-    BLOG 
-    ======================================================
-    */
-
-    .blog-left-column {
-        width: 98%;
-        margin-left: 1%;
-        margin-right: 1%;
-    }
-
-    #blog-summary {
-        padding-right: 0%;
-    }
-
-    .blog-page-title p {
-        margin-bottom: 4em;
-    }
-    
-    /*
-    ====================================================== 
     FOOTER 
     ======================================================
     */
@@ -2107,10 +1773,6 @@ CSS MEDIA QUERIES FOR THEHACKERATI.COM
     .tweets.column,
     .sitemap.column { 
         display: none; 
-    }
-    
-    .madenyc { 
-        margin-top: 15px; 
     }
     
     .footer-column1 { 
@@ -2130,15 +1792,6 @@ CSS MEDIA QUERIES FOR THEHACKERATI.COM
     
     .twitter-footer { 
         margin-left: 1.8em; 
-    }
-    
-    .footer-madeny { 
-        text-align: center; 
-    }
-    
-    .madenyc { 
-        width: 9em; 
-        height: 9em; 
     }
     
     /*
