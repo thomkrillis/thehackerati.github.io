@@ -179,31 +179,6 @@ li {
     display: block;
 }
 
-.white-border {
-    border-bottom: 1px dotted #f4f4f4;
-    width: 100%;
-}
-
-.gray-border {
-    border-bottom: 1px dotted #999;
-    width: 100%;
-}
-
-.b-page-image {
-    position: fixed;
-    top: 0;
-    left: 0;
-    min-width: 100%;
-    min-height: 100%;
-    z-index: -998;
-}
-
-.b-page-image img {
-    min-width: 100%;
-    min-height: 100%;
-    -webkit-filter: blur(4px) brightness(0.8) contrast(1.3) grayscale(0.6) saturate(1.3);
-}
-
 .section1-content-container {
     margin-left: auto;
     margin-right: auto;
@@ -249,15 +224,6 @@ li {
     margin: 0;
 }
 
-.section1 h3 {
-    font: 1.5em/100% 'din-regularregular';
-    margin: 0 0 .5em 0;
-    padding: 0 0 .5em 0;
-    color: #BFB6AA;
-    border-bottom: 1px dotted #BFB6AA;
-    text-align: left;
-}
-
 .content-container {
     width: 67%;
     height: 100%;
@@ -279,14 +245,6 @@ li {
 
 .mobile {
     display: none;
-}
-
-.tablet-and-desktop {
-    display: inline-block;
-}
-
-.tablet { 
-    display: none; 
 }
 
 .all-content {
@@ -397,27 +355,12 @@ HEADER
     max-height: 100%;
 }
 
-.welcome-container .logo img {
-    height: 9em;
-    max-height: 9em;
-}
-
 .sb-navbar .content-container {
     width: auto;
     height: 130px;
     margin-top: 2.5em;
     padding-top: 0;
     padding-bottom: 0;
-}
-
-#navigation {
-    margin: 25px 10% 0 0;
-}
-
-#navigation li {
-    list-style: none;
-    float: left;
-    font: 20px 'inconsolatamedium';
 }
 
 .content-container nav {
@@ -435,10 +378,6 @@ HEADER
     -o-transition: all 0.4s;
     -ms-transition: all 0.4s;
     transition: all 0.4s;
-}
-
-.nav-links.persistent-nav-links {
-    width: 47%;
 }
 
 .content-container .nav-links a:link {
@@ -495,18 +434,9 @@ HOME PAGE
     padding-bottom: 6em;
 }
 
-.welcome-container .content-container {
-    width: 90%;
-    padding-top: 3em;
-}
-
 .sb-navbar .logo {
     max-height: 100%;
     float: left;
-}
-
-.welcome-container .nav-links {
-    margin-top: 1.7em;
 }
 
 .welcome-content {
@@ -641,14 +571,6 @@ HOME PAGE
     margin-top: 4em;
 }
 
-.terminal-buttons button {
-    display: inline-block;
-    text-decoration: none;
-    color: #2c2c2c;
-    font: 1.1em/130% 'din-regularregular', sans-serif;
-    margin-bottom: 0.9em;
-}
-
 .terminal-buttons a {
     display: inline-block;
     text-decoration: none;
@@ -713,15 +635,6 @@ HOME PAGE
 
 /* BLOCK 2 | WHO WE ARE */
 
-.who-we-are-container {
-    background-color: #f4f4f4;
-}
-
-.who-we-are-content {
-    position: relative;
-    margin: 0 auto;
-}
-
 .def-hacker p {
     margin-bottom: 2em;
 }
@@ -770,10 +683,6 @@ HOME PAGE
     margin: 0 auto;
 }
 
-.who-title-wrapper {
-    margin: 0 auto;
-}
-
 #who-title{
     font-size: 0.7em;
     width: 100%;
@@ -796,14 +705,6 @@ HOME PAGE
     font: 2.7em/100% 'HelveticaRegular';
     padding-bottom: 0px;
     border-bottom: 0px;
-}
-
-#who-info {
-    padding-left: 5%;
-    border-left: 1px solid #CCC;
-    margin-left: 1%;
-    width: 45%;
-    font: 1.15em/150% 'inconsolatamedium';
 }
 
 #wrapper-columns p {
@@ -844,25 +745,12 @@ HOME PAGE
     margin-left: 3%;
 }
 
-.column-1 li, 
-.column-2 li, 
-.column-3 li {
-    text-align: left;
-    line-height: 1.1em;
-}
-
 .column-1 img, 
 .column-2 img, 
 .column-3 img {
     width: 90%;
     margin: 0 auto;
     max-width: 230px;
-}
-
-#who .column-1:hover .rollover,
-#who .column-2:hover .rollover,
-#who .column-3:hover .rollover {
-    opacity: 1;
 }
 
 #who .column-1:hover img,
@@ -894,24 +782,6 @@ HOME PAGE
     clear: both;
     max-width: 980px;
     padding-top: 5%;
-}
-
-.rollover {
-    opacity: 0;
-    font-size: 1.1em;
-    position: absolute;
-    margin-top: 100px;
-    z-index: 999;
-    text-align: center;
-    color: #FFF;
-    width: 23%;
-    display: block;
-    background-color: rgba(12, 38, 104, 0.8);
-    padding: 5px;
-    -webkit-transition: all 0.2s ease;
-    -moz-transition: all 0.2s ease;
-    -o-transition: all 0.2s ease;
-    -ms-transition: all 0.2s ease;
 }
 
 /* BLOCK 3 | ENGINEERING AS A SERVICE */
@@ -954,27 +824,9 @@ HOME PAGE
     z-index: 10;
 }
 
-.how-content p.bold {
-    font: 1.15em/150% 'din-mediumregular';
-}
-
 .how-content h1 {
     text-align: left;
     color: #f4f4f4;
-}
-
-#how h1 {
-    font: 3.0em/100% 'HelveticaRegular';
-    color: #f4f4f4;
-}
-
-
-.what-cards-mobile h1 { 
-    font: 3em/100% 'inconsolatamedium'; 
-}
-
-#section4-anchor-link hr {
-    border-top: 1px dotted #999;
 }
 
 /* GEARS CSS */
@@ -1360,10 +1212,6 @@ body > svg {
     font-family: 'din-lightregular';
 }
 
-.fa-icon {
-    width: 90%;
-}
-
 .clients-icon img {
     width: 80%;
 }
@@ -1391,9 +1239,6 @@ body > svg {
 .clients-box img {
     width: 100%;
     
-}
-
-.huffington-post-h3 {
 }
 
 .clients-box h3 {
@@ -1500,14 +1345,6 @@ body > svg {
     text-align: center;
 }
 
-.contact-head button {
-    display: inline-block;
-    text-decoration: none;
-    color: #2c2c2c;
-    font: 1.1em/130% 'din-regularregular', sans-serif;
-    margin-bottom: 0.9em;
-}
-
 .google-maps-container {
     display: block;
 }
@@ -1592,10 +1429,6 @@ a#google-maps-wrapper{
     margin-bottom: 15px;
 }
 
-#contact-content .gray-border {
-    height: 4.5em;
-}
-
 /*
 ====================================================== 
 RECRUITING PAGE 
@@ -1671,66 +1504,6 @@ RECRUITING PAGE
 
 /*
 ====================================================== 
-BLOG PAGE 
-======================================================
-*/
-
-.post_title {
-    background-image: url('/assets/img/bgwhite.png');
-    text-shadow: none;
-    padding-top: 1em;
-    padding-bottom: 1.2em;
-    margin-bottom: 0px;
-    font: 4em/100% 'din-regularregular', sans-serif;
-    color: #2c2c2c;
-    border: none;
-}
-
-.tag_content {
-    background-image: url('/assets/img/bgwhite.png');
-}
-
-.tag_body {
-    width: 50%;
-    border-left: 5px dotted #B5B5B5;
-    margin: 0 auto;
-    padding: 2% 1% 3% 1%;
-}
-
-.archive_list {
-    font: 1.5em/100% 'din-regularregular', sans-serif;
-}
-
-.archive_list a:link {
-    color: #0078d3;
-}
-
-.archive_list a:visited {
-    color: #0078d3;
-}
-
-.archive_list_article_link {
-    font: 1.8em/100% 'din-regularregular', sans-serif;
-}
-
-.archive_list {
-    font: 1.3em/100% 'din-regularregular', sans-serif;
-}
-
-.tag_list {
-    margin-bottom: 2em;
-}
-
-.tag_list a:link {
-    color: #ec6314;
-}
-
-.tag_list a:visited {
-    color: #ec6314;
-}
-
-/*
-====================================================== 
 ABOUT PAGE 
 ======================================================
 */
@@ -1800,11 +1573,6 @@ ABOUT PAGE
     width: 200px;
     height: 200px;
     border-radius: 150px;
-}
-
-.hackeratus-team img {
-    width: 200px;
-    height: 200px;
 }
 
 .hackeratus-founder {
@@ -1960,12 +1728,6 @@ ACADEMY PAGE
 CAREERS PAGE 
 ======================================================
 */
-
-.b-page-image.careers {
-    background: url('../assets/img/largecooperstairs.jpg');
-    background-size: cover;
-    background-attachment: fixed;
-}
 
 .testimonial-copy {
     margin-bottom: 1em;
@@ -2347,18 +2109,10 @@ footer p {
     padding-bottom: 450px;
 }
 
-.column.contact {
-    width: 27%;
-}
-
 .tweets.column,
 .sitemap.column {
     margin-left: 4%;
     padding-left: 8%;
-}
-
-.madenyc {
-    width: 150px;
 }
 
 .sitemap.column ul li {
@@ -2384,14 +2138,6 @@ footer p {
 }
 
 .footer-contact a:hover {
-    color: #f4f4f4;
-}
-
-.footer-contact button {
-    color: #4CA0D3;
-}
-
-.footer-contact button:hover {
     color: #f4f4f4;
 }
 
