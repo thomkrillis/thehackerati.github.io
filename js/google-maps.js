@@ -99,6 +99,7 @@ function initializeMaps() {
     infowindow.open(map,marker);
   });
   infowindow.open(map,marker);
+  growLetsTalk();
 }
 
 google.maps.event.addDomListener(window, "resize", function() {
@@ -147,24 +148,24 @@ function slideMaps() {
 
 function scrollHandler(){
   var scrollPos = window.pageYOffset;
-  var offsetHeight = 75;
+  var offsetHeight = 65;
 
   if(window.innerWidth < 768) {
   }
   else if(scrollPos >= offsetHeight){
-    document.getElementById('content-container').style.marginTop = "0";
     document.getElementById('nav-links').style.lineHeight = "55px";
-    document.getElementById('sb-nav-home').style.height = "65px";
+    document.getElementById('sb-nav').style.height = "65px";
+    document.getElementById('content-container').style.marginTop = "0";
     document.getElementById('content-container').style.height = "55px";
   }
   else {
-    document.getElementById('sb-nav-home').style.height = "180px";
-    document.getElementById('content-container').style.marginTop = "2.5em";
-    document.getElementById('nav-links').style.lineHeight = "130px";
-    document.getElementById('content-container').style.height = "130px";
+    document.getElementById('sb-nav').style.height = "98px";
+    document.getElementById('nav-links').style.lineHeight = "68px";
+    document.getElementById('content-container').style.marginTop = "10px";
+    document.getElementById('content-container').style.height = "68px";
   }
 
-  if (!isMapDisplayed && isElementInViewport(document.getElementById('contact-title'))) {
+  if (!isMapDisplayed) {
     growLetsTalk();
   }
 }
