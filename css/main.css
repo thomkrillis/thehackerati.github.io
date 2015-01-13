@@ -276,6 +276,57 @@ li {
     padding-bottom: 3%;
 }
 
+.text-section {
+    margin-top: 3.5%;
+    padding: 2% 0;
+}
+
+.text-section .text-block {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.text-block p {
+    font: 2em/130% 'din-lightregular';
+}
+
+.center {
+    text-align: center;
+}
+
+.btn-lg {
+    color: white;
+    font-size: 28px;
+    background-color: #EC6314;
+    border-color: #272727;
+    text-decoration: none;
+    -webkit-transition-property: text-decoration;
+    -webkit-transition-duration: 0.3s;
+    -webkit-transition-timing-function: ease;
+    -moz-transition-property: text-decoration;
+    -moz-transition-duration: 0.3s;
+    -moz-transition-timing-function: ease;
+    -o-transition-property: text-decoration;
+    -o-transition-duration: 0.3s;
+    -o-transition-timing-function: ease;
+    -ms-transition-property: text-decoration;
+    -ms-transition-duration: 0.3s;
+    -ms-transition-timing-function: ease;
+    transition-property: text-decoration;
+    transition-duration: 0.3s;
+    transition-timing-function: ease;
+}
+
+.btn-lg:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+.btn-lg:visited {
+    color: white;
+    text-decoration: underline;
+}
+
 .phones-only { 
     display: none;
 }
@@ -349,10 +400,6 @@ li {
     height:auto;
     vertical-align: middle;
     width: 100%;
-}
-
-.text-block{
-    vertical-align: middle;
 }
 
 img.splash{
@@ -466,7 +513,7 @@ HOME PAGE
 ======================================================
 */
 
-/* BLOCK 1  | WELCOME */
+/* BLOCK 1  | SPLASH */
 
 .welcome-container {
     background: #000000;
@@ -496,42 +543,6 @@ HOME PAGE
     text-align: left;
 }
 
-.contact-btn-container {
-    display: inline-block;
-    margin-top: 1%;
-    margin-right: 20%;
-    vertical-align: top;
-    float: right;
-}
-
-#contact-content .contact-btn-container {
-    margin-right: 0;
-    margin-bottom: 1%;
-    width: 100%;
-    text-align: center;
-}
-
-.btn-contact {
-    color: #2C2C2C;
-    background-color: #ec6314;
-    border-color: #272727;
-    -webkit-transition-property: background-color;
-    -webkit-transition-duration: 0.3s;
-    -webkit-transition-timing-function: ease;
-    -moz-transition-property: background-color;
-    -moz-transition-duration: 0.3s;
-    -moz-transition-timing-function: ease;
-    -o-transition-property: background-color;
-    -o-transition-duration: 0.3s;
-    -o-transition-timing-function: ease;
-    -ms-transition-property: background-color;
-    -ms-transition-duration: 0.3s;
-    -ms-transition-timing-function: ease;
-    transition-property: background-color;
-    transition-duration: 0.3s;
-    transition-timing-function: ease;
-}
-
 .welcome-copy-second {
     font: 2.0em/130% 'din-lightregular', sans-serif;
     padding-right: 5%;
@@ -559,151 +570,7 @@ HOME PAGE
     min-width: 400px;
 }
 
-/* BLOCK 2 | Engineering as a Service */
-
-.def-hackerati p {
-}
-
-.def-hackerati h1 {
-    text-align: left;
-    margin-bottom: 0;
-    padding-bottom: 0;
-}
-
-.def-part-of-speech {
-    font: 1em/100% 'HelveticaRegular' !important;
-    margin-top: 1em !important;
-    margin-bottom: 1em !important;
-}
-
-/* BLOCK 3  | MEET THE HACKERATI */
-
-.who-container {
-    background: #DDDDDD;
-    overflow: hidden;
-    padding-bottom: 6em;
-}
-
-.who-content {
-    padding-top: 6em;
-    padding-bottom: 0;
-    width: 80%;
-    margin: 0 auto;
-}
-
-#who-title{
-    font-size: 0.7em;
-    width: 100%;
-    text-align: center;
-}
-
-#who-title h1,
-#how h1 {
-    margin-bottom: 0.5%;
-    font-size: 2.5em;
-    font: 4.3em/100% 'HelveticaRegular';
-    color: black;
-    padding-bottom: 0px;
-    border-bottom: 0px;
-}
-
-.who-content h2 {
-    margin-bottom: 0px;
-    font-size: 1.8em;
-    font: 2.7em/100% 'HelveticaRegular';
-    padding-bottom: 0px;
-    border-bottom: 0px;
-}
-
-#wrapper-columns p {
-    color: black;
-}
-
-.who-content #wrapper-columns h2 {
-    font-size: 1.5em;
-}
-
-.column-1,
-.column-2,
-.column-3 {
-    float:left;
-    width: 31%;
-    height: auto;
-    -webkit-transition: all 0.2s ease;
-    -moz-transition: all 0.2s ease;
-    -o-transition: all 0.2s ease;
-    -ms-transition: all 0.2s ease;
-    font: 1.15em/150% 'din-regularregular';
-}
-
-.column-2{
-    margin-left: 3%;
-}
-
-.column-3 {
-    margin-left: 3%;
-}
-
-.column-1 li, 
-.column-2 li, 
-.column-3 li {
-    text-align: left;
-    line-height: 1.1em;
-}
-
-.column-1 img, 
-.column-2 img, 
-.column-3 img {
-    width: 90%;
-    margin: 0 auto;
-    max-width: 230px;
-}
-
-#who .column-1 h2 , 
-#who .column-2 h2 ,
-#who .column-3 h2 {
-    text-align: center;
-}
-
-#who .column-1 img,
-#who .column-2 img,
-#who .column-3 img {
-    -webkit-transition: all 0.2s ease;
-    -moz-transition: all 0.2s ease;
-    -o-transition: all 0.2s ease;
-    -ms-transition: all 0.2s ease;
-    display: block;
-    width: auto;
-}
-
-#wrapper-columns {
-    margin: 0 auto;
-    display: table;
-    clear: both;
-    max-width: 980px;
-    padding-top: 5%;
-}
-
-.rollover {
-    opacity: 0;
-    font-size: 1.1em;
-    position: absolute;
-    margin-top: 100px;
-    z-index: 999;
-    text-align: center;
-    color: #FFF;
-    width: 23%;
-    display: block;
-    background-color: rgba(12, 38, 104, 0.8);
-    padding: 5px;
-    -webkit-transition: all 0.2s ease;
-    -moz-transition: all 0.2s ease;
-    -o-transition: all 0.2s ease;
-    -ms-transition: all 0.2s ease;
-}
-
-/* BLOCK 3 | ENGINEERING AS A SERVICE */
-
+/* BLOCK 2 | ENGINEERING AS A SERVICE */
 .how-container {
     padding-top: 0;
     background:#2D6296;
@@ -942,7 +809,7 @@ body > svg {
     left: 200px;
 }
 
-/* BLOCK 4 | CLIENTS */
+/* BLOCK 3 | CLIENTS */
 
 .carousel-indicators {
     bottom: -20%;
@@ -989,7 +856,7 @@ body > svg {
 .huffington-post-h3 {
 }
 
-/* BLOCK 5  | LETS TALK */
+/* BLOCK 4 | CONTACTS */
 
 .modal-open {
     padding-right: 0px !important;
@@ -1026,14 +893,6 @@ body > svg {
     margin-bottom: 0.9em;
 }
 
-.google-maps-container {
-    display: block;
-}
-
-.google-maps-container-mobile {
-    display: none;
-}
-
 #contact-content {
     position: relative;
     margin: 0px auto 0 auto;
@@ -1059,191 +918,8 @@ body > svg {
     width: 100%;
 }
 
-#google-maps-wrapper {
-    position: absolute;
-    left: 50%;
-    width: 100%;
-    height: 25em;
-    margin-left: -240%;
-    background-color: #333;
-    -webkit-border-radius: 8px;
-    -moz-border-radius: 8px;
-    -ms-border-radius: 8px;
-    -o-border-radius: 8px;
-    border-radius: 8px;
-    border-top-width: 0px;
-    border-right-width: 0px;
-    border-bottom-width: 0px;
-    border-left-width: 0px;
-    border-top-style: none;
-    border-right-style: none;
-    border-bottom-style: none;
-    border-left-style: none;
-    letter-spacing: normal;
-    vertical-align: middle;
-    word-spacing: normal;
-    font-size:1.2em;
-    -webkit-box-shadow: 0px 0px 29px -2px rgba(0,0,0,0.30);
-    -moz-box-shadow: 0px 0px 29px -2px rgba(0,0,0,0.76);
-    box-shadow: 0px 0px 29px -2px rgba(0,0,0,0.3);
-}
-
-a#google-maps-wrapper{
-    color:black;
-}
-
-#google-maps-wrapper h2,
-#google-maps-wrapper p {
-    margin:0;
-}
-
-#google-maps-wrapper p{
-    font: 1em/150% 'din-regularregular';
-}
-
-#google-maps-wrapper h2{
-    font-size:24px;
-}
-
-#google-maps-wrapper img {
-    margin-bottom: 15px;
-}
-
 #contact-content .gray-border {
     height: 4.5em;
-}
-
-/*
-====================================================== 
-RECRUITING PAGE 
-======================================================
-*/
-
-.logo-center {
-    margin-top: 2%;
-    margin-bottom: 2%;
-    margin-left:auto;
-    margin-right:auto;
-    text-align: center;
-}
-
-.logo-center img{
-    width: auto;
-    height: 7em;
-}
-
-.ss-q-title {
-    font: 1.3em/120% 'inconsolatamedium';
-}
-
-.ss-choices{
-    width: 400px;
-}
-
-.ss-choice-item{
-    float: left;
-    padding-left: 10px;
-    padding-right: 10px;
-    font: 1.1em/120% 'inconsolatamedium';
-}
-
-.mid-radio{
-    border-left: 1px solid #CCC;
-    border-right: 1px solid #CCC;
-}
-
-.ss-q-short {
-    width: 150px;
-    height: 18px; 
-}
-
-.required-message,
-.ss-required-asterisk{
-    color:#EC6314;
-    font: 1.0em/120% 'inconsolatamedium';
-}
-
-.recruit-window{
-    text-align: left;
-    max-width: 650px;
-    width: 90%;
-    color: rgb(244, 244, 244);
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.recruit-window .block-left{
-    width: 60%;
-}
-
-.recruit-window .block-right{
-    width: 35%;
-}
-
-#statue{ 
-    padding-top:8%;
-    width: 250px;
-    height: 425px;
-}
-
-/*
-====================================================== 
-BLOG PAGE 
-======================================================
-*/
-
-.post_title {
-    background-image: url('/assets/img/bgwhite.png');
-    text-shadow: none;
-    padding-top: 1em;
-    padding-bottom: 1.2em;
-    margin-bottom: 0px;
-    font: 4em/100% 'din-regularregular', sans-serif;
-    color: #2c2c2c;
-    border: none;
-}
-
-.tag_content {
-    background-image: url('/assets/img/bgwhite.png');
-}
-
-.tag_body {
-    width: 50%;
-    border-left: 5px dotted #B5B5B5;
-    margin: 0 auto;
-    padding: 2% 1% 3% 1%;
-}
-
-.archive_list {
-    font: 1.5em/100% 'din-regularregular', sans-serif;
-}
-
-.archive_list a:link {
-    color: #0078d3;
-}
-
-.archive_list a:visited {
-    color: #0078d3;
-}
-
-.archive_list_article_link {
-    font: 1.8em/100% 'din-regularregular', sans-serif;
-}
-
-.archive_list {
-    font: 1.3em/100% 'din-regularregular', sans-serif;
-}
-
-.tag_list {
-    margin-bottom: 2em;
-}
-
-.tag_list a:link {
-    color: #ec6314;
-}
-
-.tag_list a:visited {
-    color: #ec6314;
 }
 
 /*
@@ -1252,36 +928,172 @@ ABOUT PAGE
 ======================================================
 */
 
-.culture-blog {
+/* BLOCK 1  | SPLASH */
+
+.def-hackerati p {
+}
+
+.def-hackerati h1 {
+    text-align: left;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.def-part-of-speech {
+    font: 1em/100% 'HelveticaRegular' !important;
+    margin-top: 1em !important;
+    margin-bottom: 1em !important;
+}
+
+/* BLOCK 2  | ABOUT THE HACKERATI */
+
+.about-page .text-section {
     background: #2D6296;
     color: white;
-    margin-top: 3.5%;
-    padding: 2% 0;
 }
 
-.blog-text {
-    width: 80%;
-    margin: 0 auto;
-}
-
-.culture-blog p {
-    font: 2em/130% 'din-lightregular';
-}
-
-.culture-blog a:link {
+.about-page .text-block a:link {
     font: 1.4em/100% 'din-regularregular', sans-serif;
     color: #EC6314;
     transition: all 0.15s linear;
 }
 
-.culture-blog a:visited {
+.about-page .text-block a:visited {
     color: #EC6314;
 }
 
-.culture-blog a:hover {
+.about-page .text-block a:hover {
     color: #EC6314;
     text-decoration: underline;
 }
+
+/* BLOCK 3  | MEET THE HACKERATI */
+
+.who-container {
+    background: #DDDDDD;
+    overflow: hidden;
+    padding-bottom: 6em;
+}
+
+.who-content {
+    padding-top: 6em;
+    padding-bottom: 0;
+    width: 80%;
+    margin: 0 auto;
+}
+
+#who-title{
+    font-size: 0.7em;
+    width: 100%;
+    text-align: center;
+}
+
+#who-title h1,
+#how h1 {
+    margin-bottom: 0.5%;
+    font-size: 2.5em;
+    font: 4.3em/100% 'HelveticaRegular';
+    color: black;
+    padding-bottom: 0px;
+    border-bottom: 0px;
+}
+
+.who-content h2 {
+    margin-bottom: 0px;
+    font-size: 1.8em;
+    font: 2.7em/100% 'HelveticaRegular';
+    padding-bottom: 0px;
+    border-bottom: 0px;
+}
+
+#wrapper-columns p {
+    color: black;
+}
+
+.who-content #wrapper-columns h2 {
+    font-size: 1.5em;
+}
+
+.column-1,
+.column-2,
+.column-3 {
+    float:left;
+    width: 31%;
+    height: auto;
+    -webkit-transition: all 0.2s ease;
+    -moz-transition: all 0.2s ease;
+    -o-transition: all 0.2s ease;
+    -ms-transition: all 0.2s ease;
+    font: 1.15em/150% 'din-regularregular';
+}
+
+.column-2{
+    margin-left: 3%;
+}
+
+.column-3 {
+    margin-left: 3%;
+}
+
+.column-1 li, 
+.column-2 li, 
+.column-3 li {
+    text-align: left;
+    line-height: 1.1em;
+}
+
+.column-1 img, 
+.column-2 img, 
+.column-3 img {
+    width: 90%;
+    margin: 0 auto;
+    max-width: 230px;
+}
+
+#who .column-1 h2 , 
+#who .column-2 h2 ,
+#who .column-3 h2 {
+    text-align: center;
+}
+
+#who .column-1 img,
+#who .column-2 img,
+#who .column-3 img {
+    -webkit-transition: all 0.2s ease;
+    -moz-transition: all 0.2s ease;
+    -o-transition: all 0.2s ease;
+    -ms-transition: all 0.2s ease;
+    display: block;
+    width: auto;
+}
+
+#wrapper-columns {
+    margin: 0 auto;
+    display: table;
+    clear: both;
+    max-width: 980px;
+    padding-top: 5%;
+}
+
+.rollover {
+    opacity: 0;
+    font-size: 1.1em;
+    position: absolute;
+    margin-top: 100px;
+    z-index: 999;
+    text-align: center;
+    color: #FFF;
+    width: 23%;
+    display: block;
+    background-color: rgba(12, 38, 104, 0.8);
+    padding: 5px;
+    -webkit-transition: all 0.2s ease;
+    -moz-transition: all 0.2s ease;
+    -o-transition: all 0.2s ease;
+    -ms-transition: all 0.2s ease;
+}
+
+/* BLOCK 4  | TEAM PAGE */
 
 .hackeratus-founder-wrapper {
     width: 250px;
@@ -1456,6 +1268,12 @@ ACADEMY PAGE
 ======================================================
 */
 
+.academy-page .text-section {
+    background: #DDDDDD;
+}
+
+/* BLOCK 1  | SPLASH */
+
 .academy-page > .section2 {
     padding-bottom: 0;
 }
@@ -1468,15 +1286,19 @@ ACADEMY PAGE
     color:#f4f4f4;
 }
 
-.pedagogy-content-container {
-    padding-bottom: 6em;
-}
+/* BLOCK 2  | AUDIENCE */
+
+/* BLOCK 3  | SECOND SPLASH */
+
+/* BLOCK 4  | PEDAGOGY */
 
 /*
 ====================================================== 
 CAREERS PAGE 
 ======================================================
 */
+
+/* BLOCK 1  | SPLASH */
 
 .b-page-image.careers {
     background: url('../assets/img/largecooperstairs.jpg');
@@ -1502,6 +1324,27 @@ CAREERS PAGE
     vertical-align: top;
 }
 
+.careers-page .section1 p {
+    margin: 0 0 0.5em 0;
+    font: 1.2em/130% 'din-lightregular';
+}
+
+.careers-page .section1 p.apply-now-text {
+    font: 1.8em/150% 'HelveticaRegular';
+}
+
+.careers-page .section1 p.apply-now-text a {
+    font-family: 'HelveticaRegular';
+}
+
+.careers-page .section1-content-container {
+    width: 87%;
+    margin-bottom: 4em;
+    margin-top: 4em;
+    padding: 2%;
+    padding-top: 0.5%;
+}
+
 .careers-page .section1 .content-container a {
     color: #ec6314;
 }
@@ -1516,6 +1359,9 @@ CAREERS PAGE
     -moz-box-shadow: 0px 0px 29px -2px rgba(0,0,0,0.76);
     box-shadow: 0px 0px 29px -2px rgba(0,0,0,0.76);
 }
+
+/* BLOCK 2  | PERKS */
+
 .careers-page .section2 .content-container {
     padding-top: 6em;
     padding-bottom: 6em;
@@ -1523,180 +1369,11 @@ CAREERS PAGE
     font: 1.0em/120% 'inconsolatamedium';
 }
 
-.careers-page .section2 .content-container p {
+.careers-page .section2 .content-container p,
+.careers-page .section2 .content-container a {
     font: 1.9em/120% 'HelveticaRegular';
     color: #f4f4f4;
 }
-
-.careers-page .section1 p {
-    margin: 0 0 0.5em 0;
-    font: 1.2em/130% 'din-lightregular';
-}
-
-.careers-page .section1-content-container {
-    width: 87%;
-    margin-bottom: 4em;
-    margin-top: 4em;
-    padding: 2%;
-    padding-top: 0.5%;
-}
-
-.careers-page .section3 .content-container {
-    width: 80%;
-    padding-bottom: 15em;
-}
-
-.social-interstitial {
-    height: auto;
-    padding-top: 0;
-    padding-bottom: 1em;
-    background-color: #4CA0D3;
-}
-
-.social-media-sprite {
-    margin-left: 48%;
-    width: 44px;
-    height: 3.3em;
-    margin-top: 1em;
-}
-
-.google-sprite {
-    background: url('../assets/img/social-media-icons.png') no-repeat; 
-    background-position:-68.487px -15.414px;
-}
-
-.google-sprite:hover {
-    background: url('../assets/img/social-media-icons.png') no-repeat; 
-    background-position:-163.957px -16.405px;
-}
-
-.facebook-sprite {
-    background: url('../assets/img/social-media-icons.png') no-repeat; 
-    background-position:-20.584px -63.511px;
-}
-
-.facebook-sprite:hover {
-    background: url('../assets/img/social-media-icons.png') no-repeat; 
-    background-position:-116.055px -64.503px;
-}
-
-.linkedin-sprite {
-    background: url('../assets/img/social-media-icons.png') no-repeat; 
-    background-position:-68.486px -63.511px;
-}
-
-.linkedin-sprite:hover {
-    background: url('../assets/img/social-media-icons.png') no-repeat; 
-    background-position:-163.957px -64.503px;
-}
-
-.github-sprite {
-    background: url('../assets/img/social-media-icons.png') no-repeat; 
-    background-position:-20.584px -111.501px;
-}
-
-.github-sprite:hover {
-    background: url('../assets/img/social-media-icons.png') no-repeat; 
-    background-position:-116.055px -112.494px;
-}
-
-.twitter-sprite {
-    background: url('../assets/img/social-media-icons.png') no-repeat; 
-    background-position:-20.585px -15.741px;
-}
-
-.twitter-sprite:hover {
-    background: url('../assets/img/social-media-icons.png') no-repeat; 
-    background-position:-116.055px -16.733px;
-}
-
-.meetup-sprite {
-    background: url('../assets/img/social-media-icons.png') no-repeat; 
-    background-position:-68.487px -111.68px;
-}
-
-.meetup-sprite:hover {
-    background: url('../assets/img/social-media-icons.png') no-repeat; 
-    background-position:-163.957px -112.671px;
-}
-
-.interstitial-content-container {
-    height: 4.5em;
-    margin: 0 auto;
-}
-
-.i-fb,
-.i-twit,
-.i-in,
-.i-octocat,
-.i-gplus,
-.i-meetup {
-    height: 100%;
-    text-align: center;
-}
-
-.i-social-icon {
-    width: 16%;
-}
-
-.guild-copy {
-    margin: 1em 0 1em 8%;
-    font: 1.3em/150% 'din-regularregular';
-    width: 44%;
-    float: left;
-}
-
-.guild-copy p, 
-.guild-copy ul {
-    margin-bottom: 1em;
-}
-
-.guild-copy p {
-    font: 1.0em/150% 'din-regularregular';
-    color: black;
-}
-
-.guild-shield {
-    margin: 0;
-    width: 48%;
-    float: left;
-}
-
-.guild-list {
-    margin-left: auto;
-    margin-right: auto;
-    color: black;
-    height: 4.5em;
-    width: 15.1em;
-}
-
-.guild-titles {
-    float: left;
-    text-align: left;
-    width: auto;
-}
-
-.equals-signs {
-    float: left;
-    text-align: center;
-    width: 100px;
-}
-
-.guild-translations {
-    float: left;
-    text-align: left;
-    width: auto;
-}
-
-.careers-page .section1 p.apply-now-text {
-    font: 1.8em/150% 'HelveticaRegular';
-}
-
-.careers-page .section1 p.apply-now-text a {
-    font-family: 'HelveticaRegular';
-}
-    
-/* PERKS */
 
 .perks-content-container {
     text-align: center;
@@ -1838,6 +1515,208 @@ ul.insurance-list {
 .insurance-list li {
     list-style-type: circle;
     font: 1.0em/150% 'din-regularregular';
+}
+
+/*
+====================================================== 
+CONTACT PAGE 
+======================================================
+*/
+
+/* BLOCK 1  | SPLASH */
+
+/* BLOCK 2  | CONTACT */
+
+.google-maps-container {
+    display: block;
+}
+
+.google-maps-container-mobile {
+    display: none;
+}
+
+#google-maps-wrapper {
+    position: absolute;
+    left: 50%;
+    width: 100%;
+    height: 25em;
+    margin-left: -240%;
+    background-color: #333;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    border-radius: 8px;
+    border-top-width: 0px;
+    border-right-width: 0px;
+    border-bottom-width: 0px;
+    border-left-width: 0px;
+    border-top-style: none;
+    border-right-style: none;
+    border-bottom-style: none;
+    border-left-style: none;
+    letter-spacing: normal;
+    vertical-align: middle;
+    word-spacing: normal;
+    font-size:1.2em;
+    -webkit-box-shadow: 0px 0px 29px -2px rgba(0,0,0,0.30);
+    -moz-box-shadow: 0px 0px 29px -2px rgba(0,0,0,0.76);
+    box-shadow: 0px 0px 29px -2px rgba(0,0,0,0.3);
+}
+
+a#google-maps-wrapper{
+    color:black;
+}
+
+#google-maps-wrapper h2,
+#google-maps-wrapper p {
+    margin:0;
+}
+
+#google-maps-wrapper p{
+    font: 1em/150% 'din-regularregular';
+}
+
+#google-maps-wrapper h2{
+    font-size:24px;
+}
+
+#google-maps-wrapper img {
+    margin-bottom: 15px;
+}
+
+/*
+====================================================== 
+RECRUITING PAGE 
+======================================================
+*/
+
+.logo-center {
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-left:auto;
+    margin-right:auto;
+    text-align: center;
+}
+
+.logo-center img{
+    width: auto;
+    height: 7em;
+}
+
+.ss-q-title {
+    font: 1.3em/120% 'inconsolatamedium';
+}
+
+.ss-choices{
+    width: 400px;
+}
+
+.ss-choice-item{
+    float: left;
+    padding-left: 10px;
+    padding-right: 10px;
+    font: 1.1em/120% 'inconsolatamedium';
+}
+
+.mid-radio{
+    border-left: 1px solid #CCC;
+    border-right: 1px solid #CCC;
+}
+
+.ss-q-short {
+    width: 150px;
+    height: 18px; 
+}
+
+.required-message,
+.ss-required-asterisk{
+    color:#EC6314;
+    font: 1.0em/120% 'inconsolatamedium';
+}
+
+.recruit-window{
+    text-align: left;
+    max-width: 650px;
+    width: 90%;
+    color: rgb(244, 244, 244);
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.recruit-window .block-left{
+    width: 60%;
+}
+
+.recruit-window .block-right{
+    width: 35%;
+}
+
+#statue{ 
+    padding-top:8%;
+    width: 250px;
+    height: 425px;
+}
+
+
+/*
+====================================================== 
+BLOG PAGE 
+======================================================
+*/
+
+.post_title {
+    background-image: url('/assets/img/bgwhite.png');
+    text-shadow: none;
+    padding-top: 1em;
+    padding-bottom: 1.2em;
+    margin-bottom: 0px;
+    font: 4em/100% 'din-regularregular', sans-serif;
+    color: #2c2c2c;
+    border: none;
+}
+
+.tag_content {
+    background-image: url('/assets/img/bgwhite.png');
+}
+
+.tag_body {
+    width: 50%;
+    border-left: 5px dotted #B5B5B5;
+    margin: 0 auto;
+    padding: 2% 1% 3% 1%;
+}
+
+.archive_list {
+    font: 1.5em/100% 'din-regularregular', sans-serif;
+}
+
+.archive_list a:link {
+    color: #0078d3;
+}
+
+.archive_list a:visited {
+    color: #0078d3;
+}
+
+.archive_list_article_link {
+    font: 1.8em/100% 'din-regularregular', sans-serif;
+}
+
+.archive_list {
+    font: 1.3em/100% 'din-regularregular', sans-serif;
+}
+
+.tag_list {
+    margin-bottom: 2em;
+}
+
+.tag_list a:link {
+    color: #ec6314;
+}
+
+.tag_list a:visited {
+    color: #ec6314;
 }
 
 /*

@@ -59,9 +59,30 @@
     <div class="clearfix"></div>
 
     <div class="footer-column3">
+        <h4>News</h4>
+        <div class="form-inline">
+            <div class="form-group" id="firstNameGroup" style="width:49%;">
+              <input type='text' class='form-control' id='firstNameInput' placeholder='First'>
+              <label class="control-label"></label>
+              <span class="help-block" id="firstNameSpan" style="display: none">Please enter your first name</span>
+            </div>
+            <div class="form-group" id="lastNameGroup" style="width:49%;">
+              <input type='text' class='form-control' id='lastNameInput' placeholder='Last'>
+              <label class="control-label"></label>
+              <span class="help-block" id="lastNameSpan" style="display: none">Please enter your last name</span>
+            </div>
+        </div>
+        <div class="form-group" id="emailGroup">
+          <input type='email' class='form-control' id='emailInput' placeholder='Email'>
+          <label class="control-label"></label>
+          <span class="help-block" id="emailSpan" style="display: none">Please enter a valid email address</span>
+        </div>
+        <button type="button" class="btn btn-primary" id="formSubmit" style="width:100%;" onclick="postInfo()">Subscribe</button>
     </div>
 
     <div class="clearfix"></div>
+
+    <div style="position:absolute;left:0;bottom:0;width:100%;text-align:center;"><h3>©2012-2015 The Hackerati, Inc.</h3></div>
 
 {% include pingdom %}
 </div>
