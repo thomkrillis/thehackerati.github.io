@@ -1927,6 +1927,17 @@ footer .content-container {
     margin-left: 15%;
 }
 
+.mc-field-group {
+    color: white;
+}
+
+.mc-field-group input {
+    color: black;
+}
+
+.asterisk {
+    color: #EC6314;
+}
 /*
 ====================================================== 
 FONTAWESOME LIBRARY 
