@@ -595,6 +595,10 @@ HOME PAGE
     margin-top: 1em;
 }
 
+.how-h2 sup {
+    font-size: 55%;
+}
+
 .how-content p {
     font: 1.55em/150% 'din-lightregular';
     color: #f6f6f6;
@@ -834,6 +838,11 @@ body > svg {
     padding-top: 2em;
 }
 
+#clients-title {
+    margin: 0;
+    padding 0;
+}
+
 .clients-image-container {
     padding: 15px;
     line-height: 100px;
@@ -932,6 +941,10 @@ ABOUT PAGE
 ======================================================
 */
 
+.about-page sup {
+    font-size: 0.7em;
+}
+
 /* BLOCK 1  | SPLASH */
 
 .def-hackerati p {
@@ -953,6 +966,10 @@ ABOUT PAGE
 
 .about-page .text-section {
     background: #2D6296;
+    color: white;
+}
+
+.about-page .text-section h2 {
     color: white;
 }
 
@@ -1121,6 +1138,13 @@ ABOUT PAGE
     margin-bottom: 3em;
 }
 
+.hover-img {
+    height: 0;
+    width: 0;
+    visibility: hidden;
+    overflow: hidden;
+}
+
 .hackeratus {
     -webkit-transition: opacity .2s linear;
     transition: opacity .2s linear;
@@ -1286,15 +1310,53 @@ ACADEMY PAGE
     color:black;
 }
 
+.academy-page .section.section1.splash-container.academy-section1 {
+    padding: 10em 0;
+}
+
+.academy-page .academy-section1 .section1-content-container {
+    width: 50%;
+}
+
 .academy-page .section1-content-container p {
-    color:#f4f4f4;
+    color: #f4f4f4;
+    font-size: 2em;
+    font-weight: bold;
+    text-align: center;
 }
 
 /* BLOCK 2  | AUDIENCE */
 
+.academy-section2 {
+    margin-top: -2.3em;
+}
+
 /* BLOCK 3  | SECOND SPLASH */
 
+.academy-section3 {
+    height: 25vw;
+    margin-bottom: -1em;
+    background-image: url('../assets/img/academy-block.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.academy-section3 .section1-content-container {
+    height: 75%;
+    margin: 0 auto;
+}
+
+.academy-section3 .section1-content-container p {
+    font-size: 2em;
+    font-weight: bold;
+    text-align: center;
+}
+
 /* BLOCK 4  | PEDAGOGY */
+
+.academy-page .section4 {
+    margin-top: 0;
+}
 
 /*
 ====================================================== 
@@ -1529,7 +1591,50 @@ CONTACT PAGE
 
 /* BLOCK 1  | SPLASH */
 
+.contact-page .splash-container {
+    height: 33vw;
+}
+
 /* BLOCK 2  | CONTACT */
+
+.contact-section2 {
+    margin-top: 0;
+    background: #DDDDDD;
+    height: 46em;
+    padding: 1%;
+}
+
+.contact-container-section2 {
+    width: 50%;
+    float: left;
+    position: relative;
+}
+
+.contact-form-h1 {
+    margin: 3% 0 0;
+}
+
+.contact-form-h2 {
+    font-size: 2em;
+}
+
+.contact-form-container {
+    width:70%;
+    margin: 0 auto;
+    position: relative;
+}
+
+.google-maps-container-container-container {
+    width: 50%;
+    float: right;
+    position: relative;
+}
+
+.google-maps-container-container {
+    width: 80%;
+    margin: 5% auto;
+    position: relative;
+}
 
 .google-maps-container {
     display: block;
