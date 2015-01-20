@@ -856,7 +856,7 @@ body > svg {
 .huffington-post-h3 {
 }
 
-/* BLOCK 4 | CONTACTS */
+/* BLOCK 4 | CONTACT */
 
 .modal-open {
     padding-right: 0px !important;
@@ -872,7 +872,7 @@ body > svg {
 }
 
 .contact-container {
-    background: #DDDDDD;
+    background: #2D6296;
     height: 14em;
     overflow: hidden;
 }
@@ -920,6 +920,10 @@ body > svg {
 
 #contact-content .gray-border {
     height: 4.5em;
+}
+
+#contact-title {
+    color: white;
 }
 
 /*
