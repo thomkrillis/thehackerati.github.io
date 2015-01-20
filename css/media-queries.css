@@ -549,6 +549,7 @@ CSS MEDIA QUERIES FOR THEHACKERATI.COM
     }
 
     .clients-container {
+        height: 30em;
         padding-top: 0px;
     }
 
@@ -618,7 +619,7 @@ CSS MEDIA QUERIES FOR THEHACKERATI.COM
     }
 
     .contact-container {
-        height: 65em;
+        height: 15em;
     }
 
     /* SECTION 7 */
@@ -810,9 +811,27 @@ CSS MEDIA QUERIES FOR THEHACKERATI.COM
 
     /*
     ====================================================== 
+    ACADEMY PAGE 
+    ======================================================
+    */
+
+    .academy-page .section.section1.splash-container.academy-section1 {
+        padding: 4em 0;
+    }
+
+    .academy-section3 {
+        padding-top: 3em;
+    }
+
+    /*
+    ====================================================== 
     FOOTER PAGE 
     ======================================================
     */
+
+    footer {
+        height: 44em;
+    }
 
     .mobile-copyright-madeny { 
         display: block;
@@ -1657,7 +1676,7 @@ CSS MEDIA QUERIES FOR THEHACKERATI.COM
     }
 
     .contact-container {
-        height: 38em;
+        height: 22em;
     }
 
     .google-maps-container {
