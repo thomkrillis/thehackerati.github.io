@@ -278,7 +278,7 @@ li {
 
 .text-section {
     margin-top: 3.5%;
-    padding: 2% 0;
+    padding: 2.2% 0;
 }
 
 .text-section .text-block {
@@ -365,7 +365,7 @@ li {
     height: auto;
     display: inline-block;
     position:relative;
-    padding-top: 6.85em;
+    padding-top: 3em;
 }
 
 .block-right {
@@ -993,11 +993,11 @@ ABOUT PAGE
 .who-container {
     background: #DDDDDD;
     overflow: hidden;
-    padding-bottom: 6em;
+    padding-bottom: 2em;
 }
 
 .who-content {
-    padding-top: 6em;
+    padding-top: 2em;
     padding-bottom: 0;
     width: 80%;
     margin: 0 auto;
@@ -1311,11 +1311,11 @@ ACADEMY PAGE
 }
 
 .academy-page .section.section1.splash-container.academy-section1 {
-    padding: 10em 0;
+    padding: 11% 0;
 }
 
 .academy-page .academy-section1 .section1-content-container {
-    width: 50%;
+    width: 35em;
 }
 
 .academy-page .section1-content-container p {
@@ -1335,21 +1335,23 @@ ACADEMY PAGE
 
 .academy-section3 {
     height: 25vw;
-    margin-bottom: -1em;
+    margin-bottom: -0.2em;
     background-image: url('../assets/img/academy-block.jpg');
     background-size: contain;
     background-repeat: no-repeat;
 }
 
 .academy-section3 .section1-content-container {
-    height: 75%;
+    height: auto;
     margin: 0 auto;
 }
 
 .academy-section3 .section1-content-container p {
+    font: 2em/150% 'din-lightregular';
     font-size: 2em;
     font-weight: bold;
     text-align: center;
+    margin: 1em 0;
 }
 
 /* BLOCK 4  | PEDAGOGY */
@@ -1429,15 +1431,14 @@ CAREERS PAGE
 /* BLOCK 2  | PERKS */
 
 .careers-page .section2 .content-container {
-    padding-top: 6em;
-    padding-bottom: 6em;
+    padding: 2.2% 0 3%;
     width: 1006px;
     font: 1.0em/120% 'inconsolatamedium';
 }
 
 .careers-page .section2 .content-container p,
 .careers-page .section2 .content-container a {
-    font: 1.9em/120% 'HelveticaRegular';
+    font-family: 'HelveticaRegular';
     color: #f4f4f4;
 }
 
@@ -1583,6 +1584,10 @@ ul.insurance-list {
     font: 1.0em/150% 'din-regularregular';
 }
 
+.btn-pos {
+    margin-top: 3%;
+}
+
 /*
 ====================================================== 
 CONTACT PAGE 
@@ -1638,6 +1643,7 @@ CONTACT PAGE
 
 .google-maps-container {
     display: block;
+    margin-top: 11em;
 }
 
 .google-maps-container-mobile {
@@ -1646,7 +1652,8 @@ CONTACT PAGE
 
 #google-maps-wrapper {
     position: absolute;
-    left: 50%;
+    top: 0;
+    right: 0;
     width: 100%;
     height: 25em;
     margin-left: -240%;
@@ -1963,13 +1970,13 @@ footer .content-container {
 
 .footer-column3 {
     padding: 0 0.5%;
+    margin-left: 1.5%;
     width: 30%;
     float: left;
 }
 
 .footer-column1 {
     margin-left: 2%;
-    padding-left: 2%;
     width: 25%;
     float: left;
 }
@@ -2046,6 +2053,15 @@ footer .content-container {
 
 .asterisk {
     color: #EC6314;
+}
+
+#mc_embed_signup .button {
+    background-color: #4CA0D3 !important;
+}
+
+#mc_embed_signup .button:hover {
+    background-color: #3895CE !important;
+    text-decoration: underline;
 }
 /*
 ====================================================== 

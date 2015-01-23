@@ -62,10 +62,6 @@ CSS MEDIA QUERIES FOR THEHACKERATI.COM
         width: 980px; 
     }
 
-    #wrapper-columns h2 {
-        font: 1.5em/100% 'inconsolatamedium'; 
-    }
-
     #who-title h1 {
         font: 5em/100% 'HelveticaRegular';
     }
@@ -535,7 +531,6 @@ CSS MEDIA QUERIES FOR THEHACKERATI.COM
 
     .who-content { 
         width: 75%; 
-        padding-top: 6em;
     } 
 
     .what-container h1 {
@@ -858,7 +853,7 @@ CSS MEDIA QUERIES FOR THEHACKERATI.COM
     }
 
     .footer-column2 { 
-        width: 23%; 
+        width: 30%; 
     }
 
     .footer-share { 
