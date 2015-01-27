@@ -371,7 +371,7 @@ CSS MEDIA QUERIES FOR THEHACKERATI.COM
     }
 
     nav a { 
-        margin-left: 1.0em; 
+        margin-left: 0.5em; 
     }
 
     .nav-links {
@@ -544,8 +544,8 @@ CSS MEDIA QUERIES FOR THEHACKERATI.COM
     }
 
     .clients-container {
-        height: 30em;
         padding-top: 0px;
+        padding-bottom: 0px;
     }
 
     /* SECTION 3 */
@@ -804,6 +804,10 @@ CSS MEDIA QUERIES FOR THEHACKERATI.COM
         width: auto; 
     }
 
+    .careers-page .section2 .content-container a {
+        margin-bottom: 1em;
+    }
+
     /*
     ====================================================== 
     ACADEMY PAGE 
@@ -811,11 +815,11 @@ CSS MEDIA QUERIES FOR THEHACKERATI.COM
     */
 
     .academy-page .section.section1.splash-container.academy-section1 {
-        padding: 4em 0;
+        padding: 8em 0;
     }
 
     .academy-section3 {
-        padding-top: 3em;
+        padding-top: 1em;
     }
 
     /*
@@ -874,6 +878,14 @@ CSS MEDIA QUERIES FOR THEHACKERATI.COM
 @media only screen and (max-width : 1024px) and (orientation : portrait) {
     .teambio {
         width: 490px;
+    }
+
+    .content-container {
+        font-size: 1em;
+    }
+
+    .academy-section3 {
+        padding-top: 0;
     }
 }
 
@@ -1095,6 +1107,10 @@ CSS MEDIA QUERIES FOR THEHACKERATI.COM
 
     /* SECTION 3 */
 
+    .clients-container {
+        padding-bottom: 6em;
+    }
+
     .what-content { 
         width: 75%; 
     }
@@ -1116,8 +1132,6 @@ CSS MEDIA QUERIES FOR THEHACKERATI.COM
     .how-content h1 {
         margin-top: 0;
     }
-
-    /* UP TO HERE */
 
     /* SECTION 5 */
 
@@ -1141,7 +1155,7 @@ CSS MEDIA QUERIES FOR THEHACKERATI.COM
     }
 
     .contact-container {
-        height: 58em;
+        height: 18em;
     }
 
     .google-maps-container {
@@ -1387,6 +1401,10 @@ CSS MEDIA QUERIES FOR THEHACKERATI.COM
     ======================================================
     */
     
+    .footer-section {
+        height: 36em;
+    }
+
     .footer-column1 { 
         width: 100%; 
         text-align:center; 

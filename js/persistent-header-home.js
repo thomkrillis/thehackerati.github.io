@@ -1,5 +1,5 @@
 $(document).ready(function() {
-  if(/Android|webOS|iPhone|iPod|BlackBerry/i.test(navigator.userAgent)) {}
+  if( /iPad/i.test(navigator.userAgent) || ( /Android/i.test(navigator.userAgent) && window.innerWidth > 480) ) {}
   else {
     window.onscroll = function () {
       var scrollPos = window.pageYOffset;

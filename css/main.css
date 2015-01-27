@@ -572,7 +572,7 @@ HOME PAGE
 
 /* BLOCK 2 | ENGINEERING AS A SERVICE */
 .how-container {
-    padding-top: 0;
+    padding: 1em 0;
     background:#2D6296;
     overflow: hidden;
     -webkit-box-shadow: inset 0px -8px 29px 10px rgba(0, 0, 0, .1);
@@ -2040,7 +2040,12 @@ footer .content-container {
 }
 
 .h-watermark {
-    margin-left: 15%;
+    text-align: center;
+    margin-right: 10%;
+}
+
+.h-watermark img {
+    height: 5em;
 }
 
 .mc-field-group {
