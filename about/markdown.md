@@ -7,7 +7,7 @@ title: About | The Hackerati
 
 	# Our Story #
 
-	The Hackerati exists because a few hackers found themselves with an unquenchable thirst to build cool and innovative stuff! We quickly discovered that businesses really need hackers to stay competitive in this increasingly connected and data-driven world. Lots of hackers. More than they can easily find. So we developed an immediate mission to help address the shortage of qualified engineering talent in today's world. The Hackerati is fulfilling this mission by offering Engineering as a Service, The Hackerati Academy, and The Hackerati Labs.
+	The Hackerati exists because a few hackers found themselves with an unquenchable thirst to build cool and innovative stuff! We quickly discovered that businesses really need hackers to stay competitive in this increasingly connected and data-driven world. Lots of hackers. More than they can easily find. So we developed an immediate mission to help address the shortage of qualified engineering talent in today's world. The Hackerati is fulfilling this mission by offering Engineering as a Service, Hackerati Academy, and Hackerati Labs.
 
 </div>
 

@@ -82,6 +82,13 @@ main {
     margin: 0 auto;
 }
 
+.pre-footer .logo {
+    width: 30%;
+}
+
+.pre-footer .nav-links {
+    width: 68%;
+}
 }
 
 /* iPad Portrait */
@@ -175,6 +182,10 @@ p {
 	visibility: visible;
 	height: 28px;
 	margin-right: 1%;
+}
+
+.pre-footer {
+    display: none;
 }
 
 }
