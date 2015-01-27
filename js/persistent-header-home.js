@@ -27,7 +27,7 @@ $(window).on("touchmove", function() {
   var scrollPos = window.pageYOffset;
   var offsetHeight = 65;
 
-  if(window.innerWidth < 768) {
+  if(window.innerWidth < 768 || /iPad/i.test(navigator.userAgent) || ( /Android/i.test(navigator.userAgent) && window.innerWidth > 480) ) {
   }
   else if(scrollPos >= offsetHeight){
     document.getElementById('content-container').style.marginTop = "0";
@@ -44,7 +44,7 @@ $(window).on("touchmove", function() {
 })
 
 $(window).on('resize', function() {
-  if(window.innerWidth < 768) {
+  if(window.innerWidth < 768 || /iPad/i.test(navigator.userAgent) || ( /Android/i.test(navigator.userAgent) && window.innerWidth > 480) ) {
   }
   else if(scrollPos >= offsetHeight){
     document.getElementById('content-container').style.marginTop = "0";
