@@ -1316,6 +1316,7 @@ ACADEMY PAGE
 
 .academy-page .academy-section1 .section1-content-container {
     width: 35em;
+    max-width: 100%;
 }
 
 .academy-page .section1-content-container p {

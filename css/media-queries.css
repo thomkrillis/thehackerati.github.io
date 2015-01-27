@@ -9,13 +9,13 @@ CSS MEDIA QUERIES FOR THEHACKERATI.COM
 @media all and (min-width: 1200px) {
 
     /*
-    ====================================================== 
+    ======================================================
     GENERAL
     ======================================================
     */
 
     .block-mobile {
-        display: none; 
+        display: none;
     }
 
     .content-container {
@@ -27,7 +27,7 @@ CSS MEDIA QUERIES FOR THEHACKERATI.COM
     }
 
     /* HEADER */
-    
+
     .nav-links {
         text-align: right;
         width: 45%;
@@ -39,7 +39,7 @@ CSS MEDIA QUERIES FOR THEHACKERATI.COM
     }
 
     /*
-    ====================================================== 
+    ======================================================
     HOME PAGE
     ======================================================
     */
@@ -59,7 +59,7 @@ CSS MEDIA QUERIES FOR THEHACKERATI.COM
     /* SECTION 3 */
 
     .who-content {
-        width: 980px; 
+        width: 980px;
     }
 
     #who-title h1 {
@@ -67,13 +67,13 @@ CSS MEDIA QUERIES FOR THEHACKERATI.COM
     }
 
     #who-title h2 {
-        font: 3.0em/100% 'HelveticaRegular'; 
+        font: 3.0em/100% 'HelveticaRegular';
     }
 
     /* SECTION 4 */
 
     .how-content {
-        width: 980px; 
+        width: 980px;
     }
 
     .how-content .block-left {
@@ -83,18 +83,18 @@ CSS MEDIA QUERIES FOR THEHACKERATI.COM
     /* SECTION 5 */
 
     .clients-content {
-        width: 948px; 
+        width: 948px;
     }
 
     /* SECTION 6 */
 
     #contact-content {
-        width: 980px; 
+        width: 980px;
     }
 
     /*
-    ====================================================== 
-    ABOUT PAGE 
+    ======================================================
+    ABOUT PAGE
     ======================================================
     */
 
@@ -120,18 +120,18 @@ CSS MEDIA QUERIES FOR THEHACKERATI.COM
     }
 
     /*
-    ====================================================== 
-    ACADEMY PAGE 
+    ======================================================
+    ACADEMY PAGE
     ======================================================
     */
 
     .academy-page .block-right img {
-        width: auto; 
+        width: auto;
     }
 
     /*
-    ====================================================== 
-    BLOG 
+    ======================================================
+    BLOG
     ======================================================
     */
 
@@ -140,8 +140,8 @@ CSS MEDIA QUERIES FOR THEHACKERATI.COM
     }
 
     /*
-    ====================================================== 
-    CAREERS PAGE 
+    ======================================================
+    CAREERS PAGE
     ======================================================
     */
 
@@ -150,15 +150,15 @@ CSS MEDIA QUERIES FOR THEHACKERATI.COM
     }
 
     .perks-cell {
-        position: relative; 
-        width: 300px; 
-        height: 21.4em; 
-        margin: 30px; 
-        float: left; 
+        position: relative;
+        width: 300px;
+        height: 21.4em;
+        margin: 30px;
+        float: left;
     }
-    
+
     .careers-page .section2 .content-container p {
-        font: 2.1em/120% 'HelveticaRegular'; 
+        font: 2.1em/120% 'HelveticaRegular';
         color: #f4f4f4;
     }
 
@@ -169,10 +169,10 @@ CSS MEDIA QUERIES FOR THEHACKERATI.COM
     .careers-page .section3 .content-container {
         width: 948px;
     }
-    
+
     .perks-copy li {
-        list-style-type: disc; 
-        font: 1.4em/150% 'din-regularregular'; 
+        list-style-type: disc;
+        font: 1.4em/150% 'din-regularregular';
     }
 
     .insurance-list li {
@@ -181,12 +181,12 @@ CSS MEDIA QUERIES FOR THEHACKERATI.COM
     }
 
     .guild-copy {
-        margin: 1em 0 1em 2%; 
-        font: 1.4em/150% 'din-regularregular'; 
-        width: 50%; 
-        float: left; 
+        margin: 1em 0 1em 2%;
+        font: 1.4em/150% 'din-regularregular';
+        width: 50%;
+        float: left;
     }
-    
+
     .careers-page .section1-content-container {
         width: 1030.9375px;
     }
@@ -199,102 +199,102 @@ CSS MEDIA QUERIES FOR THEHACKERATI.COM
     }
 
     .google-sprite {
-        background: url('../assets/img/social-media-icons.png') no-repeat; 
+        background: url('../assets/img/social-media-icons.png') no-repeat;
         background-position: -68.487px -15.414px;
     }
 
     .google-sprite:hover {
-        background: url('../assets/img/social-media-icons.png') no-repeat; 
+        background: url('../assets/img/social-media-icons.png') no-repeat;
         background-position: -163.957px -16.405px;
     }
 
     .facebook-sprite {
-        background: url('../assets/img/social-media-icons.png') no-repeat; 
+        background: url('../assets/img/social-media-icons.png') no-repeat;
         background-position: -20.584px -63.511px;
     }
 
     .facebook-sprite:hover {
-        background: url('../assets/img/social-media-icons.png') no-repeat; 
+        background: url('../assets/img/social-media-icons.png') no-repeat;
         background-position: -116.055px -64.503px;
     }
 
     .linkedin-sprite {
-        background: url('../assets/img/social-media-icons.png') no-repeat; 
+        background: url('../assets/img/social-media-icons.png') no-repeat;
         background-position: -67.486px -63.511px;
     }
 
     .linkedin-sprite:hover {
-        background: url('../assets/img/social-media-icons.png') no-repeat; 
+        background: url('../assets/img/social-media-icons.png') no-repeat;
         background-position: -163.957px -64.503px;
     }
 
     .github-sprite {
-        background: url('../assets/img/social-media-icons.png') no-repeat; 
+        background: url('../assets/img/social-media-icons.png') no-repeat;
         background-position: -20.584px -111.501px;
     }
 
     .github-sprite:hover {
-        background: url('../assets/img/social-media-icons.png') no-repeat; 
+        background: url('../assets/img/social-media-icons.png') no-repeat;
         background-position: -116.055px -112.494px;
     }
 
     .twitter-sprite {
-        background: url('../assets/img/social-media-icons.png') no-repeat; 
+        background: url('../assets/img/social-media-icons.png') no-repeat;
         background-position: -20.585px -15.741px;
     }
 
     .twitter-sprite:hover {
-        background: url('../assets/img/social-media-icons.png') no-repeat; 
+        background: url('../assets/img/social-media-icons.png') no-repeat;
         background-position: -116.055px -16.733px;
     }
 
     .meetup-sprite {
-        background: url('../assets/img/social-media-icons.png') no-repeat; 
+        background: url('../assets/img/social-media-icons.png') no-repeat;
         background-position: -68.487px -111.68px;
     }
 
     .meetup-sprite:hover {
-        background: url('../assets/img/social-media-icons.png') no-repeat; 
+        background: url('../assets/img/social-media-icons.png') no-repeat;
         background-position: -163.957px -112.671px;
     }
 
     /*
-    ====================================================== 
-    FOOTER 
+    ======================================================
+    FOOTER
     ======================================================
     */
-    
+
     footer .content-container {
-        width: 1080px; 
+        width: 1080px;
     }
 
     .footer-column3 {
-        padding: 0; 
+        padding: 0;
     }
 
 }
 
-/* BIG TABLET 
+/* BIG TABLET
 ####################################################################*/
 
 @media only screen and (max-width : 1024px) {
 
     /*
-    GENERAL 
+    GENERAL
     */
 
     .tablet {
-        display: inline-block; 
+        display: inline-block;
     }
 
     .desktop {
-        display: none;  
+        display: none;
     }
 
     .section1 h3 {
-        font: 1.8em/100% 'din-regularregular';   
-        text-align: center; 
-        width: auto; 
+        font: 1.8em/100% 'din-regularregular';
+        text-align: center;
+        width: auto;
         margin: 0 4.4em .5em 4.4em;
     }
 
@@ -312,12 +312,12 @@ CSS MEDIA QUERIES FOR THEHACKERATI.COM
     }
 
     .block-mobile {
-        display: block; 
+        display: block;
         text-align: center;
     }
 
     .block-desktop {
-        display: none; 
+        display: none;
     }
 
     #feedback {
@@ -325,8 +325,8 @@ CSS MEDIA QUERIES FOR THEHACKERATI.COM
     }
 
     /*
-    ====================================================== 
-    HEADER 
+    ======================================================
+    HEADER
     ======================================================
     */
 
@@ -354,7 +354,7 @@ CSS MEDIA QUERIES FOR THEHACKERATI.COM
 
     .welcome-image img {
 
-    }   
+    }
 
     .logo {
         width: auto;
@@ -370,8 +370,8 @@ CSS MEDIA QUERIES FOR THEHACKERATI.COM
         padding-top: 0;
     }
 
-    nav a { 
-        margin-left: 0.5em; 
+    nav a {
+        margin-left: 0.5em;
     }
 
     .nav-links {
@@ -385,8 +385,8 @@ CSS MEDIA QUERIES FOR THEHACKERATI.COM
     }
 
     /*
-    ====================================================== 
-    HOME PAGE 
+    ======================================================
+    HOME PAGE
     ======================================================
     */
 
@@ -397,76 +397,77 @@ CSS MEDIA QUERIES FOR THEHACKERATI.COM
         width: 100%;
         text-align: center;
     }
-    
-    .welcome-container { 
-        padding-top: 20em; 
+
+    .welcome-container {
+        padding-top: 20em;
     }
 
-    .welcome-container .nav-links { 
-        float: left;    
-        text-align: center; 
+    .welcome-container .nav-links {
+        float: left;
+        text-align: center;
     }
 
-    .welcome-container .content-container nav { 
-        font: 2.5em/100% 'inconsolatamedium'; 
-        margin-top: 1.5em;    
-        padding-top: 0; 
+    .welcome-container .content-container nav {
+        font: 2.5em/100% 'inconsolatamedium';
+        margin-top: 1.5em;
+        padding-top: 0;
         padding-bottom: 0.5em;
     }
 
     .content-container .nav-links a:link {
         font: 0.9em/100% 'HelveticaRegular';
     }
-   
+
     .content-container .nav-links a:visited {
         text-decoration: none;
     }
-    
+
     .content-container .nav-links a:hover {
         text-decoration: none;
         color: #EC6314;
     }
-    .welcome-container nav a {  
-        margin-left: 1.0em; 
+
+    .welcome-container nav a {
+        margin-left: 1.0em;
     }
 
-    .welcome-container .block-left { 
-        width: 100%;    
+    .welcome-container .block-left {
+        width: 100%;
     }
 
-    #type-command-one, 
-    #type-command-two, 
-    #type-command-three { 
+    #type-command-one,
+    #type-command-two,
+    #type-command-three {
         display: none;
     }
 
-    .terminal-buttons { 
-        text-align: center; 
-        width: 100%; 
+    .terminal-buttons {
+        text-align: center;
+        width: 100%;
         margin-top: 5em;
     }
 
     .terminal-window a {
-        font-size: 1.2em; 
-        padding: 15px 18px; 
-        margin-left: 3%; 
+        font-size: 1.2em;
+        padding: 15px 18px;
+        margin-left: 3%;
         margin-right: 3%;
     }
 
-    .nav-links .about-link { 
-        margin-left: 0.3em; 
+    .nav-links .about-link {
+        margin-left: 0.3em;
     }
 
-    .welcome-content { 
-        width: 75%; 
+    .welcome-content {
+        width: 75%;
         margin-top: 0;
     }
 
-    .left-slider-button { 
+    .left-slider-button {
         display: none;
     }
 
-    .right-slider-button { 
+    .right-slider-button {
         display: none;
     }
 
@@ -478,32 +479,32 @@ CSS MEDIA QUERIES FOR THEHACKERATI.COM
 
     /* SECTION 2 */
 
-    #who-title, 
-    #who-info { 
-        width: 100%; 
-        float: none; 
-        clear: both; 
+    #who-title,
+    #who-info {
+        width: 100%;
+        float: none;
+        clear: both;
         display: block;
         border-left: 0;
     }
 
-    #who-title { 
+    #who-title {
         text-align: center;
     }
 
-    #who-title h2 { 
-        text-align: center; 
+    #who-title h2 {
+        text-align: center;
         padding-bottom: 3.5%;
     }
 
-    #who .column-1, 
+    #who .column-1,
     #who .column-2,
     #who .column-3 {
         width: 100%;
         max-width: 100%;
         height: auto;
         margin-left: 0;
-        margin-top: 0; 
+        margin-top: 0;
         margin-bottom: 2em;
     }
 
@@ -511,11 +512,11 @@ CSS MEDIA QUERIES FOR THEHACKERATI.COM
         text-align: center;
     }
 
-    #wrapper-columns .column-1 p:nth-child(2), 
-    #wrapper-columns .column-2 p:nth-child(2), 
+    #wrapper-columns .column-1 p:nth-child(2),
+    #wrapper-columns .column-2 p:nth-child(2),
     #wrapper-columns .column-3 p:nth-child(2) {
         display: none;
-    } 
+    }
 
     #who .column-1:hover .rollover,
     #who .column-2:hover .rollover,
@@ -529,9 +530,9 @@ CSS MEDIA QUERIES FOR THEHACKERATI.COM
         opacity: 1;
     }
 
-    .who-content { 
-        width: 75%; 
-    } 
+    .who-content {
+        width: 75%;
+    }
 
     .what-container h1 {
         margin-top: 50px;
@@ -551,30 +552,30 @@ CSS MEDIA QUERIES FOR THEHACKERATI.COM
     /* SECTION 3 */
 
     .what-cards-mobile{
-        display: block; 
+        display: block;
         width: 100%;
     }
 
-    .what-cards-mobile h1 { 
+    .what-cards-mobile h1 {
         font: 3.5em/120% 'HelveticaRegular';
     }
 
-    .what-cards-mobile h3 { 
-        font: 1.8em/120% 'HelveticaRegular'; 
-        text-align: center; 
+    .what-cards-mobile h3 {
+        font: 1.8em/120% 'HelveticaRegular';
+        text-align: center;
     }
 
-    .what-cards-mobile p { 
-        font: 1.3em/150% 'din-lightregular'; 
+    .what-cards-mobile p {
+        font: 1.3em/150% 'din-lightregular';
     }
 
     #carousel-wrapper,
-    #carousel-buttons { 
-        display: none; 
+    #carousel-buttons {
+        display: none;
     }
 
-    .what-content { 
-        width: 75%; 
+    .what-content {
+        width: 75%;
     }
 
     /* SECTION 4 */
@@ -585,16 +586,16 @@ CSS MEDIA QUERIES FOR THEHACKERATI.COM
         display:none;
     }
 
-    .how-content .block-left { 
-        width: 100%; 
+    .how-content .block-left {
+        width: 100%;
         max-width: none;
     }
 
-    .how-content { 
-        width: 75%; 
+    .how-content {
+        width: 75%;
     }
 
-    #how h1 { 
+    #how h1 {
         width: 100%;
         text-align: center;
     }
@@ -609,23 +610,17 @@ CSS MEDIA QUERIES FOR THEHACKERATI.COM
 
     /* SECTION 6 */
 
-    #contact-content { 
-        width: 75%; 
+    #contact-content {
+        width: 75%;
     }
 
     .contact-container {
         height: 15em;
     }
 
-    /* SECTION 7 */
-
-    #google-maps-wrapper { 
-        top: 14em; 
-    }
-
     /*
-    ====================================================== 
-    ABOUT PAGE 
+    ======================================================
+    ABOUT PAGE
     ======================================================
     */
 
@@ -696,112 +691,116 @@ CSS MEDIA QUERIES FOR THEHACKERATI.COM
     }
 
     /*
-    ====================================================== 
-    CAREERS PAGE 
+    ======================================================
+    CAREERS PAGE
     ======================================================
     */
 
+    .careers-page .content-container.section1-content-container > img {
+        padding: 0;
+    }
+
     .careers-page .section1 p {
-        text-align: center; 
+        text-align: center;
     }
 
     .careers-page .section2 .content-container {
         width: 80%;
     }
-    
-    .testimonial-copy-mobile { 
-        width: 100%; 
+
+    .testimonial-copy-mobile {
+        width: 100%;
         display: block;
     }
-    
-    .testimonial-img { 
-        display: block; 
-        width: 100%; 
+
+    .testimonial-img {
+        display: block;
+        width: 100%;
         margin: 2em 0;
     }
-    
-    .perks-copy li { 
-        font: 1.4em/150% 'din-regularregular'; 
+
+    .perks-copy li {
+        font: 1.4em/150% 'din-regularregular';
     }
-   
+
     .insurance-list li {
         font: 1em/150% 'din-regularregular';
     }
-   
-    .perks-cell {  
-        margin: 30px; 
+
+    .perks-cell {
+        margin: 30px;
         float: none;
     }
-    
-    .guild-shield, 
-    .guild-copy { 
-        float: none; 
-        width: 100%; 
+
+    .guild-shield,
+    .guild-copy {
+        float: none;
+        width: 100%;
     }
-    
-    .guild-shield { 
-        text-align: center; 
+
+    .guild-shield {
+        text-align: center;
     }
-    
-    .guild-copy { 
+
+    .guild-copy {
         font: 1.4em/150% 'din-regularregular';
-        margin: 1em 0; 
+        margin: 1em 0;
     }
-    
-    .academy-page #section2-anchor-link .block-left { 
-        width: 100%; 
+
+    .academy-page #section2-anchor-link .block-left {
+        width: 100%;
     }
-    
-    .academy-page #section2-anchor-link .block-mobile { 
-        text-align: center; 
+
+    .academy-page #section2-anchor-link .block-mobile {
+        text-align: center;
     }
-    
-    .careers-page .section1-content-container { 
+
+    .careers-page .section1-content-container {
         width: 657px;
     }
-    
-    .perks-copy { 
-        position: relative; 
-        float: left; 
-        left: 4em; 
-        width: 50%; 
+
+    .perks-copy {
+        position: relative;
+        float: left;
+        left: 4em;
+        width: 50%;
     }
-    
-    .perks-icon { 
-        position: relative; 
-        width: 294px; 
-        height: 21em; 
+
+    .perks-icon {
+        position: relative;
+        width: 294px;
+        height: 21em;
         float: left;
     }
-    
+
     .perks-cell {
-        float:none; 
-        width: 100%; 
-        height: 23em; 
-        margin-left: auto; 
+        float:none;
+        width: 100%;
+        height: 23em;
+        margin-left: auto;
         margin-right: auto;
     }
-    
-    .careers-page .section2 .block-mobile { 
-        padding-bottom: 5em; 
+
+    .careers-page .section2 .block-mobile {
+        padding-bottom: 5em;
     }
-    
-    .careers-page .section2 .content-container { 
-        padding-top: 7em; 
-        padding-bottom: 0em; 
+
+    .careers-page .section2 .content-container {
+        padding-top: 3em;
+        padding-bottom: 0em;
     }
-    
-    .perks-cell { 
-        margin-top: 0em; 
-        margin-bottom: 0em; 
+
+    .perks-cell {
+        margin-top: 0em;
+        margin-bottom: 0em;
     }
-    
-    .careers-page .section2 h2 { 
-        margin-bottom: 0.7em; 
+
+    .careers-page .section2 h2 {
+        margin-bottom: 0.7em;
     }
-    
-    .perks-cell img { 
-        width: auto; 
+
+    .perks-cell img {
+        width: auto;
     }
 
     .careers-page .section2 .content-container a {
@@ -809,8 +808,8 @@ CSS MEDIA QUERIES FOR THEHACKERATI.COM
     }
 
     /*
-    ====================================================== 
-    ACADEMY PAGE 
+    ======================================================
+    ACADEMY PAGE
     ======================================================
     */
 
@@ -823,8 +822,8 @@ CSS MEDIA QUERIES FOR THEHACKERATI.COM
     }
 
     /*
-    ====================================================== 
-    FOOTER PAGE 
+    ======================================================
+    FOOTER PAGE
     ======================================================
     */
 
@@ -832,45 +831,49 @@ CSS MEDIA QUERIES FOR THEHACKERATI.COM
         height: 44em;
     }
 
-    .mobile-copyright-madeny { 
+    .mobile-copyright-madeny {
         display: block;
     }
 
-    .footer-madeny { 
+    .footer-madeny {
         margin-left: 0;
     }
 
-    footer .content-container { 
-        width: 94%; 
+    footer .content-container {
+        width: 94%;
     }
 
-    .footer-column1 { 
-        width: 32%; 
+    .footer-column1 {
+        width: 32%;
     }
 
-    .footer-column1 .fa-phone { 
-        display: none; 
+    .footer-column1 .fa-phone {
+        display: none;
     }
 
-    .footer-column1 .fa-envelope{ 
-        display: none; 
+    .footer-column1 .fa-envelope{
+        display: none;
     }
 
-    .footer-column2 { 
-        width: 30%; 
+    .h-watermark img {
+        height: 8em;
     }
 
-    .footer-share { 
-        width: 60%; 
+    .footer-column2 {
+        width: 30%;
+    }
+
+    .footer-share {
+        width: 60%;
         margin-bottom: 3em;
     }
 
-    .footer-contact { 
-        width: 80%; 
+    .footer-contact {
+        width: 80%;
     }
 
-    .footer-sprite { 
-        margin-bottom: 0.7em; 
+    .footer-sprite {
+        margin-bottom: 0.7em;
     }
 
 }
@@ -887,6 +890,30 @@ CSS MEDIA QUERIES FOR THEHACKERATI.COM
     .academy-section3 {
         padding-top: 0;
     }
+
+    .contact-section2 {
+        height: 85em;
+    }
+
+    .contact-container-section2 {
+        width: 100%;
+    }
+
+    .contact-form-container {
+        width: 50%
+    }
+
+    .google-maps-container-container-container {
+        width: 100%;
+    }
+
+    .google-maps-container-container {
+        width: 60%;
+    }
+
+    .google-maps-container {
+        margin: 0;
+    }
 }
 
 /* SMALL TABLET/BIG SMARTPHONE
@@ -895,22 +922,22 @@ CSS MEDIA QUERIES FOR THEHACKERATI.COM
 @media only screen and (max-width : 767px) {
 
     /*
-    GENERAL 
+    GENERAL
     */
-   
+
     input {
         width: 96% !important;
     }
-   
+
     .welcome-copy-first {
         margin-bottom: 1em;
         font: 2.8em/130% 'HelveticaRegular', sans-serif;
     }
-    
+
     .welcome-copy-second {
         font: 2em/130% 'din-lightregular', sans-serif;
     }
-   
+
     .welcome-image {
         text-align: center;
     }
@@ -919,7 +946,7 @@ CSS MEDIA QUERIES FOR THEHACKERATI.COM
         display: inline;
     }
 
-    .phones-only { 
+    .phones-only {
         display: block;
     }
 
@@ -927,102 +954,103 @@ CSS MEDIA QUERIES FOR THEHACKERATI.COM
         display: none;
     }
 
-    .tablet { 
+    .tablet {
         display: inline-block;
     }
 
-    .careers-page .section1 p { 
-        text-align: center; 
+    .careers-page .section1 p {
+        text-align: center;
     }
 
     .section3 .content-container {
         padding-top: 0;
     }
 
-    .block-right, 
-    .block-left { 
-        width: 100%; 
-        float: none; 
-        clear: both; 
-        padding-top: 5%; 
+    .block-right,
+    .block-left {
+        width: 100%;
+        float: none;
+        clear: both;
+        padding-top: 5%;
         padding-bottom: 5%;
     }
 
-    .block-right img, 
-    .block-left img { 
-        width: auto; 
+    .block-right img,
+    .block-left img {
+        width: auto;
     }
 
-    .section1-content-container { 
-        margin-top: 4em; 
-        margin-bottom: 2em; 
-        background: none; 
+    .section1-content-container {
+        margin-top: 4em;
+        margin-bottom: 0;
+        background: none;
+        color: black;
     }
 
-    .section.section1.splash-container { 
-        display: block; 
-        background: #2D6296 url('../assets/img/bgdarkblue.png') repeat; 
-        min-height: 0px; 
-        padding: 0;
+    .about-page.section.section1.splash-container {
+        display: block;
+        background: #DDDDDD;
+        min-height: 0px;
+        padding-top: 1em;
     }
 
-    .block-desktop { 
-        display: none; 
+    .block-desktop {
+        display: none;
     }
 
-    .block-mobile { 
-        display: block; 
+    .block-mobile {
+        display: block;
     }
 
-    .block-mobile img { 
-        width: 50%; 
+    .block-mobile img {
+        width: 50%;
     }
 
-    .splash { 
-        display: none; 
+    .splash {
+        display: none;
     }
 
     /*
-    ====================================================== 
-    HEADER 
+    ======================================================
+    HEADER
     ======================================================
     */
 
-    .logo { 
-        float: none; 
+    .logo {
+        float: none;
     }
-    
-    .nav-links { 
-        float: none; 
+
+    .nav-links {
+        float: none;
         text-align: center;
     }
-    
-    .content-container nav { 
-        font: 1.8em/100% 'inconsolatamedium'; 
-        margin-top: 1.0em; 
-        padding-bottom: 1.2em; 
+
+    .content-container nav {
+        font: 1.8em/100% 'inconsolatamedium';
+        margin-top: 1.0em;
+        padding-bottom: 1.2em;
     }
-    
-    nav a { 
-        margin-left: 1.0em; 
+
+    nav a {
+        margin-left: 1.0em;
     }
-    
-    .logo img { 
-        width: 76%; 
-        max-height: none; 
+
+    .logo img {
+        width: 76%;
+        max-height: none;
     }
-    
-    .content-container nav { 
-        padding-bottom: 0.5em; 
+
+    .content-container nav {
+        padding-bottom: 0.5em;
     }
-    
+
     .sb-right .footer-sprite {
         height: 1.6em;
     }
 
     /*
-    ====================================================== 
-    HOME PAGE 
+    ======================================================
+    HOME PAGE
     ======================================================
     */
 
@@ -1032,44 +1060,44 @@ CSS MEDIA QUERIES FOR THEHACKERATI.COM
         margin-bottom: 10%;
     }
 
-    .welcome-container { 
-        padding-top: 3em; 
+    .welcome-container {
+        padding-top: 3em;
     }
 
-    .welcome-container .block-left { 
-        width: 100%; 
+    .welcome-container .block-left {
+        width: 100%;
     }
 
-    #type-command-one, 
-    #type-command-two, 
-    #type-command-three { 
+    #type-command-one,
+    #type-command-two,
+    #type-command-three {
         display: none;
     }
 
-    .terminal-buttons { 
-        text-align: center; 
-        width: 75%; 
+    .terminal-buttons {
+        text-align: center;
+        width: 75%;
         margin: 0 auto;
         position: relative;
     }
 
-    .welcome-content { 
-        width: 75%; 
+    .welcome-content {
+        width: 75%;
         margin-top: 2em;
     }
 
-    .terminal-block-title { 
-        font-size: 4.0em; 
+    .terminal-block-title {
+        font-size: 4.0em;
     }
 
-    .terminal-buttons { 
-        margin-top: 3em; 
+    .terminal-buttons {
+        margin-top: 3em;
     }
 
     .terminal-window a {
-        font-size: 1.2em; 
+        font-size: 1.2em;
         padding: 6px 13px;
-        display: inline-block; 
+        display: inline-block;
         margin-bottom: 1.5em;
         float: none;
         margin-left: 0;
@@ -1091,18 +1119,18 @@ CSS MEDIA QUERIES FOR THEHACKERATI.COM
 
     /* SECTION 2 */
 
-    .who-content { 
-        width: 79%; 
+    .who-content {
+        width: 79%;
         padding-bottom: 0;
     }
 
-    #who-title h2 { 
-        width: 100%; 
+    #who-title h2 {
+        width: 100%;
     }
 
-    #who-title h1 { 
-        margin-bottom: 0.5em; 
-        text-align: center; 
+    #who-title h1 {
+        margin-bottom: 0.5em;
+        text-align: center;
     }
 
     /* SECTION 3 */
@@ -1111,8 +1139,8 @@ CSS MEDIA QUERIES FOR THEHACKERATI.COM
         padding-bottom: 6em;
     }
 
-    .what-content { 
-        width: 75%; 
+    .what-content {
+        width: 75%;
     }
 
     /* SECTION 4 */
@@ -1121,8 +1149,8 @@ CSS MEDIA QUERIES FOR THEHACKERATI.COM
         display: none;
     }
 
-    .how-content { 
-        width: 75%; 
+    .how-content {
+        width: 75%;
     }
 
     .how-content .block-left {
@@ -1136,22 +1164,22 @@ CSS MEDIA QUERIES FOR THEHACKERATI.COM
     /* SECTION 5 */
 
     .clients-content {
-        width: 80%; 
+        width: 80%;
         padding-top: 0px;
     }
 
     #clients-title {
-        width: 100%; 
-        margin-left: auto; 
-        margin-right: auto; 
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
         text-align: center;
         margin-top: 1em;
     }
 
     /* SECTION 6 */
-    
-    #contact-content { 
-        width: 80%; 
+
+    #contact-content {
+        width: 80%;
     }
 
     .contact-container {
@@ -1166,8 +1194,8 @@ CSS MEDIA QUERIES FOR THEHACKERATI.COM
         display: block;
     }
 
-    #google-maps-wrapper { 
-        top: 8em; 
+    #google-maps-wrapper {
+        top: 8em;
     }
 
     #contact {
@@ -1175,39 +1203,44 @@ CSS MEDIA QUERIES FOR THEHACKERATI.COM
     }
 
     /*
-    ====================================================== 
-    CAREERS PAGE 
+    ======================================================
+    CAREERS PAGE
     ======================================================
     */
-    
-    .testimonial-copy-mobile { 
-        width: 100%; 
-        display: block; 
+
+    .careers-page .section.section1.splash-container {
+        background: #2D6296;
     }
-    
-    .testimonial-img { 
-        display: block; 
-        width: 100%; 
+
+    .testimonial-copy-mobile {
+        width: 100%;
+        display: block;
+    }
+
+    .testimonial-img {
+        display: block;
+        width: 100%;
         margin: 2em 0;
     }
-    
-    .section1 h3 { 
-        text-align: center; 
-        width: auto; 
-        margin: 0 0.5em .5em 0.5em; 
-        border: none; 
+
+    .section1 h3 {
+        text-align: center;
+        width: auto;
+        margin: 0 0.5em .5em 0.5em;
+        border: none;
     }
-    
-    .section1 h2 { 
-        font: 3.5em/100% 'inconsolatamedium'; 
+
+    .section1 h2 {
+        font: 3.5em/100% 'inconsolatamedium';
     }
-    
-    .section1 h3 { 
-        font: 1.5em/100% 'din-regularregular'; 
+
+    .section1 h3 {
+        font: 1.5em/100% 'din-regularregular';
     }
-    
-    .careers-page .section2 .content-container { 
+
+    .careers-page .section2 .content-container {
         width: 80%;
+        padding-top: 2em;
     }
 
     .careers-page .section1 .content-container a {
@@ -1217,11 +1250,11 @@ CSS MEDIA QUERIES FOR THEHACKERATI.COM
     .careers-page .section1 .content-container a:hover {
         color: #fff;
     }
-    
-    .perks-cell { 
-        width: 100%; 
-        height: auto; 
-        margin: 0px; 
+
+    .perks-cell {
+        width: 100%;
+        height: auto;
+        margin: 0px;
      }
 
     .perks-copy {
@@ -1239,76 +1272,81 @@ CSS MEDIA QUERIES FOR THEHACKERATI.COM
     .perks-copy {
         float: none;
     }
-    
-    h2 { 
+
+    h2 {
         font: 3.5em 'HelveticaRegular';
     }
-     
-    .guild-shield, 
-    .guild-copy { 
-        width: 100%; 
-        float: none; 
+
+    .guild-shield,
+    .guild-copy {
+        width: 100%;
+        float: none;
     }
 
     .guild-shield img {
         width: 73%;
     }
-    
-    .careers-page .splash-container { 
-        padding-top: 7%; 
-        padding-bottom: 7%; 
+
+    .careers-page .splash-container {
+        padding-top: 7%;
+        padding-bottom: 7%;
     }
-    
-    .careers-page .section1-content-container { 
-        margin-bottom: 0; 
-        width: 23em; 
+
+    .careers-page .section1-content-container {
+        margin-bottom: 0;
+        width: 23em;
     }
-    
-    .perks-cell img { 
-        width: auto; 
+
+    .perks-cell img {
+        width: auto;
     }
-    
-    .block-mobile .perks-copy { 
-        width: 100%; 
-        height: auto; 
-        margin-bottom: 3em; 
+
+    .block-mobile .perks-copy {
+        width: 100%;
+        height: auto;
+        margin-bottom: 3em;
         left: 0;
         float: none;
         display: inline-block;
     }
-    
-    .block-mobile .perks-cell { 
-        width: 100%; 
-        margin: 0em; 
+
+    .block-mobile .perks-cell {
+        width: 100%;
+        margin: 0em;
         height: auto;
     }
-    
-    .block-mobile .perks-icon { 
-        width: 295px; 
+
+    .block-mobile .perks-icon {
+        width: 295px;
         height: 21em;
         float: none;
         display: inline-block;
     }
-    
-    .testimonial-img img { 
-        -webkit-box-shadow: 0px 0px 9px -2px rgba(0,0,0,0.76); 
-        -moz-box-shadow: 0px 0px 9px -2px rgba(0,0,0,0.76); 
+
+    .testimonial-img img {
+        -webkit-box-shadow: 0px 0px 9px -2px rgba(0,0,0,0.76);
+        -moz-box-shadow: 0px 0px 9px -2px rgba(0,0,0,0.76);
         box-shadow: 0px 0px 9px -2px rgba(0,0,0,0.76);
     }
-    
-    .apply-button { 
-        color: #ec6314; 
+
+    .apply-button {
+        color: #ec6314;
     }
-    
+
     .content-container h2 {
         font: 3.5em 'HelveticaRegular';
     }
-    
+
     /*
-    ====================================================== 
-    ABOUT PAGE 
+    ======================================================
+    ABOUT PAGE
     ======================================================
     */
+
+    .about-page .text-section {
+        margin-top: -0.1em;
+        padding-top: 2em;
+    }
 
     .culture-interstitial p {
         width: 98%;
@@ -1396,34 +1434,89 @@ CSS MEDIA QUERIES FOR THEHACKERATI.COM
     }
 
     /*
-    ====================================================== 
-    FOOTER 
+    ======================================================
+    ACADEMY PAGE
     ======================================================
     */
-    
+
+    .academy-page .section.section1.splash-container.academy-section1 {
+        background: #2D6296;
+        padding: 2em 0;
+    }
+
+    .academy-page .academy-section1 .section1-content-container {
+        font-size: 0.7em;
+    }
+
+    .academy-section2 {
+        margin-top: 0;
+    }
+
+    .academy-page .text-section {
+        padding: 2em 0;
+    }
+
+    .academy-page .splash-container {
+        background: #2D6296;
+        height: auto;
+        padding: 0;
+    }
+
+    .academy-page .section1-content-container {
+        font-size: 0.7em;
+    }
+
+    /*
+    ======================================================
+    CONTACT PAGE
+    ======================================================
+    */
+
+    .contact-page .section.section1.splash-container {
+        height: 48px;
+    }
+
+    .contact-section2 {
+        height: 65em;
+    }
+
+    .contact-form-container {
+        width: 100%;
+    }
+
+    /*
+    ======================================================
+    FOOTER
+    ======================================================
+    */
+
     .footer-section {
         height: 36em;
     }
 
-    .footer-column1 { 
-        width: 100%; 
-        text-align:center; 
-        margin-left: 0; 
-        padding-left: 0; 
+    .footer-column1 {
+        width: 100%;
+        text-align:center;
+        margin-left: 0;
+        padding-left: 0;
     }
 
-    .footer-column2 { 
-        width: 40%; 
-        border-right: 0; 
+    .h-watermark {
+        margin-right: 0;
+    }
+
+    .footer-column2 {
+        width: 40%;
+        border-right: 0;
         display: none;
     }
 
-    .footer-column3 { 
+    .footer-column3 {
         display: none;
     }
 
-    .footer-share{ 
-        width: 100%; 
+    .footer-share{
+        width: 100%;
         margin-bottom: 0;
     }
 
@@ -1431,22 +1524,22 @@ CSS MEDIA QUERIES FOR THEHACKERATI.COM
         width: 100%;
     }
 
-    .footer-section .content-container { 
-        width: 23em; 
+    .footer-section .content-container {
+        width: 23em;
         padding-bottom: 0;
     }
 
-    .twitter-footer { 
-        margin-left: 3em; 
+    .twitter-footer {
+        margin-left: 3em;
     }
 
-    .footer-madeny { 
-        text-align: center; 
+    .footer-madeny {
+        text-align: center;
     }
 
-    .madenyc { 
-        width: 9em; 
-        height: 9em; 
+    .madenyc {
+        width: 9em;
+        height: 9em;
     }
 
     .h-watermark {
@@ -1454,11 +1547,11 @@ CSS MEDIA QUERIES FOR THEHACKERATI.COM
     }
 
     /*
-    ====================================================== 
-    CONTACT MODAL 
+    ======================================================
+    CONTACT MODAL
     ======================================================
     */
-    
+
     .modal-dialog {
         margin-top: 5em;
     }
@@ -1471,12 +1564,12 @@ CSS MEDIA QUERIES FOR THEHACKERATI.COM
 @media only screen and (max-width : 479px) {
 
     /*
-    ====================================================== 
-    GENERAL 
+    ======================================================
+    GENERAL
     ======================================================
     */
 
-    .phones-only { 
+    .phones-only {
         display: block;
     }
 
@@ -1484,11 +1577,11 @@ CSS MEDIA QUERIES FOR THEHACKERATI.COM
         display: none;
     }
 
-    .tablet { 
+    .tablet {
         display: none;
     }
 
-    .desktop { 
+    .desktop {
         display: none;
     }
 
@@ -1504,139 +1597,138 @@ CSS MEDIA QUERIES FOR THEHACKERATI.COM
         width: 100%;
     }
 
-    .careers .section1 p { 
+    .careers .section1 p {
         text-align: center;
     }
 
-    .section1 h3 { 
-        width: auto; 
-        border-bottom: none; 
-        text-align: center; 
-        padding: 0 0 .25em 0; 
+    .section1 h3 {
+        width: auto;
+        border-bottom: none;
+        text-align: center;
+        padding: 0 0 .25em 0;
     }
 
-    .block-right img, 
-    .block-left img{ 
-        display: block; 
-        margin-right: auto; 
-        margin-left: auto; 
+    .block-right img,
+    .block-left img{
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
     }
 
-    .section1-content-container { 
-        margin-top: 4em ; 
-        margin-bottom: 2em; 
+    .section1-content-container {
+        margin-top: 4em ;
     }
 
-    .splash-container { 
-        display: block; 
-        background: #2D6296 url('../assets/img/bgdarkblue.png') repeat; 
+    .splash-container {
+        display: block;
+        background: #2D6296;
     }
 
-    .block-desktop { 
-        display: none; 
+    .block-desktop {
+        display: none;
     }
 
-    .block-mobile { 
-        display: block; 
+    .block-mobile {
+        display: block;
     }
 
-    .block-mobile img { 
-        width: 75%; 
+    .block-mobile img {
+        width: 75%;
     }
 
     .content-container {
         width: 90%;
     }
-    
+
     .content-container h2 {
         font: 3.3em 'HelveticaRegular';
     }
 
     /*
-    ====================================================== 
-    HEADER 
+    ======================================================
+    HEADER
     ======================================================
     */
 
-    #header { 
+    #header {
         height: 170px;
     }
-    
-    .logo { 
+
+    .logo {
         float: none;
     }
-    
-    .nav-links { 
-        float: none;   
-        text-align: center; 
+
+    .nav-links {
+        float: none;
+        text-align: center;
     }
-    
-    .content-container nav { 
-        font: 1.7em/100% 'inconsolatamedium';   
-        margin-top: 0.2em;  
-        padding-bottom: 1.25em; 
+
+    .content-container nav {
+        font: 1.7em/100% 'inconsolatamedium';
+        margin-top: 0.2em;
+        padding-bottom: 1.25em;
     }
-    
-    nav a { 
+
+    nav a {
         margin-left: 0.5em;
     }
-    
-    .logo img { 
-        width: 94%; 
-        max-height: none;   
+
+    .logo img {
+        width: 94%;
+        max-height: none;
     }
-    
-    .content-container nav { 
-        padding-bottom: 0.9em; 
+
+    .content-container nav {
+        padding-bottom: 0.9em;
     }
 
     /*
-    ====================================================== 
-    HOME PAGE 
+    ======================================================
+    HOME PAGE
     ======================================================
     */
 
     /* SECTION 1 */
 
-    .welcome-container .logo { 
+    .welcome-container .logo {
         float: none;
     }
-    
-    .welcome-container .nav-links { 
-        float: none; 
-        text-align: center; 
+
+    .welcome-container .nav-links {
+        float: none;
+        text-align: center;
     }
-    
-    .welcome-container .content-container nav { 
-        font: 1.7em/100% 'inconsolatamedium'; 
-        margin-top: 0.2em; 
-        padding-bottom: 1.25em; 
+
+    .welcome-container .content-container nav {
+        font: 1.7em/100% 'inconsolatamedium';
+        margin-top: 0.2em;
+        padding-bottom: 1.25em;
     }
-    
-    .welcome-container nav a { 
+
+    .welcome-container nav a {
         margin-left: 0.5em;
     }
-    
-    .welcome-container .logo img { 
-        width: 94%; 
-        max-height: none; 
+
+    .welcome-container .logo img {
+        width: 94%;
+        max-height: none;
     }
-    
-    .welcome-container .block-left { 
-        width: 100%; 
+
+    .welcome-container .block-left {
+        width: 100%;
     }
-     
-    .related-words-terminal, 
-    .terminal-buttons{ 
+
+    .related-words-terminal,
+    .terminal-buttons{
         display: none;
     }
 
-    .welcome-content { 
-        width: 86%; 
+    .welcome-content {
+        width: 86%;
     }
 
     .terminal-block-title {
-        font-size: 2.9em; 
+        font-size: 2.9em;
     }
 
     .nav-links .about-link {
@@ -1649,43 +1741,43 @@ CSS MEDIA QUERIES FOR THEHACKERATI.COM
 
     /* SECTION 2 */
 
-    .who-content { 
-        width: 90%; 
+    .who-content {
+        width: 90%;
     }
 
-    #who-title h1 { 
-        margin-bottom: 0.3em; 
+    #who-title h1 {
+        margin-bottom: 0.3em;
         font: 4.1em/100% 'HelveticaRegular';
     }
 
-    #who-title h2 { 
-        margin-left: 0.2em; 
+    #who-title h2 {
+        margin-left: 0.2em;
     }
 
     /* SECTION 3 */
 
-    .what-content { 
-        width: 90%; 
+    .what-content {
+        width: 90%;
     }
 
     /* SECTION 4 */
 
-    .how-content { 
-        width: 90%; 
+    .how-content {
+        width: 90%;
     }
 
     /* SECTION 5 */
 
-    .clients-content { 
-        width: 100%; 
+    .clients-content {
+        width: 100%;
         margin-top: 0;
     }
 
     /* SECTION 6 */
 
-    #contact-content { 
+    #contact-content {
 	padding-top: 1.5em;
-        width: 19em; 
+        width: 19em;
     }
 
     .contact-container {
@@ -1704,10 +1796,10 @@ CSS MEDIA QUERIES FOR THEHACKERATI.COM
         left: 50%;
         top: 7em;
     }
-    
+
     /*
-    ====================================================== 
-    ABOUT PAGE 
+    ======================================================
+    ABOUT PAGE
     ======================================================
     */
 
@@ -1734,11 +1826,11 @@ CSS MEDIA QUERIES FOR THEHACKERATI.COM
         margin-right: 2.5%;
         font: 0.9em/150% 'din-regularregular', sans-serif;
     }
-   
+
     .def-hacker h1 {
         font: 2.5em/100% 'HelveticaRegular';
     }
-    
+
     .def-hackerati h1 {
         font: 2.5em/100% 'HelveticaRegular';
     }
@@ -1770,74 +1862,74 @@ CSS MEDIA QUERIES FOR THEHACKERATI.COM
     }
 
     /*
-    ====================================================== 
-    CAREERS PAGE 
+    ======================================================
+    CAREERS PAGE
     ======================================================
     */
 
-    .b-page-image.careers, 
-    .b-page-image.about, 
-    .b-page-image.academy { 
-        background-image: none; 
+    .b-page-image.careers,
+    .b-page-image.about,
+    .b-page-image.academy {
+        background-image: none;
         background: #424345;
     }
 
-    .section1-content-container { 
-        background: none; 
+    .section1-content-container {
+        background: none;
     }
-    
-    .testimonial-copy-mobile { 
-        width: 100%; 
-        display: block; 
+
+    .testimonial-copy-mobile {
+        width: 100%;
+        display: block;
     }
-    
-    .section1 h2 { 
-        font: 3.0em/100% 'inconsolatamedium'; 
+
+    .section1 h2 {
+        font: 3.0em/100% 'inconsolatamedium';
     }
-    
-    .perks-cell { 
-        width: auto; 
-        height: auto; 
+
+    .perks-cell {
+        width: auto;
+        height: auto;
         margin: 0;
     }
-    
-    h2 { 
+
+    h2 {
         font: 3.5em 'HelveticaRegular';
     }
-    
-    .guild-shield img, 
-    .guild-shield, 
-    .guild-copy { 
-        width: 100%; 
-        float: none; 
+
+    .guild-shield img,
+    .guild-shield,
+    .guild-copy {
+        width: 100%;
+        float: none;
     }
-    
-    .careers-page .section1-content-container { 
-        width: 90%; 
-        margin-bottom: 0; 
+
+    .careers-page .section1-content-container {
+        width: 90%;
+        margin-bottom: 0;
     }
-    
-    .careers-page .splash-container { 
-        padding-top: 7%; 
-        padding-bottom: 7%; 
+
+    .careers-page .splash-container {
+        padding-top: 7%;
+        padding-bottom: 7%;
     }
-    
-    .perks-cell img { 
-        width: auto; 
+
+    .perks-cell img {
+        width: auto;
     }
-    
-    .careers-page .section2 .content-container { 
-        width: 90%; 
+
+    .careers-page .section2 .content-container {
+        width: 90%;
     }
-    
-    .testimonial-img img { 
-        -webkit-box-shadow: 0px 0px 9px -2px rgba(0,0,0,0.76); 
-        -moz-box-shadow: 0px 0px 9px -2px rgba(0,0,0,0.76); 
+
+    .testimonial-img img {
+        -webkit-box-shadow: 0px 0px 9px -2px rgba(0,0,0,0.76);
+        -moz-box-shadow: 0px 0px 9px -2px rgba(0,0,0,0.76);
         box-shadow: 0px 0px 9px -2px rgba(0,0,0,0.76);
     }
-    
-    .careers-page .section1-content-container { 
-        padding: 0; 
+
+    .careers-page .section1-content-container {
+        padding: 0;
     }
 
     .perks-icon {
@@ -1861,43 +1953,43 @@ CSS MEDIA QUERIES FOR THEHACKERATI.COM
     .careers-page .section3 .content-container {
         width: 90%;
     }
-    
+
     /*
-    ====================================================== 
-    RECRUITING 
+    ======================================================
+    RECRUITING
     ======================================================
     */
-    
-    .recruit-window .block-left { 
-        width:100%; 
+
+    .recruit-window .block-left {
+        width:100%;
         padding-bottom: 25%;
     }
 
-    .recruit-window .block-right { 
+    .recruit-window .block-right {
         display: none;
     }
 
-    .ss-choices { 
+    .ss-choices {
         width: 100%;
     }
 
-    .ss-choice-item { 
-        float:none; 
-        clear: both; 
+    .ss-choice-item {
+        float:none;
+        clear: both;
     }
 
-    .logo-center img { 
-        width: 80%; 
+    .logo-center img {
+        width: 80%;
         height: auto;
     }
-    
-    .mid-radio { 
+
+    .mid-radio {
         border: 0;
     }
-    
+
     /*
-    ====================================================== 
-    BLOG 
+    ======================================================
+    BLOG
     ======================================================
     */
 
@@ -1914,56 +2006,56 @@ CSS MEDIA QUERIES FOR THEHACKERATI.COM
     .blog-page-title p {
         margin-bottom: 4em;
     }
-    
+
     /*
-    ====================================================== 
-    FOOTER 
+    ======================================================
+    FOOTER
     ======================================================
     */
-    
+
     .tweets.column,
-    .sitemap.column { 
-        display: none; 
+    .sitemap.column {
+        display: none;
     }
-    
-    .madenyc { 
-        margin-top: 15px; 
+
+    .madenyc {
+        margin-top: 15px;
     }
-    
-    .footer-column1 { 
-        width: 100%; 
-        text-align: center; 
-        margin-left: 0; 
+
+    .footer-column1 {
+        width: 100%;
+        text-align: center;
+        margin-left: 0;
         padding-left: 0;
     }
-    
-    footer .content-container { 
-        width: 19em; 
+
+    footer .content-container {
+        width: 19em;
     }
-    
-    .footer-section .content-container { 
-        width: 21em; 
+
+    .footer-section .content-container {
+        width: 21em;
     }
-    
-    .twitter-footer { 
-        margin-left: 1.8em; 
+
+    .twitter-footer {
+        margin-left: 1.8em;
     }
-    
-    .footer-madeny { 
-        text-align: center; 
+
+    .footer-madeny {
+        text-align: center;
     }
-    
-    .madenyc { 
-        width: 9em; 
-        height: 9em; 
+
+    .madenyc {
+        width: 9em;
+        height: 9em;
     }
-    
+
     /*
-    ====================================================== 
-    CONTACT MODAL 
+    ======================================================
+    CONTACT MODAL
     ======================================================
     */
-    
+
     .modal-dialog {
         margin-top: 5em;
     }
