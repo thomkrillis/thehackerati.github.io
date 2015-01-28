@@ -25,7 +25,7 @@ sitemap:
 		{% else %}<lastmod>{{ site.time | date_to_xmlschema }}</lastmod>{% endif %}
 		{% if page.sitemap.changefreq %}<changefreq>{{ page.sitemap.changefreq }}</changefreq>
 		{% else %}<changefreq>monthly</changefreq>{% endif %}
-		{% if page.url == "/index.html" %}<priority>1.0</priority>{% elsif (page.url == "/about/index.html" or page.url == "/academy/index.html" or page.url == "/blog/index.html" or page.url == "/careers/index.html") %}<priority>0.8</priority>{% elsif page.sitemap.priority %}<priority>{{ page.sitemap.priority }}</priority>
+		{% if page.url == "/index.html" %}<priority>1.0</priority>{% elsif (page.url == "/about/index.html" or page.url == "/academy/index.html" or page.url == "/blog/index.html" or page.url == "/careers/index.html" or page.url == "/contact/index.html") %}<priority>0.8</priority>{% elsif page.sitemap.priority %}<priority>{{ page.sitemap.priority }}</priority>
 		{% else %}<priority>0.6</priority>{% endif %}
     </url>
   {% endunless %}{% endfor %}
