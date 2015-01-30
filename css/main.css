@@ -69,6 +69,7 @@ body {
     margin: 0;
     padding: 0;
     font-size: 14px;
+    background: #2C2C2C;
 }
 
 p {
@@ -516,7 +517,7 @@ HOME PAGE
 /* BLOCK 1  | SPLASH */
 
 .welcome-container {
-    background: #000000;
+    background: #2C2C2C;
     overflow: hidden;
     -webkit-box-shadow: inset 0px -8px 29px 10px rgba(0, 0, 0, .3);
     box-shadow: inset 0px -8px 29px 0px rgba(0, 0, 0, .3);
@@ -1393,6 +1394,11 @@ CAREERS PAGE
     vertical-align: top;
 }
 
+.careers-page .section1 {
+    background: #2C2C2C;
+    z-index: -300;
+}
+
 .careers-page .section1 p {
     margin: 0 0 0.5em 0;
     font: 1.2em/130% 'din-lightregular';
@@ -1843,7 +1849,7 @@ FOOTER
 */
 
 footer {
-    background: black;
+    background: #2C2C2C;
 }
 
 footer p {
@@ -1972,14 +1978,28 @@ footer .content-container {
 .footer-column3 {
     padding: 0 0.5%;
     margin-left: 1.5%;
-    width: 30%;
+    width: 28.5%;
     float: left;
 }
 
 .footer-column1 {
-    margin-left: 2%;
+    margin-left: 5%;
     width: 25%;
     float: left;
+}
+
+.copyright {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+
+.copyright h3 {
+    color: white;
+    font-size: 1.1em;
+    font-family: Calibri,sans-serif;
 }
 
 .footer-sprite {
@@ -2042,7 +2062,7 @@ footer .content-container {
 
 .h-watermark {
     text-align: center;
-    margin-right: 10%;
+    margin-right: 15%;
 }
 
 .h-watermark img {

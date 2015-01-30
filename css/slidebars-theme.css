@@ -36,7 +36,7 @@
  */
 
 .sb-slidebar {
-    background-color: #222222; /* Background colour. */
+    background-color: #2C2C2C; /* Background colour. */
     color: #e8e8e8; /* Text colour. */
 }
 
@@ -200,7 +200,7 @@ span.sb-caret { /* Caret Down */
  */
 
 .sb-navbar {
-    background: black;
+    background: #2C2C2C;
     width: 100%;
     padding-top: 5px;
     padding-bottom: 5px;
