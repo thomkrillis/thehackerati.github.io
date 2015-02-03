@@ -52,15 +52,6 @@ FONTS
 
 }
 
-@font-face {
-    font-family: 'HelveticaRegular';
-    src: url('../assets/fonts/Helvetica/helvetica.eot');
-    src: url('../assets/fonts/Helvetica/helvetica.eot') format('embedded-opentype'),
-         url('../assets/fonts/Helvetica/helvetica.woff') format('woff'),
-         url('../assets/fonts/Helvetica/helvetica.ttf') format('truetype'),
-         url('../assets/fonts/Helvetica/helvetica.svg#HelveticaRegular') format('svg');
-}
-
 html {
   background-color: #2c2c2c;
 }
@@ -87,7 +78,7 @@ h1 a:visited {
 }
 
 h3 {
-    font: 2.6em/100% Helvetica;
+    font: 2.6em/100% Lato, sans-serif;
     font-weight: 900;
     color: #f4f4f4;
 }
@@ -103,7 +94,7 @@ h3 a:visited {
 }
 
 h4 {
-    font: 1.6em/100% Helvetica;
+    font: 1.6em/100% Lato, sans-serif;
     margin: 0 0 0.7em 0;
     color: #f4f4f4;
 }
@@ -515,7 +506,7 @@ main {
 .pre-footer .nav-links a:link {
     text-decoration: none;
     color: #f4f4f4;
-    font: 0.8em/100% 'HelveticaRegular';
+    font: 0.8em/100% Lato, sans-serif;
 }
 
 .pre-footer .nav-links a:active {

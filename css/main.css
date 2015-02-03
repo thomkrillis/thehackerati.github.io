@@ -48,15 +48,6 @@ FONTS
 
 }
 
-@font-face {
-    font-family: 'HelveticaRegular';
-    src: url('../assets/fonts/Helvetica/helvetica.eot');
-    src: url('../assets/fonts/Helvetica/helvetica.eot') format('embedded-opentype'),
-         url('../assets/fonts/Helvetica/helvetica.woff') format('woff'),
-         url('../assets/fonts/Helvetica/helvetica.ttf') format('truetype'),
-         url('../assets/fonts/Helvetica/helvetica.svg#HelveticaRegular') format('svg');
-}
-
 /*
 ====================================================== 
 GENERAL 
@@ -79,7 +70,7 @@ p {
 }
 
 h1 {
-    font: 3.25em/120% 'HelveticaRegular';
+    font: 3.25em/120% Lato, sans-serif;
     text-align: center;
     margin-bottom: 10px;
     margin-top: .2em;
@@ -87,7 +78,7 @@ h1 {
 }
 
 h2 {
-    font: 3.5em/120% 'HelveticaRegular';
+    font: 3.5em/120% Lato, sans-serif;
     color: black;
     padding-bottom: 10px;
     margin-bottom: 10px;
@@ -95,11 +86,11 @@ h2 {
 }
 
 h3 {
-    font: 1.2em/100% 'HelveticaRegular';
+    font: 1.2em/100% Lato, sans-serif;
 }
 
 h4 {
-    font: 2em/130% 'HelveticaRegular';
+    font: 2em/130% Lato, sans-serif;
     margin: 0 0 0.7em 0;
     color: #f4f4f4;
 }
@@ -478,7 +469,7 @@ HEADER
 .content-container .nav-links a:link {
     text-decoration: none;
     color: #f4f4f4;
-    font: 0.8em/100% 'HelveticaRegular';
+    font: 0.8em/100% Lato, sans-serif;
 }
 
 .content-container .nav-links a:active {
@@ -540,7 +531,7 @@ HOME PAGE
 }
 
 .welcome-copy-first {
-    font: 2.4em/130% 'HelveticaRegular', sans-serif;
+    font: 2.4em/130% Lato, sans-serif;
     text-align: left;
 }
 
@@ -551,7 +542,7 @@ HOME PAGE
 }
 
 .welcome-copy-third {
-    font: bold 2.4em/130% 'HelveticaRegular', sans-serif;
+    font: bold 2.4em/130% Lato, sans-serif;
     text-align: left;
     color: #ec6314;
 }
@@ -591,7 +582,7 @@ HOME PAGE
 .how-h2 {
     text-align: left;
     color: #f4f4f4;
-    font: 2em/100% 'HelveticaRegular', sans-serif;
+    font: 2em/100% Lato, sans-serif;
     margin-bottom: 0;
     margin-top: 1em;
 }
@@ -622,7 +613,7 @@ HOME PAGE
 }
 
 #how h1 {
-    font: 3.0em/100% 'HelveticaRegular';
+    font: 3.0em/100% Lato, sans-serif;
     color: #f4f4f4;
 }
 
@@ -924,7 +915,7 @@ body > svg {
     border-bottom: 0;
     color: white;
     float: left;
-    font: 3.5em/120% 'HelveticaRegular';
+    font: 3.5em/120% Lato, sans-serif;
     width: 100%;
 }
 
@@ -958,7 +949,7 @@ ABOUT PAGE
 }
 
 .def-part-of-speech {
-    font: 1em/100% 'HelveticaRegular' !important;
+    font: 1em/100% Lato, sans-serif !important;
     margin-top: 1em !important;
     margin-bottom: 1em !important;
 }
@@ -1014,7 +1005,7 @@ ABOUT PAGE
 #how h1 {
     margin-bottom: 0.5%;
     font-size: 2.5em;
-    font: 4.3em/100% 'HelveticaRegular';
+    font: 4.3em/100% Lato, sans-serif;
     color: black;
     padding-bottom: 0px;
     border-bottom: 0px;
@@ -1023,7 +1014,7 @@ ABOUT PAGE
 .who-content h2 {
     margin-bottom: 0px;
     font-size: 1.8em;
-    font: 2.7em/100% 'HelveticaRegular';
+    font: 2.7em/100% Lato, sans-serif;
     padding-bottom: 0px;
     border-bottom: 0px;
 }
@@ -1405,11 +1396,11 @@ CAREERS PAGE
 }
 
 .careers-page .section1 p.apply-now-text {
-    font: 1.8em/150% 'HelveticaRegular';
+    font: 1.8em/150% Lato, sans-serif;
 }
 
 .careers-page .section1 p.apply-now-text a {
-    font-family: 'HelveticaRegular';
+    font-family: Lato, sans-serif;
 }
 
 .careers-page .section1-content-container {
@@ -1445,7 +1436,7 @@ CAREERS PAGE
 
 .careers-page .section2 .content-container p,
 .careers-page .section2 .content-container a {
-    font-family: 'HelveticaRegular';
+    font-family: Lato, sans-serif;
     color: #f4f4f4;
 }
 
@@ -1925,7 +1916,7 @@ footer p {
 .sitemap a:link {
     color: #EC6314;
     text-align: left;
-    font: 1.5em/100% 'HelveticaRegular';
+    font: 1.5em/100% Lato, sans-serif;
 }
 
 .sitemap a:visited {

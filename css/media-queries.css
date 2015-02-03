@@ -63,11 +63,11 @@ CSS MEDIA QUERIES FOR THEHACKERATI.COM
     }
 
     #who-title h1 {
-        font: 5em/100% 'HelveticaRegular';
+        font: 5em/100% Lato, sans-serif;
     }
 
     #who-title h2 {
-        font: 3.0em/100% 'HelveticaRegular';
+        font: 3.0em/100% Lato, sans-serif;
     }
 
     /* SECTION 4 */
@@ -158,7 +158,7 @@ CSS MEDIA QUERIES FOR THEHACKERATI.COM
     }
 
     .careers-page .section2 .content-container p {
-        font: 2.1em/120% 'HelveticaRegular';
+        font: 2.1em/120% Lato, sans-serif;
         color: #f4f4f4;
     }
 
@@ -415,7 +415,7 @@ CSS MEDIA QUERIES FOR THEHACKERATI.COM
     }
 
     .content-container .nav-links a:link {
-        font: 0.9em/100% 'HelveticaRegular';
+        font: 0.9em/100% Lato, sans-serif;
     }
 
     .content-container .nav-links a:visited {
@@ -557,11 +557,11 @@ CSS MEDIA QUERIES FOR THEHACKERATI.COM
     }
 
     .what-cards-mobile h1 {
-        font: 3.5em/120% 'HelveticaRegular';
+        font: 3.5em/120% Lato, sans-serif;
     }
 
     .what-cards-mobile h3 {
-        font: 1.8em/120% 'HelveticaRegular';
+        font: 1.8em/120% Lato, sans-serif;
         text-align: center;
     }
 
@@ -931,7 +931,7 @@ CSS MEDIA QUERIES FOR THEHACKERATI.COM
 
     .welcome-copy-first {
         margin-bottom: 1em;
-        font: 2.8em/130% 'HelveticaRegular', sans-serif;
+        font: 2.8em/130% Lato, sans-serif;
     }
 
     .welcome-copy-second {
@@ -1277,7 +1277,7 @@ CSS MEDIA QUERIES FOR THEHACKERATI.COM
     }
 
     h2 {
-        font: 3.5em 'HelveticaRegular';
+        font: 3.5em Lato, sans-serif;
     }
 
     .guild-shield,
@@ -1337,7 +1337,7 @@ CSS MEDIA QUERIES FOR THEHACKERATI.COM
     }
 
     .content-container h2 {
-        font: 3.5em 'HelveticaRegular';
+        font: 3.5em Lato, sans-serif;
     }
 
     /*
@@ -1644,7 +1644,7 @@ CSS MEDIA QUERIES FOR THEHACKERATI.COM
     }
 
     .content-container h2 {
-        font: 3.3em 'HelveticaRegular';
+        font: 3.3em Lato, sans-serif;
     }
 
     /*
@@ -1750,7 +1750,7 @@ CSS MEDIA QUERIES FOR THEHACKERATI.COM
 
     #who-title h1 {
         margin-bottom: 0.3em;
-        font: 4.1em/100% 'HelveticaRegular';
+        font: 4.1em/100% Lato, sans-serif;
     }
 
     #who-title h2 {
@@ -1831,11 +1831,11 @@ CSS MEDIA QUERIES FOR THEHACKERATI.COM
     }
 
     .def-hacker h1 {
-        font: 2.5em/100% 'HelveticaRegular';
+        font: 2.5em/100% Lato, sans-serif;
     }
 
     .def-hackerati h1 {
-        font: 2.5em/100% 'HelveticaRegular';
+        font: 2.5em/100% Lato, sans-serif;
     }
 
     .team-desktop {
@@ -1897,7 +1897,7 @@ CSS MEDIA QUERIES FOR THEHACKERATI.COM
     }
 
     h2 {
-        font: 3.5em 'HelveticaRegular';
+        font: 3.5em Lato, sans-serif;
     }
 
     .guild-shield img,
