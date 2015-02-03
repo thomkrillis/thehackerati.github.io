@@ -406,6 +406,13 @@ img.splash{
     padding: 3.5em 0 30em 0;
 }
 
+.social-media-sprite {
+    width: 34.54px;
+    height: 2.5em;
+    float: left;
+    margin-right: 0.5em;
+}
+
 .clearfix:after {
     content: ".";
     display: block;
@@ -1166,7 +1173,7 @@ ABOUT PAGE
     cursor: pointer;
 }
 
-.teamphoto img {
+.teamphoto>img {
     -webkit-box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.51);
     -moz-box-shadow:    0px 0px 6px 0px rgba(0, 0, 0, 0.51);
     box-shadow:         0px 0px 6px 0px rgba(0, 0, 0, 0.51);
@@ -1184,7 +1191,7 @@ ABOUT PAGE
     height: 380px;
 }
 
-.teamphoto img {
+.teamphoto>img {
     text-align: center;
     width: 250px;
     height: 250px;
@@ -1230,40 +1237,8 @@ ABOUT PAGE
     font: 1.2em/150% 'din-lightregular';
 }
 
-.team-social-media-sprite {
-    background: url('../assets/img/social-media-team-page.svg') no-repeat; 
-    width: 34.54px;
-    height: 2.5em;
-    float: left;
-    margin-right: 0.5em;
-}
-
-.linkedin-team {
-    background-position:-58.775px -50.577px;
-}
-
-.linkedin-team:hover { 
-    background-position:-128.487px -51.246px;
-}
-
-.github-team {
-    background-position:-23.843px -85.573px;
-}
-
-.github-team:hover {
-    background-position:-93.555px -86.242px;
-}
-
-.twitter-team {
-    background-position:-23.844px -15.741px;
-}
-
-.twitter-team:hover {
-    background-position:-93.555px -16.41px;
-}
-
 #colorbox a:link, #colorbox a:visited {
-    color: #F97B3D;
+    color: #EC6314;
 }
 
 #colorbox a:hover {
@@ -2001,62 +1976,35 @@ footer .content-container {
     font-family: Calibri,sans-serif;
 }
 
-.footer-sprite {
-    background: url('../assets/img/social-media-footer-small.svg') no-repeat; 
+.sb-sprite {
     width: 34.54px;
-    height: 2.5em;
+    height: 1.6em;
     float: left;
     margin-right: 0.5em;
 }
 
-.gplus-footer {
-    background-position:-58.003px -15.938px;
+.sb-twitter {
+    background: url('/assets/img/twitter.svg') no-repeat;
 }
 
-.gplus-footer:hover { 
-    background-position:-128px -16px;
+.sb-facebook {
+    background: url('/assets/img/facebook.svg') no-repeat;
 }
 
-.facebook-footer {
-    background-position:-23.843px -50.577px;
+.sb-linkedin {
+    background: url('/assets/img/linkedin.svg') no-repeat;
 }
 
-.facebook-footer:hover {
-    background-position:-93.555px -51.246px;
+.sb-github {
+    background: url('/assets/img/github.svg') no-repeat;
 }
 
-.linkedin-footer {
-    background-position:-58.775px -50.577px;
+.sb-gplus {
+    background: url('/assets/img/gplus.svg') no-repeat;
 }
 
-.linkedin-footer:hover { 
-    background-position:-128.487px -51.246px;
-}
-
-.github-footer {
-    background-position:-23.843px -85.573px;
-}
-
-.github-footer:hover {
-    background-position:-93.555px -86.242px;
-}
-
-.twitter-footer {
-    background-position:-23.844px -15.741px;
-}
-
-.twitter-footer:hover {
-    background-position:-93.555px -16.41px;
-}
-
-.meetup-footer {
-    background-position:-58.003px -86.138px;
-    margin-right: 0em;
-}
-
-.meetup-footer:hover {
-    background-position:-128.624px -87.861px;
-    margin-right: 0em;
+.sb-meetup {
+    background: url('/assets/img/meetup.svg') no-repeat;
 }
 
 .h-watermark {

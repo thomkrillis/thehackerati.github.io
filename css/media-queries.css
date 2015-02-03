@@ -191,73 +191,6 @@ CSS MEDIA QUERIES FOR THEHACKERATI.COM
         width: 1030.9375px;
     }
 
-    .social-media-sprite {
-        margin-left: 48%;
-        width: 46px;
-        height: 3.3em;
-        margin-top: 1em;
-    }
-
-    .google-sprite {
-        background: url('../assets/img/social-media-icons.png') no-repeat;
-        background-position: -68.487px -15.414px;
-    }
-
-    .google-sprite:hover {
-        background: url('../assets/img/social-media-icons.png') no-repeat;
-        background-position: -163.957px -16.405px;
-    }
-
-    .facebook-sprite {
-        background: url('../assets/img/social-media-icons.png') no-repeat;
-        background-position: -20.584px -63.511px;
-    }
-
-    .facebook-sprite:hover {
-        background: url('../assets/img/social-media-icons.png') no-repeat;
-        background-position: -116.055px -64.503px;
-    }
-
-    .linkedin-sprite {
-        background: url('../assets/img/social-media-icons.png') no-repeat;
-        background-position: -67.486px -63.511px;
-    }
-
-    .linkedin-sprite:hover {
-        background: url('../assets/img/social-media-icons.png') no-repeat;
-        background-position: -163.957px -64.503px;
-    }
-
-    .github-sprite {
-        background: url('../assets/img/social-media-icons.png') no-repeat;
-        background-position: -20.584px -111.501px;
-    }
-
-    .github-sprite:hover {
-        background: url('../assets/img/social-media-icons.png') no-repeat;
-        background-position: -116.055px -112.494px;
-    }
-
-    .twitter-sprite {
-        background: url('../assets/img/social-media-icons.png') no-repeat;
-        background-position: -20.585px -15.741px;
-    }
-
-    .twitter-sprite:hover {
-        background: url('../assets/img/social-media-icons.png') no-repeat;
-        background-position: -116.055px -16.733px;
-    }
-
-    .meetup-sprite {
-        background: url('../assets/img/social-media-icons.png') no-repeat;
-        background-position: -68.487px -111.68px;
-    }
-
-    .meetup-sprite:hover {
-        background: url('../assets/img/social-media-icons.png') no-repeat;
-        background-position: -163.957px -112.671px;
-    }
-
     /*
     ======================================================
     FOOTER
@@ -872,7 +805,7 @@ CSS MEDIA QUERIES FOR THEHACKERATI.COM
         width: 80%;
     }
 
-    .footer-sprite {
+    footer .social-media-sprite {
         margin-bottom: 0.7em;
     }
 
@@ -1051,10 +984,6 @@ CSS MEDIA QUERIES FOR THEHACKERATI.COM
 
     .content-container nav {
         padding-bottom: 0.5em;
-    }
-
-    .sb-right .footer-sprite {
-        height: 1.6em;
     }
 
     /*
@@ -1429,11 +1358,11 @@ CSS MEDIA QUERIES FOR THEHACKERATI.COM
         margin: 0 auto;
     }
 
-    .linkedin-team {
+    #colorbox .first-sprite {
         margin-left: 0.2em;
     }
 
-    .github-team {
+    .last-sprite {
         margin-right: 0;
     }
 
@@ -1542,8 +1471,8 @@ CSS MEDIA QUERIES FOR THEHACKERATI.COM
         padding-bottom: 0;
     }
 
-    .twitter-footer {
-        margin-left: 3em;
+    footer .first-sprite {
+        margin-left: 2em;
     }
 
     .footer-madeny {
@@ -1869,7 +1798,7 @@ CSS MEDIA QUERIES FOR THEHACKERATI.COM
         font-size: 10px;
     }
 
-    .teamphoto img {
+    .teamphoto>img {
         width: 200px;
         height: 200px;
     }

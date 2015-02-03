@@ -6,28 +6,46 @@
 
             <div class="footer-share span10">
                 <a href="http://twitter.com/TheHackerati" target="blank">
-                    <div class="twitter-footer footer-sprite"></div>
+                    <img class="first-sprite social-media-sprite" src="/assets/img/twitter.svg">
                 </a>
+                <div class="hover-img">
+                    <img src="/assets/img/twitter-hover.svg">
+                </div>
 
-                  <a href="https://www.facebook.com/pages/The-Hackerati/352879328133465?fref=ts" target="blank">
-                    <div class="facebook-footer footer-sprite"></div>
+                <a href="https://www.facebook.com/pages/The-Hackerati/352879328133465?fref=ts" target="blank">
+                    <img class="social-media-sprite" src="/assets/img/facebook.svg">
                 </a>
+                <div class="hover-img">
+                    <img src="/assets/img/facebook-hover.svg">
+                </div>
 
                 <a href="http://www.linkedin.com/company/the-hackerati" target="blank">
-                    <div class="linkedin-footer footer-sprite"></div>
+                    <img class="social-media-sprite" src="/assets/img/linkedin.svg">
                 </a>
+                <div class="hover-img">
+                    <img src="/assets/img/linkedin-hover.svg">
+                </div>
 
                 <a href="https://github.com/thehackerati" target="blank">
-                    <div class="github-footer footer-sprite"></div>
+                    <img class="social-media-sprite" src="/assets/img/github.svg">
                 </a>
+                <div class="hover-img">
+                    <img src="/assets/img/github-hover.svg">
+                </div>
 
                 <a href="https://plus.google.com/116959192453188050047/posts" target="blank">
-                    <div class="gplus-footer footer-sprite"></div>
+                    <img class="social-media-sprite" src="/assets/img/gplus.svg">
                 </a>
+                <div class="hover-img">
+                    <img src="/assets/img/gplus-hover.svg">
+                </div>
 
                 <a href="http://www.meetup.com/Startup-Office-Hours-NYC/" target="blank">
-                    <div class="meetup-footer footer-sprite"></div>
+                    <img class="social-media-sprite" src="/assets/img/meetup.svg">
                 </a>
+                <div class="hover-img">
+                    <img src="/assets/img/meetup-hover.svg">
+                </div>
           </div>
         
         <div class="footer-contact span10">
@@ -93,6 +111,21 @@
     </div>
     <div class="clearfix"></div>
     <div class="copyright"><h3>©2012-2015 The Hackerati, Inc.</h3></div>
+
+<script>
+$(".social-media-sprite").on({
+    mouseenter: function() {
+        $(this).attr("src", function(index, attr) {
+            return attr.replace(".svg","-hover.svg");
+        });
+    },
+    mouseleave: function() {
+        $(this).attr("src", function(index, attr) {
+            return attr.replace("-hover.svg",".svg");
+        });
+    }
+});
+</script>
 
 {% include pingdom %}
 </div>

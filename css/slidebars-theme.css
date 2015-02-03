@@ -126,6 +126,7 @@ a.sitemap-cat:visited {
 
 .sb-right .sb-menu li a {
     border-right: 3px solid transparent;
+    line-height: 1.6em;
 }
 
 .sb-right .sb-menu li a:hover {
