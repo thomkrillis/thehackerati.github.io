@@ -299,7 +299,7 @@ li {
     color: white;
     font-size: 28px;
     background-color: #EC6314;
-    border-color: #272727;
+    border: 0 none;
     text-decoration: none;
     -webkit-transition-property: text-decoration;
     -webkit-transition-duration: 0.3s;
@@ -519,8 +519,8 @@ HOME PAGE
 .welcome-container {
     background: #2C2C2C;
     overflow: hidden;
-    -webkit-box-shadow: inset 0px -8px 29px 10px rgba(0, 0, 0, .3);
-    box-shadow: inset 0px -8px 29px 0px rgba(0, 0, 0, .3);
+    -webkit-box-shadow: inset 0px -50px 29px -43px rgba(0, 0, 0, .3);
+    box-shadow: inset 0px -50px 29px -43px rgba(0, 0, 0, .3);
     padding-top: 6.85em;
 }
 
