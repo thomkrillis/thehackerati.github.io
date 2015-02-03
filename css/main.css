@@ -1603,7 +1603,7 @@ CONTACT PAGE
 .contact-section2 {
     margin-top: 0;
     background: #DDDDDD;
-    height: 46em;
+    height: 50em;
     padding: 1%;
 }
 
@@ -1611,20 +1611,29 @@ CONTACT PAGE
     width: 50%;
     float: left;
     position: relative;
+    padding-left: 75px;
 }
 
 .contact-form-h1 {
-    margin: 3% 0 0;
+    margin: 3% 0;
 }
 
 .contact-form-h2 {
+    width: 440px;
+    padding-right: 75px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.contact-form-h2,
+.contact-form-h3 {
     font-size: 2em;
+    margin-bottom: 0;
 }
 
 .contact-form-container {
-    width:70%;
-    margin: 0 auto;
     position: relative;
+    text-align: center;
 }
 
 .google-maps-container-container-container {
@@ -1635,13 +1644,12 @@ CONTACT PAGE
 
 .google-maps-container-container {
     width: 80%;
-    margin: 5% auto;
+    margin: 2% auto;
     position: relative;
 }
 
 .google-maps-container {
     display: block;
-    margin-top: 11em;
 }
 
 .google-maps-container-mobile {

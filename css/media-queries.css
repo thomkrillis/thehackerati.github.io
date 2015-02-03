@@ -897,10 +897,16 @@ CSS MEDIA QUERIES FOR THEHACKERATI.COM
 
     .contact-container-section2 {
         width: 100%;
+        padding: 0;
+    }
+
+    .contact-form-h2 {
+        padding: 0;
     }
 
     .contact-form-container {
-        width: 50%
+        width: 50%;
+        margin: 0 auto;
     }
 
     .google-maps-container-container-container {
@@ -1480,7 +1486,11 @@ CSS MEDIA QUERIES FOR THEHACKERATI.COM
     }
 
     .contact-section2 {
-        height: 65em;
+        height: 68em;
+    }
+
+    .contact-form-h2 {
+        width: 100%;
     }
 
     .contact-form-container {
