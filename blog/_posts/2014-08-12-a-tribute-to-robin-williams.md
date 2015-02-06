@@ -13,9 +13,9 @@ tags:
     
 published: true
 ---
-![Alt text](/blog/assets/img/robin/robin.jpg)
+![Alt text]({{ site.url }}/blog/assets/img/robin/robin.jpg)
 
-We've discussed internally the possibility of sharing more personal art on this blog, à la Grace's _[Cosmospolitan](http://www.thehackerati.com/blog/2014/04/28/cosmospolitan.html)_ and [awesome comic](http://www.thehackerati.com/blog/2014/05/20/hackerati-comics.html). 
+We've discussed internally the possibility of sharing more personal art on this blog, à la Grace's _[Cosmospolitan]({{ site.url }}/blog/2014/04/28/cosmospolitan.html)_ and [awesome comic]({{ site.url }}/blog/2014/05/20/hackerati-comics.html). 
 
 The immense sadness surrounding Robin Williams' death has been overwhelmingly present in my mind, so I've decided to share a poem I wrote after hearing the news last night:
 <br><br>
@@ -100,4 +100,4 @@ You will be missed, Robin Williams. <br>
 Thank you for sharing your light while you had it.
 
 
-![Alt text](/blog/assets/img/robin/painting.png)
+![Alt text]({{ site.url }}/blog/assets/img/robin/painting.png)

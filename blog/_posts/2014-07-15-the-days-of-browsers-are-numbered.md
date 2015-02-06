@@ -7,7 +7,7 @@ comments: true
 tags: [tech, culture, mobile, JavaScript]
 published: true
 ---
-![Alt text](/blog/assets/img/mobile-vs-browser.png)
+![Alt text]({{ site.url }}/blog/assets/img/mobile-vs-browser.png)
 
 TL;DR
 ---
@@ -28,4 +28,4 @@ Now, contrary to my argument, I think there would be a pretty big blow to techno
 
 That said, how much value is the community getting from for-profit MOOCs and view source anyway? This is, to say the least, tangential to the original point, but why are we so worried about everyone in the world becoming competent coders? Not everyone in the world is a competent lawyer or physician. Judging from the data we get from companies like Coursera, I think the result of these websites is that a handful of people become really good programmers ([like Alex Krupp](http://www.alexkrupp.typepad.com/sensemaking/2013/11/2012-my-year-of-code.html)), and a lot of people sign up for courses and never finish them. The Alex Krupps of the world would have learned either way, given enough book-learnin' time.
 
-Disagree? See the response post [In Defense of Browsers](http://www.thehackerati.com/blog/2014/07/22/in-defense-of-browsers.html).
+Disagree? See the response post [In Defense of Browsers]({{ site.url }}/blog/2014/07/22/in-defense-of-browsers.html).

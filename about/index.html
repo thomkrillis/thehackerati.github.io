@@ -15,7 +15,7 @@ ABOUT PAGE
 
     <div class="section section1 splash-container" id="top-section">
         <div class="content-container section1-content-container">
-            <img src="../assets/img/header-image-about.jpg" class="splash" alt="Splash, About, The Hackerati, New York" />
+            <img src="{{ site.url }}/assets/img/header-image-about.jpg" class="splash" alt="Splash, About, The Hackerati, New York" />
 
             <div class="def-hackerati">
                 <h1>The Hack&#183;er&#183;a&#183;ti</h1>
@@ -42,7 +42,7 @@ ABOUT PAGE
             <p>
             We knew this company would need a nontraditional business model that could provide a perpetual source of non-dilutive capital to incubate our portfolio companies, as well as a continuous stream of new founders, top engineers and designers, and great product ideas. Hence was born our <i>Engineering as a Service</i> consulting business.
             </p>
-            <a href="http://www.thehackerati.com/blog/2014/04/08/the-hackerati-a-culture-of-innovation.html">Read More</a>
+            <a href="{{ site.url }}/blog/2014/04/08/the-hackerati-a-culture-of-innovation.html">Read More</a>
         </div>
     </div>
 
@@ -57,7 +57,7 @@ ABOUT PAGE
             <div class="clearfix"></div>
             <div id="wrapper-columns">
                 <div class="column-1">
-                        <img src="../assets/img/meet-hackerati-EaaS.png" alt="The Hackerati, About, Engineering as a Service icon" />
+                        <img src="{{ site.url }}/assets/img/meet-hackerati-EaaS.png" alt="The Hackerati, About, Engineering as a Service icon" />
                     <hr />
                     <h2 class="orange">Engineering as a Service<sup>TM</sup></h2>
                     <hr />
@@ -66,7 +66,7 @@ ABOUT PAGE
                     </p>
                 </div>
                 <div class="column-2">
-                        <img src="../assets/img/meet-hackerati-academy.png" alt="The Hackerati, About, Academy icon" />
+                        <img src="{{ site.url }}/assets/img/meet-hackerati-academy.png" alt="The Hackerati, About, Academy icon" />
                     <hr />
                     <h2 class="orange">Hackerati Academy</h2>
                     <hr />
@@ -75,7 +75,7 @@ ABOUT PAGE
                     </p>
                 </div>
                 <div class="column-3">
-                        <img src="../assets/img/meet-hackerati-labs.png" alt="The Hackerati, About, Labs icon" />
+                        <img src="{{ site.url }}/assets/img/meet-hackerati-labs.png" alt="The Hackerati, About, Labs icon" />
                     <hr />
                     <h2 class="orange">Hackerati Labs</h2>
                     <hr />
@@ -95,9 +95,9 @@ ABOUT PAGE
                 {% for founder in people.founders %}
                     <div class="hackeratus-founder-wrapper">
                         <a class='inline' href="#{{ founder.id }}-modal">
-                            <img src="../assets/img/team/{{ founder.id }}.png" class="hackeratus hackeratus-founder">
+                            <img src="{{ site.url }}/assets/img/team/{{ founder.id }}.png" class="hackeratus hackeratus-founder">
                             <div class="hover-img">
-                                <img src="../assets/img/team/{{ founder.id }}-hover.png">
+                                <img src="{{ site.url }}/assets/img/team/{{ founder.id }}-hover.png">
                             </div>
                         </a>
                         <p>{{ founder.name }}, {{ founder.role }}</p>
@@ -107,7 +107,7 @@ ABOUT PAGE
                         <div id='{{ founder.id }}-modal'>
                             <div class="team-desktop">
                                 <div class="teamphoto">
-                                    <img src="../assets/img/team/{{ founder.id }}.png">
+                                    <img src="{{ site.url }}/assets/img/team/{{ founder.id }}.png">
                                     <div class="teamcontact">
                                         <p>
                                             <a href="mailto:{{ founder.id }}@thehackerati.com">{{ founder.id }}@thehackerati.com</a>
@@ -141,7 +141,7 @@ ABOUT PAGE
                             </div><!--/team-desktop-->
                             <div class="team-tablet">
                                 <div class="teamphoto">
-                                    <img src="../assets/img/team/{{ founder.id }}.png">
+                                    <img src="{{ site.url }}/assets/img/team/{{ founder.id }}.png">
                                 </div>
                                 <div class="teamcontact">
                                     <h4>{{ founder.name }}</h4>
@@ -175,7 +175,7 @@ ABOUT PAGE
                             </div><!--/team-tablet-->
                             <div class="team-smartphone">
                                 <div class="teamphoto">
-                                    <img src="../assets/img/team/{{ founder.id }}.png">
+                                    <img src="{{ site.url }}/assets/img/team/{{ founder.id }}.png">
                                     <div class="teamcontact">
                                         <h4>{{ founder.name }}</h4>
                                         <p>
@@ -220,9 +220,9 @@ ABOUT PAGE
                 {% for member in people.members %}
                     <div class="hackeratus-team-wrapper">
                         <a class='inline' href="#{{ member.id }}-modal">
-                            <img src="../assets/img/team/{{ member.id }}.png" class="hackeratus hackeratus-team">
+                            <img src="{{ site.url }}/assets/img/team/{{ member.id }}.png" class="hackeratus hackeratus-team">
                             <div class="hover-img">
-                                <img src="../assets/img/team/{{ member.id }}-hover.png">
+                                <img src="{{ site.url }}/assets/img/team/{{ member.id }}-hover.png">
                             </div>
                         </a>
                         <p>{{ member.name }}</p>
@@ -232,7 +232,7 @@ ABOUT PAGE
                         <div id='{{ member.id }}-modal'>
                             <div class="team-desktop">
                                 <div class="teamphoto">
-                                    <img src="../assets/img/team/{{ member.id }}.png">
+                                    <img src="{{ site.url }}/assets/img/team/{{ member.id }}.png">
                                     <div class="teamcontact">
                                         <p>
                                             <a href="mailto:{{ member.id }}@thehackerati.com">{{ member.id }}@thehackerati.com</a>
@@ -267,7 +267,7 @@ ABOUT PAGE
                             </div><!--/team-desktop-->
                             <div class="team-tablet">
                                 <div class="teamphoto">
-                                    <img src="../assets/img/team/{{ member.id }}.png">
+                                    <img src="{{ site.url }}/assets/img/team/{{ member.id }}.png">
                                 </div>
                                 <div class="teamcontact">
                                     <h4>{{ member.name }}</h4>
@@ -302,7 +302,7 @@ ABOUT PAGE
                             </div><!--/team-tablet-->
                             <div class="team-smartphone">
                                 <div class="teamphoto">
-                                    <img src="../assets/img/team/{{ member.id }}.png">
+                                    <img src="{{ site.url }}/assets/img/team/{{ member.id }}.png">
                                     <div class="teamcontact">
                                         <h4>{{ member.name }}</h4>
                                         <p class = "role-title">{{ member.role }}</p>
@@ -361,5 +361,5 @@ $(".hackeratus").on({
 });
 </script>
 
-<script type="text/javascript" src="../js/persistent-header.js"></script>
+<script type="text/javascript" src="{{ site.url }}/js/persistent-header.js"></script>
 {% include pingdom %}

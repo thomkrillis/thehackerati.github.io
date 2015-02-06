@@ -16,7 +16,7 @@ published: true
 
 Derby and I checked out Dev Bootcamp's first NYC graduate presentations last week, and we were seriously impressed by the graduates, the teachers, the space, and the core philosophy. Wall Street had better ready itself for a transformation!    
 
-![Alt text](/blog/assets/img/dbc.png)
+![Alt text]({{ site.url }}/blog/assets/img/dbc.png)
   
 _Disclaimer: I'm hooked on the DBC Kool-Aid. I wasn't asked by anyone in the organization to write about their program—I'm driven by an internal desire to promote their awesomeness because people need to know about this._
   
@@ -48,7 +48,7 @@ Know a programming language? Want to learn another? The Delta links common conce
 ###[Encore](http://www.encoreapp.io)
 Encore allows you to "relive your favorite concerts" by automatically aggregating information and media associated with concerts. So if you want to remember what song your favorite band played to kick off the second set, or simply want to check out a show from another seat in the venue, you can do so with Encore.
 
-![Alt text](/blog/assets/img/encore.jpg)
+![Alt text]({{ site.url }}/blog/assets/img/encore.jpg)
 
 ###[Tattle](http://whoownswhat.herokuapp.com)
 Tattle enables users to discover where their products are actually coming from by identifying whether brands have parent companies, and by surfacing any controversies associated with them to help you make more informed decisions as a consumer. 
@@ -59,9 +59,9 @@ All of the graduates spoke confidently and articulately about their work—a cle
 
 After the presentations, Derby and I were invited to eat and chat with the graduates. It was great to be able to get to know more about their backgrounds and their unique journeys to and through the bootcamp. It was also a lot of fun to introduce them to Google Glass, which has become quite a common ritual when interacting with new groups.
 
-![Alt text](/blog/assets/img/glass-test1.jpg)
+![Alt text]({{ site.url }}/blog/assets/img/glass-test1.jpg)
 
-![Alt text](/blog/assets/img/glass-test2.jpg)  
+![Alt text]({{ site.url }}/blog/assets/img/glass-test2.jpg)  
 Regardless of their former backgrounds, these DBC grads are now self- and socially-aware technological builders, and I'm comforted by the knowledge that people of this caliber have their hands and heads in the global machine. I'm further comforted by the fact that this is merely the beginning of DBC's residency in NYC—that they'll continue to train and deploy creative hackers driven by a desire to improve our shared world.
   
 Looking Forward
@@ -72,4 +72,4 @@ With numerous bootcamps in existence in NYC alone—and more popping up every mo
 
 The next generation of creators is here. Get ready to ascend the exponential!
 
-![Alt text](/blog/assets/img/exponential.png)
+![Alt text]({{ site.url }}/blog/assets/img/exponential.png)

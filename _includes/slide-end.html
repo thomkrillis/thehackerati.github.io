@@ -2,15 +2,15 @@
 
 <div class="sb-slidebar sb-left">
     <ul class="sb-menu">
-        <li><a class="sitemap-cat" href="/">Home</a></li>
-        <li><a class="sitemap-cat" href="/about">About</a></li>
-        <li><a class="sitemap-cat" href="/academy">Academy</a></li>
-        <li><a class="sitemap-cat" href="/careers">Careers</a></li>
-        <li><a class="sitemap-cat" href="/blog">Blog</a></li>
-        <li><a class="sitemap-cat" href="/contact">Contact</a></li>
+        <li><a class="sitemap-cat" href="{{ site.url }}">Home</a></li>
+        <li><a class="sitemap-cat" href="{{ site.url }}/about">About</a></li>
+        <li><a class="sitemap-cat" href="{{ site.url }}/academy">Academy</a></li>
+        <li><a class="sitemap-cat" href="{{ site.url }}/careers">Careers</a></li>
+        <li><a class="sitemap-cat" href="{{ site.url }}/blog">Blog</a></li>
+        <li><a class="sitemap-cat" href="{{ site.url }}/contact">Contact</a></li>
     </ul>
     <div class="h-watermark">
-        <img src="../assets/img/H.png" alt="The Hackerati, watermark, H" />
+        <img src="{{ site.url }}/assets/img/H.png" alt="The Hackerati, watermark, H" />
     </div>
 </div>
 
@@ -51,7 +51,7 @@
     </div>
 </div>
 
-<script src="../js/slidebars.min.js"></script>
+<script src="{{ site.url }}/js/slidebars.min.js"></script>
 <script>
   (function($) {
     $(document).ready(function() {

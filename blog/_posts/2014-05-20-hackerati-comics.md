@@ -7,4 +7,4 @@ comments: true
 tags: [culture, art, puns, comics]
 ---
 
-![Alt text](/blog/assets/img/hackeratiComics1.png "...because drills bore through things.")
+![Alt text]({{ site.url }}/blog/assets/img/hackeratiComics1.png "...because drills bore through things.")

@@ -7,7 +7,7 @@ comments: true
 tags: [tech, culture, google glass, united nations, humanicy]
 published: true
 ---
-![Alt text](/blog/assets/img/logo.png "UN Logo")
+![Alt text]({{ site.url }}/blog/assets/img/logo.png "UN Logo")
 
 _What does a head-mounted computer have to do with the United Nations? Potentially, quite a lot._
 ---------------------------------------------------------------------------------------------
@@ -26,7 +26,7 @@ There was also a documentary shown after the presentations called [_Dancing in 
 But Google Glass Isn't Really Art...
 ------------------------------------ 
 
-![Alt text](/blog/assets/img/glass.jpg)
+![Alt text]({{ site.url }}/blog/assets/img/glass.jpg)
 
 _An early prototype of Google Glass._
   
@@ -38,14 +38,14 @@ With our limited knowledge of diplomacy and the UN's efforts, we selected two id
   
 Glass App: Conversation Starter
 -------------------------------
-![Alt text](/blog/assets/img/convo.png)
+![Alt text]({{ site.url }}/blog/assets/img/convo.png)
 We envisioned diplomats and ambassadors walking around the UN wearing Glass, and thought about how useful it would be for them to be able to send personal information to each other's units. By opting into the system and sharing information about oneself beyond the political systems and ideals they represent, diplomats can be informed of each other and have more meaningful interactions.  
   
 The application would allow users to create profiles to provide information such as position, amount of time in that position, political interests, personal interests, hobbies, etc. When the user's smartphone noticed another Glass unit's unique bluetooth ID, it would alert the user through their own Glass and allow them to retrieve that information seamlessly.  
   
 Glass App: Hands-Free Medical Aid
 ---------------------------------
-![Alt text](/blog/assets/img/med.png)
+![Alt text]({{ site.url }}/blog/assets/img/med.png)
 We then focused on refugee camps and disaster relief centers. Displaced populations seek refuge across the globe, and devices that enhance their user's abilities are ideal for saving lives and enhancing quality of life during such difficult times.  
   
 Imagine needing medical aid in a camp that has a shortage of medical professionals. True emergencies could be dealt with by establishing a video relay between a field worker and a central medical staff, walking volunteers through diagnoses and remedies. The awesome part is that video chats launched as standard Glassware, so minimal effort would be required to implement such a system.  
@@ -60,7 +60,7 @@ And if messages need to be sent greater distances from users outside of the rang
   
 3D Mapping of Refugee Camps
 ---------------------------
-![Alt text](/blog/assets/img/tango.jpg)
+![Alt text]({{ site.url }}/blog/assets/img/tango.jpg)
 We understand separated families to be a major issue within refugee camps, so we applied Google's recently-publicized [Project Tango](https://www.google.com/atap/projecttango/) to this environment and imagined the ability to provide 3D maps of camps by simply walking around the camp holding a special Tango smartphone. The device has multiple cameras and vision processors that enable it to sense depth just like the human brain. It would be amazing for a lost child to be reunited with their family by asking volunteers to search the database of last-known locations via Glass and then being provided with 3D directions to that location with information collected from Tango.  
   
 Just the Beginning

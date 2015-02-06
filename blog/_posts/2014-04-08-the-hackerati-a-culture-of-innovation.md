@@ -30,7 +30,7 @@ Gumption is one of those words that you rarely hear people use these days, but y
 
 Find the "Edge"
 ---------------
-[![Alt text](/blog/assets/img/sailboat_race.jpg "Fast is Fun")](https://flic.kr/p/4GtafZ)
+[![Alt text]({{ site.url }}/blog/assets/img/sailboat_race.jpg "Fast is Fun")](https://flic.kr/p/4GtafZ)
 
 Sailing fast is an exercise in balancing true wind and apparent wind to move the boat in the desired direction while minimizing drag. It takes a tremendous amount of coordination to make this happen, and your course is rarely a straight line. Such is the case with innovative technology teams. Product design and engineering work in concert to move forward, utilizing just enough structure and rules to maintain coordination, but not so much as to slow the team down or to make it difficult to pivot.
 
@@ -44,7 +44,7 @@ Some rules are necessary for any organization to function, but too many rules ca
 
 Challenge the Status Quo
 ------------------------
-![Alt text](/blog/assets/img/answer_all_questions.jpg "Answer All Questions... Question All Answers")
+![Alt text]({{ site.url }}/blog/assets/img/answer_all_questions.jpg "Answer All Questions... Question All Answers")
 
 Innovation is about envisioning a state in which things will be substantially improved over the status quo. It's not about just doing the same things better --- it's about discovering new things to do. To be truly innovative, we must be willing to question --- and ultimately relinquish --- that which we know for sure to be true, whether it is based on a priori knowledge or empirical evidence.
 
