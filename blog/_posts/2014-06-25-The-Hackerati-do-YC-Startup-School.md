@@ -16,7 +16,7 @@ published: true
 
 Last week a few members of The Hackerati attended Y Combinator Startup School at the Best Buy Theater in Times Square, NYC. The event is an expo of Y Combinator companies, venture capitalist presenters, and their success stories and advice. Over 1000 people made their way out to what is usually a concert hall to listen to the likes of Fred Wilson from Union Square Ventures and rising YC companies such as Instacart. If you’d like to watch the livestream recording you can find it [here](http://new.livestream.com/mbp/events/3083143/videos/54246958), with a segmented youtube playlist [here](https://www.youtube.com/playlist?list=PLQ-uHSnFig5NCQkhJfkn8ogXFwzrP4SIf "Youtube Videos of Event"). 
 
-![Startup School Slide](/blog/assets/img/StartupSchool.jpg)
+![Startup School Slide]({{ site.url }}/blog/assets/img/StartupSchool.jpg)
 
 This post summarizes each presentation and the takeaways that entrepreneurs would want to hear from them. 
 
@@ -128,7 +128,7 @@ David Lee is an accomplished investing partner at SV Angel. His talk centered on
 
 He opened with the story of personal inspiration: His father invented a device that automated the manufacture of fortune cookies, and so lived the life of a startup founder, with all of the ups and downs associated with a running one’s own business. His slide deck came straight from a document that SV Angel uses to guide its decision making process to invest in companies.
 
-![Fortune Cookie Slide](/blog/assets/img/FortuneCookie.jpg)
+![Fortune Cookie Slide]({{ site.url }}/blog/assets/img/FortuneCookie.jpg)
 
 The driving force behind an investment decision is “chemistry with founders.” If they like the founder and they like the industry, they're likely to invest. A good founder has:
 

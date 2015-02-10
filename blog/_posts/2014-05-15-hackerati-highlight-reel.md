@@ -23,7 +23,7 @@ __Alex Sheehan__
 - _Bugs_ on [Alex's personal website](http://www.amsheehan.com)
 - Clips from two videos Alex directed/shot/edited
   - A dance video
-  - The [Google Glass video](http://www.youtube.com/watch?v=hf6JSzoGTag) referenced in [my last post](http://www.thehackerati.com/blog/2014/05/06/the-hackerati-at-the-un.html) about our work with the United Nations
+  - The [Google Glass video](http://www.youtube.com/watch?v=hf6JSzoGTag) referenced in [my last post]({{ site.url }}/blog/2014/05/06/the-hackerati-at-the-un.html) about our work with the United Nations
 
 
 __Eddy Garcia__  

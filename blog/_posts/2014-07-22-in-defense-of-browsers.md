@@ -7,15 +7,15 @@ comments: true
 tags: [tech, culture, mobile, JavaScript]
 published: true
 ---
-![Alt text](/blog/assets/img/browser-mobile.png)
+![Alt text]({{ site.url }}/blog/assets/img/browser-mobile.png)
 
 TL;DR
 ---
 
 The Browser and JavaScripts = SUCH WOW, SO AMAZE!!11!! 
-![Alt text](/blog/assets/img/doge.png)
+![Alt text]({{ site.url }}/blog/assets/img/doge.png)
 
-In response to: [Browsers Are the Worst](http://www.thehackerati.com/blog/2014/07/15/the-days-of-browsers-are-numbered.html)
+In response to: [Browsers Are the Worst]({{ site.url }}/blog/2014/07/15/the-days-of-browsers-are-numbered.html)
 
 Really, Alex? REALLY?
 ---

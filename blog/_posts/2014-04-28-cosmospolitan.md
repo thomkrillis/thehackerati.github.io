@@ -7,4 +7,4 @@ comments: true
 tags: [culture, art, puns, star trek]
 ---
 
-![Alt text](/blog/assets/img/cosmospolitan.png "Cosmospolitan")
+![Alt text]({{ site.url }}/blog/assets/img/cosmospolitan.png "Cosmospolitan")
