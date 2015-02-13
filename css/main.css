@@ -60,7 +60,7 @@ body {
     margin: 0;
     padding: 0;
     font-size: 14px;
-    background: #2C2C2C;
+    background: #1A1A1A;
 }
 
 p {
@@ -515,7 +515,7 @@ HOME PAGE
 /* BLOCK 1  | SPLASH */
 
 .welcome-container {
-    background: #2C2C2C;
+    background: #1A1A1A;
     overflow: hidden;
     -webkit-box-shadow: inset 0px -50px 29px -43px rgba(0, 0, 0, .3);
     box-shadow: inset 0px -50px 29px -43px rgba(0, 0, 0, .3);
@@ -896,7 +896,7 @@ body > svg {
 .contact-head button {
     display: inline-block;
     text-decoration: none;
-    color: #2c2c2c;
+    color: #1A1A1A;
     font: 1.1em/130% 'din-regularregular', sans-serif;
     margin-bottom: 0.9em;
 }
@@ -1361,7 +1361,7 @@ CAREERS PAGE
 }
 
 .careers-page .section1 {
-    background: #2C2C2C;
+    background: #1A1A1A;
     z-index: -300;
 }
 
@@ -1769,7 +1769,7 @@ BLOG PAGE
     padding-bottom: 1.2em;
     margin-bottom: 0px;
     font: 4em/100% 'din-regularregular', sans-serif;
-    color: #2c2c2c;
+    color: #1A1A1A;
     border: none;
 }
 
@@ -1823,7 +1823,7 @@ FOOTER
 */
 
 footer {
-    background: #2C2C2C;
+    background: #1A1A1A;
 }
 
 footer p {
@@ -1965,7 +1965,7 @@ footer .content-container {
 .copyright {
     position: absolute;
     left: 0;
-    bottom: 0;
+    bottom: 2em;
     width: 100%;
     text-align: center;
 }
