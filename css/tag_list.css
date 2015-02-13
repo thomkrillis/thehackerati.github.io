@@ -1,5 +1,5 @@
 body {
-    background-image: url('/assets/img/bgwhite.png');
+    background-image: url('{{ site.url }}/assets/img/bgwhite.png');
 }
 
 h2 {

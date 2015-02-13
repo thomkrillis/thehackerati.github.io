@@ -1763,7 +1763,7 @@ BLOG PAGE
 */
 
 .post_title {
-    background-image: url('/assets/img/bgwhite.png');
+    background-image: url('{{ site.url }}/assets/img/bgwhite.png');
     text-shadow: none;
     padding-top: 1em;
     padding-bottom: 1.2em;
@@ -1774,7 +1774,7 @@ BLOG PAGE
 }
 
 .tag_content {
-    background-image: url('/assets/img/bgwhite.png');
+    background-image: url('{{ site.url }}/assets/img/bgwhite.png');
 }
 
 .tag_body {
@@ -1984,27 +1984,27 @@ footer .content-container {
 }
 
 .sb-twitter {
-    background: url('/assets/img/twitter.svg') no-repeat;
+    background: url('{{ site.url }}/assets/img/twitter.svg') no-repeat;
 }
 
 .sb-facebook {
-    background: url('/assets/img/facebook.svg') no-repeat;
+    background: url('{{ site.url }}/assets/img/facebook.svg') no-repeat;
 }
 
 .sb-linkedin {
-    background: url('/assets/img/linkedin.svg') no-repeat;
+    background: url('{{ site.url }}/assets/img/linkedin.svg') no-repeat;
 }
 
 .sb-github {
-    background: url('/assets/img/github.svg') no-repeat;
+    background: url('{{ site.url }}/assets/img/github.svg') no-repeat;
 }
 
 .sb-gplus {
-    background: url('/assets/img/gplus.svg') no-repeat;
+    background: url('{{ site.url }}/assets/img/gplus.svg') no-repeat;
 }
 
 .sb-meetup {
-    background: url('/assets/img/meetup.svg') no-repeat;
+    background: url('{{ site.url }}/assets/img/meetup.svg') no-repeat;
 }
 
 .h-watermark {
