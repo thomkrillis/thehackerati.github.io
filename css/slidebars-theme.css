@@ -36,7 +36,7 @@
  */
 
 .sb-slidebar {
-    background-color: #222222; /* Background colour. */
+    background-color: #1A1A1A; /* Background colour. */
     color: #e8e8e8; /* Text colour. */
 }
 
@@ -126,6 +126,7 @@ a.sitemap-cat:visited {
 
 .sb-right .sb-menu li a {
     border-right: 3px solid transparent;
+    line-height: 1.6em;
 }
 
 .sb-right .sb-menu li a:hover {
@@ -200,7 +201,7 @@ span.sb-caret { /* Caret Down */
  */
 
 .sb-navbar {
-    background: black;
+    background: #1A1A1A;
     width: 100%;
     padding-top: 5px;
     padding-bottom: 5px;

@@ -52,15 +52,6 @@ FONTS
 
 }
 
-@font-face {
-    font-family: 'HelveticaRegular';
-    src: url('../assets/fonts/Helvetica/helvetica.eot');
-    src: url('../assets/fonts/Helvetica/helvetica.eot') format('embedded-opentype'),
-         url('../assets/fonts/Helvetica/helvetica.woff') format('woff'),
-         url('../assets/fonts/Helvetica/helvetica.ttf') format('truetype'),
-         url('../assets/fonts/Helvetica/helvetica.svg#HelveticaRegular') format('svg');
-}
-
 body {
     line-height: 18px;
     position: relative;
@@ -86,23 +77,23 @@ h1 {
 
 h2 {
     font: 2.3em/100% 'Exo 2', sans-serif;
-    color: #2c2c2c;
+    color: #1A1A1A;
     margin-top: 1.5em;
 }
 
 h3 {
     font: 2em/100% 'Exo 2', sans-serif;
-    color: #2c2c2c;
+    color: #1A1A1A;
 }
 
 p {
     font: 1.5em/180% 'din-lightregular', sans-serif;
-    color: #2c2c2c;
+    color: #1A1A1A;
 }
 
 li {
     font: 1.5em/180% 'din-lightregular', sans-serif;
-    color: #2c2c2c;
+    color: #1A1A1A;
     margin-left: 40px;
 }
 
@@ -260,7 +251,7 @@ blockquote p {
     background-image: linear-gradient(#fff,#dedede);
     border: 1px solid #ccc;
     border-radius: 3px;
-    font: 0.5em/100% Helvetica;
+    font: 0.5em/100% Lato, sans-serif;
 }
 
 .reddit_button img {

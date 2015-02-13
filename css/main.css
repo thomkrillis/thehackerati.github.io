@@ -48,15 +48,6 @@ FONTS
 
 }
 
-@font-face {
-    font-family: 'HelveticaRegular';
-    src: url('../assets/fonts/Helvetica/helvetica.eot');
-    src: url('../assets/fonts/Helvetica/helvetica.eot') format('embedded-opentype'),
-         url('../assets/fonts/Helvetica/helvetica.woff') format('woff'),
-         url('../assets/fonts/Helvetica/helvetica.ttf') format('truetype'),
-         url('../assets/fonts/Helvetica/helvetica.svg#HelveticaRegular') format('svg');
-}
-
 /*
 ====================================================== 
 GENERAL 
@@ -69,6 +60,7 @@ body {
     margin: 0;
     padding: 0;
     font-size: 14px;
+    background: #1A1A1A;
 }
 
 p {
@@ -78,7 +70,7 @@ p {
 }
 
 h1 {
-    font: 3.25em/120% 'HelveticaRegular';
+    font: 3.25em/120% Lato, sans-serif;
     text-align: center;
     margin-bottom: 10px;
     margin-top: .2em;
@@ -86,7 +78,7 @@ h1 {
 }
 
 h2 {
-    font: 3.5em/120% 'HelveticaRegular';
+    font: 3.5em/120% Lato, sans-serif;
     color: black;
     padding-bottom: 10px;
     margin-bottom: 10px;
@@ -94,11 +86,11 @@ h2 {
 }
 
 h3 {
-    font: 1.2em/100% 'HelveticaRegular';
+    font: 1.2em/100% Lato, sans-serif;
 }
 
 h4 {
-    font: 2em/130% 'HelveticaRegular';
+    font: 2em/130% Lato, sans-serif;
     margin: 0 0 0.7em 0;
     color: #f4f4f4;
 }
@@ -298,7 +290,7 @@ li {
     color: white;
     font-size: 28px;
     background-color: #EC6314;
-    border-color: #272727;
+    border: 0 none;
     text-decoration: none;
     -webkit-transition-property: text-decoration;
     -webkit-transition-duration: 0.3s;
@@ -414,6 +406,13 @@ img.splash{
     padding: 3.5em 0 30em 0;
 }
 
+.social-media-sprite {
+    width: 34.54px;
+    height: 2.5em;
+    float: left;
+    margin-right: 0.5em;
+}
+
 .clearfix:after {
     content: ".";
     display: block;
@@ -477,7 +476,7 @@ HEADER
 .content-container .nav-links a:link {
     text-decoration: none;
     color: #f4f4f4;
-    font: 0.8em/100% 'HelveticaRegular';
+    font: 0.8em/100% Lato, sans-serif;
 }
 
 .content-container .nav-links a:active {
@@ -516,10 +515,10 @@ HOME PAGE
 /* BLOCK 1  | SPLASH */
 
 .welcome-container {
-    background: #000000;
+    background: #1A1A1A;
     overflow: hidden;
-    -webkit-box-shadow: inset 0px -8px 29px 10px rgba(0, 0, 0, .3);
-    box-shadow: inset 0px -8px 29px 0px rgba(0, 0, 0, .3);
+    -webkit-box-shadow: inset 0px -50px 29px -43px rgba(0, 0, 0, .3);
+    box-shadow: inset 0px -50px 29px -43px rgba(0, 0, 0, .3);
     padding-top: 6.85em;
 }
 
@@ -539,7 +538,7 @@ HOME PAGE
 }
 
 .welcome-copy-first {
-    font: 2.4em/130% 'HelveticaRegular', sans-serif;
+    font: 2.4em/130% Lato, sans-serif;
     text-align: left;
 }
 
@@ -550,7 +549,7 @@ HOME PAGE
 }
 
 .welcome-copy-third {
-    font: bold 2.4em/130% 'HelveticaRegular', sans-serif;
+    font: bold 2.4em/130% Lato, sans-serif;
     text-align: left;
     color: #ec6314;
 }
@@ -590,7 +589,7 @@ HOME PAGE
 .how-h2 {
     text-align: left;
     color: #f4f4f4;
-    font: 2em/100% 'HelveticaRegular', sans-serif;
+    font: 2em/100% Lato, sans-serif;
     margin-bottom: 0;
     margin-top: 1em;
 }
@@ -621,7 +620,7 @@ HOME PAGE
 }
 
 #how h1 {
-    font: 3.0em/100% 'HelveticaRegular';
+    font: 3.0em/100% Lato, sans-serif;
     color: #f4f4f4;
 }
 
@@ -897,7 +896,7 @@ body > svg {
 .contact-head button {
     display: inline-block;
     text-decoration: none;
-    color: #2c2c2c;
+    color: #1A1A1A;
     font: 1.1em/130% 'din-regularregular', sans-serif;
     margin-bottom: 0.9em;
 }
@@ -923,7 +922,7 @@ body > svg {
     border-bottom: 0;
     color: white;
     float: left;
-    font: 3.5em/120% 'HelveticaRegular';
+    font: 3.5em/120% Lato, sans-serif;
     width: 100%;
 }
 
@@ -957,7 +956,7 @@ ABOUT PAGE
 }
 
 .def-part-of-speech {
-    font: 1em/100% 'HelveticaRegular' !important;
+    font: 1em/100% Lato, sans-serif !important;
     margin-top: 1em !important;
     margin-bottom: 1em !important;
 }
@@ -1013,7 +1012,7 @@ ABOUT PAGE
 #how h1 {
     margin-bottom: 0.5%;
     font-size: 2.5em;
-    font: 4.3em/100% 'HelveticaRegular';
+    font: 4.3em/100% Lato, sans-serif;
     color: black;
     padding-bottom: 0px;
     border-bottom: 0px;
@@ -1022,7 +1021,7 @@ ABOUT PAGE
 .who-content h2 {
     margin-bottom: 0px;
     font-size: 1.8em;
-    font: 2.7em/100% 'HelveticaRegular';
+    font: 2.7em/100% Lato, sans-serif;
     padding-bottom: 0px;
     border-bottom: 0px;
 }
@@ -1174,7 +1173,7 @@ ABOUT PAGE
     cursor: pointer;
 }
 
-.teamphoto img {
+.teamphoto>img {
     -webkit-box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.51);
     -moz-box-shadow:    0px 0px 6px 0px rgba(0, 0, 0, 0.51);
     box-shadow:         0px 0px 6px 0px rgba(0, 0, 0, 0.51);
@@ -1192,7 +1191,7 @@ ABOUT PAGE
     height: 380px;
 }
 
-.teamphoto img {
+.teamphoto>img {
     text-align: center;
     width: 250px;
     height: 250px;
@@ -1238,40 +1237,8 @@ ABOUT PAGE
     font: 1.2em/150% 'din-lightregular';
 }
 
-.team-social-media-sprite {
-    background: url('../assets/img/social-media-team-page.svg') no-repeat; 
-    width: 34.54px;
-    height: 2.5em;
-    float: left;
-    margin-right: 0.5em;
-}
-
-.linkedin-team {
-    background-position:-58.775px -50.577px;
-}
-
-.linkedin-team:hover { 
-    background-position:-128.487px -51.246px;
-}
-
-.github-team {
-    background-position:-23.843px -85.573px;
-}
-
-.github-team:hover {
-    background-position:-93.555px -86.242px;
-}
-
-.twitter-team {
-    background-position:-23.844px -15.741px;
-}
-
-.twitter-team:hover {
-    background-position:-93.555px -16.41px;
-}
-
 #colorbox a:link, #colorbox a:visited {
-    color: #F97B3D;
+    color: #EC6314;
 }
 
 #colorbox a:hover {
@@ -1393,17 +1360,21 @@ CAREERS PAGE
     vertical-align: top;
 }
 
+.careers-page .section1 {
+    background: #1A1A1A;
+}
+
 .careers-page .section1 p {
     margin: 0 0 0.5em 0;
     font: 1.2em/130% 'din-lightregular';
 }
 
 .careers-page .section1 p.apply-now-text {
-    font: 1.8em/150% 'HelveticaRegular';
+    font: 1.8em/150% Lato, sans-serif;
 }
 
 .careers-page .section1 p.apply-now-text a {
-    font-family: 'HelveticaRegular';
+    font-family: Lato, sans-serif;
 }
 
 .careers-page .section1-content-container {
@@ -1439,7 +1410,7 @@ CAREERS PAGE
 
 .careers-page .section2 .content-container p,
 .careers-page .section2 .content-container a {
-    font-family: 'HelveticaRegular';
+    font-family: Lato, sans-serif;
     color: #f4f4f4;
 }
 
@@ -1606,7 +1577,7 @@ CONTACT PAGE
 .contact-section2 {
     margin-top: 0;
     background: #DDDDDD;
-    height: 46em;
+    height: 50em;
     padding: 1%;
 }
 
@@ -1614,20 +1585,29 @@ CONTACT PAGE
     width: 50%;
     float: left;
     position: relative;
+    padding-left: 75px;
 }
 
 .contact-form-h1 {
-    margin: 3% 0 0;
+    margin: 3% 0;
 }
 
 .contact-form-h2 {
+    width: 440px;
+    padding-right: 75px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.contact-form-h2,
+.contact-form-h3 {
     font-size: 2em;
+    margin-bottom: 0;
 }
 
 .contact-form-container {
-    width:70%;
-    margin: 0 auto;
     position: relative;
+    text-align: center;
 }
 
 .google-maps-container-container-container {
@@ -1638,13 +1618,12 @@ CONTACT PAGE
 
 .google-maps-container-container {
     width: 80%;
-    margin: 5% auto;
+    margin: 2% auto;
     position: relative;
 }
 
 .google-maps-container {
     display: block;
-    margin-top: 11em;
 }
 
 .google-maps-container-mobile {
@@ -1783,18 +1762,18 @@ BLOG PAGE
 */
 
 .post_title {
-    background-image: url('/assets/img/bgwhite.png');
+    background-image: url('{{ site.url }}/assets/img/bgwhite.png');
     text-shadow: none;
     padding-top: 1em;
     padding-bottom: 1.2em;
     margin-bottom: 0px;
     font: 4em/100% 'din-regularregular', sans-serif;
-    color: #2c2c2c;
+    color: #1A1A1A;
     border: none;
 }
 
 .tag_content {
-    background-image: url('/assets/img/bgwhite.png');
+    background-image: url('{{ site.url }}/assets/img/bgwhite.png');
 }
 
 .tag_body {
@@ -1843,7 +1822,7 @@ FOOTER
 */
 
 footer {
-    background: black;
+    background: #1A1A1A;
 }
 
 footer p {
@@ -1919,7 +1898,7 @@ footer p {
 .sitemap a:link {
     color: #EC6314;
     text-align: left;
-    font: 1.5em/100% 'HelveticaRegular';
+    font: 1.5em/100% Lato, sans-serif;
 }
 
 .sitemap a:visited {
@@ -1972,77 +1951,64 @@ footer .content-container {
 .footer-column3 {
     padding: 0 0.5%;
     margin-left: 1.5%;
-    width: 30%;
+    width: 28.5%;
     float: left;
 }
 
 .footer-column1 {
-    margin-left: 2%;
+    margin-left: 5%;
     width: 25%;
     float: left;
 }
 
-.footer-sprite {
-    background: url('../assets/img/social-media-footer-small.svg') no-repeat; 
+.copyright {
+    position: absolute;
+    left: 0;
+    bottom: 2em;
+    width: 100%;
+    text-align: center;
+}
+
+.copyright h3 {
+    color: white;
+    font-size: 1.1em;
+    font-family: Calibri,sans-serif;
+}
+
+.sb-sprite {
     width: 34.54px;
-    height: 2.5em;
+    height: 1.6em;
     float: left;
     margin-right: 0.5em;
 }
 
-.gplus-footer {
-    background-position:-58.003px -15.938px;
+.sb-twitter {
+    background: url('{{ site.url }}/assets/img/twitter.svg') no-repeat;
 }
 
-.gplus-footer:hover { 
-    background-position:-128px -16px;
+.sb-facebook {
+    background: url('{{ site.url }}/assets/img/facebook.svg') no-repeat;
 }
 
-.facebook-footer {
-    background-position:-23.843px -50.577px;
+.sb-linkedin {
+    background: url('{{ site.url }}/assets/img/linkedin.svg') no-repeat;
 }
 
-.facebook-footer:hover {
-    background-position:-93.555px -51.246px;
+.sb-github {
+    background: url('{{ site.url }}/assets/img/github.svg') no-repeat;
 }
 
-.linkedin-footer {
-    background-position:-58.775px -50.577px;
+.sb-gplus {
+    background: url('{{ site.url }}/assets/img/gplus.svg') no-repeat;
 }
 
-.linkedin-footer:hover { 
-    background-position:-128.487px -51.246px;
-}
-
-.github-footer {
-    background-position:-23.843px -85.573px;
-}
-
-.github-footer:hover {
-    background-position:-93.555px -86.242px;
-}
-
-.twitter-footer {
-    background-position:-23.844px -15.741px;
-}
-
-.twitter-footer:hover {
-    background-position:-93.555px -16.41px;
-}
-
-.meetup-footer {
-    background-position:-58.003px -86.138px;
-    margin-right: 0em;
-}
-
-.meetup-footer:hover {
-    background-position:-128.624px -87.861px;
-    margin-right: 0em;
+.sb-meetup {
+    background: url('{{ site.url }}/assets/img/meetup.svg') no-repeat;
 }
 
 .h-watermark {
     text-align: center;
-    margin-right: 10%;
+    margin-right: 15%;
 }
 
 .h-watermark img {

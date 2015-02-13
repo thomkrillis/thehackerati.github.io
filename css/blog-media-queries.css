@@ -40,15 +40,6 @@ FONTS
 
 }
 
-@font-face {
-    font-family: 'HelveticaRegular';
-    src: url('../assets/fonts/Helvetica/helvetica.eot');
-    src: url('../assets/fonts/Helvetica/helvetica.eot') format('embedded-opentype'),
-         url('../assets/fonts/Helvetica/helvetica.woff') format('woff'),
-         url('../assets/fonts/Helvetica/helvetica.ttf') format('truetype'),
-         url('../assets/fonts/Helvetica/helvetica.svg#HelveticaRegular') format('svg');
-}
-
 
 /*
   BIG TABLET
@@ -240,7 +231,7 @@ header {
 
 .blog-right-column h3 {
     margin-top: 20px;
-    font: 1.8em/100% Helvetica;
+    font: 1.8em/100% Lato, sans-serif;
 }
 
 .post-author {
@@ -288,13 +279,13 @@ header {
 }
 
 footer {
-    background-color: #2c2c2c;
+    background-color: #1A1A1A;
     padding: 10px 0px;
     border: none;
 }
 
 footer p {
-    color: #2c2c2c;
+    color: #1A1A1A;
 }
 
 }
