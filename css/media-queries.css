@@ -1411,7 +1411,7 @@ CSS MEDIA QUERIES FOR THEHACKERATI.COM
     */
 
     .contact-page .section.section1.splash-container {
-        height: 48px;
+        height: 44px;
     }
 
     .contact-section2 {
@@ -1422,10 +1422,26 @@ CSS MEDIA QUERIES FOR THEHACKERATI.COM
         width: 100%;
     }
 
+    .contact-container-section2 {
+        width: 100%;
+        padding: 0;
+    }
+
     .contact-form-container {
         width: 100%;
     }
 
+    .google-maps-container-container-container {
+        width: 100%;
+    }
+
+    .google-maps-container-container {
+        width: 60%;
+    }
+
+    .google-maps-container {
+        margin: 0;
+    }
     /*
     ======================================================
     FOOTER
@@ -1496,6 +1512,13 @@ CSS MEDIA QUERIES FOR THEHACKERATI.COM
 
     .modal-dialog {
         margin-top: 5em;
+    }
+
+}
+
+@media only screen and (max-width : 767px) and (orientation : landscape) {
+    .contact-section2 {
+        height: 80em;
     }
 
 }
