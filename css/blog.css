@@ -244,6 +244,7 @@ main {
     -o-border-radius: 5px 0px 0px 0px;
     border-radius: 5px 0px 0px 0px;
     color: #f4f4f4;
+    cursor: pointer;
 }
 
 .terminal-body a:link {
@@ -256,6 +257,7 @@ main {
 
 .terminal-body ul {
     padding-top: 5px;
+    margin-bottom: 22px;
 }
 
 .terminal-body li {
