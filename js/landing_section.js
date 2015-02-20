@@ -1,7 +1,8 @@
 
 // Landing section height
 $(document).ready(function () {
-  if ($(window).height() > 755 && $(window).height() < 1000) {
+  if ( $('.welcome-container').outerHeight() < $(window).height() ) {
     $('.welcome-container').css('height', $(window).height() + 'px');
   }
 });
+
