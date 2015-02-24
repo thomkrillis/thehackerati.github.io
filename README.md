@@ -9,10 +9,14 @@ Development
     git clone https://github.com/thehackerati/thehackerati.github.io.git
     gem install jekyll
     cd thehackerati.github.io 
-    jekyll serve --watch
+    sed -i 's/http:\/\/thehackerati.com//g' _config.yml
+    jekyll serve
 
 Browse the local version of your site here: http://localhost:4000
-Browse the test vesion of the site at http://50.116.61.35/
+
+Make sure to reset the site variable in \_config.yml and run *jekyll build* before adding and committing changes to the site.
+
+To create a test vesion of the site, look at the [wiki](https://github.com/thehackerati/thehackerati.github.io/wiki/The-Hackerati-Website#hosting-a-test-site).
 
 Updating
 --------
