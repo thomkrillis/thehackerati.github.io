@@ -73,7 +73,7 @@ function initialize() {
       <p> 41 Cooper Square</p><p>New York, NY, 10003</p> \
     </a> \
     <br/> \
-    <a href="tel:+19174261066"><p>(917) 426-1066</p></a> \
+    <a href="tel:+16469790150"><p>(646) 979-0150</p></a> \
     <a style="color: #0078D3" href="mailto:info@thehackerati.com"><p>info@thehackerati.com</p></a>';
 
   var infowindow = new google.maps.InfoWindow({

@@ -1,3 +1,5 @@
+---
+---
 /********************************************************************
 DEFAULT CSS FOR THEHACKERATI.COM. For tablet, smartphone, and desktop 
 browsing above 1200px, please see media-queries.css.
@@ -14,11 +16,11 @@ FONTS
 
 @font-face {
     font-family: 'din-mediumregular';
-    src: url('../assets/fonts/DIN-medium/dinm____-webfont.eot');
-    src: url('../assets/fonts/DIN-medium/dinm____-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../assets/fonts/DIN-medium/dinm____-webfont.woff') format('woff'),
-         url('../assets/fonts/DIN-medium/dinm____-webfont.ttf') format('truetype'),
-         url('../assets/fonts/DIN-medium/dinm____-webfont.svg#din-mediumregular') format('svg');
+    src: url('{{ site.url }}/assets/fonts/DIN-medium/dinm____-webfont.eot');
+    src: url('{{ site.url }}/assets/fonts/DIN-medium/dinm____-webfont.eot?#iefix') format('embedded-opentype'),
+         url('{{ site.url }}/assets/fonts/DIN-medium/dinm____-webfont.woff') format('woff'),
+         url('{{ site.url }}/assets/fonts/DIN-medium/dinm____-webfont.ttf') format('truetype'),
+         url('{{ site.url }}/assets/fonts/DIN-medium/dinm____-webfont.svg#din-mediumregular') format('svg');
     font-weight: normal;
     font-style: normal;
 
@@ -26,11 +28,11 @@ FONTS
 
 @font-face {
     font-family: 'din-lightregular';
-    src: url('../assets/fonts/DIN-light/dinl____-webfont.eot');
-    src: url('../assets/fonts/DIN-light/dinl____-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../assets/fonts/DIN-light/dinl____-webfont.woff') format('woff'),
-         url('../assets/fonts/DIN-light/dinl____-webfont.ttf') format('truetype'),
-         url('../assets/fonts/DIN-light/dinl____-webfont.svg#din-lightregular') format('svg');
+    src: url('{{ site.url }}/assets/fonts/DIN-light/dinl____-webfont.eot');
+    src: url('{{ site.url }}/assets/fonts/DIN-light/dinl____-webfont.eot?#iefix') format('embedded-opentype'),
+         url('{{ site.url }}/assets/fonts/DIN-light/dinl____-webfont.woff') format('woff'),
+         url('{{ site.url }}/assets/fonts/DIN-light/dinl____-webfont.ttf') format('truetype'),
+         url('{{ site.url }}/assets/fonts/DIN-light/dinl____-webfont.svg#din-lightregular') format('svg');
     font-weight: normal;
     font-style: normal;
 
@@ -38,11 +40,11 @@ FONTS
 
 @font-face {
     font-family: 'din-regularregular';
-    src: url('../assets/fonts/DIN-regular/dinr____-webfont.eot');
-    src: url('../assets/fonts/DIN-regular/dinr____-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../assets/fonts/DIN-regular/dinr____-webfont.woff') format('woff'),
-         url('../assets/fonts/DIN-regular/dinr____-webfont.ttf') format('truetype'),
-         url('../assets/fonts/DIN-regular/dinr____-webfont.svg#din-regularregular') format('svg');
+    src: url('{{ site.url }}/assets/fonts/DIN-regular/dinr____-webfont.eot');
+    src: url('{{ site.url }}/assets/fonts/DIN-regular/dinr____-webfont.eot?#iefix') format('embedded-opentype'),
+         url('{{ site.url }}/assets/fonts/DIN-regular/dinr____-webfont.woff') format('woff'),
+         url('{{ site.url }}/assets/fonts/DIN-regular/dinr____-webfont.ttf') format('truetype'),
+         url('{{ site.url }}/assets/fonts/DIN-regular/dinr____-webfont.svg#din-regularregular') format('svg');
     font-weight: normal;
     font-style: normal;
 
@@ -95,12 +97,6 @@ h4 {
     color: #f4f4f4;
 }
 
-input {
-    display: inline-block !important;
-    margin-bottom: 0.5em !important;
-    width: 98% !important;
-}
-
 a {
     color: #4CA0D3;
     text-decoration: none;
@@ -132,10 +128,6 @@ a:hover {
 a:focus, 
 button:focus {
     outline: none;
-}
-
-li {
-    list-style: none;
 }
 
 .inline {
@@ -355,7 +347,6 @@ li {
 .splash-container {
     width: 100%;
     height: auto;
-    display: inline-block;
     position:relative;
     padding-top: 3em;
 }
@@ -839,7 +830,6 @@ body > svg {
 
 .clients-content {
     width: 80%;
-    max-width: 1100px;
     margin: 0 auto;
     padding-top: 2em;
 }
@@ -1311,7 +1301,7 @@ ACADEMY PAGE
 .academy-section3 {
     height: 25vw;
     margin-bottom: -0.2em;
-    background-image: url('../assets/img/academy-block.jpg');
+    background-image: url('{{ site.url }}/assets/img/academy-block.jpg');
     background-size: contain;
     background-repeat: no-repeat;
 }
@@ -1344,7 +1334,7 @@ CAREERS PAGE
 /* BLOCK 1  | SPLASH */
 
 .b-page-image.careers {
-    background: url('../assets/img/largecooperstairs.jpg');
+    background: url('{{ site.url }}/assets/img/largecooperstairs.jpg');
     background-size: cover;
     background-attachment: fixed;
 }
@@ -1434,10 +1424,10 @@ CAREERS PAGE
 }
 
 .perks-copy {
-    position: absolute;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
     color: black;
-    top: 0;
-    left: 0;
     width: 100%;
     z-index: 500;
 }
@@ -1451,7 +1441,7 @@ CAREERS PAGE
     width: 100%;
     height: 100%;
     background-color: #2D6296;
-    border-radius: 150px;
+    border-radius: 30px;
     -webkit-transition: opacity .2s linear;
     transition: opacity .2s linear;
     -webkit-box-shadow: 0px 0px 6px 0px rgba(49, 121, 167, 0.51);
@@ -1508,8 +1498,8 @@ CAREERS PAGE
 }
 
 .perks-copy ul {
-    margin-top: 1em;
     text-align: left;
+    list-style-position: inside;
 }
 
 .perks-copy li {
@@ -1837,13 +1827,13 @@ footer p {
 }
 
 .footer-section {
-    padding-top: 5%;
-    padding-bottom: 5%;   
+    padding-top: 3%;
+    padding-bottom: 3%;
 }
 
 .footer-section .content-container {
     padding-top: 0;
-    padding-bottom: 400px;
+    padding-bottom: 140px;
 }
 
 .column.contact {
@@ -2022,6 +2012,10 @@ footer .content-container {
     height: 5em;
 }
 
+#mc_embed_signup form {
+    padding: 0 !important;
+}
+
 .mc-field-group {
     color: #F4F4F4;
 }
@@ -2036,6 +2030,7 @@ footer .content-container {
 
 #mc_embed_signup .button {
     background-color: #4CA0D3 !important;
+    width: 96% !important;
 }
 
 #mc_embed_signup .button:hover {

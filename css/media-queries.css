@@ -72,10 +72,6 @@ CSS MEDIA QUERIES FOR THEHACKERATI.COM
 
     /* SECTION 4 */
 
-    .how-content {
-        width: 980px;
-    }
-
     .how-content .block-left {
         max-width: 645px;
     }
@@ -87,10 +83,6 @@ CSS MEDIA QUERIES FOR THEHACKERATI.COM
     }
 
     /* SECTION 6 */
-
-    #contact-content {
-        width: 980px;
-    }
 
     /*
     ======================================================
@@ -709,7 +701,7 @@ CSS MEDIA QUERIES FOR THEHACKERATI.COM
     .perks-cell {
         float:none;
         width: 100%;
-        height: 23em;
+        height: 21em;
         margin-left: auto;
         margin-right: auto;
     }
@@ -725,7 +717,7 @@ CSS MEDIA QUERIES FOR THEHACKERATI.COM
 
     .perks-cell {
         margin-top: 0em;
-        margin-bottom: 0em;
+        margin-bottom: 2em;
     }
 
     .careers-page .section2 h2 {
@@ -1209,6 +1201,7 @@ CSS MEDIA QUERIES FOR THEHACKERATI.COM
 
     .perks-copy {
         float: none;
+        transform: none;
     }
 
     h2 {
