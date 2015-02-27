@@ -28,12 +28,6 @@ CSS MEDIA QUERIES FOR THEHACKERATI.COM
 
     /* HEADER */
 
-    .nav-links {
-        text-align: right;
-        width: 45%;
-        float: left;
-    }
-
     .nav-links.persistent-nav-links {
         width: 50%;
     }
@@ -77,10 +71,6 @@ CSS MEDIA QUERIES FOR THEHACKERATI.COM
     }
 
     /* SECTION 5 */
-
-    .clients-content {
-        width: 948px;
-    }
 
     /* SECTION 6 */
 
@@ -188,10 +178,6 @@ CSS MEDIA QUERIES FOR THEHACKERATI.COM
     FOOTER
     ======================================================
     */
-
-    footer .content-container {
-        width: 1080px;
-    }
 
     .footer-column3 {
         padding: 0;

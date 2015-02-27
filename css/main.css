@@ -444,9 +444,8 @@ HEADER
 .sb-navbar .content-container {
     width: auto;
     height: 130px;
-    margin-top: 2.5em;
-    padding-top: 0;
-    padding-bottom: 0;
+    margin: 2.5em 10% 0 10%;
+    padding: 0;
 }
 
 .sb-navbar .logo {
@@ -463,7 +462,7 @@ HEADER
 .nav-links {
     text-align: right;
     width: 45%;
-    float: left;
+    float: right;
     -webkit-transition: all 0.4s;
     -moz-transition: all 0.4s;
     -o-transition: all 0.4s;
@@ -1942,7 +1941,7 @@ footer p {
 }
 
 footer .content-container {
-    width: 95%;
+    width: 80%;
 }
 
 .footer-column3 {
@@ -1953,7 +1952,7 @@ footer .content-container {
 }
 
 .footer-column1 {
-    margin-left: 5%;
+    margin-right: 5%;
     width: 25%;
     float: left;
 }
@@ -2005,7 +2004,7 @@ footer .content-container {
 
 .h-watermark {
     text-align: center;
-    margin-right: 15%;
+    margin-right: 0.5em;
 }
 
 .h-watermark img {
@@ -2031,6 +2030,7 @@ footer .content-container {
 #mc_embed_signup .button {
     background-color: #4CA0D3 !important;
     width: 96% !important;
+    margin-top: 16px !important;
 }
 
 #mc_embed_signup .button:hover {
