@@ -5,7 +5,7 @@ $(document).ready(function() {
       var scrollPos = window.pageYOffset;
       var offsetHeight = 65;
 
-      if(window.innerWidth < 768) {
+      if(window.innerWidth < 1025) {
       }
       else if(scrollPos >= offsetHeight){
         document.getElementById('nav-links').style.lineHeight = "55px";
@@ -27,7 +27,7 @@ $(window).on("touchmove", function() {
       var scrollPos = window.pageYOffset;
       var offsetHeight = 65;
 
-      if(window.innerWidth < 768) {
+      if(window.innerWidth < 1025) {
       }
       else if(scrollPos >= offsetHeight){
         document.getElementById('nav-links').style.lineHeight = "55px";
@@ -44,7 +44,7 @@ $(window).on("touchmove", function() {
 })
 
 $(window).on('resize', function() {
-    if(window.innerWidth < 768) {
+    if(window.innerWidth < 1025) {
     }
     else if(scrollPos >= offsetHeight){
       document.getElementById('nav-links').style.lineHeight = "55px";
