@@ -444,8 +444,6 @@ HEADER
 .sb-navbar .content-container {
     width: auto;
     height: 130px;
-    margin: 2.5em 10% 0 10%;
-    padding: 0;
 }
 
 .sb-navbar .logo {
