@@ -413,6 +413,13 @@ img.splash{
     margin-right: 0.5em;
 }
 
+.anchor {
+    display: block;
+    position: relative;
+    top: -65px;
+    visibility: hidden
+}
+
 .clearfix:after {
     content: ".";
     display: block;
