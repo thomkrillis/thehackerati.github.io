@@ -188,18 +188,14 @@ button:focus {
 }
 
 .section1-content-container {
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 8.5%;
     position: relative;
-    padding: 2%;
     font-size: 18px;
     background: rgba(0, 0, 0, .4);
     color: #f4f4f4;
 }
 
 .content-container.section1-content-container {
-    padding: 0 1%;
+    display: inline-block;
 }
 
 .section p {
@@ -245,8 +241,6 @@ button:focus {
     width: 67%;
     height: 100%;
     max-width: 1200px;
-    margin-left: auto;
-    margin-right: auto;
     -webkit-transition: all 0.4s;
     -moz-transition: all 0.4s;
     -o-transition: all 0.4s;
@@ -256,12 +250,9 @@ button:focus {
     -moz-border-radius: 8px;
     border-radius: 8px;
     position:relative;
-    padding-top: 6em;
-    padding-bottom: 3%;
 }
 
 .text-section {
-    margin-top: 3.5%;
     padding: 2.2% 0;
 }
 
@@ -1272,7 +1263,8 @@ ACADEMY PAGE
 }
 
 .academy-page .section.section1.splash-container.academy-section1 {
-    padding: 11% 0;
+    text-align: center;
+    padding: 196px 0 98px 0;
 }
 
 .academy-page .academy-section1 .section1-content-container {
@@ -1288,10 +1280,6 @@ ACADEMY PAGE
 }
 
 /* BLOCK 2  | AUDIENCE */
-
-.academy-section2 {
-    margin-top: -2.3em;
-}
 
 /* BLOCK 3  | SECOND SPLASH */
 
@@ -1410,6 +1398,8 @@ CAREERS PAGE
 
 .perks-content-container {
     text-align: center;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .perks-cell {

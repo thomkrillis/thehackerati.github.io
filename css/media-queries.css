@@ -756,6 +756,7 @@ CSS MEDIA QUERIES FOR THEHACKERATI.COM
 
     .footer-column1 {
         width: 32%;
+        margin-right: 0;
     }
 
     .footer-column1 .fa-phone {
@@ -771,11 +772,11 @@ CSS MEDIA QUERIES FOR THEHACKERATI.COM
     }
 
     .footer-column2 {
-        width: 30%;
+        width: 38%;
     }
 
     .footer-share {
-        width: 60%;
+        width: 56%;
         margin-bottom: 3em;
     }
 
@@ -1188,6 +1189,9 @@ CSS MEDIA QUERIES FOR THEHACKERATI.COM
     .perks-copy {
         float: none;
         transform: none;
+        width: 294px;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     h2 {
