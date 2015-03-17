@@ -13,8 +13,8 @@ ABOUT PAGE
 
     <!--* SPLASH | SECTION 1 *-->
 
-    <div class="section section1 splash-container" id="top-section">
-        <div class="content-container section1-content-container">
+    <div class="section section1 splash-container about-section1" id="top-section">
+        <div class="content-container section1-content-container" id="splash-text">
             <img src="{{ site.url }}/assets/img/header-image-about.jpg" class="splash" alt="Splash, About, The Hackerati, New York" />
 
             <div class="def-hackerati">
@@ -347,6 +347,18 @@ ABOUT PAGE
     </div><!--/section2-anchor-link who-container--> 
 
 </div>
+
+<script>
+$( window ).bind("load resize",function() {
+    if( window.innerWidth > 767 ) {
+        var splash = document.getElementById('splash-text');
+        var marg = ( ($( window ).width() * 338 / 1018) - 300 ) / 2;
+        var marg = '' + marg;
+        splash.style.marginTop = marg + 'px';
+        splash.style.marginBottom = marg + 'px';
+    }
+});
+</script>
 
 <script>
 $(".hackeratus").on({

@@ -28,7 +28,15 @@ CSS MEDIA QUERIES FOR THEHACKERATI.COM
 
     /* HEADER */
 
+    .nav-links {
+        width: 45%
+    }
+
     .nav-links.persistent-nav-links {
+        width: 50%;
+    }
+
+    .logo {
         width: 50%;
     }
 
@@ -219,7 +227,6 @@ CSS MEDIA QUERIES FOR THEHACKERATI.COM
 
     .content-container {
         width: 75%;
-        padding-top: 10%;
     }
 
     .block-mobile {
@@ -265,10 +272,6 @@ CSS MEDIA QUERIES FOR THEHACKERATI.COM
 
     .welcome-image img {
 
-    }
-
-    .logo {
-        width: auto;
     }
 
     .welcome-container .logo {
@@ -724,14 +727,6 @@ CSS MEDIA QUERIES FOR THEHACKERATI.COM
     ======================================================
     */
 
-    .academy-page .section.section1.splash-container.academy-section1 {
-        padding: 8em 0;
-    }
-
-    .academy-section3 {
-        padding-top: 1em;
-    }
-
     /*
     ======================================================
     FOOTER PAGE
@@ -904,7 +899,7 @@ CSS MEDIA QUERIES FOR THEHACKERATI.COM
         background: none;
     }
 
-    .about-page.section.section1.splash-container {
+    .about-page .section.section1.splash-container {
         display: block;
         background: #DDDDDD;
         min-height: 0px;
@@ -1385,6 +1380,7 @@ CSS MEDIA QUERIES FOR THEHACKERATI.COM
 
     .academy-page .section1-content-container {
         font-size: 0.7em;
+        transform: translateY(0);
     }
 
     /*
@@ -1395,10 +1391,11 @@ CSS MEDIA QUERIES FOR THEHACKERATI.COM
 
     .contact-page .section.section1.splash-container {
         height: 44px;
+        padding: 0;
     }
 
     .contact-section2 {
-        height: 68em;
+        height: 76em;
     }
 
     .contact-form-h2 {
