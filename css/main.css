@@ -102,12 +102,12 @@ input {
 }
 
 a {
-    color: -webkit-link;
+    color: #4CA0D3;
     text-decoration: none;
 }
 
 a:hover {
-    color: #000;
+    color: #F4F4F4;
 }
 
 a, 
@@ -2023,7 +2023,7 @@ footer .content-container {
 }
 
 .mc-field-group {
-    color: white;
+    color: #F4F4F4;
 }
 
 .mc-field-group input {
@@ -2041,6 +2041,10 @@ footer .content-container {
 #mc_embed_signup .button:hover {
     background-color: #3895CE !important;
     text-decoration: underline;
+}
+
+#mce-responses {
+    color: #F4F4F4;
 }
 /*
 ====================================================== 
