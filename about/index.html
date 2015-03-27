@@ -353,9 +353,9 @@ $( window ).bind("load resize",function() {
     if( window.innerWidth > 767 ) {
         var splash = document.getElementById('splash-text');
         var marg = ( ($( window ).width() * 338 / 1018) - 300 ) / 2;
-        var marg = '' + marg;
-        splash.style.marginTop = marg + 'px';
-        splash.style.marginBottom = marg + 'px';
+        marg = marg > 10 ? marg : 10;
+        splash.style.marginTop = marg.toString() + 'px';
+        splash.style.marginBottom = marg.toString() + 'px';
     }
 });
 </script>
