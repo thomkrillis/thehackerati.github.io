@@ -771,7 +771,7 @@ CSS MEDIA QUERIES FOR THEHACKERATI.COM
     }
 
     .footer-share {
-        width: 56%;
+        width: 52%;
         margin-bottom: 3em;
     }
 
@@ -826,6 +826,10 @@ CSS MEDIA QUERIES FOR THEHACKERATI.COM
 
     .google-maps-container {
         margin: 0;
+    }
+
+    .footer-share {
+        width: 56%;
     }
 }
 
