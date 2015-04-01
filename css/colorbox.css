@@ -1,3 +1,5 @@
+---
+---
 /*
     Colorbox Core Style:
     The following CSS is consistent between example themes and should not be altered.
@@ -32,16 +34,16 @@
         #cboxCurrent{position:absolute; bottom:-25px; left:58px; font-weight:bold; color:#7C7C7C; visibility: hidden;}
 
         /* these elements are buttons, and may need to have additional styles reset to avoid unwanted base styles */
-        #cboxPrevious, #cboxNext, #cboxSlideshow, #cboxClose {border:0; padding:0; margin:0; overflow:visible;  position:absolute; bottom:-29px; background:url(../assets/colorbox-images/controls.png) no-repeat 0px 0px; width:23px; height:23px; text-indent:-9999px;}
+        #cboxPrevious, #cboxNext, #cboxSlideshow, #cboxClose {border:0; padding:0; margin:0; overflow:visible;  position:absolute; bottom:-29px; width:23px; height:23px; text-indent:-9999px;}
         
         /* avoid outlines on :active (mouseclick), but preserve outlines on :focus (tabbed navigating) */
         #cboxPrevious:active, #cboxNext:active, #cboxSlideshow:active, #cboxClose:active {outline:0;}
 
-        #cboxPrevious{left:10px; background:url(../assets/img/controls.png) no-repeat -126.301px 0px; top: 50%; width: 26.087px; height:56.363px; margin-top: -28px;}
+        #cboxPrevious{left:10px; background:url({{ site.url }}/assets/img/controls.png) no-repeat -126.301px 0px; top: 50%; width: 26.087px; height:56.363px; margin-top: -28px;}
         #cboxPrevious:hover{background-position:-87.208px 0px; width: 26.087px; height:56.363px;}
-        #cboxNext{right: 10px; top: 50%; background:url(../assets/img/controls.png) no-repeat -4.006px 0px; width: 26.087px; height:56.363px; margin-top: -28px;}
+        #cboxNext{right: 10px; top: 50%; background:url({{ site.url }}/assets/img/controls.png) no-repeat -4.006px 0px; width: 26.087px; height:56.363px; margin-top: -28px;}
         #cboxNext:hover{background-position:-43.091px 0px; width: 26.087px; height:56.363px;}
-        #cboxClose{right:20px; top: 20px; background:url(../assets/img/close.png) no-repeat 1px 0px;}
+        #cboxClose{right:20px; top: 20px; background:url({{ site.url }}/assets/img/close.png) no-repeat 1px 0px;}
         #cboxClose:hover{background-position:-33.8px 0px;}
 
         .cboxSlideshow_on #cboxSlideshow{background-position:-125px 0px; right:27px;}

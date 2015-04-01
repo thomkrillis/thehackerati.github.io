@@ -340,8 +340,8 @@ img.sb-logo-img {
 
 .sb-navbar .content-container {
     height: 100%;
-    padding-left:3.75%;
-    padding-right:3.75%;
+    margin: 2.5em 10% 0 10%;
+    padding: 0;
 }
 
 /* -------------------
@@ -353,7 +353,8 @@ img.sb-logo-img {
 
 @media only screen and (max-width : 1024px) {
 
-.sb-navbar .content-container {
+    .sb-navbar .content-container {
+        margin: 0;
         padding: 0 2%;
     }
 
