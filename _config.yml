@@ -3,7 +3,7 @@ lsi: false
 pygments: true
 name: The Hackerati
 description: website for The Hackerati
-url: http://thehackerati.com
+url: http://www.thehackerati.com
 paginate: 5
 paginate_path: "blog/page:num"
 
