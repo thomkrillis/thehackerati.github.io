@@ -240,7 +240,6 @@ button:focus {
 .content-container {
     width: 67%;
     height: 100%;
-    max-width: 1200px;
     -webkit-transition: all 0.4s;
     -moz-transition: all 0.4s;
     -o-transition: all 0.4s;
@@ -402,7 +401,7 @@ img.splash{
 }
 
 .clearfix:after {
-    content: ".";
+    content: " ";
     display: block;
     height: 0;
     clear: both;
@@ -1262,7 +1261,7 @@ ACADEMY PAGE
 }
 
 .academy-page .section.section1.splash-container.academy-section1 {
-    padding: 196px 0 98px 0;
+    padding: 17vw 0 10vw 0;
 }
 
 .academy-page .academy-section1 .section1-content-container {
@@ -1319,10 +1318,10 @@ CAREERS PAGE
 
 /* BLOCK 1  | SPLASH */
 
-.b-page-image.careers {
-    background: url('{{ site.url }}/assets/img/largecooperstairs.jpg');
-    background-size: cover;
-    background-attachment: fixed;
+.careers-page img.splash {
+    min-height: 100%;
+    min-width: 100%;
+    width: auto;
 }
 
 .testimonial-copy {
@@ -1562,7 +1561,7 @@ CONTACT PAGE
 .contact-section2 {
     margin-top: 0;
     background: #DDDDDD;
-    height: 50em;
+    width: 100%;
     padding: 1%;
 }
 
@@ -1609,6 +1608,7 @@ CONTACT PAGE
 
 .google-maps-container {
     display: block;
+    height: 30em;
 }
 
 .google-maps-container-mobile {
@@ -1943,8 +1943,7 @@ footer .content-container {
 }
 
 .footer-column1 {
-    margin-right: 5%;
-    width: 25%;
+    width: 30%;
     float: left;
 }
 
@@ -1995,11 +1994,11 @@ footer .content-container {
 
 .h-watermark {
     text-align: center;
-    margin-right: 0.5em;
+    width: 245px;
 }
 
 .h-watermark img {
-    height: 5em;
+    height: 8em;
 }
 
 #mc_embed_signup form {

@@ -762,8 +762,8 @@ CSS MEDIA QUERIES FOR THEHACKERATI.COM
         display: none;
     }
 
-    .h-watermark img {
-        height: 8em;
+    .h-watermark {
+        width: 120px;
     }
 
     .footer-column2 {
@@ -796,10 +796,6 @@ CSS MEDIA QUERIES FOR THEHACKERATI.COM
 
     .academy-section3 {
         padding-top: 0;
-    }
-
-    .contact-section2 {
-        height: 85em;
     }
 
     .contact-container-section2 {
@@ -1398,10 +1394,6 @@ CSS MEDIA QUERIES FOR THEHACKERATI.COM
         padding: 0;
     }
 
-    .contact-section2 {
-        height: 76em;
-    }
-
     .contact-form-h2 {
         width: 100%;
     }
@@ -1472,7 +1464,7 @@ CSS MEDIA QUERIES FOR THEHACKERATI.COM
     }
 
     footer .first-sprite {
-        margin-left: 2em;
+        margin-left: 3em;
     }
 
     .footer-madeny {
@@ -1486,6 +1478,7 @@ CSS MEDIA QUERIES FOR THEHACKERATI.COM
 
     .h-watermark {
         margin-left: 0;
+        width: 100%;
     }
 
     /*
@@ -1496,13 +1489,6 @@ CSS MEDIA QUERIES FOR THEHACKERATI.COM
 
     .modal-dialog {
         margin-top: 5em;
-    }
-
-}
-
-@media only screen and (max-width : 767px) and (orientation : landscape) {
-    .contact-section2 {
-        height: 80em;
     }
 
 }
