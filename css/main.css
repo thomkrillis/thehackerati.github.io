@@ -559,6 +559,13 @@ HOME PAGE
     font: bold 2.4em/130% Lato, sans-serif;
     text-align: left;
     color: #ec6314;
+    margin-bottom: 0;
+}
+
+.welcome-copy-fourth {
+    font: 1.7em/130% Lato, sans-serif;
+    text-align: left;
+    color: #2D6BA6;
 }
 
 .welcome-copy-third sup {
