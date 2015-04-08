@@ -1035,6 +1035,7 @@ ABOUT PAGE
     -o-transition: all 0.2s ease;
     -ms-transition: all 0.2s ease;
     font: 1.15em/150% 'din-regularregular';
+    text-align: center;
 }
 
 .column-2{
