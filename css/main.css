@@ -440,6 +440,14 @@ HEADER
     float: left;
 }
 
+#sb-nav-home .logo {
+    width: 45%;
+}
+
+#sb-nav-home .logo img {
+    max-width: 100%;
+}
+
 .content-container nav {
     font: 2em/100% 'inconsolatamedium';
     color: #f4f4f4;
@@ -455,6 +463,10 @@ HEADER
     -o-transition: all 0.4s;
     -ms-transition: all 0.4s;
     transition: all 0.4s;
+}
+
+#sb-nav-home .nav-links {
+    width: 54%;
 }
 
 .content-container .nav-links a:link {
