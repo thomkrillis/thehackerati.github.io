@@ -28,8 +28,8 @@ We hope you'll join us at our upcoming events!<br>
 -----------------
 
 Here are a few highlights from past events:<br><br>
-[John Pavley](http://www.meetup.com/Startup-Office-Hours-NYC/events/219878876/)<br>
-We met at a gorgeous Viacom event space, where John Pavley shared his experience from working with Apple, DoubleClick, Yahoo!, LimeWire, Spotify, Huffington Post, and currently Viacom as SVP Engineering. Pavley is also an Adjunct Instructor at NYU. Check out his brilliant talk on [Taboo-Driven Innovation](http://jpavley.github.io/).<br>
+[John Pavley](http://www.meetup.com/Startup-Office-Hours-NYC/events/219878876/) [currently SVP of Engineering at Viacom]<br>
+We met at a gorgeous Viacom event space, where John Pavley shared his experience from working with Apple, DoubleClick, Yahoo!, LimeWire, Spotify, Huffington Post, and Viacom. Pavley is also an Adjunct Instructor at NYU. Check out his brilliant talk on [Taboo-Driven Innovation](http://jpavley.github.io/).<br>
 ![John Pavley](/blog/assets/img/soh/jp.png)
 
 
