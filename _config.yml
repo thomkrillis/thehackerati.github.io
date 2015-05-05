@@ -1,6 +1,6 @@
 isafe: false
 lsi: false
-pygments: true
+highlighter: pygments
 name: The Hackerati
 description: website for The Hackerati
 url: http://www.thehackerati.com
